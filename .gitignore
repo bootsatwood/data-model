@@ -1,0 +1,17 @@
+# Obsidian config
+.obsidian/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# No binary data files in this repo
+*.xlsx
+*.pptx
+*.pdf
+*.docx
