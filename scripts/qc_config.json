@@ -28,24 +28,24 @@
     ]
   },
   "expected": {
-    "total_facilities": 26271,
-    "snf_count": 15244,
-    "alf_count": 11027,
+    "total_facilities": 26268,
+    "snf_count": 15243,
+    "alf_count": 11025,
     "corporate_count": 16214,
-    "independent_count": 10057,
-    "served_count": 1663,
+    "independent_count": 10054,
+    "served_count": 1660,
     "barrier_count": 882,
-    "integrated_count": 561,
+    "integrated_count": 560,
     "pcp_only_count": 233,
-    "mh_only_count": 869,
+    "mh_only_count": 867,
     "states_count": 53,
     "geo_tiers": {
       "A_Metro": 4630,
       "B_Highway": 2547,
-      "C_Rural": 19094
+      "C_Rural": 19091
     },
     "contract_status": {
-      "Green": 26220,
+      "Green": 26217,
       "Yellow": 38,
       "Red": 13
     },

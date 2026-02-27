@@ -14,12 +14,12 @@ The Combined Database is the master facility-level dataset for Eventus WholeHeal
 
 | Metric | Count | % |
 |--------|-------|---|
-| **Total Facilities** | 26,271 | 100% |
-| SNF Facilities | 15,244 | 58.0% |
-| ALF Facilities | 11,027 | 42.0% |
-| Corporate Facilities | 16,214 | 61.7% |
-| Independent Facilities | 10,057 | 38.3% |
-| Facilities We Serve | 1,663 | 6.3% |
+| **Total Facilities** | 26,268 | 100% |
+| SNF Facilities | 15,243 | 58.0% |
+| ALF Facilities | 11,025 | 42.0% |
+| Corporate Facilities | 16,214 | 61.8% |
+| Independent Facilities | 10,054 | 38.2% |
+| Facilities We Serve | 1,660 | 6.3% |
 | Facilities with Barriers | 882 | 3.4% |
 
 **V21 change:** +5,328 ALF records integrated from NIC Maps across 8 expansion states (MI, IL, WI, MN, FL, MD, GA, MO). Corporate name standardization resolved 218 variant spellings, reclassifying 179 facilities from Independent to Corporate. See `changelogs/V20_to_V21_ALF_Enhancement.md` for full methodology.
@@ -55,7 +55,7 @@ The Combined Database is the master facility-level dataset for Eventus WholeHeal
 
 | Version | Date | Total | Key Changes |
 |---------|------|-------|-------------|
-| **V21.1** | Feb 2026 | **26,271** | Corporate name standardization, 179 ownership reclassifications. Cleared 9 stale DUPLICATE-DEACTIVATED barriers. Corrected 11 service flag violations (mutual exclusivity). |
+| **V21.1** | Feb 2026 | **26,268** | Corporate name standardization, 179 ownership reclassifications. Cleared 9 stale DUPLICATE-DEACTIVATED barriers. Corrected 11 service flag violations. Removed 3 acquired Carrington Place records (→ Hill Valley Healthcare). |
 | V21.0 | Feb 2026 | 26,271 | +5,328 ALF from NIC Maps (8 expansion states), campus sister facility rule, interim geo tiers |
 | V20.0 | Dec 2025 | 20,943 | Cardon barriers + corporate standardization |
 | V19.2 | Dec 2025 | 20,943 | Duplicate resolution + data quality fixes |
@@ -127,8 +127,8 @@ See `current/QC_Framework.md` for full documentation. Config and expected values
 - **75 campus sister facilities:** Should be individually reviewed to confirm genuine campus relationships.
 - **PA 3 unmatched candidates:** Three NIC Maps PA facilities had no V20 match. Investigate for future increment.
 - **Pre-existing V20 data quality:** 2,230 null ZIPs and 7 null bed counts not addressed in V21.
-- **Wytheville VA duplicate (row 16216):** `CARRINGTON WYTHEVILLE-SNF/NF` at 990 Holston Rd was not deactivated during the Dec 2025 dedup exercise but overlaps with replacement rows 20943/20944 (Holston Health and Rehab / Holston Senior Living, Hill Valley Healthcare). Source_Type says ALF but name says SNF/NF. Needs outlier review.
-- **DUPLICATE-DEACTIVATED cleanup (Feb 2026):** 9 barrier markers cleared — row references were broken by V21 ALF expansion row shifts. No sibling facilities under the same corporate banners (Five Star Residences, Ayden Healthcare, Lionstone Care) had real barriers.
+- **Holston (Wytheville VA) missing Total_Beds:** Replacement rows for Carrington Place acquisition are missing bed counts. Reconcile when Facility Profile export is available. See `reference/Facility_Acquisitions_Log.md`.
+- **Facility acquisitions pattern:** When facilities change hands, old records should be deleted (not set to Do_We_Serve=No) to avoid false sales opportunities. Lineage preserved in `reference/Facility_Acquisitions_Log.md`.
 - **Revenue recomputation:** Scenario models (S1/S2/S3) need regeneration to reflect expanded V21 facility base.
 
 ## Related Files
