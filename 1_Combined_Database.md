@@ -94,7 +94,7 @@ The Eventus Economic Model was built as a **predictive opportunity model** with 
 ### How the Database Was Originally Built
 
 **SNF stream (Phase 1, Nov 2025):**
-Raw source was `SNF Database with Revenue Q4 2025_V2.xlsx` with 6 state tabs (IN, KY, NC, OH, SC, VA). The cleanse process removed non-operational columns, added `Macro Type` (now `Source_Type`) as Column A, harmonized service flags using a broadened detection rule ("any column with 'serve'" triggers `Do_We_Serve`), and mapped barrier fields per state (SC/VA/KY/OH: Column AA; IN: Column U; NC: Column AA). PCP, MH, and Integrated flags were restored and validated from the original state tabs.
+Raw source was `SNF Database with Revenue Q4 2025_V2.xlsx` (shared by Brooke Ritchie, Oct 31, 2025) with 6 state tabs (IN, KY, NC, OH, SC, VA). The upstream data originates from the **CMS Provider Data Nursing Facility database** ([dataset 4pq5-n9py](https://data.cms.gov/provider-data/dataset/4pq5-n9py)), which Brooke's team curated with Eventus-specific revenue overlays. The cleanse process removed non-operational columns, added `Macro Type` (now `Source_Type`) as Column A, harmonized service flags using a broadened detection rule ("any column with 'serve'" triggers `Do_We_Serve`), and mapped barrier fields per state (SC/VA/KY/OH: Column AA; IN: Column U; NC: Column AA). PCP, MH, and Integrated flags were restored and validated from the original state tabs.
 
 **ALF stream (Phase 2, Nov 2025):**
 ALF files from NC, KY, OH, IN were standardized to a unified naming convention: `DBA Name` → `Provider Name`, `Name of Licensee` → `Legal Business Name`, corporate groupings → `Chain Name`. Deduplication reduced 1,253 raw ALF records to 655 valid rows after removing 598 duplicates (exact + fuzzy match against the SNF file, followed by manual review). Default bed count of 35 was applied where bed counts were missing.
@@ -106,6 +106,8 @@ SNF and ALF streams merged into a single database. The `Chain Name blank = Indep
 > - `SNF Cleanse.docx` — step-by-step cleansing methodology and file lineage
 > - `Eventus_Model_Comparison_TheirModel_vs_Ours.docx` — 7-dimension structural comparison vs legacy NCA
 > - `Eventus_Corporate_Initiative_Technical_Brief_Nov2025.docx` — schema layers, computation pseudo-code, phase structure
+>
+> Full source lineage (all SNF and ALF upstream sources with URLs): `reference/Source_Data_Lineage.md`
 
 ## Known Issues / Open Items
 

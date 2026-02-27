@@ -5,6 +5,8 @@
 > [!note] Lineage
 > "Source extract" refers to `SNF Database with Revenue Q4 2025.csv`, the original SNF facility file shared by Brooke Ritchie on October 31, 2025. It contained 14,752 facilities across 51 state tabs with 105+ columns including pre-computed revenue fields. This document compares that raw extract's structure against the Eventus Economic Model built on top of it.
 >
+> **Confirmed upstream source (Feb 27, 2026):** CMS Provider Data Nursing Facility database, dataset `4pq5-n9py` — https://data.cms.gov/provider-data/dataset/4pq5-n9py. Brooke's team curated this CMS data with Eventus-specific revenue overlays. See `reference/Source_Data_Lineage.md` for full source mapping.
+>
 > Original filename: `Eventus_Model_Comparison_TheirModel_vs_Ours.docx`
 
 ---
