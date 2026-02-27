@@ -84,6 +84,17 @@ The script itself should not need changes between versions.
 | `scripts/qc_config.json` | File paths + expected values (edit per version) |
 | `scripts/.snapshots/` | Local snapshot/diff JSON files (gitignored) |
 
+## Handling Facility Acquisitions
+
+When a facility changes hands (acquisition, rebrand), the old record should be **deleted** from the database — not set to `Do_We_Serve=No`, which would make it appear as a sales opportunity. Before deleting:
+
+1. Record the old facility details in `reference/Facility_Acquisitions_Log.md`
+2. Verify the replacement record exists with the new corporate owner
+3. Delete the old row(s)
+4. Run `compare` to confirm only the intended rows were removed
+5. Update `qc_config.json` expected counts
+6. Run `validate` to confirm clean
+
 ## Known Limitations
 
 - **82 duplicate composite keys** exist in V21.1 (same Source_Type + Facility_Name + Address + City + State + ZIP). These are campus sister facilities. The fingerprinting collapses them — changes to one of a pair may not be individually tracked. A future enhancement could add row number or a unique ID to the key.

@@ -32,6 +32,16 @@ Run from repo root: `python scripts/qc_validator.py [snapshot|compare|validate]`
 
 See `current/QC_Framework.md` for full documentation.
 
+## Reference Documents
+
+| File | Purpose |
+|------|---------|
+| reference/Source_Data_Lineage.md | Upstream data sources (CMS, NIC Maps, state licensing) with URLs |
+| reference/Facility_Acquisitions_Log.md | Lineage for deleted facilities (acquisitions, rebrands) |
+| reference/Proposal_Metro_Definition_Enhancement.md | Deferred CBSA-based metro classification |
+| reference/Proposal_CMS_Source_Data_Cross_Reference.md | Deferred CMS cross-reference proposal |
+| reference/Proposal_Multi_Service_Facility_Classification.md | Deferred multi-service classification review |
+
 ## Related
 
 - **Vault** (OneDrive): Excel databases, economic models, report workbooks
