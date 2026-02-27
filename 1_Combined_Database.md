@@ -31,8 +31,8 @@ The Combined Database is the master facility-level dataset for Eventus WholeHeal
 | `Ownership_Type` | Corporate vs Independent (Four-Rule Count-Based Hierarchy) |
 | `Source_Type` | SNF or ALF (all AL, MC, and AL+MC facilities classified as ALF) |
 | `Do_We_Serve` | Yes/No — currently served facility |
-| `Integrated_Flag` | Yes/No — receives both PCP and MH |
-| `PCP_Flag` / `MH_Flag` | Individual service flags |
+| `Integrated_Flag` | Yes/No — receives both PCP and MH (mutually exclusive with PCP/MH flags) |
+| `PCP_Flag` / `MH_Flag` | Individual service flags (mutually exclusive — a facility is PCP, MH, or Integrated, never two) |
 | `Barrier` | Operational barriers blocking revenue |
 | `Geographic_Tier` | A_Metro / B_Highway / C_Rural |
 | `Original_Geographic_Tier` | Preserves interim classification for expansion states (tagged "(Interim)") |

@@ -46,8 +46,8 @@ Checks the database against known-good expected values from `qc_config.json`:
 - **Counts** — totals match expected for every dimension
 - **Rules** — business logic consistency:
   - `INDEPENDENT` corporate name → `Ownership_Type` must be `Independent`
-  - `Do_We_Serve=Yes` → at least one of `PCP_Flag` or `MH_Flag` must be `Yes`
-  - `Integrated_Flag=Yes` ↔ both `PCP_Flag=Yes` AND `MH_Flag=Yes`
+  - Service flags are **mutually exclusive**: a facility has at most one of `PCP_Flag`, `MH_Flag`, or `Integrated_Flag` set to `Yes` (Integrated means both services but is tracked as its own flag — PCP and MH stay `No`)
+  - `Do_We_Serve=Yes` → exactly one of `PCP_Flag`, `MH_Flag`, or `Integrated_Flag` must be `Yes`
   - No `DUPLICATE-DEACTIVATED` barrier markers (flagged as WARN)
 - **Cross-file** — database row count vs scenario row count
 

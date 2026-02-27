@@ -789,34 +789,31 @@ def cmd_validate(cfg):
     else:
         record("fail", "rules", f"INDEPENDENT ownership violations at rows: {indep_violations[:10]}")
 
-    # Rule: Do_We_Serve=Yes → at least one of PCP or MH = Yes
+    # Rule: Service flags are mutually exclusive — at most one of PCP, MH, Integrated is Yes
+    exclusivity_violations = []
+    for row in rows:
+        flags_yes = sum(1 for f in ("PCP_Flag", "MH_Flag", "Integrated_Flag")
+                        if _safe(row.get(f, "")) == "Yes")
+        if flags_yes > 1:
+            exclusivity_violations.append(row["_excel_row"])
+    if not exclusivity_violations:
+        record("pass", "rules", "Service flag mutual exclusivity: no rows have more than one flag set")
+    else:
+        record("fail", "rules", f"Multiple service flags set at rows: {exclusivity_violations[:10]}")
+
+    # Rule: Do_We_Serve=Yes → exactly one of PCP, MH, or Integrated must be Yes
     serve_violations = []
     for row in rows:
         if _safe(row.get("Do_We_Serve", "")) == "Yes":
-            pcp = _safe(row.get("PCP_Flag", ""))
-            mh = _safe(row.get("MH_Flag", ""))
-            if pcp != "Yes" and mh != "Yes":
+            flags_yes = sum(1 for f in ("PCP_Flag", "MH_Flag", "Integrated_Flag")
+                            if _safe(row.get(f, "")) == "Yes")
+            if flags_yes != 1:
                 serve_violations.append(row["_excel_row"])
     served_total = dims["totals"]["served_count"]
     if not serve_violations:
-        record("pass", "rules", f"Service flag consistency: {served_total:,} served, all have PCP or MH")
+        record("pass", "rules", f"Served flag coverage: {served_total:,} served, each has exactly one service flag")
     else:
-        record("fail", "rules", f"Served but no PCP/MH flag at rows: {serve_violations[:10]}")
-
-    # Rule: Integrated_Flag=Yes ↔ both PCP=Yes AND MH=Yes
-    integ_violations = []
-    for row in rows:
-        integ = _safe(row.get("Integrated_Flag", ""))
-        pcp = _safe(row.get("PCP_Flag", ""))
-        mh = _safe(row.get("MH_Flag", ""))
-        if integ == "Yes" and (pcp != "Yes" or mh != "Yes"):
-            integ_violations.append(("has_flag_missing_service", row["_excel_row"]))
-        elif integ != "Yes" and pcp == "Yes" and mh == "Yes":
-            integ_violations.append(("missing_flag_has_services", row["_excel_row"]))
-    if not integ_violations:
-        record("pass", "rules", f"Integrated flag consistency: {dims['totals']['integrated_count']:,} checked, 0 violations")
-    else:
-        record("fail", "rules", f"Integrated flag violations ({len(integ_violations)}): first 10 = {integ_violations[:10]}")
+        record("fail", "rules", f"Served but not exactly one service flag at rows: {serve_violations[:10]}")
 
     # --- Cross-file checks ---
     print()
