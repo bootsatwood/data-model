@@ -109,6 +109,17 @@ SNF and ALF streams merged into a single database. The `Chain Name blank = Indep
 >
 > Full source lineage (all SNF and ALF upstream sources with URLs): `reference/Source_Data_Lineage.md`
 
+## Pre-Release QC
+
+Before releasing any version change, run the QC validator from the repo root:
+
+1. `python scripts/qc_validator.py snapshot` — baseline before editing
+2. Make your changes in Excel
+3. `python scripts/qc_validator.py compare` — verify only intended rows changed
+4. `python scripts/qc_validator.py validate` — confirm all counts and rules pass
+
+See `current/QC_Framework.md` for full documentation. Config and expected values are in `scripts/qc_config.json`.
+
 ## Known Issues / Open Items
 
 - **Facility count discrepancy:** Database vs CRM (~1,200) — campus co-location counting methodology, not an error. See `current/Facility_Count_Discrepancy_Explanation.md`

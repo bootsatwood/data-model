@@ -21,6 +21,17 @@ archive/         Full version history (V02-V19.1) + foundation docs
 | 6.4_Corporate_Tiering_Methodology_Ops_View_V21_2.md | V21.2 | Operations tiering methodology |
 | Facility_Count_Discrepancy_Explanation.md | — | Why Database (1,658) != CRM (~1,200) |
 
+## Scripts
+
+| File | Purpose |
+|------|---------|
+| scripts/qc_validator.py | QC tool — snapshot, compare, validate modes |
+| scripts/qc_config.json | File paths + expected values (update per version) |
+
+Run from repo root: `python scripts/qc_validator.py [snapshot|compare|validate]`
+
+See `current/QC_Framework.md` for full documentation.
+
 ## Related
 
 - **Vault** (OneDrive): Excel databases, economic models, report workbooks

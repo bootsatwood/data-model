@@ -1,0 +1,54 @@
+{
+  "version": "V21.1",
+  "vault_data_model": "new_02_Data_Model/Current",
+  "files": {
+    "database": "1_Combined_Database_FINAL_V21_1.xlsx",
+    "scenario_1": "3_Economic_Model_Scenario_1_Combined_V20_0.xlsx",
+    "scenario_2": "4_Economic_Model_Scenario_2_Combined_V20_0.xlsx",
+    "scenario_3": "5_Economic_Model_Scenario_3_Combined_V20_0.xlsx",
+    "fee_schedule": "2_Fee_Schedule_Reference_V20_1.xlsx",
+    "report_a": "Report_A_Comprehensive_Report_Workbook_V20_0.xlsx",
+    "report_b": "Report_B_Metro_Market_Analysis_V20.xlsx",
+    "report_c": "Report_C_Corporate_Scoring_V20.xlsx"
+  },
+  "database_columns": {
+    "key_fields": ["Source_Type", "Facility_Name", "Address", "City", "State", "ZIP"],
+    "check_fields": [
+      "Corporate_Name", "Ownership_Type", "Do_We_Serve", "Integrated_Flag",
+      "PCP_Flag", "MH_Flag", "Barrier", "Contract_Status", "Geographic_Tier",
+      "Metro_Assignment", "Total_Beds", "Census"
+    ],
+    "expected_columns": [
+      "Source_Type", "Facility_Name", "Corporate_Name", "Address", "City",
+      "State", "ZIP", "County", "Ownership_Type", "Total_Beds", "Census",
+      "Do_We_Serve", "Integrated_Flag", "PCP_Flag", "MH_Flag", "Barrier",
+      "Latitude", "Longitude", "Data_Quality_Flag", "Contract_Status",
+      "Geographic_Tier", "Original_Geographic_Tier", "Metro_Assignment",
+      "Distance_to_Metro_Center", "Metro_Center_Used"
+    ]
+  },
+  "expected": {
+    "total_facilities": 26271,
+    "snf_count": 15244,
+    "alf_count": 11027,
+    "corporate_count": 16214,
+    "independent_count": 10057,
+    "served_count": 1663,
+    "barrier_count": 891,
+    "integrated_count": 566,
+    "pcp_only_count": 228,
+    "mh_only_count": 868,
+    "states_count": 53,
+    "geo_tiers": {
+      "A_Metro": 4630,
+      "B_Highway": 2547,
+      "C_Rural": 19094
+    },
+    "contract_status": {
+      "Green": 26220,
+      "Yellow": 38,
+      "Red": 13
+    },
+    "scenario_row_count": 20943
+  }
+}
