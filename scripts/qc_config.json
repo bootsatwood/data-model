@@ -35,9 +35,9 @@
     "independent_count": 10057,
     "served_count": 1663,
     "barrier_count": 882,
-    "integrated_count": 566,
-    "pcp_only_count": 228,
-    "mh_only_count": 868,
+    "integrated_count": 561,
+    "pcp_only_count": 233,
+    "mh_only_count": 869,
     "states_count": 53,
     "geo_tiers": {
       "A_Metro": 4630,

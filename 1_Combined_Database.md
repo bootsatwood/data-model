@@ -55,7 +55,7 @@ The Combined Database is the master facility-level dataset for Eventus WholeHeal
 
 | Version | Date | Total | Key Changes |
 |---------|------|-------|-------------|
-| **V21.1** | Feb 2026 | **26,271** | Corporate name standardization: 218 variants resolved, 179 ownership reclassifications. Cleared 9 stale DUPLICATE-DEACTIVATED barrier markers from Dec 2025 dedup (broken row references). |
+| **V21.1** | Feb 2026 | **26,271** | Corporate name standardization, 179 ownership reclassifications. Cleared 9 stale DUPLICATE-DEACTIVATED barriers. Corrected 11 service flag violations (mutual exclusivity). |
 | V21.0 | Feb 2026 | 26,271 | +5,328 ALF from NIC Maps (8 expansion states), campus sister facility rule, interim geo tiers |
 | V20.0 | Dec 2025 | 20,943 | Cardon barriers + corporate standardization |
 | V19.2 | Dec 2025 | 20,943 | Duplicate resolution + data quality fixes |
