@@ -78,6 +78,35 @@ The Combined Database is the master facility-level dataset for Eventus WholeHeal
 - **Ownership recomputation:** Four-Rule Hierarchy runs across the entire database after any record integration. Adding records can reclassify existing facilities.
 - **Geographic tier (expansion states):** Interim classification tagged "(Interim)" in Original_Geographic_Tier. Full CBSA-based enhancement deferred.
 
+## Foundational Methodology (Nov 2025)
+
+This database replaced a legacy financial workbook (referred to internally as "NCA") that tracked realized revenue in a single stream with manual per-facility entries. The NCA model was descriptive — it captured what Eventus earned — but had no concept of potential revenue, market opportunity, or TAM/SAM/SOM segmentation. It was retained as a static validation baseline only. Everything below describes the model that replaced it.
+
+### Why This Model Exists
+
+The Eventus Economic Model was built as a **predictive opportunity model** with four computed revenue streams (Current, Integration, New Business, Total) instead of the NCA's single realized-revenue ledger. Key architectural differences:
+
+- **Explicit, tunable rate tables** with separate CCM and Shared Savings parameters (vs embedded static rates)
+- **Programmatic service flag logic** — `Do_We_Serve`, `PCP_Flag`, `MH_Flag` are computational triggers, not manual entries
+- **Barrier-sensitive TAM/SAM/SOM funnel** — barrier fields directly influence which market tier a facility falls into
+- **Five schema layers:** corporate, service, barrier, geography, financial computation
+
+### How the Database Was Originally Built
+
+**SNF stream (Phase 1, Nov 2025):**
+Raw source was `SNF Database with Revenue Q4 2025_V2.xlsx` with 6 state tabs (IN, KY, NC, OH, SC, VA). The cleanse process removed non-operational columns, added `Macro Type` (now `Source_Type`) as Column A, harmonized service flags using a broadened detection rule ("any column with 'serve'" triggers `Do_We_Serve`), and mapped barrier fields per state (SC/VA/KY/OH: Column AA; IN: Column U; NC: Column AA). PCP, MH, and Integrated flags were restored and validated from the original state tabs.
+
+**ALF stream (Phase 2, Nov 2025):**
+ALF files from NC, KY, OH, IN were standardized to a unified naming convention: `DBA Name` → `Provider Name`, `Name of Licensee` → `Legal Business Name`, corporate groupings → `Chain Name`. Deduplication reduced 1,253 raw ALF records to 655 valid rows after removing 598 duplicates (exact + fuzzy match against the SNF file, followed by manual review). Default bed count of 35 was applied where bed counts were missing.
+
+**Unification (Phase 3):**
+SNF and ALF streams merged into a single database. The `Chain Name blank = Independent Entity` rule was established as a deliberate simplification. Revenue computation branches on `Source_Type`: SNF uses dynamic visit-based rates, ALF uses static fixed rates. Three-branch revenue classification: Integrated (PCP+MH → gets CCM+SS), Partial (one service → FFS only), Potential (not served → proxy calculation).
+
+> Source documents preserved in vault: `new_02_Data_Model/Archive/Data_Challenges/`
+> - `SNF Cleanse.docx` — step-by-step cleansing methodology and file lineage
+> - `Eventus_Model_Comparison_TheirModel_vs_Ours.docx` — 7-dimension structural comparison vs legacy NCA
+> - `Eventus_Corporate_Initiative_Technical_Brief_Nov2025.docx` — schema layers, computation pseudo-code, phase structure
+
 ## Known Issues / Open Items
 
 - **Facility count discrepancy:** Database vs CRM (~1,200) — campus co-location counting methodology, not an error. See `current/Facility_Count_Discrepancy_Explanation.md`
