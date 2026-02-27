@@ -55,7 +55,7 @@ The Combined Database is the master facility-level dataset for Eventus WholeHeal
 
 | Version | Date | Total | Key Changes |
 |---------|------|-------|-------------|
-| **V21.1** | Feb 2026 | **26,271** | Corporate name standardization: 218 variants resolved, 179 ownership reclassifications |
+| **V21.1** | Feb 2026 | **26,271** | Corporate name standardization: 218 variants resolved, 179 ownership reclassifications. Cleared 9 stale DUPLICATE-DEACTIVATED barrier markers from Dec 2025 dedup (broken row references). |
 | V21.0 | Feb 2026 | 26,271 | +5,328 ALF from NIC Maps (8 expansion states), campus sister facility rule, interim geo tiers |
 | V20.0 | Dec 2025 | 20,943 | Cardon barriers + corporate standardization |
 | V19.2 | Dec 2025 | 20,943 | Duplicate resolution + data quality fixes |
@@ -127,6 +127,8 @@ See `current/QC_Framework.md` for full documentation. Config and expected values
 - **75 campus sister facilities:** Should be individually reviewed to confirm genuine campus relationships.
 - **PA 3 unmatched candidates:** Three NIC Maps PA facilities had no V20 match. Investigate for future increment.
 - **Pre-existing V20 data quality:** 2,230 null ZIPs and 7 null bed counts not addressed in V21.
+- **Wytheville VA duplicate (row 16216):** `CARRINGTON WYTHEVILLE-SNF/NF` at 990 Holston Rd was not deactivated during the Dec 2025 dedup exercise but overlaps with replacement rows 20943/20944 (Holston Health and Rehab / Holston Senior Living, Hill Valley Healthcare). Source_Type says ALF but name says SNF/NF. Needs outlier review.
+- **DUPLICATE-DEACTIVATED cleanup (Feb 2026):** 9 barrier markers cleared — row references were broken by V21 ALF expansion row shifts. No sibling facilities under the same corporate banners (Five Star Residences, Ayden Healthcare, Lionstone Care) had real barriers.
 - **Revenue recomputation:** Scenario models (S1/S2/S3) need regeneration to reflect expanded V21 facility base.
 
 ## Related Files
