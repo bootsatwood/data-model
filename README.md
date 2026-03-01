@@ -25,6 +25,9 @@ archive/         Full version history (V02-V19.1) + foundation docs
 
 | File | Purpose |
 |------|---------|
+| scripts/chain_update_v21_2.py | CMS Chain ID enhancement — preview, apply, four-rule modes |
+| scripts/chain_crossref.py | Chain classification cross-reference analysis (read-only) |
+| scripts/chain_crossref_independent.py | Independent facilities with CMS chain analysis (read-only) |
 | scripts/qc_validator.py | QC tool — snapshot, compare, validate modes |
 | scripts/qc_config.json | File paths + expected values (update per version) |
 

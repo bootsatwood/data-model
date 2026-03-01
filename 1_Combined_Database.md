@@ -1,8 +1,8 @@
 # 1 — Combined Database
 
-**Vault companion:** `new_02_Data_Model/Current/1_Combined_Database_FINAL_V21_1.xlsx`
-**Current version:** V21.1
-**Last updated:** 2026-02-26
+**Vault companion:** `02_Data_Model/Current/1_Combined_Database_FINAL_V21_2.xlsx`
+**Current version:** V21.2
+**Last updated:** 2026-03-01
 
 ---
 
@@ -10,19 +10,21 @@
 
 The Combined Database is the master facility-level dataset for Eventus WholeHealth. It merges SNF (Skilled Nursing Facility) and ALF (Assisted Living Facility) records into a single unified view with standardized fields, geographic mapping, corporate ownership, and economic model inputs. It is the **single source of truth** for all facility data — all downstream files (scenarios, reports, scoring) inherit from it.
 
-## Database Foundation (V21.1 Current)
+## Database Foundation (V21.2 Current)
 
 | Metric | Count | % |
 |--------|-------|---|
-| **Total Facilities** | 26,268 | 100% |
+| **Total Facilities** | 26,267 | 100% |
 | SNF Facilities | 15,243 | 58.0% |
-| ALF Facilities | 11,025 | 42.0% |
-| Corporate Facilities | 16,214 | 61.8% |
-| Independent Facilities | 10,054 | 38.2% |
-| Facilities We Serve | 1,660 | 6.3% |
+| ALF Facilities | 11,024 | 42.0% |
+| Corporate Facilities | 16,525 | 62.9% |
+| Independent Facilities | 9,742 | 37.1% |
+| Facilities We Serve | 1,659 | 6.3% |
 | Facilities with Barriers | 882 | 3.4% |
 
-**V21 change:** +5,328 ALF records integrated from NIC Maps across 8 expansion states (MI, IL, WI, MN, FL, MD, GA, MO). Corporate name standardization resolved 218 variant spellings, reclassifying 179 facilities from Independent to Corporate. See `changelogs/V20_to_V21_ALF_Enhancement.md` for full methodology.
+**V21.2 change:** CMS Chain ID cross-reference identified 320 facilities classified as Independent that CMS assigns to a chain. Corporate_Name updated and Four-Rule hierarchy rerun, reclassifying 312 facilities from Independent to Corporate. See `changelogs/V21_1_to_V21_2_CMS_Chain_Enhancement.md`.
+
+**V21.0-V21.1 change:** +5,328 ALF records integrated from NIC Maps across 8 expansion states (MI, IL, WI, MN, FL, MD, GA, MO). Corporate name standardization resolved 218 variant spellings, reclassifying 179 facilities from Independent to Corporate. See `changelogs/V20_to_V21_ALF_Enhancement.md` for full methodology.
 
 ## Key Columns
 
@@ -55,7 +57,8 @@ The Combined Database is the master facility-level dataset for Eventus WholeHeal
 
 | Version | Date | Total | Key Changes |
 |---------|------|-------|-------------|
-| **V21.1** | Feb 2026 | **26,268** | Corporate name standardization, 179 ownership reclassifications. Cleared 9 stale DUPLICATE-DEACTIVATED barriers. Corrected 11 service flag violations. Removed 3 acquired Carrington Place records (→ Hill Valley Healthcare). |
+| **V21.2** | Mar 2026 | **26,267** | CMS Chain ID cross-reference: 320 Corporate_Name updates, 312 Independent->Corporate reclassifications. |
+| V21.1 | Feb 2026 | 26,267 | Corporate name standardization, 179 ownership reclassifications. Cleared 9 stale DUPLICATE-DEACTIVATED barriers. Corrected 11 service flag violations. Removed 3 acquired Carrington Place records. |
 | V21.0 | Feb 2026 | 26,271 | +5,328 ALF from NIC Maps (8 expansion states), campus sister facility rule, interim geo tiers |
 | V20.0 | Dec 2025 | 20,943 | Cardon barriers + corporate standardization |
 | V19.2 | Dec 2025 | 20,943 | Duplicate resolution + data quality fixes |
@@ -67,7 +70,8 @@ The Combined Database is the master facility-level dataset for Eventus WholeHeal
 | V8.0 | Nov 2025 | 17,434 | Initial unified SNF + ALF database |
 
 > Full documentation for V2–V19.1 preserved in `archive/` folders. Git tracks all changes.
-> V20→V21 changelog: `changelogs/V20_to_V21_ALF_Enhancement.md`
+> V21.1->V21.2 changelog: `changelogs/V21_1_to_V21_2_CMS_Chain_Enhancement.md`
+> V20->V21 changelog: `changelogs/V20_to_V21_ALF_Enhancement.md`
 
 ## Key Rules (V21)
 
@@ -133,8 +137,9 @@ See `current/QC_Framework.md` for full documentation. Config and expected values
 
 ## Related Files
 
-- **Vault (Archive):** `new_02_Data_Model/Archive/1_Combined_Database_FINAL_V21_0.xlsx`
-- **Vault (Archive):** `new_02_Data_Model/Archive/1_Combined_Database_FINAL_V20_0.xlsx`
+- **Vault (Archive):** `02_Data_Model/Archive/1_Combined_Database_FINAL_V21_1.xlsx`
+- **Vault (Archive):** `02_Data_Model/Archive/1_Combined_Database_FINAL_V21_0.xlsx`
+- **Vault (Archive):** `02_Data_Model/Archive/1_Combined_Database_FINAL_V20_0.xlsx`
 - **This repo:** `current/6_Core_Rulebook_V20_0.md` — full methodology reference
 - **This repo:** `2_Fee_Schedule_Reference.md` — fee inputs
 - **This repo:** `3_Economic_Model_Compendium.md` — downstream scenario models

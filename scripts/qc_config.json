@@ -1,8 +1,8 @@
 {
-  "version": "V21.1",
-  "vault_data_model": "new_02_Data_Model/Current",
+  "version": "V21.2",
+  "vault_data_model": "02_Data_Model/Current",
   "files": {
-    "database": "1_Combined_Database_FINAL_V21_1.xlsx",
+    "database": "1_Combined_Database_FINAL_V21_2.xlsx",
     "scenario_1": "3_Economic_Model_Scenario_1_Combined_V20_0.xlsx",
     "scenario_2": "4_Economic_Model_Scenario_2_Combined_V20_0.xlsx",
     "scenario_3": "5_Economic_Model_Scenario_3_Combined_V20_0.xlsx",
@@ -28,24 +28,24 @@
     ]
   },
   "expected": {
-    "total_facilities": 26268,
+    "total_facilities": 26267,
     "snf_count": 15243,
-    "alf_count": 11025,
-    "corporate_count": 16214,
-    "independent_count": 10054,
-    "served_count": 1660,
+    "alf_count": 11024,
+    "corporate_count": 16525,
+    "independent_count": 9742,
+    "served_count": 1659,
     "barrier_count": 882,
     "integrated_count": 560,
-    "pcp_only_count": 233,
+    "pcp_only_count": 232,
     "mh_only_count": 867,
     "states_count": 53,
     "geo_tiers": {
-      "A_Metro": 4630,
+      "A_Metro": 4629,
       "B_Highway": 2547,
       "C_Rural": 19091
     },
     "contract_status": {
-      "Green": 26217,
+      "Green": 26216,
       "Yellow": 38,
       "Red": 13
     },
