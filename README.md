@@ -42,7 +42,24 @@ See `current/QC_Framework.md` for full documentation.
 | reference/Proposal_CMS_Source_Data_Cross_Reference.md | Deferred CMS cross-reference proposal |
 | reference/Proposal_Multi_Service_Facility_Classification.md | Deferred multi-service classification review |
 
+## Archive
+
+Full version history from V02 through V19.1, plus foundation build docs, geographic mapping, and QC methodology.
+
+```
+archive/
+├── V02/ – V19.1/     Version-by-version markdown (rulebooks, changelogs, QC summaries)
+├── foundation/        Original database build methodology (21 md)
+├── geographic_mapping/ KML guides, metro analysis handoffs (V9–V19)
+├── qc_methodology/    QC testing handoff notes
+├── v15_milestone/     V15 Rulebook, START_HERE, V14→V15 changelog
+├── v16_sales_planning/ $51M target breakdown, metro allocation, revenue strategy
+└── abandoned/         Proposals that were never implemented
+```
+
+> **Vault ↔ Git connection:** Each version folder here has a matching `Archive/V*/` subfolder in the Vault (`02_Data_Model/Archive/`) holding the binary counterparts — xlsx database snapshots, economic models, QC workbooks, KML files. Markdown lives in Git (diff-tracked). Binaries live in the Vault (OneDrive-synced). See the Vault `_Index.md` for the full cross-reference table.
+
 ## Related
 
-- **Vault** (OneDrive): Excel databases, economic models, report workbooks
+- **Vault** (OneDrive `02_Data_Model/`): Excel databases, economic models, report workbooks, binary archive
 - **reports repo** (GitHub): Budget analysis, Python scripts, HTML reports

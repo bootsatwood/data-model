@@ -114,7 +114,7 @@ NIC Maps "Operator Name" maps to Corporate_Name. Operator names should be standa
 
 **Impact:** 75 expansion-state NIC Maps ALF candidates were initially flagged as address-match duplicates during dedup (Step 3). All 75 were reclassified as new records with `_dedup_type = campus_sister_facility`. These 75 facilities will appear in V21 alongside their existing SNF counterparts at the same or nearby addresses.
 
-**QC note:** The 75 campus matches should be reviewed during QC (Step 8) to confirm that each represents a genuine sister facility and not a data entry variant of the same building. A web search on a sample of these facilities would confirm the campus relationship.
+**QC note (resolved Feb 2026):** Campus structure verification confirmed 99.3% of SNF+ALF co-located pairs (668 of 673) have distinct bed counts and/or service flags, consistent with the facility-by-service counting methodology. 5 carbon-copy pairs flagged for review; 2 are already documented as intentional campus examples. The campus sister facility rule is working as designed. See `current/Facility_Count_Discrepancy_Explanation.md § Campus Structure Verification Protocol` for the full test methodology and results.
 
 **PA validation note:** PA dedup was ALF-on-ALF (NIC Maps ALF candidates matched against existing V20 ALF records), so the campus sister facility rule did not apply. The PA validation result (731 of 734 matched, 99.6%) remains valid.
 
@@ -415,7 +415,7 @@ The V21.0 → V21.1 diff confirms that only two columns were modified: Corporate
 
 1. **Revenue recomputation.** After V21.1 is validated, scenario models (S1/S2/S3) need to be regenerated to reflect the expanded facility base. This is a separate deliverable from the database enhancement.
 2. **Geographic tier population threshold.** Not resolved for this enhancement. Interim metro centers applied as-is. Full resolution deferred to the [[2026-02-21_Metro_Definition_Enhancement_Proposal|Metro Enhancement Proposal]]. See Discussion Notes above for the Missouri-driven insight on state-wide facility density as a pressure test for population thresholds.
-3. **75 campus sister facilities.** Should be individually reviewed to confirm genuine campus relationships. A web search sample would validate.
+3. ~~**75 campus sister facilities.**~~ **Resolved.** Campus structure verification (Feb 2026) confirmed facility-by-service model is working as designed. 668 of 673 SNF+ALF co-located pairs pass structural checks. 5 carbon-copy pairs noted for future review (2 are documented intentional examples). See `current/Facility_Count_Discrepancy_Explanation.md § Campus Structure Verification Protocol`.
 4. **PA 3 unmatched candidates.** Three NIC Maps PA facilities had no match in V20. Should be investigated to determine if they should be added in a future increment.
 5. **Pre-existing V20 data quality.** 2,230 null ZIPs and 7 null bed counts in V20 were not addressed. Consider remediation in a V21.x increment.
 6. **Remaining corporate name variants.** The suffix-stripping normalization catches the most common variants, but there may be additional cases where operators use genuinely different trade names (e.g., a parent company with branded subsidiaries). A manual review of operators with 1 facility in V21.1 that are near-matches to larger Corporate operators would catch these, but diminishing returns suggest this is low priority.

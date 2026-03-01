@@ -124,10 +124,10 @@ See `current/QC_Framework.md` for full documentation. Config and expected values
 
 - **Facility count discrepancy:** Database vs CRM (~1,200) — campus co-location counting methodology, not an error. See `current/Facility_Count_Discrepancy_Explanation.md`
 - **Metro Assignment gap:** Expansion state metros use interim definitions. Full resolution deferred to Metro Enhancement Proposal.
-- **75 campus sister facilities:** Should be individually reviewed to confirm genuine campus relationships.
+- ~~**75 campus sister facilities:**~~ **Resolved.** Campus structure verification (Feb 2026) confirmed 99.3% of SNF+ALF co-located pairs are correctly structured (distinct beds/flags). 5 carbon-copy pairs noted for future review. See `current/Facility_Count_Discrepancy_Explanation.md § Campus Structure Verification Protocol`.
 - **PA 3 unmatched candidates:** Three NIC Maps PA facilities had no V20 match. Investigate for future increment.
 - **Pre-existing V20 data quality:** 2,230 null ZIPs and 7 null bed counts not addressed in V21.
-- **Holston (Wytheville VA) missing Total_Beds:** Replacement rows for Carrington Place acquisition are missing bed counts. Reconcile when Facility Profile export is available. See `reference/Facility_Acquisitions_Log.md`.
+- ~~**Holston (Wytheville VA) missing Total_Beds:**~~ **Resolved.** Beds populated Feb 2026 from internal data: SNF 115 beds / 92 census, ALF 84 beds / 67 census.
 - **Facility acquisitions pattern:** When facilities change hands, old records should be deleted (not set to Do_We_Serve=No) to avoid false sales opportunities. Lineage preserved in `reference/Facility_Acquisitions_Log.md`.
 - **Revenue recomputation:** Scenario models (S1/S2/S3) need regeneration to reflect expanded V21 facility base.
 

@@ -216,13 +216,54 @@ The call confirmed that GLR (General Ledger Report) counts ALF and SNF separatel
 
 ---
 
-## Data Sources
+## Campus Structure Verification Protocol
 
-- **Database Version:** Combined_Database_FINAL_V20_0.xlsx
-- **Analysis Date:** December 2024
-- **Scope:** Six existing states (IN, KY, NC, OH, SC, VA)
-- **Filter:** Do_We_Serve = 'Yes'
+When new facilities are added to the database (especially via bulk integration from external sources like NIC Maps), co-located records at the same address should be verified to confirm they are structured correctly — not flagged as errors, since the facility-by-service model is intentional.
+
+### Verification Tests
+
+| # | Test | What It Catches | Expected Result |
+|---|------|----------------|-----------------|
+| 1 | **Same-type at same address** (SNF+SNF or ALF+ALF) | Ownership/name changes that created a stale duplicate, or multi-service campuses with multiple ALF care levels (AL, MC, IL) | Common and expected. ALF+ALF pairs typically represent distinct care levels (e.g., Assisted Living + Memory Care). SNF+SNF may indicate a CMS ownership transition where the old CCN record persists. |
+| 2 | **SNF+ALF with identical bed count AND identical service flags** | A row that was copied rather than sourced independently — unlikely that two different service types at the same campus would have the exact same beds and the exact same Integrated/PCP/MH flags | Rare. Review individually to confirm each row was sourced from its respective data pipeline (CMS for SNF, NIC Maps for ALF). |
+| 3 | **SNF+ALF with distinct beds or flags** | Nothing — this is the correct structure | Pass. Different bed counts and/or service flags confirm each row represents a genuine separate service contract. |
+
+### V21.1 Verification Results (Feb 2026)
+
+| Metric | Count |
+|--------|-------|
+| Addresses with both SNF + ALF | 673 |
+| **Pass** (distinct beds or flags) | 668 (99.3%) |
+| **Review** (identical beds AND flags) | 5 |
+| Same-type at same address (all states) | 948 |
+
+5 carbon-copy pairs were initially flagged. After review:
+
+| Address | SNF | ALF | Beds | Flags | Disposition |
+|---------|-----|-----|------|-------|-------------|
+| 8140 Township Line Rd, Indianapolis, IN | Marquette | Marquette Manor SNF | 57 | PCP | **Deleted.** Carbon copy confirmed against internal data (3 buildings, not 4). Row removed from V21.1. |
+| 990 Holston Rd, Wytheville, VA | Holston Health and Rehab | Holston Senior Living | None | Integrated | **Valid.** Confirmed SNF + ALF campus, both served Integrated. Beds were missing due to Carrington Place acquisition — populated Feb 2026 (SNF 115/92, ALF 84/67). |
+| 921 Old Newnan Rd, Carrollton, GA | Oaks - Carrollton SNF (PruittHealth) | Pruittplace-Carrollton (unknown) | 42 | None | Unserved. Low priority — review in future increment. |
+| 1135 Gambier Rd, Mount Vernon, OH | ALS Mount Vernon (Lionstone) | Mount Vernon Health & Rehab (Independent) | 20 | None | Unserved. Different corporate names suggest independent sourcing. |
+| 36855 Ridge Rd, Willoughby, OH | Ohio Living Breckenridge Village | Nason Center of Breckenridge Village | 72 | None | Unserved. Different corporate names suggest independent sourcing. |
+
+**Result:** 1 deletion (Marquette carbon copy), 1 validated and corrected (Holston beds), 3 unserved low-priority pairs remaining. Database count: 26,268 → 26,267.
+
+### When to Run This Protocol
+
+- After any bulk facility integration (e.g., NIC Maps, state licensing data)
+- After any version increment that adds records from a new data source
+- Not needed for corporate name standardization or service flag corrections (those don't create new address overlaps)
 
 ---
 
-*Document created to resolve confusion around facility count discrepancies between the MUO deck and CRM system.*
+## Data Sources
+
+- **Database Version:** Combined_Database_FINAL_V21_1.xlsx (verification protocol), Combined_Database_FINAL_V20_0.xlsx (original discrepancy analysis)
+- **Analysis Date:** December 2024 (discrepancy analysis), February 2026 (verification protocol)
+- **Scope:** Six existing states for discrepancy analysis; all states for verification protocol
+- **Filter:** Do_We_Serve = 'Yes' (discrepancy analysis); all records (verification protocol)
+
+---
+
+*Document created to resolve confusion around facility count discrepancies between the MUO deck and CRM system. Campus Structure Verification Protocol added February 2026 after V21 expansion-state integration.*
