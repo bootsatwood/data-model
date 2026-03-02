@@ -44,6 +44,7 @@ See `current/QC_Framework.md` for full documentation.
 | reference/Proposal_Metro_Definition_Enhancement.md | Deferred CBSA-based metro classification |
 | reference/Proposal_CMS_Source_Data_Cross_Reference.md | Deferred CMS cross-reference proposal |
 | reference/Proposal_Multi_Service_Facility_Classification.md | Deferred multi-service classification review |
+| reference/Risk_ALF_Corporate_Attribution_and_Data_Quality.md | ALF data quality risks: phantom duplicates, hidden ownership, IL contamination |
 
 ## Archive
 

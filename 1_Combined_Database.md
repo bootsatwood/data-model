@@ -134,6 +134,7 @@ See `current/QC_Framework.md` for full documentation. Config and expected values
 - ~~**Holston (Wytheville VA) missing Total_Beds:**~~ **Resolved.** Beds populated Feb 2026 from internal data: SNF 115 beds / 92 census, ALF 84 beds / 67 census.
 - **Facility acquisitions pattern:** When facilities change hands, old records should be deleted (not set to Do_We_Serve=No) to avoid false sales opportunities. Lineage preserved in `reference/Facility_Acquisitions_Log.md`.
 - **Revenue recomputation:** Scenario models (S1/S2/S3) need regeneration to reflect expanded V21 facility base.
+- **ALF data quality risks (NIC Maps):** Liberty Senior Living investigation (Mar 2026) identified three systemic risks in ALF data: (1) phantom ALF records where NIC Maps duplicates CMS SNF rows, (2) hidden corporate ownership under LLC/PROPCO/OPCO names causing false Independent classification, (3) possible inclusion of Independent Living / 55+ Active Adult communities that are outside Eventus's serviceable market. See `reference/Risk_ALF_Corporate_Attribution_and_Data_Quality.md` for full findings and cure plan.
 
 ## Related Files
 
