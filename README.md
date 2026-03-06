@@ -40,6 +40,7 @@ archive/         Full version history (V02-V19.1) + foundation docs
 | scripts/v22_11_il_reclassify.py | IL/55+ Source_Type reclassification — V22.10 -> V22.11 (53 ALF→ILF) |
 | scripts/v22_12_snf_dedup.py | SNF same-address dedup via CCN verification — V22.11 -> V22.12 (255 rows removed) |
 | scripts/v22_13_alf_dedup.py | ALF same-address dedup — V22.12 -> V22.13 (215 rows removed) |
+| scripts/v22_14_alf_diffcorp_dedup.py | ALF PROPCO/OPCO dedup — V22.13 -> V22.14 (37 rows removed) |
 | scripts/qc_validator.py | QC tool — snapshot, compare, validate modes |
 | scripts/qc_config.json | File paths + expected values (update per version) |
 
