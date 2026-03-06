@@ -18,6 +18,7 @@ archive/         Full version history (V02-V19.1) + foundation docs
 | 6.1_Comprehensive_Report_Compendium_V20_1.md | V20.1 | Tables 1-25 methodology |
 | 6.2_Metro_Market_Analysis_Compendium_V19_2.md | V19.2 | Metro analysis methodology (version lag) |
 | 6.3_Corporate_Scoring_Methodology_V20.md | V20.0 | Corporate scoring rules |
+| Database_Change_Request_V22.md | V22 | **PENDING** — 8 DB/scoring issues from MUO profile work |
 | 6.4_Corporate_Tiering_Methodology_Ops_View_V21_2.md | V21.2 | Operations tiering methodology |
 | Facility_Count_Discrepancy_Explanation.md | — | Why Database (1,658) != CRM (~1,200) |
 
@@ -28,6 +29,11 @@ archive/         Full version history (V02-V19.1) + foundation docs
 | scripts/chain_update_v21_2.py | CMS Chain ID enhancement — preview, apply, four-rule modes |
 | scripts/chain_crossref.py | Chain classification cross-reference analysis (read-only) |
 | scripts/chain_crossref_independent.py | Independent facilities with CMS chain analysis (read-only) |
+| scripts/corporate_fix.py | Wave 2c corporate attribution (GLR/CMS/NIC three-tier) — V22.2 -> V22.3 |
+| scripts/corporate_name_dedup.py | Corporate name dedup analysis — fuzzy matching + review workbook (read-only) |
+| scripts/corporate_dedup_fix.py | Corporate name consolidation — V22.3 -> V22.4 (preview/apply) |
+| scripts/remove_greencroft_dupes.py | Remove 3 duplicate/phantom Greencroft rows from V22.6 (preview/apply) |
+| scripts/v22_7_fix.py | Combined V22.6->V22.7: Liberty QC + Singh/Cedarhurst/Spring Arbor dedup (preview/apply) |
 | scripts/qc_validator.py | QC tool — snapshot, compare, validate modes |
 | scripts/qc_config.json | File paths + expected values (update per version) |
 

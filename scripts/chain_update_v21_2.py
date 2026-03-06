@@ -26,37 +26,15 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
+from utils import norm, norm_addr, safe, VAULT, FOOTPRINT
+
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
 
-VAULT = Path.home() / "OneDrive - Eventus WholeHealth" / "Vault" / "02_Data_Model"
 CMS_FILE = VAULT / "Reference" / "Source_CMS_NH_ProviderInfo_Feb2026.csv"
 DB_V21_1 = VAULT / "Current" / "1_Combined_Database_FINAL_V21_1.xlsx"
 DB_V21_2 = VAULT / "Current" / "1_Combined_Database_FINAL_V21_2.xlsx"
-
-FOOTPRINT = {'IN', 'KY', 'NC', 'OH', 'SC', 'VA', 'MI', 'IL', 'WI', 'MN', 'FL', 'MD', 'GA', 'MO'}
-
-
-# ---------------------------------------------------------------------------
-# Normalizers (shared with chain_crossref.py)
-# ---------------------------------------------------------------------------
-
-def norm(s):
-    if not s:
-        return ''
-    return re.sub(r'[^a-z0-9]', '', s.lower())
-
-
-def norm_addr(s):
-    if not s:
-        return ''
-    s = s.lower().strip()
-    for word, abbr in [('street', 'st'), ('road', 'rd'), ('drive', 'dr'), ('avenue', 'ave'),
-                        ('boulevard', 'blvd'), ('lane', 'ln'), ('court', 'ct'),
-                        ('north', 'n'), ('south', 's'), ('east', 'e'), ('west', 'w')]:
-        s = re.sub(r'\b' + word + r'\b', abbr, s)
-    return re.sub(r'[^a-z0-9]', '', s)
 
 
 # ---------------------------------------------------------------------------
@@ -86,12 +64,6 @@ def load_cms():
 
 def col_index(headers, name):
     return headers.index(name)
-
-
-def safe(val):
-    if val is None:
-        return ''
-    return str(val).strip()
 
 
 # ---------------------------------------------------------------------------

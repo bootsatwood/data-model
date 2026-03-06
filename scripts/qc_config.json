@@ -1,8 +1,8 @@
 {
-  "version": "V21.2",
+  "version": "V22",
   "vault_data_model": "02_Data_Model/Current",
   "files": {
-    "database": "1_Combined_Database_FINAL_V21_2.xlsx",
+    "database": "1_Combined_Database_FINAL_V22_2.xlsx",
     "scenario_1": "3_Economic_Model_Scenario_1_Combined_V20_0.xlsx",
     "scenario_2": "4_Economic_Model_Scenario_2_Combined_V20_0.xlsx",
     "scenario_3": "5_Economic_Model_Scenario_3_Combined_V20_0.xlsx",
@@ -12,22 +12,58 @@
     "report_c": "Report_C_Corporate_Scoring_V20.xlsx"
   },
   "database_columns": {
-    "key_fields": ["Source_Type", "Facility_Name", "Address", "City", "State", "ZIP"],
+    "key_fields": [
+      "Source_Type",
+      "Facility_Name",
+      "Address",
+      "City",
+      "State",
+      "ZIP"
+    ],
     "check_fields": [
-      "Corporate_Name", "Ownership_Type", "Do_We_Serve", "Integrated_Flag",
-      "PCP_Flag", "MH_Flag", "Barrier", "Contract_Status", "Geographic_Tier",
-      "Metro_Assignment", "Total_Beds", "Census"
+      "Corporate_Name",
+      "Ownership_Type",
+      "Do_We_Serve",
+      "Integrated_Flag",
+      "PCP_Flag",
+      "MH_Flag",
+      "Barrier",
+      "Contract_Status",
+      "Geographic_Tier",
+      "Metro_Assignment",
+      "Total_Beds",
+      "Census"
     ],
     "expected_columns": [
-      "Source_Type", "Facility_Name", "Corporate_Name", "Address", "City",
-      "State", "ZIP", "County", "Ownership_Type", "Total_Beds", "Census",
-      "Do_We_Serve", "Integrated_Flag", "PCP_Flag", "MH_Flag", "Barrier",
-      "Latitude", "Longitude", "Data_Quality_Flag", "Contract_Status",
-      "Geographic_Tier", "Original_Geographic_Tier", "Metro_Assignment",
-      "Distance_to_Metro_Center", "Metro_Center_Used"
+      "Source_Type",
+      "Facility_Name",
+      "Corporate_Name",
+      "Address",
+      "City",
+      "State",
+      "ZIP",
+      "County",
+      "Ownership_Type",
+      "Total_Beds",
+      "Census",
+      "Do_We_Serve",
+      "Integrated_Flag",
+      "PCP_Flag",
+      "MH_Flag",
+      "Barrier",
+      "Latitude",
+      "Longitude",
+      "Data_Quality_Flag",
+      "Contract_Status",
+      "Geographic_Tier",
+      "Original_Geographic_Tier",
+      "Metro_Assignment",
+      "Distance_to_Metro_Center",
+      "Metro_Center_Used"
     ]
   },
-  "expected": {
+  "baseline_v21_1": {
+    "_comment": "V21.1 baseline counts \u00e2\u20ac\u201d starting point for V22 remediation",
     "total_facilities": 26267,
     "snf_count": 15243,
     "alf_count": 11024,
@@ -50,5 +86,184 @@
       "Red": 13
     },
     "scenario_row_count": 20943
+  },
+  "v22_0_actuals": {
+    "_comment": "V22.0 actuals after Wave 1 phantom fix (2026-03-03)",
+    "total_facilities": 26234,
+    "snf_count": 15246,
+    "alf_count": 10981,
+    "ilf_count": 7,
+    "served_count": 1658,
+    "rows_removed": 33,
+    "rows_reclassified_to_snf": 3,
+    "rows_reclassified_to_ilf": 7,
+    "snf_rows_updated": 4,
+    "net_served_delta": -1
+  },
+  "v22_1_actuals": {
+    "_comment": "V22.1 actuals after Wave 2a \u00e2\u20ac\u201d Southern rename + Brookdale dedup (2026-03-04)",
+    "total_facilities": 26211,
+    "snf_count": 15246,
+    "alf_count": 10958,
+    "ilf_count": 7,
+    "served_count": 1658,
+    "rows_renamed_southern_to_brookdale": 34,
+    "brookdale_dupes_removed": 23,
+    "net_alf_delta": -23,
+    "net_served_delta": 0
+  },
+  "v22_2_actuals": {
+    "_comment": "V22.2 actuals after Wave 2b \u00e2\u20ac\u201d Liberty corporate fix (2026-03-04)",
+    "total_facilities": 26211,
+    "snf_count": 15248,
+    "alf_count": 10956,
+    "ilf_count": 7,
+    "served_count": 1658,
+    "corp_renamed_to_liberty": 59,
+    "corp_renamed_to_liberty_village": 9,
+    "source_type_alf_to_snf": 2,
+    "liberty_senior_living_remaining": 0,
+    "liberty_total": 73,
+    "liberty_village_total": 9
+  },
+  "expected": {
+    "_comment": "V22 expected values \u00e2\u20ac\u201d updated after Wave 2b Liberty fix.",
+    "total_facilities": 26210,
+    "snf_count": 15248,
+    "alf_count": 10956,
+    "ilf_count": 7,
+    "served_count": 1658,
+    "barrier_count": 882,
+    "states_count": 53,
+    "geo_tiers": {
+      "A_Metro": 4629,
+      "B_Highway": 2547,
+      "C_Rural": 19091
+    },
+    "contract_status": {
+      "Green": 26216,
+      "Yellow": 38,
+      "Red": 13
+    }
+  },
+  "audit_baselines": {
+    "_comment": "Populated by Wave 0 audit runs against V21.1 on 2026-03-03. Refined by NIC enrichment.",
+    "address_match_suspects": {
+      "_comment": "Original address-only audit (phantom_audit.py)",
+      "total": 841,
+      "high_confidence": 832,
+      "medium_confidence": 9,
+      "served": 400
+    },
+    "nic_enriched_classification": {
+      "_comment": "NIC enrichment reclassifies the 841 suspects + all 11,024 ALFs using unit-type data",
+      "phantom_confirmed": 50,
+      "phantom_confirmed_served": 12,
+      "co_located_campuses": 588,
+      "co_located_served": 112,
+      "il_only_facilities": 508,
+      "il_only_served": 14,
+      "flagged_other": 4573,
+      "clean": 4334,
+      "no_nic_match": 971
+    },
+    "propco_opco": {
+      "_comment": "NIC Operator vs Owner resolution",
+      "corporate_name_is_owner_propco": 2959,
+      "operator_ne_owner_split": 1925,
+      "keyword_audit_rows": 3396,
+      "keyword_audit_served": 54
+    },
+    "il_contamination": {
+      "_comment": "IL/55+ signals from keyword audit + NIC unit-type confirmation",
+      "keyword_flagged": 413,
+      "keyword_high": 62,
+      "nic_confirmed_il_only": 508,
+      "nic_il_mixed": 1610,
+      "nic_aa_units": 31
+    },
+    "name_fragmentation": {
+      "clusters": 13,
+      "affected_rows": 199
+    },
+    "overlap": {
+      "alf_snf_overlap_keys": 764,
+      "overlap_rate_pct": 7.4,
+      "cms_coverage_gaps": 1
+    }
+  },
+  "wave_log": [
+    {
+      "wave": "0",
+      "label": "Audit Infrastructure",
+      "status": "complete",
+      "date_started": "2026-03-03",
+      "date_completed": "2026-03-03",
+      "notes": "5 audit scripts + utils.py + nic_enrichment.py. NIC source fields (Operator Name, CCN, unit types) resolve ambiguity in address-only audits. 841 address-match suspects reclassified: 50 confirmed phantoms, 588 co-located campuses, 508 pure IL."
+    },
+    {
+      "wave": "1",
+      "label": "Phantom Fix \u00e2\u20ac\u201d Row Integrity",
+      "status": "complete",
+      "date_started": "2026-03-03",
+      "date_completed": "2026-03-03",
+      "script": "phantom_fix.py",
+      "output": "1_Combined_Database_FINAL_V22_0.xlsx",
+      "notes": "12 served phantoms triaged against Facility DB. 33 rows removed (5 served + 27 non-served + 1 duplicate). 3 ALF reclassified to SNF (CMS CCN confirmed). 7 ALF reclassified to ILF (new Source_Type). 4 SNF rows updated with migrated service flags. 4 shared-address patterns documented. Verified: 26,267 -> 26,234 rows."
+    },
+    {
+      "wave": "2a",
+      "label": "Southern Rename + Brookdale Dedup",
+      "status": "complete",
+      "date_started": "2026-03-04",
+      "date_completed": "2026-03-04",
+      "output": "1_Combined_Database_FINAL_V22_1.xlsx",
+      "notes": "34 rows renamed: SOUTHERN ASSISTED LIVING, LLC -> BROOKDALE SENIOR LIVING (NIC-confirmed SALI acquisition Q1 2006). 23 unserved Brookdale duplicate rows removed (campus-level license records at same address as served wing-level rows, all NC ALF). Review workbook: audit_reports/Brookdale_Dedup_Review.xlsx. Finding: ALF census beds often lower than actual Facility DB consented counts \u00e2\u20ac\u201d economic models may undercount ALF revenue (flagged for future build). Verified: 26,234 -> 26,211 rows, 0 served impact."
+    },
+    {
+      "wave": "2b",
+      "label": "Liberty Corporate Fix + Liberty Village",
+      "status": "complete",
+      "date_started": "2026-03-04",
+      "date_completed": "2026-03-04",
+      "script": "apply_liberty_fix.py",
+      "output": "1_Combined_Database_FINAL_V22_2.xlsx",
+      "notes": "Liberty Health Management crosswalk built from LSL website (23 facilities) + LHR directory PDF (41 SNFs). 59 rows renamed to LIBERTY (from LIBERTY SENIOR LIVING, PROPCOs, blanks). 9 rows renamed to LIBERTY VILLAGE (separate IL company). 2 Source_Type corrections ALF->SNF (rows 8774, 9983). LIBERTY SENIOR LIVING fully cleaned out (0 remaining). 4 non-Liberty-Health rows left alone (Liberty Ridge, Liberty Retirement Properties of Lima, West Liberty Garden Apartments). Crosswalk artifacts: Liberty_Facility_Crosswalk.xlsx, Liberty_Crosswalk_DB_Match.xlsx, Liberty_QC_Review.xlsx. Verified: 26,211 rows, SNF 15,248 (+2), ALF 10,956 (-2), served 1,658 (unchanged)."
+    },
+    {
+      "wave": "2c",
+      "label": "Three-tier Corporate Attribution (GLR -> CMS -> NIC) + Four-Rule",
+      "status": "complete",
+      "date_started": "2026-03-05",
+      "date_completed": "2026-03-05",
+      "script": "corporate_fix.py",
+      "output": "1_Combined_Database_FINAL_V22_3.xlsx",
+      "notes": "4,182 Corporate_Name changes: 701 GLR, 1216 CMS, 2265 NIC. 1 row(s) removed (Liberty PROPCO dupe). 2,676 Ownership_Type reclassifications. 1605 NIC rows flagged (Tier C/suspicious). New column: Corp_Attribution_Source."
+    }
+  ],
+  "v22_3_actuals": {
+    "_comment": "V22.3 actuals after Wave 2c three-tier corporate fix (2026-03-05)",
+    "total_facilities": 26210,
+    "snf_count": 15247,
+    "alf_count": 10956,
+    "ilf_count": 7,
+    "served_count": 1658,
+    "corporate_count": 18635,
+    "independent_count": 7575,
+    "distinct_corporate_names": 4166,
+    "corp_name_changes": 4182,
+    "rows_removed": 1,
+    "ownership_reclassified": 2676,
+    "attribution_sources": {
+      "CMS": 9978,
+      "LEGACY": 11822,
+      "GLR": 1798,
+      "NIC-A": 2086,
+      "NIC-B": 526
+    },
+    "phase2a_glr_changes": 701,
+    "phase2b_cms_changes": 1216,
+    "phase2c_nic_changes": 2265,
+    "phase2c_flagged": 1605
   }
 }

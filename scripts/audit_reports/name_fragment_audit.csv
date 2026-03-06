@@ -1,0 +1,27 @@
+norm_stem,variant_count_in_cluster,total_rows_in_cluster,corporate_name,row_count,states,source_types,ownership_types,served_count
+pruitthealth,2,117,PRUITTHEALTH,99,"FL, GA, NC, SC","ALF, SNF",Corporate,12
+pruitthealth,2,117,PRUITT HEALTH,18,"KY, NC",ALF,Corporate,18
+otterbeinseniorlife,2,23,OTTERBEIN SENIORLIFE,16,"IN, OH",SNF,Corporate,6
+otterbeinseniorlife,2,23,OTTERBEIN SENIOR LIFE,7,"IN, OH",ALF,Corporate,7
+millersmerrymanor,2,18,MILLER'S MERRY MANOR,14,IN,SNF,Corporate,0
+millersmerrymanor,2,18,MILLERS MERRY MANOR,4,IN,"ALF, SNF",Corporate,3
+beehivehomes,2,13,BeeHive Homes,12,"MI, MN, WI",ALF,Corporate,0
+beehivehomes,2,13,BeehiveHomes,1,GA,ALF,Independent,0
+citizensmemorialhealthcare,2,7,CITIZENS MEMORIAL HEALTH CARE,6,MO,SNF,Corporate,0
+citizensmemorialhealthcare,2,7,Citizens Memorial Healthcare,1,MO,ALF,Independent,0
+hcrmanorcarepropertiesllc,2,5,HCR MANORCARE PROPERTIES LLC,3,PA,ALF,Corporate,0
+hcrmanorcarepropertiesllc,2,5,HCR MANOR CARE PROPERTIES LLC,2,PA,ALF,Corporate,0
+northportretirementcentersinc,2,3,"Northport Retirement Centers, Inc",2,FL,ALF,Corporate,0
+northportretirementcentersinc,2,3,"North Port Retirement Centers, Inc.",1,FL,ALF,Independent,0
+resthavenhomesinc,2,3,"Resthaven Homes, Inc",2,MI,ALF,Corporate,0
+resthavenhomesinc,2,3,"Rest Haven Homes, Inc.",1,MI,ALF,Independent,0
+crownpointecommunities,2,2,CROWN POINTE COMMUNITIES,1,IN,ALF,Independent,1
+crownpointecommunities,2,2,CrownPointe Communities,1,FL,ALF,Independent,0
+mpcareiillc,2,2,"MPCARE II, LLC",1,NC,ALF,Independent,1
+mpcareiillc,2,2,"MP CARE II, LLC",1,NC,ALF,Independent,0
+westernnorthcarolinalionsinc,2,2,"WESTERN NORTH CAROLINA LIONS, INC",1,NC,ALF,Independent,1
+westernnorthcarolinalionsinc,2,2,"WESTERN NORTH CAROLINA LION'S, INC",1,NC,ALF,Independent,0
+bluecentralgroup,2,2,BLUE CENTRAL GROUP,1,OH,ALF,Independent,1
+bluecentralgroup,2,2,BLUE CENTRAL GROUP?,1,OH,ALF,Independent,1
+presbyterianseniorcare,2,2,PRESBYTERIAN SENIOR CARE,1,PA,ALF,Independent,0
+presbyterianseniorcare,2,2,PRESBYTERIAN SENIORCARE,1,PA,ALF,Independent,0
