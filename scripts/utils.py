@@ -14,7 +14,7 @@ from openpyxl import load_workbook
 # ---------------------------------------------------------------------------
 
 VAULT = Path.home() / "OneDrive - Eventus WholeHealth" / "Vault" / "02_Data_Model"
-DB_CURRENT = VAULT / "Current" / "1_Combined_Database_FINAL_V22_8.xlsx"
+DB_CURRENT = VAULT / "Current" / "1_Combined_Database_FINAL_V22_9.xlsx"
 CMS_SNF_FILE = VAULT / "Reference" / "Source_SNF_Database_with_Revenue_Q4_2025.xlsx"
 CMS_PROVIDER_FILE = VAULT / "Reference" / "Source_CMS_NH_ProviderInfo_Feb2026.csv"
 NIC_ALF_FILE = VAULT / "Reference" / "Source_NIC_Maps_Nationwide_Inventory_Export_11.17.25.xlsx"
