@@ -34,6 +34,12 @@ archive/         Full version history (V02-V19.1) + foundation docs
 | scripts/corporate_dedup_fix.py | Corporate name consolidation — V22.3 -> V22.4 (preview/apply) |
 | scripts/remove_greencroft_dupes.py | Remove 3 duplicate/phantom Greencroft rows from V22.6 (preview/apply) |
 | scripts/v22_7_fix.py | Combined V22.6->V22.7: Liberty QC + Singh/Cedarhurst/Spring Arbor dedup (preview/apply) |
+| scripts/v22_8_norm_clusters.py | Exact norm cluster consolidation — V22.7 -> V22.8 (19 clusters + 4 typo fixes, 199 renames) |
+| scripts/v22_9_fuzzy_dedup.py | High-confidence fuzzy match consolidation — V22.8 -> V22.9 (14 pairs, 507 renames) |
+| scripts/v22_10_southern_fix.py | Southern Healthcare Management consolidation — V22.9 -> V22.10 (Sovereign→Southern, 44 renames) |
+| scripts/v22_11_il_reclassify.py | IL/55+ Source_Type reclassification — V22.10 -> V22.11 (53 ALF→ILF) |
+| scripts/v22_12_snf_dedup.py | SNF same-address dedup via CCN verification — V22.11 -> V22.12 (255 rows removed) |
+| scripts/v22_13_alf_dedup.py | ALF same-address dedup — V22.12 -> V22.13 (215 rows removed) |
 | scripts/qc_validator.py | QC tool — snapshot, compare, validate modes |
 | scripts/qc_config.json | File paths + expected values (update per version) |
 
