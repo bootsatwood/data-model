@@ -239,8 +239,9 @@ TOM_RS_SCORES = {
     'Momentus Health': 1,
 }
 
-# SI scores — from Tom's Notes + web research (Finance 60 entities), default 2 for gap entities
+# SI scores — from Tom's Notes + web research (all entities)
 DATA_SI_SCORES = {
+    # --- Finance 60 overlap (from V8 workbook research) ---
     'ALG': 5, 'Brookdale Senior Living': 5, 'Saber Healthcare Group': 5,
     'Trilogy': 5, 'Liberty': 5, 'Pruitt Health': 5, 'Avardis': 5,
     'Lifecare': 5,
@@ -250,11 +251,42 @@ DATA_SI_SCORES = {
     'Principle': 3, 'Lionstone Care': 3, 'Kissito Healthcare': 3,
     'CCH Healthcare': 3, 'TerraBella Senior Living': 3, 'Peak Resources': 3,
     'BHI Senior Living': 3,
-    # Gap entities with known SI from V20 or obvious research
-    'Ciena Healthcare/Laurel Health Care': 3,  # Multi-state, 85 total facilities
-    'National Healthcare Corporation': 3,  # Multi-state, 82 total facilities
-    'PACS Group': 3,  # NYSE: PACS, large operator
-    'Sunrise Senior Living': 4,  # Major national operator, 100+ facilities
+    # --- Gap entities (web research Mar 7, 2026) ---
+    # SI=5: REIT/ISNP/Enterprise
+    'Brickyard Healthcare': 5,                    # PE-backed (Fillmore Capital), co-founded largest provider-owned I-SNP in US (Jan 2025) (Skilled Nursing News)
+    'Ciena Healthcare/Laurel Health Care': 5,     # Omega Healthcare REIT's largest operator (~12% of OHI portfolio) + Curana Health I-SNP partnership (PR Newswire, SEC 10-K)
+    'National Healthcare Corporation': 5,         # NYSE: NHC, oldest publicly traded senior care co, owns NHC Advantage I-SNP (nhcadvantageplan.com, Yahoo Finance)
+    'PACS Group': 5,                              # NYSE: PACS, 2nd largest public SNF operator, ACO 120K+ beneficiaries, CareTrust REIT leases (pacsaco.com, Modern Healthcare)
+    'Ohio Living Communities': 5,                 # Largest OH nonprofit senior living, owns Perennial Advantage I-SNP (25% stake), $204M revenue (Senior Housing News, perennialadvantage.com)
+    # SI=4: Payer/ACO connected
+    'Sunrise Senior Living': 4,                   # 240+ communities US/UK/Canada, Welltower REIT partnership $6B+ (PR Newswire, Senior Housing News)
+    'Carespring': 4,                              # LTC Properties (NYSE: LTC) master lease, $181.5M Northwind portfolio sale (Senior Housing News, Walker & Dunlop)
+    # SI=3: Regional reputation
+    'Altercare': 3,                               # 22-24 facilities OH/MI, "Integrated Health Services" branding, multi-decade history (altercare.com)
+    'AOM Healthcare': 3,                          # 20-21 facilities OH/NY, established regional operator (nursinghomedatabase.com)
+    'Aperion Care': 3,                            # 37 facilities IL/IN, large portfolio (aperioncare.com, PitchBook)
+    'Certus Healthcare': 3,                       # 17 SNFs + 2 ALFs OH, Blue Sky dementia program (certushc.com)
+    'Continuing Healthcare Solutions': 3,         # 33+ properties OH, $43.3M Oxford Finance credit facility (PR Newswire)
+    'Crown Healthcare Group': 3,                  # 5-state footprint, ~9 OH SNFs, PE-leased real estate (chcgrp.com, Skilled Nursing News)
+    'Gardant Management Solutions': 3,            # 5th largest US AL provider, 100+ communities/6 states, MCO partnerships (gardant.com, Senior Housing News)
+    'Hillstone Healthcare': 3,                    # 39 OH SNFs, CareTrust REIT (NASDAQ: CTRE) master lease, $161M credit facility (CareTrust press release)
+    'Miller\'s Merry Manor': 3,                   # 40+ IN facilities, ESOP, largest IN-focused SNF/AL operator (millersmerrymanor.com)
+    'Optalis Health & Rehabilitation': 3,         # 41 locations OH/MI, serial acquirer, 4th largest MI SNF provider (Skilled Nursing News)
+    'Phoenix Senior Living': 3,                   # 53 communities/10 SE states, White Oak Healthcare REIT JV (phoenixsrliving.com)
+    'White Oak Management': 3,                    # 15 NC/SC facilities + LTC pharmacy, acquired by NHC for $220M Aug 2024 (BusinessWire)
+    # SI=2: Minimal local presence (web research confirmed no significant affiliations)
+    'Carecore Health': 2,                         # 12 OH facilities, no affiliations found (carecorehealth.com)
+    'Divine Healthcare Management': 2,            # ~6-7 OH facilities, small operator (PR Newswire)
+    'Envive Healthcare': 2,                       # 9 IN communities, no affiliations found (envivehealthcare.com)
+    'HCF Management': 2,                          # 22 facilities OH/PA, no affiliations found (hcfinc.com)
+    'Health Care Management Group': 2,            # 7 facilities Cincy/NKY, locally owned (hcmg.com)
+    'Legacy Health Services': 2,                  # Family-owned, 10 OH facilities, no affiliations found (lhshealth.com)
+    'Progressive Quality Care': 2,                # Family-owned, ~11 OH/MI care centers (progressivequalitycare.com)
+    'SEKY Holding Co.': 2,                        # 9 KY facilities, no affiliations found
+    'Sprenger Health Care Systems': 2,            # Family-owned, 26 facilities OH/SC (sprengerhealthcare.com)
+    'Trio Healthcare': 2,                         # 11 VA-only facilities, founded 2016 (trio-healthcare.com)
+    'Vancrest Health Care Centers': 2,            # Family-owned, 13 OH facilities (vancrest.com)
+    'Windsor House': 2,                           # Family-owned, 16 NE OH facilities (windsorhouseinc.com)
 }
 
 # ============================================================
