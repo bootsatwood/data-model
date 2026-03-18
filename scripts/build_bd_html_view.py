@@ -241,6 +241,7 @@ ENTITY_DB_NAMES = {
     'Runk & Pratt': {'RUNK & PRATT'},
     'Sunnyside Communities': {'SUNNYSIDE COMMUNITIES', 'SUNNYSIDE'},
     'Warm Hearth Village': {'WARM HEARTH VILLAGE'},
+    'Triple Crown Senior Living': {'TRIPLE CROWN SENIOR LIVING'},
 }
 
 _build_canonical_lookup()
