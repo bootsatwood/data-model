@@ -1,6 +1,6 @@
 # MUO Corporate History Log
 
-Tracks corporate-level events — mergers, acquisitions, divestitures, rebrands, name changes — for operators in the Combined Database. One section per entity. Entries are added during fuzzy match reconciliation (Punchlist #4) and MUO candidate evaluations.
+Tracks corporate-level events — mergers, acquisitions, divestitures, rebrands, name changes — for operators in the Combined Database. Entries are added during V23 scoring research, fuzzy match reconciliation (Punchlist #4), and MUO candidate evaluations.
 
 **Purpose:** Preserve research so it doesn't have to be repeated. When an operator comes up in scoring, pipeline review, or stakeholder conversations, check here first.
 
@@ -8,6 +8,9 @@ Tracks corporate-level events — mergers, acquisitions, divestitures, rebrands,
 - `reference/Facility_Acquisitions_Log.md` — facility-level CHOW events (individual facility ownership changes)
 - `scripts/audit_reports/Corporate_Name_Dedup_Review_ra_v2.xlsx` — fuzzy match decisions and canonical names
 - `changelogs/V22_8_to_V22_9_Fuzzy_Match_Consolidation.md` — confirmed same/different determinations from V22.9
+- `Vault/03_Corporate_Accounts/MUO_Profiles/` — 22 standardized MUO Profile markdown files (Wave 1-3)
+- `current/6.3_Corporate_Scoring_Methodology_V23.md` — V23 scoring methodology (V23.8)
+- `changelogs/2026-03-11_RS_Score_Reconciliation_V20_vs_V23.md` — Brooke vs Tom RS reconciliation
 
 ---
 
@@ -37,6 +40,69 @@ Tracks corporate-level events — mergers, acquisitions, divestitures, rebrands,
 - ProMedica Health Systems (1 IL facility) is the parent company name — same entity
 
 **Resolved:** 2026-03-21, Punchlist #4 rows 39/41/44. All 5 variants → SAME → canonical `PROMEDICA`.
+
+---
+
+## UNITED METHODIST CLUSTER (disambiguation)
+
+**Not a single entity.** The DB contains 7 distinct organizations that share "United Methodist" in their name due to denominational affiliation. Each is an independently governed nonprofit with its own board, EIN, and covenant relationship with a regional United Methodist Conference. No corporate parent-child relationship exists between any of them.
+
+### THE UNITED METHODIST RETIREMENT HOMES, INC (UMRH) — umrh.org
+**Canonical DB name:** `THE UNITED METHODIST RETIREMENT HOMES, INC`
+**Also in DB as:** `UNITED METHODIST RETIREMENT HOMES INC` (row 94 resolved → SAME)
+**Location:** NC (Durham, Lumberton, Greenville)
+**Communities:** Croasdaile Village (Durham), Wesley Pines (Lumberton), plus Greenville campus
+**Served:** 6 facilities (Croasdaile Clinic, Croasdaile Village SNF/ALF, Wesley Pines SNF/ALF)
+**CMS:** No chain ID. SNFs operate under UMRH legal name directly.
+**GLR:** Wesley Pines (109 pts), Croasdaile Village (31 pts), Croasdaile Clinic (0 pts), Croasdaile Friendship House (0 pts)
+**Leadership:** Jonathan P. Erickson, Corporate Executive Director (since 2007)
+**Notes:** Faith-based nonprofit, serves ~1,800 seniors across NC. Three Life Plan Communities + one affordable housing community.
+
+### ALDERSGATE UNITED METHODIST RETIREMENT COMMUNITY, INC — aldersgateliving.org
+**DB names:** `ALDERSGATE UNITED METHODIST RETIREMENT COMMUNITY, INC`, `ALDERSGATE UMRC, INC`
+**Location:** Charlotte, NC (3800 Shamrock Dr)
+**EIN:** 56-0547462
+**Served:** 0
+**CMS:** No chain ID.
+**GLR:** Aldersgate Retirement Community - Asbury (SNF, 46 pts) — listed under "Life Plan Community," not UMRH.
+**Notes:** Founded 1945 as "The Methodist Home." ~$40M annual revenue. 346 IL/AL units, 125 SNF beds, 61 memory support. Near insolvency 2023 — NC DOI issued order of supervision. Affiliating with Givens Communities (Asheville-based nonprofit) as of 2025. Completely separate from UMRH.
+
+### UNITED METHODIST HOMES (UMH) — unitedmethodisthomes.org
+**DB name:** `UNITED METHODIST HOMES`
+**Location:** Binghamton, NY / NE Pennsylvania
+**Facilities:** 5 (Elizabeth Church Campus Binghamton NY, Hilltop Campus Johnson City NY, Tunkhannock PA, Wesley Village Pittston PA, plus 1)
+**Served:** 0
+**CMS:** Chain ID 534 (2 SNFs: Elizabeth Church Manor 120 beds, Wesley Village 160 beds)
+**Notes:** Founded 1958 in Scranton PA. Serves 1,100+ residents, 1,000+ employees. Entirely outside our 6-state footprint.
+
+### WESBURY UNITED METHODIST COMMUNITY — wesbury.com
+**DB name:** `WESBURY UNITED METHODIST COMMUNITY`
+**Location:** Meadville, PA (31 North Park Ave, 110-acre campus)
+**Served:** 0
+**Notes:** Founded 1913. Covenant with East Ohio UM Conference. Full CCRC — IL, personal care, SNF, memory care, rehab. Standalone single-campus nonprofit. Outside footprint.
+
+### COPELAND OAKS (Copeland United Methodist) — copelandoaks.com
+**DB name:** `COPELAND UNITED METHODIST`
+**Location:** Sebring, OH (250-acre campus)
+**Served:** 0
+**Notes:** Founded 1963 (Cope family land donation), opened 1967 as "The Cope Methodist Home." Covenant with East Ohio UM Conference (same as Wesbury, but independent org). Includes Crandall Medical Center (SNF). In footprint (OH) but single campus.
+
+### QUINCY UNITED METHODIST HOME
+**DB name:** `QUINCY UNITED METHODIST HOME`
+**Location:** Quincy, PA
+**Served:** 0
+**Notes:** Small nursing home. Web research suggests may now be affiliated with or acquired by Presbyterian Senior Living (Quincy Village). Outside footprint.
+
+### UNITED METHODIST RETIREMENT (KY)
+**DB name:** `UNITED METHODIST RETIREMENT`
+**Location:** KY (1 facility)
+**Served:** 0
+**Notes:** Single facility in KY. Minimal footprint.
+
+### Also related: PINNACLE LIVING (VA)
+Formerly "Virginia United Methodist Homes, Inc." — separate entry in this file. Rebranded, no longer uses Methodist name. 6 VA campuses, fails 7+ gate.
+
+**Resolved:** 2026-03-21, Punchlist #4 rows 77/95/97/106/109/110/112/127/132/135/136/140. All 12 pairs → NOT THE SAME. Row 94 (UMRH internal variant) was previously resolved → SAME.
 
 ---
 
@@ -361,3 +427,226 @@ Tracks corporate-level events — mergers, acquisitions, divestitures, rebrands,
 **Researched:** 2026-03-21, MUO Candidate Evaluation (board review).
 
 ---
+
+# V23 MUO Scoring Research (February-March 2026)
+
+22 corporate entities received deep-dive research during the V23 Corporate Scoring update. Research included CMS federal data cross-reference, state Secretary of State filings, company websites, industry press (McKnight's, Senior Housing News, Healthcare Finance News), ownership records, and LinkedIn. Each entity received a standardized MUO Profile (10-section Kisco template) saved to `Vault/03_Corporate_Accounts/MUO_Profiles/`.
+
+**Scoring outputs:**
+- MUO Scoring Workbook V23 (v8) — Finance 60 universe, 9 tabs with facility-level detail
+- Final MUO Tiering V23 — BD universe, 84 entities (21 T1, 34 T2, 6 T3, 7 T4, 16 T5)
+- BD Complete MUO Universe V23 — 100-entity HTML view with stacked tiers and entity hyperlinks
+- BD MUO Breakouts — individual entity deep-dive pages (business desc, leadership, service penetration, scoring)
+
+---
+
+## Wave 1: Profile Conversions (8 entities, completed March 2, 2026)
+
+Legacy DOCX/PDF profiles converted to standardized markdown template with full research refresh.
+
+### ALG SENIOR LIVING
+**V23 Tier:** T1 (Score: 64)
+**Footprint:** NC | 65 facilities, 65 served
+**Research focus:** Financial distress analysis. LTC Properties REIT acquired majority ownership after 2024 restructuring. Evaluated stability risk and implications for service continuity.
+**Profile:** `ALG_MUO_Profile.md`
+
+---
+
+### AMERICAN SENIOR COMMUNITIES
+**V23 Tier:** T1 (Score: 83)
+**Footprint:** IN | 150 DB / ~102 public
+**Research focus:** Ownership history (Jackson family / David Justice operator; HHC facilities). I-SNP analysis — launched largest provider-owned I-SNP network Jan 2025. Significant strategic influence signal.
+**Profile:** `American_Senior_Communities_MUO_Profile.md`
+
+---
+
+### KISCO SENIOR LIVING
+**V23 Tier:** T1* (Score: 58, proposed)
+**Footprint:** NC, FL | 19 DB / 32 public
+**Research focus:** Nationally significant operator substantially undercounted in DB. Welltower REIT partnership. NIC board representation. Public research confirmed portfolio much larger than DB reflects.
+**Profile:** `Kisco_Senior_Living_MUO_Profile.md`
+
+---
+
+### LIBERTY HEALTH
+**V23 Tier:** T1 (Score: 63 → 82 in V23)
+**Footprint:** NC, SC, TN, FL | 76 facilities (V22.4)
+**Research focus:** Leadership team research. Liberty Advantage ISNP analysis. RS upgrade based on Tom's field notes — RFP proposal activity indicating growing engagement.
+**Profile:** `Liberty_Health_MUO_Profile.md`
+
+---
+
+### LUTHERAN LIFE VILLAGES
+**V23 Tier:** T2* (Score: 39, proposed)
+**Footprint:** IN | 10 DB / 6 campuses
+**Research focus:** V22.4 DB + public research. T4 classification — 6 qualifying campuses, 1 short of MUO gate. Faith-based nonprofit.
+**Profile:** `Lutheran_Life_Villages_MUO_Profile.md`
+
+---
+
+### SOUTHERN HEALTHCARE MANAGEMENT
+**V23 Tier:** T2 (Score: 32 → 61 in V23)
+**Footprint:** FL, GA, NC | 46 DB / 33 public
+**Research focus:** **Identity consolidation deep dive.** Discovered Sovereign Healthcare Holdings was the same entity as Southern Healthcare Management — different name layers for the same operator. Split existed since V20 (separate T2 entries for "Southern Assisted Living LLC" and "Sovereign Healthcare Holdings"). Consolidated using CMS federal data matching + address verification + corporate history. IR upgrade (+6 points) recognizing integrated campus operations.
+**Profile:** `Southern_Healthcare_Management_MUO_Profile.md`
+
+---
+
+### TRIPLE CROWN SENIOR LIVING (formerly Vitality Senior Services)
+**V23 Tier:** T2* (Score: 41, proposed)
+**Footprint:** KY, IN, OH, TN, TX | 4 DB / 14 public
+**Research focus:** V22.4 DB + public research. T4 classification (4 qualifying campuses at time of V23). Louisville's #1 fastest-growing private company (2025). CEO/President research. Rebrand from Vitality Senior Services discovered.
+**Profile:** `Triple_Crown_Senior_Living_MUO_Profile.md`
+**Note:** Later passed 7+ gate after V24.2 corrections (9 footprint campuses). See MUO Candidate Evaluation entry above.
+
+---
+
+### ZANZIPER (Simcha Hyman & Naftali Zanziper)
+**V23 Tier:** T2* (Score: 39, proposed)
+**Footprint:** 10 states | 115 DB / 200+ public
+**Research focus:** **Regulatory and ownership structure deep dive.** CON mapping, regulatory analysis, consolidated facility list. 100% barriered — owns provider group + alliance. $12M+ CMS fines since 2021. The Ivy at Great Falls closure. Opaque layered ownership (Portopiccolo Group / 980 Investments). T5 barrier classification.
+**Profile:** `Zanziper_MUO_Profile.md`
+
+---
+
+## Wave 2: Strawman Profiles (12 entities, March 2, 2026)
+
+Entity research complete with proposed scoring. Facility lists and revenue calculations pending full build.
+
+### ARBORS OF OHIO
+**V23 Tier:** T2 (Score: 49)
+**Footprint:** OH | 16 facilities
+**Profile:** `Arbors_of_Ohio_MUO_Profile.md`
+
+---
+
+### ATRIUM CENTERS
+**V23 Tier:** Scoring pending
+**Footprint:** MI, OH, WI, KY | 27 DB / 26 CMS
+**Research focus:** Database verification analysis — 27 facilities confirmed. T4 classification investigation (barrier status pattern similar to CommuniCare).
+**Profile:** `Atrium_Centers_MUO_Profile.md`
+
+---
+
+### BHP / ENCORE
+**V23 Tier:** T4
+**Research focus:** Entity clarification investigation.
+**Profile:** `BHP_Encore_MUO_Profile.md`
+
+---
+
+### BROOKDALE SENIOR LIVING
+**V23 Tier:** T1 (Score: 69)
+**Footprint:** Multi-state | 58 facilities
+**Research focus:** NYSE: BKD analysis. Largest US senior living company. REIT partnerships (Welltower, DHC). Leadership research.
+**Profile:** `Brookdale_Senior_Living_MUO_Profile.md`
+
+---
+
+### CARING PLACE HEALTHCARE
+**V23 Tier:** T3 (Score: 17)
+**Footprint:** OH | 10 facilities
+**Research focus:** Psychosocial specialization analysis.
+**Profile:** `Caring_Place_Healthcare_MUO_Profile.md`
+
+---
+
+### CASTLE HEALTHCARE
+**V23 Tier:** T2 (Score: 47)
+**Footprint:** IN | 12 facilities
+**Research focus:** Market analysis. Brooke/Ian involvement notes.
+**Profile:** `Castle_Healthcare_MUO_Profile.md`
+
+---
+
+### CLEARVIEW HEALTHCARE MANAGEMENT
+**V23 Tier:** T2 (Score: 27)
+**Footprint:** KY, TN | 5 DB / ~31 public
+**Research focus:** **Data gap analysis.** Only 5 of ~31 CMS facilities in database. Tennessee entirely missing. Partnership research (Telos process).
+**Profile:** `ClearView_Healthcare_Management_MUO_Profile.md`
+
+---
+
+### LIONSTONE CARE
+**V23 Tier:** T2 (Score: 46)
+**Footprint:** OH, NJ | 23 facilities
+**Research focus:** Regional operator analysis. Relationship status.
+**Profile:** `LionStone_Care_MUO_Profile.md`
+
+---
+
+### MAJESTIC CARE
+**V23 Tier:** T1 (Score: 100)
+**Footprint:** IN, OH, KY, MI, PA | 43 DB / 48 public
+**Research focus:** **High-value opportunity deep dive.** Highest score in V20 universe (100/100). Marx Development Group parent company. $60M WV state facility acquisition (Nov 2025). $3.7M integration cross-sell opportunity identified (15 of 19 served are MH-only, conversion to integrated model).
+**Profile:** `Majestic_MUO_Profile.md`
+
+---
+
+### PRIMROSE RETIREMENT COMMUNITIES
+**V23 Tier:** T2* (Score: 47, proposed)
+**Footprint:** OH, IN | 11 DB / ~34 public
+**Research focus:** ALF operator shift analysis. Four new ownership partners (Jan 2025). Mishawaka, IN active lead ($142K PCP-only). Data quality issue — facilities misclassified as independent in DB.
+**Profile:** `Primrose_Retirement_Communities_MUO_Profile.md`
+
+---
+
+### PRUITT HEALTH
+**V23 Tier:** T1 (Score: 81)
+**Footprint:** GA, NC, SC, FL | 27 facilities
+**Research focus:** PruittHealth Premier ISNP analysis. CMS documentation review.
+**Profile:** `PruittHealth_MUO_Profile.md`
+
+---
+
+### SABER HEALTHCARE GROUP
+**V23 Tier:** T1 (Score: 91)
+**Footprint:** OH, PA, VA, NC, IN, DE | 120 facilities
+**Research focus:** Omega Healthcare Investors 49% JV ownership structure. RS discrepancy identified — Brooke scored 5 (strong relationship), Tom scored 2 (weak). Delta itself is a signal worth investigating.
+**Profile:** `Saber_Healthcare_Group_MUO_Profile.md`
+
+---
+
+## Wave 3: Additions (2 entities, March 5, 2026)
+
+Built from V22.4 DB + public research. Discovered during complete universe build.
+
+### LUTHERAN SERVICES CAROLINAS
+**V23 Tier:** T1 (Score: 68)
+**Footprint:** NC | 12 campuses, 8 served
+**Research focus:** **Critical entity recovery.** Present in Finance workbook the entire time but missing from the BD view — never profiled, never scored. Deep-dive research during complete universe build. Faith-based nonprofit (ELCA). 65+ year history. 8 AHCA Bronze awards (2024). CEO Ted W. Goins Jr. (36 years tenure). $3M total revenue opportunity identified.
+**Profile:** `Lutheran_Services_Carolinas_MUO_Profile.md`
+
+---
+
+### TRILOGY HEALTH SERVICES
+**V23 Tier:** T1 (Score: 79)
+**Footprint:** IN, OH, KY, MI, WI | 186 DB / ~144 public
+**Research focus:** **#1 Growth Opportunity.** American Healthcare REIT (NYSE: AHR) owner ($258M deal Sept 2024). Kingston Healthcare acquisition (Dec 2025, added 14 campuses). Synchrony Health Services vertically integrated pharmacy/rehab/lab subsidiary. $41.8M total revenue potential — largest single opportunity in the database.
+**Profile:** `Trilogy_Health_Services_MUO_Profile.md`
+
+---
+
+## Special Research Initiatives During V23
+
+### Identity Consolidation
+- **Sovereign Healthcare Holdings = Southern Healthcare Management** — same entity, different name layers. Split existed since V20 as two separate T2 entries. Consolidated using CMS federal data + address matching.
+- **Heritage Hall = American Healthcare, LLC** — operating name vs. parent company name. CMS-sourced records used one name, GLR-sourced used another. Chain ID 265 confirmed single operator.
+
+### Data Gap Discovery
+- **Lutheran Services Carolinas** — missing from BD view despite Finance tracking. Recovered as T1.
+- **ClearView Healthcare Management** — only 5 of ~31 CMS facilities in DB. Tennessee entirely absent.
+- **Triple Crown Senior Living** — only 4 of 14 public communities in DB.
+- **Kisco Senior Living** — nationally significant operator substantially undercounted.
+
+### Barrier/Strategic Research
+- **Pavilion Healthcare** — alliance + 29% own provider group (T5 barrier)
+- **Zanziper** — 100% barriered, own provider group + alliance, $12M+ regulatory history, opaque ownership
+
+### RS Reconciliation (March 11, 2026)
+Brooke (BD perspective) vs Tom (Sales Success perspective) — 50 entities scored side-by-side. 11 big divergences identified:
+- Otterbein (delta -4), Arbors of Ohio (-3), Pavilion (-3), Saber (-3)
+- Divergences treated as signals, not errors — BD sees growth potential, SS sees operational depth
+
+### V20 → V23 Movers Analysis
+10 upgrades, 15 downgrades tracked across scoring versions. 3 root causes identified: RS methodology change (dual-scorer), IR recalculation (service flag audit), and ER campus count corrections.
