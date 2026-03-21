@@ -41,6 +41,15 @@ archive/         Full version history (V02-V19.1) + foundation docs
 | scripts/v22_12_snf_dedup.py | SNF same-address dedup via CCN verification — V22.11 -> V22.12 (255 rows removed) |
 | scripts/v22_13_alf_dedup.py | ALF same-address dedup — V22.12 -> V22.13 (215 rows removed) |
 | scripts/v22_14_alf_diffcorp_dedup.py | ALF PROPCO/OPCO dedup — V22.13 -> V22.14 (37 rows removed) |
+| scripts/v24_migration.py | V24 migration — 62 deletes + 42 field updates |
+| scripts/v24_1_migration.py | V24.1 migration — 27 deletes + 72 field updates (IN cleanup) |
+| scripts/v24_2_migration.py | V24.2 migration — 106 changes (MUO candidate eval corrections) |
+| scripts/v24_3_migration.py | V24.3 migration — 4 deletes (deferred V24.2 items) |
+| scripts/build_scoring_workbook.py | Finance 60 scoring workbook generator |
+| scripts/build_final_muo_tiering.py | BD universe tiering workbook generator |
+| scripts/build_bd_html_view.py | BD 100-entity HTML view + breakout pages |
+| scripts/score_new_muos.py | V25 new operator scoring (Navion, Gardant, RUI, Vitality, Triple Crown) |
+| scripts/heritage_hall_rescore.py | Heritage Hall V25 rescore (T4→T1, entity consolidation) |
 | scripts/qc_validator.py | QC tool — snapshot, compare, validate modes |
 | scripts/qc_config.json | File paths + expected values (update per version) |
 
