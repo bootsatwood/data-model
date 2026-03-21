@@ -54,7 +54,7 @@ ENTITY_UNIVERSE = {
     'Brookdale Senior Living': {'BROOKDALE SENIOR LIVING'},
     'Saber Healthcare Group': {'SABER HEALTHCARE GROUP', 'SABER HEALTHCARE'},
     'Infinity Healthcare Consulting': {'INFINITY HEALTHCARE CONSULTING'},
-    'Navion': {'NAVION', 'NAVION SENIOR SOLUTIONS'},
+    'Navion': {'NAVION', 'NAVION SENIOR SOLUTIONS', 'NAVION SENIOR LIVING', 'Navion Senior Solutions'},
     'Majestic Care': {'MAJESTIC CARE'},
     'Pruitt Health': {'PRUITT HEALTH', 'PRUITTHEALTH'},
     'Trilogy': {'TRILOGY', 'TRILOGY HEALTH SERVICES'},
@@ -72,7 +72,7 @@ ENTITY_UNIVERSE = {
     'Avardis': {'AVARDIS', 'CONSULATE HEALTH CARE/INDEPENDENCE LIVING CENTERS/NSPIRE HEALTHCARE/RAYDIANT HEALTH CARE'},
     'Peak Resources': {'PEAK RESOURCES'},
     'Arbors': {'ARBORS', 'ARBORS AT OHIO'},
-    'American Healthcare LLC': {'AMERICAN HEALTHCARE, LLC'},
+    'Heritage Hall': {'HERITAGE HALL', 'AMERICAN HEALTHCARE, LLC', 'AHC'},
     'CCH Healthcare': {'CCH HEALTHCARE'},
     'Priority': {'PRIORITY LIFE CARE'},
     'Lifecare': {'LIFE CARE CENTERS OF AMERICA'},
@@ -99,7 +99,7 @@ ENTITY_UNIVERSE = {
     'Crown Healthcare Group': {'CROWN HEALTHCARE GROUP'},
     'Divine Healthcare Management': {'DIVINE HEALTHCARE MANAGEMENT'},
     'Envive Healthcare': {'ENVIVE HEALTHCARE'},
-    'Gardant Management Solutions': {'GARDANT MANAGEMENT SOLUTIONS, INC'},
+    'Gardant Management Solutions': {'GARDANT MANAGEMENT SOLUTIONS, INC', 'GARDANT MANAGEMENT SOLUTIONS', 'GARDANT'},
     'HCF Management': {'HCF MANAGEMENT'},
     'Health Care Management Group': {'HEALTH CARE MANAGEMENT GROUP'},
     'Hillstone Healthcare': {'HILLSTONE HEALTHCARE'},
@@ -118,6 +118,10 @@ ENTITY_UNIVERSE = {
     'Vancrest Health Care Centers': {'VANCREST HEALTH CARE CENTERS'},
     'White Oak Management': {'WHITE OAK MANAGEMENT'},
     'Windsor House': {'WINDSOR HOUSE, INC.'},
+    # --- V25 additions (MUO Candidate Evaluation, 2026-03-21) ---
+    'Retirement Unlimited (RUI)': {'RETIREMENT UNLIMITED, INC.', 'RETIREMENT UNLIMITED, INC', 'RUI'},
+    'Vitality Living': {'VITALITY LIVING'},
+    'Triple Crown Senior Living': {'TRIPLE CROWN SENIOR LIVING', 'VITALITY SENIOR SERVICES'},
 }
 
 # V20 name -> our display name (for AI score lookup)
@@ -144,7 +148,7 @@ V20_TO_DISPLAY = {
     'Consulate Health Care/Independence Living Centers/Nspire Healthcare/Raydiant Health Care': 'Avardis',
     'Peak Resources, Inc.': 'Peak Resources',
     'Arbors At Ohio': 'Arbors',
-    'Heritage Hall': 'American Healthcare LLC',
+    'Heritage Hall': 'Heritage Hall',
     'Cch Healthcare': 'CCH Healthcare',
     'Priority Life Care': 'Priority',
     'Life Care Centers Of America': 'Lifecare',

@@ -37,7 +37,7 @@ FINANCE_TO_DB = {
     'Brookdale Senior Living': {'BROOKDALE SENIOR LIVING'},
     'SABER HEALTHCARE GROUP': {'SABER HEALTHCARE GROUP', 'SABER HEALTHCARE'},
     'INFINITY HEALTHCARE CONSULTING': {'INFINITY HEALTHCARE CONSULTING'},
-    'NAVION': {'NAVION', 'NAVION SENIOR SOLUTIONS'},
+    'NAVION': {'NAVION', 'NAVION SENIOR SOLUTIONS', 'NAVION SENIOR LIVING', 'Navion Senior Solutions'},
     'Majestic Care': {'MAJESTIC CARE'},
     'PRUITT HEALTH': {'PRUITT HEALTH', 'PRUITTHEALTH'},
     'Kisco Senior Living': {'KISCO SENIOR LIVING'},
@@ -57,7 +57,7 @@ FINANCE_TO_DB = {
     'Avardis': {'AVARDIS', 'CONSULATE HEALTH CARE/INDEPENDENCE LIVING CENTERS/NSPIRE HEALTHCARE/RAYDIANT HEALTH CARE'},
     'PEAK RESOURCES': {'PEAK RESOURCES'},
     'ARBORS': {'ARBORS', 'ARBORS AT OHIO'},
-    'AMERICAN HEALTHCARE LLC': {'AMERICAN HEALTHCARE, LLC'},
+    'HERITAGE HALL': {'HERITAGE HALL', 'AMERICAN HEALTHCARE, LLC', 'AHC'},
     'Runk & Pratt': {'RUNK & PRATT'},
     'MCAP': {'MCAP'},
     'Lutheran Services Carolinas': {'LUTHERAN SERVICES CAROLINAS', 'LUTHERAN SERVICES CAROLINA'},
@@ -82,7 +82,7 @@ FINANCE_TO_DB = {
     'FUNDAMENTAL LTC': {'FUNDAMENTAL HEALTHCARE', 'FUNDAMENTAL LTC'},
     'CARDON & ASSOCIATES': {'CARDON & ASSOCIATES'},
     'Southern Healthcare Mgmt': {'SOUTHERN HEALTHCARE MANAGEMENT, LLC'},
-    'Triple Crown': {'TRIPLE CROWN'},
+    'Triple Crown': {'TRIPLE CROWN', 'TRIPLE CROWN SENIOR LIVING', 'VITALITY SENIOR SERVICES'},
     # T4 entities (below MUO gate but tracked by Finance)
     'Sunnyside Communities': {'SUNNYSIDE COMMUNITIES', 'SUNNYSIDE'},
     'ATRIUM HEALTH': {'ATRIUM HEALTH'},
@@ -180,7 +180,7 @@ TOM_RS_SCORES = {
     'Avardis':                          2,  # Don't really know well, they do not want SS
     'PEAK RESOURCES':                   2,  # Not responsive or interested in SS
     'ARBORS':                          1,  # Don't really know well
-    'AMERICAN HEALTHCARE LLC':          3,  # Probably need to do something, Tom to talk to Colvin
+    'HERITAGE HALL':          3,  # Probably need to do something, Tom to talk to Colvin
     'Runk & Pratt':                    1,  # Don't really know well
     'MCAP':                            1,  # Don't really know well
     'Lutheran Services Carolinas':      4,  # Verbal commitment for SS, part of how we won business
@@ -252,7 +252,7 @@ DATA_SI_SCORES = {
     'TOPAZ HEALTHCARE':                 2,
     'ELDERCARE PARTNERS':               2,  # KY based
     'ARBORS':                           2,  # Ohio focused
-    'AMERICAN HEALTHCARE LLC':          2,  # Heritage Hall buildings, VA
+    'HERITAGE HALL':          2,  # Heritage Hall buildings, VA
     'Runk & Pratt':                     2,  # VA
     'MCAP':                             2,
     'Greencroft':                       2,  # Indiana nonprofit
@@ -894,7 +894,7 @@ TOM_NOTES_SUMMARY = {
     'Avardis': 'Don\'t really know well, they do not want SS',
     'PEAK RESOURCES': 'Not responsive or interested in SS, lost buildings',
     'ARBORS': 'Don\'t really know well',
-    'AMERICAN HEALTHCARE LLC': 'Heritage Hall buildings, need to do something, Tom to talk to Colvin',
+    'HERITAGE HALL': 'Heritage Hall buildings, need to do something, Tom to talk to Colvin',
     'Runk & Pratt': 'Don\'t really know well',
     'MCAP': 'Don\'t really know well',
     'Lutheran Services Carolinas': 'Verbal commitment for SS, part of how we won business',
