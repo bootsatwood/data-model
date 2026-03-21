@@ -1,0 +1,463 @@
+================================================================================
+RETIREMENT UNLIMITED, INC. (RUI) -- 8-STEP CORPORATE OWNER RECONCILIATION
+Generated: 2026-03-21
+Database: PostgreSQL bd.market_intel_facilities (25,672 rows)
+CMS Source: Source_CMS_NH_ProviderInfo_Feb2026.csv (14,710 rows)
+Author: Roian Atwood
+================================================================================
+
+> DO NOT EXECUTE -- REVIEW ONLY
+
+================================================================================
+STEP 1: DATABASE SCAN
+================================================================================
+
+QUERY 1: corporate_name_raw ILIKE '%retirement unlimited%' OR '%RUI%'
+--------------------------------------------------------------------------------
+Raw result: 142 rows
+  - "Retirement Unlimited, Inc." (entity 1222): 16 rows
+  - "RUI" (entity 1254): 2 rows
+  - FALSE POSITIVES: "PRUITT HEALTH" (123 rows), "DRUID HILLS LLC" (1 row)
+    Reason: "RUI" substring appears inside "pRUIt" and "dRUId"
+
+TRUE RUI MATCHES (18 rows, sorted by state/city):
+
+FL:
+  id=24247 | Seaside at Fort Myers           | eid=1222 | Retirement Unlimited, Inc. | ALF | 15800 Beachwalk Blvd, Fort Myers, FL 33908       | Lee        | beds=125 | census=100 | serve=F | attr=LEGACY
+  id=24246 | Seascape at Naples              | eid=1222 | Retirement Unlimited, Inc. | ALF | 3490 Thrive Drive, Naples, FL 34109              | Collier    | beds=137 | census=110 | serve=F | attr=LEGACY
+  id=25456 | Watercrest Palm Beach Gardens   | eid=1222 | Retirement Unlimited, Inc. | ALF | 13465 Pasteur Boulevard, Palm Beach Gardens, FL  | Palm Beach | beds=228 | census=182 | serve=F | attr=LEGACY
+  id=21397 | Capital Square At Tallahassee   | eid=1222 | Retirement Unlimited, Inc. | ALF | 1060 Clarity Pointe, Tallahassee, FL 32308       | Leon       | beds=100 | census=80  | serve=F | attr=LEGACY
+  id=25671 | YOURLife of West Melbourne      | eid=1222 | Retirement Unlimited, Inc. | ALF | 2395 Minton Road, West Melbourne, FL 32904       | Brevard    | beds=84  | census=67  | serve=F | attr=LEGACY
+
+VA:
+  id=16196 | PAUL SPRING COMMUNITY           | eid=1222 | Retirement Unlimited, Inc. | ALF | 7116 Fort Hunt Rd, Alexandria, VA 22307          | (null)     | beds=72  | census=58  | serve=F | attr=NIC-A | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  id=16105 | HEATHERWOOD COMMUNITY           | eid=1222 | Retirement Unlimited, Inc. | ALF | 9642 Burke Lake Rd, Burke, VA 22015              | (null)     | beds=72  | census=58  | serve=F | attr=NIC-A | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  id=20006 | THE WELLINGTON AT LAKE MANASSAS  | eid=1222 | Retirement Unlimited, Inc. | ALF | 7820 Baltusrol Blvd, Gainesville, VA 20155       | Pr William | beds=115 | census=92  | serve=F | attr=NIC-A
+  id=16341 | THE WESTMONT AT SHORT PUMP      | eid=1222 | Retirement Unlimited, Inc. | ALF | 14399 N Gayton Rd, Glen Allen, VA 23059          | (null)     | beds=72  | census=58  | serve=F | attr=NIC-A | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  id=17267 | ASHLEIGH AT LANSDOWNE           | eid=1222 | Retirement Unlimited, Inc. | ALF | 44124 Woodridge Pkwy, Leesburg, VA 20176         | Loudoun    | beds=115 | census=92  | serve=F | attr=NIC-A
+  id=16331 | THE HIDENWOOD COMMUNITY         | eid=1222 | Retirement Unlimited, Inc. | ALF | 50 Wellesley Dr, Newport News, VA 23606          | (null)     | beds=72  | census=58  | serve=F | attr=NIC-A | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  id=20010 | THE WESTMONT AT SHORT PUMP      | eid=1222 | Retirement Unlimited, Inc. | ALF | 14399 North Gayton Road, Richmond, VA 23233      | Henrico    | beds=123 | census=98  | serve=F | attr=NIC-A
+  id=16321 | THE BARRINGTON AT HIOAKS        | eid=1222 | Retirement Unlimited, Inc. | ALF | 350 Hioaks Rd, Richmond, VA 23225                | (null)     | beds=72  | census=58  | serve=F | attr=NIC-A | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  id=16384 | WOODLAND HILLS COMMUNITY        | eid=1254 | RUI                        | ALF | 3365 Ogden Rd, Roanoke, VA 24018                 | (null)     | beds=72  | census=58  | serve=F | attr=GLR   | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  id=16385 | WOODLAND HILLS IL, AL & MC      | eid=1254 | RUI                        | ALF | 3365 Ogden Rd, Roanoke, VA 24018                 | Roanoke    | beds=37  | census=30  | serve=T | attr=GLR   | dq=Surrogate_Census
+  id=15916 | AARONDALE COMMUNITY             | eid=1222 | Retirement Unlimited, Inc. | ALF | 6929 Matthew Pl, Springfield, VA 22151           | (null)     | beds=72  | census=58  | serve=F | attr=NIC-A | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  id=15956 | BAY LAKE COMMUNITY              | eid=1222 | Retirement Unlimited, Inc. | ALF | 4225 Shore Dr, Virginia Beach, VA 23455          | (null)     | beds=72  | census=58  | serve=F | attr=NIC-A | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  id=19866 | THE MORGAN AT FORD'S VILLAGE    | eid=1222 | Retirement Unlimited, Inc. | ALF | 3889 News Rd, Williamsburg, VA 23188             | James City | beds=200 | census=160 | serve=F | attr=NIC-A
+
+QUERY 2: facility_name ILIKE '%retirement unlimited%' OR '%RUI %'
+--------------------------------------------------------------------------------
+Result: 0 rows -- no additional matches
+
+QUERY 3: corporate_name_raw ILIKE '%westmont%' OR '%crestwood%'
+--------------------------------------------------------------------------------
+Result: 1 row (UNRELATED)
+  id=17865 | CRESTWOOD VILLAGE SOUTH APARTMENTS | eid=77 | CRESTWOOD VILLAGE SOUTH APARTMENTS LLC | ALF | Indianapolis, IN
+  This is an unrelated Indianapolis ALF. Crestwood is NOT an RUI brand name.
+
+SUPPLEMENTAL: DUPLICATE / MISATTRIBUTION CANDIDATES (from brand name search)
+--------------------------------------------------------------------------------
+id=16340 | THE WELLINGTON AT LAKE MANASSAS COMMUNITY | eid=85 | INDEPENDENT | ALF | 7820 Baltursrol Blvd, Gainesville, VA | (null) | beds=72 | census=58 | attr=LEGACY | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  ** DUPLICATE of id=20006 (same address, misspelled "Baltursrol" vs "Baltusrol") **
+
+id=15923 | ASHLEIGH AT LANSDOWNE COMMUNITY | eid=85 | INDEPENDENT | ALF | 44124 Woodbridge Pkwy, Leesburg, VA | (null) | beds=72 | census=58 | attr=LEGACY | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  ** DUPLICATE of id=17267 (same address, misspelled "Woodbridge" vs "Woodridge") **
+
+
+================================================================================
+STEP 2: CMS CROSS-REFERENCE
+================================================================================
+
+SOURCE: Source_CMS_NH_ProviderInfo_Feb2026.csv (14,710 SNF records)
+
+SEARCH 1: chain_name / legal_business_name / provider_name ILIKE '%Retirement Unlimited%'
+  Result: 0 rows
+
+SEARCH 2: chain_name = 'RUI' (exact or bounded)
+  Result: 0 rows
+
+SEARCH 3: chain_name ILIKE '%Crestwood%'
+  Result: 0 rows
+
+SEARCH 4: chain_name ILIKE '%Westmont%'
+  Result: 0 rows (matches found were geographic "Westmont, IL" facilities, unrelated)
+
+SEARCH 5: legal_business_name scanned for all RUI brand names
+  Result: 0 RUI-affiliated matches. All matches were unrelated operators:
+  - Seaside: Aston Health (FL), PruittHealth (GA), First Atlantic (ME) -- different chains
+  - Wellington: Various unrelated operators in KS, KY, NJ, OH, TX
+  - Barrington: Alden Network (IL), Garlands (IL), Integritus (MA) -- different chains
+  - Westmont: Atied Associates (IL), Bria Health Services (IL) -- geographic matches
+  - Heatherwood: Athena Healthcare (RI) -- different chain
+  - Woodland Hills: Schmitt Woodland Hills (WI) -- different entity
+
+INTERPRETATION:
+--------------------------------------------------------------------------------
+Retirement Unlimited, Inc. does NOT operate any CMS-certified Skilled Nursing
+Facilities (SNFs). RUI operates exclusively in the IL/AL/MC space. This is a
+CONFIRMED NULL RESULT, consistent with:
+  - RUI's website lists only Independent Living, Assisted Living, and
+    Inspiritas Memory Care
+  - No SNF tradenames or licenses found in any search
+  - CMS NH Provider Info dataset covers only Medicare/Medicaid SNFs
+
+This is the same pattern seen with Navion Senior Solutions (2026-03-21 report).
+
+
+================================================================================
+STEP 3: WEB RESEARCH
+================================================================================
+
+SOURCE: rui.net, seniorly.com, aplaceformom.com, seniorhousingnews.com,
+        seniorlivingnews.com, mrwilliamsburg.com, prnewswire.com, caring.com,
+        yahoo.com/finance, assistedlivingcenter.com, yourlifesl.net
+
+CORPORATE PROFILE:
+  Legal Name:    Retirement Unlimited, Inc.
+  Founded:       1982
+  HQ:            Roanoke, VA (2917 Penn Forest Blvd, Cave Spring, VA)
+  Ownership:     Fralin and Waldron families (3rd gen Fralin, 2nd gen Waldron)
+  CEO:           William Fralin
+  President:     Doris-Ellie Sullivan (stepped down Sep 2024)
+  Website:       rui.net
+  Care Types:    Independent Living, Assisted Living, Inspiritas Memory Care
+  SNF Ops:       NONE -- confirmed AL/MC/IL only
+  REIT Partner:  Welltower (programmatic partnership since 2022)
+
+CONFIRMED RUI-BRANDED COMMUNITIES (from rui.net/our-locations/):
+  All 10 are in Virginia:
+  1. Aarondale                   | Springfield, VA     | IL, AL, MC
+  2. Ashleigh at Lansdowne       | Leesburg, VA        | IL, AL, MC
+  3. The Barrington at Hioaks    | Richmond, VA        | IL, AL, MC
+  4. Bay Lake                    | Virginia Beach, VA  | IL, AL, MC
+  5. Heatherwood                 | Burke, VA           | IL, AL, MC
+  6. The Hidenwood               | Newport News, VA    | IL, AL, MC
+  7. Paul Spring                 | Alexandria, VA      | IL, AL, MC
+  8. The Wellington at Lake Manassas | Gainesville, VA  | IL, AL, MC
+  9. The Westmont at Short Pump  | Glen Allen, VA      | IL, AL, MC
+  10. Woodland Hills             | Roanoke, VA         | IL, AL, MC
+
+CONFIRMED RUI-MANAGED FLORIDA COMMUNITIES:
+  11. Seaside at Fort Myers      | Fort Myers, FL      | IL, AL, MC
+      (Confirmed on rui.net and trademark filing, Welltower RIDEA partnership)
+  12. Seascape at Naples         | Naples, FL          | IL, AL, MC
+      (Confirmed on rui.net; Distinctive Living acquired ownership in JV,
+       but RUI appears to retain management -- dual attribution complexity)
+
+ELANCE LUXURY BRAND (Welltower partnership):
+  13. Elance at Old Town Alexandria | Alexandria, VA   | IL, AL, MC
+      (Formerly Sunrise at Old Town, now managed by RUI under Elance brand)
+  14. Elance at Boynton Beach       | Boynton Beach, FL | IL, AL, MC
+      (Formerly Sunrise at Boynton Beach, now managed by RUI)
+  NOTE: Elance communities NOT in our DB at all (0 results for "elance/elanc")
+
+WITHDRAWN / NOT OPERATIONAL:
+  The Morgan at Ford's Village   | Williamsburg, VA
+  STATUS: RUI WITHDREW from the project (Jan 2025). Cited rising construction
+  costs and economic instability. Project paused. Frye Properties seeking new
+  care facility partner. This community WAS NEVER BUILT / NEVER OPERATIONAL.
+
+BRANDYWINE LIVING ACQUISITION (Dec 2023):
+  RUI acquired Brandywine Living's 31 communities, creating a 59-community
+  combined operator. Brandywine communities are in NJ, CT, DE, MD, NY, PA.
+  They continue operating under the Brandywine Living brand.
+  These are outside EWH footprint and NOT relevant to this reconciliation.
+
+FLORIDA DB ROWS -- MISATTRIBUTION FINDINGS:
+  The following 3 FL facilities in our DB are attributed to RUI but are
+  actually operated by OTHER companies:
+
+  a) id=25456 | Watercrest Palm Beach Gardens
+     ACTUAL OPERATOR: Watercrest Senior Living Group (entity 1177 already in DB)
+     Evidence: Watercrest Senior Living was awarded management in late 2024,
+     rebranded from "The Madyson of Palm Beach Gardens." Watercrest press
+     release Jan 31, 2025. Founded by Marc Vorkapich (CEO) and Joan Williams
+     (CFO). NOT an RUI community.
+
+  b) id=21397 | Capital Square At Tallahassee
+     ACTUAL OPERATOR: YourLife Senior Living (entity 4109 already in DB)
+     Evidence: Capital Square was renamed to Silver Sands, then to YourLife
+     of Tallahassee. YourLife Senior Living is an independent FL-based memory
+     care operator (4 communities: Pensacola, Tallahassee, West Melbourne,
+     Coconut Creek). Founded 2014. NOT an RUI community.
+
+  c) id=25671 | YOURLife of West Melbourne
+     ACTUAL OPERATOR: YourLife Senior Living (entity 4109 already in DB)
+     Evidence: YourLife website (yourlifesl.net) lists West Melbourne as one
+     of their 4 communities. Independent operator. NOT an RUI community.
+
+
+================================================================================
+STEP 4: CONSOLIDATED FACILITY LIST
+================================================================================
+
+MERGED EVIDENCE TABLE -- ALL RUI-AFFILIATED FACILITIES:
+
+| # | Facility Name                    | Address                              | City             | State | County        | DB? | DB ID  | Entity | Source  | Evidence                          |
+|---|----------------------------------|--------------------------------------|------------------|-------|---------------|-----|--------|--------|---------|-----------------------------------|
+| 1 | Aarondale                        | 6929 Matthew Pl                      | Springfield      | VA    | Fairfax       | YES | 15916  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+| 2 | Ashleigh at Lansdowne            | 44124 Woodridge Pkwy                 | Leesburg         | VA    | Loudoun       | YES | 17267  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+| 3 | The Barrington at Hioaks         | 350 Hioaks Rd                        | Richmond         | VA    | Richmond City | YES | 16321  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+| 4 | Bay Lake                         | 4225 Shore Dr                        | Virginia Beach   | VA    | Virginia Beach City | YES | 15956  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+| 5 | Heatherwood                      | 9642 Burke Lake Rd                   | Burke            | VA    | Fairfax       | YES | 16105  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+| 6 | The Hidenwood                    | 50 Wellesley Dr                      | Newport News     | VA    | Newport News City | YES | 16331  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+| 7 | Paul Spring                      | 7116 Fort Hunt Rd                    | Alexandria       | VA    | Fairfax       | YES | 16196  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+| 8 | The Wellington at Lake Manassas   | 7820 Baltusrol Blvd                  | Gainesville      | VA    | Prince William| YES | 20006  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+| 9 | The Westmont at Short Pump       | 14399 North Gayton Road              | Glen Allen       | VA    | Henrico       | YES | 20010  | 1222   | NIC-A   | rui.net, Seniorly, APFM           |
+|10 | Woodland Hills                   | 3365 Ogden Rd                        | Roanoke          | VA    | Roanoke       | YES | 16385  | 1254   | GLR     | rui.net, Seniorly, APFM           |
+|11 | Seaside at Fort Myers            | 15800 Beachwalk Blvd                 | Fort Myers       | FL    | Lee           | YES | 24247  | 1222   | LEGACY  | rui.net, trademark filing          |
+|12 | Seascape at Naples               | 3490 Thrive Drive                    | Naples           | FL    | Collier       | YES | 24246  | 1222   | LEGACY  | rui.net (ownership complex -- Distinctive Living JV) |
+|13 | Elance at Old Town Alexandria    | (former Sunrise at Old Town)         | Alexandria       | VA    | Alexandria City | NO  | --     | --     | --      | seniorlivingnews.com, Welltower PR |
+|14 | Elance at Boynton Beach          | (former Sunrise at Boynton Beach)    | Boynton Beach    | FL    | Palm Beach    | NO  | --     | --     | --      | seniorlivingnews.com, Welltower PR |
+
+COMMUNITIES IN DB THAT ARE NOT RUI (misattributed):
+
+| DB ID | Facility Name                  | Current Corp         | Actual Operator              | Actual Entity | Evidence                                    |
+|-------|-------------------------------|----------------------|------------------------------|---------------|---------------------------------------------|
+| 25456 | Watercrest Palm Beach Gardens | Retirement Unlimited | Watercrest Senior Living Grp | 1177          | PR Newswire Jan 2025, watercrestseniorliving.com |
+| 21397 | Capital Square At Tallahassee | Retirement Unlimited | YourLife Senior Living       | 4109          | Renamed to YourLife; caring.com, yourlifesl.net  |
+| 25671 | YOURLife of West Melbourne    | Retirement Unlimited | YourLife Senior Living       | 4109          | yourlifesl.net, aplaceformom.com                 |
+| 19866 | THE MORGAN AT FORD'S VILLAGE  | Retirement Unlimited | NEVER BUILT                  | N/A           | mrwilliamsburg.com -- RUI withdrew Jan 2025      |
+
+DUPLICATE ROWS IN DB:
+
+| Keep   | Delete | Facility Name                    | Reason                                              |
+|--------|--------|----------------------------------|-----------------------------------------------------|
+| 20006  | 16340  | Wellington at Lake Manassas      | Same address (7820 Baltusrol/Baltursrol), id 16340 is LEGACY surrogate with INDEPENDENT misattribution |
+| 17267  | 15923  | Ashleigh at Lansdowne            | Same address (44124 Woodridge/Woodbridge), id 15923 is LEGACY surrogate with INDEPENDENT misattribution |
+| 20010  | 16341  | The Westmont at Short Pump       | Same address (14399 N Gayton/North Gayton), id 16341 is NIC-A surrogate with missing county |
+| 16385  | 16384  | Woodland Hills                   | Same address (3365 Ogden Rd), id 16384 is GLR surrogate with missing county; id 16385 has GLR data with county + do_we_serve=True |
+
+
+================================================================================
+STEP 5: FOOTPRINT FILTER
+================================================================================
+
+EWH Operating States: NC, SC, VA, KY, OH, IN
+
+RUI State Presence:
+  - VA: 10 core branded communities + 2 Elance (1 not in DB)
+  - FL: 2 confirmed RUI communities + 2 Elance (none in footprint)
+
+FOOTPRINT FILTER RESULT:
+  Only VA communities are within the EWH 6-state footprint.
+  FL communities are OUTSIDE footprint.
+
+VA Communities Passing Footprint Filter (10 physical locations):
+  1. Aarondale                      | Springfield      | Fairfax
+  2. Ashleigh at Lansdowne          | Leesburg         | Loudoun
+  3. The Barrington at Hioaks       | Richmond         | Richmond City
+  4. Bay Lake                       | Virginia Beach   | Virginia Beach City
+  5. Heatherwood                    | Burke            | Fairfax
+  6. The Hidenwood                  | Newport News     | Newport News City
+  7. Paul Spring                    | Alexandria       | Fairfax
+  8. The Wellington at Lake Manassas | Gainesville      | Prince William
+  9. The Westmont at Short Pump     | Glen Allen       | Henrico
+  10. Woodland Hills                | Roanoke          | Roanoke
+
+Elance at Old Town Alexandria is NOT in the DB and would need an INSERT to
+include. It is a separate decision from this reconciliation.
+
+
+================================================================================
+STEP 6: CAMPUS COLLAPSE (Street-Number Matching, 15-Bed Minimum)
+================================================================================
+
+All 10 VA communities are at DISTINCT addresses. No campus collapse applies:
+
+  6929 Matthew Pl, Springfield        -- unique
+  44124 Woodridge Pkwy, Leesburg      -- unique
+  350 Hioaks Rd, Richmond             -- unique
+  4225 Shore Dr, Virginia Beach       -- unique
+  9642 Burke Lake Rd, Burke           -- unique
+  50 Wellesley Dr, Newport News       -- unique
+  7116 Fort Hunt Rd, Alexandria       -- unique
+  7820 Baltusrol Blvd, Gainesville    -- unique
+  14399 North Gayton Road, Glen Allen -- unique
+  3365 Ogden Rd, Roanoke             -- unique
+
+15-Bed Minimum Check:
+  All 10 communities meet the 15-bed minimum based on Seniorly capacity data:
+  - Smallest: Bay Lake (90 residents), Aarondale (90 residents)
+  - Largest: The Westmont at Short Pump (170 residents), Paul Spring (190)
+
+Post-collapse count: 10 campuses in footprint
+
+
+================================================================================
+STEP 7: 7+ GATE
+================================================================================
+
+Threshold: 7 or more campuses within the EWH 6-state footprint
+
+RUI Campus Count in Footprint: 10 (all VA)
+
+RESULT: ** PASS ** (10 >= 7)
+
+Retirement Unlimited, Inc. qualifies as a Multi-Unit Operator (MUO) candidate
+for the EWH corporate scoring board.
+
+
+================================================================================
+STEP 8: DATA QUALITY ISSUES AND RECOMMENDED ACTIONS
+================================================================================
+
+ISSUE A: SPLIT ENTITY IDs (RUI has 2 entity IDs -- should be 1)
+--------------------------------------------------------------------------------
+Entity 1222: "Retirement Unlimited, Inc." -- 16 rows (includes 3 FL misattributions + 1 withdrawn project)
+Entity 1254: "RUI" -- 2 rows (Woodland Hills duplicates)
+
+RECOMMENDATION: Consolidate to entity 1222 ("Retirement Unlimited, Inc.").
+After removing misattributed and withdrawn rows, update Woodland Hills rows
+from entity 1254 to 1222 and corporate_name_raw from "RUI" to
+"Retirement Unlimited, Inc."
+
+ISSUE B: FLORIDA MISATTRIBUTIONS (3 rows)
+--------------------------------------------------------------------------------
+These 3 facilities are NOT operated by RUI:
+
+Row 25456: Watercrest Palm Beach Gardens
+  Current: corporate_name_raw = "Retirement Unlimited, Inc.", entity 1222
+  Proposed: corporate_name_raw = "Watercrest Senior Living Group", entity 1177
+  Evidence: PR Newswire Jan 31, 2025 -- Watercrest Senior Living awarded
+  management, rebranded from The Madyson. Entity 1177 already exists in DB
+  with 5 other Watercrest facilities.
+
+Row 21397: Capital Square At Tallahassee
+  Current: corporate_name_raw = "Retirement Unlimited, Inc.", entity 1222
+  Proposed: corporate_name_raw = "YourLife Senior Living", entity 4109
+  Also update facility_name to "YourLife of Tallahassee" (current operating name)
+  Evidence: Community was renamed Capital Square -> Silver Sands -> YourLife
+  of Tallahassee. YourLife Senior Living operates independently. Entity 4109
+  already exists in DB (YourLife at Coconut Creek, id 25670).
+
+Row 25671: YOURLife of West Melbourne
+  Current: corporate_name_raw = "Retirement Unlimited, Inc.", entity 1222
+  Proposed: corporate_name_raw = "YourLife Senior Living", entity 4109
+  Evidence: yourlifesl.net lists West Melbourne as one of their 4 communities.
+  Entity 4109 already exists in DB.
+
+ISSUE C: WITHDRAWN PROJECT (1 row -- recommend DELETE)
+--------------------------------------------------------------------------------
+Row 19866: THE MORGAN AT FORD'S VILLAGE
+  Current: In DB as operational RUI community, beds=200, census=160
+  Reality: RUI withdrew from the project in January 2025. The community was
+  NEVER BUILT and NEVER OPERATIONAL. Ford's Village development is paused.
+  RECOMMENDATION: DELETE this row. It represents a phantom facility.
+  Evidence: mrwilliamsburg.com (Jan 8, 2025)
+
+ISSUE D: DUPLICATE ROWS (4 pairs -- recommend DELETE lower-quality row)
+--------------------------------------------------------------------------------
+
+Pair 1: Wellington at Lake Manassas
+  KEEP:   id=20006 | THE WELLINGTON AT LAKE MANASSAS          | eid=1222 | beds=115 | county=Prince William | attr=NIC-A
+  DELETE: id=16340 | THE WELLINGTON AT LAKE MANASSAS COMMUNITY | eid=85   | beds=72  | county=(null) | attr=LEGACY | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  Evidence: Same address (7820 Baltusrol/Baltursrol Blvd). Row 16340 is a
+  lower-quality LEGACY row with surrogate data, missing county, and
+  misattributed to INDEPENDENT.
+
+Pair 2: Ashleigh at Lansdowne
+  KEEP:   id=17267 | ASHLEIGH AT LANSDOWNE           | eid=1222 | beds=115 | county=Loudoun | attr=NIC-A
+  DELETE: id=15923 | ASHLEIGH AT LANSDOWNE COMMUNITY | eid=85   | beds=72  | county=(null) | attr=LEGACY | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  Evidence: Same address (44124 Woodridge/Woodbridge Pkwy). Row 15923 is a
+  lower-quality LEGACY row with surrogate data, missing county, and
+  misattributed to INDEPENDENT. Address typo: "Woodbridge" should be "Woodridge."
+
+Pair 3: The Westmont at Short Pump
+  KEEP:   id=20010 | THE WESTMONT AT SHORT PUMP | eid=1222 | beds=123 | county=Henrico | city=Richmond, VA 23233 | attr=NIC-A
+  DELETE: id=16341 | THE WESTMONT AT SHORT PUMP | eid=1222 | beds=72  | county=(null) | city=Glen Allen, VA 23059 | attr=NIC-A | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  Evidence: Same address (14399 N Gayton Rd / North Gayton Road). Row 16341
+  has surrogate beds/census and missing county. Row 20010 has real data.
+  Note: Glen Allen and Richmond are both acceptable city names for this
+  location (Glen Allen is the postal designation; technically in Henrico County).
+
+Pair 4: Woodland Hills
+  KEEP:   id=16385 | WOODLAND HILLS INDEPENDENT LIVING, AL & MC | eid=1254 | beds=37 | county=Roanoke | serve=True
+  DELETE: id=16384 | WOODLAND HILLS COMMUNITY                   | eid=1254 | beds=72 | county=(null) | serve=False | dq=Surrogate_Beds+Surrogate_Census, Missing_County
+  Evidence: Same address (3365 Ogden Rd). Row 16384 is surrogate data with
+  missing county. Row 16385 has GLR data with county and do_we_serve=True.
+  NOTE: Keep row needs beds/census update -- Seniorly reports 130 resident
+  capacity, current DB shows 37 beds which seems low.
+
+ISSUE E: MISSING COUNTY VALUES (7 rows after dedup -- on KEEP rows only)
+--------------------------------------------------------------------------------
+After deleting the duplicate rows, these KEEP rows still have null county:
+
+  id=16196 | PAUL SPRING COMMUNITY     | Alexandria, VA  | county should be: Fairfax (unincorporated Fairfax County, Mt Vernon area)
+  id=16105 | HEATHERWOOD COMMUNITY     | Burke, VA       | county should be: Fairfax
+  id=16331 | THE HIDENWOOD COMMUNITY   | Newport News, VA| county should be: Newport News City (VA independent city)
+  id=16321 | THE BARRINGTON AT HIOAKS  | Richmond, VA    | county should be: Richmond City (VA independent city)
+  id=15916 | AARONDALE COMMUNITY       | Springfield, VA | county should be: Fairfax
+  id=15956 | BAY LAKE COMMUNITY        | Virginia Beach  | county should be: Virginia Beach City (VA independent city)
+
+NOTE: Virginia has independent cities that are county-equivalent. Alexandria,
+Newport News, Richmond, and Virginia Beach are independent cities, not
+within any county.
+
+ISSUE F: SURROGATE BEDS/CENSUS (multiple rows)
+--------------------------------------------------------------------------------
+Many NIC-A sourced rows have Surrogate_Beds+Surrogate_Census (beds=72, census=58)
+which appear to be default placeholder values. Seniorly provides actual capacity:
+
+  id=15916 | Aarondale           | DB: beds=72  | Seniorly: 90 residents
+  id=16105 | Heatherwood         | DB: beds=72  | Seniorly: 150 residents
+  id=16196 | Paul Spring         | DB: beds=72  | Seniorly: 190 residents
+  id=16321 | Barrington at Hioaks| DB: beds=72  | Seniorly: capacity not listed, starts $2,700/mo
+  id=16331 | The Hidenwood       | DB: beds=72  | Seniorly: 125 residents
+  id=15956 | Bay Lake            | DB: beds=72  | Seniorly: 90 residents
+  id=16385 | Woodland Hills      | DB: beds=37  | Seniorly: 130 residents
+
+ISSUE G: ENTITY 1254 CLEANUP
+--------------------------------------------------------------------------------
+After consolidating Woodland Hills rows to entity 1222, entity 1254 ("RUI")
+will have 0 rows and can be deprecated.
+
+ISSUE H: MISSING DB ROWS (Elance brand)
+--------------------------------------------------------------------------------
+Elance at Old Town Alexandria (VA) is an RUI-managed community in the EWH
+footprint but is not in the database. This is a gap if we want complete RUI
+coverage. However, it operates under the Elance brand (Welltower partnership),
+not the core RUI brand, so it may be intentionally excluded. Flag for review.
+
+
+================================================================================
+SUMMARY
+================================================================================
+
+| Metric                                    | Count |
+|-------------------------------------------|-------|
+| Total DB rows matching RUI (Q1+Q2+Q3)    | 18    |
+| True RUI rows                             | 18    |
+| False positives filtered out              | 124 (Pruitt Health, Druid Hills) |
+| Duplicate rows identified (LEGACY/surrog) | 4 (ids 16340, 15923, 16341, 16384) |
+| Misattributed rows (not actually RUI)     | 3 (ids 25456, 21397, 25671) |
+| Phantom facility (never built)            | 1 (id 19866, Morgan at Ford's Village) |
+| True RUI rows after cleanup               | 10 VA + 2 FL = 12 |
+| In EWH footprint (6 states)              | 10 (all VA) |
+| Campus collapse result                    | 10 (no collapses) |
+| 7+ Gate                                   | PASS (10 >= 7) |
+| CMS SNF facilities                        | 0 (AL/MC/IL only operator) |
+
+PROPOSED ACTIONS:
+| Action    | Row Count | Details                                     |
+|-----------|-----------|---------------------------------------------|
+| DELETE    | 5         | 4 duplicates (16340, 15923, 16341, 16384) + 1 phantom (19866) |
+| REATTRIB  | 3         | FL misattributions (25456->Watercrest, 21397->YourLife, 25671->YourLife) |
+| UPDATE    | 2         | Woodland Hills rows: entity 1254->1222, corp_name "RUI"->"Retirement Unlimited, Inc." |
+| COUNTY FIX| 6         | Fill null counties on VA rows (Fairfax x3, Richmond City, Newport News City, Virginia Beach City) |
+| DEPRECATE | 1         | Entity 1254 (after consolidation) |
+| REVIEW    | 7         | Surrogate beds/census values needing real data |
+| REVIEW    | 1         | Elance at Old Town Alexandria -- missing from DB |
+
+NET EFFECT ON DB (if all actions approved):
+  - Before: 18 rows under RUI/Retirement Unlimited
+  - Delete: 5 rows
+  - Reattribute: 3 rows (move to other operators)
+  - After: 10 clean rows under "Retirement Unlimited, Inc." (entity 1222)
+    + 2 FL rows (entity 1222, outside footprint)
+  Total RUI rows after cleanup: 12
+
+> DO NOT EXECUTE -- REVIEW ONLY
+
+================================================================================
+END OF REPORT
+================================================================================

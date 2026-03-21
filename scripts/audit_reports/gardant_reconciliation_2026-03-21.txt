@@ -1,0 +1,403 @@
+Gardant Management Solutions -- Corporate Owner Reconciliation Report
+Generated: 2026-03-21
+Analyst: Roian Atwood (via Claude Code)
+
+================================================================================
+  STEP 1: DB SCAN
+================================================================================
+Source: bd.market_intel_facilities (PostgreSQL, Keystone Platform)
+Query: corporate_name_raw ILIKE '%gardant%'
+Total DB rows: 61
+
+Corporate Entity IDs in DB:
+  Entity 34 = "Gardant Management Solutions, Inc" (T2, score=32) -- 59 facilities
+  Entity 465 = "GARDANT" (no tier, no score) -- 2 facilities
+
+  ** DATA QUALITY ISSUE: Split entity. Entity 465 is an orphan stub with no
+     scoring dimensions. Both entities refer to the same operator. The 2
+     facilities on entity 465 (Green Oaks of Goshen IN, Bellaire at Stone Port VA)
+     should be merged to entity 34. **
+
+DB Facilities by State:
+  IL: 42 facilities, 3,475 beds
+  IN: 16 facilities, 2,355 beds
+  MD:  1 facility,    100 beds
+  OH:  1 facility,    202 beds
+  VA:  1 facility,     80 beds
+  TOTAL: 61 facilities, 6,212 beds
+
+Query 2: facility_name ILIKE '%gardant%' -- 0 rows (no facility carries
+  "Gardant" in its name; all are branded sub-names)
+
+EWH 6-State Footprint (NC, SC, VA, KY, OH, IN): 18 DB rows
+  IN: 16 facilities, 2,355 beds
+  OH:  1 facility,    202 beds
+  VA:  1 facility,     80 beds
+  NC:  0
+  SC:  0
+  KY:  0
+
+DB DUPLICATE PAIRS (same address, same city, same corp):
+  1. Heritage Woods of Bolingbrook (id=22734, 105 beds) vs
+     Heritage Woods Of Bolingbrook (id=22735, 105 beds)
+     -- 550 Kildeer Drive / 550 Kildeere, Bolingbrook IL
+     -- VERDICT: Duplicate. Typo variant ("Kildeere"). Delete one.
+
+  2. Green Oaks of River Oaks (id=22493, 111 beds) vs
+     Green Oaks Supportive Living Of River Oaks (id=22495, 109 beds)
+     -- 1370 Ring Rd / 1370 Ring Road, Calumet City IL
+     -- VERDICT: Duplicate. Name variant + address abbreviation. Delete one.
+
+  3. Heritage Woods & White Oaks at South Elgin (id=22730, 182 beds) vs
+     White Oaks At Heritage Woods Of South Elgin (id=25546, 32 beds)
+     -- 700 N McLean Blvd / 700 North Mclean Boulevard, South Elgin IL
+     -- VERDICT: Campus pair. id=22730 is the combined campus (182 beds).
+        id=25546 (32 beds) is White Oaks MC wing only. This is a campus
+        sub-unit, not a standalone duplicate. Consider keeping combined
+        record only OR splitting into AL + MC. Also note id=25548 (White
+        Oaks at Spring Street, 30 beds, 1300 Spring Street) is a SEPARATE
+        address in South Elgin -- not a duplicate.
+
+  4. Pointe At Kilpatrick (id=23882, 74 beds) vs
+     Prairie Winds Of Urbana (id=23929, 94 beds)
+     -- 1905 E Prairie Winds Dr / 1905 South Prairie Winds Dr., Urbana IL
+     -- VERDICT: Campus pair. Two buildings at same address complex.
+        Different bed counts. Likely AL + MC or separate license wings.
+
+  5. Glasswater Creek Lafayette (id=4772, 133 beds) vs
+     Glasswater Creek Of Lafayette, LLC (id=18153, 133 beds)
+     -- 208 Beck Ln / 208 Beck Lane, Lafayette IN
+     -- VERDICT: Duplicate. Same facility, same bed count. Delete one.
+     -- ** IN EWH FOOTPRINT **
+
+CROSS-ENTITY DUPLICATE:
+  Sweet Galilee (id=5168, entity=34, "GARDANT MANAGEMENT SOLUTIONS, INC") vs
+  Sweet Galilee At The Wigwam (id=19649, entity=2426, "SWEET GALILEE AT THE WIGWAM LLC")
+  -- 1315 John St / 1315 John Street, Anderson IN
+  -- Web confirms: Gardant manages this facility (gardant.com/sweetgalileewigwam/)
+  -- VERDICT: Duplicate. id=19649 uses the LLC propco name, not the
+     management company. id=5168 has correct Gardant attribution. Delete 19649.
+  -- ** IN EWH FOOTPRINT **
+
+McHENRY IL ADDRESS CLUSTER:
+  White Oaks at McHenry (id=25547, 48 beds, 4605 W. Crystal Lake Road)
+  Heritage Woods of McHenry (id=22744, 100 beds, 4609 W Crystal Lake Rd)
+  -- Adjacent addresses (4605 vs 4609). Likely campus pair (AL + MC wings).
+  -- NOT a duplicate -- two buildings on same campus.
+
+================================================================================
+  STEP 2: CMS CROSS-REFERENCE
+================================================================================
+Source: Source_CMS_NH_ProviderInfo_Feb2026.csv (14,710 SNF rows)
+Search: All columns for "gardant" (case-insensitive)
+Result: 0 matches
+
+INTERPRETATION: Gardant operates exclusively in Assisted Living (AL),
+Memory Care (MC), and Independent Living (IL) settings. They do NOT operate
+any Skilled Nursing Facilities (SNFs). CMS Provider Info covers only SNFs,
+so zero CMS matches is expected and correct.
+
+This is confirmed by web research: Gardant's website describes them as
+managing "senior living, assisted living and memory care communities" only.
+No SNF licenses found anywhere.
+
+================================================================================
+  STEP 3: WEB RESEARCH
+================================================================================
+Source: gardant.com, seniorly.com, aplaceformom.com, seniorhousingnews.com,
+        health.usnews.com, state directories, press releases
+
+CORPORATE PROFILE:
+  Full Name: Gardant Management Solutions, Inc.
+  HQ: Bourbonnais/Kankakee, Illinois
+  Founded: 1999 (originally Blair Minton and Associates/BMA; rebranded 2012)
+  Co-Founders: Rod Burkett, Blair Minton
+  Current Leadership: Co-Presidents Greg Echols and Julie Simpkins (as of 2023)
+  Ownership Structure: Employee Stock Ownership Program (ESOP)
+  Industry Rank: 5th largest AL/MC provider in the US
+  Specialty: Largest provider of AFFORDABLE assisted living nationwide
+  Total Portfolio: ~100 communities (reached milestone in Jan 2026 per website)
+  Total Apartments: 9,156+ (per gardant.com homepage, Jan 2026)
+  States of Operation: 6 (IL, IN, OH, MD, WV, and VA per DB/web)
+  SNF Operations: NONE. Exclusively AL/MC/IL.
+  Website: https://www.gardant.com
+  Community Locator: https://www.gardant.com/locate-a-community/
+
+CONFIRMED STATES (with evidence):
+  Illinois -- Majority of portfolio (42+ communities). HQ state.
+  Indiana -- ~16 communities per DB; confirmed on Seniorly, gardant.com
+  Ohio -- At least 5 communities confirmed:
+    1. Glass Peaks Senior Living, Toledo (gardant.com/glasspeaksseniorliving/)
+    2. Carriage Court of Grove City (gardant.com/carriagecourtgrovecityslf/)
+    3. Carriage Court of Washington Court House (gardant.com/carriagecourtwashingtoncourthouseslf/)
+    4. Reflections Retirement, Lancaster (gardant.com/reflectionslancasterslf/)
+    5. The Village of Westerville (gardant.com/thevillage-westerville/)
+  Maryland -- 1 community: Gull Creek, Berlin
+  West Virginia -- 1+ community: Cedar Grove, Parkersburg (gardant.com/cedargrove/)
+  Virginia -- 1 community: Bellaire at Stone Port, Harrisonburg (gardant.com/bellairestoneport/)
+
+NOT CONFIRMED in:
+  North Carolina -- No evidence of Gardant operations
+  South Carolina -- No evidence of Gardant operations
+  Kentucky -- No evidence of Gardant operations
+
+WEB-CONFIRMED OHIO COMMUNITIES NOT IN DB AS GARDANT:
+  1. Carriage Court of Grove City -- DB has as "Pathways Senior Living" (id=11629)
+     Web: gardant.com/carriagecourtgrovecityslf/ -- Gardant manages this.
+     ** MISATTRIBUTION in DB **
+
+  2. Carriage Court of Washington Court House -- DB has as "INDEPENDENT" (id=11630)
+     Web: gardant.com/carriagecourtwashingtoncourthouseslf/ -- Gardant manages this.
+     ** MISATTRIBUTION in DB **
+
+  3. Reflections Retirement, Lancaster -- DB has as "Pathways Senior Living" (id=12392)
+     Web: gardant.com/reflectionslancasterslf/ -- Gardant manages this.
+     ** MISATTRIBUTION in DB **
+
+  4. The Village of Westerville -- DB has as "PROMEDICA" (id=12658)
+     Web: gardant.com/thevillage-westerville/ -- Gardant manages this.
+     NOTE: Some third-party sites still list as "ProMedica Senior Living."
+     Likely a management transition. Gardant website is authoritative.
+     ** MISATTRIBUTION in DB (management transition) **
+
+WEB-CONFIRMED INDIANA COMMUNITY MISATTRIBUTED:
+  5. Keepsake Village of Columbus -- DB has as "Frontier Senior Living" (id=4889)
+     Web: gardant.com/kv-columbus/ -- Gardant website hosts this community.
+     Also listed on Seniorly under Gardant. Frontier may be former manager.
+     ** MISATTRIBUTION in DB **
+
+  6. Hellenic Senior Living of Elkhart -- DB has as "AHEPA SENIOR LIVING (ASL)"
+     (id=4853, 4856, 18316 -- 3 rows for same facility!)
+     Web: gardant.com article mentions Gardant connection; BUT ahepaseniorliving.org
+     shows AHEPA took over management Aug 2021.
+     ** Current manager is AHEPA, not Gardant. DB attribution is CORRECT. **
+     ** However, 3 DB rows for same facility is a separate dup issue. **
+
+WEB-CONFIRMED IL COMMUNITIES MISATTRIBUTED IN DB:
+  7. Eagle Ridge of Decatur (id=22037) -- DB has corp="unknown"
+     Web: gardant.com/eagleridgedecatur/ -- Gardant manages this. 113 beds.
+     ** MISATTRIBUTION in DB **
+
+  8. Lacey Creek Supportive Living, Downers Grove (id=23002) -- DB has corp="Garden Management"
+     Also (id=23003) -- DB has corp="unknown"
+     Web: gardant.com/laceycreek/ -- Gardant manages this. 120 beds.
+     ** MISATTRIBUTION in DB + DUPLICATE (2 rows for same facility) **
+
+  9. Bowman Estates, Danville (id=21107) -- DB has corp="Pathway to Living"
+     Web: gardant.com/carriagecourtgrovecityslf/touching_lives/ references
+     "Bowman Estates of Danville along Gardant." Gardant website hosts content.
+     ** Likely MISATTRIBUTION in DB **
+
+================================================================================
+  STEP 4: CONSOLIDATED FACILITY LIST (EWH 6-State Footprint)
+================================================================================
+
+The EWH 6-state footprint is: NC, SC, VA, KY, OH, IN
+
+INDIANA (IN) -- DB Gardant-attributed facilities:
+  #  | id    | Facility Name                       | City          | Address                  | Beds | Notes
+  1  | 5168  | SWEET GALILEE                       | Anderson      | 1315 John St             | 130  | Dup w/ id=19649
+  2  | 4737  | EVERGREEN VILLAGE AT BLOOMINGTON     | Bloomington   | 3607 S. Heirloom Dr      | 183  |
+  3  | 5239  | VIVERA SENIOR LIVING OF COLUMBUS     | Columbus      | 1971 State St            | 154  |
+  4  | 4738  | EVERGREEN VILLAGE AT FORT WAYNE      | Fort Wayne    | 12523 Auburn Rd          | 206  |
+  5  | 4786  | GREEN OAKS OF GOSHEN                | Goshen        | 282 Johnston St          | 81   | Entity 465, DQ flags
+  6  | 4773  | GLASSWATER CREEK PLAINFIELD          | Indianapolis  | 10480 Glasswater Ln      | 131  |
+  7  | 5018  | OASIS AT 30TH                       | Indianapolis  | 5651 E 30Th St           | 140  |
+  8  | 5019  | OASIS AT 56TH                       | Indianapolis  | 4940 W 56Th St           | 124  |
+  9  | 18153 | GLASSWATER CREEK OF LAFAYETTE, LLC   | Lafayette     | 208 Beck Lane            | 133  | Dup w/ id=4772
+  10 | 4772  | GLASSWATER CREEK LAFAYETTE           | Lafayette     | 208 Beck Ln              | 133  | Dup w/ id=18153
+  11 | 5237  | VITA OF MARION                      | Marion        | 4211 S Adams St          | 143  |
+  12 | 4596  | BELVEDERE SENIOR HOUSING             | Merrillville  | 343 E. 90Th Dr           | 140  |
+  13 | 4866  | HERITAGE WOODS OF NEWBURGH           | Newburgh      | 4211 Grimm Rd            | 195  |
+  14 | 4867  | HERITAGE WOODS OF NOBLESVILLE        | Noblesville   | 9600 E 146Th St          | 190  |
+  15 | 4787  | GREEN OAKS OF VALPARAISO             | Valparaiso    | 2550 W Morthland Dr      | 160  |
+  16 | 5238  | VITA OF NEW WHITELAND                | Whiteland     | 532 Country Gate Dr      | 112  |
+
+  Misattributed (should be Gardant, currently under other corp):
+  17 | 4889  | KEEPSAKE VILLAGE OF COLUMBUS         | Columbus      | 2564 Fox Pointe Dr       | ~TBD | Corp: Frontier Senior Living
+
+OHIO (OH) -- DB Gardant-attributed:
+  18 | 18152 | GLASS PEAKS SENIOR LIVING            | Toledo        | 3501 Executive Pkwy      | 202  |
+
+  Misattributed (should be Gardant, currently under other corp):
+  19 | 11629 | CARRIAGE COURT GROVE OF CITY         | Grove City    | 2320 Sonora Dr           | 92   | Corp: Pathways Senior Living
+  20 | 11630 | CARRIAGE COURT OF WASH. COURT HOUSE  | Wash. CH      | 500 Glenn Ave            | 84   | Corp: INDEPENDENT
+  21 | 12392 | REFLECTIONS RETIREMENT               | Lancaster     | 2750 W Fair Ave          | 35   | Corp: Pathways Senior Living
+  22 | 12658 | THE VILLAGE AT WESTERVILLE            | Westerville   | 215 Huber Village Blvd   | 73   | Corp: PROMEDICA
+
+VIRGINIA (VA) -- DB Gardant-attributed:
+  23 | 15933 | BELLAIRE (ALF) AT STONE PORT          | Harrisonburg  | 1684 Port Hills Dr       | 80   | Entity 465
+
+NORTH CAROLINA (NC): 0 facilities (none in DB, none found on web)
+SOUTH CAROLINA (SC): 0 facilities (none in DB, none found on web)
+KENTUCKY (KY): 0 facilities (none in DB, none found on web)
+
+================================================================================
+  STEP 5: FOOTPRINT FILTER
+================================================================================
+
+After filtering to EWH 6-state footprint (NC, SC, VA, KY, OH, IN):
+
+  STATE | DB-Attributed | Misattributed | Total Confirmed | Total Beds
+  IN    | 16            | 1             | 17              | ~2,355+
+  OH    | 1             | 4             | 5               | ~486
+  VA    | 1             | 0             | 1               | 80
+  NC    | 0             | 0             | 0               | 0
+  SC    | 0             | 0             | 0               | 0
+  KY    | 0             | 0             | 0               | 0
+  TOTAL | 18            | 5             | 23              | ~2,921+
+
+Active EWH states: IN, OH, VA (3 of 6)
+
+================================================================================
+  STEP 6: CAMPUS COLLAPSE
+================================================================================
+
+Applying campus collapse rules: street-number matching, 15-bed minimum.
+
+INDIANA DUPLICATES TO COLLAPSE:
+  a) Glasswater Creek Lafayette: id=4772 + id=18153
+     Same address (208 Beck Ln), same beds (133). TRUE DUPLICATE.
+     Keep id=4772 (older record), delete id=18153.
+     Post-collapse: 1 facility, 133 beds.
+
+  b) Sweet Galilee: id=5168 (Gardant) + id=19649 (propco LLC, different entity)
+     Same address (1315 John St). Cross-entity duplicate.
+     Keep id=5168 (correct Gardant attribution), delete id=19649.
+     Post-collapse: 1 facility, 130 beds.
+
+  NO campus collapses required in OH or VA (all at unique addresses).
+
+INDIANA POST-COLLAPSE:
+  DB-attributed unique facilities: 14 (was 16, minus 2 duplicates)
+  + 1 misattributed (Keepsake Village) = 15 unique IN facilities
+
+OHIO:
+  DB-attributed: 1 (Glass Peaks)
+  + 4 misattributed = 5 unique OH facilities
+
+VIRGINIA:
+  1 unique facility (Bellaire at Stone Port)
+
+TOTAL POST-COLLAPSE (EWH footprint): 21 unique facilities
+
+================================================================================
+  STEP 7: 7+ GATE
+================================================================================
+
+The 7+ gate requires an operator to have 7 or more facilities within the
+EWH footprint to qualify for the corporate scoring board.
+
+  Gardant in EWH footprint (post-collapse, corrected attributions):
+    IN: 15 facilities
+    OH:  5 facilities
+    VA:  1 facility
+    TOTAL: 21 facilities
+
+  RESULT: PASS (21 >= 7)
+
+  Even using only DB-attributed facilities (no misattribution corrections):
+    IN: 14 facilities (post-collapse)
+    OH:  1 facility
+    VA:  1 facility
+    TOTAL: 16 facilities -- still PASS
+
+  Gardant passes the 7+ gate under any reasonable interpretation.
+
+================================================================================
+  STEP 8: SUMMARY OF FINDINGS & DB QUALITY ISSUES
+================================================================================
+
+A. ENTITY SPLIT (CRITICAL)
+   Entity 34 ("Gardant Management Solutions, Inc") has 59 rows.
+   Entity 465 ("GARDANT") has 2 rows.
+   These are the same operator. Entity 465 should be merged into entity 34.
+   Affected facilities: Green Oaks of Goshen IN (id=4786), Bellaire at Stone Port VA (id=15933).
+
+B. MISATTRIBUTED FACILITIES (HIGH)
+   5 facilities in EWH footprint currently attributed to wrong operator:
+   1. Carriage Court Grove City OH (id=11629) -- DB: Pathways -> Should be: Gardant
+   2. Carriage Court Wash. CH OH (id=11630) -- DB: INDEPENDENT -> Should be: Gardant
+   3. Reflections Lancaster OH (id=12392) -- DB: Pathways -> Should be: Gardant
+   4. Village at Westerville OH (id=12658) -- DB: ProMedica -> Should be: Gardant
+   5. Keepsake Village Columbus IN (id=4889) -- DB: Frontier -> Should be: Gardant
+
+   3 facilities outside EWH footprint also misattributed:
+   6. Eagle Ridge Decatur IL (id=22037) -- DB: unknown -> Should be: Gardant
+   7. Lacey Creek Downers Grove IL (id=23002) -- DB: Garden Management -> Should be: Gardant
+   8. Bowman Estates Danville IL (id=21107) -- DB: Pathway to Living -> Should be: Gardant
+
+C. DUPLICATE ROWS (MEDIUM)
+   EWH footprint:
+   1. Glasswater Creek Lafayette: id=4772 + id=18153 (exact dup, same address/beds)
+   2. Sweet Galilee Anderson: id=5168 + id=19649 (cross-entity dup, propco vs mgmt co)
+
+   Outside footprint (IL):
+   3. Heritage Woods of Bolingbrook: id=22734 + id=22735 (typo variant)
+   4. Green Oaks of River Oaks, Calumet City: id=22493 + id=22495 (name variant)
+   5. Lacey Creek, Downers Grove: id=23002 + id=23003 (dup under different corps)
+
+D. CAMPUS PAIRS (LOW -- may be intentional)
+   1. South Elgin IL: 3 rows (id=22730 combined, id=25546 MC wing, id=25548 separate address)
+   2. Urbana IL: 2 rows (Pointe at Kilpatrick + Prairie Winds, same campus)
+   3. McHenry IL: 2 rows (Heritage Woods + White Oaks, adjacent addresses)
+
+E. DATA QUALITY FLAGS
+   - Green Oaks of Goshen (id=4786): Missing_County, Check_Bed_Count
+   - 14 of 16 IN facilities have Surrogate_Census flag
+   - Bellaire at Stone Port VA (id=15933): Surrogate_Census
+   - Entity 465 has no scoring dimensions (NULL tier, NULL scores)
+
+F. NAME QUALITY
+   - id=11629: "CARRIAGE COURT GROVE OF CITY" should be "CARRIAGE COURT OF GROVE CITY"
+   - id=22730: Facility name includes both brands: "Heritage Woods & White Oaks at South Elgin"
+
+G. FACILITY NAMING NOTE
+   Gardant uses diverse sub-brands: Heritage Woods, White Oaks, Green Oaks,
+   Glasswater Creek, Evergreen Village, Oasis, Vivera, Vita, Belvedere,
+   Cambridge House, Hawthorne Inn, Carriage Court, Reflections, Eagle Ridge,
+   Lacey Creek, Bowman Estates, Pioneer Gardens, Sweet Galilee, Keepsake Village,
+   Glass Peaks, Bellaire, Gull Creek, Cedar Grove, Legacy Estates, The Village, etc.
+   None carry "Gardant" in the facility name. This makes corporate attribution
+   especially dependent on source data quality.
+
+H. CMS NOTE
+   Gardant operates ZERO SNFs. They are exclusively AL/MC/IL. CMS cross-reference
+   returns zero matches, which is correct and expected. Any future CMS-based
+   enrichment pipelines will not capture Gardant facilities.
+
+================================================================================
+  RECOMMENDED ACTIONS (pending approval)
+================================================================================
+
+IMMEDIATE (data corrections):
+  1. Merge entity 465 -> entity 34 (2 facilities: id=4786, id=15933)
+  2. Delete duplicate id=18153 (Glasswater Creek Lafayette)
+  3. Delete duplicate id=19649 (Sweet Galilee at Wigwam -- propco entity)
+  4. Reattribute 5 EWH-footprint facilities to Gardant (entity 34):
+     - id=11629 (Carriage Court Grove City)
+     - id=11630 (Carriage Court Wash. CH)
+     - id=12392 (Reflections Lancaster)
+     - id=12658 (Village at Westerville)
+     - id=4889 (Keepsake Village Columbus)
+  5. Fix facility name: id=11629 "CARRIAGE COURT GROVE OF CITY" -> "CARRIAGE COURT OF GROVE CITY"
+  6. Add county for id=4786 (Goshen IN = Elkhart County)
+
+DEFERRED (IL outside footprint, lower priority):
+  7. Delete dup id=22735 (Heritage Woods Bolingbrook)
+  8. Delete dup id=22495 (Green Oaks River Oaks)
+  9. Delete dup id=23003 (Lacey Creek)
+  10. Reattribute id=22037 (Eagle Ridge Decatur) to Gardant
+  11. Reattribute id=23002 (Lacey Creek) to Gardant
+  12. Reattribute id=21107 (Bowman Estates Danville) to Gardant
+
+NET IMPACT ON CORPORATE SCORING BOARD:
+  Current DB count (EWH footprint, post-collapse): 16 facilities
+  Corrected count (EWH footprint, post-collapse): 21 facilities
+  7+ gate: PASS (both before and after corrections)
+  Tier impact: Gardant is currently T2. With 21 EWH-footprint facilities
+  and 9,156 total apartments nationally, enterprise reach score may increase.
+
+================================================================================
+  END OF REPORT
+================================================================================

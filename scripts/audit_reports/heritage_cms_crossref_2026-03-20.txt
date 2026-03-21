@@ -1,0 +1,5429 @@
+CMS Provider Info Heritage Cross-Reference Report
+Source: Source_CMS_NH_ProviderInfo_Feb2026.csv (14710 total SNF rows)
+Generated: 2026-03-20
+
+================================================================================
+  SUMMARY
+================================================================================
+  Heritage matches (all states): 152
+  Heritage matches (EWH footprint states): 66
+
+  Heritage matches by state:
+    AK: 1
+    AL: 1
+    AR: 2
+    AZ: 2
+    CA: 4
+    CO: 1
+    FL: 3 *
+    GA: 5 *
+    HI: 1
+    IA: 3
+    IL: 9 *
+    IN: 8 *
+    KS: 2
+    KY: 2 *
+    LA: 13
+    MA: 1
+    MD: 1 *
+    MI: 2 *
+    MN: 2 *
+    MO: 3 *
+    MS: 1
+    NC: 1 *
+    NE: 6
+    NH: 1
+    NJ: 1
+    NY: 6
+    OH: 9 *
+    OK: 9
+    PA: 6
+    RI: 1
+    SC: 2 *
+    SD: 1
+    TN: 2
+    TX: 19
+    UT: 1
+    VA: 17 *
+    WI: 2 *
+    WV: 1
+  (* = EWH footprint state)
+
+  Heritage matches by Chain Name:
+    (Independent/No Chain): 29
+    HERITAGE HALL: 16
+    THE BEEBE FAMILY: 11
+    HERITAGE OPERATIONS GROUP: 8
+    VETTER SENIOR LIVING: 5
+    LIFE CARE CENTERS OF AMERICA: 4
+    HERITAGE MINISTRIES: 4
+    CREATIVE SOLUTIONS IN HEALTHCARE: 4
+    THE ENSIGN GROUP: 3
+    ETHICA HEALTH: 3
+    AMERICARE SENIOR LIVING: 3
+    SOUTHWEST LTC: 3
+    PRUITTHEALTH: 2
+    AMERICAN SENIOR COMMUNITIES: 2
+    ADVANCED HEALTHCARE SOLUTIONS: 2
+    ANTHONY & BRYAN ADAMS: 1
+    DAVID VANN & BOYD WRIGHT: 1
+    PROGRESSIVE HEALTH CARE CENTERS: 1
+    DAVID & FRANK JOHNSON: 1
+    CHARIS TRUST DTD 12/22/16: 1
+    SENIOR HEALTH SOUTH: 1
+    SIMCHA HYMAN & NAFTALI ZANZIPER: 1
+    BENJAMIN LANDA: 1
+    MAGNOLIA MANOR SENIOR LIVING: 1
+    OHANA PACIFIC MANAGEMENT CO.: 1
+    CARE INITIATIVES: 1
+    LEGACY HEALTHCARE: 1
+    WESLEYLIFE: 1
+    RECOVER-CARE HEALTHCARE: 1
+    SIGNATURE HEALTHCARE: 1
+    BLUEGRASS HEALTH KY: 1
+    PARAMOUNT HEALTHCARE CONSULTANTS: 1
+    PLANTATION MANAGEMENT COMPANY: 1
+    COMPLETE CARE: 1
+    ATHENA HEALTHCARE SYSTEMS: 1
+    PIONEER HEALTHCARE MANAGEMENT: 1
+    ATRIUM CENTERS: 1
+    ST. FRANCIS HEALTH SERVICES: 1
+    RELIANT CARE MANAGEMENT: 1
+    SHIMON LEFKOWITZ: 1
+    THE GRAND HEALTHCARE: 1
+    TRINITY HEALTH: 1
+    EMBASSY HEALTHCARE: 1
+    TRILOGY HEALTH SERVICES: 1
+    HILLSTONE HEALTHCARE: 1
+    MAJESTIC CARE: 1
+    COMMUNICARE HEALTH: 1
+    CARESPRING: 1
+    MGM HEALTHCARE: 1
+    BRIDGES HEALTH: 1
+    PRESTIGE HEALTHCARE ADMINISTRATIVE SERVICES: 1
+    CONTINUUM HEALTHCARE: 1
+    PRESBYTERIAN SENIOR LIVING: 1
+    WECARE CENTERS: 1
+    MARQUIS HEALTH SERVICES: 1
+    AVERA HEALTH: 1
+    LIFE CARE SERVICES: 1
+    WELLSENTIAL HEALTH: 1
+    COMMONWEALTH CARE OF ROANOKE: 1
+    GENESIS HEALTHCARE: 1
+    NORTH SHORE HEALTHCARE: 1
+    GENERATIONS HEALTHCARE: 1
+    SLP OPERATIONS: 1
+    STONEGATE SENIOR LIVING: 1
+    EDURO HEALTHCARE: 1
+    TOUCHSTONE COMMUNITIES: 1
+    OAKBEND MEDICAL CENTER: 1
+    CANTEX CONTINUING CARE: 1
+
+========================================================================================================================
+  QUERY 1A: Heritage matches in EWH FOOTPRINT states
+  Total matches: 66
+  Match criteria: heritage in Chain Name, Provider Name, or Legal Business Name
+========================================================================================================================
+
+--- Match 1 ---
+  CMS Certification Number (CCN): 105529
+  Provider Name: HERITAGE PARK HEALTH CENTER BY HARBORVIEW
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: BENJAMIN LANDA
+  Chain ID: 646
+  Number of Facilities in Chain: 55
+  Provider Address: 2302 59TH ST W
+  City/Town: BRADENTON
+  State: FL
+  County/Parish: Manatee
+  ZIP Code: 34209
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 112.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 2 ---
+  CMS Certification Number (CCN): 105320
+  Provider Name: DADE CITY HEALTH AND REHABILITATION CENTER
+  Legal Business Name: HERITAGE PARK OPERATIONS LLC
+  Chain Name: SIMCHA HYMAN & NAFTALI ZANZIPER
+  Chain ID: 580
+  Number of Facilities in Chain: 95
+  Provider Address: 37135 COLEMAN AVE
+  City/Town: DADE CITY
+  State: FL
+  County/Parish: Pasco
+  ZIP Code: 33525
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 113.6
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: SFF Candidate
+
+--- Match 3 ---
+  CMS Certification Number (CCN): 105117
+  Provider Name: SOUTH HERITAGE HEALTH & REHABILITATION CENTER
+  Legal Business Name: SENIOR HEALTH-SOUTH HERITAGE, LLC
+  Chain Name: SENIOR HEALTH SOUTH
+  Chain ID: 729
+  Number of Facilities in Chain: 8
+  Provider Address: 718 LAKEVIEW AVE S
+  City/Town: SAINT PETERSBURG
+  State: FL
+  County/Parish: Pinellas
+  ZIP Code: 33705
+  Number of Certified Beds: 74
+  Average Number of Residents per Day: 59.7
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 4 ---
+  CMS Certification Number (CCN): 115509
+  Provider Name: PRUITTHEALTH - ATHENS HERITAGE
+  Legal Business Name: PRUITTHEALTH - ATHENS HERITAGE, LLC
+  Chain Name: PRUITTHEALTH
+  Chain ID: 434
+  Number of Facilities in Chain: 95
+  Provider Address: 960 HAWTHORNE AVENUE
+  City/Town: ATHENS
+  State: GA
+  County/Parish: Clarke
+  ZIP Code: 30606
+  Number of Certified Beds: 104
+  Average Number of Residents per Day: 93.1
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 5 ---
+  CMS Certification Number (CCN): 115447
+  Provider Name: HERITAGE INN OF BARNESVILLE HEALTH AND REHAB
+  Legal Business Name: HERITAGE INN OF BARNESVILLE LLC
+  Chain Name: ETHICA HEALTH
+  Chain ID: 834
+  Number of Facilities in Chain: 48
+  Provider Address: 946 VETERANS PARKWAY
+  City/Town: BARNESVILLE
+  State: GA
+  County/Parish: Lamar
+  ZIP Code: 30204
+  Number of Certified Beds: 117
+  Average Number of Residents per Day: 108.4
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 6 ---
+  CMS Certification Number (CCN): 115582
+  Provider Name: HERITAGE OAKS
+  Legal Business Name: MAGNOLIA MANOR OF ST SIMONS INC
+  Chain Name: MAGNOLIA MANOR SENIOR LIVING
+  Chain ID: 329
+  Number of Facilities in Chain: 6
+  Provider Address: 2255 FREDERICA ROAD
+  City/Town: SAINT SIMONS ISLAND
+  State: GA
+  County/Parish: Glynn
+  ZIP Code: 31522
+  Number of Certified Beds: 125
+  Average Number of Residents per Day: 
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 7 ---
+  CMS Certification Number (CCN): 115369
+  Provider Name: HERITAGE INN OF SANDERSVILLE HEALTH AND REHAB
+  Legal Business Name: HERITAGE INN OF SANDERSVILLE LLC
+  Chain Name: ETHICA HEALTH
+  Chain ID: 834
+  Number of Facilities in Chain: 48
+  Provider Address: 652 FERNCREST DRIVE
+  City/Town: SANDERSVILLE
+  State: GA
+  County/Parish: Washington
+  ZIP Code: 31082
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 59.9
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 8 ---
+  CMS Certification Number (CCN): 115597
+  Provider Name: HERITAGE INN HEALTH AND REHABILITATION
+  Legal Business Name: BULLOCH COUNTY HEALTH CARE LLC
+  Chain Name: ETHICA HEALTH
+  Chain ID: 834
+  Number of Facilities in Chain: 48
+  Provider Address: 307 JONES MILL ROAD
+  City/Town: STATESBORO
+  State: GA
+  County/Parish: Bulloch
+  ZIP Code: 30458
+  Number of Certified Beds: 92
+  Average Number of Residents per Day: 59.8
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 9 ---
+  CMS Certification Number (CCN): 14A357
+  Provider Name: HERITAGE SQUARE
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 620 NORTH OTTAWA AVENUE
+  City/Town: DIXON
+  State: IL
+  County/Parish: Lee
+  ZIP Code: 61021
+  Number of Certified Beds: 27
+  Average Number of Residents per Day: 22.6
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 10 ---
+  CMS Certification Number (CCN): 145708
+  Provider Name: COUNTRY HEALTH
+  Legal Business Name: COUNTRY HEALTH, INC.
+  Chain Name: HERITAGE OPERATIONS GROUP
+  Chain ID: 651
+  Number of Facilities in Chain: 8
+  Provider Address: 2304 C R 3000 N
+  City/Town: GIFFORD
+  State: IL
+  County/Parish: Champaign
+  ZIP Code: 61847
+  Number of Certified Beds: 89
+  Average Number of Residents per Day: 82.9
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 11 ---
+  CMS Certification Number (CCN): 145470
+  Provider Name: HERITAGE HEALTH-HOOPESTON
+  Legal Business Name: HOOPESTON RETIREMENT VILLAGE FOUNDATION
+  Chain Name: HERITAGE OPERATIONS GROUP
+  Chain ID: 651
+  Number of Facilities in Chain: 8
+  Provider Address: 423 NORTH DIXIE HIGHWAY
+  City/Town: HOOPESTON
+  State: IL
+  County/Parish: Vermilion
+  ZIP Code: 60942
+  Number of Certified Beds: 75
+  Average Number of Residents per Day: 70.1
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 12 ---
+  CMS Certification Number (CCN): 145720
+  Provider Name: ST CLARA'S REHAB & SENIOR CARE
+  Legal Business Name: ST. CLARA'S MANOR
+  Chain Name: HERITAGE OPERATIONS GROUP
+  Chain ID: 651
+  Number of Facilities in Chain: 8
+  Provider Address: 1450 CASTLE MANOR DRIVE
+  City/Town: LINCOLN
+  State: IL
+  County/Parish: Logan
+  ZIP Code: 62656
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 93.1
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 13 ---
+  CMS Certification Number (CCN): 145616
+  Provider Name: MASON CITY AREA NURSING HOME
+  Legal Business Name: MASON CITY AREA NURSING HOME ASSOCIATION, INC.
+  Chain Name: HERITAGE OPERATIONS GROUP
+  Chain ID: 651
+  Number of Facilities in Chain: 8
+  Provider Address: 520 NORTH PRICE AVENUE
+  City/Town: MASON CITY
+  State: IL
+  County/Parish: Mason
+  ZIP Code: 62664
+  Number of Certified Beds: 97
+  Average Number of Residents per Day: 65.1
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 14 ---
+  CMS Certification Number (CCN): 145772
+  Provider Name: ODD FELLOW-REBEKAH HOME
+  Legal Business Name: INDEPENDENT ORDER OF ODD FELLOWS
+  Chain Name: HERITAGE OPERATIONS GROUP
+  Chain ID: 651
+  Number of Facilities in Chain: 8
+  Provider Address: 201 LAFAYETTE AVENUE  EAST
+  City/Town: MATTOON
+  State: IL
+  County/Parish: Coles
+  ZIP Code: 61938
+  Number of Certified Beds: 162
+  Average Number of Residents per Day: 117.0
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 15 ---
+  CMS Certification Number (CCN): 146042
+  Provider Name: H & J VONDERLIETH LVG CTR, THE
+  Legal Business Name: HENRY & JANE VONDERLIETH LIVING CENTER INC
+  Chain Name: HERITAGE OPERATIONS GROUP
+  Chain ID: 651
+  Number of Facilities in Chain: 8
+  Provider Address: 1120 NORTH TOPPER DRIVE
+  City/Town: MOUNT PULASKI
+  State: IL
+  County/Parish: Logan
+  ZIP Code: 62548
+  Number of Certified Beds: 90
+  Average Number of Residents per Day: 56.8
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 16 ---
+  CMS Certification Number (CCN): 146068
+  Provider Name: SUNNY ACRES NURSING HOME
+  Legal Business Name: SUNNY ACRES
+  Chain Name: HERITAGE OPERATIONS GROUP
+  Chain ID: 651
+  Number of Facilities in Chain: 8
+  Provider Address: 19130 SUNNY ACRES ROAD
+  City/Town: PETERSBURG
+  State: IL
+  County/Parish: Menard
+  ZIP Code: 62675
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 77.1
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 17 ---
+  CMS Certification Number (CCN): 145721
+  Provider Name: VILLA HEALTH CARE EAST
+  Legal Business Name: VILLA HEALTH CARE INC
+  Chain Name: HERITAGE OPERATIONS GROUP
+  Chain ID: 651
+  Number of Facilities in Chain: 8
+  Provider Address: 100 MARIAN PARKWAY
+  City/Town: SHERMAN
+  State: IL
+  County/Parish: Sangamon
+  ZIP Code: 62684
+  Number of Certified Beds: 109
+  Average Number of Residents per Day: 92.8
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 18 ---
+  CMS Certification Number (CCN): 155332
+  Provider Name: HERITAGE HOUSE REHABILITATION & HEALTH CARE CENTER
+  Legal Business Name: HENRY COUNTY MEMORIAL HOSPITAL
+  Chain Name: AMERICAN SENIOR COMMUNITIES
+  Chain ID: 33
+  Number of Facilities in Chain: 91
+  Provider Address: 281 S COUNTY ROAD 200 EAST
+  City/Town: CONNERSVILLE
+  State: IN
+  County/Parish: Fayette
+  ZIP Code: 47331
+  Number of Certified Beds: 98
+  Average Number of Residents per Day: 85.5
+  Ownership Type: Government - County
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 19 ---
+  CMS Certification Number (CCN): 155104
+  Provider Name: HERITAGE CENTER
+  Legal Business Name: PULASKI MEMORIAL HOSPITAL
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 1201 W BUENA VISTA RD
+  City/Town: EVANSVILLE
+  State: IN
+  County/Parish: Vanderburgh
+  ZIP Code: 47710
+  Number of Certified Beds: 172
+  Average Number of Residents per Day: 135.5
+  Ownership Type: Government - County
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 20 ---
+  CMS Certification Number (CCN): 155095
+  Provider Name: HERITAGE PARK
+  Legal Business Name: THE HEALTH AND HOSPITAL CORPORATION OF MARION COUNTY
+  Chain Name: AMERICAN SENIOR COMMUNITIES
+  Chain ID: 33
+  Number of Facilities in Chain: 91
+  Provider Address: 2001 HOBSON RD
+  City/Town: FORT WAYNE
+  State: IN
+  County/Parish: Allen
+  ZIP Code: 46805
+  Number of Certified Beds: 180
+  Average Number of Residents per Day: 143.8
+  Ownership Type: Government - County
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 21 ---
+  CMS Certification Number (CCN): 155828
+  Provider Name: HERITAGE POINTE OF FORT WAYNE
+  Legal Business Name: ADAMS COUNTY MEMORIAL HOSPITAL
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 5250 HERITAGE PARKWAY
+  City/Town: FORT WAYNE
+  State: IN
+  County/Parish: Allen
+  ZIP Code: 46835
+  Number of Certified Beds: 68
+  Average Number of Residents per Day: 57.6
+  Ownership Type: Government - County
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 22 ---
+  CMS Certification Number (CCN): 155692
+  Provider Name: HERITAGE POINTE OF HUNTINGTON
+  Legal Business Name: ADAMS COUNTY MEMORIAL HOSPITAL
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 1180 WEST 500 NORTH
+  City/Town: HUNTINGTON
+  State: IN
+  County/Parish: Huntington
+  ZIP Code: 46750
+  Number of Certified Beds: 78
+  Average Number of Residents per Day: 73.0
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 23 ---
+  CMS Certification Number (CCN): 155729
+  Provider Name: ADAMS HERITAGE
+  Legal Business Name: ADAMS COUNTY MEMORIAL HOSPITAL
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 12011 WHITTERN RD
+  City/Town: MONROEVILLE
+  State: IN
+  County/Parish: Allen
+  ZIP Code: 46773
+  Number of Certified Beds: 61
+  Average Number of Residents per Day: 31.5
+  Ownership Type: Government - City/county
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 24 ---
+  CMS Certification Number (CCN): 155705
+  Provider Name: HERITAGE POINTE OF WARREN
+  Legal Business Name: ADAMS COUNTY MEMORIAL HOSPITAL
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 801 N HUNTINGTON AVE
+  City/Town: WARREN
+  State: IN
+  County/Parish: Huntington
+  ZIP Code: 46792
+  Number of Certified Beds: 119
+  Average Number of Residents per Day: 87.1
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 25 ---
+  CMS Certification Number (CCN): 155402
+  Provider Name: HERITAGE HEALTHCARE
+  Legal Business Name: HENDRICKS COUNTY HOSPITAL
+  Chain Name: LIFE CARE CENTERS OF AMERICA
+  Chain ID: 311
+  Number of Facilities in Chain: 194
+  Provider Address: 3401 SOLDIERS HOME RD
+  City/Town: WEST LAFAYETTE
+  State: IN
+  County/Parish: Tippecanoe
+  ZIP Code: 47906
+  Number of Certified Beds: 127
+  Average Number of Residents per Day: 76.7
+  Ownership Type: Government - County
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 26 ---
+  CMS Certification Number (CCN): 185434
+  Provider Name: The Heritage
+  Legal Business Name: WHITLEY OPERATIONS LLC
+  Chain Name: BLUEGRASS HEALTH KY
+  Chain ID: 748
+  Number of Facilities in Chain: 15
+  Provider Address: 192 Bacon Creek Road
+  City/Town: Corbin
+  State: KY
+  County/Parish: Whitley
+  ZIP Code: 40702
+  Number of Certified Beds: 85
+  Average Number of Residents per Day: 79.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 27 ---
+  CMS Certification Number (CCN): 185277
+  Provider Name: Signature Healthcare at Heritage Hall Rehab & Well
+  Legal Business Name: LP LAWRENCEBURG LLC
+  Chain Name: SIGNATURE HEALTHCARE
+  Chain ID: 474
+  Number of Facilities in Chain: 71
+  Provider Address: 331 South Main Street
+  City/Town: Lawrenceburg
+  State: KY
+  County/Parish: Anderson
+  ZIP Code: 40342
+  Number of Certified Beds: 94
+  Average Number of Residents per Day: 82.9
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 28 ---
+  CMS Certification Number (CCN): 215135
+  Provider Name: COMPLETE CARE AT HERITAGE LLC
+  Legal Business Name: COMPLETE CARE AT HERITAGE LLC
+  Chain Name: COMPLETE CARE
+  Chain ID: 157
+  Number of Facilities in Chain: 85
+  Provider Address: 7232 GERMAN HILL ROAD
+  City/Town: DUNDALK
+  State: MD
+  County/Parish: Baltimore
+  ZIP Code: 21222
+  Number of Certified Beds: 177
+  Average Number of Residents per Day: 153.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 29 ---
+  CMS Certification Number (CCN): 235234
+  Provider Name: Heritage Manor Nursing and Rehabilitation Center
+  Legal Business Name: HERITAGE MANOR NURSING & REHAB CENTER
+  Chain Name: PIONEER HEALTHCARE MANAGEMENT
+  Chain ID: 403
+  Number of Facilities in Chain: 9
+  Provider Address: 9500 Grand River Ave
+  City/Town: Detroit
+  State: MI
+  County/Parish: Wayne
+  ZIP Code: 48204
+  Number of Certified Beds: 122
+  Average Number of Residents per Day: 103.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 30 ---
+  CMS Certification Number (CCN): 235525
+  Provider Name: Heritage Nursing and Rehabilitation Community
+  Legal Business Name: ATRIUM HERITAGE INC.
+  Chain Name: ATRIUM CENTERS
+  Chain ID: 54
+  Number of Facilities in Chain: 26
+  Provider Address: 320 East Central Avenue
+  City/Town: Zeeland
+  State: MI
+  County/Parish: Ottawa
+  ZIP Code: 49464
+  Number of Certified Beds: 39
+  Average Number of Residents per Day: 36.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 31 ---
+  CMS Certification Number (CCN): 245245
+  Provider Name: Heritage Manor
+  Legal Business Name: CHISHOLM HEALTH CENTER
+  Chain Name: ST. FRANCIS HEALTH SERVICES
+  Chain ID: 487
+  Number of Facilities in Chain: 14
+  Provider Address: 321 NORTHEAST SIXTH STREET
+  City/Town: CHISHOLM
+  State: MN
+  County/Parish: St. Louis
+  ZIP Code: 55719
+  Number of Certified Beds: 65
+  Average Number of Residents per Day: 57.3
+  Ownership Type: Non profit - Church related
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 32 ---
+  CMS Certification Number (CCN): 245405
+  Provider Name: Heritage Living Center
+  Legal Business Name: HUBBARD COUNTY HERITAGE LIVING CENTER
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 619 WEST SIXTH STREET
+  City/Town: PARK RAPIDS
+  State: MN
+  County/Parish: Hubbard
+  ZIP Code: 56470
+  Number of Certified Beds: 48
+  Average Number of Residents per Day: 42.1
+  Ownership Type: Government - County
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 33 ---
+  CMS Certification Number (CCN): 265385
+  Provider Name: HERITAGE HALL NURSING CENTER
+  Legal Business Name: AMERICARE AT HERITAGE HALL NURSING CENTER, LLC
+  Chain Name: AMERICARE SENIOR LIVING
+  Chain ID: 34
+  Number of Facilities in Chain: 23
+  Provider Address: 750 E HIGHWAY 22
+  City/Town: CENTRALIA
+  State: MO
+  County/Parish: Boone
+  ZIP Code: 65240
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 40.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 34 ---
+  CMS Certification Number (CCN): 265531
+  Provider Name: HERITAGE NURSING CENTER - SKILLED NURSING BY AMERI
+  Legal Business Name: HERITAGE NURSING LLC
+  Chain Name: AMERICARE SENIOR LIVING
+  Chain ID: 34
+  Number of Facilities in Chain: 23
+  Provider Address: 1802 ST FRANCIS
+  City/Town: KENNETT
+  State: MO
+  County/Parish: Dunklin
+  ZIP Code: 63857
+  Number of Certified Beds: 72
+  Average Number of Residents per Day: 50.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 35 ---
+  CMS Certification Number (CCN): 265534
+  Provider Name: HERITAGE CARE CENTER
+  Legal Business Name: HERITAGE CARE CENTER OF BERKELEY, LLC
+  Chain Name: RELIANT CARE MANAGEMENT
+  Chain ID: 446
+  Number of Facilities in Chain: 30
+  Provider Address: 4401 NORTH HANLEY ROAD
+  City/Town: SAINT LOUIS
+  State: MO
+  County/Parish: St. Louis
+  ZIP Code: 63134
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 106.2
+  Ownership Type: For profit - Partnership
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: SFF Candidate
+
+--- Match 36 ---
+  CMS Certification Number (CCN): 345566
+  Provider Name: PruittHealth-Union Pointe
+  Legal Business Name: THE HERITAGE OF UNION COUNTY, LLC
+  Chain Name: PRUITTHEALTH
+  Chain ID: 434
+  Number of Facilities in Chain: 95
+  Provider Address: 3510 West Highway 74
+  City/Town: Monroe
+  State: NC
+  County/Parish: Union
+  ZIP Code: 28110
+  Number of Certified Beds: 90
+  Average Number of Residents per Day: 80.4
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 37 ---
+  CMS Certification Number (CCN): 365740
+  Provider Name: Majestic Care of Clyde
+  Legal Business Name: HERITAGE VILLAGE OF CLYDE OH OPCO LLC
+  Chain Name: MAJESTIC CARE
+  Chain ID: 331
+  Number of Facilities in Chain: 33
+  Provider Address: 700 HELEN STREET
+  City/Town: CLYDE
+  State: OH
+  County/Parish: Sandusky
+  ZIP Code: 43410
+  Number of Certified Beds: 74
+  Average Number of Residents per Day: 56.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 38 ---
+  CMS Certification Number (CCN): 365026
+  Provider Name: WEXNER HERITAGE HOUSE
+  Legal Business Name: WEXNER HERITAGE VILLAGE
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 1151 COLLEGE AVENUE
+  City/Town: COLUMBUS
+  State: OH
+  County/Parish: Franklin
+  ZIP Code: 43209
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 84.6
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 39 ---
+  CMS Certification Number (CCN): 365771
+  Provider Name: COPLEY HEALTH CENTER
+  Legal Business Name: HERITAGE OHIO LEASING CO., LLC
+  Chain Name: COMMUNICARE HEALTH
+  Chain ID: 153
+  Number of Facilities in Chain: 122
+  Provider Address: 155 HERITAGE WOODS DRIVE
+  City/Town: COPLEY
+  State: OH
+  County/Parish: Summit
+  ZIP Code: 44321
+  Number of Certified Beds: 130
+  Average Number of Residents per Day: 120.4
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 40 ---
+  CMS Certification Number (CCN): 365541
+  Provider Name: HERITAGE THE
+  Legal Business Name: TRILOGY HEALTHCARE OF HANCOCK LLC
+  Chain Name: TRILOGY HEALTH SERVICES
+  Chain ID: 524
+  Number of Facilities in Chain: 125
+  Provider Address: 2820 GREENACRE DR
+  City/Town: FINDLAY
+  State: OH
+  County/Parish: Hancock
+  ZIP Code: 45840
+  Number of Certified Beds: 96
+  Average Number of Residents per Day: 78.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 41 ---
+  CMS Certification Number (CCN): 366404
+  Provider Name: HERITAGE OF HUDSON
+  Legal Business Name: HUDSON HEALTH AND REHABILITATION CENTER INC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 1212 WEST BARLOW ROAD
+  City/Town: HUDSON
+  State: OH
+  County/Parish: Summit
+  ZIP Code: 44236
+  Number of Certified Beds: 80
+  Average Number of Residents per Day: 71.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 42 ---
+  CMS Certification Number (CCN): 365566
+  Provider Name: HERITAGE CENTER FOR REHAB AND SPECIALITY CARE
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: HILLSTONE HEALTHCARE
+  Chain ID: 271
+  Number of Facilities in Chain: 14
+  Provider Address: 24 NORTH HAMILTON STREET
+  City/Town: MINSTER
+  State: OH
+  County/Parish: Auglaize
+  ZIP Code: 45865
+  Number of Certified Beds: 83
+  Average Number of Residents per Day: 57.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 43 ---
+  CMS Certification Number (CCN): 365401
+  Provider Name: HERITAGE HEALTH CARE CENTER
+  Legal Business Name: OAKWOOD HEALTH CARE SERVICES, INC.
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 24613 BROADWAY AVENUE
+  City/Town: OAKWOOD VILLAGE
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44146
+  Number of Certified Beds: 80
+  Average Number of Residents per Day: 34.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 44 ---
+  CMS Certification Number (CCN): 366301
+  Provider Name: HERITAGESPRING HEALTHCARE CENTER OF WEST CHESTER
+  Legal Business Name: HERITAGESPRING HEALTH CARE CENTER
+  Chain Name: CARESPRING
+  Chain ID: 111
+  Number of Facilities in Chain: 16
+  Provider Address: 7235 HERITAGESPRING DRIVE
+  City/Town: WEST CHESTER
+  State: OH
+  County/Parish: Butler
+  ZIP Code: 45069
+  Number of Certified Beds: 144
+  Average Number of Residents per Day: 127.0
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 45 ---
+  CMS Certification Number (CCN): 365114
+  Provider Name: HERITAGE MANOR  JEWISH HM FOR
+  Legal Business Name: YOUNGSTOWN AREA JEWISH FEDERATION
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 517 GYPSY LANE
+  City/Town: YOUNGSTOWN
+  State: OH
+  County/Parish: Mahoning
+  ZIP Code: 44504
+  Number of Certified Beds: 72
+  Average Number of Residents per Day: 67.4
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 46 ---
+  CMS Certification Number (CCN): 425154
+  Provider Name: Heritage Home Of Florence Inc
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 515 South Warley Streeet
+  City/Town: Florence
+  State: SC
+  County/Parish: Florence
+  ZIP Code: 29501
+  Number of Certified Beds: 132
+  Average Number of Residents per Day: 119.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 47 ---
+  CMS Certification Number (CCN): 425100
+  Provider Name: The Heritage At Lowman Rehab And Healthcare
+  Legal Business Name: LUTHERAN HOMES OF SC, INC.
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 201 Fortress Drive
+  City/Town: White Rock
+  State: SC
+  County/Parish: Richland
+  ZIP Code: 29177
+  Number of Certified Beds: 176
+  Average Number of Residents per Day: 129.2
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 48 ---
+  CMS Certification Number (CCN): 495135
+  Provider Name: HERITAGE HALL BIG STONE GAP
+  Legal Business Name: BIG STONE GAP LIFE CARE LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 2045 VALLEY VIEW DRIVE
+  City/Town: BIG STONE GAP
+  State: VA
+  County/Parish: Wise
+  ZIP Code: 24219
+  Number of Certified Beds: 180
+  Average Number of Residents per Day: 163.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 49 ---
+  CMS Certification Number (CCN): 495356
+  Provider Name: HERITAGE HALL BLACKSBURG
+  Legal Business Name: BLACKSBURG LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 3610 SOUTH MAIN STREET
+  City/Town: BLACKSBURG
+  State: VA
+  County/Parish: Montgomery
+  ZIP Code: 24060
+  Number of Certified Beds: 179
+  Average Number of Residents per Day: 128.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 50 ---
+  CMS Certification Number (CCN): 495353
+  Provider Name: HERITAGE HALL-BLACKSTONE
+  Legal Business Name: BLACKSTONE LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 900 S MAIN ST
+  City/Town: BLACKSTONE
+  State: VA
+  County/Parish: Nottoway
+  ZIP Code: 23824
+  Number of Certified Beds: 180
+  Average Number of Residents per Day: 148.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 51 ---
+  CMS Certification Number (CCN): 495242
+  Provider Name: HERITAGE HALL - BROOKNEAL
+  Legal Business Name: BROOKNEAL LIFE CARE CORP
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 633 COOK AVENUE
+  City/Town: BROOKNEAL
+  State: VA
+  County/Parish: Campbell
+  ZIP Code: 24528
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 55.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 52 ---
+  CMS Certification Number (CCN): 495320
+  Provider Name: HERITAGE HALL CLINTWOOD
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 1225 CLINTWOOD MAIN STREET, ROUTE 607
+  City/Town: CLINTWOOD
+  State: VA
+  County/Parish: Dickenson
+  ZIP Code: 24228
+  Number of Certified Beds: 100
+  Average Number of Residents per Day: 88.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 53 ---
+  CMS Certification Number (CCN): 495317
+  Provider Name: HERITAGE HALL DILLWYN
+  Legal Business Name: DILLWYN LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 119 BRICKYARD DRIVE
+  City/Town: DILLWYN
+  State: VA
+  County/Parish: Buckingham
+  ZIP Code: 23936
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 56.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 54 ---
+  CMS Certification Number (CCN): 495321
+  Provider Name: HERITAGE HALL LEXINGTON
+  Legal Business Name: LEXINGTON LIFE CARE CORP
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 205 HOUSTON STREET
+  City/Town: EAST LEXINGTON
+  State: VA
+  County/Parish: Lexington City
+  ZIP Code: 24450
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 55.9
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 55 ---
+  CMS Certification Number (CCN): 495301
+  Provider Name: HERITAGE HALL FRONT ROYAL
+  Legal Business Name: FRONT ROYAL LIFE CARE CORP
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 400 WEST STRASBURG ROAD
+  City/Town: FRONT ROYAL
+  State: VA
+  County/Parish: Warren
+  ZIP Code: 22630
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 55.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 56 ---
+  CMS Certification Number (CCN): 495388
+  Provider Name: GAINESVILLE HEALTH AND REHAB CENTER
+  Legal Business Name: HERITAGE HUNT LLC
+  Chain Name: COMMONWEALTH CARE OF ROANOKE
+  Chain ID: 152
+  Number of Facilities in Chain: 12
+  Provider Address: 7501 HERITAGE VILLAGE PLAZA
+  City/Town: GAINESVILLE
+  State: VA
+  County/Parish: Prince William
+  ZIP Code: 20155
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 113.6
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 57 ---
+  CMS Certification Number (CCN): 495259
+  Provider Name: HERITAGE HALL GRUNDY
+  Legal Business Name: GRUNDY LIFE CARE CORP
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 2966 SLATE CREEK ROAD
+  City/Town: GRUNDY
+  State: VA
+  County/Parish: Buchanan
+  ZIP Code: 24614
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 113.1
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 58 ---
+  CMS Certification Number (CCN): 495300
+  Provider Name: HERITAGE HALL KING GEORGE
+  Legal Business Name: KING GEORGE LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 10051 FOXES WAY
+  City/Town: KING GEORGE
+  State: VA
+  County/Parish: King George
+  ZIP Code: 22485
+  Number of Certified Beds: 130
+  Average Number of Residents per Day: 101.9
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 59 ---
+  CMS Certification Number (CCN): 495323
+  Provider Name: HERITAGE HALL - LAUREL MEADOWS
+  Legal Business Name: LAUREL MEADOWS LIFE CARE L C
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 16600 DANVILLE PIKE
+  City/Town: LAUREL FORK
+  State: VA
+  County/Parish: Carroll
+  ZIP Code: 24352
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 56.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 60 ---
+  CMS Certification Number (CCN): 495261
+  Provider Name: HERITAGE HALL-LEESBURG
+  Legal Business Name: LEESBURG LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 122 MORVEN PARK ROAD NW
+  City/Town: LEESBURG
+  State: VA
+  County/Parish: Loudoun
+  ZIP Code: 20176
+  Number of Certified Beds: 164
+  Average Number of Residents per Day: 143.8
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 61 ---
+  CMS Certification Number (CCN): 495371
+  Provider Name: HERITAGE HALL-RICH CREEK
+  Legal Business Name: RICH CREEK LIFE CARE, LLC.
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 120  OLD VIRGINIA AVENUE
+  City/Town: RICH CREEK
+  State: VA
+  County/Parish: Giles
+  ZIP Code: 24147
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 102.6
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 62 ---
+  CMS Certification Number (CCN): 495002
+  Provider Name: SOUTH ROANOKE NURSING AND REHABILITATION
+  Legal Business Name: SOUTH ROANOKE LIFE CARE LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 3823 FRANKLIN RD, SW
+  City/Town: ROANOKE
+  State: VA
+  County/Parish: Roanoke City
+  ZIP Code: 24014
+  Number of Certified Beds: 98
+  Average Number of Residents per Day: 87.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 63 ---
+  CMS Certification Number (CCN): 495152
+  Provider Name: HERITAGE HALL TAZEWELL
+  Legal Business Name: TAZEWELL LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 282 BEN BOLT AVENUE
+  City/Town: TAZEWELL
+  State: VA
+  County/Parish: Tazewell
+  ZIP Code: 24651
+  Number of Certified Beds: 180
+  Average Number of Residents per Day: 154.6
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 64 ---
+  CMS Certification Number (CCN): 495350
+  Provider Name: HERITAGE HALL WISE
+  Legal Business Name: WISE LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 9434 COEBURN MOUNTAIN ROAD
+  City/Town: WISE
+  State: VA
+  County/Parish: Wise
+  ZIP Code: 24293
+  Number of Certified Beds: 97
+  Average Number of Residents per Day: 88.5
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 65 ---
+  CMS Certification Number (CCN): 525586
+  Provider Name: HERITAGE HEALTH SERVICES
+  Legal Business Name: NSH PORT WASHINGTON LLC
+  Chain Name: NORTH SHORE HEALTHCARE
+  Chain ID: 377
+  Number of Facilities in Chain: 58
+  Provider Address: 1119 N WISCONSIN ST
+  City/Town: PORT WASHINGTON
+  State: WI
+  County/Parish: Ozaukee
+  ZIP Code: 53074
+  Number of Certified Beds: 50
+  Average Number of Residents per Day: 30.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 66 ---
+  CMS Certification Number (CCN): 525654
+  Provider Name: HERITAGE LAKESIDE
+  Legal Business Name: RICE LAKE REHABILITATION AND CARE CENTER LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 1016 LAKESHORE DR
+  City/Town: RICE LAKE
+  State: WI
+  County/Parish: Barron
+  ZIP Code: 54868
+  Number of Certified Beds: 50
+  Average Number of Residents per Day: 42.4
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+========================================================================================================================
+  QUERY 1B: Heritage matches OUTSIDE footprint
+  Total matches: 86
+  Match criteria: heritage in Chain Name, Provider Name, or Legal Business Name
+========================================================================================================================
+
+--- Match 1 ---
+  CMS Certification Number (CCN): 025021
+  Provider Name: HERITAGE PLACE
+  Legal Business Name: CENTRAL PENINSULA GENERAL HOSPITAL INC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 232 ROCKWELL AVENUE
+  City/Town: SOLDOTNA
+  State: AK
+  County/Parish: Kenai Peninsula
+  ZIP Code: 99669
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 45.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: Y
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 2 ---
+  CMS Certification Number (CCN): 015371
+  Provider Name: HERITAGE HEALTH CARE & REHAB INC
+  Legal Business Name: HERITAGE HEALTH CARE & REHAB, INC.
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 1101 SNOWS MILL AVENUE
+  City/Town: TUSCALOOSA
+  State: AL
+  County/Parish: Tuscaloosa
+  ZIP Code: 35406
+  Number of Certified Beds: 216
+  Average Number of Residents per Day: 137.7
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 3 ---
+  CMS Certification Number (CCN): 045366
+  Provider Name: HERITAGE SQUARE HEALTHCARE CENTER
+  Legal Business Name: CHC HERITAGE SQUARE NURSING CENTER, LLC
+  Chain Name: DAVID VANN & BOYD WRIGHT
+  Chain ID: 723
+  Number of Facilities in Chain: 5
+  Provider Address: 710 NO RUDDLE ROAD
+  City/Town: BLYTHEVILLE
+  State: AR
+  County/Parish: Mississippi
+  ZIP Code: 72316
+  Number of Certified Beds: 86
+  Average Number of Residents per Day: 74.8
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 4 ---
+  CMS Certification Number (CCN): 045308
+  Provider Name: HERITAGE LIVING CENTER
+  Legal Business Name: HLNC, INC
+  Chain Name: ANTHONY & BRYAN ADAMS
+  Chain ID: 36
+  Number of Facilities in Chain: 38
+  Provider Address: 1175 MORNINGSIDE DRIVE
+  City/Town: CONWAY
+  State: AR
+  County/Parish: Faulkner
+  ZIP Code: 72034
+  Number of Certified Beds: 140
+  Average Number of Residents per Day: 129.5
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 5 ---
+  CMS Certification Number (CCN): 035141
+  Provider Name: Heritage Health Care Center
+  Legal Business Name: GLOBE MEDICAL INVESTORS, LLC
+  Chain Name: LIFE CARE CENTERS OF AMERICA
+  Chain ID: 311
+  Number of Facilities in Chain: 194
+  Provider Address: 1300 SOUTH STREET
+  City/Town: GLOBE
+  State: AZ
+  County/Parish: Gila
+  ZIP Code: 85501
+  Number of Certified Beds: 96
+  Average Number of Residents per Day: 65.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 6 ---
+  CMS Certification Number (CCN): 035083
+  Provider Name: HERITAGE COURT POST ACUTE OF SCOTTSDALE
+  Legal Business Name: ECHO CANYON HEALTHCARE, INC.
+  Chain Name: THE ENSIGN GROUP
+  Chain ID: 507
+  Number of Facilities in Chain: 324
+  Provider Address: 3339 NORTH DRINKWATER BOULEVARD
+  City/Town: SCOTTSDALE
+  State: AZ
+  County/Parish: Maricopa
+  ZIP Code: 85251
+  Number of Certified Beds: 108
+  Average Number of Residents per Day: 66.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 7 ---
+  CMS Certification Number (CCN): 055183
+  Provider Name: HERITAGE GARDENS HEALTH CARE CENTER
+  Legal Business Name: HERITAGE HEALTH CARE, INC.
+  Chain Name: PROGRESSIVE HEALTH CARE CENTERS
+  Chain ID: 426
+  Number of Facilities in Chain: 5
+  Provider Address: 25271 BARTON ROAD
+  City/Town: LOMA LINDA
+  State: CA
+  County/Parish: San Bernardino
+  ZIP Code: 92354
+  Number of Certified Beds: 110
+  Average Number of Residents per Day: 97.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 8 ---
+  CMS Certification Number (CCN): 055989
+  Provider Name: HERITAGE MANOR
+  Legal Business Name: HERITAGE MANOR HEALTHCARE LLC
+  Chain Name: DAVID & FRANK JOHNSON
+  Chain ID: 811
+  Number of Facilities in Chain: 46
+  Provider Address: 610 NORTH GARFIELD AVENUE
+  City/Town: MONTEREY PARK
+  State: CA
+  County/Parish: Los Angeles
+  ZIP Code: 91754
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 93.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 9 ---
+  CMS Certification Number (CCN): 056308
+  Provider Name: HERITAGE REHABILITATION CENTER
+  Legal Business Name: HERITAGE CARE, LLC
+  Chain Name: CHARIS TRUST DTD 12/22/16
+  Chain ID: 136
+  Number of Facilities in Chain: 7
+  Provider Address: 21414 S. VERMONT AVENUE
+  City/Town: TORRANCE
+  State: CA
+  County/Parish: Los Angeles
+  ZIP Code: 90502
+  Number of Certified Beds: 161
+  Average Number of Residents per Day: 126.5
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 10 ---
+  CMS Certification Number (CCN): 555514
+  Provider Name: Heritage Park Nursing Center
+  Legal Business Name: GHC OF UPLAND SNF, LLC
+  Chain Name: GENERATIONS HEALTHCARE
+  Chain ID: 236
+  Number of Facilities in Chain: 33
+  Provider Address: 275 Garnet Way
+  City/Town: Upland
+  State: CA
+  County/Parish: San Bernardino
+  ZIP Code: 91786
+  Number of Certified Beds: 70
+  Average Number of Residents per Day: 65.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 11 ---
+  CMS Certification Number (CCN): 065237
+  Provider Name: HERITAGE PARK CARE CENTER
+  Legal Business Name: HERITAGE PARK OPERATIONS LLC
+  Chain Name: LIFE CARE CENTERS OF AMERICA
+  Chain ID: 311
+  Number of Facilities in Chain: 194
+  Provider Address: 1200 VILLAGE RD
+  City/Town: CARBONDALE
+  State: CO
+  County/Parish: Garfield
+  ZIP Code: 81623
+  Number of Certified Beds: 90
+  Average Number of Residents per Day: 38.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 12 ---
+  CMS Certification Number (CCN): 125062
+  Provider Name: HALE KUPUNA HERITAGE HOME, LLC
+  Legal Business Name: HALE KUPUNA HERITAGE HOME, LLC
+  Chain Name: OHANA PACIFIC MANAGEMENT CO.
+  Chain ID: 382
+  Number of Facilities in Chain: 6
+  Provider Address: 4297A OMAO ROAD
+  City/Town: KOLOA
+  State: HI
+  County/Parish: Kauai
+  ZIP Code: 96756
+  Number of Certified Beds: 84
+  Average Number of Residents per Day: 45.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 13 ---
+  CMS Certification Number (CCN): 165561
+  Provider Name: Heritage House
+  Legal Business Name: WESLEY RETIREMENT SERVICES INC
+  Chain Name: WESLEYLIFE
+  Chain ID: 561
+  Number of Facilities in Chain: 11
+  Provider Address: 1200 Brookridge Circle
+  City/Town: Atlantic
+  State: IA
+  County/Parish: Cass
+  ZIP Code: 50022
+  Number of Certified Beds: 61
+  Average Number of Residents per Day: 56.7
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 14 ---
+  CMS Certification Number (CCN): 165310
+  Provider Name: Heritage Specialty Care
+  Legal Business Name: CARE INITIATIVES
+  Chain Name: CARE INITIATIVES
+  Chain ID: 106
+  Number of Facilities in Chain: 43
+  Provider Address: 200 Clive Drive SW
+  City/Town: Cedar Rapids
+  State: IA
+  County/Parish: Linn
+  ZIP Code: 52404
+  Number of Certified Beds: 171
+  Average Number of Residents per Day: 120.5
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 15 ---
+  CMS Certification Number (CCN): 165367
+  Provider Name: Heritage Care And Rehabilitation Center
+  Legal Business Name: MASON CITY IA SKILLED NURSING FACILITY LLC
+  Chain Name: LEGACY HEALTHCARE
+  Chain ID: 306
+  Number of Facilities in Chain: 90
+  Provider Address: 501 South Kentucky Ave
+  City/Town: Mason City
+  State: IA
+  County/Parish: Cerro Gordo
+  ZIP Code: 50401
+  Number of Certified Beds: 71
+  Average Number of Residents per Day: 61.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 16 ---
+  CMS Certification Number (CCN): 175249
+  Provider Name: HERITAGE HEALTH CARE CENTER
+  Legal Business Name: HERITAGE HEALTH CARE, LLC
+  Chain Name: AMERICARE SENIOR LIVING
+  Chain ID: 34
+  Number of Facilities in Chain: 23
+  Provider Address: 1630 W 2ND STREET
+  City/Town: CHANUTE
+  State: KS
+  County/Parish: Neosho
+  ZIP Code: 66720
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 58.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 17 ---
+  CMS Certification Number (CCN): 175333
+  Provider Name: HERITAGE GARDENS HEALTH AND REHABILITATION CENTER
+  Legal Business Name: HERITAGE GARDENS HEALTH AND REHABILITATION CENTER LLC
+  Chain Name: RECOVER-CARE HEALTHCARE
+  Chain ID: 438
+  Number of Facilities in Chain: 26
+  Provider Address: 700 CHEROKEE
+  City/Town: OSKALOOSA
+  State: KS
+  County/Parish: Jefferson
+  ZIP Code: 66066
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 53.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 18 ---
+  CMS Certification Number (CCN): 195389
+  Provider Name: HERITAGE MANOR OF BATON ROUGE II
+  Legal Business Name: COMMUNITY CARE CENTER OF HERITAGE HOUSE, LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 9301 OXFORD PLACE AVE
+  City/Town: BATON ROUGE
+  State: LA
+  County/Parish: E. Baton Rouge
+  ZIP Code: 70809
+  Number of Certified Beds: 144
+  Average Number of Residents per Day: 114.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 19 ---
+  CMS Certification Number (CCN): 195494
+  Provider Name: LANDMARK OF BATON ROUGE
+  Legal Business Name: LANDMARK HERITAGE, LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 9105 OXFORD PLACE DRIVE
+  City/Town: BATON ROUGE
+  State: LA
+  County/Parish: E. Baton Rouge
+  ZIP Code: 70809
+  Number of Certified Beds: 144
+  Average Number of Residents per Day: 120.5
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 20 ---
+  CMS Certification Number (CCN): 195323
+  Provider Name: HERITAGE MANOR HEALTH & REHAB
+  Legal Business Name: 2575 AIRLINE DRIVE OPCO LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 2575 AIRLINE DRIVE
+  City/Town: BOSSIER CITY
+  State: LA
+  County/Parish: Bossier
+  ZIP Code: 71111
+  Number of Certified Beds: 64
+  Average Number of Residents per Day: 53.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 21 ---
+  CMS Certification Number (CCN): 195526
+  Provider Name: Heritage Healthcare of Hammond
+  Legal Business Name: PLANTATION MANAGEMENT COMPANY, LLC
+  Chain Name: PLANTATION MANAGEMENT COMPANY
+  Chain ID: 406
+  Number of Facilities in Chain: 16
+  Provider Address: 1300 DEREK DRIVE
+  City/Town: HAMMOND
+  State: LA
+  County/Parish: Tangipahoa
+  ZIP Code: 70403
+  Number of Certified Beds: 108
+  Average Number of Residents per Day: 82.6
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 22 ---
+  CMS Certification Number (CCN): 195518
+  Provider Name: HERITAGE NURSING CENTER
+  Legal Business Name: TRI-STATE HEALTH SERVICES OF CENLA, LLC
+  Chain Name: PARAMOUNT HEALTHCARE CONSULTANTS
+  Chain ID: 396
+  Number of Facilities in Chain: 14
+  Provider Address: 1745 BAILEY AVENUE
+  City/Town: HAYNESVILLE
+  State: LA
+  County/Parish: Claiborne
+  ZIP Code: 71038
+  Number of Certified Beds: 82
+  Average Number of Residents per Day: 31.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 23 ---
+  CMS Certification Number (CCN): 195485
+  Provider Name: HERITAGE MANOR OF HOUMA
+  Legal Business Name: COMMUNITY CARE CENTER OF HOUMA LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 852 CENTURION LANE
+  City/Town: HOUMA
+  State: LA
+  County/Parish: Terrebonne
+  ZIP Code: 70360
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 113.8
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 24 ---
+  CMS Certification Number (CCN): 195279
+  Provider Name: HERITAGE MANOR OF MANDEVILLE
+  Legal Business Name: COMMUNITY CARE CENTER OF MANDEVILLE LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 1820 W. CAUSEWAY APPROACH
+  City/Town: MANDEVILLE
+  State: LA
+  County/Parish: St. Tammany
+  ZIP Code: 70471
+  Number of Certified Beds: 145
+  Average Number of Residents per Day: 107.2
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 25 ---
+  CMS Certification Number (CCN): 195321
+  Provider Name: HERITAGE MANOR OF OPELOUSAS
+  Legal Business Name: OPELOUSAS HEALTHCARE PROPERTIES LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 7941 I-49 SOUTH SERVICE ROAD
+  City/Town: OPELOUSAS
+  State: LA
+  County/Parish: St. Landry
+  ZIP Code: 70570
+  Number of Certified Beds: 109
+  Average Number of Residents per Day: 109.2
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 26 ---
+  CMS Certification Number (CCN): 195408
+  Provider Name: Heritage Manor South
+  Legal Business Name: COMMUNITY CARE CENTER OF SHREVEPORT SOUTH LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 9712 MANSFIELD ROAD
+  City/Town: SHREVEPORT
+  State: LA
+  County/Parish: Caddo
+  ZIP Code: 71118
+  Number of Certified Beds: 145
+  Average Number of Residents per Day: 109.2
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 27 ---
+  CMS Certification Number (CCN): 195447
+  Provider Name: HERITAGE MANOR WEST
+  Legal Business Name: HERITAGE MANOR WEST LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 7060 COTTONWOOD BLVD
+  City/Town: SHREVEPORT
+  State: LA
+  County/Parish: Caddo
+  ZIP Code: 71129
+  Number of Certified Beds: 140
+  Average Number of Residents per Day: 114.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 28 ---
+  CMS Certification Number (CCN): 195486
+  Provider Name: HERITAGE MANOR OF STRATMORE NURSING & REHAB CTR
+  Legal Business Name: HERITAGE MANOR STRATMORE NURSING & REHABILITATION CENTER LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 530 STRATMORE DRIVE
+  City/Town: SHREVEPORT
+  State: LA
+  County/Parish: Caddo
+  ZIP Code: 71115
+  Number of Certified Beds: 142
+  Average Number of Residents per Day: 130.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 29 ---
+  CMS Certification Number (CCN): 195220
+  Provider Name: HERITAGE MANOR OF SLIDELL
+  Legal Business Name: HERITAGE MANOR OF SLIDELL LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 106 MEDICAL CENTER DRIVE
+  City/Town: SLIDELL
+  State: LA
+  County/Parish: St. Tammany
+  ZIP Code: 70461
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 103.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 30 ---
+  CMS Certification Number (CCN): 195507
+  Provider Name: HERITAGE MANOR OF VILLE PLATTE
+  Legal Business Name: COMMUNITY CARE CENTER OF VILLE PLATTE, LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 2020 W. MAIN STREET
+  City/Town: VILLE PLATTE
+  State: LA
+  County/Parish: Evangeline
+  ZIP Code: 70586
+  Number of Certified Beds: 124
+  Average Number of Residents per Day: 113.4
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 31 ---
+  CMS Certification Number (CCN): 225337
+  Provider Name: CAPE HERITAGE REHABILITATION & HEALTH CARE CENTER
+  Legal Business Name: CAPE HERITAGE MA SNF LLC
+  Chain Name: ATHENA HEALTHCARE SYSTEMS
+  Chain ID: 52
+  Number of Facilities in Chain: 27
+  Provider Address: 37 ROUTE 6A
+  City/Town: SANDWICH
+  State: MA
+  County/Parish: Barnstable
+  ZIP Code: 02563
+  Number of Certified Beds: 123
+  Average Number of Residents per Day: 108.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 32 ---
+  CMS Certification Number (CCN): 255284
+  Provider Name: HERITAGE HOUSE NURSING CENTER
+  Legal Business Name: COMMUNITY CARE CENTER OF VICKSBURG, LLC
+  Chain Name: THE BEEBE FAMILY
+  Chain ID: 779
+  Number of Facilities in Chain: 48
+  Provider Address: 3103 WISCONSIN AVENUE
+  City/Town: VICKSBURG
+  State: MS
+  County/Parish: Warren
+  ZIP Code: 39180
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 54.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 33 ---
+  CMS Certification Number (CCN): 285222
+  Provider Name: Heritage of Emerson
+  Legal Business Name: VSL EMERSON LLC
+  Chain Name: VETTER SENIOR LIVING
+  Chain ID: 547
+  Number of Facilities in Chain: 22
+  Provider Address: 607 Nebraska Street
+  City/Town: Emerson
+  State: NE
+  County/Parish: Dakota
+  ZIP Code: 68733
+  Number of Certified Beds: 38
+  Average Number of Residents per Day: 32.9
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 34 ---
+  CMS Certification Number (CCN): 285262
+  Provider Name: Heritage Care Center
+  Legal Business Name: VSL FAIRBURY LLC
+  Chain Name: VETTER SENIOR LIVING
+  Chain ID: 547
+  Number of Facilities in Chain: 22
+  Provider Address: 909 17th Street
+  City/Town: Fairbury
+  State: NE
+  County/Parish: Jefferson
+  ZIP Code: 68352
+  Number of Certified Beds: 100
+  Average Number of Residents per Day: 46.8
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 35 ---
+  CMS Certification Number (CCN): 285230
+  Provider Name: Heritage Crossings
+  Legal Business Name: VSL GENEVA LLC
+  Chain Name: VETTER SENIOR LIVING
+  Chain ID: 547
+  Number of Facilities in Chain: 22
+  Provider Address: 501 North 13th Street
+  City/Town: Geneva
+  State: NE
+  County/Parish: Fillmore
+  ZIP Code: 68361
+  Number of Certified Beds: 68
+  Average Number of Residents per Day: 42.5
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 36 ---
+  CMS Certification Number (CCN): 285071
+  Provider Name: Heritage Estates
+  Legal Business Name: VSL GERING LLC
+  Chain Name: VETTER SENIOR LIVING
+  Chain ID: 547
+  Number of Facilities in Chain: 22
+  Provider Address: 2325 Lodge Drive
+  City/Town: Gering
+  State: NE
+  County/Parish: Scott Bluff
+  ZIP Code: 69341
+  Number of Certified Beds: 102
+  Average Number of Residents per Day: 96.7
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 37 ---
+  CMS Certification Number (CCN): 285089
+  Provider Name: Heritage of Bel Air
+  Legal Business Name: VSL NORFOLK LLC
+  Chain Name: VETTER SENIOR LIVING
+  Chain ID: 547
+  Number of Facilities in Chain: 22
+  Provider Address: 1203 North 13th Street
+  City/Town: Norfolk
+  State: NE
+  County/Parish: Madison
+  ZIP Code: 68701
+  Number of Certified Beds: 108
+  Average Number of Residents per Day: 98.9
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 38 ---
+  CMS Certification Number (CCN): 285225
+  Provider Name: Heritage of Webster County
+  Legal Business Name: WEBSTER COUNTY COMMUNITY HOSPITAL FOUNDATION, INC.
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 636 North Locust Street
+  City/Town: Red Cloud
+  State: NE
+  County/Parish: Webster
+  ZIP Code: 68970
+  Number of Certified Beds: 43
+  Average Number of Residents per Day: 26.7
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 39 ---
+  CMS Certification Number (CCN): 305016
+  Provider Name: HAVENWOOD-HERITAGE HEIGHTS
+  Legal Business Name: UNITED CHURCH OF CHRIST RETIREMENT COMMUNITY INC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 33 CHRISTIAN AVENUE
+  City/Town: CONCORD
+  State: NH
+  County/Parish: Merrimack
+  ZIP Code: 03301
+  Number of Certified Beds: 70
+  Average Number of Residents per Day: 67.5
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 40 ---
+  CMS Certification Number (CCN): 315367
+  Provider Name: REGENCY HERITAGE NURSING AND REHABILITATION CENTER
+  Legal Business Name: REGENCY HERITAGE NURSING & REHABILITATION CENTER LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 380 DEMOTT LANE
+  City/Town: SOMERSET
+  State: NJ
+  County/Parish: Somerset
+  ZIP Code: 08873
+  Number of Certified Beds: 265
+  Average Number of Residents per Day: 188.7
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 41 ---
+  CMS Certification Number (CCN): 335104
+  Provider Name: THE HERITAGE REHABILITATION AND HEALTH CARE CENTER
+  Legal Business Name: PALM TREE CARE CENTER LLC
+  Chain Name: SHIMON LEFKOWITZ
+  Chain ID: 795
+  Number of Facilities in Chain: 5
+  Provider Address: 5606 15TH AVE
+  City/Town: BROOKLYN
+  State: NY
+  County/Parish: Kings
+  ZIP Code: 11219
+  Number of Certified Beds: 79
+  Average Number of Residents per Day: 75.2
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 42 ---
+  CMS Certification Number (CCN): 335353
+  Provider Name: HERITAGE VILLAGE REHAB AND SKILLED NURSING INC.
+  Legal Business Name: HERITAGE VILLAGE REHAB & SKILLED NURSING INC
+  Chain Name: HERITAGE MINISTRIES
+  Chain ID: 266
+  Number of Facilities in Chain: 4
+  Provider Address: 4570 ROUTE 60
+  City/Town: GERRY
+  State: NY
+  County/Parish: Chautauqua
+  ZIP Code: 14740
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 35.0
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 43 ---
+  CMS Certification Number (CCN): 335721
+  Provider Name: HERITAGE GREEN REHAB & SKILLED NURSING
+  Legal Business Name: GERRY HOMES INC
+  Chain Name: HERITAGE MINISTRIES
+  Chain ID: 266
+  Number of Facilities in Chain: 4
+  Provider Address: 3023 ROUTE 430
+  City/Town: GREENHURST
+  State: NY
+  County/Parish: Chautauqua
+  ZIP Code: 14742
+  Number of Certified Beds: 134
+  Average Number of Residents per Day: 108.2
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 44 ---
+  CMS Certification Number (CCN): 335142
+  Provider Name: HERITAGE PARK REHAB & SKILLED NURSING
+  Legal Business Name: GERRY HOMES INC
+  Chain Name: HERITAGE MINISTRIES
+  Chain ID: 266
+  Number of Facilities in Chain: 4
+  Provider Address: 150 PRATHER AVENUE
+  City/Town: JAMESTOWN
+  State: NY
+  County/Parish: Chautauqua
+  ZIP Code: 14701
+  Number of Certified Beds: 146
+  Average Number of Residents per Day: 122.7
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 45 ---
+  CMS Certification Number (CCN): 335760
+  Provider Name: EDDY HERITAGE HOUSE NURSING AND REHABILITATION CTR
+  Legal Business Name: HERITAGE HOUSE NURSING CENTER, INC
+  Chain Name: TRINITY HEALTH
+  Chain ID: 525
+  Number of Facilities in Chain: 20
+  Provider Address: 2920 TIBBITS AVENUE
+  City/Town: TROY
+  State: NY
+  County/Parish: Rensselaer
+  ZIP Code: 12180
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 111.5
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 46 ---
+  CMS Certification Number (CCN): 335600
+  Provider Name: THE GRAND REHABILITATION AND NURSING AT UTICA
+  Legal Business Name: HERITAGE OPERATING ASSOCIATES LLC
+  Chain Name: THE GRAND HEALTHCARE
+  Chain ID: 509
+  Number of Facilities in Chain: 16
+  Provider Address: 1657 SUNSET AVE
+  City/Town: UTICA
+  State: NY
+  County/Parish: Oneida
+  ZIP Code: 13502
+  Number of Certified Beds: 220
+  Average Number of Residents per Day: 213.5
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: SFF Candidate
+
+--- Match 47 ---
+  CMS Certification Number (CCN): 375109
+  Provider Name: HERITAGE VILLA CARE & REHAB CENTER
+  Legal Business Name: HERITAGE VILLA HEALTHCARE LLC
+  Chain Name: MGM HEALTHCARE
+  Chain ID: 348
+  Number of Facilities in Chain: 30
+  Provider Address: 1244 WOODLAND LOOP DRIVE
+  City/Town: BARTLESVILLE
+  State: OK
+  County/Parish: Washington
+  ZIP Code: 74006
+  Number of Certified Beds: 100
+  Average Number of Residents per Day: 79.4
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 48 ---
+  CMS Certification Number (CCN): 375511
+  Provider Name: HERITAGE PARK
+  Legal Business Name: HERITAGE PARK MANAGEMENT, LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 6912 NORTHWEST 23RD STREET
+  City/Town: BETHANY
+  State: OK
+  County/Parish: Oklahoma
+  ZIP Code: 73008
+  Number of Certified Beds: 55
+  Average Number of Residents per Day: 47.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 49 ---
+  CMS Certification Number (CCN): 375409
+  Provider Name: Corn Heritage Village and Rehab
+  Legal Business Name: CORN HERITAGE VILLAGE OF CORN INC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 106 West Adams
+  City/Town: Corn
+  State: OK
+  County/Parish: Washita
+  ZIP Code: 73024
+  Number of Certified Beds: 104
+  Average Number of Residents per Day: 52.6
+  Ownership Type: Non profit - Church related
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 50 ---
+  CMS Certification Number (CCN): 375199
+  Provider Name: HERITAGE VILLAGE NURSING HOME
+  Legal Business Name: HERITAGE VILLAGE NURSING CENTER, LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 801 HWY 48 NORTH
+  City/Town: HOLDENVILLE
+  State: OK
+  County/Parish: Hughes
+  ZIP Code: 74848
+  Number of Certified Beds: 118
+  Average Number of Residents per Day: 73.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 51 ---
+  CMS Certification Number (CCN): 375317
+  Provider Name: HERITAGE HILLS LIVING & REHABILITATION CENTER
+  Legal Business Name: HERITAGE HILLS NURSING CENTER INC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 411 NORTH WEST STREET
+  City/Town: MCALESTER
+  State: OK
+  County/Parish: Pittsburg
+  ZIP Code: 74502
+  Number of Certified Beds: 81
+  Average Number of Residents per Day: 55.6
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 52 ---
+  CMS Certification Number (CCN): 375119
+  Provider Name: HERITAGE AT BRANDON PLACE HEALTH & REHABILITATION
+  Legal Business Name: SOUTHWEST LTC - QUAIL CREEK, LLC
+  Chain Name: SOUTHWEST LTC
+  Chain ID: 481
+  Number of Facilities in Chain: 13
+  Provider Address: 13500 BRANDON PLACE
+  City/Town: OKLAHOMA CITY
+  State: OK
+  County/Parish: Oklahoma
+  ZIP Code: 73142
+  Number of Certified Beds: 118
+  Average Number of Residents per Day: 42.6
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 53 ---
+  CMS Certification Number (CCN): 375502
+  Provider Name: HERITAGE MANOR
+  Legal Business Name: HERITAGE MANOR MANAGEMENT LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 3804 NORTH BARR AVE
+  City/Town: OKLAHOMA CITY
+  State: OK
+  County/Parish: Oklahoma
+  ZIP Code: 73122
+  Number of Certified Beds: 55
+  Average Number of Residents per Day: 46.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 54 ---
+  CMS Certification Number (CCN): 375446
+  Provider Name: HERITAGE SKILLED NURSING AND THERAPY
+  Legal Business Name: TECUMSEH OPERATIONS, LLC
+  Chain Name: BRIDGES HEALTH
+  Chain ID: 91
+  Number of Facilities in Chain: 33
+  Provider Address: 201 WEST WALNUT
+  City/Town: TECUMSEH
+  State: OK
+  County/Parish: Pottawatomie
+  ZIP Code: 74873
+  Number of Certified Beds: 100
+  Average Number of Residents per Day: 63.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 55 ---
+  CMS Certification Number (CCN): 375530
+  Provider Name: CORN HERITAGE VILLAGE AND REHAB OF WEATHERFORD
+  Legal Business Name: CORN HERITAGE VILLAGE OF WEATHERFORD INC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 801 NORTH WASHINGTON
+  City/Town: WEATHERFORD
+  State: OK
+  County/Parish: Custer
+  ZIP Code: 73096
+  Number of Certified Beds: 81
+  Average Number of Residents per Day: 59.5
+  Ownership Type: Non profit - Church related
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 56 ---
+  CMS Certification Number (CCN): 395619
+  Provider Name: ROLLING FIELDS, INC
+  Legal Business Name: ROLLING FIELDS INC
+  Chain Name: HERITAGE MINISTRIES
+  Chain ID: 266
+  Number of Facilities in Chain: 4
+  Provider Address: 9108 STATE HIGHWAY 198
+  City/Town: CONNEAUTVILLE
+  State: PA
+  County/Parish: Crawford
+  ZIP Code: 16406
+  Number of Certified Beds: 181
+  Average Number of Residents per Day: 47.7
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 57 ---
+  CMS Certification Number (CCN): 395047
+  Provider Name: HERITAGE POINTE REHABILITATION AND HEALTHCARE CTR
+  Legal Business Name: HERITAGE POINTE REHABILITATION AND HEALTHCARE CENTER LLC
+  Chain Name: PRESTIGE HEALTHCARE ADMINISTRATIVE SERVICES
+  Chain ID: 418
+  Number of Facilities in Chain: 15
+  Provider Address: 400 SOUTH MAIN STREET
+  City/Town: DOYLESTOWN
+  State: PA
+  County/Parish: Bucks
+  ZIP Code: 18901
+  Number of Certified Beds: 130
+  Average Number of Residents per Day: 110.9
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 58 ---
+  CMS Certification Number (CCN): 395520
+  Provider Name: WESLEY ENHANCED LIVING - DOYLESTOWN
+  Legal Business Name: NEW HERITAGE TOWERS
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 200 VETERANS LANE
+  City/Town: DOYLESTOWN
+  State: PA
+  County/Parish: Bucks
+  ZIP Code: 18901
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 52.4
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 59 ---
+  CMS Certification Number (CCN): 395439
+  Provider Name: HERITAGE RIDGE SENIOR LIVING AT JOHNSTOWN
+  Legal Business Name: JOHNSTOWN PA OPCO LLC
+  Chain Name: CONTINUUM HEALTHCARE
+  Chain ID: 161
+  Number of Facilities in Chain: 12
+  Provider Address: 807 GOUCHER STREET
+  City/Town: JOHNSTOWN
+  State: PA
+  County/Parish: Cambria
+  ZIP Code: 15905
+  Number of Certified Beds: 63
+  Average Number of Residents per Day: 60.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 60 ---
+  CMS Certification Number (CCN): 395533
+  Provider Name: HERITAGE RIDGE SENIOR LIVING AT WINDY HILL
+  Legal Business Name: PHILLIPSBURG SNF OPCO LLC
+  Chain Name: PRESBYTERIAN SENIOR LIVING
+  Chain ID: 415
+  Number of Facilities in Chain: 12
+  Provider Address: 100 DOGWOOD DRIVE
+  City/Town: PHILIPSBURG
+  State: PA
+  County/Parish: Centre
+  ZIP Code: 16866
+  Number of Certified Beds: 90
+  Average Number of Residents per Day: 85.8
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 61 ---
+  CMS Certification Number (CCN): 395732
+  Provider Name: HERITAGE CARE CENTER
+  Legal Business Name: HER OPCO LLC
+  Chain Name: WECARE CENTERS
+  Chain ID: 705
+  Number of Facilities in Chain: 13
+  Provider Address: 5701 PHILLIPS AVENUE
+  City/Town: PITTSBURGH
+  State: PA
+  County/Parish: Allegheny
+  ZIP Code: 15217
+  Number of Certified Beds: 143
+  Average Number of Residents per Day: 105.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: SFF Candidate
+
+--- Match 62 ---
+  CMS Certification Number (CCN): 415039
+  Provider Name: Heritage Hills Nursing & Rehabilitation Center
+  Legal Business Name: HERITAGE HILLS OPERATOR LLC
+  Chain Name: MARQUIS HEALTH SERVICES
+  Chain ID: 336
+  Number of Facilities in Chain: 80
+  Provider Address: 80 Douglas Pike
+  City/Town: Smithfield
+  State: RI
+  County/Parish: Providence
+  ZIP Code: 02917
+  Number of Certified Beds: 100
+  Average Number of Residents per Day: 84.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: SFF Candidate
+
+--- Match 63 ---
+  CMS Certification Number (CCN): 435094
+  Provider Name: Wakonda Heritage Manor
+  Legal Business Name: WAKONDA HERITAGE MANOR
+  Chain Name: AVERA HEALTH
+  Chain ID: 61
+  Number of Facilities in Chain: 12
+  Provider Address: 515 OHIO STREET
+  City/Town: WAKONDA
+  State: SD
+  County/Parish: Clay
+  ZIP Code: 57073
+  Number of Certified Beds: 38
+  Average Number of Residents per Day: 32.6
+  Ownership Type: Non profit - Other
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 64 ---
+  CMS Certification Number (CCN): 445488
+  Provider Name: SOMERFIELD AT THE HERITAGE
+  Legal Business Name: HERITAGE RETIREMENT FACILITIES LLC
+  Chain Name: LIFE CARE SERVICES
+  Chain ID: 312
+  Number of Facilities in Chain: 20
+  Provider Address: 900 HERITAGE WAY
+  City/Town: BRENTWOOD
+  State: TN
+  County/Parish: Williamson
+  ZIP Code: 37027
+  Number of Certified Beds: 66
+  Average Number of Residents per Day: 61.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 65 ---
+  CMS Certification Number (CCN): 445215
+  Provider Name: HERITAGE CENTER, THE
+  Legal Business Name: LIFE CARE CENTERS OF AMERICA, INC.
+  Chain Name: LIFE CARE CENTERS OF AMERICA
+  Chain ID: 311
+  Number of Facilities in Chain: 194
+  Provider Address: 1026 MCFARLAND STREET
+  City/Town: MORRISTOWN
+  State: TN
+  County/Parish: Hamblen
+  ZIP Code: 37814
+  Number of Certified Beds: 197
+  Average Number of Residents per Day: 101.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 66 ---
+  CMS Certification Number (CCN): 455480
+  Provider Name: HERITAGE CONVALESCENT CENTER
+  Legal Business Name: HERITAGE CONVALESCENT CENTER, LTD.
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 1009 CLYDE ST
+  City/Town: AMARILLO
+  State: TX
+  County/Parish: Potter
+  ZIP Code: 79106
+  Number of Certified Beds: 116
+  Average Number of Residents per Day: 66.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 67 ---
+  CMS Certification Number (CCN): 455599
+  Provider Name: Heritage Park Rehabilitation and Skilled Nursing C
+  Legal Business Name: VAL VERDE COUNTY HOSPITAL DISTRICT
+  Chain Name: WELLSENTIAL HEALTH
+  Chain ID: 670
+  Number of Facilities in Chain: 67
+  Provider Address: 2806 Real St
+  City/Town: Austin
+  State: TX
+  County/Parish: Travis
+  ZIP Code: 78722
+  Number of Certified Beds: 197
+  Average Number of Residents per Day: 183.1
+  Ownership Type: Government - Hospital district
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 68 ---
+  CMS Certification Number (CCN): 745049
+  Provider Name: Las Alturas Nursing & Transitional Care Brownsvill
+  Legal Business Name: HERITAGE BROWNSVILLE HEALTH DEVELOPMENT LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 180 East Price Road
+  City/Town: Brownsville
+  State: TX
+  County/Parish: Cameron
+  ZIP Code: 78521
+  Number of Certified Beds: 122
+  Average Number of Residents per Day: 82.5
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 69 ---
+  CMS Certification Number (CCN): 675748
+  Provider Name: HERITAGE TRAILS NURSING AND REHABILITATION CENTER
+  Legal Business Name: MAVERICK COUNTY HOSPITAL DISTRICT
+  Chain Name: EDURO HEALTHCARE
+  Chain ID: 193
+  Number of Facilities in Chain: 37
+  Provider Address: 301 LINCOLN PARK DR
+  City/Town: CLEBURNE
+  State: TX
+  County/Parish: Johnson
+  ZIP Code: 76033
+  Number of Certified Beds: 122
+  Average Number of Residents per Day: 86.8
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 70 ---
+  CMS Certification Number (CCN): 675581
+  Provider Name: THE VILLAGE AT HERITAGE OAKS
+  Legal Business Name: SOUTHWEST LTC - CORSICANA LLC
+  Chain Name: SOUTHWEST LTC
+  Chain ID: 481
+  Number of Facilities in Chain: 13
+  Provider Address: 3002 W 2ND AVE
+  City/Town: CORSICANA
+  State: TX
+  County/Parish: Navarro
+  ZIP Code: 75110
+  Number of Certified Beds: 107
+  Average Number of Residents per Day: 55.1
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 71 ---
+  CMS Certification Number (CCN): 675111
+  Provider Name: Heritage Gardens Rehabilitation and Healthcare
+  Legal Business Name: EASTLAND MEMORIAL HOSPITAL DISTRICT
+  Chain Name: THE ENSIGN GROUP
+  Chain ID: 507
+  Number of Facilities in Chain: 324
+  Provider Address: 2135 N Denton Dr
+  City/Town: Carrollton
+  State: TX
+  County/Parish: Dallas
+  ZIP Code: 75006
+  Number of Certified Beds: 150
+  Average Number of Residents per Day: 78.2
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 72 ---
+  CMS Certification Number (CCN): 675513
+  Provider Name: HERITAGE PLACE OF DECATUR
+  Legal Business Name: DECATUR II ENTERPRISES, LLC
+  Chain Name: CREATIVE SOLUTIONS IN HEALTHCARE
+  Chain ID: 169
+  Number of Facilities in Chain: 149
+  Provider Address: 605 W MULBERRY
+  City/Town: DECATUR
+  State: TX
+  County/Parish: Wise
+  ZIP Code: 76234
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 42.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 73 ---
+  CMS Certification Number (CCN): 676317
+  Provider Name: The Harrison at Heritage
+  Legal Business Name: DALLAS COUNTY HOSPITAL DISTRICT
+  Chain Name: CANTEX CONTINUING CARE
+  Chain ID: 100
+  Number of Facilities in Chain: 38
+  Provider Address: 4600 Heritage Trace Parkway
+  City/Town: Fort Worth
+  State: TX
+  County/Parish: Tarrant
+  ZIP Code: 76244
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 99.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 74 ---
+  CMS Certification Number (CCN): 455733
+  Provider Name: HERITAGE AT TURNER PARK HEALTH & REHAB
+  Legal Business Name: STEPHENS MEMORIAL HOSPITAL DISTRICT
+  Chain Name: CREATIVE SOLUTIONS IN HEALTHCARE
+  Chain ID: 169
+  Number of Facilities in Chain: 149
+  Provider Address: 820 SMALL ST
+  City/Town: GRAND PRAIRIE
+  State: TX
+  County/Parish: Dallas
+  ZIP Code: 75050
+  Number of Certified Beds: 146
+  Average Number of Residents per Day: 86.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 75 ---
+  CMS Certification Number (CCN): 676221
+  Provider Name: HERITAGE PARK OF KATY NURSING AND REHABILITATION
+  Legal Business Name: OAKBEND MEDICAL CENTER
+  Chain Name: OAKBEND MEDICAL CENTER
+  Chain ID: 579
+  Number of Facilities in Chain: 5
+  Provider Address: 6001 GEORGE BUSH DR
+  City/Town: KATY
+  State: TX
+  County/Parish: Harris
+  ZIP Code: 77493
+  Number of Certified Beds: 118
+  Average Number of Residents per Day: 111.2
+  Ownership Type: Government - Hospital district
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 76 ---
+  CMS Certification Number (CCN): 675153
+  Provider Name: HERITAGE HOUSE AT KELLER REHAB & NURSING
+  Legal Business Name: PALO PINTO COUNTY HOSPITAL DISTRICT
+  Chain Name: ADVANCED HEALTHCARE SOLUTIONS
+  Chain ID: 13
+  Number of Facilities in Chain: 30
+  Provider Address: 1150 WHITLEY ROAD
+  City/Town: KELLER
+  State: TX
+  County/Parish: Tarrant
+  ZIP Code: 76248
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 119.4
+  Ownership Type: Government - Hospital district
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 77 ---
+  CMS Certification Number (CCN): 455569
+  Provider Name: HERITAGE AT LONGVIEW HEALTHCARE CENTER
+  Legal Business Name: NACOGDOCHES COUNTY HOSPITAL DISTRICT
+  Chain Name: CREATIVE SOLUTIONS IN HEALTHCARE
+  Chain ID: 169
+  Number of Facilities in Chain: 149
+  Provider Address: 112 RUTHLYNN DR
+  City/Town: LONGVIEW
+  State: TX
+  County/Parish: Gregg
+  ZIP Code: 75605
+  Number of Certified Beds: 140
+  Average Number of Residents per Day: 58.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 78 ---
+  CMS Certification Number (CCN): 675346
+  Provider Name: HERITAGE OAKS NURSING AND REHABILITATION CENTER
+  Legal Business Name: STRATFORD HOSPITAL DISTRICT
+  Chain Name: SLP OPERATIONS
+  Chain ID: 730
+  Number of Facilities in Chain: 27
+  Provider Address: 5301 UNIVERSITY AVE
+  City/Town: LUBBOCK
+  State: TX
+  County/Parish: Lubbock
+  ZIP Code: 79413
+  Number of Certified Beds: 159
+  Average Number of Residents per Day: 106.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 79 ---
+  CMS Certification Number (CCN): 676279
+  Provider Name: CROWN POINT HEALTH SUITES
+  Legal Business Name: J F HERITAGE LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 6640 IOLA AVENUE
+  City/Town: LUBBOCK
+  State: TX
+  County/Parish: Lubbock
+  ZIP Code: 79424
+  Number of Certified Beds: 108
+  Average Number of Residents per Day: 87.3
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 80 ---
+  CMS Certification Number (CCN): 676187
+  Provider Name: HERITAGE HOUSE OF MARSHALL HEALTH & REHABILITATION
+  Legal Business Name: NACOGDOCHES COUNTY HOSPITAL DISTRICT
+  Chain Name: SOUTHWEST LTC
+  Chain ID: 481
+  Number of Facilities in Chain: 13
+  Provider Address: 5915 ELYSIAN FIELDS ROAD
+  City/Town: MARSHALL
+  State: TX
+  County/Parish: Harrison
+  ZIP Code: 75672
+  Number of Certified Beds: 125
+  Average Number of Residents per Day: 68.6
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: Y
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 81 ---
+  CMS Certification Number (CCN): 676294
+  Provider Name: HERITAGE HOUSE AT PARIS REHAB & NURSING
+  Legal Business Name: HAMILTON COUNTY HOSPITAL DISTRICT
+  Chain Name: ADVANCED HEALTHCARE SOLUTIONS
+  Chain ID: 13
+  Number of Facilities in Chain: 30
+  Provider Address: 150 S.E. 47TH STREET
+  City/Town: PARIS
+  State: TX
+  County/Parish: Lamar
+  ZIP Code: 75462
+  Number of Certified Beds: 90
+  Average Number of Residents per Day: 77.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 82 ---
+  CMS Certification Number (CCN): 675210
+  Provider Name: HERITAGE HOUSE NURSING AND REHABILITATION
+  Legal Business Name: ROSEBUD I ENTERPRISES, LLC
+  Chain Name: CREATIVE SOLUTIONS IN HEALTHCARE
+  Chain ID: 169
+  Number of Facilities in Chain: 149
+  Provider Address: 407 N COLLEGE ST
+  City/Town: ROSEBUD
+  State: TX
+  County/Parish: Falls
+  ZIP Code: 76570
+  Number of Certified Beds: 85
+  Average Number of Residents per Day: 33.7
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 83 ---
+  CMS Certification Number (CCN): 675858
+  Provider Name: HERITAGE NURSING & REHABILITATION
+  Legal Business Name: WEST WHARTON COUNTY HOSPITAL DISTRICT
+  Chain Name: TOUCHSTONE COMMUNITIES
+  Chain ID: 521
+  Number of Facilities in Chain: 29
+  Provider Address: 5437 EISENHAUER RD
+  City/Town: SAN ANTONIO
+  State: TX
+  County/Parish: Bexar
+  ZIP Code: 78218
+  Number of Certified Beds: 150
+  Average Number of Residents per Day: 89.5
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 84 ---
+  CMS Certification Number (CCN): 675561
+  Provider Name: HERITAGE PLAZA NURSING CENTER
+  Legal Business Name: FANNIN COUNTY HOSPITAL AUTHORITY
+  Chain Name: STONEGATE SENIOR LIVING
+  Chain ID: 495
+  Number of Facilities in Chain: 25
+  Provider Address: 600 W 52ND ST
+  City/Town: TEXARKANA
+  State: TX
+  County/Parish: Bowie
+  ZIP Code: 75501
+  Number of Certified Beds: 95
+  Average Number of Residents per Day: 48.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 85 ---
+  CMS Certification Number (CCN): 465003
+  Provider Name: Heritage Park Healthcare and Rehabilitation
+  Legal Business Name: BEAVER VALLEY HOSPITAL
+  Chain Name: THE ENSIGN GROUP
+  Chain ID: 507
+  Number of Facilities in Chain: 324
+  Provider Address: 2700 West 5600 South
+  City/Town: Roy
+  State: UT
+  County/Parish: Weber
+  ZIP Code: 84067
+  Number of Certified Beds: 176
+  Average Number of Residents per Day: 109.6
+  Ownership Type: For profit - Partnership
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 86 ---
+  CMS Certification Number (CCN): 515060
+  Provider Name: HERITAGE CENTER
+  Legal Business Name: 101 13TH STREET OPERATIONS LLC
+  Chain Name: GENESIS HEALTHCARE
+  Chain ID: 237
+  Number of Facilities in Chain: 195
+  Provider Address: 101-13TH STREET
+  City/Town: HUNTINGTON
+  State: WV
+  County/Parish: Cabell
+  ZIP Code: 25701
+  Number of Certified Beds: 160
+  Average Number of Residents per Day: 154.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+========================================================================================================================
+  QUERY 2A: Embassy in OH
+  Total matches: 27
+  Match criteria: embassy in Chain Name, Provider Name, or Legal Business Name, State=OH
+========================================================================================================================
+
+--- Match 1 ---
+  CMS Certification Number (CCN): 366239
+  Provider Name: CRYSTAL CARE CENTER OF ASHLAND
+  Legal Business Name: EMBASSY CRYSTAL CARE LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1251 EAST MAIN STREET
+  City/Town: ASHLAND
+  State: OH
+  County/Parish: Ashland
+  ZIP Code: 44805
+  Number of Certified Beds: 72
+  Average Number of Residents per Day: 58.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 2 ---
+  CMS Certification Number (CCN): 365770
+  Provider Name: EMBASSY OF CAMBRIDGE
+  Legal Business Name: EMBASSY CAMBRIDGE, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1471 WILLS CREEK VALLEY DRIVE
+  City/Town: CAMBRIDGE
+  State: OH
+  County/Parish: Guernsey
+  ZIP Code: 43725
+  Number of Certified Beds: 95
+  Average Number of Residents per Day: 75.5
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 3 ---
+  CMS Certification Number (CCN): 365644
+  Provider Name: EMBASSY OF WINCHESTER
+  Legal Business Name: EMBASSY WINCHESTER, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 36 LEHMAN DR
+  City/Town: CANAL WINCHESTER
+  State: OH
+  County/Parish: Franklin
+  ZIP Code: 43110
+  Number of Certified Beds: 176
+  Average Number of Residents per Day: 89.0
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 4 ---
+  CMS Certification Number (CCN): 366043
+  Provider Name: CARLISLE MANOR HEALTH CARE INC
+  Legal Business Name: CARLISLE HEALTH CARE INC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 730 HILLCREST DRIVE
+  City/Town: CARLISLE
+  State: OH
+  County/Parish: Warren
+  ZIP Code: 45005
+  Number of Certified Beds: 48
+  Average Number of Residents per Day: 41.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 5 ---
+  CMS Certification Number (CCN): 365673
+  Provider Name: EMBASSY OF WOODVIEW
+  Legal Business Name: EMBASSY WOODVIEW LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 2770 CLIME ROAD
+  City/Town: COLUMBUS
+  State: OH
+  County/Parish: Franklin
+  ZIP Code: 43223
+  Number of Certified Beds: 95
+  Average Number of Residents per Day: 71.9
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 6 ---
+  CMS Certification Number (CCN): 365980
+  Provider Name: FOREST HILLS CENTER
+  Legal Business Name: EMBASSY FOREST HILLS
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 2841 EAST DUBLIN-GRANVILLE ROAD
+  City/Town: COLUMBUS
+  State: OH
+  County/Parish: Franklin
+  ZIP Code: 43231
+  Number of Certified Beds: 75
+  Average Number of Residents per Day: 73.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 7 ---
+  CMS Certification Number (CCN): 365364
+  Provider Name: GARDEN COURT NURSING AND REHABILITATION CENTER
+  Legal Business Name: EMBASSY GARDEN COURT LLC
+  Chain Name: HILLSTONE HEALTHCARE
+  Chain ID: 271
+  Number of Facilities in Chain: 14
+  Provider Address: 4911 COVENANT HOUSE DRIVE
+  City/Town: DAYTON
+  State: OH
+  County/Parish: Montgomery
+  ZIP Code: 45426
+  Number of Certified Beds: 67
+  Average Number of Residents per Day: 42.0
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: SFF Candidate
+
+--- Match 8 ---
+  CMS Certification Number (CCN): 365730
+  Provider Name: EMBASSY OF EUCLID
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 3 GATEWAY DR
+  City/Town: EUCLID
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44119
+  Number of Certified Beds: 75
+  Average Number of Residents per Day: 69.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 9 ---
+  CMS Certification Number (CCN): 365363
+  Provider Name: PARKSIDE NURSING AND REHABILITATION  CENTER
+  Legal Business Name: MULTICARE MANAGEMENT GROUP, INC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 908 SYMMES ROAD
+  City/Town: FAIRFIELD
+  State: OH
+  County/Parish: Butler
+  ZIP Code: 45014
+  Number of Certified Beds: 76
+  Average Number of Residents per Day: 69.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 10 ---
+  CMS Certification Number (CCN): 366075
+  Provider Name: EMBASSY OF VALLEY VIEW
+  Legal Business Name: EMBASSY VALLEY VIEW LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 3363 RAGGED RIDGE ROAD
+  City/Town: FRANKFORT
+  State: OH
+  County/Parish: Ross
+  ZIP Code: 45628
+  Number of Certified Beds: 50
+  Average Number of Residents per Day: 46.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 11 ---
+  CMS Certification Number (CCN): 365920
+  Provider Name: EMBASSY OF LEBANON
+  Legal Business Name: EMBASSY LEBANON LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 700 MONROE ROAD
+  City/Town: LEBANON
+  State: OH
+  County/Parish: Warren
+  ZIP Code: 45036
+  Number of Certified Beds: 79
+  Average Number of Residents per Day: 57.0
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 12 ---
+  CMS Certification Number (CCN): 365435
+  Provider Name: EMBASSY OF LOGAN
+  Legal Business Name: EMBASSY LOGAN LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 300 ARLINGTON AVENUE
+  City/Town: LOGAN
+  State: OH
+  County/Parish: Hocking
+  ZIP Code: 43138
+  Number of Certified Beds: 135
+  Average Number of Residents per Day: 101.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 13 ---
+  CMS Certification Number (CCN): 365550
+  Provider Name: OAK HILLS NURSING CENTER
+  Legal Business Name: EMBASSY OAK HILLS MANAGEMENT
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 3650 BEAVERCREST DRIVE
+  City/Town: LORAIN
+  State: OH
+  County/Parish: Lorain
+  ZIP Code: 44053
+  Number of Certified Beds: 80
+  Average Number of Residents per Day: 60.7
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 14 ---
+  CMS Certification Number (CCN): 366114
+  Provider Name: EMBASSY OF LYNDHURST
+  Legal Business Name: EMBASSY LYNDHURST, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1575 BRAINARD RD
+  City/Town: LYNDHURST
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44124
+  Number of Certified Beds: 140
+  Average Number of Residents per Day: 77.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 15 ---
+  CMS Certification Number (CCN): 365306
+  Provider Name: MADISON HEALTH CARE
+  Legal Business Name: EMBASSY MADISON MANAGEMENT, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 7600 S RIDGE RD
+  City/Town: MADISON
+  State: OH
+  County/Parish: Lake
+  ZIP Code: 44057
+  Number of Certified Beds: 125
+  Average Number of Residents per Day: 103.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 16 ---
+  CMS Certification Number (CCN): 365329
+  Provider Name: EMBASSY OF MARION
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 175 COMMUNITY DRIVE
+  City/Town: MARION
+  State: OH
+  County/Parish: Marion
+  ZIP Code: 43302
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 65.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 17 ---
+  CMS Certification Number (CCN): 365753
+  Provider Name: ROYAL OAK NURSING & REHAB CTR
+  Legal Business Name: EMBASSY ROYAL OAK LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 6973 PEARL RD
+  City/Town: MIDDLEBURG HEIGHTS
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44130
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 74.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 18 ---
+  CMS Certification Number (CCN): 365425
+  Provider Name: EMBASSY OF NEWARK
+  Legal Business Name: EMBASSY NEWARK LLC
+  Chain Name: GARDEN SPRINGS HEALTHCARE
+  Chain ID: 805
+  Number of Facilities in Chain: 6
+  Provider Address: 75 MCMILLEN DRIVE
+  City/Town: NEWARK
+  State: OH
+  County/Parish: Licking
+  ZIP Code: 43055
+  Number of Certified Beds: 145
+  Average Number of Residents per Day: 106.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 19 ---
+  CMS Certification Number (CCN): 365401
+  Provider Name: HERITAGE HEALTH CARE CENTER
+  Legal Business Name: OAKWOOD HEALTH CARE SERVICES, INC.
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 24613 BROADWAY AVENUE
+  City/Town: OAKWOOD VILLAGE
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44146
+  Number of Certified Beds: 80
+  Average Number of Residents per Day: 34.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 20 ---
+  CMS Certification Number (CCN): 365825
+  Provider Name: GRANDE OAKS
+  Legal Business Name: OAKWOOD HEALTH CARE SERVICES, INC.
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 24579 BROADWAY AVE
+  City/Town: OAKWOOD VILLAGE
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44146
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 48.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 21 ---
+  CMS Certification Number (CCN): 365713
+  Provider Name: EMBASSY OF PAINESVILLE
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 70 NORMANDY DR
+  City/Town: PAINESVILLE
+  State: OH
+  County/Parish: Lake
+  ZIP Code: 44077
+  Number of Certified Beds: 78
+  Average Number of Residents per Day: 54.7
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 22 ---
+  CMS Certification Number (CCN): 365636
+  Provider Name: PICKERINGTON CARE AND REHABILITATION
+  Legal Business Name: EMBASSY PICKERINGTON LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1300 HILL ROAD NORTH
+  City/Town: PICKERINGTON
+  State: OH
+  County/Parish: Fairfield
+  ZIP Code: 43147
+  Number of Certified Beds: 96
+  Average Number of Residents per Day: 72.1
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 23 ---
+  CMS Certification Number (CCN): 365354
+  Provider Name: LONGMEADOW CARE CENTER
+  Legal Business Name: EMBASSY LONGMEADOW LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 565 BRYN MAWR
+  City/Town: RAVENNA
+  State: OH
+  County/Parish: Portage
+  ZIP Code: 44266
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 62.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 24 ---
+  CMS Certification Number (CCN): 365563
+  Provider Name: AUTUMNWOOD NURSING & REHAB CENTER
+  Legal Business Name: EMBASSY AUTUMNWOOD MANAGEMENT
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 275 EAST SUNSET DRIVE
+  City/Town: RITTMAN
+  State: OH
+  County/Parish: Wayne
+  ZIP Code: 44270
+  Number of Certified Beds: 75
+  Average Number of Residents per Day: 52.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 25 ---
+  CMS Certification Number (CCN): 366183
+  Provider Name: SEASONS NURSING AND REHAB
+  Legal Business Name: SEASONS HEALTHCARE GROUP, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 456 SEASONS RD
+  City/Town: STOW
+  State: OH
+  County/Parish: Summit
+  ZIP Code: 44224
+  Number of Certified Beds: 50
+  Average Number of Residents per Day: 48.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 26 ---
+  CMS Certification Number (CCN): 366073
+  Provider Name: EMBASSY OF SWANTON
+  Legal Business Name: SWANTON HEALTH CARE & RETIREMENT CENTER INC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 214 S MUNSON RD
+  City/Town: SWANTON
+  State: OH
+  County/Parish: Fulton
+  ZIP Code: 43558
+  Number of Certified Beds: 68
+  Average Number of Residents per Day: 63.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 27 ---
+  CMS Certification Number (CCN): 365343
+  Provider Name: EMBASSY OF WILLARD
+  Legal Business Name: EMBASSY WILLARD LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 370 E HOWARD ST
+  City/Town: WILLARD
+  State: OH
+  County/Parish: Huron
+  ZIP Code: 44890
+  Number of Certified Beds: 59
+  Average Number of Residents per Day: 53.0
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+========================================================================================================================
+  QUERY 2B: Embassy ALL states (reference)
+  Total matches: 41
+  Match criteria: embassy in Chain Name, Provider Name, or Legal Business Name
+========================================================================================================================
+
+--- Match 1 ---
+  CMS Certification Number (CCN): 165145
+  Provider Name: Embassy Rehab and Care Center
+  Legal Business Name: KISMET SUX LLC
+  Chain Name: LANTIS ENTERPRISES
+  Chain ID: 304
+  Number of Facilities in Chain: 5
+  Provider Address: 206 Port Neal Road
+  City/Town: Sergeant Bluff
+  State: IA
+  County/Parish: Woodbury
+  ZIP Code: 51054
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 41.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 2 ---
+  CMS Certification Number (CCN): 315279
+  Provider Name: EMBASSY MANOR AT EDISON NURSING AND REHABILITATION
+  Legal Business Name: EDISON HEALTHCARE LLC
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 10 BRUNSWICK AVENUE
+  City/Town: EDISON
+  State: NJ
+  County/Parish: Middlesex
+  ZIP Code: 08817
+  Number of Certified Beds: 280
+  Average Number of Residents per Day: 220.2
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 3 ---
+  CMS Certification Number (CCN): 366239
+  Provider Name: CRYSTAL CARE CENTER OF ASHLAND
+  Legal Business Name: EMBASSY CRYSTAL CARE LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1251 EAST MAIN STREET
+  City/Town: ASHLAND
+  State: OH
+  County/Parish: Ashland
+  ZIP Code: 44805
+  Number of Certified Beds: 72
+  Average Number of Residents per Day: 58.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 4 ---
+  CMS Certification Number (CCN): 365770
+  Provider Name: EMBASSY OF CAMBRIDGE
+  Legal Business Name: EMBASSY CAMBRIDGE, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1471 WILLS CREEK VALLEY DRIVE
+  City/Town: CAMBRIDGE
+  State: OH
+  County/Parish: Guernsey
+  ZIP Code: 43725
+  Number of Certified Beds: 95
+  Average Number of Residents per Day: 75.5
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 5 ---
+  CMS Certification Number (CCN): 365644
+  Provider Name: EMBASSY OF WINCHESTER
+  Legal Business Name: EMBASSY WINCHESTER, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 36 LEHMAN DR
+  City/Town: CANAL WINCHESTER
+  State: OH
+  County/Parish: Franklin
+  ZIP Code: 43110
+  Number of Certified Beds: 176
+  Average Number of Residents per Day: 89.0
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 6 ---
+  CMS Certification Number (CCN): 366043
+  Provider Name: CARLISLE MANOR HEALTH CARE INC
+  Legal Business Name: CARLISLE HEALTH CARE INC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 730 HILLCREST DRIVE
+  City/Town: CARLISLE
+  State: OH
+  County/Parish: Warren
+  ZIP Code: 45005
+  Number of Certified Beds: 48
+  Average Number of Residents per Day: 41.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 7 ---
+  CMS Certification Number (CCN): 365673
+  Provider Name: EMBASSY OF WOODVIEW
+  Legal Business Name: EMBASSY WOODVIEW LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 2770 CLIME ROAD
+  City/Town: COLUMBUS
+  State: OH
+  County/Parish: Franklin
+  ZIP Code: 43223
+  Number of Certified Beds: 95
+  Average Number of Residents per Day: 71.9
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 8 ---
+  CMS Certification Number (CCN): 365980
+  Provider Name: FOREST HILLS CENTER
+  Legal Business Name: EMBASSY FOREST HILLS
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 2841 EAST DUBLIN-GRANVILLE ROAD
+  City/Town: COLUMBUS
+  State: OH
+  County/Parish: Franklin
+  ZIP Code: 43231
+  Number of Certified Beds: 75
+  Average Number of Residents per Day: 73.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 9 ---
+  CMS Certification Number (CCN): 365364
+  Provider Name: GARDEN COURT NURSING AND REHABILITATION CENTER
+  Legal Business Name: EMBASSY GARDEN COURT LLC
+  Chain Name: HILLSTONE HEALTHCARE
+  Chain ID: 271
+  Number of Facilities in Chain: 14
+  Provider Address: 4911 COVENANT HOUSE DRIVE
+  City/Town: DAYTON
+  State: OH
+  County/Parish: Montgomery
+  ZIP Code: 45426
+  Number of Certified Beds: 67
+  Average Number of Residents per Day: 42.0
+  Ownership Type: For profit - Individual
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: SFF Candidate
+
+--- Match 10 ---
+  CMS Certification Number (CCN): 365730
+  Provider Name: EMBASSY OF EUCLID
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 3 GATEWAY DR
+  City/Town: EUCLID
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44119
+  Number of Certified Beds: 75
+  Average Number of Residents per Day: 69.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 11 ---
+  CMS Certification Number (CCN): 365363
+  Provider Name: PARKSIDE NURSING AND REHABILITATION  CENTER
+  Legal Business Name: MULTICARE MANAGEMENT GROUP, INC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 908 SYMMES ROAD
+  City/Town: FAIRFIELD
+  State: OH
+  County/Parish: Butler
+  ZIP Code: 45014
+  Number of Certified Beds: 76
+  Average Number of Residents per Day: 69.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 12 ---
+  CMS Certification Number (CCN): 366075
+  Provider Name: EMBASSY OF VALLEY VIEW
+  Legal Business Name: EMBASSY VALLEY VIEW LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 3363 RAGGED RIDGE ROAD
+  City/Town: FRANKFORT
+  State: OH
+  County/Parish: Ross
+  ZIP Code: 45628
+  Number of Certified Beds: 50
+  Average Number of Residents per Day: 46.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 13 ---
+  CMS Certification Number (CCN): 365920
+  Provider Name: EMBASSY OF LEBANON
+  Legal Business Name: EMBASSY LEBANON LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 700 MONROE ROAD
+  City/Town: LEBANON
+  State: OH
+  County/Parish: Warren
+  ZIP Code: 45036
+  Number of Certified Beds: 79
+  Average Number of Residents per Day: 57.0
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 14 ---
+  CMS Certification Number (CCN): 365435
+  Provider Name: EMBASSY OF LOGAN
+  Legal Business Name: EMBASSY LOGAN LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 300 ARLINGTON AVENUE
+  City/Town: LOGAN
+  State: OH
+  County/Parish: Hocking
+  ZIP Code: 43138
+  Number of Certified Beds: 135
+  Average Number of Residents per Day: 101.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 15 ---
+  CMS Certification Number (CCN): 365550
+  Provider Name: OAK HILLS NURSING CENTER
+  Legal Business Name: EMBASSY OAK HILLS MANAGEMENT
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 3650 BEAVERCREST DRIVE
+  City/Town: LORAIN
+  State: OH
+  County/Parish: Lorain
+  ZIP Code: 44053
+  Number of Certified Beds: 80
+  Average Number of Residents per Day: 60.7
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 16 ---
+  CMS Certification Number (CCN): 366114
+  Provider Name: EMBASSY OF LYNDHURST
+  Legal Business Name: EMBASSY LYNDHURST, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1575 BRAINARD RD
+  City/Town: LYNDHURST
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44124
+  Number of Certified Beds: 140
+  Average Number of Residents per Day: 77.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 17 ---
+  CMS Certification Number (CCN): 365306
+  Provider Name: MADISON HEALTH CARE
+  Legal Business Name: EMBASSY MADISON MANAGEMENT, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 7600 S RIDGE RD
+  City/Town: MADISON
+  State: OH
+  County/Parish: Lake
+  ZIP Code: 44057
+  Number of Certified Beds: 125
+  Average Number of Residents per Day: 103.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 18 ---
+  CMS Certification Number (CCN): 365329
+  Provider Name: EMBASSY OF MARION
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 175 COMMUNITY DRIVE
+  City/Town: MARION
+  State: OH
+  County/Parish: Marion
+  ZIP Code: 43302
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 65.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 19 ---
+  CMS Certification Number (CCN): 365753
+  Provider Name: ROYAL OAK NURSING & REHAB CTR
+  Legal Business Name: EMBASSY ROYAL OAK LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 6973 PEARL RD
+  City/Town: MIDDLEBURG HEIGHTS
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44130
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 74.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 20 ---
+  CMS Certification Number (CCN): 365425
+  Provider Name: EMBASSY OF NEWARK
+  Legal Business Name: EMBASSY NEWARK LLC
+  Chain Name: GARDEN SPRINGS HEALTHCARE
+  Chain ID: 805
+  Number of Facilities in Chain: 6
+  Provider Address: 75 MCMILLEN DRIVE
+  City/Town: NEWARK
+  State: OH
+  County/Parish: Licking
+  ZIP Code: 43055
+  Number of Certified Beds: 145
+  Average Number of Residents per Day: 106.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 21 ---
+  CMS Certification Number (CCN): 365401
+  Provider Name: HERITAGE HEALTH CARE CENTER
+  Legal Business Name: OAKWOOD HEALTH CARE SERVICES, INC.
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 24613 BROADWAY AVENUE
+  City/Town: OAKWOOD VILLAGE
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44146
+  Number of Certified Beds: 80
+  Average Number of Residents per Day: 34.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 22 ---
+  CMS Certification Number (CCN): 365825
+  Provider Name: GRANDE OAKS
+  Legal Business Name: OAKWOOD HEALTH CARE SERVICES, INC.
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 24579 BROADWAY AVE
+  City/Town: OAKWOOD VILLAGE
+  State: OH
+  County/Parish: Cuyahoga
+  ZIP Code: 44146
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 48.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 23 ---
+  CMS Certification Number (CCN): 365713
+  Provider Name: EMBASSY OF PAINESVILLE
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 70 NORMANDY DR
+  City/Town: PAINESVILLE
+  State: OH
+  County/Parish: Lake
+  ZIP Code: 44077
+  Number of Certified Beds: 78
+  Average Number of Residents per Day: 54.7
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 24 ---
+  CMS Certification Number (CCN): 365636
+  Provider Name: PICKERINGTON CARE AND REHABILITATION
+  Legal Business Name: EMBASSY PICKERINGTON LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1300 HILL ROAD NORTH
+  City/Town: PICKERINGTON
+  State: OH
+  County/Parish: Fairfield
+  ZIP Code: 43147
+  Number of Certified Beds: 96
+  Average Number of Residents per Day: 72.1
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 25 ---
+  CMS Certification Number (CCN): 365354
+  Provider Name: LONGMEADOW CARE CENTER
+  Legal Business Name: EMBASSY LONGMEADOW LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 565 BRYN MAWR
+  City/Town: RAVENNA
+  State: OH
+  County/Parish: Portage
+  ZIP Code: 44266
+  Number of Certified Beds: 99
+  Average Number of Residents per Day: 62.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 26 ---
+  CMS Certification Number (CCN): 365563
+  Provider Name: AUTUMNWOOD NURSING & REHAB CENTER
+  Legal Business Name: EMBASSY AUTUMNWOOD MANAGEMENT
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 275 EAST SUNSET DRIVE
+  City/Town: RITTMAN
+  State: OH
+  County/Parish: Wayne
+  ZIP Code: 44270
+  Number of Certified Beds: 75
+  Average Number of Residents per Day: 52.3
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 27 ---
+  CMS Certification Number (CCN): 366183
+  Provider Name: SEASONS NURSING AND REHAB
+  Legal Business Name: SEASONS HEALTHCARE GROUP, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 456 SEASONS RD
+  City/Town: STOW
+  State: OH
+  County/Parish: Summit
+  ZIP Code: 44224
+  Number of Certified Beds: 50
+  Average Number of Residents per Day: 48.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 28 ---
+  CMS Certification Number (CCN): 366073
+  Provider Name: EMBASSY OF SWANTON
+  Legal Business Name: SWANTON HEALTH CARE & RETIREMENT CENTER INC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 214 S MUNSON RD
+  City/Town: SWANTON
+  State: OH
+  County/Parish: Fulton
+  ZIP Code: 43558
+  Number of Certified Beds: 68
+  Average Number of Residents per Day: 63.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 29 ---
+  CMS Certification Number (CCN): 365343
+  Provider Name: EMBASSY OF WILLARD
+  Legal Business Name: EMBASSY WILLARD LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 370 E HOWARD ST
+  City/Town: WILLARD
+  State: OH
+  County/Parish: Huron
+  ZIP Code: 44890
+  Number of Certified Beds: 59
+  Average Number of Residents per Day: 53.0
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 30 ---
+  CMS Certification Number (CCN): 395231
+  Provider Name: HERMITAGE NURSING AND REHABILITATION
+  Legal Business Name: EMBASSY HERMITAGE LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 500 CLARKSVILLE ROAD
+  City/Town: HERMITAGE
+  State: PA
+  County/Parish: Mercer
+  ZIP Code: 16148
+  Number of Certified Beds: 105
+  Average Number of Residents per Day: 88.7
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 31 ---
+  CMS Certification Number (CCN): 395569
+  Provider Name: EMBASSY OF HILLSDALE PARK
+  Legal Business Name: EMBASSY HILLSDALE PARK, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 383 MOUNTAIN VIEW DRIVE
+  City/Town: HILLSDALE
+  State: PA
+  County/Parish: Indiana
+  ZIP Code: 15746
+  Number of Certified Beds: 74
+  Average Number of Residents per Day: 71.5
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 32 ---
+  CMS Certification Number (CCN): 395297
+  Provider Name: EMBASSY OF HUNTINGDON PARK
+  Legal Business Name: EMBASSY HUNTINGDON PARK LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 1229 WARM SPRINGS AVENUE
+  City/Town: HUNTINGDON
+  State: PA
+  County/Parish: Huntingdon
+  ZIP Code: 16652
+  Number of Certified Beds: 93
+  Average Number of Residents per Day: 82.8
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 33 ---
+  CMS Certification Number (CCN): 395588
+  Provider Name: EMBASSY OF PARK AVENUE
+  Legal Business Name: EMBASSY PARK AVENUE, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 14714 PARK AVE EXTENSION
+  City/Town: MEADVILLE
+  State: PA
+  County/Parish: Crawford
+  ZIP Code: 16335
+  Number of Certified Beds: 173
+  Average Number of Residents per Day: 113.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 34 ---
+  CMS Certification Number (CCN): 395697
+  Provider Name: EMBASSY OF WOODLAND PARK
+  Legal Business Name: EMBASSY WOODLAND PARK LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 18889 CROGHAN PIKE
+  City/Town: ORBISONIA
+  State: PA
+  County/Parish: Huntingdon
+  ZIP Code: 17243
+  Number of Certified Beds: 125
+  Average Number of Residents per Day: 117.2
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 35 ---
+  CMS Certification Number (CCN): 395160
+  Provider Name: EMBASSY OF SAXONBURG
+  Legal Business Name: EMBASSY SAXONBURG LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 223 PITTSBURGH ST
+  City/Town: SAXONBURG
+  State: PA
+  County/Parish: Butler
+  ZIP Code: 16056
+  Number of Certified Beds: 68
+  Average Number of Residents per Day: 61.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 36 ---
+  CMS Certification Number (CCN): 395273
+  Provider Name: EMBASSY OF SCRANTON
+  Legal Business Name: EMBASSY OF SCRANTON, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 824 ADAMS AVENUE
+  City/Town: SCRANTON
+  State: PA
+  County/Parish: Lackawanna
+  ZIP Code: 18510
+  Number of Certified Beds: 139
+  Average Number of Residents per Day: 91.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 37 ---
+  CMS Certification Number (CCN): 396071
+  Provider Name: CLEPPER MANOR
+  Legal Business Name: EMBASSY SHARON, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 959 EAST STATE STREET
+  City/Town: SHARON
+  State: PA
+  County/Parish: Mercer
+  ZIP Code: 16146
+  Number of Certified Beds: 54
+  Average Number of Residents per Day: 43.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 38 ---
+  CMS Certification Number (CCN): 395868
+  Provider Name: EMBASSY OF HEARTHSIDE
+  Legal Business Name: EMBASSY HEARTHSIDE, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 450 WAUPELANI DRIVE
+  City/Town: STATE COLLEGE
+  State: PA
+  County/Parish: Centre
+  ZIP Code: 16801
+  Number of Certified Beds: 157
+  Average Number of Residents per Day: 122.1
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 39 ---
+  CMS Certification Number (CCN): 395433
+  Provider Name: EMBASSY OF TUNKHANNOCK
+  Legal Business Name: EMBASSY OF TUNKHANNOCK, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 30 VIRGINIA DRIVE
+  City/Town: TUNKHANNOCK
+  State: PA
+  County/Parish: Wyoming
+  ZIP Code: 18657
+  Number of Certified Beds: 124
+  Average Number of Residents per Day: 60.9
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 1
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 40 ---
+  CMS Certification Number (CCN): 395456
+  Provider Name: EMBASSY OF WYOMING VALLEY
+  Legal Business Name: EMBASSY OF WYOMING VALLEY, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 50 N. PENNSYLVANIA AVE.
+  City/Town: WILKES BARRE
+  State: PA
+  County/Parish: Luzerne
+  ZIP Code: 18701
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 98.4
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 41 ---
+  CMS Certification Number (CCN): 395706
+  Provider Name: EMBASSY OF EAST MOUNTAIN
+  Legal Business Name: EMBASSY OF EAST MOUNTAIN, LLC
+  Chain Name: EMBASSY HEALTHCARE
+  Chain ID: 199
+  Number of Facilities in Chain: 37
+  Provider Address: 101 EAST MOUNTAIN DRIVE
+  City/Town: WILKES-BARRE
+  State: PA
+  County/Parish: Luzerne
+  ZIP Code: 18702
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 101.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+========================================================================================================================
+  QUERY 3A: Virginia United Methodist matches
+  Total matches: 2
+  Match criteria: virginia AND methodist co-occurring in Chain/Provider/Legal name
+========================================================================================================================
+
+--- Match 1 ---
+  CMS Certification Number (CCN): 495434
+  Provider Name: CEDARFIELD PINNACLE LIVING
+  Legal Business Name: VIRGINIA UNITED METHODIST HOMES, INC.
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 2300 CEDARFIELD PARKWAY
+  City/Town: RICHMOND
+  State: VA
+  County/Parish: Henrico
+  ZIP Code: 23233
+  Number of Certified Beds: 20
+  Average Number of Residents per Day: 16.4
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare
+  Overall Rating: 
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 2 ---
+  CMS Certification Number (CCN): 495402
+  Provider Name: WINDSORMEADE OF WILLIAMSBURG
+  Legal Business Name: VIRGINIA UNITED METHODIST HOMES OF WILLIAMSBURG, INC.
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 3900 WINDSOR HALL DRIVE
+  City/Town: WILLIAMSBURG
+  State: VA
+  County/Parish: James City
+  ZIP Code: 23188
+  Number of Certified Beds: 22
+  Average Number of Residents per Day: 19.3
+  Ownership Type: Non profit - Church related
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+========================================================================================================================
+  QUERY 3B: Heritage Hall in VA (supplemental)
+  Total matches: 16
+  Match criteria: heritage hall in Chain/Provider/Legal name, State=VA
+========================================================================================================================
+
+--- Match 1 ---
+  CMS Certification Number (CCN): 495135
+  Provider Name: HERITAGE HALL BIG STONE GAP
+  Legal Business Name: BIG STONE GAP LIFE CARE LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 2045 VALLEY VIEW DRIVE
+  City/Town: BIG STONE GAP
+  State: VA
+  County/Parish: Wise
+  ZIP Code: 24219
+  Number of Certified Beds: 180
+  Average Number of Residents per Day: 163.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 2 ---
+  CMS Certification Number (CCN): 495356
+  Provider Name: HERITAGE HALL BLACKSBURG
+  Legal Business Name: BLACKSBURG LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 3610 SOUTH MAIN STREET
+  City/Town: BLACKSBURG
+  State: VA
+  County/Parish: Montgomery
+  ZIP Code: 24060
+  Number of Certified Beds: 179
+  Average Number of Residents per Day: 128.2
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 3 ---
+  CMS Certification Number (CCN): 495353
+  Provider Name: HERITAGE HALL-BLACKSTONE
+  Legal Business Name: BLACKSTONE LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 900 S MAIN ST
+  City/Town: BLACKSTONE
+  State: VA
+  County/Parish: Nottoway
+  ZIP Code: 23824
+  Number of Certified Beds: 180
+  Average Number of Residents per Day: 148.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 4 ---
+  CMS Certification Number (CCN): 495242
+  Provider Name: HERITAGE HALL - BROOKNEAL
+  Legal Business Name: BROOKNEAL LIFE CARE CORP
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 633 COOK AVENUE
+  City/Town: BROOKNEAL
+  State: VA
+  County/Parish: Campbell
+  ZIP Code: 24528
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 55.6
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 5 ---
+  CMS Certification Number (CCN): 495320
+  Provider Name: HERITAGE HALL CLINTWOOD
+  Legal Business Name: Legal Business Name Not Available
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 1225 CLINTWOOD MAIN STREET, ROUTE 607
+  City/Town: CLINTWOOD
+  State: VA
+  County/Parish: Dickenson
+  ZIP Code: 24228
+  Number of Certified Beds: 100
+  Average Number of Residents per Day: 88.0
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 6 ---
+  CMS Certification Number (CCN): 495317
+  Provider Name: HERITAGE HALL DILLWYN
+  Legal Business Name: DILLWYN LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 119 BRICKYARD DRIVE
+  City/Town: DILLWYN
+  State: VA
+  County/Parish: Buckingham
+  ZIP Code: 23936
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 56.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 7 ---
+  CMS Certification Number (CCN): 495321
+  Provider Name: HERITAGE HALL LEXINGTON
+  Legal Business Name: LEXINGTON LIFE CARE CORP
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 205 HOUSTON STREET
+  City/Town: EAST LEXINGTON
+  State: VA
+  County/Parish: Lexington City
+  ZIP Code: 24450
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 55.9
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 8 ---
+  CMS Certification Number (CCN): 495301
+  Provider Name: HERITAGE HALL FRONT ROYAL
+  Legal Business Name: FRONT ROYAL LIFE CARE CORP
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 400 WEST STRASBURG ROAD
+  City/Town: FRONT ROYAL
+  State: VA
+  County/Parish: Warren
+  ZIP Code: 22630
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 55.1
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 9 ---
+  CMS Certification Number (CCN): 495259
+  Provider Name: HERITAGE HALL GRUNDY
+  Legal Business Name: GRUNDY LIFE CARE CORP
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 2966 SLATE CREEK ROAD
+  City/Town: GRUNDY
+  State: VA
+  County/Parish: Buchanan
+  ZIP Code: 24614
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 113.1
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 10 ---
+  CMS Certification Number (CCN): 495300
+  Provider Name: HERITAGE HALL KING GEORGE
+  Legal Business Name: KING GEORGE LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 10051 FOXES WAY
+  City/Town: KING GEORGE
+  State: VA
+  County/Parish: King George
+  ZIP Code: 22485
+  Number of Certified Beds: 130
+  Average Number of Residents per Day: 101.9
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 11 ---
+  CMS Certification Number (CCN): 495323
+  Provider Name: HERITAGE HALL - LAUREL MEADOWS
+  Legal Business Name: LAUREL MEADOWS LIFE CARE L C
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 16600 DANVILLE PIKE
+  City/Town: LAUREL FORK
+  State: VA
+  County/Parish: Carroll
+  ZIP Code: 24352
+  Number of Certified Beds: 60
+  Average Number of Residents per Day: 56.7
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 12 ---
+  CMS Certification Number (CCN): 495261
+  Provider Name: HERITAGE HALL-LEESBURG
+  Legal Business Name: LEESBURG LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 122 MORVEN PARK ROAD NW
+  City/Town: LEESBURG
+  State: VA
+  County/Parish: Loudoun
+  ZIP Code: 20176
+  Number of Certified Beds: 164
+  Average Number of Residents per Day: 143.8
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 13 ---
+  CMS Certification Number (CCN): 495371
+  Provider Name: HERITAGE HALL-RICH CREEK
+  Legal Business Name: RICH CREEK LIFE CARE, LLC.
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 120  OLD VIRGINIA AVENUE
+  City/Town: RICH CREEK
+  State: VA
+  County/Parish: Giles
+  ZIP Code: 24147
+  Number of Certified Beds: 120
+  Average Number of Residents per Day: 102.6
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 14 ---
+  CMS Certification Number (CCN): 495002
+  Provider Name: SOUTH ROANOKE NURSING AND REHABILITATION
+  Legal Business Name: SOUTH ROANOKE LIFE CARE LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 3823 FRANKLIN RD, SW
+  City/Town: ROANOKE
+  State: VA
+  County/Parish: Roanoke City
+  ZIP Code: 24014
+  Number of Certified Beds: 98
+  Average Number of Residents per Day: 87.3
+  Ownership Type: For profit - Corporation
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 3
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 15 ---
+  CMS Certification Number (CCN): 495152
+  Provider Name: HERITAGE HALL TAZEWELL
+  Legal Business Name: TAZEWELL LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 282 BEN BOLT AVENUE
+  City/Town: TAZEWELL
+  State: VA
+  County/Parish: Tazewell
+  ZIP Code: 24651
+  Number of Certified Beds: 180
+  Average Number of Residents per Day: 154.6
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 2
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 16 ---
+  CMS Certification Number (CCN): 495350
+  Provider Name: HERITAGE HALL WISE
+  Legal Business Name: WISE LIFE CARE, LLC
+  Chain Name: HERITAGE HALL
+  Chain ID: 265
+  Number of Facilities in Chain: 16
+  Provider Address: 9434 COEBURN MOUNTAIN ROAD
+  City/Town: WISE
+  State: VA
+  County/Parish: Wise
+  ZIP Code: 24293
+  Number of Certified Beds: 97
+  Average Number of Residents per Day: 88.5
+  Ownership Type: For profit - Limited Liability company
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 4
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+========================================================================================================================
+  QUERY 3C: Methodist in VA (broadest search)
+  Total matches: 2
+  Match criteria: methodist anywhere in Chain/Provider/Legal name, State=VA
+========================================================================================================================
+
+--- Match 1 ---
+  CMS Certification Number (CCN): 495434
+  Provider Name: CEDARFIELD PINNACLE LIVING
+  Legal Business Name: VIRGINIA UNITED METHODIST HOMES, INC.
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 2300 CEDARFIELD PARKWAY
+  City/Town: RICHMOND
+  State: VA
+  County/Parish: Henrico
+  ZIP Code: 23233
+  Number of Certified Beds: 20
+  Average Number of Residents per Day: 16.4
+  Ownership Type: Non profit - Corporation
+  Provider Type: Medicare
+  Overall Rating: 
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+--- Match 2 ---
+  CMS Certification Number (CCN): 495402
+  Provider Name: WINDSORMEADE OF WILLIAMSBURG
+  Legal Business Name: VIRGINIA UNITED METHODIST HOMES OF WILLIAMSBURG, INC.
+  Chain Name: 
+  Chain ID: 
+  Number of Facilities in Chain: 
+  Provider Address: 3900 WINDSOR HALL DRIVE
+  City/Town: WILLIAMSBURG
+  State: VA
+  County/Parish: James City
+  ZIP Code: 23188
+  Number of Certified Beds: 22
+  Average Number of Residents per Day: 19.3
+  Ownership Type: Non profit - Church related
+  Provider Type: Medicare and Medicaid
+  Overall Rating: 5
+  Provider Resides in Hospital: N
+  Provider Changed Ownership in Last 12 Months: N
+  Special Focus Status: 
+
+========================================================================================================================
+  QUERY 4: CMS Provider Info Schema (99 columns)
+========================================================================================================================
+
+  Source file: Source_CMS_NH_ProviderInfo_Feb2026.csv
+  Total rows: 14710
+  Format: CSV
+  Location: Vault/02_Data_Model/Reference/
+
+  All columns (in order):
+  [ 0] CMS Certification Number (CCN)
+       Sample values: 015177, 015015, 015152
+  [ 1] Provider Name
+       Sample values: SHADESCREST HEALTH CARE CENTER, MAGNOLIA RIDGE, WASHINGTON COUNTY NURSING HOME
+  [ 2] Provider Address
+       Sample values: 500 ST. CLAIR AVENUE SOUTHWEST, 1406 EAST PUSHMATAHA STREET, 390 UNDERWOOD ROAD
+  [ 3] City/Town
+       Sample values: FALKVILLE, ALTOONA, LINEVILLE
+  [ 4] State
+       Sample values: AL
+  [ 5] ZIP Code
+       Sample values: 36427, 35611, 35674
+  [ 6] Telephone Number
+       Sample values: 3348747425, 2563962104, 2054776161
+  [ 7] Provider SSA County Code
+       Sample values: 360, 280, 430
+  [ 8] County/Parish
+       Sample values: Escambia, Walker, Winston
+  [ 9] Urban
+       Sample values: Y, N
+  [10] Ownership Type
+       Sample values: For profit - Partnership, Non profit - Other, For profit - Individual
+  [11] Number of Certified Beds
+       Sample values: 144, 120, 79
+  [12] Average Number of Residents per Day
+       Sample values: 83.8, 84.4, 98.8
+  [13] Average Number of Residents per Day Footnote
+  [14] Provider Type
+       Sample values: Medicare and Medicaid
+  [15] Provider Resides in Hospital
+       Sample values: Y, N
+  [16] Legal Business Name
+       Sample values: SUMTER HEALTH AND REHABILITATION, LLC, NORTH HILL NURSING AND REHABILITATION CENTER, LLC, SOUTHLAND NURSING HOME LLC
+  [17] Date First Approved to Provide Medicare and Medicaid Services
+       Sample values: 1969-04-04, 1973-03-13, 1972-01-01
+  [18] Chain Name
+       Sample values: C. ROSS MANAGEMENT, NATIONAL HEALTHCARE CORPORATION, NORBERT BENNETT & DONALD DENZ
+  [19] Chain ID
+       Sample values: 633, 66, 614
+  [20] Number of Facilities in Chain
+       Sample values: 195, 12, 10
+  [21] Chain Average Overall 5-star Rating
+       Sample values: 2.7, 2.6, 3.5
+  [22] Chain Average Health Inspection Rating
+       Sample values: 2.7, 3.3, 2.6
+  [23] Chain Average Staffing Rating
+       Sample values: 2.7, 3.3, 2.6
+  [24] Chain Average QM Rating
+       Sample values: 2.6, 3.5, 2.4
+  [25] Continuing Care Retirement Community
+       Sample values: Y, N
+  [26] Special Focus Status
+       Sample values: SFF Candidate
+  [27] Abuse Icon
+       Sample values: Y, N
+  [28] Most Recent Health Inspection More Than 2 Years Ago
+       Sample values: Y, N
+  [29] Provider Changed Ownership in Last 12 Months
+       Sample values: N
+  [30] With a Resident and Family Council
+       Sample values: Resident, None, Both
+  [31] Automatic Sprinkler Systems in All Required Areas
+       Sample values: Yes
+  [32] Overall Rating
+       Sample values: 4, 3, 2
+  [33] Overall Rating Footnote
+  [34] Health Inspection Rating
+       Sample values: 4, 3, 2
+  [35] Health Inspection Rating Footnote
+  [36] QM Rating
+       Sample values: 4, 3, 2
+  [37] QM Rating Footnote
+  [38] Long-Stay QM Rating
+       Sample values: 4, 3, 2
+  [39] Long-Stay QM Rating Footnote
+  [40] Short-Stay QM Rating
+       Sample values: 4, 3, 2
+  [41] Short-Stay QM Rating Footnote
+       Sample values: 2
+  [42] Staffing Rating
+       Sample values: 4, 3, 2
+  [43] Staffing Rating Footnote
+       Sample values: 25, 24
+  [44] Reported Staffing Footnote
+       Sample values: 25
+  [45] Physical Therapist Staffing Footnote
+       Sample values: 6
+  [46] Reported Nurse Aide Staffing Hours per Resident per Day
+       Sample values: 2.54753, 2.10219, 2.62568
+  [47] Reported LPN Staffing Hours per Resident per Day
+       Sample values: 0.59684, 0.61678, 0.80768
+  [48] Reported RN Staffing Hours per Resident per Day
+       Sample values: 0.78528, 0.62291, 0.82267
+  [49] Reported Licensed Staffing Hours per Resident per Day
+       Sample values: 1.24850, 1.71544, 1.47999
+  [50] Reported Total Nurse Staffing Hours per Resident per Day
+       Sample values: 3.67404, 4.34110, 3.13246
+  [51] Total number of nurse staff hours per resident per day on the weekend
+       Sample values: 3.70163, 2.93124, 2.67117
+  [52] Registered Nurse hours per resident per day on the weekend
+       Sample values: 0.22324, 0.15448, 0.54463
+  [53] Reported Physical Therapist Staffing Hours per Resident Per Day
+       Sample values: 0.07043, 0.02811, 0.01882
+  [54] Total nursing staff turnover
+       Sample values: 37.0, 55.4, 52.9
+  [55] Total nursing staff turnover footnote
+       Sample values: 26
+  [56] Registered Nurse turnover
+       Sample values: 73.7, 60.0, 26.7
+  [57] Registered Nurse turnover footnote
+       Sample values: 26
+  [58] Number of administrators who have left the nursing home
+       Sample values: 4, 3, 2
+  [59] Administrator turnover footnote
+       Sample values: 26
+  [60] Nursing Case-Mix Index
+       Sample values: 1.11749, 1.22450, 1.21299
+  [61] Nursing Case-Mix Index Ratio
+       Sample values: 0.81735, 0.94072, 0.90741
+  [62] Case-Mix Nurse Aide Staffing Hours per Resident per Day
+       Sample values: 2.17650, 2.00907, 2.10449
+  [63] Case-Mix LPN Staffing Hours per Resident per Day
+       Sample values: 0.80084, 0.82512, 0.78313
+  [64] Case-Mix RN Staffing Hours per Resident per Day
+       Sample values: 0.63842, 0.64036, 0.55180
+  [65] Case-Mix Total Nurse Staffing Hours per Resident per Day
+       Sample values: 3.62739, 3.99989, 3.15515
+  [66] Case-Mix Weekend Total Nurse Staffing Hours per Resident per Day
+       Sample values: 3.18057, 2.98337, 2.97385
+  [67] Adjusted Nurse Aide Staffing Hours per Resident per Day
+       Sample values: 1.63765, 3.04726, 2.48810
+  [68] Adjusted LPN Staffing Hours per Resident per Day
+       Sample values: 0.63842, 0.89192, 0.61820
+  [69] Adjusted RN Staffing Hours per Resident per Day
+       Sample values: 0.46635, 1.15061, 0.65252
+  [70] Adjusted Total Nurse Staffing Hours per Resident per Day
+       Sample values: 4.16543, 4.53359, 5.21991
+  [71] Adjusted Weekend Total Nurse Staffing Hours per Resident per Day
+       Sample values: 3.08509, 3.90771, 2.76213
+  [72] Rating Cycle 1 Standard Survey Health Date
+       Sample values: 2022-03-24, 2022-01-19, 2023-07-23
+  [73] Rating Cycle 1 Total Number of Health Deficiencies
+       Sample values: 8, 15, 9
+  [74] Rating Cycle 1 Number of Standard Health Deficiencies
+       Sample values: 8, 15, 9
+  [75] Rating Cycle 1 Number of Complaint Health Deficiencies
+       Sample values: 8, 11, 9
+  [76] Rating Cycle 1 Health Deficiency Score
+       Sample values: 1615, 60, 523
+  [77] Rating Cycle 1 Number of Health Revisits
+       Sample values: 2, 1, 0
+  [78] Rating Cycle 1 Health Revisit Score
+       Sample values: 279, 190, 0
+  [79] Rating Cycle 1 Total Health Score
+       Sample values: 1615, 60, 523
+  [80] Rating Cycle 2 Standard Health Survey Date
+       Sample values: 2021-10-07, 2021-08-06, 2019-10-29
+  [81] Rating Cycle 2/3 Total Number of Health Deficiencies
+       Sample values: 12, 9, 4
+  [82] Rating Cycle 2 Number of Standard Health Deficiencies
+       Sample values: 9, 4, 3
+  [83] Rating Cycle 2/3 Number of Complaint Health Deficiencies
+       Sample values: 9, 4, 3
+  [84] Rating Cycle 2/3 Health Deficiency Score
+       Sample values: 8, 12, 746
+  [85] Rating Cycle 2/3 Number of Health Revisits
+       Sample values: 2, 1, 0
+  [86] Rating Cycle 2/3 Health Revisit Score
+       Sample values: 4, 0
+  [87] Rating Cycle 2/3 Total Health Score
+       Sample values: 8, 12, 746
+  [88] Total Weighted Health Survey Score
+       Sample values: 24.000, 78.000, 26.000
+  [89] Number of Citations from Infection Control Inspections
+       Sample values: 3, 2, 6
+  [90] Number of Fines
+       Sample values: 12, 10, 3
+  [91] Total Amount of Fines in Dollars
+       Sample values: 108343.00, 10065.00, 13635.00
+  [92] Number of Payment Denials
+       Sample values: 1, 0
+  [93] Total Number of Penalties
+       Sample values: 12, 4, 10
+  [94] Location
+       Sample values: 200 NORTH PINE HILL ROAD,BIRMINGHAM,AL,35217, 351 NORTH EAST STREET,DADEVILLE,AL,36853, 500 JOHN ALDRIDGE DRIVE,TUSCUMBIA,AL,35674
+  [95] Latitude
+       Sample values: 34.8035, 34.295, 33.3036
+  [96] Longitude
+       Sample values: -88.205, -87.907, -86.771
+  [97] Geocoding Footnote
+       Sample values: 22
+  [98] Processing Date
+       Sample values: 2026-02-01
+
+========================================================================================================================
+  OTHER CMS / SOURCE DATA FILES IN VAULT
+========================================================================================================================
+  1. Source_SNF_Database_with_Revenue_Q4_2025.xlsx (13.7MB) - SNF database with revenue data
+  2. Source_CMS_NH_ProviderInfo_Feb2026.csv (8.7MB) - THIS FILE, 14,710 rows, 99 columns
+  3. Source_NIC_Maps_Nationwide_Inventory_Export_11.17.25.xlsx (7MB) - NIC MAP ALF inventory
+  4. Source_GLR_Export_MUO_Data_2026_03.xlsx (1.1MB) - GLR export
+  5. Source_Parent_Company_Data_2025-11-14.xlsx - Parent company reference
+  6. Source_PowerBI_Extract_2025-11-23.xlsx - PowerBI extract
+
+========================================================================================================================
+  POSTGRESQL DATABASE TABLES (bd schema)
+========================================================================================================================
+  Host: keystone-platform-postgres.postgres.database.azure.com
+  Database: postgres
+  NOTE: CMS data is NOT in PostgreSQL. It lives in CSV/XLSX files in the Vault.
+  PostgreSQL contains the following BD tables:
+    bd.market_intel_corporate_entities - 12 columns (corporate scoring)
+    bd.market_intel_facilities - 27 columns (facility-level market intel)
+    bd.market_intel_metros - 5 columns (metro definitions)
+    bd.pipeline_facilities - 17 columns (pipeline snapshots)
+    bd.pipeline_snapshots - 5 columns (snapshot metadata)

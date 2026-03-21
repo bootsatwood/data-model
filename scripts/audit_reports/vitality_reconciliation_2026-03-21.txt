@@ -1,0 +1,494 @@
+================================================================================
+CORPORATE OWNER RECONCILIATION: VITALITY LIVING
+Date: 2026-03-21
+Analyst: Roian Atwood (via Claude)
+================================================================================
+
+CRITICAL FINDING: "Vitality" resolves to THREE distinct corporate entities in the
+database, representing TWO separate real-world companies:
+
+  COMPANY 1: VITALITY LIVING (Nashville/Brentwood, TN)
+    DB Entity 605 - "VITALITY LIVING" - 19 facilities in DB
+    Founded 2016 as Vitality Senior Living, merged with Traditions Senior Living
+    in 2018 to form Vitality Living. CEO: Chris Guay.
+    Operates 30+ AL/MC/IL communities across 10 southeastern states.
+    Management partner for Winterpast Capital Partners.
+
+  COMPANY 2: TRIPLE CROWN SENIOR LIVING (Louisville, KY)
+    DB Entity 434 - "VITALITY SENIOR SERVICES" - 7 facilities in DB
+    DB Entity 544 - "TRIPLE CROWN SENIOR LIVING" - 4 facilities in DB
+    Founded 2017 as Vitality Senior Services LLC. CEO: Todd Marsh.
+    Rebranded to Triple Crown Senior Living. Partner: Denton Floyd Real Estate.
+    HQ: 130 St. Matthews Ave Suite 302, Louisville, KY 40207.
+    Operates 14 communities (10 open + 4 coming soon) with 872 units across
+    KY, IN, OH, TN, TX.
+
+  THESE ARE SEPARATE COMPANIES WITH NO CORPORATE RELATIONSHIP.
+
+================================================================================
+STEP 1: DATABASE SCAN (PostgreSQL - bd.market_intel_facilities)
+================================================================================
+
+Query 1: corporate_name_raw ILIKE '%vitality%' => 26 rows
+Query 2: facility_name ILIKE '%vitality%' => 21 rows (includes misattributed facilities)
+Query 3: corporate_name_raw ILIKE '%vitality senior%' => 8 rows
+
+--- ENTITY 605: VITALITY LIVING (19 facilities) ---
+
+State | City            | Facility Name                                      | ID    | Beds | Source  | Quality Flag
+------|-----------------|-----------------------------------------------------|-------|------|---------|-------------
+FL    | Hudson          | Vitality Living Hudson                              | 25405 | 107  | LEGACY  | None
+FL    | Hudson          | Vitality Living Baypoint Village                    | 25404 | 151  | LEGACY  | None
+FL    | Miami           | The Oasis at Coral Reef                             | 24977 |  94  | LEGACY  | None
+FL    | Sanford         | Vitality Living Lake Forest                         | 25406 | 199  | LEGACY  | None
+FL    | Spring Hill     | Vitality Living Spring Hill                         | 25414 | 207  | LEGACY  | None
+GA    | Lilburn         | Sunrise Of Five Forks                               | 24632 | 101  | LEGACY  | None
+GA    | Milton          | Vitality Living Milton (formerly Brickmont of Milton)| 25407 |  97  | LEGACY  | None
+KY    | Elizabethtown   | VITALITY LIVING ELIZABETHTOWN                       | 20172 |  92  | NIC-A   | None
+KY    | Elizabethtown   | VITALITY ELIZABETHTOWN                              | 6168  |  60  | NIC-A   | Surrogate_Census
+KY    | Louisville      | VITALITY SPRINGDALE                                 | 6171  |  90  | LEGACY  | Surrogate_Census
+KY    | Louisville      | VITALITY LIVING STONY BROOK                         | 6169  |  90  | LEGACY  | Surrogate_Census
+KY    | Louisville      | VITALITY SENIOR LIVING - ST. MATTHEWS               | 6170  |  70  | LEGACY  | Surrogate_Census
+TN    | Brentwood       | TRADITIONS OF MILL CREEK                            | 20059 | 130  | NIC-A   | None
+TN    | Franklin        | VITALITY LIVING FRANKLIN                            | 20173 | 126  | NIC-A   | None
+TN    | Germantown      | GARDENS OF GERMANTOWN                               | 18128 |  48  | NIC-A   | None
+TN    | Hendersonvlle   | VITALITY LIVING HENDERSONVILLE                      | 20174 | 130  | NIC-A   | None
+TN    | Smyrna          | TRADITIONS OF SMYRNA                                | 20060 | 153  | NIC-A   | None
+VA    | Arlington       | VITALITY LIVING ARLINGTON                           | 20171 | 143  | NIC-A   | None
+VA    | Richmond        | BERKELEY AT SHORT PUMP                              | 17376 |  75  | NIC-A   | None
+
+--- ENTITY 434: VITALITY SENIOR SERVICES (7 facilities) ---
+
+State | City            | Facility Name                                       | ID    | Beds | Source  | Quality Flag
+------|-----------------|------------------------------------------------------|-------|------|---------|-------------
+IN    | Indianapolis    | AVALON SENIOR LIVING                                | 4542  | 131  | NIC-B   | Missing_County+Surrogate_Census
+IN    | Jeffersonville  | BRIDGEPOINTE GARDENS                                | 4616  | 231  | NIC-B   | Surrogate_Census
+IN    | New Albany       | THE MANSION ON MAIN                                 | 5188  | 141  | NIC-B   | Surrogate_Census
+KY    | Louisville      | FOREST HILLS COMMONS                                | 5813  | 119  | NIC-B   | Surrogate_Census
+OH    | Mason           | THE LANDING OF LONG COVE                            | 12707 |  17  | GLR     | Surrogate_Census
+TN    | Franklin        | MARISTONE OF FRANKLIN                               | 18735 |  53  | NIC-B   | None
+TN    | Mount Juliet    | MARISTONE OF PROVIDENCE                             | 18736 |  61  | NIC-B   | None
+
+--- ENTITY 544: TRIPLE CROWN SENIOR LIVING (4 facilities) ---
+
+State | City            | Facility Name                                       | ID    | Beds | Source  | Quality Flag
+------|-----------------|------------------------------------------------------|-------|------|---------|-------------
+KY    | Bowling Green   | CARDINAL LANDING MEMORY CARE                        | 5738  |  26  | GLR     | Surrogate_Census, Check_Bed_Count, Missing_County
+KY    | Bowling Green   | CHANDLER PARK ASSISTED LIVING                       | 5749  |  61  | LEGACY  | Surrogate_Census
+KY    | Edgewood        | THE SUMMIT OF EDGEWOOD                              | 6149  |  42  | GLR     | Surrogate_Census, Missing_County
+KY    | Ft Mitchell     | THE SUMMIT OF EDGEWOOD                              | 6150  |  95  | LEGACY  | Surrogate_Census
+
+--- FACILITY NAME MATCHES NOT ATTRIBUTED TO VITALITY (from Query 2) ---
+
+State | City            | Facility Name                                      | ID    | Attributed Corp              | Entity
+------|-----------------|-----------------------------------------------------|-------|------------------------------|-------
+FL    | Lady Lake       | Lady Lake Senior Living (formerly Vitality...)      | 23005 | Atlantis Senior Living       | 3455
+MN    | Kimball         | Vitality Living Of Kimball LLC                      | 25408 | Five Pines Senior Solutions   | 4044
+MN    | New York Mills  | Vitality Living Of New York Mi                      | 25409 | Mills Manor Assisted Living   | 4045
+MN    | Park Rapids     | Vitality Living Of Park Rapids                      | 25410 | Five Pines Senior Solutions   | 4044
+MN    | Remer           | Vitality Living Of Remer LLC                        | 25411 | Five Pines Senior Solutions   | 4044
+MN    | Sebeka          | Vitality Living Of Sebeka LLC                       | 25412 | unknown                       | 2713
+MN    | Upsala          | Vitality Living Of Upsala LLC                       | 25413 | unknown                       | 2713
+SC    | Columbia        | VITALITY LIVING-COLUMBIA                            | 14192 | Watercrest Senior Living Group| 1177
+
+NOTE: The MN "Vitality Living Of..." facilities are licensed ALFs in Minnesota
+that happen to share the name but are NOT related to Vitality Living (Nashville).
+They are attributed to Five Pines Senior Solutions, Mills Manor, or unknown.
+
+================================================================================
+STEP 2: CMS CROSS-REFERENCE
+================================================================================
+
+Source: Source_CMS_NH_ProviderInfo_Feb2026.csv
+Search fields: Provider Name, Legal Business Name, Chain Name
+Search term: "vitality" (case-insensitive)
+
+RESULT: ZERO MATCHES
+
+This is expected and confirms that NEITHER Vitality Living NOR Triple Crown Senior
+Living (Vitality Senior Services) operates any Skilled Nursing Facilities (SNFs).
+Both companies operate exclusively in the AL/MC/IL space. CMS NH Provider Info
+only tracks Medicare/Medicaid-certified nursing homes.
+
+CONCLUSION: No SNF operations. AL/MC/IL only operator.
+
+================================================================================
+STEP 3: WEB RESEARCH
+================================================================================
+
+--- VITALITY LIVING (Company 1) ---
+
+Website: vitalityseniorliving.com
+HQ: Brentwood, TN (Nashville suburb)
+CEO: Chris Guay (founded 2016)
+History: Vitality Senior Living + Traditions Senior Living merged 2018
+Investment partner: Winterpast Capital Partners
+Portfolio: 30+ communities across 10 states
+States: AL, AR, FL, GA, KY, LA, MS, OK, TN, TX, VA, SC
+
+Key confirmed communities (from website, A Place for Mom, news):
+  FL: Baypoint Village, Hudson, Lake Forest, Spring Hill, Oasis at Coral Reef (Miami)
+  GA: Milton, Frederica (St. Simons Island), Overlook (Dallas, GA)
+  KY: Elizabethtown, Springdale, St. Matthews, Stony Brook (all Louisville area)
+  TN: Traditions of Mill Creek, Franklin, Hendersonville, Smyrna, Gardens of Germantown
+  VA: Arlington, Berkeley at Short Pump (Richmond), West End Richmond,
+      Acclaim at Belmont Bay (Feb 2026 mgmt assumption), Aspire at West End Richmond
+  SC: Columbia (acquired from Watercrest May 2024, rebranded Vitality Living Columbia)
+  TX: Vitality Court (Victoria), Appletree Court (Richardson), Texas Star (Allen)
+  AR: Pleasant Hills (Little Rock)
+  AL, MS, OK, LA: Additional communities (not in EWH footprint)
+
+IMPORTANT: Vitality Living assumed management of Acclaim at Belmont Bay and
+Aspire at West End Richmond as of February 22, 2026. DB has Acclaim at Belmont Bay
+attributed to Senior Lifestyle (entity 262). This is stale data.
+
+SNF operations: NONE. AL/MC/IL only.
+"Vitality Senior Services" relationship: NONE. Separate company.
+
+--- TRIPLE CROWN SENIOR LIVING (Company 2, formerly Vitality Senior Services) ---
+
+Website: triplecrownseniorliving.com (vitalityseniorservices.com redirects here)
+HQ: 130 St. Matthews Ave Suite 302, Louisville, KY 40207
+CEO: Todd Marsh
+Founded: 2017 as Vitality Senior Services LLC
+Partner: Denton Floyd Real Estate Group (J. Mitchell Collins)
+Portfolio: 14 communities (872 units) across KY, IN, OH, TN, TX
+
+Complete community list (from website):
+  OPEN:
+  1.  The Mansion on Main - New Albany, IN (108 IL units)
+  2.  Bridgepointe Gardens - Jeffersonville, IN (131 units: 115 AL + 16 MC)
+  3.  Avalon Senior Living - Indianapolis, IN (131 units: 115 AL + 16 MC)
+  4.  Forest Hills Commons - Louisville, KY (AL + MC)
+  5.  Chandler Park Assisted Living - Bowling Green, KY (61 AL units)
+  6.  Cardinal Landing Memory Care - Bowling Green, KY (MC)
+  7.  The Summit of Edgewood - Edgewood, KY (95 units: 51 AL + 44 MC)
+  8.  Aspen Alcove at Bardstown - Bardstown, KY (41 units: AL + MC + Respite)
+  9.  Aspen Alcove at Elizabethtown - Elizabethtown, KY (42 units: AL + MC + Respite)
+  10. Maristone of Franklin - Franklin, TN (54 units: 41 AL + 13 MC)
+  11. Maristone of Providence - Mount Juliet, TN (61 units: 48 AL + 13 MC)
+  12. The Landing of Long Cove - Mason, OH (82 units: 61 AL + 21 MC)
+  13. Trinity Oaks of Pearland - Pearland, TX (80 units: IL + AL)
+  14. Trinity Shores of Port Lavaca - Port Lavaca, TX (63 units: AL + MC)
+
+  COMING SOON:
+  15. Kingwood Ranch - Kingwood, TX (70 units: AL + MC)
+  16. The Laurel - Bowling Green, KY (99 units: AL + MC + Respite)
+  17. Warrick Springs - Newburgh, IN (93 units: AL + MC)
+
+SNF operations: NONE. AL/MC/IL only.
+
+================================================================================
+STEP 4: CONSOLIDATION (Merged Facility List with Evidence)
+================================================================================
+
+Legend:
+  [DB] = In PostgreSQL database
+  [WEB] = Confirmed on company website / press
+  [CMS] = In CMS data (N/A for all -- AL/MC only operator)
+
+--- VITALITY LIVING (Company 1) ---
+
+#  | Facility                      | City           | ST | Beds | DB ID | Evidence
+---|-------------------------------|----------------|----|----- |-------|----------
+1  | Vitality Living Baypoint Vill | Hudson         | FL | 151  | 25404 | [DB][WEB]
+2  | Vitality Living Hudson        | Hudson         | FL | 107  | 25405 | [DB][WEB]
+3  | Vitality Living Lake Forest   | Sanford        | FL | 199  | 25406 | [DB][WEB]
+4  | Vitality Living Spring Hill   | Spring Hill    | FL | 207  | 25414 | [DB][WEB]
+5  | The Oasis at Coral Reef       | Miami          | FL |  94  | 24977 | [DB][WEB]
+6  | Sunrise Of Five Forks **MISATTRIBUTED** | Lilburn | GA | 101 | 24632 | [DB] WRONG CORP
+7  | Vitality Living Milton        | Milton         | GA |  97  | 25407 | [DB][WEB]
+8  | Vitality Living Frederica     | St. Simons Is. | GA |  --  | --    | [WEB] NOT IN DB
+9  | Vitality Living Overlook      | Dallas         | GA |  --  | --    | [WEB] NOT IN DB
+10 | VITALITY LIVING ELIZABETHTOWN | Elizabethtown  | KY |  92  | 20172 | [DB][WEB] *DUP
+11 | VITALITY ELIZABETHTOWN        | Elizabethtown  | KY |  60  | 6168  | [DB] *DUPLICATE
+12 | VITALITY SPRINGDALE           | Louisville     | KY |  90  | 6171  | [DB][WEB]
+13 | VITALITY LIVING STONY BROOK   | Louisville     | KY |  90  | 6169  | [DB][WEB]
+14 | VITALITY SR LIVING ST MATTHEWS| Louisville     | KY |  70  | 6170  | [DB][WEB]
+15 | TRADITIONS OF MILL CREEK      | Brentwood      | TN | 130  | 20059 | [DB][WEB]
+16 | VITALITY LIVING FRANKLIN      | Franklin       | TN | 126  | 20173 | [DB][WEB]
+17 | GARDENS OF GERMANTOWN         | Germantown     | TN |  48  | 18128 | [DB][WEB]
+18 | VITALITY LIVING HENDERSONVILLE| Hendersonville | TN | 130  | 20174 | [DB][WEB]
+19 | TRADITIONS OF SMYRNA          | Smyrna         | TN | 153  | 20060 | [DB][WEB]
+20 | VITALITY LIVING ARLINGTON     | Arlington      | VA | 143  | 20171 | [DB][WEB]
+21 | BERKELEY AT SHORT PUMP        | Richmond       | VA |  75  | 17376 | [DB][WEB]
+22 | West End Richmond             | Richmond       | VA |  --  | --    | [WEB] NOT IN DB (mgmt Feb 2026)
+23 | Acclaim at Belmont Bay        | Woodbridge     | VA | 124  | 17123 | [DB] STALE CORP (was Senior Lifestyle)
+24 | VITALITY LIVING COLUMBIA      | Columbia       | SC | 118  | 14192 | [DB][WEB] STALE CORP (was Watercrest)
+25+| Additional communities in AL, AR, LA, MS, OK, TX (outside EWH footprint) | -- | -- | -- | -- | [WEB]
+
+--- TRIPLE CROWN SENIOR LIVING (Company 2, fka Vitality Senior Services) ---
+
+#  | Facility                      | City           | ST | Beds | DB ID | Evidence
+---|-------------------------------|----------------|----|----- |-------|----------
+1  | AVALON SENIOR LIVING          | Indianapolis   | IN | 131  | 4542  | [DB][WEB] Entity 434
+2  | BRIDGEPOINTE GARDENS          | Jeffersonville | IN | 231  | 4616  | [DB][WEB] Entity 434
+3  | THE MANSION ON MAIN           | New Albany      | IN | 141  | 5188  | [DB][WEB] Entity 434
+4  | FOREST HILLS COMMONS          | Louisville     | KY | 119  | 5813  | [DB][WEB] Entity 434
+5  | CHANDLER PARK ASSISTED LIVING | Bowling Green  | KY |  61  | 5749  | [DB][WEB] Entity 544
+6  | CARDINAL LANDING MEMORY CARE  | Bowling Green  | KY |  26  | 5738  | [DB][WEB] Entity 544
+7  | THE SUMMIT OF EDGEWOOD        | Edgewood       | KY |  42  | 6149  | [DB][WEB] Entity 544 *DUP
+8  | THE SUMMIT OF EDGEWOOD        | Ft Mitchell    | KY |  95  | 6150  | [DB][WEB] Entity 544 *DUP
+9  | Aspen Alcove at Bardstown     | Bardstown      | KY |  41  | --    | [WEB] NOT IN DB
+10 | Aspen Alcove at Elizabethtown | Elizabethtown  | KY |  42  | --    | [WEB] NOT IN DB
+11 | THE LANDING OF LONG COVE      | Mason          | OH |  17  | 12707 | [DB][WEB] Entity 434
+12 | MARISTONE OF FRANKLIN         | Franklin       | TN |  53  | 18735 | [DB][WEB] Entity 434
+13 | MARISTONE OF PROVIDENCE       | Mount Juliet   | TN |  61  | 18736 | [DB][WEB] Entity 434
+14 | Trinity Oaks of Pearland      | Pearland       | TX |  80  | --    | [WEB] NOT IN DB
+15 | Trinity Shores of Port Lavaca | Port Lavaca    | TX |  63  | --    | [WEB] NOT IN DB
+-- | The Laurel (COMING SOON)      | Bowling Green  | KY |  99  | --    | [WEB] Coming Soon
+-- | Warrick Springs (COMING SOON) | Newburgh       | IN |  93  | --    | [WEB] Coming Soon
+
+================================================================================
+STEP 5: FOOTPRINT FILTER (NC, SC, VA, KY, OH, IN)
+================================================================================
+
+Filtering to EWH 6-state footprint only.
+
+--- VITALITY LIVING in Footprint ---
+
+#  | Facility                       | City          | ST | Beds | DB ID | Notes
+---|--------------------------------|---------------|----|----- |-------|------
+1  | VITALITY LIVING ELIZABETHTOWN  | Elizabethtown | KY |  92  | 20172 | Duplicate (see #2)
+2  | VITALITY ELIZABETHTOWN         | Elizabethtown | KY |  60  | 6168  | Duplicate of #1
+3  | VITALITY SPRINGDALE            | Louisville    | KY |  90  | 6171  |
+4  | VITALITY LIVING STONY BROOK    | Louisville    | KY |  90  | 6169  |
+5  | VITALITY SENIOR LIVING-ST MATT | Louisville    | KY |  70  | 6170  |
+6  | VITALITY LIVING ARLINGTON      | Arlington     | VA | 143  | 20171 |
+7  | BERKELEY AT SHORT PUMP         | Richmond      | VA |  75  | 17376 |
+8  | West End Richmond              | Richmond      | VA |  --  | --    | NOT IN DB
+9  | Acclaim at Belmont Bay         | Woodbridge    | VA | 124  | 17123 | Stale corp (Senior Lifestyle)
+10 | VITALITY LIVING COLUMBIA       | Columbia       | SC | 118  | 14192 | Stale corp (Watercrest)
+
+--- TRIPLE CROWN (fka Vitality Senior Services) in Footprint ---
+
+#  | Facility                       | City          | ST | Beds | DB ID | Notes
+---|--------------------------------|---------------|----|----- |-------|------
+1  | AVALON SENIOR LIVING           | Indianapolis  | IN | 131  | 4542  | Missing County flag
+2  | BRIDGEPOINTE GARDENS           | Jeffersonville| IN | 231  | 4616  |
+3  | THE MANSION ON MAIN            | New Albany     | IN | 141  | 5188  |
+4  | FOREST HILLS COMMONS           | Louisville    | KY | 119  | 5813  |
+5  | CHANDLER PARK ASSISTED LIVING  | Bowling Green | KY |  61  | 5749  |
+6  | CARDINAL LANDING MEMORY CARE   | Bowling Green | KY |  26  | 5738  | Check_Bed_Count flag
+7  | THE SUMMIT OF EDGEWOOD         | Edgewood      | KY |  42  | 6149  | Duplicate (see #8)
+8  | THE SUMMIT OF EDGEWOOD         | Ft Mitchell   | KY |  95  | 6150  | Duplicate of #7
+9  | Aspen Alcove at Bardstown      | Bardstown     | KY |  41  | --    | MISSING FROM DB
+10 | Aspen Alcove at Elizabethtown  | Elizabethtown | KY |  42  | --    | MISSING FROM DB
+11 | THE LANDING OF LONG COVE       | Mason         | OH |  17  | 12707 |
+-- | Warrick Springs (COMING SOON)  | Newburgh      | IN |  93  | --    | Not yet open
+
+================================================================================
+STEP 6: CAMPUS COLLAPSE (Street-Number Matching, 15-Bed Minimum)
+================================================================================
+
+Applying campus collapse rules:
+- Same street number at same address = single campus
+- Minimum 15 beds to count
+- Use larger bed count for duplicates
+
+--- VITALITY LIVING: Campus Collapse ---
+
+DUPLICATE PAIR 1: Elizabethtown KY
+  ID 20172: "VITALITY LIVING ELIZABETHTOWN" | 133 Heartland Drive | 92 beds
+  ID 6168:  "VITALITY ELIZABETHTOWN"        | 133 Heartland Dr    | 60 beds
+  SAME ADDRESS (Dr vs Drive normalization). COLLAPSE TO 1 CAMPUS.
+  Use 92 beds (larger, newer NIC-A record without quality flag).
+
+No other campus collapses for Vitality Living in footprint.
+
+Post-collapse Vitality Living footprint campuses:
+  KY: 4 (Elizabethtown, Springdale, Stony Brook, St. Matthews)
+  VA: 4 (Arlington, Berkeley at Short Pump, West End Richmond*, Belmont Bay*)
+  SC: 1 (Columbia)
+  *West End Richmond not in DB; Belmont Bay stale attribution
+  TOTAL: 9 campuses (7 confirmed in DB + 2 needing DB updates)
+
+--- TRIPLE CROWN: Campus Collapse ---
+
+DUPLICATE PAIR 1: Summit of Edgewood KY
+  ID 6149: "THE SUMMIT OF EDGEWOOD" | 2950 Turkeyfoot Rd, Edgewood    | 42 beds
+  ID 6150: "THE SUMMIT OF EDGEWOOD" | 2950 Turkeyfoot Rd, Ft Mitchell | 95 beds
+  SAME ADDRESS, same facility name. Different city names (Edgewood vs Ft Mitchell)
+  but these are adjacent municipalities sharing a boundary.
+  COLLAPSE TO 1 CAMPUS. Use 95 beds.
+
+CAMPUS PAIR 2: Bowling Green KY
+  ID 5738: "CARDINAL LANDING MEMORY CARE"    | 1310 Campbell Ln    | 26 beds
+  ID 5749: "CHANDLER PARK ASSISTED LIVING"   | 2643 Chandler Dr    | 61 beds
+  DIFFERENT ADDRESSES (Campbell Ln vs Chandler Dr). These are separate campuses.
+  Both pass 15-bed minimum.
+
+Post-collapse Triple Crown footprint campuses:
+  IN: 3 (Avalon/Indianapolis, Bridgepointe/Jeffersonville, Mansion on Main/New Albany)
+  KY: 5 (Forest Hills/Louisville, Chandler Park/BG, Cardinal Landing/BG,
+         Summit of Edgewood, Aspen Alcove Bardstown*, Aspen Alcove Elizabethtown*)
+      *Aspen Alcove communities MISSING FROM DB
+  OH: 1 (Landing of Long Cove/Mason) -- 17 beds, PASSES 15-bed minimum
+  TOTAL: 9 campuses (7 in DB + 2 missing from DB)
+  NOTE: If Aspen Alcove communities are added, total becomes 9.
+
+================================================================================
+STEP 7: 7+ GATE (Distinct Campus Count in EWH Footprint)
+================================================================================
+
+--- VITALITY LIVING ---
+
+  State | Campuses
+  ------|----------
+  KY    | 4 (Elizabethtown, Springdale, Stony Brook, St. Matthews)
+  VA    | 4 (Arlington, Berkeley at Short Pump, West End Richmond, Belmont Bay)
+  SC    | 1 (Columbia)
+  ------|----------
+  TOTAL | 9 campuses in footprint
+
+  7+ GATE: PASS (9 >= 7)
+
+  HOWEVER: Only 7 of 9 are correctly attributed in the DB today.
+  - Columbia SC (ID 14192) attributed to Watercrest, not Vitality Living
+  - Belmont Bay VA (ID 17123) attributed to Senior Lifestyle, not Vitality Living
+  - West End Richmond VA not in DB at all
+
+  If we count ONLY currently-attributed-correctly DB facilities: 6
+  After campus collapse (Elizabethtown dupe): 5 correctly attributed campuses
+  THIS MEANS VITALITY LIVING WOULD FAIL THE 7+ GATE without DB fixes.
+
+--- TRIPLE CROWN SENIOR LIVING (fka Vitality Senior Services) ---
+
+  State | Campuses
+  ------|----------
+  IN    | 3 (Avalon/Indianapolis, Bridgepointe/Jeffersonville, Mansion on Main/New Albany)
+  KY    | 5 (Forest Hills/Louisville, Chandler Park/BG, Cardinal Landing/BG,
+  ..    |    Summit of Edgewood/Edgewood, Aspen Alcove Bardstown*, Aspen Alcove E'town*)
+  OH    | 1 (Landing of Long Cove/Mason)
+  ------|----------
+  TOTAL | 9 campuses in footprint (* 2 not in DB)
+
+  7+ GATE: PASS (9 >= 7)
+
+  HOWEVER: DB has this company split across TWO entities (434 and 544).
+  - Entity 434 "VITALITY SENIOR SERVICES": 5 facilities in footprint
+  - Entity 544 "TRIPLE CROWN SENIOR LIVING": 4 facilities in footprint
+  Neither entity alone reaches 7+. Combined they do.
+  Aspen Alcove at Bardstown and Aspen Alcove at Elizabethtown are MISSING FROM DB.
+
+  If only counting what the DB currently has: 7 campuses (after Summit collapse)
+  BARELY PASSES 7+ gate in current DB state.
+
+================================================================================
+STEP 8: DB QUALITY ISSUES & REMEDIATION RECOMMENDATIONS
+================================================================================
+
+ISSUE 1: MISATTRIBUTED FACILITY [CRITICAL]
+  ID 24632 | "Sunrise Of Five Forks" | Lilburn, GA
+  Attributed to: VITALITY LIVING (entity 605)
+  Actual operator: SUNRISE SENIOR LIVING
+  Evidence: Sunrise Senior Living website, A Place for Mom, all public sources
+  ACTION NEEDED: Reattribute to Sunrise Senior Living
+
+ISSUE 2: STALE CORPORATE ATTRIBUTION [CRITICAL]
+  ID 14192 | "VITALITY LIVING-COLUMBIA" | Columbia, SC
+  Attributed to: Watercrest Senior Living Group (entity 1177)
+  Actual operator: VITALITY LIVING (entity 605) as of May 2024
+  Evidence: Vitality Living website, press release, Winterpast acquisition
+  ACTION NEEDED: Update corporate_name_raw to VITALITY LIVING, entity to 605
+
+ISSUE 3: STALE CORPORATE ATTRIBUTION [CRITICAL]
+  ID 17123 | "ACCLAIM AT BELMONT BAY" | Woodbridge, VA
+  Attributed to: SENIOR LIFESTYLE (entity 262)
+  Actual operator: VITALITY LIVING (entity 605) as of February 2026
+  Evidence: Vitality Living press, Feb 22 2026 management assumption
+  ACTION NEEDED: Update corporate_name_raw to VITALITY LIVING, entity to 605
+
+ISSUE 4: DUPLICATE FACILITY [HIGH]
+  IDs 20172 + 6168 | Elizabethtown, KY
+  "VITALITY LIVING ELIZABETHTOWN" (92 beds) + "VITALITY ELIZABETHTOWN" (60 beds)
+  Same address: 133 Heartland Dr(ive)
+  ACTION NEEDED: Delete ID 6168 (older, smaller, has Surrogate_Census flag)
+
+ISSUE 5: DUPLICATE FACILITY [HIGH]
+  IDs 6149 + 6150 | "THE SUMMIT OF EDGEWOOD"
+  Same address: 2950 Turkeyfoot Rd
+  Listed as Edgewood (42 beds) and Ft Mitchell (95 beds)
+  ACTION NEEDED: Delete ID 6149 (smaller, GLR source, more quality flags)
+
+ISSUE 6: DUPLICATE FACILITY IN SC [HIGH]
+  IDs 14192 + 20206 | Columbia, SC
+  "VITALITY LIVING-COLUMBIA" (118 beds) + "WATERCREST COLUMBIA AL AND MC" (107 beds)
+  Same address: 1951 Clemson Rd
+  Both attributed to Watercrest (entity 1177)
+  ACTION NEEDED: Keep 14192 (rename to VITALITY LIVING COLUMBIA), delete 20206
+
+ISSUE 7: ENTITY FRAGMENTATION [HIGH]
+  Entity 434 "VITALITY SENIOR SERVICES" and Entity 544 "TRIPLE CROWN SENIOR LIVING"
+  represent the SAME company. Vitality Senior Services rebranded to Triple Crown.
+  ACTION NEEDED: Consolidate to single entity. Recommend keeping entity 544
+  (TRIPLE CROWN SENIOR LIVING) as canonical, migrate facilities from 434 to 544,
+  then delete entity 434. OR rename 434 to TRIPLE CROWN SENIOR LIVING and merge.
+
+ISSUE 8: MISSING FACILITIES [MEDIUM]
+  Triple Crown / Vitality Senior Services missing from DB:
+  - Aspen Alcove at Bardstown, KY (41 units)
+  - Aspen Alcove at Elizabethtown, KY (42 units)
+  These are in-footprint facilities that affect the 7+ gate count.
+  ACTION NEEDED: Add both facilities
+
+ISSUE 9: MISSING FACILITY [MEDIUM]
+  Vitality Living missing from DB:
+  - Vitality Living West End Richmond, VA (Aspire at West End Richmond)
+  - Vitality Living assumed management Feb 2026
+  ACTION NEEDED: Add to DB under entity 605
+
+ISSUE 10: MISSING COUNTY DATA [LOW]
+  Multiple facilities flagged Missing_County:
+  - ID 4542 (Avalon Senior Living, Indianapolis)
+  - ID 5738 (Cardinal Landing Memory Care, Bowling Green)
+  - ID 6149 (Summit of Edgewood, Edgewood)
+
+ISSUE 11: BED COUNT SUSPECT [LOW]
+  ID 12707 | THE LANDING OF LONG COVE | Mason, OH | 17 beds
+  Website says 82 units (61 AL + 21 MC). DB says 17 beds.
+  This is a significant discrepancy.
+  ACTION NEEDED: Verify and update bed count
+
+ISSUE 12: CITY NAME TYPO [LOW]
+  ID 20174 | VITALITY LIVING HENDERSONVILLE | City: "Hendersonvlle" (missing 'i')
+  ACTION NEEDED: Correct to "Hendersonville"
+
+================================================================================
+SUMMARY
+================================================================================
+
+COMPANY 1: VITALITY LIVING
+  Total DB facilities (entity 605):     19
+  Footprint facilities (after dedup):   9 campuses (KY 4, VA 4, SC 1)
+  7+ Gate:                              PASS (9 campuses)
+  DB accuracy:                          POOR - 3 stale attributions, 1 misattribution,
+                                        1 duplicate, 1 missing facility
+  Correctly attributed in DB today:     5 of 9 footprint campuses
+
+COMPANY 2: TRIPLE CROWN SENIOR LIVING (fka Vitality Senior Services)
+  Total DB facilities (entities 434+544): 11
+  Footprint facilities (after dedup):     9 campuses (IN 3, KY 5, OH 1)
+  7+ Gate:                                PASS (9 campuses)
+  DB accuracy:                            MODERATE - entity fragmentation,
+                                          1 duplicate, 2 missing facilities,
+                                          1 suspect bed count
+  Correctly attributed in DB today:       7 of 9 footprint campuses
+
+BOTH COMPANIES PASS THE 7+ GATE but DB remediation is needed for accuracy.
+
+PRIORITY ACTIONS:
+  1. Fix Sunrise of Five Forks misattribution (remove from Vitality Living)
+  2. Update Vitality Living Columbia corporate attribution (Watercrest -> Vitality)
+  3. Update Acclaim at Belmont Bay corporate attribution (Senior Lifestyle -> Vitality)
+  4. Consolidate entities 434 + 544 into one Triple Crown entity
+  5. Remove duplicate Elizabethtown KY and Summit of Edgewood records
+  6. Remove duplicate Watercrest Columbia SC record
+  7. Add missing Aspen Alcove facilities
+  8. Add West End Richmond VA
+  9. Fix Landing of Long Cove bed count (17 -> 82)
+  10. Fix Hendersonville city name typo
+
+================================================================================
+END OF RECONCILIATION REPORT
+================================================================================

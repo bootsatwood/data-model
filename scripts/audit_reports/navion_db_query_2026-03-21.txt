@@ -1,0 +1,150 @@
+Navion Senior Solutions -- Database Query Results
+==================================================
+Date: 2026-03-21
+Source: PostgreSQL bd.market_intel_facilities (production)
+Author: Roian Atwood
+
+Columns: id | facility_name | corporate_entity_id | corporate_name_raw | source_type | address | city | state | zip | county | ownership_type | total_beds | census | do_we_serve | integrated_flag | pcp_flag | mh_flag | barrier | latitude | longitude | contract_status | geographic_tier | original_geographic_tier | metro_assignment | distance_to_metro_center | metro_center_used | corp_attribution_source | data_quality_flag
+
+==============================================================================
+QUERY 1: corporate_name_raw ILIKE '%navion%'
+Row count: 56
+==============================================================================
+
+--- GA (2 rows) ---
+24831 | The Fountains in Cartersville | 590 | Navion Senior Solutions | ALF | 925 Douthit Ferry Road | Cartersville | GA | 30120 | Bartow | Corporate | 61 | 49.0 | False | False | False | False | NULL | 34.1382 | -84.8214 | Green | C_Rural | C_Rural (Interim) | NULL | 36.61 | Atlanta | LEGACY | NULL
+23573 | Northstar Square | 590 | Navion Senior Solutions | ALF | 3250 Quick Water Lndg NW | Kennesaw | GA | 30144 | Cobb | Corporate | 56 | 45.0 | False | False | False | False | NULL | 34.03815 | -84.65244 | Green | C_Rural | C_Rural (Interim) | NULL | 25.08 | Atlanta | LEGACY | NULL
+
+--- KY (2 rows) ---
+6028 | RIVERCREST PLACE ASSISTED LIVING | 590 | Navion Senior Solutions | ALF | 2121 New Holt Rd | Paducah | KY | 42001-8621 | Mccracken | Corporate | 58 | 46.0 | False | False | False | False | NULL | 37.058332 | -88.696757 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | Surrogate_Census
+5872 | HIGHLANDS SQUARE | 569 | NAVION SENIOR LIVING | ALF | 255 Norfleet Dr | Somerset | KY | 42501-1951 | Pulaski | Independent | 55 | 44.0 | False | False | False | False | NULL | 37.083983 | -84.596527 | Green | C_Rural | C_Rural | NULL | NULL | NULL | LEGACY | Surrogate_Census
+
+--- NC (28 rows) ---
+8971 | DEERFIELD RIDGE ASSISTED LIVING | 12 | NAVION | ALF | 287 Bamboo Rd | Boone | NC | 28607 | NULL | Corporate | 48 | 38.0 | True | False | True | False | NULL | 36.194198 | -81.634483 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census, Check_Bed_Count, Missing_County
+8914 | CHATHAM RIDGE ASSISTED LIVING | 12 | NAVION | ALF | 114 Polks Village Ln | Chapel Hill | NC | 27312 | Chatham | Corporate | 91 | 73.0 | False | False | False | False | NULL | 35.836598 | -79.092302 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+8915 | CHATHAM RIDGE MC | 12 | NAVION | ALF | 114 Polks Village Ln | Chapel Hill | NC | 27312 | Orange | Corporate | 9 | 7.0 | True | True | False | False | NULL | 35.836598 | -79.092302 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9417 | PRESTON HOUSE | 590 | Navion Senior Solutions | ALF | 4910 Harris Woods Blvd | Charlotte | NC | 28269 | Mecklenburg | Corporate | 40 | 32.0 | False | False | False | False | NULL | 35.337289 | -80.81342 | Green | A_Metro | A_Metro | Charlotte | 7.80 | Charlotte | NIC-A | Surrogate_Census
+9243 | MALLARD RIDGE ASSISTED LIVING | 590 | Navion Senior Solutions | ALF | 9420 N Nc Hwy 150 | Clemmons | NC | 27103 | Davidson | Corporate | 100 | 80.0 | False | False | False | False | NULL | 35.965062 | -80.299918 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | Surrogate_Census
+8893 | CAROLINA RESERVE OF DURHAM MC | 12 | NAVION | ALF | 4523 Hope Valley Rd | Durham | NC | 27713 | Durham | Corporate | 9 | 7.0 | True | True | False | False | NULL | 35.925727 | -78.953533 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+8892 | CAROLINA RESERVE OF DURHAM AL | 12 | NAVION | ALF | 4523 Hope Valley Rd | Durham | NC | 27713 | Durham | Corporate | 37 | 30.0 | True | True | False | False | NULL | 35.925727 | -78.953533 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+8891 | CAROLINA RESERVE OF DURHAM | 12 | NAVION | ALF | 4523 Hope Valley Rd | Durham | NC | 27713 | Durham | Corporate | 60 | 48.0 | False | False | False | False | NULL | 35.925727 | -78.953533 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9053 | GATES HOUSE | 12 | NAVION | ALF | 11 Commerce Dr | Gatesville | NC | 27938 | Gates | Corporate | 70 | 56.0 | False | False | False | False | NULL | 36.445553 | -76.710589 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9054 | GATES HOUSE ALF AND MEMORY CARE | 12 | NAVION | ALF | 11 Commerce Dr | Gatesville | NC | 27938 | Gates | Corporate | 51 | 41.0 | True | True | False | False | NULL | 36.445553 | -76.710589 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+17962 | EAGLE'S POINTE | 12 | NAVION | ALF | 901 West New Hope Road | Goldsboro | NC | 27534 | Wayne | Corporate | 104 | 83.0 | False | False | False | False | NULL | 35.403615 | -77.931593 | Green | B_Highway | B_Highway | NULL | NULL | NULL | GLR | NULL
+8992 | EAGLES POINT | 12 | NAVION | ALF | 901 W New Hope Rd | Goldsboro | NC | 27534 | Wayne | Corporate | 52 | 42.0 | True | True | False | False | NULL | 35.404107 | -77.931698 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+8991 | EAGLE'S POINTE | 12 | NAVION | ALF | 901 W New Hope Rd | Goldsboro | NC | 27534 | Wayne | Corporate | 104 | 83.0 | False | False | False | False | NULL | 35.404107 | -77.931698 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9459 | RICHLAND SQUARE | 590 | Navion Senior Solutions | ALF | 3823 Lawndale Dr | Greensboro | NC | 27455 | Guilford | Corporate | 70 | 56.0 | False | False | False | False | NULL | 36.121825 | -79.831955 | Green | A_Metro | A_Metro | NULL | NULL | NULL | NIC-A | Surrogate_Census
+9310 | NAVION OF GREENVILLE | 12 | NAVION | ALF | 2105 W. Arlington Blvd | Greenville | NC | 27834 | Pitt | Corporate | 60 | 48.0 | False | False | False | False | NULL | 35.602626 | -77.412687 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9311 | NAVION OF GREENVILLE (BROOKDALE W. ARLINGTON BLVD. | 12 | NAVION | ALF | 2105 W Arlington Blvd | Greenville | NC | 27834 | Pitt | Corporate | 24 | 19.0 | True | False | True | False | NULL | 35.602626 | -77.412687 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+8894 | CAROLINA RESERVE OF HENDERSONVILLE | 12 | NAVION | ALF | 1820 Pisgah Dr | Hendersonville | NC | 28791 | Henderson | Corporate | 35 | 28.0 | True | True | False | False | NULL | 35.323562 | -82.489807 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+8895 | CAROLINA RESERVE OF LAUREL PARK | 12 | NAVION | ALF | 1825 Pisgah Dr | Hendersonville | NC | 28791 | Henderson | Corporate | 34 | 27.0 | True | True | False | False | NULL | 35.32281 | -82.492243 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+17207 | ARBOR RIDGE AT KERNERSVILLE | 590 | Navion Senior Solutions | ALF | 1237 Masten Drive | Kernersville | NC | 27284 | Forsyth | Corporate | 69 | 55.0 | False | False | False | False | NULL | 36.10402 | -80.09686 | Green | A_Metro | A_Metro | NULL | NULL | NULL | NIC-A | NULL
+9173 | KERNER RIDGE ASSISTED LIVING | 12 | NAVION | ALF | 250 Hopkins Rd | Kernersville | NC | 27284 | Forsyth | Corporate | 66 | 53.0 | False | False | False | False | NULL | 36.114819 | -80.097286 | Green | B_Highway | B_Highway | NULL | NULL | NULL | GLR | Surrogate_Census
+9174 | KERNER RIDGE ASSISTED LIVING & MEMORY CARE | 12 | NAVION | ALF | 250 Hopkins Rd | Kernersville | NC | 27284 | Forsyth | Corporate | 20 | 16.0 | True | False | False | True | NULL | 36.114819 | -80.097286 | Green | B_Highway | B_Highway | NULL | NULL | NULL | GLR | Surrogate_Census
+9420 | PRIDDY MANOR ASSISTED LIVING | 12 | NAVION | ALF | 1294 Priddy Rd | King | NC | 27021 | Stokes | Corporate | 79 | 63.0 | False | False | False | False | NULL | 36.313055 | -80.37228 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9371 | PRIDDY MANOR-ALF | 12 | NAVION | ALF | 1294 Priddy Rd | King | NC | 27021 | Forsyth | Corporate | 89 | 71.0 | True | False | True | False | NULL | 36.313055 | -80.37228 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9266 | MEBANE RIDGE AL | 12 | NAVION | ALF | 1999 S Nc Hwy 119 | Mebane | NC | 27302 | Alamance | Corporate | 58 | 46.0 | True | True | False | False | NULL | 36.061137 | -79.301073 | Green | B_Highway | B_Highway | NULL | NULL | NULL | LEGACY | Surrogate_Census
+9312 | NAVION OF NEW BERN | 12 | NAVION | ALF | 1336 S. Glenburnie Rd | New Bern | NC | 28560 | Craven | Corporate | 17 | 14.0 | True | False | True | False | NULL | 35.119776 | -77.091405 | Yellow | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9289 | MORNINGSIDE OF RALEIGH | 12 | NAVION | ALF | 801 Dixie Trl | Raleigh | NC | 27607 | Wake | Corporate | 59 | 47.0 | True | True | False | False | NULL | 35.800427 | -78.677192 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9308 | NAVION SENIOR LIVING - ROCKY MOUNT | 12 | NAVION | ALF | 650 Goldrock Rd | Rocky Mount | NC | 27804 | Nash | Corporate | 14 | 11.0 | True | True | False | False | NULL | 35.986999 | -77.808814 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9313 | NAVION OF ROCKY MOUNT | 12 | NAVION | ALF | 650 Goldrock Rd | Rocky Mount | NC | 27804 | Nash | Corporate | 60 | 48.0 | False | False | False | False | NULL | 35.986999 | -77.808814 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9314 | NAVION OF SHELBY | 12 | NAVION | ALF | 1425 E Marion St | Shelby | NC | 28150 | Cleveland | Corporate | 23 | 18.0 | True | True | False | False | NULL | 35.292084 | -81.499147 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9844 | WALNUT RIDGE ASSISTED LIVING | 12 | NAVION | ALF | 411 Windmill St | Walnut Cove | NC | 27052 | Stokes | Corporate | 63 | 50.0 | False | False | False | False | NULL | 36.29761 | -80.143919 | Green | B_Highway | B_Highway | NULL | NULL | NULL | GLR | Surrogate_Census
+9845 | WALNUT RIDGE ASSISTED LIVING & MEMORY CARE | 12 | NAVION | ALF | 411 Windmill St | Walnut Cove | NC | 27052 | Stokes | Corporate | 45 | 36.0 | True | True | False | False | NULL | 36.29761 | -80.143919 | Green | B_Highway | B_Highway | NULL | NULL | NULL | GLR | Surrogate_Census
+9022 | FOREST RIDGE ASSISTED LIVING | 12 | NAVION | ALF | 151 Village Park Dr | West Jefferson | NC | 28694 | Ashe | Corporate | 23 | 18.0 | True | False | True | False | NULL | 36.388362 | -81.467734 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census, Check_Bed_Count
+17208 | ARBOR RIDGE AT STANLEYVILLE | 590 | Navion Senior Solutions | ALF | 350 Arbor View Lane | Winston-Salem | NC | 27105 | Forsyth | Corporate | 70 | 56.0 | False | False | False | False | NULL | 36.19524 | -80.28253 | Green | A_Metro | A_Metro | NULL | NULL | NULL | NIC-A | NULL
+
+--- SC (18 rows) ---
+18382 | HITCHCOCK SQUARE | 590 | Navion Senior Solutions | ALF | 102 Crepe Myrtle Dr | Aiken | SC | 29803 | Aiken | Corporate | 39 | 31.0 | False | False | False | False | NULL | 33.51379 | -81.73742 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | NULL
+19843 | THE LEGACY OF CAMDEN | 590 | Navion Senior Solutions | ALF | 719 Kershaw Hwy | Camden | SC | 29020 | Kershaw | Corporate | 40 | 32.0 | False | False | False | False | NULL | 34.29164 | -80.61276 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+18606 | LEGACY OF CAMDEN | 590 | Navion Senior Solutions | ALF | 715 Kershaw Hwy | Camden | SC | 29020 | Kershaw | Corporate | 49 | 39.0 | False | False | False | False | NULL | 34.291832 | -80.612598 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+18577 | LANGSTON SQUARE | 590 | Navion Senior Solutions | ALF | 939 Springdale Dr | Clinton | SC | 29325 | Laurens | Corporate | 39 | 31.0 | False | False | False | False | NULL | 34.45811 | -81.86777 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | NULL
+19136 | PINEWOOD SQUARE | 590 | Navion Senior Solutions | ALF | 101 Centennial Blvd | Goose Creek | SC | 29445 | Berkeley | Corporate | 39 | 31.0 | False | False | False | False | NULL | 33.01736 | -80.06642 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+19842 | THE LEGACY AT SOUTHPOINTE DRIVE | 590 | Navion Senior Solutions | ALF | 23 Southpointe Drive | Greenville | SC | 29607 | Greenville | Corporate | 81 | 65.0 | False | False | False | False | NULL | 34.8171 | -82.26406 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | NULL
+18707 | MANNING SQUARE | 590 | Navion Senior Solutions | ALF | 10 Companion Ct | Greer | SC | 29651 | Greenville | Corporate | 39 | 31.0 | False | False | False | False | NULL | 34.95274 | -82.23725 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+18607 | LEGACY OF HARTSVILLE | 12 | NAVION | ALF | 1901 W Carolina Ave | Hartsville | SC | 29550 | Darlington | Corporate | 54 | 43.0 | False | False | False | False | NULL | 34.364832 | -80.124146 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | NULL
+18245 | HARBOR COVE MEMORY CARE | 590 | Navion Senior Solutions | ALF | 48 Main St | Hilton Head Island | SC | 29926 | Beaufort | Corporate | 36 | 29.0 | False | False | False | False | NULL | 32.219322 | -80.717002 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | NULL
+20136 | VILLAGE COVE ASSISTED LIVING | 590 | Navion Senior Solutions | ALF | 80 Main St | Hilton Head Island | SC | 29926 | Beaufort | Corporate | 52 | 42.0 | False | False | False | False | NULL | 32.216936 | -80.720118 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | NULL
+19844 | THE LEGACY OF LEXINGTON | 590 | Navion Senior Solutions | ALF | 218 Old Chapin Rd | Lexington | SC | 29072 | Lexington | Corporate | 42 | 34.0 | False | False | False | False | NULL | 33.99349 | -81.24701 | Green | A_Metro | A_Metro | NULL | NULL | NULL | NIC-A | NULL
+18608 | LEGACY OF NORTH MYRTLE BEACH | 590 | Navion Senior Solutions | ALF | 491 Hwy 17 | Little River | SC | 29566 | Horry | Corporate | 80 | 64.0 | False | False | False | False | NULL | 33.832585 | -78.67453 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+18237 | HAMMOND SQUARE | 590 | Navion Senior Solutions | ALF | 128 Walnut Ln | North Augusta | SC | 29860 | Aiken | Corporate | 39 | 31.0 | False | False | False | False | NULL | 33.5722 | -81.94398 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | NULL
+18609 | LEGACY OF ORANGEBURG | 590 | Navion Senior Solutions | ALF | 2306 Riverbank Dr | Orangeburg | SC | 29118 | Orangeburg | Corporate | 49 | 39.0 | False | False | False | False | NULL | 33.511899 | -80.895755 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+17652 | CHANDLER PLACE INDEPENDENT LIVING | 590 | Navion Senior Solutions | ILF | 745 Dilworth Ln | Rock Hill | SC | 29732 | York | Corporate | 120 | 96.0 | False | False | False | False | NULL | 34.9641 | -81.03281 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+17651 | CHANDLER PLACE ASSISTED LIVING & MEMORY CARE | 590 | Navion Senior Solutions | ALF | 1800 India Hook Rd | Rock Hill | SC | 29732 | York | Corporate | 53 | 42.0 | False | False | False | False | NULL | 34.96289 | -81.03326 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+17891 | CYPRESS SQUARE | 590 | Navion Senior Solutions | ALF | 205 Midland Pkwy | Summerville | SC | 29485 | Dorchester | Corporate | 39 | 31.0 | False | False | False | False | NULL | 32.96626 | -80.16145 | Green | B_Highway | B_Highway | NULL | NULL | NULL | NIC-A | NULL
+17724 | COLONIAL GARDENS | 590 | Navion Senior Solutions | ALF | 3665 Sunset Blvd | West Columbia | SC | 29169 | Lexington | Corporate | 46 | 37.0 | False | False | False | False | NULL | 34.00795 | -81.13633 | Green | A_Metro | A_Metro | NULL | NULL | NULL | NIC-A | NULL
+
+--- TN (1 row) ---
+18761 | MCARTHUR MANOR ASSISTED LIVING | 590 | Navion Senior Solutions | ALF | 119 Bryan Avenue | Manchester | TN | 37355 | Coffee | Corporate | 62 | 50.0 | False | False | False | False | NULL | 35.467545 | -86.088758 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | NULL
+
+==============================================================================
+QUERY 2: facility_name ILIKE '%navion%' (regardless of corporate name)
+Row count: 7
+==============================================================================
+
+NOTE: 6 of these 7 rows are already captured in Query 1 (corporate_name_raw contains "navion").
+The 1 additional row is attributed to BROOKDALE SENIOR LIVING:
+
+9309 | NAVION OF GOLDSBORO | 3 | BROOKDALE SENIOR LIVING | ALF | 1800 N. Berkeley Blvd. | Goldsboro | NC | 27534 | Wayne | Corporate | 60 | 48.0 | False | False | False | False | NULL | 35.386629 | -77.921928 | Green | C_Rural | C_Rural | NULL | NULL | NULL | NIC-A | Surrogate_Census
+9310 | NAVION OF GREENVILLE | 12 | NAVION | ALF | 2105 W. Arlington Blvd | Greenville | NC | 27834 | Pitt | Corporate | 60 | 48.0 | False | False | False | False | NULL | 35.602626 | -77.412687 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9311 | NAVION OF GREENVILLE (BROOKDALE W. ARLINGTON BLVD. | 12 | NAVION | ALF | 2105 W Arlington Blvd | Greenville | NC | 27834 | Pitt | Corporate | 24 | 19.0 | True | False | True | False | NULL | 35.602626 | -77.412687 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9312 | NAVION OF NEW BERN | 12 | NAVION | ALF | 1336 S. Glenburnie Rd | New Bern | NC | 28560 | Craven | Corporate | 17 | 14.0 | True | False | True | False | NULL | 35.119776 | -77.091405 | Yellow | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9308 | NAVION SENIOR LIVING - ROCKY MOUNT | 12 | NAVION | ALF | 650 Goldrock Rd | Rocky Mount | NC | 27804 | Nash | Corporate | 14 | 11.0 | True | True | False | False | NULL | 35.986999 | -77.808814 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9313 | NAVION OF ROCKY MOUNT | 12 | NAVION | ALF | 650 Goldrock Rd | Rocky Mount | NC | 27804 | Nash | Corporate | 60 | 48.0 | False | False | False | False | NULL | 35.986999 | -77.808814 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+9314 | NAVION OF SHELBY | 12 | NAVION | ALF | 1425 E Marion St | Shelby | NC | 28150 | Cleveland | Corporate | 23 | 18.0 | True | True | False | False | NULL | 35.292084 | -81.499147 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+
+==============================================================================
+QUERY 3: corporate_name_raw ILIKE '%five star%'
+Row count: 5
+==============================================================================
+
+NOTE: These are NOT Navion/Five Star Senior Living (the Navion predecessor).
+These are "Five Star Residences" (entity 459) and "Five Star Senior Living" (entity 460),
+both Indiana-based operators. Unrelated to Navion Senior Solutions.
+
+4747 | FIVE STAR RESIDENCES OF FORT WAYNE | 459 | FIVE STAR RESIDENCES | ALF | 2601 Covington Commons Dr | Fort Wayne | IN | 46804 | Allen | Corporate | 77 | 62.0 | True | True | False | False | NULL | 41.060812 | -85.226198 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census
+4749 | FIVE STAR OF LAFAYETTE | 460 | FIVE STAR SENIOR LIVING | ALF | 250 Shenandoah Dr. | Lafayette | IN | 47904 | NULL | Independent | 16 | 13.0 | True | False | False | True | NULL | 40.421122 | -86.847308 | Green | C_Rural | C_Rural | NULL | NULL | NULL | GLR | Surrogate_Census, Missing_County
+4748 | FIVE STAR RESIDENCES OF NOBLESVILLE | 459 | FIVE STAR RESIDENCES | ALF | 7235 Riverwalk Way N | Noblesville | IN | 46062 | Hamilton | Corporate | 57 | 46.0 | True | True | False | False | NULL | 41.041435 | -86.0434 | Green | B_Highway | B_Highway | NULL | NULL | NULL | GLR | Surrogate_Census
+18058 | FIVE STAR RESIDENCES OF NOBLESVILLE | 459 | FIVE STAR RESIDENCES | ALF | 7235 Riverwalk Way N | Noblesville | IN | 46062 | Hamilton | Corporate | 151 | 121.0 | False | False | False | False | NULL | 40.04148 | -86.04273 | Green | B_Highway | B_Highway | NULL | NULL | NULL | GLR | NULL
+20357 | CROSSING AT NOBLESVILLE | 459 | FIVE STAR RESIDENCES | ALF | 7235 RIVERWALK WAY N | NOBLESVILLE | IN | 46062 | Hamilton | Corporate | 75 | 60.0 | True | True | False | False | NULL | 40.041435 | -86.0434 | Green | B_Highway | B_Highway | NULL | NULL | NULL | GLR | Added from PowerBI reconciliation 2025-11-23
+
+==============================================================================
+QUERY 4: corporate_name_raw ILIKE '%diversified healthcare%'
+Row count: 0
+==============================================================================
+
+No rows found. Diversified Healthcare Services (Navion parent company) does not appear
+as a corporate_name_raw value in the database.
+
+==============================================================================
+SUMMARY
+==============================================================================
+
+Total unique Navion-related rows: 57 (56 from Query 1 + 1 from Query 2)
+
+By corporate_name_raw variant:
+  "NAVION" (entity 12):                  26 rows (all NC/SC, sourced from GLR)
+  "Navion Senior Solutions" (entity 590): 29 rows (GA/KY/NC/SC/TN, sourced from NIC-A/LEGACY)
+  "NAVION SENIOR LIVING" (entity 569):    1 row  (KY, sourced from LEGACY)
+  "BROOKDALE SENIOR LIVING" (entity 3):   1 row  (NC, facility_name contains "Navion")
+
+By state:
+  NC: 29 rows
+  SC: 18 rows
+  GA:  2 rows
+  KY:  2 rows
+  TN:  1 row
+
+Entity ID split:
+  Entity 12 (NAVION):                 26 rows
+  Entity 590 (Navion Senior Solutions): 29 rows
+  Entity 569 (NAVION SENIOR LIVING):    1 row
+  Entity 3 (BROOKDALE SENIOR LIVING):   1 row
+
+Key observations for reconciliation:
+1. Three distinct entity IDs (12, 569, 590) all represent the same operator -- needs consolidation
+2. "NAVION OF GOLDSBORO" (id 9309) is attributed to Brookdale (entity 3) but facility name indicates Navion
+3. Multiple same-address dual-row patterns (ALF + MC splits) at Durham, Chapel Hill, Gatesville, Goldsboro, Greenville, Hendersonville, Kernersville, King, Rocky Mount, Walnut Cove
+4. Possible duplicate: "THE LEGACY OF CAMDEN" (id 19843) and "LEGACY OF CAMDEN" (id 18606) at same address in Camden SC
+5. "Five Star" query results are Indiana operators, NOT the Navion predecessor brand "Five Star Senior Living" (which was a publicly traded REIT-managed company based in Newton MA)
+6. Diversified Healthcare Services returns 0 rows -- parent company not used as corporate_name_raw

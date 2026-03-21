@@ -1,0 +1,55 @@
+================================================================================
+NAVION SENIOR SOLUTIONS -- CMS NH PROVIDER INFO CROSS-REFERENCE
+Generated: 2026-03-21
+Source: Source_CMS_NH_ProviderInfo_Feb2026.csv (14,710 rows)
+================================================================================
+
+SEARCH CRITERIA
+--------------------------------------------------------------------------------
+1. chain_name ILIKE '%Navion%'               -> 0 rows
+2. chain_name ILIKE '%Diversified Healthcare%'-> 0 rows
+3. chain_name ILIKE '%Five Star%'             -> 0 rows
+4. legal_business_name ILIKE '%Navion%'       -> 0 rows
+5. provider_name ILIKE '%Navion%'             -> 0 rows
+--------------------------------------------------------------------------------
+TOTAL UNIQUE FACILITIES MATCHED: 0
+
+ADDITIONAL BROAD SEARCHES ATTEMPTED
+--------------------------------------------------------------------------------
+- Full-text scan of ALL columns for "navion"           -> 0 rows
+- Full-text scan of ALL columns for "senior solutions" -> 0 rows
+- Full-text scan of ALL columns for "five star senior" -> 0 rows
+- Full-text scan of ALL columns for "five star quality"-> 0 rows
+- chain_name ILIKE '%diversif%' -> 4 rows, all UNRELATED entities:
+    * DIVERSIFIED HEALTH CARE-LAKE CHARLES, LLC
+    * DIVERSIFIED HEALTHCARE ABBEVILLE, LLC
+    * DIVERSIFIED MEDICAL ENTERPRISES INC
+    * DIVERSIFIED REHAB SERVICES, LLC
+  (None of these are affiliated with Navion Senior Solutions.)
+--------------------------------------------------------------------------------
+
+INTERPRETATION
+--------------------------------------------------------------------------------
+Navion Senior Solutions operates primarily in the Assisted Living Facility (ALF)
+and Memory Care space. The CMS NH Provider Info dataset covers only Medicare/
+Medicaid-certified Skilled Nursing Facilities (SNFs). This explains the null
+result -- Navion does not appear to operate any CMS-certified nursing homes.
+
+Key facts about Navion Senior Solutions:
+- Headquartered in Raleigh, NC
+- Operates ~30 senior living communities across NC, SC, VA, IN, OH, TN
+- Focus: Assisted Living, Memory Care, Independent Living
+- Parent company: Diversified Healthcare Services (also not in CMS NH data)
+- Predecessor brand: Five Star Senior Living (partially -- Five Star's SNF
+  portfolio was divested/transitioned separately from the ALF portfolio that
+  became Navion)
+
+To find Navion facilities in CMS data, you would need to query CMS datasets that
+cover non-SNF providers, such as:
+- Home Health Compare
+- HCRIS (if they have any Medicare-certified units)
+- State ALF licensing databases (not CMS-administered)
+
+CONCLUSION: No Navion Senior Solutions facilities exist in the CMS Nursing Home
+Provider Info dataset. This is a confirmed null result, not a data gap.
+================================================================================
