@@ -12,7 +12,7 @@ from collections import defaultdict
 
 DB_PATH = "C:/Users/ratwood/OneDrive - Eventus WholeHealth/Vault/02_Data_Model/Current/4_Economic_Model_Scenario_2_Combined_V23.xlsx"
 MUO_PATH = "C:/Users/ratwood/Downloads/MUO Data (1).xlsx"
-TIERING_PATH = "C:/Users/ratwood/OneDrive - Eventus WholeHealth/Vault/03_Corporate_Accounts/Tiering/Final_MUO_Tiering_V20.xlsx"
+TIERING_PATH = "C:/Users/ratwood/OneDrive - Eventus WholeHealth/Vault/03_Corporate_Accounts/Tiering/Archive/MUO_Scoring_Workbook_V23_v7.xlsx"
 OUT_PATH = "C:/Users/ratwood/OneDrive - Eventus WholeHealth/Vault/03_Corporate_Accounts/Tiering/MUO_Scoring_Workbook_V23_v8.xlsx"
 FOOTPRINT = {'NC', 'SC', 'VA', 'KY', 'OH', 'IN'}
 BED_MIN = 15  # V8: Exclude facilities with <=15 beds from ER campus counting and RP revenue
@@ -351,24 +351,38 @@ wb_db = openpyxl.load_workbook(DB_PATH, data_only=True)
 ws_db = wb_db.active
 db_headers = {ws_db.cell(1, c).value: c for c in range(1, ws_db.max_column + 1) if ws_db.cell(1, c).value}
 
-print("Loading V20 Tiering workbook...")
+print("Loading V23 Scoring workbook (for AI scores)...")
 wb_t = openpyxl.load_workbook(TIERING_PATH, data_only=True)
 v20_scores = {}
-for sn in ['T1 MUO', 'T2 MUO', 'T3 MUO']:
-    ws_t = wb_t[sn]
-    for r in range(2, ws_t.max_row + 1):
-        name = ws_t.cell(r, 1).value
+# Read AI scores from V23 scoring workbook AI tab (col 1=name, col 2=score)
+if 'AI - Tech Adoption' in wb_t.sheetnames:
+    ws_ai = wb_t['AI - Tech Adoption']
+    for r in range(2, ws_ai.max_row + 1):
+        name = ws_ai.cell(r, 1).value
         if not name:
             continue
+        ai_val = ws_ai.cell(r, 2).value or 0
         v20_scores[name] = {
-            'er': ws_t.cell(r, 9).value or 0,
-            'ir': ws_t.cell(r, 10).value or 0,
-            'si': ws_t.cell(r, 11).value or 0,
-            'rp': ws_t.cell(r, 12).value or 0,
-            'rs': ws_t.cell(r, 13).value or 0,
-            'ai': ws_t.cell(r, 14).value or 0,
-            'total': ws_t.cell(r, 3).value or 0,
+            'er': 0, 'ir': 0, 'si': 0, 'rp': 0, 'rs': 0,
+            'ai': ai_val,
+            'total': 0,
         }
+# Also read Summary tab for full prior scores (col layout: name, tier, total, ER, IR, SI, RP, RS, AI)
+if 'Summary' in wb_t.sheetnames:
+    ws_sum = wb_t['Summary']
+    for r in range(2, ws_sum.max_row + 1):
+        name = ws_sum.cell(r, 1).value
+        if not name:
+            continue
+        if name not in v20_scores:
+            v20_scores[name] = {'er': 0, 'ir': 0, 'si': 0, 'rp': 0, 'rs': 0, 'ai': 0, 'total': 0}
+        v20_scores[name]['total'] = ws_sum.cell(r, 3).value or 0
+        v20_scores[name]['er'] = ws_sum.cell(r, 4).value or 0
+        v20_scores[name]['ir'] = ws_sum.cell(r, 5).value or 0
+        v20_scores[name]['si'] = ws_sum.cell(r, 6).value or 0
+        v20_scores[name]['rp'] = ws_sum.cell(r, 7).value or 0
+        v20_scores[name]['rs'] = ws_sum.cell(r, 8).value or 0
+        v20_scores[name]['ai'] = ws_sum.cell(r, 9).value or v20_scores[name]['ai'] or 0
 
 print("Loading Finance entity list...")
 wb_muo = openpyxl.load_workbook(MUO_PATH, data_only=True)
