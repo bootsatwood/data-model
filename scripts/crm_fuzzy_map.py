@@ -96,6 +96,116 @@ NON_CORPORATE = {
     "Private", "Privately Owned", "Independent", "Unafilliated", "OPCO",
 }
 
+# Manual overrides for known bad fuzzy matches
+MANUAL_OVERRIDES = {
+    # Bad containment/fuzzy matches corrected
+    "Waters": "THE WATERS",
+    "waters": "THE WATERS",
+    "Navion SL": "Navion Senior Solutions",
+    "Miller's Merry Manor": "MILLER'S MERRY MANOR",
+    "Sprenger Healthcare Systems": "SPRENGER HEALTH CARE SYSTEMS",
+    "Infinity Healthcare Management": "INFINITY HEALTHCARE CONSULTING",
+    "Celebrations": None,  # Unknown — leave as-is, needs manual research
+    "Glenridge Healthcare": None,  # Unknown
+    "American Senior Care": None,  # Distinct from American Senior Communities — needs research
+    "HCMG": "HEALTH CARE MANAGEMENT GROUP",  # Abbreviation
+    "Eastern HCG": "EASTERN HEALTHCARE GROUP",
+    "Eastern Care Group": "EASTERN HEALTHCARE GROUP",
+    "Cedar": None,  # Too generic — needs facility-level matching
+    "Louisville": None,  # City name, not a corporate
+    "nazareth": None,  # Too ambiguous
+    "Sunnyside Presbyterian Home": "SUNNYSIDE PRESBYTERIAN HOME",
+    "McKinley Holdco": None,  # Unknown
+    "Provisions": None,  # Unknown
+    "Christina Village Communities": None,  # Unknown
+    "Life Enrichment Communities": None,  # Unknown
+    "White Oak Manor": "WHITE OAK MANAGEMENT",
+    "Moravian Church": None,  # Unknown — religious org
+    "SHCM": "SOUTHERN HEALTHCARE MANAGEMENT, LLC",  # Abbreviation
+    "Witham Memorial Hospital": "WITHAM MEMORIAL HOSPITAL",  # Leave as-is (hospital)
+    "Our Home": None,  # Too generic
+    "CHS": None,  # Too ambiguous (multiple possible matches)
+    "ELC": "EXCEPTIONAL LIVING CENTERS",  # Abbreviation
+    "East way": None,  # Unknown
+    "CCR": None,  # Too ambiguous
+    "Baptist Life Communities": "BAPTIST LIFE COMMUNITIES",  # Leave as-is
+    "Baptist Live Communities": "BAPTIST LIFE COMMUNITIES",  # Typo fix
+    "Clearview Healthcare": "CLEARVIEW HEALTHCARE",  # Don't normalize to CLEARVIEW
+    "Signature": "SIGNATURE HEALTHCARE",
+    "signature": "SIGNATURE HEALTHCARE",
+    "Signature Healthcare Community": "SIGNATURE HEALTHCARE",
+    "Prestige": "PRESTIGE HEALTHCARE",
+    "Prestige Healthcare": "PRESTIGE HEALTHCARE",
+    "Masonic Home": None,  # Multiple distinct Masonic Homes — needs facility match
+    "Allegiance Healthcare": None,  # Unknown — needs research
+    "APRIL ENTERPRISES, INC.": None,  # Unknown
+    "A Grace Mgmt Community": None,  # Unknown
+    "Deer Meadows": None,  # Unknown
+    "Hillstone HC": "HILLSTONE HEALTHCARE",
+    "Continuing Health Solutions": "CONTINUING HEALTHCARE SOLUTIONS",
+    "OPS Living": "OPS SOUTH BEND LLC",
+    "Arcadia": "ARCADIA CARE",  # IN/OH operator, not the MD one
+    "Sonida Living": "SONIDA SENIOR LIVING",
+    "Liberty Healthcare": "LIBERTY",  # Same as Liberty in DB
+    "Liberty Senior Living": "LIBERTY",
+    "Brookdale": "BROOKDALE SENIOR LIVING",
+    "Foundations": "FOUNDATIONS HEALTH",
+    "Foundations Health Solutions": "FOUNDATIONS HEALTH",
+    "Cardon": "CARDON & ASSOCIATES",
+    "Principle/Venza": "PRINCIPLE",
+    "Story Point": "STORYPOINT",
+    "Ciena": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "Terra Bella": "TerraBella Senior Living",
+    "Majesticare": "MAJESTIC CARE",
+    "Majestic": "MAJESTIC CARE",
+    "Majes": "MAJESTIC CARE",
+    "Five Star": "FIVE STAR RESIDENCES",
+    "Lionstone": "LIONSTONE CARE",
+    "Saber": "SABER HEALTHCARE GROUP",
+    "Otterbein": "OTTERBEIN SENIOR LIFE",
+    "Triple Crown": "Triple Crown Senior Living",
+    "Navion": "Navion Senior Solutions",
+    "Gardant": "GARDANT MANAGEMENT SOLUTIONS",
+    "NHC Healthcare": "NATIONAL HEALTHCARE CORPORATION",
+    "NHC": "NATIONAL HEALTHCARE CORPORATION",
+    "Victorian Senior": "VICTORIAN SENIOR CARE",
+    "Principle LTC": "PRINCIPLE",
+    "Bloom": "Bloom Senior Living",
+    "Commonwealth": "COMMONWEALTH SENIOR LIVING",
+    "Optalis": "Optalis Healthcare",
+    "CHI": "CHI LIVING",
+    "Castle Health Care": "CASTLE HEALTHCARE",
+    "Charter": "CHARTER SENIOR LIVING",
+    "Spring Arbor": "SPRING ARBOR MANAGEMENT",
+    "Jaybird": "JAYBIRD SENIOR LIVING",
+    "Cardinal Care": "Cardinal Care Management",
+    "Harborview": "HARBORVIEW HEALTH SYSTEMS",
+    "Harmony": None,  # Could be Harmony Senior Services or Harmony Care Group
+    "Consulate": "Consulate Health Care",
+    "MainStay": "MAINSTAY SENIOR LIVING",
+    "Mainstay": "MAINSTAY SENIOR LIVING",
+    "Integrity": "INTEGRITY SENIOR LIVING",
+    "Vitality Senior Living": "VITALITY LIVING",
+    "Life Care": "LIFE CARE SERVICES",
+    "Country Club": None,  # Too generic
+    "Laurels": "LAURELS",
+    "Altercare": "ALTERCARE",
+    "Luxor": "LUXOR HEALTHCARE GROUP",
+    "Westminster Canterbury": "WESTMINSTER CANTERBURY",
+    "Peak Resources": "PEAK RESOURCES",
+    "Southern Healthcare Management": "SOUTHERN HEALTHCARE MANAGEMENT, LLC",
+    "Erikson Senior Living": "ERICKSON SENIOR LIVING",
+    "Care Managment Group": "CARE MANAGEMENT GROUP",
+    "Twenty20 Management": "TWENTY/20 MANAGEMENT",
+    "LifeWorks": "LIFEWORKS REHAB",
+    "Presbyterian Homes of Kentucky": None,  # Distinct KY org
+    "Christian Care Center": None,  # Local org
+    "Hill Valley Healthcare": "Hill Valley",
+    "Sterling Healthcare": "STERLING HEALTHCARE MANAGEMENT",
+    "Valley Care": "VALLEY CARE MANAGEMENT",
+    "Carrolton": "CARROLTON FACILTY MANAGEMENT",
+}
+
 
 def get_v25_names():
     conn = psycopg2.connect(
@@ -181,7 +291,15 @@ def main():
             skipped.append((ae_val, count, "NON_CORPORATE"))
             continue
 
-        match, method, score = fuzzy_match(ae_val, v25_names, v25_upper, v25_normalized)
+        # Check manual overrides first
+        if ae_val in MANUAL_OVERRIDES:
+            override = MANUAL_OVERRIDES[ae_val]
+            if override is None:
+                no_matches.append((ae_val, count, 0.0))
+                continue
+            match, method, score = override, "MANUAL", 1.0
+        else:
+            match, method, score = fuzzy_match(ae_val, v25_names, v25_upper, v25_normalized)
 
         if match:
             needs_rewrite = ae_val != match
