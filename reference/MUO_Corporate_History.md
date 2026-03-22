@@ -428,6 +428,94 @@ Formerly "Virginia United Methodist Homes, Inc." — separate entry in this file
 
 ---
 
+# Pre-V23 Corporate Research History (November 2025 - January 2026)
+
+The MUO profiling and corporate scoring work did not begin with V23. The research arc started in November 2025 during the initial database build and evolved through several methodology iterations before reaching the standardized V23 framework.
+
+---
+
+## Foundation Phase (November 2025)
+
+### Eventus Corporate Initiative Technical Brief
+- **Date:** November 2025
+- **File:** `archive/foundation/Eventus_Corporate_Initiative_Technical_Brief_Nov2025.md`
+- **Database:** V18.1 Economic Model
+- **Scope:** Established the Phase 3C Corporate Tiering framework using the integrated SNF + ALF model. Defined the financial computation layer (Phase 3B) with fixed ALF rates ($1,875 PCP, $1,898 MH), the TAM/SAM/SOM barrier-sensitive funnel model, and the market framework for corporate revenue opportunity assessment.
+- **Significance:** This is where corporate-level analysis first became a formal workstream — before this, the database was facility-level only.
+
+### American Senior Communities Analysis (Earliest Dated Corporate Deep Dive)
+- **Date:** November 22, 2025
+- **File:** `Vault/03_Corporate_Accounts/MUO_Profiles/Reference/American_Senior_Communities_Analysis.pdf`
+- **Database:** V18.1
+- **Scope:** Deep dive covering American Senior Communities (150 facilities, $32.78M opportunity), American Health Communities, American Healthcare LLC, and smaller American-branded entities.
+- **Significance:** First standalone corporate operator research document. Predates the scoring framework by a month.
+
+---
+
+## V20 Scoring Framework (December 2025)
+
+### Brooke's Working Scoresheet
+- **Date:** December 19, 2025
+- **File:** `Vault/03_Corporate_Accounts/Tiering/Archive/2025-12-19_Scoring_Tiering_Working.xlsx`
+- **Scope:** Hand-scored entries using the 6-dimension weighted framework. First application of Enterprise Reach, Integration Readiness, Strategic Influence, Revenue Potential, Relationship Strength, and AI/Tech Adoption dimensions to real entities.
+
+### V20 Core Rulebook & Scoring Methodology
+- **Date:** December 2025 (marked PRODUCTION READY)
+- **Files:**
+  - `current/6_Core_Rulebook_V20_0.md` — governs fee structure, scenario calculations, QC protocol
+  - `current/6.3_Corporate_Scoring_Methodology_V20.md` — scoring specifics, dimension definitions, weighting rationale
+- **Database:** V20.0 Combined (20,943 facilities)
+- **Coverage:** 70 corporate entities in initial scoring universe
+- **Significance:** First formalized, documented methodology. Established the 6-dimension model, the weighting scheme (ER×4, IR×3, SI×3, RP×4, RS×3, AI×3), and the tier thresholds that V23 later refined.
+
+### First Formal Tiered Ranking
+- **Date:** December 2025
+- **File:** `Vault/03_Corporate_Accounts/Tiering/Archive/Final_MUO_Tiering_V20.xlsx`
+- **Scope:** T1, T2, T3 rankings for 70 entities. First time corporate operators were formally ranked for BD prioritization.
+
+### MUO Consolidated Revenue Scoring Workbook
+- **Date:** December 16, 2025
+- **File:** `Vault/03_Corporate_Accounts/MUO_Profiles/Reference/MUO_Consolidated_Revenue_Scoring.xlsx`
+- **Trigger:** December 8 board request for corporate revenue opportunity data
+- **Scope:** Top 5 MUOs with detailed revenue breakdowns. Built in 8 days for board consumption.
+
+---
+
+## V21 Methodology Debates (January 2026)
+
+### V21 Alternative Methodology — Ops View
+- **Date:** January 6, 2026
+- **File:** `Vault/03_Corporate_Accounts/Tiering/Archive/V2 with Roians surrogate values/6.4_Corporate_Tiering_Methodology_Ops_View_V21_2 1.md`
+- **Scope:** Rule-based segmentation (Geography + Revenue Potential) as an alternative to V20's weighted-scoring approach. Separated objective criteria (facility count, revenue) from subjective factors ("% Eventus Fit").
+- **Requested by:** Clinical Ops team, for capacity planning purposes
+- **Outcome:** Not adopted as primary. BD tiering (V20 weighted model) retained as governance layer.
+
+### BD vs Clinical Tiering Alignment
+- **Date:** January 14, 2026
+- **File:** `Vault/03_Corporate_Accounts/Tiering/Archive/BD_Clinical_Tiering_Alignment.md`
+- **Issue:** Sales (V20) and Clinical (V21) had conflicting tier assignments for the same accounts
+- **Resolution:** BD tiering (V20) governs strategic prioritization. Clinical owns execution within the BD tier structure. One truth, two lenses.
+- **Significance:** Established the principle that scoring is a governance layer, not a departmental tool — a precursor to the Data Domain Definitions (Sales) initiative.
+
+---
+
+## Original Research Artifacts (Pre-Standardization)
+
+These DOCX/PDF source documents predate the standardized markdown template and are preserved in `Vault/03_Corporate_Accounts/MUO_Profiles/Reference/`:
+
+| File | Format | Subject | Notes |
+|------|--------|---------|-------|
+| `American_Senior_Communities_Analysis.pdf` | PDF (142KB) | ASC deep dive | Nov 22, 2025 — earliest dated |
+| `ClearView_Healthcare_Management_MUO_Profile.docx` | DOCX (17KB) | ClearView | Original profile before MD conversion |
+| `Primrose_Retirement_Communities_Profile.docx` | DOCX (15KB) | Primrose | Original profile before MD conversion |
+| `Zanziper_Portfolio_Analysis.docx` | DOCX (41KB) | Zanziper | Regulatory/ownership analysis |
+| `Trilogy.pdf` | PDF (182KB) | Trilogy | Supporting documentation |
+| `Majestic_Email_Would_Like_Your_Perspective.pdf` | PDF (323KB) | Majestic Care | Client correspondence |
+| `MUO_Consolidated_Revenue_Scoring.xlsx` | XLSX (6.5KB) | Top 5 MUOs | Dec 16, 2025 board response |
+| `Corporate_Scoring_Reference_Slide.md` | MD (6.5KB) | Scoring visual | Reference for presentations |
+
+---
+
 # V23 MUO Scoring Research (February-March 2026)
 
 22 corporate entities received deep-dive research during the V23 Corporate Scoring update. Research included CMS federal data cross-reference, state Secretary of State filings, company websites, industry press (McKnight's, Senior Housing News, Healthcare Finance News), ownership records, and LinkedIn. Each entity received a standardized MUO Profile (10-section Kisco template) saved to `Vault/03_Corporate_Accounts/MUO_Profiles/`.
