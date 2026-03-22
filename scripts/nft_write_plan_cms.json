@@ -1,0 +1,514 @@
+[
+  {
+    "id": "18230338822",
+    "name": "Christian Health Center Corbin",
+    "corporate": "CHRISTIAN CARE COMMUNITIES",
+    "cms_name": "Christian Health Center Corbin",
+    "cms_city": "Corbin",
+    "score": 1.0
+  },
+  {
+    "id": "18230333690",
+    "name": "Cumberland Nursing And Rehabilitation Center (copy)",
+    "corporate": "BENJAMIN LANDA",
+    "cms_name": "Cumberland Nursing and Rehabilitation Center",
+    "cms_city": "Somerset",
+    "score": 1.0
+  },
+  {
+    "id": "18230333797",
+    "name": "Barbourville Health And Rehabilitation Center (copy)",
+    "corporate": "SEKY HOLDING CO.",
+    "cms_name": "Barbourville Health and Rehabilitation Center",
+    "cms_city": "Barbourville",
+    "score": 1.0
+  },
+  {
+    "id": "18230334979",
+    "name": "COUNTRYSIDE CENTER FOR REHABILITATION AND NURSING",
+    "corporate": "SIMCHA HYMAN & NAFTALI ZANZIPER",
+    "cms_name": "COUNTRYSIDE CENTER FOR REHABILITATION AND NURSING",
+    "cms_city": "BARDWELL",
+    "score": 1.0
+  },
+  {
+    "id": "18230334950",
+    "name": "PRINCETON NURSING & REHABILITATION",
+    "corporate": "SIMCHA HYMAN & NAFTALI ZANZIPER",
+    "cms_name": "Princeton Nursing & Rehabilitation",
+    "cms_city": "Princeton",
+    "score": 1.0
+  },
+  {
+    "id": "18230334879",
+    "name": "PROVIDENCE POINTE HEALTHCARE",
+    "corporate": "PROVIDENCE HEALTH GROUP",
+    "cms_name": "Providence Pointe Healthcare",
+    "cms_city": "Paducah",
+    "score": 1.0
+  },
+  {
+    "id": "18230333637",
+    "name": "The springs at Stony Brook",
+    "corporate": "TRILOGY HEALTH SERVICES",
+    "cms_name": "The Springs at Stony Brook",
+    "cms_city": "Louisville",
+    "score": 1.0
+  },
+  {
+    "id": "18230336446",
+    "name": "Lost Creek Rehabilitation and Nursing Center",
+    "corporate": "NORTHWOOD HEALTHCARE GROUP",
+    "cms_name": "LEGENDS CARE REHABILITATION AND NURSING CENTER",
+    "cms_city": "MASSILLON",
+    "score": 0.87
+  },
+  {
+    "id": "18230333299",
+    "name": "Autumnwood Care Center",
+    "corporate": "GARDEN SPRINGS HEALTHCARE",
+    "cms_name": "AUTUMNWOOD CARE CENTER",
+    "cms_city": "TIFFIN",
+    "score": 1.0
+  },
+  {
+    "id": "18230333832",
+    "name": "Embassy Of Newark",
+    "corporate": "GARDEN SPRINGS HEALTHCARE",
+    "cms_name": "EMBASSY OF NEWARK",
+    "cms_city": "NEWARK",
+    "score": 1.0
+  },
+  {
+    "id": "18230336535",
+    "name": "Sycamore Trails Post Acute",
+    "corporate": "PACS GROUP",
+    "cms_name": "SYCAMORE TRAILS POST ACUTE",
+    "cms_city": "MIAMISBURG",
+    "score": 1.0
+  },
+  {
+    "id": "18230332675",
+    "name": "Vancrest Of Urbana, Inc",
+    "corporate": "VANCREST HEALTH CARE CENTERS",
+    "cms_name": "VANCREST OF URBANA, INC",
+    "cms_city": "URBANA",
+    "score": 1.0
+  },
+  {
+    "id": "18230334246",
+    "name": "EST-Edgewood Manor of Greenfield (copy)",
+    "corporate": "AOM HEALTHCARE",
+    "cms_name": "EDGEWOOD MANOR OF GREENFIELD",
+    "cms_city": "GREENFIELD",
+    "score": 0.93
+  },
+  {
+    "id": "18230338648",
+    "name": "Canal Winchester",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "cms_name": "CANAL WINCHESTER CARE CENTER",
+    "cms_city": "CANAL WINCHESTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230338656",
+    "name": "Riverview",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "cms_name": "RIVERVIEW",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230338642",
+    "name": "Laurels of Heath",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "cms_name": "THE LAURELS OF HEATH",
+    "cms_city": "HEATH",
+    "score": 0.89
+  },
+  {
+    "id": "18230338459",
+    "name": "Embassy of Woodview",
+    "corporate": "EMBASSY HEALTHCARE",
+    "cms_name": "EMBASSY OF WOODVIEW",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230338487",
+    "name": "Mother Angeline McCrory Manor",
+    "corporate": "CARMELITE SISTERS FOR THE AGED & INFIRM",
+    "cms_name": "MOTHER ANGELINE MCCRORY MANOR",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230338479",
+    "name": "Columbus Alzheimer's Care Ctr",
+    "corporate": "LIONSTONE CARE",
+    "cms_name": "COLUMBUS ALZHEIMER'S CARE CTR",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230338624",
+    "name": "The Laurels of Gahanna",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "cms_name": "THE LAURELS OF GAHANNA",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230338632",
+    "name": "Continuing Care of Gahanna",
+    "corporate": "PARADIGM HEALTHCARE",
+    "cms_name": "CONTINUING HEALTHCARE OF GAHANNA",
+    "cms_city": "GAHANNA",
+    "score": 0.9
+  },
+  {
+    "id": "18230338470",
+    "name": "Eastland Rehabilitation and Nursing Center",
+    "corporate": "GARDEN HEALTHCARE GROUP",
+    "cms_name": "EASTLAND REHABILITATION AND NURSING CENTER",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230338550",
+    "name": "The Laurels of Walden Park",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "cms_name": "THE LAURELS OF WALDEN PARK",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230338536",
+    "name": "McNaughten Pointe Nursing and Rehab",
+    "corporate": "FOUNDATIONS HEALTH SOLUTIONS",
+    "cms_name": "MCNAUGHTEN POINTE NURSING AND REHAB",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230338604",
+    "name": "Laurels of Norworth The",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "cms_name": "LAURELS OF NORWORTH THE",
+    "cms_city": "WORTHINGTON",
+    "score": 1.0
+  },
+  {
+    "id": "18230335195",
+    "name": "Eastland Rehab and Nursing Center",
+    "corporate": "GARDEN HEALTHCARE GROUP",
+    "cms_name": "EASTLAND REHABILITATION AND NURSING CENTER",
+    "cms_city": "COLUMBUS",
+    "score": 0.85
+  },
+  {
+    "id": "18230333200",
+    "name": "Columbus Healthcare Center",
+    "corporate": "COMMUNICARE HEALTH",
+    "cms_name": "COLUMBUS HEALTHCARE CENTER",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230333184",
+    "name": "West Park",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "cms_name": "WEST PARK CARE CENTER LLC",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230333314",
+    "name": "Taylor Springs Health Campus",
+    "corporate": "TRILOGY HEALTH SERVICES",
+    "cms_name": "TAYLOR SPRINGS HEALTH CAMPUS",
+    "cms_city": "GAHANNA",
+    "score": 1.0
+  },
+  {
+    "id": "18230333326",
+    "name": "Forest Hills Center",
+    "corporate": "EMBASSY HEALTHCARE",
+    "cms_name": "FOREST HILLS CENTER",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230333340",
+    "name": "Capital City Gardens Rehabilitation and Nursing Ce",
+    "corporate": "GARDEN HEALTHCARE GROUP",
+    "cms_name": "CAPITAL CITY GARDENS REHABILITATION AND NURSING CE",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230334987",
+    "name": "West Park",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "cms_name": "WEST PARK CARE CENTER LLC",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230335240",
+    "name": "Mayfair Village Nursing Care C",
+    "corporate": "LIFE CARE CENTERS OF AMERICA",
+    "cms_name": "MAYFAIR VILLAGE NURSING CARE C",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230336576",
+    "name": "West Park Care Center",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "cms_name": "WEST PARK CARE CENTER LLC",
+    "cms_city": "COLUMBUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230332924",
+    "name": "Carrolton of Fayetteville",
+    "corporate": "CARROLTON NURSING HOMES",
+    "cms_name": "The Carrolton of Fayetteville",
+    "cms_city": "Fayetteville",
+    "score": 0.93
+  },
+  {
+    "id": "18230337356",
+    "name": "Cloverleaf of Knightsville",
+    "corporate": "IDE MANAGEMENT GROUP",
+    "cms_name": "CLOVERLEAF OF KNIGHTSVILLE",
+    "cms_city": "KNIGHTSVILLE",
+    "score": 1.0
+  },
+  {
+    "id": "18230337459",
+    "name": "Cedar Creek Health Campus",
+    "corporate": "TRILOGY HEALTH SERVICES",
+    "cms_name": "CEDAR CREEK HEALTH CAMPUS",
+    "cms_city": "LOWELL",
+    "score": 1.0
+  },
+  {
+    "id": "18230335774",
+    "name": "Laurels of Dekalb",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "cms_name": "LAURELS OF DEKALB",
+    "cms_city": "BUTLER",
+    "score": 1.0
+  },
+  {
+    "id": "18230334895",
+    "name": "Westminster Village CCRC",
+    "corporate": "BHI SENIOR LIVING",
+    "cms_name": "WESTMINSTER VILLAGE NORTH",
+    "cms_city": "INDIANAPOLIS",
+    "score": 0.86
+  },
+  {
+    "id": "18230336106",
+    "name": "Hamilton pointe EST",
+    "corporate": "TLC MANAGEMENT",
+    "cms_name": "HAMILTON POINTE HEALTH AND REHAB",
+    "cms_city": "NEWBURGH",
+    "score": 0.88
+  },
+  {
+    "id": "18230335717",
+    "name": "Lodge of the Wabash",
+    "corporate": "REAL PROPERTY HEALTH FACILITIES",
+    "cms_name": "LODGE OF THE WABASH",
+    "cms_city": "VINCENNES",
+    "score": 1.0
+  },
+  {
+    "id": "18230334708",
+    "name": "Cathedral Health (copy)",
+    "corporate": "IDE MANAGEMENT GROUP",
+    "cms_name": "CATHEDRAL HEALTH CARE CENTER",
+    "cms_city": "JASPER",
+    "score": 1.0
+  },
+  {
+    "id": "18230337735",
+    "name": "Allison Pointe Healthcare Center",
+    "corporate": "COMMUNICARE HEALTH",
+    "cms_name": "ALLISON POINTE HEALTHCARE CENTER",
+    "cms_city": "INDIANAPOLIS",
+    "score": 1.0
+  },
+  {
+    "id": "18230337742",
+    "name": "Alpha Home- A Waters Community",
+    "corporate": "INFINITY HEALTHCARE CONSULTING",
+    "cms_name": "ALPHA HOME - A WATERS COMMUNITY",
+    "cms_city": "INDIANAPOLIS",
+    "score": 0.98
+  },
+  {
+    "id": "18230337750",
+    "name": "Altenheim Health  and Living Community",
+    "corporate": "CARDON & ASSOCIATES",
+    "cms_name": "ALTENHEIM HEALTH & LIVING COMMUNITY",
+    "cms_city": "INDIANAPOLIS",
+    "score": 0.93
+  },
+  {
+    "id": "18230336930",
+    "name": "The Village at Orchard Ridge",
+    "corporate": "NATIONAL LUTHERAN COMMUNITIES & SERVICES",
+    "cms_name": "THE VILLAGE AT ORCHARD RIDGE",
+    "cms_city": "WINCHESTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230332694",
+    "name": "Woodmont Center (copy)",
+    "corporate": "GENESIS HEALTHCARE",
+    "cms_name": "WOODMONT CENTER",
+    "cms_city": "FREDERICKSBURG",
+    "score": 1.0
+  },
+  {
+    "id": "18230333251",
+    "name": "Fredericksburg Health and Rehab",
+    "corporate": "TRIO HEALTHCARE",
+    "cms_name": "FREDERICKSBURG HEALTH AND REHAB",
+    "cms_city": "FREDERICKSBURG",
+    "score": 1.0
+  },
+  {
+    "id": "18230332928",
+    "name": "Brookside Rehab and Nursing",
+    "corporate": "HILL VALLEY HEALTHCARE",
+    "cms_name": "BROOKSIDE REHAB & NURSING CENTER",
+    "cms_city": "WARRENTON",
+    "score": 0.92
+  },
+  {
+    "id": "18230334291",
+    "name": "Life Care Center of Hendersonville",
+    "corporate": "LIFE CARE CENTERS OF AMERICA",
+    "cms_name": "Life Care Center of Hendersonville",
+    "cms_city": "Hendersonville",
+    "score": 1.0
+  },
+  {
+    "id": "18230333612",
+    "name": "The Lodge at Mills River",
+    "corporate": "SANSTONE HEALTH & REHABILITATION",
+    "cms_name": "The Lodge at Mills River",
+    "cms_city": "Mills River",
+    "score": 1.0
+  },
+  {
+    "id": "18230332664",
+    "name": "Autumn Care of Statesville",
+    "corporate": "SABER HEALTHCARE GROUP",
+    "cms_name": "Autumn Care of Statesville",
+    "cms_city": "Statesville",
+    "score": 1.0
+  },
+  {
+    "id": "18230333833",
+    "name": "EST. The Laurels of Salisbury",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "cms_name": "The Laurels of Salisbury",
+    "cms_city": "Salisbury",
+    "score": 0.91
+  },
+  {
+    "id": "18230333968",
+    "name": "EST. The Oaks-Brevard",
+    "corporate": "PRUITTHEALTH",
+    "cms_name": "The Oaks-Brevard",
+    "cms_city": "Brevard",
+    "score": 0.86
+  },
+  {
+    "id": "18230332638",
+    "name": "EST. Gastonia Health & Rehab Center",
+    "corporate": "SABER HEALTHCARE GROUP",
+    "cms_name": "Gastonia Health & Rehab Center",
+    "cms_city": "Gastonia",
+    "score": 0.87
+  },
+  {
+    "id": "18230334325",
+    "name": "Davidson Health & Rehab Center (copy) (copy)",
+    "corporate": "SABER HEALTHCARE GROUP",
+    "cms_name": "Davidson Health & Rehab Center",
+    "cms_city": "Lexington",
+    "score": 1.0
+  },
+  {
+    "id": "10998932986",
+    "name": "White Oak Manor - Charlotte",
+    "corporate": "WHITE OAK MANAGEMENT",
+    "cms_name": "White Oak Manor - Charlotte",
+    "cms_city": "Charlotte",
+    "score": 1.0
+  },
+  {
+    "id": "18230334932",
+    "name": "Greendale Forest Nursing (copy)",
+    "corporate": "PRINCIPLE LONG TERM CARE",
+    "cms_name": "Greendale Forest Nursing and Rehabilitation Center",
+    "cms_city": "Snow Hill",
+    "score": 0.92
+  },
+  {
+    "id": "10998952327",
+    "name": "Royal Park Rehabilitation & Health Center",
+    "corporate": "LIBERTY SENIOR LIVING",
+    "cms_name": "Royal Park Rehabilitation & Health Center",
+    "cms_city": "Matthews",
+    "score": 1.0
+  },
+  {
+    "id": "10999072387",
+    "name": "Sardis Oaks",
+    "corporate": "ATRIUM HEALTH",
+    "cms_name": "Sardis Oaks",
+    "cms_city": "Charlotte",
+    "score": 1.0
+  },
+  {
+    "id": "18230337191",
+    "name": "St George Healthcare center",
+    "corporate": "FUNDAMENTAL HEALTHCARE",
+    "cms_name": "St George Healthcare Center",
+    "cms_city": "Saint George",
+    "score": 1.0
+  },
+  {
+    "id": "18230336797",
+    "name": "Astoria Place of Barnesville",
+    "corporate": "CERTUS HEALTHCARE",
+    "cms_name": "ASTORIA PLACE OF WATERVILLE",
+    "cms_city": "WATERVILLE",
+    "score": 0.87
+  },
+  {
+    "id": "11113604682",
+    "name": "NHC Healthcare Garden City",
+    "corporate": "NATIONAL HEALTHCARE CORPORATION",
+    "cms_name": "NHC Healthcare - Garden City",
+    "cms_city": "Garden City",
+    "score": 0.96
+  },
+  {
+    "id": "11505995917",
+    "name": "Dinwiddie Health & Rehab Center",
+    "corporate": "COMMONWEALTH CARE OF ROANOKE",
+    "cms_name": "DINWIDDIE HEALTH AND REHAB CENTER",
+    "cms_city": "PETERSBURG",
+    "score": 0.89
+  }
+]
