@@ -853,3 +853,68 @@ Brooke (BD perspective) vs Tom (Sales Success perspective) — 50 entities score
 
 ### V20 → V23 Movers Analysis
 10 upgrades, 15 downgrades tracked across scoring versions. 3 root causes identified: RS methodology change (dual-scorer), IR recalculation (service flag audit), and ER campus count corrections.
+
+---
+
+## V25.1/V25.2 Research Findings (2026-03-22)
+
+### WHITE OAK MANAGEMENT → NHC (National Healthcare Corporation)
+**Event:** Full acquisition
+**Date:** August 1, 2024
+**Value:** $220 million
+**Broker:** Blueprint Healthcare Real Estate Advisors
+**Scope:** All 15 White Oak facilities (6 NC, 9 SC), 1,928 SNF beds + 48 ALF + 302 ILU
+**History:** Family-owned since 1964, founded by Oliver Kent Cecil in Spartanburg, SC
+**Impact:** NHC gains NC as new state. NHC footprint goes from ~20 to ~35 campuses in EWH footprint.
+**DB action:** V25.2 — 16 rows reattributed WHITE OAK MANAGEMENT → NATIONAL HEALTHCARE CORPORATION
+**Sources:** BusinessWire (Aug 6, 2024), Bass Berry & Sims, Skilled Nursing News, NHC press (nhccare.com)
+
+### HCMG (Health Care Management Group) → LIONSTONE CARE
+**Event:** Ownership transition
+**Date:** ~2025 (Greg Miller LinkedIn announcement after 31 years at HCMG)
+**Scope:** All 7 HCMG facilities — 5 OH (Cincinnati metro) + 1 KY (Florence) + Alois MC
+**History:** Founded 1984, locally owned Cincinnati/NKY operator
+**Facilities:** Alois Alzheimer Center, Brookwood Retirement Community, Covenant Village, Florence Park, Loveland HC, Arlington Pointe, Ohio Valley Manor
+**Impact:** Lionstone gains metro Cincinnati/NKY geography (was rural OH only). Lionstone also closed separate $230M acquisition of 19-property OH SNF/AL portfolio in July 2025.
+**DB action:** V25.2 — 7 rows reattributed HEALTH CARE MANAGEMENT GROUP → LIONSTONE CARE
+**Sources:** Greg Miller LinkedIn, Commercial Observer (Dwight Mortgage Trust), facility websites (hcmg.com)
+
+### CHOICE HEALTH MANAGEMENT — Hidden MUO Discovery
+**Event:** Not an acquisition — entity was always there but coded under management company names
+**Discovery date:** 2026-03-22
+**HQ:** Claremont, NC
+**Founded:** 1999, family-owned
+**Revenue:** ~$375M (Kona Equity)
+**Facilities:** ~18 in NC (17) + SC (1) — operates under "Universal Health Care" brand plus facility-specific names (Blumenthal, Belaire, Alamance, Cabarrus, Guilford, etc.)
+**Root cause of gap:** MFA (Medical Facilities of America) and YAD Healthcare are management companies retained by Choice Health. CMS, NIC, and our DB all inherited the management company attribution instead of the owner. LIFEWORKS REHAB also manages some Choice Health facilities.
+**Staff confirmation:** Multiple facilities use @choice-health.net email addresses
+**MUO gate:** PASS — 16-18 campuses in footprint
+**DB action:** V25.2 — 28 rows recoded (16 MFA NC → Choice, 10 YAD → Choice, 2 LIFEWORKS → Choice). 9 uncertain rows flagged for V25.3.
+**Note:** MFA also has 1 VA row and LIFEWORKS has DE/MD/PA/VA rows — these are NOT Choice Health.
+
+### OAK GROVE HEALTHCARE CENTER (Rutherfordton, NC) — Greencroft Misattribution
+**Finding:** NOT Greencroft. Greencroft Communities is exclusively Indiana-based nonprofit.
+**Real operator:** SNF Care Centers, LLC (CMS Chain ID 816, 6 facilities: 2 MS, 1 NC, 3 PA)
+**Legal entity:** 518 Old US Highway 221 Opco LLC
+**Root cause:** Name-collision error — GLR data entry confused "Oak Grove" with Greencroft's "Oak Grove Christian Retirement Village" in DeMotte, IN
+**Additional finding:** Second DB row at same address coded as Consulate/Nspire legacy was also wrong (ownership changed from Consulate orbit to SNF Care Centers)
+**DB action:** V25.1 — ALF duplicate deleted, SNF row updated to SNF CARE CENTERS
+
+### SPRING ARBOR MANAGEMENT — "Missing 9" Resolution
+**Finding:** No facilities are missing. All 11 Spring Arbor-operated facilities are in the DB (15 FP rows = 14 campuses after Cary AL+MC collapse).
+**Root cause of perceived gap:** Brooke counted ~24 "Spring Arbor" properties during walkthrough, but 15 of those are Spring Arbor-BRANDED buildings operated by OTHER companies:
+- Foundry Commercial: 8 buildings (MD, NC, VA)
+- Wickshire Senior Living: 2 buildings (NC)
+- HHHunt: 1 building (NC)
+- Allegro Management Company: 2 buildings (NC)
+**Key insight:** "Spring Arbor" is a property brand, not always the operating company. NIC Maps operator field confirms only 11 are actually operated by Spring Arbor Senior Living.
+
+### ENTITY NAME PAIR INVESTIGATIONS (2026-03-22)
+All 4 investigated pairs are **DIFFERENT entities** — no consolidation needed:
+
+| Pair | Verdict | Reasoning |
+|---|---|---|
+| WINDSOR (CA, 18 rows) vs WINDSOR HOUSE, INC. (OH, 18 rows) | DIFFERENT | Entirely different states, different operators |
+| CERTUS HEALTHCARE (OH, 14 rows SNFs) vs Certus Senior Living (FL, 5 rows memory care) | DIFFERENT | Different states, different care types, different branding |
+| SOUTHERN HEALTHCARE MGMT (FL/GA/NC, 46 rows) vs SOUTHERN ADMINISTRATIVE SERVICES (AR, 35 rows) | DIFFERENT | Zero geographic overlap, no address matches |
+| PRIORITY (IN, 10), PRIORITY LIFE CARE (multi-state, 42), PRIORITY MANAGEMENT (LA/TX, 38), PRIORITY HEALTHCARE GROUP (PA/NE, 15) | 4 DIFFERENT operators | Completely different geographies; PRIORITY LIFE CARE is the V23 scored entity |
