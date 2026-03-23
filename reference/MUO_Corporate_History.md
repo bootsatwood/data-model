@@ -726,6 +726,121 @@ Built from V22.4 DB + public research. Discovered during complete universe build
 - **ClearView Healthcare Management** — only 5 of ~31 CMS facilities in DB. Tennessee entirely absent.
 - **Triple Crown Senior Living** — only 4 of 14 public communities in DB.
 - **Kisco Senior Living** — nationally significant operator substantially undercounted.
+- **Choice Health Management** — 18 facilities (15 SNF + 2 ALF + 1 IL) across NC/SC, only 7 in DB. See full entry below.
+
+---
+
+## CHOICE HEALTH MANAGEMENT
+
+**Canonical DB name:** TBD (currently fragmented across `MFA` and `YAD` corporate_name_raw values)
+**DB variants found:** MFA (5 facilities), YAD (2 facilities), "EAST CAROLINA REHAB AND WELLNESS, LLC" (1 facility, coded Independent)
+**DB facility count:** 7-8 (of ~18 actual)
+**Served:** Yes (all GLR-tracked facilities have active Eventus service)
+**Website:** [choice-health.net](https://www.choice-health.net)
+**HQ:** 2929 N Oxford St, Claremont, NC 28610 | (828) 459-2977
+**Revenue:** ~$375M (Kona Equity) / ~$108M (ZoomInfo) — discrepancy likely reflects parent vs. management entity
+**Founded:** 1999, family-owned
+
+### Corporate Structure (Key Finding)
+
+Choice Health Management Services, LLC is the **owner/operator** of 18 facilities (15 SNF, 2 ALF, 1 IL) in NC and SC. However, it does NOT appear in CMS data under its own name. Instead:
+
+- **CMS Chain "LIFEWORKS REHAB" (ID 768, 59 facilities)** — a rehab services provider, not an owner. CMS assigns many Choice Health SNFs to this chain because LifeWorks provides therapy services. This is a **CMS chain attribution error** — LifeWorks is a vendor, not an operator.
+- **CMS Chain "CHOICE HEALTH MANAGEMENT" (ID 140)** — appears in NIC MAP / phantom audit data for 3 facilities (Blumenthal, Fletcher, Brian Center/St. Andrews) but does NOT appear in the Feb 2026 CMS Provider Info file.
+- **CMS Chain "YAD HEALTHCARE" (ID 640, 13 facilities)** — CMS assigns Fletcher Rehab (345522) and St Andrews Operator LLC (425129) to YAD. YAD provides administrative/consulting services.
+- **Several facilities have NO chain assignment** in CMS — Greenville Health & Rehab (345181), Lenoir Health & Rehab (345138), Lillington Health & Rehab (345213), Universal Health Care/Fuquay-Varina (345561).
+
+**Key brand names used:**
+- "Universal Health Care" / "Universal Healthcare" — primary SNF brand (Concord, King, Raleigh, North Raleigh, Fuquay-Varina, Greenville, Ramseur, Lillington)
+- Facility-specific names — Blumenthal, Belaire, Alamance, Guilford, Charlotte, Oxford, Lexington, Huntersville, Carolina Rehab (Cumberland, Burke), Lenoir Healthcare
+- "Brian Center" — SC facility (Brian Center Nursing Care/St. Andrews, Columbia)
+
+**Management companies used:**
+- **MFA (Medical Facilities of America)** — manages majority of NC SNFs. Staff emails often @mfa.net. MFA is a VA/NC-based management company (42 locations). MFA is NOT the owner.
+- **YAD Healthcare** — manages some facilities (Fletcher, Ramseur, St. Andrews SC, Windsor, Laurel Park). Staff emails at facility-specific domains. YAD is NOT the owner.
+
+### DB-to-CMS Reconciliation (NC/SC Facilities)
+
+**IN our DB with corporate attribution (7 facilities):**
+
+| DB Name | DB Corporate | City | State | CMS CCN | CMS Chain | CMS Beds | GLR Universal Name |
+|---|---|---|---|---|---|---|---|
+| Alamance Health Care Center | MFA | Burlington | NC | 345420 | LIFEWORKS REHAB | 180 | ALAMANCE HEALTH CARE CENTER |
+| Belaire | MFA | Gastonia | NC | 345457 | LIFEWORKS REHAB | 80 | BELAIRE HEALTH CARE CENTER |
+| Blumenthal Nursing and Rehab | MFA | Greensboro | NC | 345006 | CHOICE HEALTH MGMT | 134 | BLUMENTHAL NURSING AND REHAB |
+| Cabarrus Health & Rehab Center | MFA | Concord | NC | 345183 | LIFEWORKS REHAB | 120 | UNIVERSAL HEALTHCARE CONCORD |
+| King Health and Rehab Center | MFA | King | NC | 345449 | LIFEWORKS REHAB | 96 | UNIVERSAL HEALTHCARE KING |
+| Fletcher Rehab and Healthcare | YAD | Fletcher | NC | 345522 | YAD HEALTHCARE | 90 | Fletcher Rehab and Healthcare |
+| Seven Oaks Rehab & Healthcare | YAD | Columbia | SC | 425129 | YAD HEALTHCARE | 108 | Brian Center/St. Andrews |
+
+**IN GLR (served) but NOT in DB with correct corporate link (5 facilities):**
+
+| GLR Name | City | State | CMS CCN | CMS Chain | CMS Beds | GLR Universal Name |
+|---|---|---|---|---|---|---|
+| Greenville Health and Rehab | Greenville | NC | 345181 | (none) | 120 | UNIVERSAL HEALTHCARE GREENVILLE |
+| Guilford Health Care Center | Greensboro | NC | 345460 | LIFEWORKS REHAB | 110 | GUILFORD HEALTH CARE CENTER |
+| Carolina Rehab Center of Cumberland | Fayetteville | NC | 345505 | LIFEWORKS REHAB | 136 | CAROLINA REHAB CENTER OF CUMBERLAND |
+| Ramseur Rehab and Healthcare | Ramseur | NC | 345523 | YAD HEALTHCARE | 90 | UNIVERSAL HEALTHCARE RAMSEUR |
+| Lenoir Healthcare | Lenoir | NC | 345138 | (none) | 120 | LENOIR HEALTHCARE |
+
+Note: Greenville (345181) staff use @choice-health.net emails. Lenoir (345138) staff use @choice-health.net emails.
+
+**IN GLR (served) but corporate likely miscoded (1 facility):**
+
+| GLR Name | DB Corporate | City | State | CMS CCN | Note |
+|---|---|---|---|---|---|
+| Fuquay Varina Health & Rehab | (unknown) | Fuquay-Varina | NC | 345561 | GLR shows "UNIVERSAL HEALTHCARE FUQUAY VARINA"; CMS has no chain; DB may have as independent |
+
+**IN GLR (served) but NOT in phantom audit — likely in DB under different name (1 facility):**
+
+| GLR Name | City | State | CMS CCN | CMS Chain | CMS Beds |
+|---|---|---|---|---|---|
+| Lexington Health Care Center | Lexington | NC | 345419 | LIFEWORKS REHAB | 100 |
+
+**NOT in GLR and NOT in DB — CMS-confirmed LIFEWORKS/Choice facilities missing entirely (5 facilities):**
+
+| CMS Provider Name | City | State | CMS CCN | CMS Chain | CMS Beds |
+|---|---|---|---|---|---|
+| Charlotte Health & Rehabilitation Center | Charlotte | NC | 345405 | LIFEWORKS REHAB | 90 |
+| Oxford Health and Rehabilitation Center | Oxford | NC | 345291 | LIFEWORKS REHAB | 160 |
+| Carolina Rehab Center of Burke | Connelly Spring | NC | 345526 | LIFEWORKS REHAB | 90 |
+| Huntersville Health & Rehabilitation Center | Huntersville | NC | 345570 | LIFEWORKS REHAB | 90 |
+| Litchford Falls Health and Rehab Center | Raleigh | NC | 345499 | LIFEWORKS REHAB | 90 |
+
+Also missing: Universal Health Care/North Raleigh (345529, 132 beds, LIFEWORKS REHAB, SFF status).
+
+**East Carolina Rehab and Wellness (separate facility, same address):**
+Located at 2575 W 5th St, Greenville, NC (CMS CCN 345377, 130 beds). In our DB as Independent. Directly adjacent to Greenville Health & Rehab (2578 W 5th St). CMS shows no chain. May or may not be Choice Health — needs verification.
+
+### Revenue Analysis
+
+The $375M revenue figure (Kona Equity) is plausible for 15 SNFs + 2 ALFs + 1 IL if average facility revenue is ~$20M. ZoomInfo reports $108M, which may reflect the management services entity vs. total facility revenue. The 17 NC/SC facilities claim aligns with 15 SNF + 2 ALF. The "18 facilities" on their website likely includes 1 IL community.
+
+### Timeline
+
+| Date | Event | Source |
+|---|---|---|
+| 1999 | Choice Health Management Services founded, family-owned, Claremont NC | [choice-health.net](https://www.choice-health.net/The-Choice-Difference/) |
+| 2018 | WRAL report: Medicare fines totaling $567,976 at 6 Choice Health facilities since 2015 (Fuquay-Varina $234K, Lillington $151K top offenders) | [WRAL](https://www.wral.com/story/hefty-medicare-fines-levied-against-nursing-home-chain-accused-of-patient-abuse/17620037/) |
+| 2025 | CMS: Universal Health Care/North Raleigh (345529) designated SFF (Special Focus Facility) | CMS Provider Info Feb 2026 |
+| 2026 | Self-reported: 18 facilities (15 SNF, 2 ALF, 1 IL) across NC and SC | [choice-health.net](https://www.choice-health.net) |
+
+### 7+ Threshold Gate
+
+Total NC/SC facility count (SNF only): **15-17 confirmed SNFs** in NC + 1 in SC = **16-18 total**
+This **easily clears the 7+ threshold** for MUO consideration.
+
+### Recommendations
+
+1. **Create canonical entity:** Establish `CHOICE HEALTH MANAGEMENT` as the corporate_name_raw for all Choice Health facilities. Currently fragmented across MFA, YAD, Independent, and missing entries.
+2. **Recode existing 7 DB facilities:** Change corporate_name_raw from MFA/YAD to CHOICE HEALTH MANAGEMENT for: Alamance, Belaire, Blumenthal, Cabarrus/Concord, King, Fletcher, Seven Oaks/St. Andrews.
+3. **Add missing facilities:** At minimum, add the 6 CMS-confirmed NC SNFs not in our DB: Charlotte H&R, Oxford H&R, Carolina Rehab Burke, Huntersville H&R, Litchford Falls, UHC/North Raleigh.
+4. **Verify GLR-only facilities:** Confirm Greenville H&R, Guilford, Carolina Rehab Cumberland, Ramseur, Lenoir, Fuquay-Varina, Lexington are in the DB and correctly attributed.
+5. **Investigate East Carolina Rehab and Wellness:** Same street as Greenville H&R — determine if Choice Health or truly independent.
+6. **CMS chain attribution note:** Do NOT trust CMS chain = "LIFEWORKS REHAB" as operator identity. LifeWorks is a therapy vendor. The true operator is Choice Health Management via MFA/YAD management.
+7. **Score for MUO candidacy:** With 16-18 facilities and $375M revenue, Choice Health Management warrants immediate MUO evaluation.
+
+**Researched:** 2026-03-22, Choice Health Management gap analysis.
 
 ### Barrier/Strategic Research
 - **Pavilion Healthcare** — alliance + 29% own provider group (T5 barrier)

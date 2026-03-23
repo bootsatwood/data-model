@@ -1,0 +1,1248 @@
+[
+  {
+    "id": "11208618414",
+    "name": "The Inn at Bear Trail",
+    "corporate": "Jerry McClain Company",
+    "v25_name": "THE INN AT BEAR TRAIL",
+    "score": 1.0
+  },
+  {
+    "id": "18230338803",
+    "name": "Corbin Health and Rehabilitation",
+    "corporate": "SEKY HOLDING CO.",
+    "v25_name": "CORBIN HEALTH AND REHABILITATION CENTER",
+    "score": 0.87
+  },
+  {
+    "id": "18230338757",
+    "name": "Southern Kentucky Senior Living",
+    "corporate": "SOUTHERN KENTUCKY SENIOR LIVING",
+    "v25_name": "SOUTHERN KENTUCKY SENIOR LIVING",
+    "score": 1.0
+  },
+  {
+    "id": "18230337701",
+    "name": "Bon Harbor Nursing and Rehab Center",
+    "corporate": "TOPAZ HEALTHCARE",
+    "v25_name": "HARDINSBURG NURSING AND REHABILITATION CENTER",
+    "score": 0.76
+  },
+  {
+    "id": "18230336451",
+    "name": "Oaks Personal Care Home",
+    "corporate": "FRASURES PERSONAL CARE HOME INC",
+    "v25_name": "FRASURE'S PERSONAL CARE HOME, INC",
+    "score": 0.81
+  },
+  {
+    "id": "18230336967",
+    "name": "Maple Health and Rehabilitaiton",
+    "corporate": "CLEARVIEW",
+    "v25_name": "MADISONVILLE HEALTH AND REHABILITATION, LLC",
+    "score": 0.83
+  },
+  {
+    "id": "18230336060",
+    "name": "EST-Berea Health & Rehab Center",
+    "corporate": "BLUEGRASS/ENCORE",
+    "v25_name": "BEREA HEALTH AND REHABILITATION",
+    "score": 0.8
+  },
+  {
+    "id": "18230336083",
+    "name": "Bluegrass Assisted Living Bardstown",
+    "corporate": "ASPEN ALCOVE ELIZABETHTOWN LLC",
+    "v25_name": "BLUEGRASS ASSISTED LIVING\n(ELIZABETHTOWN)",
+    "score": 0.79
+  },
+  {
+    "id": "18230333117",
+    "name": "FERN TERRACE OF BOWLING GREEN, LLC (copy)",
+    "corporate": "DAVCO",
+    "v25_name": "FERN TERRACE OF BOWLING GREEN",
+    "score": 0.98
+  },
+  {
+    "id": "18230333690",
+    "name": "Cumberland Nursing And Rehabilitation Center (copy)",
+    "corporate": "BENJAMIN LANDA",
+    "v25_name": "CUMBERLAND NURSING AND REHABILITATION CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230332493",
+    "name": "Perkins County Manor",
+    "corporate": "ELDERCARE PARTNERS",
+    "v25_name": "CHRISTIAN COUNTY MANOR",
+    "score": 0.76
+  },
+  {
+    "id": "18230332815",
+    "name": "Edgewood Estates",
+    "corporate": "BNL INVESTMENTS LLC",
+    "v25_name": "DOGWOOD ESTATES",
+    "score": 0.9
+  },
+  {
+    "id": "18230335777",
+    "name": "Parkview Nursing and Rehab",
+    "corporate": "PARKVIEW ASSISTED LIVING",
+    "v25_name": "PARKVIEW ASSISTED LIVING",
+    "score": 1.0
+  },
+  {
+    "id": "18230333797",
+    "name": "Barbourville Health And Rehabilitation Center (copy)",
+    "corporate": "SEKY HOLDING CO.",
+    "v25_name": "BARBOURVILLE HEALTH AND REHABILITATION CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230334979",
+    "name": "COUNTRYSIDE CENTER FOR REHABILITATION AND NURSING",
+    "corporate": "SIMCHA HYMAN & NAFTALI ZANZIPER",
+    "v25_name": "COUNTRYSIDE CENTER FOR REHABILITATION AND NURSING",
+    "score": 1.0
+  },
+  {
+    "id": "18230334950",
+    "name": "PRINCETON NURSING & REHABILITATION",
+    "corporate": "SIMCHA HYMAN & NAFTALI ZANZIPER",
+    "v25_name": "PRINCETON NURSING & REHABILITATION",
+    "score": 1.0
+  },
+  {
+    "id": "18230334879",
+    "name": "PROVIDENCE POINTE HEALTHCARE",
+    "corporate": "PROVIDENCE HEALTH GROUP",
+    "v25_name": "PROVIDENCE POINTE HEALTHCARE",
+    "score": 1.0
+  },
+  {
+    "id": "18230333637",
+    "name": "The springs at Stony Brook",
+    "corporate": "TRILOGY HEALTH SERVICES",
+    "v25_name": "THE SPRINGS AT STONY BROOK",
+    "score": 1.0
+  },
+  {
+    "id": "18230332773",
+    "name": "Ivy Knoll",
+    "corporate": "NORTHERN KENTUCKY",
+    "v25_name": "IVY KNOLL",
+    "score": 1.0
+  },
+  {
+    "id": "18230333026",
+    "name": "The Courtyard",
+    "corporate": "THE COURTYARD",
+    "v25_name": "THE COURTYARD",
+    "score": 1.0
+  },
+  {
+    "id": "18230333076",
+    "name": "Franciscan Healthcare Center",
+    "corporate": "TRILOGY HEALTH SERVICES",
+    "v25_name": "FRANCISCAN HEALTH CARE CENTER",
+    "score": 0.89
+  },
+  {
+    "id": "18230333871",
+    "name": "Park View Nursing and Rehab",
+    "corporate": "PARKVIEW ASSISTED LIVING",
+    "v25_name": "PARKVIEW ASSISTED LIVING",
+    "score": 0.94
+  },
+  {
+    "id": "18230334563",
+    "name": "Crestview Personal Care Home (copy)",
+    "corporate": "PATARY INC",
+    "v25_name": "CRESTVIEW PERSONAL CARE HOME",
+    "score": 1.0
+  },
+  {
+    "id": "18230336446",
+    "name": "Lost Creek Rehabilitation and Nursing Center",
+    "corporate": "NORTHWOOD HEALTHCARE GROUP",
+    "v25_name": "LEGENDS CARE REHABILITATION AND NURSING CENTER",
+    "score": 0.87
+  },
+  {
+    "id": "18230336401",
+    "name": "Accord Care Community",
+    "corporate": "LIONSTONE CARE",
+    "v25_name": "FAIRFIELD CARE COMMUNITY",
+    "score": 0.8
+  },
+  {
+    "id": "18230337180",
+    "name": "Walnut Creek Nursing Center",
+    "corporate": "SABER HEALTHCARE GROUP",
+    "v25_name": "EAGLE CREEK NURSING CENTER",
+    "score": 0.82
+  },
+  {
+    "id": "18230337008",
+    "name": "Legacy Miamisburg",
+    "corporate": "PACS GROUP",
+    "v25_name": "LEGACY TWINSBURG",
+    "score": 0.79
+  },
+  {
+    "id": "18230336985",
+    "name": "Legacy Centerville",
+    "corporate": "PAVILION HEALTHCARE",
+    "v25_name": "CENTERVILLE HEALTH AND REHAB",
+    "score": 0.76
+  },
+  {
+    "id": "18230333177",
+    "name": "Hennis Care Centre - Dover",
+    "corporate": "DREW LAND COMPANY",
+    "v25_name": "HENNIS CARE CENTRE OF BOLIVAR",
+    "score": 0.84
+  },
+  {
+    "id": "18230333299",
+    "name": "Autumnwood Care Center",
+    "corporate": "GARDEN SPRINGS HEALTHCARE",
+    "v25_name": "AUTUMNWOOD CARE CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230332907",
+    "name": "Close to Home III - Ironton",
+    "corporate": "ST LAWRENCE OTOOLE GARDENS LLC",
+    "v25_name": "CLOSE TO HOME III, LLC",
+    "score": 0.76
+  },
+  {
+    "id": "18230333832",
+    "name": "Embassy Of Newark",
+    "corporate": "GARDEN SPRINGS HEALTHCARE",
+    "v25_name": "EMBASSY OF NEWARK",
+    "score": 1.0
+  },
+  {
+    "id": "18230336535",
+    "name": "Sycamore Trails Post Acute",
+    "corporate": "PACS GROUP",
+    "v25_name": "SYCAMORE TRAILS POST ACUTE",
+    "score": 1.0
+  },
+  {
+    "id": "18230332590",
+    "name": "St. Francis Senior Ministries",
+    "corporate": "SISTERS OF ST FRANCIS OF TIFFIN",
+    "v25_name": "ST FRANCIS SENIOR MINISTRIES",
+    "score": 0.98
+  },
+  {
+    "id": "18230332675",
+    "name": "Vancrest Of Urbana, Inc",
+    "corporate": "VANCREST HEALTH CARE CENTERS",
+    "v25_name": "VANCREST OF URBANA, INC",
+    "score": 1.0
+  },
+  {
+    "id": "18230334246",
+    "name": "EST-Edgewood Manor of Greenfield (copy)",
+    "corporate": "AOM HEALTHCARE SOLUTIONS",
+    "v25_name": "EDGEWOOD MANOR OF GREENFIELD",
+    "score": 0.93
+  },
+  {
+    "id": "18230338648",
+    "name": "Canal Winchester",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "v25_name": "CANAL WINCHESTER CARE CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230338656",
+    "name": "Riverview",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "v25_name": "RIVERVIEW",
+    "score": 1.0
+  },
+  {
+    "id": "18230338642",
+    "name": "Laurels of Heath",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "v25_name": "THE LAURELS OF HEATH",
+    "score": 0.89
+  },
+  {
+    "id": "18230338459",
+    "name": "Embassy of Woodview",
+    "corporate": "EMBASSY HEALTHCARE",
+    "v25_name": "EMBASSY OF WOODVIEW",
+    "score": 1.0
+  },
+  {
+    "id": "18230338487",
+    "name": "Mother Angeline McCrory Manor",
+    "corporate": "CARMELITE SISTERS FOR THE AGED AND INFIRM",
+    "v25_name": "MOTHER ANGELINE MCCRORY MANOR",
+    "score": 1.0
+  },
+  {
+    "id": "18230338479",
+    "name": "Columbus Alzheimer's Care Ctr",
+    "corporate": "LIONSTONE CARE",
+    "v25_name": "COLUMBUS ALZHEIMER'S CARE CTR",
+    "score": 1.0
+  },
+  {
+    "id": "18230338624",
+    "name": "The Laurels of Gahanna",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "v25_name": "THE LAURELS OF GAHANNA",
+    "score": 1.0
+  },
+  {
+    "id": "18230338632",
+    "name": "Continuing Care of Gahanna",
+    "corporate": "PARADIGM HEALTHCARE",
+    "v25_name": "CONTINUING HEALTHCARE OF GAHANNA",
+    "score": 0.9
+  },
+  {
+    "id": "18230338470",
+    "name": "Eastland Rehabilitation and Nursing Center",
+    "corporate": "GARDEN HEALTHCARE GROUP",
+    "v25_name": "EASTLAND REHABILITATION AND NURSING CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230338550",
+    "name": "The Laurels of Walden Park",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "v25_name": "THE LAURELS OF WALDEN PARK",
+    "score": 1.0
+  },
+  {
+    "id": "18230338536",
+    "name": "McNaughten Pointe Nursing and Rehab",
+    "corporate": "FOUNDATIONS HEALTH",
+    "v25_name": "MCNAUGHTEN POINTE NURSING AND REHAB",
+    "score": 1.0
+  },
+  {
+    "id": "18230338604",
+    "name": "Laurels of Norworth The",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "v25_name": "LAURELS OF NORWORTH THE",
+    "score": 1.0
+  },
+  {
+    "id": "18230338608",
+    "name": "Bella Terrace",
+    "corporate": "S E M VILLA II INC",
+    "v25_name": "SEM TERRACE",
+    "score": 0.75
+  },
+  {
+    "id": "18230338592",
+    "name": "Country Lane Garden Rehabilitaion and Nursing",
+    "corporate": "NORTHWOOD HEALTHCARE GROUP",
+    "v25_name": "COUNTRY MEADOW REHABILITATION AND NURSING CENTER",
+    "score": 0.84
+  },
+  {
+    "id": "18230335868",
+    "name": "The Seasons",
+    "corporate": "SENIOR LIFESTYLE",
+    "v25_name": "THE SEASONS",
+    "score": 1.0
+  },
+  {
+    "id": "18230335195",
+    "name": "Eastland Rehab and Nursing Center",
+    "corporate": "GARDEN HEALTHCARE GROUP",
+    "v25_name": "EASTLAND REHABILITATION AND NURSING CENTER",
+    "score": 0.85
+  },
+  {
+    "id": "18230333200",
+    "name": "Columbus Healthcare Center",
+    "corporate": "COMMUNICARE",
+    "v25_name": "COLUMBUS HEALTHCARE CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230333184",
+    "name": "West Park",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "v25_name": "WEST PARK CARE CENTER LLC",
+    "score": 1.0
+  },
+  {
+    "id": "18230333314",
+    "name": "Taylor Springs Health Campus",
+    "corporate": "TRILOGY HEALTH SERVICES",
+    "v25_name": "TAYLOR SPRINGS HEALTH CAMPUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230333326",
+    "name": "Forest Hills Center",
+    "corporate": "EMBASSY HEALTHCARE",
+    "v25_name": "FOREST HILLS CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230333340",
+    "name": "Capital City Gardens Rehabilitation and Nursing Ce",
+    "corporate": "GARDEN HEALTHCARE GROUP",
+    "v25_name": "CAPITAL CITY GARDENS REHABILITATION AND NURSING CE",
+    "score": 1.0
+  },
+  {
+    "id": "18230334987",
+    "name": "West Park",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "v25_name": "WEST PARK CARE CENTER LLC",
+    "score": 1.0
+  },
+  {
+    "id": "18230335240",
+    "name": "Mayfair Village Nursing Care C",
+    "corporate": "LIFE CARE CENTERS OF AMERICA",
+    "v25_name": "MAYFAIR VILLAGE NURSING CARE C",
+    "score": 1.0
+  },
+  {
+    "id": "18230333066",
+    "name": "First Community Village Healthcare Center",
+    "corporate": "NATIONAL CHURCH RESIDENCES",
+    "v25_name": "FIRST COMMUNITY VILLAGE",
+    "score": 0.81
+  },
+  {
+    "id": "18230332997",
+    "name": "Beechwood Home",
+    "corporate": "New Perspective",
+    "v25_name": "BEECHWOOD COMMONS ASSISTED LIVING",
+    "score": 0.77
+  },
+  {
+    "id": "18230335720",
+    "name": "Columbus Colony Elderly Care",
+    "corporate": "FOUNDATIONS HEALTH",
+    "v25_name": "COLUMBUS COLONY ELDERLY CARE",
+    "score": 1.0
+  },
+  {
+    "id": "18230335730",
+    "name": "Legacy Westerville",
+    "corporate": "Danbury Senior Living",
+    "v25_name": "DANBURY WESTERVILLE",
+    "score": 0.76
+  },
+  {
+    "id": "18230336576",
+    "name": "West Park Care Center",
+    "corporate": "OPTALIS HEALTH & REHABILITATION",
+    "v25_name": "WEST PARK CARE CENTER LLC",
+    "score": 1.0
+  },
+  {
+    "id": "18230337577",
+    "name": "Amber Park Senior Living",
+    "corporate": "SINCERI SENIOR LIVING",
+    "v25_name": "AMBER PARK SENIOR LIVING",
+    "score": 1.0
+  },
+  {
+    "id": "18230332924",
+    "name": "Carrolton of Fayetteville",
+    "corporate": "PRINCIPLE",
+    "v25_name": "CARROLTON OF FAYETTEVILLE",
+    "score": 1.0
+  },
+  {
+    "id": "18230338298",
+    "name": "Avon Health and Rehab",
+    "corporate": "Triple Crown Senior Living",
+    "v25_name": "AVALON SENIOR LIVING",
+    "score": 0.8
+  },
+  {
+    "id": "18230337356",
+    "name": "Cloverleaf of Knightsville",
+    "corporate": "IDE MANAGEMENT GROUP",
+    "v25_name": "CLOVERLEAF OF KNIGHTSVILLE",
+    "score": 1.0
+  },
+  {
+    "id": "18230337459",
+    "name": "Cedar Creek Health Campus",
+    "corporate": "TRILOGY HEALTH SERVICES",
+    "v25_name": "CEDAR CREEK HEALTH CAMPUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230336393",
+    "name": "Rittenhouse Village at Portage",
+    "corporate": "LAKEHOUSE SENIOR LIVING",
+    "v25_name": "RITTENHOUSE VILLAGE AT NORTHSIDE",
+    "score": 0.87
+  },
+  {
+    "id": "18230334267",
+    "name": "Clark Rehab (copy) (copy)",
+    "corporate": "AMERICAN SENIOR COMMUNITIES",
+    "v25_name": "CLARK REHAB",
+    "score": 1.0
+  },
+  {
+    "id": "18230335774",
+    "name": "Laurels of Dekalb",
+    "corporate": "CIENA HEALTHCARE/LAUREL HEALTH CARE",
+    "v25_name": "LAURELS OF DEKALB",
+    "score": 1.0
+  },
+  {
+    "id": "18230336371",
+    "name": "Vernon Health & Rehab",
+    "corporate": "CASA CONSULTING",
+    "v25_name": "HARBOR HEALTH & REHAB",
+    "score": 0.81
+  },
+  {
+    "id": "18230334367",
+    "name": "Bethany Pointe",
+    "corporate": "TRILOGY HEALTH SERVICES",
+    "v25_name": "BETHANY POINTE HEALTH CAMPUS",
+    "score": 1.0
+  },
+  {
+    "id": "18230334829",
+    "name": "The Waters of Chesterfiled",
+    "corporate": "INFINITY HEALTHCARE CONSULTING",
+    "v25_name": "THE WATERS OF BATESVILLE",
+    "score": 0.76
+  },
+  {
+    "id": "18230335088",
+    "name": "Westridge Health Care Center",
+    "corporate": "TRILOGY",
+    "v25_name": "RIDGEWOOD HEALTH ALF",
+    "score": 0.75
+  },
+  {
+    "id": "18230334895",
+    "name": "Westminster Village CCRC",
+    "corporate": "RUSH MEMORIAL",
+    "v25_name": "WESTMINSTER VILLAGE",
+    "score": 0.88
+  },
+  {
+    "id": "18230334863",
+    "name": "Signature at Parkwood",
+    "corporate": "SIGNATURE HEALTH",
+    "v25_name": "SIGNATURE HEALTHCARE AT PARKWOOD",
+    "score": 0.79
+  },
+  {
+    "id": "18230334514",
+    "name": "Westminster Clarksville",
+    "corporate": "RUSH MEMORIAL",
+    "v25_name": "WESTMINSTER VILLAGE",
+    "score": 0.81
+  },
+  {
+    "id": "18230335604",
+    "name": "Hellenic Senior Living - New Albany",
+    "corporate": "AHEPA Senior Living",
+    "v25_name": "HELLENIC SENIOR LIVING OF NEW ALBANY",
+    "score": 0.96
+  },
+  {
+    "id": "18230335751",
+    "name": "TRANSCENDENT HEALTHCARE OF OWENSVILLE",
+    "corporate": "ENVIVE HEALTHCARE",
+    "v25_name": "ENVIVE HEALTHCARE OF EVANSVILLE",
+    "score": 0.76
+  },
+  {
+    "id": "18230336106",
+    "name": "Hamilton pointe EST",
+    "corporate": "TLC MANAGEMENT",
+    "v25_name": "HAMILTON POINTE HEALTH AND REHAB",
+    "score": 0.88
+  },
+  {
+    "id": "18230335717",
+    "name": "Lodge of the Wabash",
+    "corporate": "REAL PROPERTY HEALTH FACILITIES",
+    "v25_name": "LODGE OF THE WABASH",
+    "score": 1.0
+  },
+  {
+    "id": "18230335021",
+    "name": "Vermillion Convalescent Center",
+    "corporate": "NHP SENIOR INDIANA LLC",
+    "v25_name": "VERMILLION CONVALESCENT CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230334268",
+    "name": "Georgetown Place",
+    "corporate": "SONIDA SENIOR LIVING",
+    "v25_name": "GEORGETOWN PLACE",
+    "score": 1.0
+  },
+  {
+    "id": "18230334011",
+    "name": "Waters of Peru (copy) (copy)",
+    "corporate": "INFINITY HEALTHCARE CONSULTING",
+    "v25_name": "WATERS OF ROCKPORT",
+    "score": 0.75
+  },
+  {
+    "id": "18230333506",
+    "name": "Miller's Merry Manor Laporte (copy) (copy)",
+    "corporate": "MILLERS MERRY MANOR",
+    "v25_name": "MILLER'S MERRY MANOR",
+    "score": 0.83
+  },
+  {
+    "id": "18230334708",
+    "name": "Cathedral Health (copy)",
+    "corporate": "IDE MANAGEMENT GROUP",
+    "v25_name": "CATHEDRAL HEALTH CARE CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230337735",
+    "name": "Allison Pointe Healthcare Center",
+    "corporate": "COMMUNICARE",
+    "v25_name": "ALLISON POINTE HEALTHCARE CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230337742",
+    "name": "Alpha Home- A Waters Community",
+    "corporate": "INFINITY HEALTHCARE CONSULTING",
+    "v25_name": "ALPHA HOME - A WATERS COMMUNITY",
+    "score": 0.98
+  },
+  {
+    "id": "18230337750",
+    "name": "Altenheim Health  and Living Community",
+    "corporate": "CARDON & ASSOCIATES",
+    "v25_name": "ALTENHEIM HEALTH & LIVING COMMUNITY",
+    "score": 0.93
+  },
+  {
+    "id": "18230337773",
+    "name": "Bloom at German Church",
+    "corporate": "Bloom Senior Living",
+    "v25_name": "BLOOM AT GERMAN CHURCH",
+    "score": 1.0
+  },
+  {
+    "id": "18230337784",
+    "name": "Bloom at Willow",
+    "corporate": "Bloom Senior Living",
+    "v25_name": "BLOOM AT WILLOW",
+    "score": 1.0
+  },
+  {
+    "id": "18230337794",
+    "name": "Creekside Health and Rehabilitation",
+    "corporate": "TLC MANAGEMENT",
+    "v25_name": "CREEKSIDE HEALTH AND REHABILITATION CENTER",
+    "score": 0.89
+  },
+  {
+    "id": "18230336930",
+    "name": "The Village at Orchard Ridge",
+    "corporate": "NATIONAL LUTHERAN COMMUNITIES & SERVICES",
+    "v25_name": "THE VILLAGE AT ORCHARD RIDGE",
+    "score": 1.0
+  },
+  {
+    "id": "18230335608",
+    "name": "Regency at Augusta",
+    "corporate": "GATEWAY SENIOR LLC",
+    "v25_name": "REGENCY AT AUGUSTA",
+    "score": 1.0
+  },
+  {
+    "id": "18230336594",
+    "name": "Gretna Health & Rehab",
+    "corporate": "LIFEWORKS REHAB",
+    "v25_name": "GRETNA HEALTH AND REHABILITATION CENTER",
+    "score": 0.79
+  },
+  {
+    "id": "18230332365",
+    "name": "The Woodlands Health and Rehab",
+    "corporate": "WOODLANDS RETIREMENT COMMUNITY LLC",
+    "v25_name": "THE WOODLANDS",
+    "score": 1.0
+  },
+  {
+    "id": "18230332694",
+    "name": "Woodmont Center (copy)",
+    "corporate": "GENESIS",
+    "v25_name": "WOODMONT CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230333251",
+    "name": "Fredericksburg Health and Rehab",
+    "corporate": "TRIO HEALTHCARE",
+    "v25_name": "FREDERICKSBURG HEALTH AND REHAB",
+    "score": 1.0
+  },
+  {
+    "id": "18230333090",
+    "name": "Green Acres Nursing and Rehab",
+    "corporate": "FAIRVIEW HOUSING MANAGEMENT CORPORATIOM",
+    "v25_name": "GREEN ACRES",
+    "score": 1.0
+  },
+  {
+    "id": "18230333020",
+    "name": "The Colonnades ALF",
+    "corporate": "UNIVERSITY OF VIRGINIA FOUNDATION",
+    "v25_name": "THE COLONNADES",
+    "score": 1.0
+  },
+  {
+    "id": "11208616725",
+    "name": "The Inn at Olentangy Trail",
+    "corporate": "Jerry McClain Company",
+    "v25_name": "THE INN AT OLENTANGY TRAIL",
+    "score": 1.0
+  },
+  {
+    "id": "11238622569",
+    "name": "The Inn at Walnut Trail",
+    "corporate": "Jerry McClain Company",
+    "v25_name": "THE INN AT BEAR TRAIL",
+    "score": 0.82
+  },
+  {
+    "id": "11238645047",
+    "name": "The Inn at Ashland Woods",
+    "corporate": "THE INN AT ASHLAND WOODS LIMITED",
+    "v25_name": "INN AT ASHLAND WOODS THE",
+    "score": 0.83
+  },
+  {
+    "id": "18230332220",
+    "name": "Gainesville Health and Rehab",
+    "corporate": "TRIO HEALTHCARE",
+    "v25_name": "MARTINSVILLE HEALTH AND REHAB",
+    "score": 0.78
+  },
+  {
+    "id": "11238658563",
+    "name": "The Inn at Library Way",
+    "corporate": "INN AT LIBRARY WAY LIMITED",
+    "v25_name": "THE INN AT LIBRARY WAY",
+    "score": 1.0
+  },
+  {
+    "id": "11238670968",
+    "name": "The Inn at Northwood Village",
+    "corporate": "THE INN AT NORTHWOOD VILLAGE LTD",
+    "v25_name": "INN AT NORTHWOOD VILLAGE THE",
+    "score": 0.86
+  },
+  {
+    "id": "11238730000",
+    "name": "Sharon Brooke",
+    "corporate": "Jerry McClain Company",
+    "v25_name": "IN AT SHARON BROOKE",
+    "score": 0.81
+  },
+  {
+    "id": "11238744268",
+    "name": "The Inn at Summit Trail",
+    "corporate": "INN AT SUMMIT TRAIL LIMITED",
+    "v25_name": "INN AT SUMMIT TRAIL",
+    "score": 0.9
+  },
+  {
+    "id": "11238796104",
+    "name": "The Inn at Winchester Trail",
+    "corporate": "INN AT WINCHESTER TRAIL LIMITED THE",
+    "v25_name": "THE INN AT WINCHESTER TRAIL",
+    "score": 1.0
+  },
+  {
+    "id": "11238855857",
+    "name": "The Inn at Whitewood Village",
+    "corporate": "THE INN AT WHITEWOOD VILLAGE LIMITED",
+    "v25_name": "INN AT WHITEWOOD VILLAGE THE",
+    "score": 0.86
+  },
+  {
+    "id": "18230332912",
+    "name": "Chelsea Rehabilitation and Healthcare",
+    "corporate": "MARQUIS HEALTH SERVICES",
+    "v25_name": "CHELSEA REHABILITATION AND HEALTHCARE CENTER",
+    "score": 0.83
+  },
+  {
+    "id": "18230332928",
+    "name": "Brookside Rehab and Nursing",
+    "corporate": "Hill Valley",
+    "v25_name": "BROOKSIDE REHAB & NURSING CENTER",
+    "score": 0.92
+  },
+  {
+    "id": "18230332801",
+    "name": "EST-Carolina Rehabilitation Center of Cumberland",
+    "corporate": "MFA",
+    "v25_name": "CAROLINA REHAB CENTER OF CUMBERLAND",
+    "score": 0.84
+  },
+  {
+    "id": "18230332592",
+    "name": "Scotia Village (copy)",
+    "corporate": "CAROLINA VILLAGE INC",
+    "v25_name": "CAROLINA VILLAGE",
+    "score": 0.8
+  },
+  {
+    "id": "18230335492",
+    "name": "The Oaks at Sweeten Creek (copy)",
+    "corporate": "CONSULATE HEALTH CARE/INDEPENDENCE LIVING CENTERS/NSPIRE HEALTHCARE/RAYDIANT HEALTH CARE",
+    "v25_name": "THE OAKS AT SWEETEN CREEK",
+    "score": 1.0
+  },
+  {
+    "id": "18230335051",
+    "name": "Parkwood Village",
+    "corporate": "AlerisLife Inc.",
+    "v25_name": "PARKWOOD VILLAGE",
+    "score": 1.0
+  },
+  {
+    "id": "18230336828",
+    "name": "The Bluefields",
+    "corporate": "LELAND HOUSE, LLC",
+    "v25_name": "THE BLUEFIELDS",
+    "score": 1.0
+  },
+  {
+    "id": "18230334262",
+    "name": "Golden Lamb Rest Home",
+    "corporate": "GOLDEN YEARS REST HOME, INC",
+    "v25_name": "GOLDEN YEARS REST HOME",
+    "score": 0.84
+  },
+  {
+    "id": "18230334291",
+    "name": "Life Care Center of Hendersonville",
+    "corporate": "LIFE CARE CENTERS OF AMERICA",
+    "v25_name": "LIFE CARE CENTER OF HENDERSONVILLE",
+    "score": 1.0
+  },
+  {
+    "id": "18230333612",
+    "name": "The Lodge at Mills River",
+    "corporate": "SANSTONE HEALTH & REHABILITATION",
+    "v25_name": "THE LODGE AT MILLS RIVER",
+    "score": 1.0
+  },
+  {
+    "id": "18230333412",
+    "name": "EST Fletcher Rehab and Healthcare Center (copy)",
+    "corporate": "YAD",
+    "v25_name": "FLETCHER REHABILITATION AND HEALTHCARE CENTER",
+    "score": 0.82
+  },
+  {
+    "id": "18230332664",
+    "name": "Autumn Care of Statesville",
+    "corporate": "SABER HEALTHCARE GROUP",
+    "v25_name": "AUTUMN CARE OF STATESVILLE",
+    "score": 1.0
+  },
+  {
+    "id": "18230333833",
+    "name": "EST. The Laurels of Salisbury",
+    "corporate": "LAUREL HEALTH CARE COMPANY",
+    "v25_name": "THE LAURELS OF SALISBURY",
+    "score": 0.91
+  },
+  {
+    "id": "18230333968",
+    "name": "EST. The Oaks-Brevard",
+    "corporate": "PRUITT HEALTH",
+    "v25_name": "THE OAKS-BREVARD",
+    "score": 0.86
+  },
+  {
+    "id": "18230332638",
+    "name": "EST. Gastonia Health & Rehab Center",
+    "corporate": "SABER HEALTHCARE GROUP",
+    "v25_name": "GASTONIA HEALTH & REHAB CENTER",
+    "score": 0.87
+  },
+  {
+    "id": "18230334150",
+    "name": "Cadence at Clemmons",
+    "corporate": "Cogir USA",
+    "v25_name": "CADENCE AT CLEMMONS",
+    "score": 1.0
+  },
+  {
+    "id": "18230333785",
+    "name": "Fayetteville Manor",
+    "corporate": "FAYETTEVILLE MANOR, LLC",
+    "v25_name": "FAYETTEVILLE MANOR",
+    "score": 1.0
+  },
+  {
+    "id": "18230332249",
+    "name": "The Cedars of Chapel Hill",
+    "corporate": "CEDARS OF CHAPEL HILL LLC THE",
+    "v25_name": "THE CEDARS OF CHAPEL HILL",
+    "score": 1.0
+  },
+  {
+    "id": "18230333040",
+    "name": "Morningside of Wilmington",
+    "corporate": "AlerisLife Inc.",
+    "v25_name": "MORNINGSIDE OF WILMINGTON",
+    "score": 1.0
+  },
+  {
+    "id": "10999902937",
+    "name": "The Colonnades ALF (copy)",
+    "corporate": "UNIVERSITY OF VIRGINIA FOUNDATION",
+    "v25_name": "THE COLONNADES",
+    "score": 1.0
+  },
+  {
+    "id": "18230334325",
+    "name": "Davidson Health & Rehab Center (copy) (copy)",
+    "corporate": "SABER HEALTHCARE GROUP",
+    "v25_name": "DAVIDSON HEALTH & REHAB CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230334444",
+    "name": "EST Brookstone Retirement (copy)",
+    "corporate": "AMITY HEALTHCARE GROUP",
+    "v25_name": "BROOKSTONE RETIREMENT CENTER",
+    "score": 0.91
+  },
+  {
+    "id": "18230334763",
+    "name": "Vienna Village",
+    "corporate": "VIENNA VILLAGE, INC",
+    "v25_name": "VIENNA VILLAGE",
+    "score": 1.0
+  },
+  {
+    "id": "18230334790",
+    "name": "EST Westchester Manor SNF (copy)",
+    "corporate": "PROVIDENCE PLACE SENIOR HEALTH AND HOUSING",
+    "v25_name": "WESTCHESTER HARBOUR",
+    "score": 0.75
+  },
+  {
+    "id": "18230334849",
+    "name": "EST Westchester Harbor ALF (copy)",
+    "corporate": "PROVIDENCE PLACE SENIOR HEALTH AND HOUSING",
+    "v25_name": "WESTCHESTER HARBOUR",
+    "score": 0.88
+  },
+  {
+    "id": "18230334772",
+    "name": "Arbor Ridge at Huntersville",
+    "corporate": "ARBOR RIDGE AT HUNTERSVILLE, LLC",
+    "v25_name": "ARBOR RIDGE AT HUNTERSVILLE",
+    "score": 1.0
+  },
+  {
+    "id": "18230334487",
+    "name": "TerraBella Lake Norman",
+    "corporate": "TerraBella Senior Living",
+    "v25_name": "TERRABELLA LAKE NORMAN",
+    "score": 1.0
+  },
+  {
+    "id": "18230334564",
+    "name": "Cadence Huntersville",
+    "corporate": "GAHC3 HUNTERSVILLE NC TRS SUB, LLC",
+    "v25_name": "CADENCE HUNTERSVILLE",
+    "score": 1.0
+  },
+  {
+    "id": "10998932986",
+    "name": "White Oak Manor - Charlotte",
+    "corporate": "WHITE OAK MANAGEMENT",
+    "v25_name": "WHITE OAK MANOR/ CHARLOTTE",
+    "score": 0.94
+  },
+  {
+    "id": "18230334932",
+    "name": "Greendale Forest Nursing (copy)",
+    "corporate": "PRINCIPLE",
+    "v25_name": "GREENDALE FOREST NURSING AND REHABILITATION CENTER",
+    "score": 0.92
+  },
+  {
+    "id": "10998964062",
+    "name": "Sharon Towers",
+    "corporate": "THE PRESBYTERIAN HOME AT CHARLOTTE INC",
+    "v25_name": "SHARON TOWERS",
+    "score": 1.0
+  },
+  {
+    "id": "18230334520",
+    "name": "Falls River Village (copy)",
+    "corporate": "TARANTINO PROPERTIES",
+    "v25_name": "FALLS RIVER VILLAGE",
+    "score": 1.0
+  },
+  {
+    "id": "10998959840",
+    "name": "University Place Nursing and Rehabilitation",
+    "corporate": "PRINCIPLE",
+    "v25_name": "UNIVERSITY PLACE NURSING AND REHABILITATION CENTER",
+    "score": 0.92
+  },
+  {
+    "id": "18230334581",
+    "name": "Falls River Court (copy)",
+    "corporate": "TARANTINO PROPERTIES",
+    "v25_name": "FALLS RIVER COURT",
+    "score": 1.0
+  },
+  {
+    "id": "10998952327",
+    "name": "Royal Park Rehabilitation & Health Center",
+    "corporate": "YAD",
+    "v25_name": "LAUREL PARK REHABILITATION & HEALTHCARE CENTER",
+    "score": 0.85
+  },
+  {
+    "id": "10999072387",
+    "name": "Sardis Oaks",
+    "corporate": "ATRIUM HEALTH",
+    "v25_name": "SARDIS OAKS",
+    "score": 1.0
+  },
+  {
+    "id": "10999001893",
+    "name": "The Pines at Davidson",
+    "corporate": "THE PINES AT DAVIDSON INC",
+    "v25_name": "THE PINES AT DAVIDSON",
+    "score": 1.0
+  },
+  {
+    "id": "10998999248",
+    "name": "Southminster",
+    "corporate": "SOUTHMINSTER INC",
+    "v25_name": "SOUTHMINSTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230336069",
+    "name": "Franklin Oaks",
+    "corporate": "ALG",
+    "v25_name": "FRANKLIN HOUSE",
+    "score": 0.81
+  },
+  {
+    "id": "18230337191",
+    "name": "St George Healthcare center",
+    "corporate": "FUNDAMENTAL HEALTHCARE",
+    "v25_name": "ST GEORGE HEALTHCARE CENTER",
+    "score": 1.0
+  },
+  {
+    "id": "18230332937",
+    "name": "Blake at Edgewater",
+    "corporate": "The Blake",
+    "v25_name": "THE BLAKE AT EDGEWATER",
+    "score": 0.9
+  },
+  {
+    "id": "18230333756",
+    "name": "Harbison Shores",
+    "corporate": "TARANTINO PROPERTIES",
+    "v25_name": "HARBISON SHORES",
+    "score": 1.0
+  },
+  {
+    "id": "18230332633",
+    "name": "Art of Living CRCF",
+    "corporate": "NEWMAN ANNE P",
+    "v25_name": "ART OF LIVING CRCF",
+    "score": 1.0
+  },
+  {
+    "id": "18230334721",
+    "name": "Colonial Gardens (copy)",
+    "corporate": "Navion Senior Solutions",
+    "v25_name": "COLONIAL GARDENS",
+    "score": 1.0
+  },
+  {
+    "id": "18230334466",
+    "name": "Lake Wylie Assisted Living",
+    "corporate": "TARANTINO PROPERTIES",
+    "v25_name": "LAKE WYLIE",
+    "score": 1.0
+  },
+  {
+    "id": "18230333048",
+    "name": "Waltonwood Lead Mine",
+    "corporate": "SINGH",
+    "v25_name": "WALTONWOOD LEAD MINE",
+    "score": 1.0
+  },
+  {
+    "id": "18230336772",
+    "name": "Emerald Pointe Health and Rehab Center",
+    "corporate": "FOUNDATIONS HEALTH",
+    "v25_name": "EMERALD POINTE HEALTH AND REHAB CTR",
+    "score": 0.83
+  },
+  {
+    "id": "18230336797",
+    "name": "Astoria Place of Barnesville",
+    "corporate": "CERTUS HEALTHCARE",
+    "v25_name": "ASTORIA PLACE OF WATERVILLE",
+    "score": 0.87
+  },
+  {
+    "id": "8692814728",
+    "name": "Monticello Ridge Crossing Residential ALF",
+    "corporate": "HAYNES JASPER C",
+    "v25_name": "MONTICELLO RIDGE CROSSING RESIDENTIAL ALF, LLC",
+    "score": 0.94
+  },
+  {
+    "id": "8692815020",
+    "name": "Martha Jefferson House",
+    "corporate": "MARTHA JEFFERSON HOUSE",
+    "v25_name": "MARTHA JEFFERSON HOUSE",
+    "score": 1.0
+  },
+  {
+    "id": "18383627524",
+    "name": "Westminster Canterbury of the Blue Ridge",
+    "corporate": "WESTMINSTER CANTERBURY OF LYNCHBURG",
+    "v25_name": "WESTMINSTER CANTERBURY OF LYNCHBURG",
+    "score": 0.83
+  },
+  {
+    "id": "11254696668",
+    "name": "Heritage Green",
+    "corporate": "Pinnacle Living",
+    "v25_name": "HERMITAGE DEEP RUN",
+    "score": 0.75
+  },
+  {
+    "id": "11113604682",
+    "name": "NHC Healthcare Garden City",
+    "corporate": "NATIONAL HEALTHCARE CORPORATION",
+    "v25_name": "NHC HEALTHCARE - GARDEN CITY",
+    "score": 0.96
+  },
+  {
+    "id": "11114760189",
+    "name": "Brookdale Conway",
+    "corporate": "BROOKDALE SENIOR LIVING",
+    "v25_name": "BROOKDALE CONWAY",
+    "score": 1.0
+  },
+  {
+    "id": "11134363409",
+    "name": "Windrush at Garden City",
+    "corporate": "PRIORITY LIFE CARE",
+    "v25_name": "WINDRUSH AT GARDEN CITY",
+    "score": 1.0
+  },
+  {
+    "id": "11025533788",
+    "name": "Healthwin Health and Rehabilitation",
+    "corporate": "TRILOGY",
+    "v25_name": "HEARTHSTONE HEALTH ALF",
+    "score": 0.76
+  },
+  {
+    "id": "11239185395",
+    "name": "Winchester Terrace",
+    "corporate": "NATIONAL CHURCH RESIDENCES",
+    "v25_name": "CHIMES TERRACE",
+    "score": 0.75
+  },
+  {
+    "id": "11252175603",
+    "name": "The Forum at Knightsbridge",
+    "corporate": "AlerisLife Inc.",
+    "v25_name": "THE FORUM AT KNIGHTSBRIDGE",
+    "score": 1.0
+  },
+  {
+    "id": "11252216190",
+    "name": "Abbington of Pickerington",
+    "corporate": "Abbington Communities",
+    "v25_name": "ABBINGTON OF PICKERINGTON",
+    "score": 1.0
+  },
+  {
+    "id": "11252249079",
+    "name": "Abbington of Powell",
+    "corporate": "Abbington Communities",
+    "v25_name": "ABBINGTON OF POWELL",
+    "score": 1.0
+  },
+  {
+    "id": "11252232529",
+    "name": "Abbington of Upper Arlington",
+    "corporate": "Abbington Communities",
+    "v25_name": "ABBINGTON OF ARLINGTON",
+    "score": 0.88
+  },
+  {
+    "id": "11265150104",
+    "name": "Cherry Blossom Senior Living",
+    "corporate": "CONTINENTAL SENIOR COMMUNITIES",
+    "v25_name": "CHERRY BLOSSOM SENIOR LIVING",
+    "score": 1.0
+  },
+  {
+    "id": "11501067340",
+    "name": "Sancerre Atlee Station",
+    "corporate": "Experience Senior Living",
+    "v25_name": "SANCERRE ATLEE STATION",
+    "score": 1.0
+  },
+  {
+    "id": "11502160718",
+    "name": "The Barclay at Midlothian",
+    "corporate": "QSL Management",
+    "v25_name": "THE BARCLAY AT MIDLOTHIAN",
+    "score": 1.0
+  },
+  {
+    "id": "11505995917",
+    "name": "Dinwiddie Health & Rehab Center",
+    "corporate": "COMMONWEALTH CARE OF ROANOKE",
+    "v25_name": "DINWIDDIE HEALTH AND REHAB CENTER",
+    "score": 0.89
+  },
+  {
+    "id": "11464311391",
+    "name": "The Inn at Poland Way",
+    "corporate": "Briarfield Health Care Centers",
+    "v25_name": "INN AT POLAND WAY",
+    "score": 0.89
+  }
+]
