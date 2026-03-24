@@ -19,7 +19,7 @@ import openpyxl
 
 VAULT = os.path.expanduser("~/OneDrive - Eventus WholeHealth/Vault")
 V25_2_PATH = os.path.join(
-    VAULT, "02_Data_Model", "Current", "1_Combined_Database_FINAL_V25_2.xlsx"
+    VAULT, "02_Data_Model", "Current", "1_Combined_Database_FINAL_V25_3.xlsx"
 )
 
 PG_HOST = "keystone-platform-postgres.postgres.database.azure.com"
@@ -251,7 +251,7 @@ def main():
         cursor.execute(sql, (
             f["facility_name"], corp_id, f["corporate_name_raw"], f["source_type"],
             f["address"], f["city"], f["state"], f["zip"], f["county"],
-            f["ownership_type"], f["total_beds"], f["census"],
+            f["ownership_type"] or "Corporate", f["total_beds"], f["census"],
             f["do_we_serve"], f["integrated_flag"], f["pcp_flag"], f["mh_flag"],
             f["barrier"], f["latitude"], f["longitude"], f["contract_status"],
             f["geographic_tier"], f["original_geographic_tier"],
