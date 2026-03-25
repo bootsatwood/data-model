@@ -879,9 +879,11 @@ Brooke (BD perspective) vs Tom (Sales Success perspective) — 50 entities score
 **DB action:** V25.2 — 7 rows reattributed HEALTH CARE MANAGEMENT GROUP → LIONSTONE CARE
 **Sources:** Greg Miller LinkedIn, Commercial Observer (Dwight Mortgage Trust), facility websites (hcmg.com)
 
-### CHOICE HEALTH MANAGEMENT — Hidden MUO Discovery
-**Event:** Not an acquisition — entity was always there but coded under management company names
-**Discovery date:** 2026-03-22
+### CHOICE HEALTH MANAGEMENT — RETRACTED (Not a Real Operator)
+**Original finding (2026-03-22):** Believed to be a hidden MUO with 18 NC/SC facilities coded under MFA/YAD.
+**Correction (2026-03-25):** Per-facility ProPublica CMS ownership verification proved Choice Health Management (Donald Beaver) was the **building owner**, not the operator. MFA (Medical Facilities of America) is the operator — confirmed by GLR (Parent Company = MFA) and CMS (Chain = LIFEWORKS REHAB, which is MFA's therapy brand). Beaver sold 5 facilities to RSBRM South/Norman 5571 trusts (May 2021), 1 to Milano/Bridgewater (June 2024), and retains only 2 (Cabarrus, King) — but MFA operates all of them. Per operator attribution rule: code the operator, not the building owner. All 23 CHOICE HEALTH MANAGEMENT rows reverted to MFA in V25.4.
+**Lesson:** CMS legal business name distinguishes owners — "Universal Health Care [City], Inc." = Beaver, "[City] Operator LLC" = RSBRM South. But the OPERATOR is MFA regardless of who owns the building.
+**Discovery date (original):** 2026-03-22
 **HQ:** Claremont, NC
 **Founded:** 1999, family-owned
 **Revenue:** ~$375M (Kona Equity)
