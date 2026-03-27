@@ -1,0 +1,25 @@
+Subject: CMS Tag Analysis for Monica, Need Your Validation Before It Goes Out
+
+Rick,
+
+Monica asked for an expanded CMS deficiency tag analysis on Mar 19, building on the F605 work from early March. This one covers 10 F-tags across our 6 states, a Virginia survey interval check, and a crossref showing which cited EWH buildings have our psych or medical director services in place. If the numbers hold, this becomes sourced collateral for the proof point effort.
+
+I built the analysis around your Data Documentation framework from the BCS model. The attached report opens with your full 9-component audit trail, and the script is reproducible from the same inputs.
+
+Before this goes to Monica, I need your methodology check on four items:
+
+1. Does the approach make sense? I used unique facilities cited per tag divided by total CMS-certified facilities per geography. Citations span all 3 inspection cycles, not limited to a single year.
+
+2. The EWH crossref joins our GLR (Mar 13 snapshot) to CMS via CCN. 564 of our facilities matched. Does that denominator feel right to you?
+
+3. I flagged 5 known limitations in the doc, including a Virginia survey lag finding that validates Dr. Baroco's concern (VA median interval is 23.8 months vs 14.6 national). Worth a look.
+
+4. There is one tag (F0867, QA&A committees) where EWH appears to be an outlier at +10pp vs national. I dug into it and it is a North Carolina state-level pattern, not EWH-specific. NC's state rate is 59% and we mirror it. On the most recent inspection cycle only, EWH is 1.24% vs 3.21% national. Wanted your eyes on whether that explanation holds.
+
+Section 1 of the report is your audit trail. Sections 2 through 6 are the findings.
+
+For context: Round 1 (delivered Mar 13) was F605 only, EWH footprint rates vs national. This Round 2 expands to 10 tags Monica specified, adds the psych/MD crossref, and includes the Virginia interval validation Dr. Baroco raised. Same geographic scope, deeper analysis.
+
+Let me know if you want to walk through it or if a written response works better.
+
+Roian

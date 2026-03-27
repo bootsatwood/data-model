@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>CMS Tag Analysis — Monica Round 2</title>
+<style>
+  body { font-family: 'Segoe UI', Tahoma, Geneva, sans-serif; margin: 20px; background: #f5f5f5; color: #333; }
+  .container { max-width: 1200px; margin: 0 auto; }
+  h1 { color: #1a237e; border-bottom: 3px solid #1a237e; padding-bottom: 8px; }
+  h2 { color: #283593; margin-top: 40px; }
+  h3 { color: #3949ab; }
+  table { border-collapse: collapse; width: 100%; margin: 15px 0; background: white; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+  th { background: #1a237e; color: white; padding: 10px 12px; text-align: left; font-size: 13px; }
+  td { padding: 8px 12px; border-bottom: 1px solid #e0e0e0; font-size: 13px; }
+  tr:hover { background: #e8eaf6; }
+  .meta { background: #e8eaf6; padding: 15px; border-radius: 6px; margin: 15px 0; font-size: 13px; }
+  .meta b { color: #1a237e; }
+  .priority { background: #fff3e0; }
+  .lower { background: #f3e5f5; }
+  .highlight { background: #e8f5e9; font-weight: bold; }
+  .callout { background: #fff8e1; border-left: 4px solid #f9a825; padding: 12px 16px; margin: 15px 0; }
+  .better { color: #2e7d32; font-weight: bold; }
+  .worse { color: #c62828; font-weight: bold; }
+  .section { background: white; padding: 20px; border-radius: 8px; margin: 20px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.12); }
+</style>
+</head><body>
+<div class="container">
+<h1>CMS Deficiency Tag Analysis &mdash; Round 2</h1>
+<div class="meta">
+  <b>Prepared for:</b> Monica Leriger, VP Pharmacy<br>
+  <b>Prepared by:</b> Roian Atwood, GTM Strategy and Growth Intelligence<br>
+  <b>Date:</b> March 27, 2026<br>
+  <b>CMS Data Vintage:</b> Feb 2026 (Nursing Home Compare)<br>
+  <b>GLR Vintage:</b> Mar 13, 2026<br>
+  <b>EWH States:</b> OH, IN, NC, VA, KY, SC
+</div>
+
+
+<div class="section">
+<h2>1. Data Documentation &mdash; Rick's Audit Trail Framework</h2>
+<p><em>Structured per the 9-component framework established in the Mar 23-24 working group sessions, modeled on the 2026 BCS Quality Measure Documentation.</em></p>
+<table>
+<tr><th style="width:200px">Component</th><th>Detail</th></tr>
+
+<tr><td><b>1. Metric Definition</b></td>
+<td>CMS health deficiency citation rates for 10 specified F-tags (6 priority + 4 lower priority), measured as:<br>
+<code>Rate = unique facilities cited for tag / total CMS-certified SNFs in geography</code><br>
+Segmented by: state (6 EWH states + national), EWH vs non-EWH, and EWH service presence (psych / MD / both / neither).<br>
+<b>Tags requested by Monica (Mar 19):</b> F605, F841, F865, F867, F880, F757 (priority); F755, F756, F759, F760 (lower).<br>
+<b>Additional asks:</b> 2025 survey counts per state, Virginia survey interval validation, EWH psych/MD crossref on cited buildings.</td></tr>
+
+<tr><td><b>2. Spec / Standard</b></td>
+<td>CMS State Operations Manual, Appendix PP &mdash; Guidance to Surveyors for Long Term Care Facilities. Each F-tag maps to a specific CFR regulatory requirement. Citation rates are a standard CMS quality comparator used in Five-Star rating methodology and public Nursing Home Compare reporting.</td></tr>
+
+<tr><td><b>3. Data Source</b></td>
+<td><b>Source 1 &mdash; CMS Nursing Home Compare (Feb 2026 vintage)</b><br>
+Downloaded: Feb 27, 2026 from data.cms.gov<br>
+Zip: <code>nursing_homes_including_rehab_services_current_data.zip</code> (595MB, 20 files)<br>
+Files used:
+<ul style="margin:4px 0">
+<li><code>NH_HealthCitations_Feb2026.csv</code> &mdash; 419,452 citation records (all health deficiency tags, all cycles)</li>
+<li><code>NH_ProviderInfo_Feb2026.csv</code> &mdash; 14,710 CMS-certified nursing facilities (denominator)</li>
+<li><code>NH_SurveyDates_Feb2026.csv</code> &mdash; 151,849 survey records (health + fire safety)</li>
+<li><code>NH_CitationDescriptions_Feb2026.csv</code> &mdash; tag definition lookup</li>
+</ul>
+<b>Source 2 &mdash; Eventus GLR (PointClickCare-sourced)</b><br>
+File: <code>GLR_Facility_Dump_2026-03-13.csv</code> &mdash; 1,250 facilities<br>
+Snapshot date: Mar 13, 2026<br>
+Key fields: CMSCCN (join key), Psychiatry Provider 1, Medical Director Name, StateCode, Facility Type</td></tr>
+
+<tr><td><b>4. Population</b></td>
+<td><b>Denominator (national):</b> 14,710 unique CCNs in NH_ProviderInfo (all CMS-certified nursing facilities)<br>
+<b>Denominator (state):</b> OH: 922 | IN: 507 | NC: 419 | VA: 289 | KY: 269 | SC: 187<br>
+<b>EWH subset:</b> 625 GLR facilities with non-null CMSCCN &rarr; 564 matched to CMS provider file<br>
+<b>Inclusions:</b> All facility types in CMS data (SNF, NF, dually certified). All inspection cycles (1, 2, 3) in CMS data.<br>
+<b>Exclusions:</b> GLR facilities without CMSCCN (61 of 625 = non-CMS-certified, mostly ALF/MC). Fire safety citations excluded from tag analysis.</td></tr>
+
+<tr><td><b>5. Methodology</b></td>
+<td>
+<ol style="margin:4px 0">
+<li>Load CMS citations, filter to Deficiency Prefix = "F" and Tag Number in target list (10 tags) &rarr; 52,538 records</li>
+<li>For each tag + geography: count unique CCNs cited (numerator). Divide by total CCNs in geography from ProviderInfo (denominator).</li>
+<li>EWH crossref: join GLR CMSCCN to CMS CCN. Mark facility as having EWH psych if <code>Psychiatry Provider 1</code> is populated and &ne; "XXX". Mark as having EWH MD if <code>Medical Director Name</code> is populated and &ne; "XXX".</li>
+<li>Survey interval analysis: filter to "Health Standard" survey type only (annual inspections). Calculate days between consecutive surveys per facility. Exclude intervals &le; 30 days (same-event duplicates).</li>
+<li>EWH comparison: compute EWH-specific rate (EWH-cited / EWH-in-CMS) vs national rate and weighted 6-state average. Express difference in percentage points.</li>
+</ol>
+<b>Script:</b> <code>data-model/scripts/monica_cms_tag_analysis.py</code> (Python 3.13, pandas 3.0.1)</td></tr>
+
+<tr><td><b>6. Gaps / Limitations</b></td>
+<td>
+<ul style="margin:4px 0">
+<li><b>Citation temporal scope:</b> CMS data includes citations across 3 inspection cycles (not limited to a single year). A facility cited in Cycle 3 (oldest) and not in Cycle 1 still appears in the numerator. This inflates absolute rates but affects all populations equally.</li>
+<li><b>GLR snapshot lag:</b> GLR is Mar 13, 2026. Facilities onboarded or offboarded since then are not reflected. EWH denominator may be slightly stale.</li>
+<li><b>Virginia survey lag:</b> VA median standard survey interval is 23.8 months (vs 14.6 months national). 76.7% of VA intervals exceed 18 months. This means VA citation rates underrepresent actual deficiency frequency &mdash; fewer inspections = fewer opportunities to be cited. Dr. Baroco's concern is validated (see Section 3b).</li>
+<li><b>GLR Medical Director field:</b> The boolean "Medical Director" column is empty for all GLR records. Analysis uses "Medical Director Name" as proxy (non-null, non-"XXX"). This identifies facilities where Eventus provides the MD, but does not distinguish active vs. historical assignments.</li>
+<li><b>F0867 state effect:</b> NC has a 59% state-wide F867 rate that dominates EWH's aggregate. EWH's NC-specific rate (60.8%) mirrors the state average. This is a NC regulatory pattern, not an EWH outlier. See Section 5 callout.</li>
+</ul></td></tr>
+
+<tr><td><b>7. Validation / Testing</b></td>
+<td><b>Status: Pending Rick review.</b><br>
+Spot-check suggestions for Rick:
+<ul style="margin:4px 0">
+<li>Verify F0880 national rate (79.82%) against CMS Five-Star technical documentation or NH Compare website</li>
+<li>Pick 2-3 EWH facilities from the detail CSV and confirm their citations appear in raw CMS data</li>
+<li>Confirm EWH CCN count (564) against GLR &rarr; CMS crosswalk independently</li>
+</ul></td></tr>
+
+<tr><td><b>8. Stakeholder Sign-off</b></td>
+<td>
+<ul style="margin:4px 0">
+<li><b>D&A (Rick / Carey):</b> Pending &mdash; this document is the review artifact</li>
+<li><b>Clinical (Monica):</b> Pending &mdash; contingent on D&A validation</li>
+<li><b>GTM Strategy (Roian / Brooke):</b> Prepared, awaiting D&A gate</li>
+</ul></td></tr>
+
+<tr><td><b>9. Archive</b></td>
+<td>
+<ul style="margin:4px 0">
+<li><b>Raw CMS data:</b> <code>Downloads/nursing_homes_including_rehab_services_current_data.zip</code> (Feb 2026 vintage, downloaded Feb 27)</li>
+<li><b>GLR snapshot:</b> <code>data-model/reference/GLR_Facility_Dump_2026-03-13.csv</code></li>
+<li><b>Analysis script:</b> <code>data-model/scripts/monica_cms_tag_analysis.py</code></li>
+<li><b>Output &mdash; HTML report:</b> <code>data-model/reference/Monica_CMS_Tag_Analysis_Round2.html</code></li>
+<li><b>Output &mdash; comparison CSV:</b> <code>data-model/reference/Monica_CMS_Tag_Analysis_Round2_data.csv</code></li>
+<li><b>Output &mdash; facility detail:</b> <code>data-model/reference/Monica_CMS_EWH_Cited_Facilities_Detail.csv</code></li>
+</ul>
+All outputs timestamped 2026-03-27. Script is deterministic &mdash; re-runnable from same inputs.</td></tr>
+
+</table>
+</div>
+
+
+<div class="section">
+<h2>2. Tag Citation Rates by State</h2>
+<p>Rate = unique facilities cited for tag / total CMS-certified SNFs in geography. Citations span all inspection cycles in CMS data (not limited to a single year).</p>
+
+
+    <h3>F0605 — Prevent the use of unnecessary psychotropic medications or use medications that </h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>707</td><td>4.81%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>23</td><td>4.54%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>1</td><td>0.37%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>9</td><td>2.15%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>37</td><td>4.01%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>4</td><td>2.14%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>8</td><td>2.77%</td></tr>
+</table>
+
+    <h3>F0755 — Provide pharmaceutical services to meet the needs of each resident and employ or</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>5,532</td><td>37.61%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>203</td><td>40.04%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>43</td><td>15.99%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>76</td><td>18.14%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>347</td><td>37.64%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>24</td><td>12.83%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>149</td><td>51.56%</td></tr>
+</table>
+
+    <h3>F0756 — Ensure a licensed pharmacist perform a monthly drug regimen review, including th</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>3,286</td><td>22.34%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>70</td><td>13.81%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>11</td><td>4.09%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>88</td><td>21.00%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>302</td><td>32.75%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>15</td><td>8.02%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>105</td><td>36.33%</td></tr>
+</table>
+
+    <h3>F0757 — Ensure each resident’s drug regimen must be free from unnecessary drugs.</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>2,810</td><td>19.10%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>147</td><td>28.99%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>6</td><td>2.23%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>60</td><td>14.32%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>270</td><td>29.28%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>5</td><td>2.67%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>90</td><td>31.14%</td></tr>
+</table>
+
+    <h3>F0759 — Ensure medication error rates are not 5 percent or greater.</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>3,812</td><td>25.91%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>79</td><td>15.58%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>28</td><td>10.41%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>81</td><td>19.33%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>280</td><td>30.37%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>48</td><td>25.67%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>77</td><td>26.64%</td></tr>
+</table>
+
+    <h3>F0760 — Ensure that residents are free from significant medication errors.</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>3,606</td><td>24.51%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>84</td><td>16.57%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>25</td><td>9.29%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>119</td><td>28.40%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>352</td><td>38.18%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>51</td><td>27.27%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>123</td><td>42.56%</td></tr>
+</table>
+
+    <h3>F0841 — Designate a physician to serve as medical director responsible for implementatio</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>103</td><td>0.70%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>0</td><td>0.00%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>3</td><td>1.12%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>2</td><td>0.48%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>6</td><td>0.65%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>1</td><td>0.53%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>2</td><td>0.69%</td></tr>
+</table>
+
+    <h3>F0865 — Have a  plan that describes the process for conducting QAPI and QAA activities.</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>687</td><td>4.67%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>11</td><td>2.17%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>12</td><td>4.46%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>0</td><td>0.00%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>17</td><td>1.84%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>1</td><td>0.53%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>18</td><td>6.23%</td></tr>
+</table>
+
+    <h3>F0867 — Set up an ongoing quality assessment and assurance group to review quality defic</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>1,535</td><td>10.44%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>31</td><td>6.11%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>17</td><td>6.32%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>247</td><td>58.95%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>28</td><td>3.04%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>8</td><td>4.28%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>21</td><td>7.27%</td></tr>
+</table>
+
+    <h3>F0880 — Provide and implement an infection prevention and control program.</h3>
+    <table>
+    <tr><th>Geography</th><th>Total SNFs</th><th>Facilities Cited</th><th>Citation Rate</th></tr>
+    
+<tr class="highlight"><td>NATIONAL</td><td>14,710</td><td>11,742</td><td>79.82%</td></tr>
+<tr><td>Indiana (IN)</td><td>507</td><td>349</td><td>68.84%</td></tr>
+<tr><td>Kentucky (KY)</td><td>269</td><td>201</td><td>74.72%</td></tr>
+<tr><td>North Carolina (NC)</td><td>419</td><td>214</td><td>51.07%</td></tr>
+<tr><td>Ohio (OH)</td><td>922</td><td>758</td><td>82.21%</td></tr>
+<tr><td>South Carolina (SC)</td><td>187</td><td>127</td><td>67.91%</td></tr>
+<tr><td>Virginia (VA)</td><td>289</td><td>218</td><td>75.43%</td></tr>
+</table>
+</div>
+
+<div class="section">
+<h2>3. Survey Counts (2025) &amp; Virginia Interval Analysis</h2>
+<h3>3a. Health Surveys in 2025</h3>
+<table>
+<tr><th>Geography</th><th>Total Health Surveys</th><th>Unique Facilities Surveyed</th><th>Total SNFs</th><th>Coverage %</th></tr>
+
+<tr><td>Indiana</td><td>1,002</td><td>447</td><td>507</td><td>88.2%</td></tr>
+<tr><td>Kentucky</td><td>281</td><td>208</td><td>269</td><td>77.3%</td></tr>
+<tr class="highlight"><td>National</td><td>28,777</td><td>12,036</td><td>14,710</td><td>81.8%</td></tr>
+<tr><td>North Carolina</td><td>658</td><td>367</td><td>419</td><td>87.6%</td></tr>
+<tr><td>Ohio</td><td>1,569</td><td>741</td><td>922</td><td>80.4%</td></tr>
+<tr><td>South Carolina</td><td>235</td><td>167</td><td>187</td><td>89.3%</td></tr>
+<tr><td>Virginia</td><td>160</td><td>106</td><td>289</td><td>36.7%</td></tr>
+</table>
+
+    <h3>3b. Virginia Survey Interval Analysis</h3>
+    <div class="callout">
+        <b>Dr. Baroco's claim:</b> Virginia facilities experience 18+ months between annual surveys, which would skew tag citation percentages.
+    </div>
+    <p><em>Analysis restricted to Health Standard (annual) surveys only, intervals &gt;30 days to exclude same-event duplicates.</em></p>
+    <table>
+    <tr><th>Metric</th><th>Virginia</th><th>National</th></tr>
+    <tr><td>Survey intervals analyzed</td><td>566</td><td>29,256</td></tr>
+    <tr><td>Mean interval</td><td><b>25.2 months</b></td><td>18.6 months</td></tr>
+    <tr><td>Median interval</td><td><b>23.8 months</b></td><td>14.6 months</td></tr>
+    <tr><td>Min interval</td><td>6.0 months</td><td>3.2 months</td></tr>
+    <tr><td>Max interval</td><td>49.2 months</td><td>74.4 months</td></tr>
+    <tr><td>Intervals &ge; 18 months</td><td><b>434 (76.7%)</b></td><td>9,811 (33.5%)</td></tr>
+    <tr><td>Intervals &ge; 15 months</td><td>514 (90.8%)</td><td>&mdash;</td></tr>
+    <tr><td>Intervals &ge; 12 months</td><td>552 (97.5%)</td><td>&mdash;</td></tr>
+    </table>
+
+    <h4>Virginia Interval Distribution</h4>
+    <table>
+    <tr><th>Bucket</th><th>Count</th><th>Percentage</th></tr>
+    
+<tr><td>0-6 months</td><td>1</td><td>0.2%</td></tr>
+<tr><td>6-12 months</td><td>13</td><td>2.3%</td></tr>
+<tr><td>12-15 months</td><td>38</td><td>6.7%</td></tr>
+<tr><td>15-18 months</td><td>80</td><td>14.1%</td></tr>
+<tr><td>18-24 months</td><td>155</td><td>27.4%</td></tr>
+<tr><td>24+ months</td><td>279</td><td>49.3%</td></tr>
+</table>
+<div class="callout"><b>SUPPORTED:</b> 76.7% of VA standard survey intervals exceed 18 months (vs 33.5% nationally). VA median is 23.8 months vs 14.6 months national. Dr. Baroco's concern is well-founded — Virginia citation rates may underrepresent actual deficiency frequency due to less frequent inspection opportunities.</div>
+</div>
+
+<div class="section">
+<h2>4. EWH Facility Crossref — Cited Buildings by Service Presence</h2>
+<p>Which facilities cited for each tag had Eventus psychiatry, medical director, or both?</p>
+<table>
+<tr><th>Tag</th><th>EWH Facilities Cited</th><th>With Psych</th><th>With MD</th><th>With Both</th><th>Neither</th></tr>
+
+<tr><td>F0605</td><td>18</td><td>11</td><td>8</td><td>6</td><td>5</td></tr>
+<tr><td>F0755</td><td>179</td><td>137</td><td>53</td><td>38</td><td>27</td></tr>
+<tr><td>F0756</td><td>97</td><td>75</td><td>34</td><td>23</td><td>11</td></tr>
+<tr><td>F0757</td><td>111</td><td>83</td><td>35</td><td>25</td><td>18</td></tr>
+<tr><td>F0759</td><td>115</td><td>97</td><td>39</td><td>32</td><td>11</td></tr>
+<tr><td>F0760</td><td>134</td><td>108</td><td>48</td><td>28</td><td>6</td></tr>
+<tr><td>F0841</td><td>3</td><td>2</td><td>0</td><td>0</td><td>1</td></tr>
+<tr><td>F0865</td><td>19</td><td>18</td><td>7</td><td>6</td><td>0</td></tr>
+<tr><td>F0867</td><td>118</td><td>107</td><td>35</td><td>31</td><td>7</td></tr>
+<tr><td>F0880</td><td>386</td><td>317</td><td>112</td><td>83</td><td>40</td></tr>
+</table></div>
+
+<div class="section">
+<h2>5. EWH Baseline vs State/National Averages</h2>
+<p>Negative difference = EWH performs <b>better</b> (lower citation rate). Positive = worse.</p>
+<table>
+<tr><th>Tag</th><th>Description</th><th>EWH Rate</th><th>National Rate</th><th>6-State Avg</th><th>vs National</th><th>vs 6-State</th></tr>
+
+<tr><td>F0605</td><td>Prevent the use of unnecessary psychotropic medications or u</td><td>3.19%</td><td>4.81%</td><td>3.16%</td><td><span style="color:#2e7d32;font-weight:bold">-1.61pp</span></td><td><span style="color:#c62828;font-weight:bold">+0.03pp</span></td></tr>
+<tr><td>F0755</td><td>Provide pharmaceutical services to meet the needs of each re</td><td>31.74%</td><td>37.61%</td><td>32.47%</td><td><span style="color:#2e7d32;font-weight:bold">-5.87pp</span></td><td><span style="color:#2e7d32;font-weight:bold">-0.73pp</span></td></tr>
+<tr><td>F0756</td><td>Ensure a licensed pharmacist perform a monthly drug regimen </td><td>17.20%</td><td>22.34%</td><td>22.79%</td><td><span style="color:#2e7d32;font-weight:bold">-5.14pp</span></td><td><span style="color:#2e7d32;font-weight:bold">-5.59pp</span></td></tr>
+<tr><td>F0757</td><td>Ensure each resident’s drug regimen must be free from unnece</td><td>19.68%</td><td>19.10%</td><td>22.29%</td><td><span style="color:#c62828;font-weight:bold">+0.58pp</span></td><td><span style="color:#2e7d32;font-weight:bold">-2.61pp</span></td></tr>
+<tr><td>F0759</td><td>Ensure medication error rates are not 5 percent or greater.</td><td>20.39%</td><td>25.91%</td><td>22.87%</td><td><span style="color:#2e7d32;font-weight:bold">-5.52pp</span></td><td><span style="color:#2e7d32;font-weight:bold">-2.48pp</span></td></tr>
+<tr><td>F0760</td><td>Ensure that residents are free from significant medication e</td><td>23.76%</td><td>24.51%</td><td>29.08%</td><td><span style="color:#2e7d32;font-weight:bold">-0.76pp</span></td><td><span style="color:#2e7d32;font-weight:bold">-5.32pp</span></td></tr>
+<tr><td>F0841</td><td>Designate a physician to serve as medical director responsib</td><td>0.53%</td><td>0.70%</td><td>0.54%</td><td><span style="color:#2e7d32;font-weight:bold">-0.17pp</span></td><td><span style="color:#2e7d32;font-weight:bold">-0.01pp</span></td></tr>
+<tr><td>F0865</td><td>Have a  plan that describes the process for conducting QAPI </td><td>3.37%</td><td>4.67%</td><td>2.28%</td><td><span style="color:#2e7d32;font-weight:bold">-1.30pp</span></td><td><span style="color:#c62828;font-weight:bold">+1.09pp</span></td></tr>
+<tr><td>F0867</td><td>Set up an ongoing quality assessment and assurance group to </td><td>20.92%</td><td>10.44%</td><td>13.58%</td><td><span style="color:#c62828;font-weight:bold">+10.49pp</span></td><td><span style="color:#c62828;font-weight:bold">+7.35pp</span></td></tr>
+<tr><td>F0880</td><td>Provide and implement an infection prevention and control pr</td><td>68.44%</td><td>79.82%</td><td>72.00%</td><td><span style="color:#2e7d32;font-weight:bold">-11.38pp</span></td><td><span style="color:#2e7d32;font-weight:bold">-3.56pp</span></td></tr>
+
+</table>
+<div class="meta">
+  <b>EWH denominator:</b> 564 facilities matched via CCN in CMS data
+</div>
+
+<div class="callout">
+  <b>F0867 Note:</b> EWH shows +10pp vs national for F0867 (QA&amp;A committee). This is <b>not</b> an EWH-specific issue &mdash;
+  it is a <b>North Carolina regulatory pattern</b>. NC has a 59% state-wide F0867 citation rate (highest of any EWH state by far).
+  EWH's NC-specific F0867 rate (60.8%) is in line with the NC state average. In all other EWH states, rates are at or below
+  state benchmarks. On <b>Cycle 1 (most recent inspection) only</b>, EWH's F0867 rate drops to 1.24% vs 3.21% national &mdash;
+  meaning EWH is performing significantly better on recent inspections.
+</div>
+</div>
+
+
+<div class="section">
+<h2>6. Tag Definitions Reference</h2>
+<table>
+<tr><th>Tag</th><th>Category</th><th>Description</th><th>Priority</th></tr>
+
+<tr><td>F0605</td><td>Freedom from Abuse, Neglect, and Exploitation Deficiencies</td><td>Prevent the use of unnecessary psychotropic medications or use medications that may restrain a resident's ability to function.</td><td>PRIORITY</td></tr>
+<tr><td>F0755</td><td>Pharmacy Service Deficiencies</td><td>Provide pharmaceutical services to meet the needs of each resident and employ or obtain the services of a licensed pharmacist.</td><td>LOWER</td></tr>
+<tr><td>F0756</td><td>Pharmacy Service Deficiencies</td><td>Ensure a licensed pharmacist perform a monthly drug regimen review, including the medical chart, following irregularity reporting guidelines in developed policies and procedures.</td><td>LOWER</td></tr>
+<tr><td>F0757</td><td>Pharmacy Service Deficiencies</td><td>Ensure each resident’s drug regimen must be free from unnecessary drugs.</td><td>PRIORITY</td></tr>
+<tr><td>F0759</td><td>Pharmacy Service Deficiencies</td><td>Ensure medication error rates are not 5 percent or greater.</td><td>LOWER</td></tr>
+<tr><td>F0760</td><td>Pharmacy Service Deficiencies</td><td>Ensure that residents are free from significant medication errors.</td><td>LOWER</td></tr>
+<tr><td>F0841</td><td>Nursing and Physician Services Deficiencies</td><td>Designate a physician to serve as medical director responsible for implementation of resident care policies and coordination of medical care in the facility.</td><td>PRIORITY</td></tr>
+<tr><td>F0865</td><td>Administration Deficiencies</td><td>Have a  plan that describes the process for conducting QAPI and QAA activities.</td><td>PRIORITY</td></tr>
+<tr><td>F0867</td><td>Administration Deficiencies</td><td>Set up an ongoing quality assessment and assurance group to review quality deficiencies  and develop corrective plans of action.</td><td>PRIORITY</td></tr>
+<tr><td>F0880</td><td>Infection Control Deficiencies</td><td>Provide and implement an infection prevention and control program.</td><td>PRIORITY</td></tr>
+
+</table>
+</div>
+
+<div class="meta" style="margin-top:40px;">
+  <b>Archive note:</b> Raw CMS data (Feb 2026 vintage) stored in Downloads. GLR snapshot in data-model/reference/.
+  This report is read-only pending Rick validation before distribution to Monica.
+</div>
+
+</div></body></html>

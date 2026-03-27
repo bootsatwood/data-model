@@ -1,0 +1,1831 @@
+ccn_str,Facility Name,StateNorm,tag_label,has_ewh_psych,has_ewh_md,has_both,Psychiatry Provider 1,Medical Director Name,Survey Date,Scope Severity Code
+155003,Mason Healthcare,Indiana,F0605,False,False,False,XXX,XXX,2025-08-26,D
+155003,Mason Healthcare,Indiana,F0755,False,False,False,XXX,XXX,2025-08-26,D
+155003,Mason Healthcare,Indiana,F0759,False,False,False,XXX,XXX,2025-08-26,D
+155003,Mason Healthcare,Indiana,F0880,False,False,False,XXX,XXX,2025-08-26,D
+155003,Mason Healthcare,Indiana,F0880,False,False,False,XXX,XXX,2024-08-30,D
+155003,Mason Healthcare,Indiana,F0755,False,False,False,XXX,XXX,2023-12-28,E
+155006,The Waters of Wabash East (Miller's),Indiana,F0880,True,False,False,Lisa Omo-Griffith,XXX,2025-03-12,D
+155006,The Waters of Wabash East (Miller's),Indiana,F0867,True,False,False,Lisa Omo-Griffith,XXX,2025-05-22,D
+155006,The Waters of Wabash East (Miller's),Indiana,F0880,True,False,False,Lisa Omo-Griffith,XXX,2025-05-22,D
+155006,The Waters of Wabash East (Miller's),Indiana,F0880,True,False,False,Lisa Omo-Griffith,XXX,2024-03-21,D
+155006,The Waters of Wabash East (Miller's),Indiana,F0880,True,False,False,Lisa Omo-Griffith,XXX,2023-06-30,E
+155022,Willows of Shelbyville,Indiana,F0880,True,False,False,Cheryl Davis-Land,XXX,2025-12-23,D
+155022,Willows of Shelbyville,Indiana,F0755,True,False,False,Cheryl Davis-Land,XXX,2024-05-02,D
+155022,Willows of Shelbyville,Indiana,F0880,True,False,False,Cheryl Davis-Land,XXX,2024-02-22,D
+155022,Willows of Shelbyville,Indiana,F0880,True,False,False,Cheryl Davis-Land,XXX,2023-07-26,D
+155029,Community Nursing and Rehabilitation,Indiana,F0755,True,False,False,Tamala Ndenguma,XXX,2025-11-13,G
+155029,Community Nursing and Rehabilitation,Indiana,F0756,True,False,False,Tamala Ndenguma,XXX,2025-04-25,D
+155029,Community Nursing and Rehabilitation,Indiana,F0880,True,False,False,Tamala Ndenguma,XXX,2025-04-25,D
+155029,Community Nursing and Rehabilitation,Indiana,F0759,True,False,False,Tamala Ndenguma,XXX,2024-04-22,D
+155029,Community Nursing and Rehabilitation,Indiana,F0880,True,False,False,Tamala Ndenguma,XXX,2023-05-11,D
+155061,Envive of Lawrenceburg,Indiana,F0880,True,True,True,Jared Caudill,Marwan Mustaklem,2025-03-17,D
+155061,Envive of Lawrenceburg,Indiana,F0755,True,True,True,Jared Caudill,Marwan Mustaklem,2024-02-09,D
+155061,Envive of Lawrenceburg,Indiana,F0867,True,True,True,Jared Caudill,Marwan Mustaklem,2023-01-09,D
+155066,Edgewater Woods,Indiana,F0880,True,False,False,Tamala Ndenguma,XXX,2025-02-14,E
+155066,Edgewater Woods,Indiana,F0880,True,False,False,Tamala Ndenguma,XXX,2024-03-25,D
+155070,Green Valley,Indiana,F0760,True,False,False,Kimberly Schoengart,XXX,2023-08-21,G
+155086,Woodland Manor Nursing and Rehabilitation,Indiana,F0880,True,True,True,Mary Nguru,Taryn Fernandes,2025-02-28,D
+155086,Woodland Manor Nursing and Rehabilitation,Indiana,F0605,True,True,True,Mary Nguru,Taryn Fernandes,2025-11-21,D
+155086,Woodland Manor Nursing and Rehabilitation,Indiana,F0757,True,True,True,Mary Nguru,Taryn Fernandes,2025-11-21,D
+155086,Woodland Manor Nursing and Rehabilitation,Indiana,F0880,True,True,True,Mary Nguru,Taryn Fernandes,2025-11-21,D
+155086,Woodland Manor Nursing and Rehabilitation,Indiana,F0755,True,True,True,Mary Nguru,Taryn Fernandes,2023-08-09,D
+155086,Woodland Manor Nursing and Rehabilitation,Indiana,F0755,True,True,True,Mary Nguru,Taryn Fernandes,2024-11-14,D
+155086,Woodland Manor Nursing and Rehabilitation,Indiana,F0880,True,True,True,Mary Nguru,Taryn Fernandes,2024-11-14,D
+155095,Heritage Park - Employee Clinic,Indiana,F0757,False,False,False,XXX,XXX,2025-03-11,D
+155095,Heritage Park AL,Indiana,F0757,True,False,False,Lisa Omo-Griffith,XXX,2025-03-11,D
+155095,Heritage Park SNF,Indiana,F0757,True,False,False,Lisa Omo-Griffith,XXX,2025-03-11,D
+155103,Trailpoint Village,Indiana,F0880,False,True,False,XXX,Donald Wolfram,2024-03-01,D
+155103,Trailpoint Village,Indiana,F0759,False,True,False,XXX,Donald Wolfram,2023-01-04,D
+155103,Trailpoint Village,Indiana,F0880,False,True,False,XXX,Donald Wolfram,2023-01-04,D
+155106,Riverwalk Village,Indiana,F0755,False,True,False,XXX,Steven DeLee,2024-10-30,E
+155106,Riverwalk Village,Indiana,F0880,False,True,False,XXX,Steven DeLee,2024-10-30,E
+155106,Riverwalk Village,Indiana,F0760,False,True,False,XXX,Steven DeLee,2024-04-04,D
+155106,Riverwalk Village,Indiana,F0880,False,True,False,XXX,Steven DeLee,2024-01-03,D
+155106,Riverwalk Village,Indiana,F0880,False,True,False,XXX,Steven DeLee,2022-08-29,D
+155118,Waters of LaGrange,Indiana,F0867,True,True,True,Jessica Hughes,Paul Kaplanis,2024-10-01,F
+155132,Danville Regional Rehabilitation,Indiana,F0755,False,False,False,XXX,XXX,2023-02-28,D
+155133,Belmont at Tipton Lakes Senior Living,Indiana,F0880,True,False,False,Betsy Harrison,XXX,2024-09-24,D
+155133,Belmont at Tipton Lakes Senior Living,Indiana,F0755,True,False,False,Betsy Harrison,XXX,2024-05-03,D
+155133,Belmont at Tipton Lakes Senior Living,Indiana,F0757,True,False,False,Betsy Harrison,XXX,2023-07-13,E
+155138,Brickyard Healthcare - Churchman Care Center,Indiana,F0755,True,False,False,Tamala Ndenguma,XXX,2024-10-22,D
+155138,Brickyard Healthcare - Churchman Care Center,Indiana,F0880,True,False,False,Tamala Ndenguma,XXX,2024-10-22,D
+155139,North Woods Village,Indiana,F0880,True,True,True,Jessica Hughes,Vahid-David Sedaghat,2025-03-06,D
+155139,North Woods Village,Indiana,F0880,True,True,True,Jessica Hughes,Vahid-David Sedaghat,2024-03-15,D
+155143,Majestic Terre Haute,Indiana,F0757,True,False,False,Josephine Mwachande,XXX,2024-08-29,D
+155149,Harcourt Terrace Nursing and Rehabilitation,Indiana,F0755,False,False,False,XXX,XXX,2025-01-28,D
+155149,Harcourt Terrace Nursing and Rehabilitation,Indiana,F0755,False,False,False,XXX,XXX,2023-12-11,D
+155149,Harcourt Terrace Nursing and Rehabilitation,Indiana,F0880,False,False,False,XXX,XXX,2022-09-26,E
+155150,The Waters of Columbia City (Miller's),Indiana,F0760,True,True,True,Lisa Omo-Griffith,Paul Kaplanis,2024-02-22,J
+155150,The Waters of Columbia City (Miller's),Indiana,F0880,True,True,True,Lisa Omo-Griffith,Paul Kaplanis,2024-10-21,E
+155150,The Waters of Columbia City (Miller's),Indiana,F0880,True,True,True,Lisa Omo-Griffith,Paul Kaplanis,2023-09-29,E
+155162,Autumn Ridge Rehabilitation Centre,Indiana,F0880,True,True,True,Lisa Omo-Griffith,Christopher Baltes,2025-03-31,D
+155165,Riverview Village,Indiana,F0760,True,False,False,Sheena Steele,XXX,2024-08-27,D
+155165,Riverview Village,Indiana,F0755,True,False,False,Sheena Steele,XXX,2023-06-27,D
+155166,Valparaiso Care and Rehabilitation Center,Indiana,F0880,False,False,False,XXX,XXX,2024-08-09,D
+155166,Valparaiso Care and Rehabilitation Center,Indiana,F0757,False,False,False,XXX,XXX,2023-07-14,D
+155166,Valparaiso Care and Rehabilitation Center,Indiana,F0759,False,False,False,XXX,XXX,2023-07-14,D
+155166,Valparaiso Care and Rehabilitation Center,Indiana,F0755,False,False,False,XXX,XXX,2023-04-03,D
+155166,Valparaiso Care and Rehabilitation Center,Indiana,F0880,False,False,False,XXX,XXX,2022-08-11,D
+155171,Franklin Meadows,Indiana,F0880,False,False,False,XXX,XXX,2025-09-16,D
+155198,Marquette Manor  MC,Indiana,F0757,False,False,False,XXX,XXX,2022-11-03,D
+155198,Marquette Manor ALF,Indiana,F0757,False,False,False,XXX,XXX,2022-11-03,D
+155198,Marquette Manor SNF,Indiana,F0757,False,False,False,XXX,XXX,2022-11-03,D
+155198,Marquette Manor IL,Indiana,F0757,False,False,False,XXX,XXX,2022-11-03,D
+155198,Marquette Manor  MC,Indiana,F0759,False,False,False,XXX,XXX,2022-11-03,D
+155198,Marquette Manor ALF,Indiana,F0759,False,False,False,XXX,XXX,2022-11-03,D
+155198,Marquette Manor SNF,Indiana,F0759,False,False,False,XXX,XXX,2022-11-03,D
+155198,Marquette Manor IL,Indiana,F0759,False,False,False,XXX,XXX,2022-11-03,D
+155199,Maple Park Village,Indiana,F0757,False,False,False,XXX,XXX,2025-09-16,D
+155199,Maple Park Village,Indiana,F0880,False,False,False,XXX,XXX,2025-09-16,D
+155199,Maple Park Village,Indiana,F0755,False,False,False,XXX,XXX,2024-08-29,D
+155199,Maple Park Village,Indiana,F0755,False,False,False,XXX,XXX,2023-03-22,D
+155199,Maple Park Village,Indiana,F0880,False,False,False,XXX,XXX,2023-10-12,D
+155200,University Nursing Center,Indiana,F0605,True,False,False,Jessica Hughes,XXX,2025-09-09,D
+155200,University Nursing Center,Indiana,F0865,True,False,False,Jessica Hughes,XXX,2025-09-09,D
+155200,University Nursing Center,Indiana,F0880,True,False,False,Jessica Hughes,XXX,2025-09-09,D
+155200,University Nursing Center,Indiana,F0755,True,False,False,Jessica Hughes,XXX,2024-10-08,E
+155203,Hillcrest Village,Indiana,F0755,True,False,False,Catherine Flem,XXX,2025-01-31,D
+155203,Hillcrest Village,Indiana,F0755,True,False,False,Catherine Flem,XXX,2023-12-14,D
+155203,Hillcrest Village,Indiana,F0755,True,False,False,Catherine Flem,XXX,2023-10-26,E
+155203,Hillcrest Village,Indiana,F0760,True,False,False,Catherine Flem,XXX,2023-10-26,E
+155203,Hillcrest Village,Indiana,F0760,True,False,False,Catherine Flem,XXX,2023-04-19,D
+155203,Hillcrest Village,Indiana,F0880,True,False,False,Catherine Flem,XXX,2022-11-18,E
+155205,Greencroft Goshen,Indiana,F0760,False,False,False,XXX,XXX,2025-08-11,D
+155205,Greencroft Goshen,Indiana,F0605,False,False,False,XXX,XXX,2025-05-23,D
+155205,Greencroft Goshen,Indiana,F0880,False,False,False,XXX,XXX,2025-05-23,D
+155205,Greencroft Goshen,Indiana,F0760,False,False,False,XXX,XXX,2024-05-31,D
+155208,Aperion Care Hanover ALF,Indiana,F0755,False,False,False,XXX,XXX,2025-03-27,D
+155208,Aperion Care Hanover SNF,Indiana,F0755,False,False,False,XXX,XXX,2025-03-27,D
+155208,Aperion Care Hanover ALF,Indiana,F0756,False,False,False,XXX,XXX,2025-03-27,D
+155208,Aperion Care Hanover SNF,Indiana,F0756,False,False,False,XXX,XXX,2025-03-27,D
+155208,Aperion Care Hanover ALF,Indiana,F0880,False,False,False,XXX,XXX,2025-03-27,D
+155208,Aperion Care Hanover SNF,Indiana,F0880,False,False,False,XXX,XXX,2025-03-27,D
+155208,Aperion Care Hanover ALF,Indiana,F0755,False,False,False,XXX,XXX,2024-01-10,D
+155208,Aperion Care Hanover SNF,Indiana,F0755,False,False,False,XXX,XXX,2024-01-10,D
+155208,Aperion Care Hanover ALF,Indiana,F0756,False,False,False,XXX,XXX,2024-01-10,D
+155208,Aperion Care Hanover SNF,Indiana,F0756,False,False,False,XXX,XXX,2024-01-10,D
+155208,Aperion Care Hanover ALF,Indiana,F0880,False,False,False,XXX,XXX,2023-09-27,E
+155208,Aperion Care Hanover SNF,Indiana,F0880,False,False,False,XXX,XXX,2023-09-27,E
+155208,Aperion Care Hanover ALF,Indiana,F0757,False,False,False,XXX,XXX,2023-02-27,D
+155208,Aperion Care Hanover SNF,Indiana,F0757,False,False,False,XXX,XXX,2023-02-27,D
+155214,"St Anthony, Majestic Care",Indiana,F0757,True,False,False,Lakisha Eskridge,XXX,2024-10-09,D
+155214,"St Anthony, Majestic Care",Indiana,F0880,True,False,False,Lakisha Eskridge,XXX,2024-05-20,D
+155219,Majestic Care of South Bend,Indiana,F0759,True,False,False,Vinicius Teixeira,XXX,2024-10-04,D
+155219,Majestic Care of South Bend,Indiana,F0880,True,False,False,Vinicius Teixeira,XXX,2024-10-04,D
+155219,Majestic Care of South Bend,Indiana,F0755,True,False,False,Vinicius Teixeira,XXX,2024-07-15,D
+155219,Majestic Care of South Bend,Indiana,F0755,True,False,False,Vinicius Teixeira,XXX,2023-08-28,D
+155219,Majestic Care of South Bend,Indiana,F0756,True,False,False,Vinicius Teixeira,XXX,2023-08-28,D
+155219,Majestic Care of South Bend,Indiana,F0757,True,False,False,Vinicius Teixeira,XXX,2023-08-28,D
+155219,Majestic Care of South Bend,Indiana,F0759,True,False,False,Vinicius Teixeira,XXX,2023-08-28,D
+155219,Majestic Care of South Bend,Indiana,F0880,True,False,False,Vinicius Teixeira,XXX,2023-08-28,D
+155219,Majestic Care of South Bend,Indiana,F0755,True,False,False,Vinicius Teixeira,XXX,2022-08-05,D
+155219,Majestic Care of South Bend,Indiana,F0867,True,False,False,Vinicius Teixeira,XXX,2022-08-05,E
+155221,Westminster Village,Indiana,F0757,True,False,False,Josephine Mwachande,XXX,2024-03-27,D
+155221,Westminster Village,Indiana,F0880,True,False,False,Josephine Mwachande,XXX,2024-03-27,D
+155221,Westminster Village,Indiana,F0757,True,False,False,Josephine Mwachande,XXX,2023-01-18,D
+155222,Kokomo HCC,Indiana,F0755,True,False,False,Paris Avant,XXX,2025-09-08,F
+155222,Kokomo HCC,Indiana,F0755,True,False,False,Paris Avant,XXX,2024-03-07,D
+155226,North Capitol Nursing and Rehabilitation,Indiana,F0880,True,False,False,Cheryl Davis-Land,XXX,2025-07-30,E
+155226,North Capitol Nursing and Rehabilitation,Indiana,F0880,True,False,False,Cheryl Davis-Land,XXX,2024-06-03,D
+155226,North Capitol Nursing and Rehabilitation,Indiana,F0757,True,False,False,Cheryl Davis-Land,XXX,2023-03-07,D
+155233,The Waters of Batesville,Indiana,F0755,True,True,True,Jared Caudill,Donald Wolfram,2025-02-10,D
+155233,The Waters of Batesville,Indiana,F0757,True,True,True,Jared Caudill,Donald Wolfram,2023-12-14,D
+155233,The Waters of Batesville,Indiana,F0760,True,True,True,Jared Caudill,Donald Wolfram,2023-12-14,D
+155233,The Waters of Batesville,Indiana,F0867,True,True,True,Jared Caudill,Donald Wolfram,2023-12-14,D
+155233,The Waters of Batesville,Indiana,F0755,True,True,True,Jared Caudill,Donald Wolfram,2023-11-14,D
+155233,The Waters of Batesville,Indiana,F0880,True,True,True,Jared Caudill,Donald Wolfram,2023-11-14,D
+155233,The Waters of Batesville,Indiana,F0755,True,True,True,Jared Caudill,Donald Wolfram,2023-09-15,D
+155233,The Waters of Batesville,Indiana,F0865,True,True,True,Jared Caudill,Donald Wolfram,2022-11-17,D
+155237,Bethany Village,Indiana,F0880,True,False,False,Ronica Jackson,XXX,2023-12-01,D
+155241,Forest Creek Village,Indiana,F0880,False,False,False,XXX,XXX,2025-06-24,D
+155241,Forest Creek Village,Indiana,F0880,False,False,False,XXX,XXX,2025-05-21,D
+155241,Forest Creek Village,Indiana,F0759,False,False,False,XXX,XXX,2025-03-14,E
+155241,Forest Creek Village,Indiana,F0880,False,False,False,XXX,XXX,2025-03-14,D
+155241,Forest Creek Village,Indiana,F0755,False,False,False,XXX,XXX,2025-01-30,D
+155246,Chesterton Manor,Indiana,F0880,True,False,False,Lakisha Eskridge,XXX,2025-03-06,D
+155246,Chesterton Manor,Indiana,F0880,True,False,False,Lakisha Eskridge,XXX,2024-11-13,D
+155246,Chesterton Manor,Indiana,F0757,True,False,False,Lakisha Eskridge,XXX,2023-03-24,D
+155249,Chateau Rehabilitation - (Sig-Ft Wayne),Indiana,F0880,True,True,True,Mindy Scott,Christopher Baltes,2024-08-19,D
+155249,Chateau Rehabilitation - (Sig-Ft Wayne),Indiana,F0867,True,True,True,Mindy Scott,Christopher Baltes,2023-08-08,F
+155251,The Waters of Hobart,Indiana,F0757,False,False,False,XXX,XXX,2025-06-17,D
+155251,The Waters of Hobart,Indiana,F0880,False,False,False,XXX,XXX,2025-06-17,D
+155251,The Waters of Hobart,Indiana,F0880,False,False,False,XXX,XXX,2024-10-29,D
+155251,The Waters of Hobart,Indiana,F0880,False,False,False,XXX,XXX,2024-03-04,D
+155251,The Waters of Hobart,Indiana,F0755,False,False,False,XXX,XXX,2024-02-07,D
+155251,The Waters of Hobart,Indiana,F0759,False,False,False,XXX,XXX,2024-02-07,E
+155251,The Waters of Hobart,Indiana,F0880,False,False,False,XXX,XXX,2024-02-07,D
+155251,The Waters of Hobart,Indiana,F0755,False,False,False,XXX,XXX,2023-08-30,D
+155251,The Waters of Hobart,Indiana,F0757,False,False,False,XXX,XXX,2023-05-12,E
+155251,The Waters of Hobart,Indiana,F0880,False,False,False,XXX,XXX,2023-05-12,D
+155254,Aperion Care of Greenfield,Indiana,F0880,True,True,True,TBD,Steven DeLee,2024-08-30,E
+155254,Aperion Care of Greenfield,Indiana,F0880,True,True,True,TBD,Steven DeLee,2022-03-14,E
+155255,Celebrate Senior Living of Fort Wayne,Indiana,F0880,False,False,False,XXX,XXX,2023-04-17,E
+155269,East Lake,Indiana,F0880,False,False,False,XXX,XXX,2025-01-28,D
+155269,East Lake,Indiana,F0880,False,False,False,XXX,XXX,2024-01-29,D
+155270,Core of Dale Nursing and Rehab,Indiana,F0880,True,True,True,Sonya Taylor,Kevin Neese,2024-08-21,E
+155270,Core of Dale Nursing and Rehab,Indiana,F0759,True,True,True,Sonya Taylor,Kevin Neese,2023-08-02,D
+155270,Core of Dale Nursing and Rehab,Indiana,F0880,True,True,True,Sonya Taylor,Kevin Neese,2023-08-02,E
+155274,Waters of Rockport,Indiana,F0605,True,False,False,Amanda Stagg,XXX,2025-05-23,D
+155274,Waters of Rockport,Indiana,F0755,True,False,False,Amanda Stagg,XXX,2025-01-09,E
+155274,Waters of Rockport,Indiana,F0755,True,False,False,Amanda Stagg,XXX,2024-04-05,D
+155274,Waters of Rockport,Indiana,F0757,True,False,False,Amanda Stagg,XXX,2024-04-05,E
+155274,Waters of Rockport,Indiana,F0880,True,False,False,Amanda Stagg,XXX,2024-04-05,D
+155280,The Waters of Dillsboro,Indiana,F0880,True,False,False,Jared Caudill,XXX,2025-07-18,D
+155280,The Waters of Dillsboro,Indiana,F0755,True,False,False,Jared Caudill,XXX,2025-06-17,D
+155280,The Waters of Dillsboro,Indiana,F0755,True,False,False,Jared Caudill,XXX,2025-03-06,D
+155280,The Waters of Dillsboro,Indiana,F0880,True,False,False,Jared Caudill,XXX,2025-03-06,D
+155280,The Waters of Dillsboro,Indiana,F0755,True,False,False,Jared Caudill,XXX,2023-02-15,D
+155280,The Waters of Dillsboro,Indiana,F0757,True,False,False,Jared Caudill,XXX,2023-02-15,D
+155286,Avalon Village,Indiana,F0755,True,False,False,TBD,XXX,2024-11-06,D
+155286,Avalon Village,Indiana,F0880,True,False,False,TBD,XXX,2024-11-06,D
+155291,Eagle Valley Meadows,Indiana,F0880,False,False,False,XXX,XXX,2025-08-01,E
+155291,Eagle Valley Meadows,Indiana,F0755,False,False,False,XXX,XXX,2024-10-10,D
+155291,Eagle Valley Meadows,Indiana,F0880,False,False,False,XXX,XXX,2024-10-10,D
+155291,Eagle Valley Meadows,Indiana,F0880,False,False,False,XXX,XXX,2024-06-06,D
+155291,Eagle Valley Meadows,Indiana,F0755,False,False,False,XXX,XXX,2023-03-20,E
+155292,American Village,Indiana,F0880,False,False,False,XXX,XXX,2025-02-25,D
+155292,American Village,Indiana,F0755,False,False,False,XXX,XXX,2024-01-10,D
+155292,American Village,Indiana,F0880,False,False,False,XXX,XXX,2024-01-10,E
+155292,American Village,Indiana,F0755,False,False,False,XXX,XXX,2023-02-15,D
+155292,American Village,Indiana,F0755,False,False,False,XXX,XXX,2022-09-28,D
+155292,American Village,Indiana,F0756,False,False,False,XXX,XXX,2022-09-28,D
+155295,Clinton House Rehab & HCC,Indiana,F0880,False,False,False,XXX,XXX,2025-08-15,D
+155295,Clinton House Rehab & HCC,Indiana,F0880,False,False,False,XXX,XXX,2024-09-10,D
+155295,Clinton House Rehab & HCC,Indiana,F0755,False,False,False,XXX,XXX,2023-06-06,D
+155295,Clinton House Rehab & HCC,Indiana,F0755,False,False,False,XXX,XXX,2023-09-01,E
+155319,Clinton Gardens,Indiana,F0755,True,False,False,Josephine Mwachande,XXX,2025-06-10,D
+155319,Clinton Gardens,Indiana,F0760,True,False,False,Josephine Mwachande,XXX,2025-08-11,D
+155319,Clinton Gardens,Indiana,F0757,True,False,False,Josephine Mwachande,XXX,2023-06-06,D
+155332,Heritage House of Connersville,Indiana,F0880,False,False,False,XXX,XXX,2023-11-17,D
+155332,Heritage House of Connersville,Indiana,F0880,False,False,False,XXX,XXX,2022-09-22,D
+155333,Paoli Health and Living Community SNF,Indiana,F0880,True,False,False,Sonya Taylor,XXX,2025-04-11,D
+155333,Paoli Health and Living Community SNF,Indiana,F0880,True,False,False,Sonya Taylor,XXX,2024-02-13,E
+155335,Ossian Healthcare ALF,Indiana,F0880,True,False,False,Mindy Scott,XXX,2023-09-20,E
+155335,Ossian Healthcare SNF,Indiana,F0880,True,False,False,Mindy Scott,XXX,2023-09-20,E
+155338,Majestic Care of Avon,Indiana,F0755,True,False,False,Ronica Jackson,XXX,2023-04-28,E
+155338,Majestic Care of Avon,Indiana,F0755,True,False,False,Ronica Jackson,XXX,2022-03-15,D
+155338,Majestic Care of Avon,Indiana,F0880,True,False,False,Ronica Jackson,XXX,2022-03-15,D
+155352,Elkhart Meadows,Indiana,F0759,True,False,False,Mary Nguru,XXX,2024-08-30,D
+155353,Hickory Creek - Greensburg,Indiana,F0880,True,False,False,Jared Caudill,XXX,2025-09-22,D
+155353,Hickory Creek - Greensburg,Indiana,F0757,True,False,False,Jared Caudill,XXX,2024-10-11,D
+155353,Hickory Creek - Greensburg,Indiana,F0759,True,False,False,Jared Caudill,XXX,2024-10-11,D
+155353,Hickory Creek - Greensburg,Indiana,F0757,True,False,False,Jared Caudill,XXX,2023-08-10,D
+155353,Hickory Creek - Greensburg,Indiana,F0880,True,False,False,Jared Caudill,XXX,2023-08-10,D
+155355,West Bend Nursing and Rehabilitation,Indiana,F0605,False,False,False,XXX,XXX,2025-06-19,D
+155355,West Bend Nursing and Rehabilitation,Indiana,F0757,False,False,False,XXX,XXX,2024-12-09,D
+155355,West Bend Nursing and Rehabilitation,Indiana,F0880,False,False,False,XXX,XXX,2024-12-09,D
+155355,West Bend Nursing and Rehabilitation,Indiana,F0755,False,False,False,XXX,XXX,2022-10-25,D
+155355,West Bend Nursing and Rehabilitation,Indiana,F0757,False,False,False,XXX,XXX,2022-10-25,D
+155358,Majestic Care of Deming Park,Indiana,F0756,True,False,False,Josephine Mwachande,XXX,2025-06-25,D
+155358,Majestic Care of Deming Park,Indiana,F0880,True,False,False,Josephine Mwachande,XXX,2025-06-25,D
+155358,Majestic Care of Deming Park,Indiana,F0759,True,False,False,Josephine Mwachande,XXX,2024-06-07,D
+155368,Todd Dickey,Indiana,F0755,True,False,False,Betsy Harrison,XXX,2024-01-18,D
+155379,Life Care - Rochester,Indiana,F0605,True,True,True,Jessica Hughes,Donald Wolfram,2025-09-19,D
+155379,Life Care - Rochester,Indiana,F0880,True,True,True,Jessica Hughes,Donald Wolfram,2025-09-19,D
+155379,Life Care - Rochester,Indiana,F0880,True,True,True,Jessica Hughes,Donald Wolfram,2024-09-20,D
+155379,Life Care - Rochester,Indiana,F0880,True,True,True,Jessica Hughes,Donald Wolfram,2023-11-17,D
+155383,Washington HCC,Indiana,F0757,True,False,False,Cheryl Davis-Land,XXX,2023-05-26,D
+155387,Caroleton Healthcare Center,Indiana,F0757,True,False,False,Josephine Mwachande,XXX,2022-12-02,D
+155388,Core of Bedford Nursing,Indiana,F0755,True,False,False,Jennifer Phelps,XXX,2025-01-17,D
+155388,Core of Bedford Nursing,Indiana,F0880,True,False,False,Jennifer Phelps,XXX,2023-03-17,F
+155417,Hickory Creek - Scottsburg,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2025-12-04,D
+155417,Hickory Creek - Scottsburg,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2024-12-06,D
+155417,Hickory Creek - Scottsburg,Indiana,F0880,True,False,False,Sonya Taylor,XXX,2024-12-06,E
+155424,Hickory Creek - Columbus,Indiana,F0755,True,True,True,Jennifer Phelps,Marwan Mustaklem,2025-09-12,D
+155430,Hickory Creek at Rochester,Indiana,F0880,False,False,False,XXX,XXX,2024-06-10,E
+155430,Hickory Creek at Rochester,Indiana,F0880,False,False,False,XXX,XXX,2021-11-19,D
+155432,Albany Health and Rehabilitation,Indiana,F0755,False,True,False,XXX,Vahid-David Sedaghat,2024-01-22,D
+155432,Albany Health and Rehabilitation,Indiana,F0760,False,True,False,XXX,Vahid-David Sedaghat,2023-08-16,G
+155442,Hickory Creek - Franklin,Indiana,F0880,False,False,False,XXX,XXX,2024-04-05,D
+155442,Hickory Creek - Franklin,Indiana,F0880,False,False,False,XXX,XXX,2023-09-27,D
+155443,The Waters of Muncie,Indiana,F0755,True,True,True,Jessica Wahl,Steven DeLee,2025-03-31,E
+155443,The Waters of Muncie,Indiana,F0865,True,True,True,Jessica Wahl,Steven DeLee,2025-03-31,E
+155443,The Waters of Muncie,Indiana,F0755,True,True,True,Jessica Wahl,Steven DeLee,2024-05-17,E
+155443,The Waters of Muncie,Indiana,F0755,True,True,True,Jessica Wahl,Steven DeLee,2023-06-30,F
+155443,The Waters of Muncie,Indiana,F0880,True,True,True,Jessica Wahl,Steven DeLee,2023-06-30,E
+155462,Swiss Villa Nursing and Rehab,Indiana,F0757,True,False,False,Jared Caudill,XXX,2023-08-02,D
+155462,Swiss Villa Nursing and Rehab,Indiana,F0880,True,False,False,Jared Caudill,XXX,2023-10-11,D
+155471,Four Seasons Retirement Center AL,Indiana,F0755,True,False,False,Jennifer Phelps,XXX,2025-06-23,D
+155471,Four Seasons Retirement Center - SNF,Indiana,F0755,True,False,False,Jennifer Phelps,XXX,2025-06-23,D
+155471,Four Seasons Retirement Center AL,Indiana,F0755,True,False,False,Jennifer Phelps,XXX,2023-02-07,D
+155471,Four Seasons Retirement Center - SNF,Indiana,F0755,True,False,False,Jennifer Phelps,XXX,2023-02-07,D
+155480,Envive Healthcare of Brookville,Indiana,F0880,True,False,False,Jared Caudill,XXX,2025-02-27,D
+155483,The Waters of Rising Sun,Indiana,F0757,True,False,False,Jared Caudill,XXX,2025-01-09,D
+155483,The Waters of Rising Sun,Indiana,F0755,True,False,False,Jared Caudill,XXX,2023-09-26,D
+155483,The Waters of Rising Sun,Indiana,F0755,True,False,False,Jared Caudill,XXX,2023-01-18,D
+155483,The Waters of Rising Sun,Indiana,F0757,True,False,False,Jared Caudill,XXX,2023-01-18,D
+155484,Southland Healthcare Center,South Carolina,F0760,True,False,False,Hosea Keoch,XXX,2025-04-10,E
+155484,Southland Healthcare Center,South Carolina,F0880,True,False,False,Hosea Keoch,XXX,2025-04-10,D
+155484,Southland Healthcare Center,South Carolina,F0880,True,False,False,Hosea Keoch,XXX,2024-12-09,D
+155484,Southland Healthcare Center,South Carolina,F0760,True,False,False,Hosea Keoch,XXX,2024-12-31,E
+155484,Southland Healthcare Center,South Carolina,F0755,True,False,False,Hosea Keoch,XXX,2024-05-17,D
+155484,Southland Healthcare Center,South Carolina,F0755,True,False,False,Hosea Keoch,XXX,2024-01-24,D
+155484,Southland Healthcare Center,South Carolina,F0880,True,False,False,Hosea Keoch,XXX,2022-07-26,E
+155505,Robin Run SNF,Indiana,F0880,False,True,False,XXX,Marwan Mustaklem,2025-12-23,D
+155505,Robin Run SNF,Indiana,F0605,False,True,False,XXX,Marwan Mustaklem,2025-09-23,D
+155505,Robin Run SNF,Indiana,F0880,False,True,False,XXX,Marwan Mustaklem,2025-09-23,E
+155505,Robin Run SNF,Indiana,F0755,False,True,False,XXX,Marwan Mustaklem,2024-08-23,D
+155505,Robin Run SNF,Indiana,F0755,False,True,False,XXX,Marwan Mustaklem,2023-06-12,D
+155505,Robin Run SNF,Indiana,F0757,False,True,False,XXX,Marwan Mustaklem,2023-06-12,D
+155507,Envive Healthcare of Liberty,Indiana,F0755,True,False,False,Jared Caudill,XXX,2024-07-12,D
+155510,Century Villa Health,Indiana,F0880,False,True,False,XXX,Vahid-David Sedaghat,2025-12-18,D
+155510,Century Villa Health,Indiana,F0880,False,True,False,XXX,Vahid-David Sedaghat,2024-10-02,E
+155510,Century Villa Health,Indiana,F0880,False,True,False,XXX,Vahid-David Sedaghat,2023-08-07,D
+155525,Shady Nook Care Center,Indiana,F0760,True,False,False,Jared Caudill,XXX,2025-11-20,G
+155525,Shady Nook Care Center,Indiana,F0757,True,False,False,Jared Caudill,XXX,2024-11-13,D
+155525,Shady Nook Care Center,Indiana,F0755,True,False,False,Jared Caudill,XXX,2024-06-05,D
+155525,Shady Nook Care Center,Indiana,F0760,True,False,False,Jared Caudill,XXX,2023-09-25,D
+155525,Shady Nook Care Center,Indiana,F0755,True,False,False,Jared Caudill,XXX,2023-05-11,E
+155525,Shady Nook Care Center,Indiana,F0880,True,False,False,Jared Caudill,XXX,2022-08-04,D
+155532,Aperion Care Monroe,Indiana,F0757,False,False,False,XXX,XXX,2023-11-16,D
+155535,Willow Crossing,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2023-03-09,D
+155535,Willow Crossing,Indiana,F0757,True,False,False,Sonya Taylor,XXX,2023-03-09,D
+155546,Bethel Pointe Health & Rehab,Indiana,F0759,True,True,True,Jessica Wahl,Vahid-David Sedaghat,2023-05-09,D
+155546,Bethel Pointe Health & Rehab,Indiana,F0880,True,True,True,Jessica Wahl,Vahid-David Sedaghat,2023-05-09,D
+155556,The Waters of Tipton,Indiana,F0757,True,False,False,Tamala Ndenguma,XXX,2025-07-18,D
+155556,The Waters of Tipton,Indiana,F0755,True,False,False,Tamala Ndenguma,XXX,2025-03-18,D
+155556,The Waters of Tipton,Indiana,F0880,True,False,False,Tamala Ndenguma,XXX,2025-03-18,E
+155556,The Waters of Tipton,Indiana,F0880,True,False,False,Tamala Ndenguma,XXX,2023-02-27,D
+155561,Good Samaritan Home and Rehabilitative Center,Indiana,F0756,False,False,False,XXX,XXX,2025-01-09,D
+155561,Good Samaritan Home and Rehabilitative Center,Indiana,F0880,False,False,False,XXX,XXX,2025-01-09,D
+155561,Good Samaritan Home and Rehabilitative Center,Indiana,F0759,False,False,False,XXX,XXX,2022-04-08,D
+155561,Good Samaritan Home and Rehabilitative Center,Indiana,F0880,False,False,False,XXX,XXX,2022-04-08,D
+155566,The New Warsaw,Indiana,F0755,False,False,False,XXX,XXX,2025-09-08,D
+155566,The New Warsaw,Indiana,F0755,False,False,False,XXX,XXX,2024-08-13,D
+155573,The Waters of Middletown,Indiana,F0880,True,False,False,Jessica Hughes,XXX,2024-12-09,E
+155581,The Waters of Syracuse,Indiana,F0757,False,True,False,XXX,Paul Kaplanis,2025-01-10,D
+155581,The Waters of Syracuse,Indiana,F0880,False,True,False,XXX,Paul Kaplanis,2025-01-10,D
+155581,The Waters of Syracuse,Indiana,F0760,False,True,False,XXX,Paul Kaplanis,2024-02-09,D
+155581,The Waters of Syracuse,Indiana,F0880,False,True,False,XXX,Paul Kaplanis,2024-02-09,D
+155582,The Waters of Wakarusa SNF,Indiana,F0880,False,False,False,XXX,XXX,2025-03-14,E
+155593,Compass Park Indiana Masonic Home,Indiana,F0880,True,False,False,Ronica Jackson,XXX,2024-09-20,D
+155596,Lakeland Nursing & Rehabilitation,Indiana,F0880,True,True,True,Jessica Hughes,Christopher Baltes,2022-06-16,D
+155611,Hoosier Health & Living,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2025-08-13,D
+155611,Hoosier Health & Living,Indiana,F0757,True,False,False,Sonya Taylor,XXX,2024-10-30,D
+155611,Hoosier Health & Living,Indiana,F0757,True,False,False,Sonya Taylor,XXX,2023-08-30,D
+155614,Lincoln Hills Health Center of New Albany,Indiana,F0755,True,False,False,Kimberly Schoengart,XXX,2024-09-30,E
+155621,River Bend Nursing and Rehab,Indiana,F0755,True,False,False,Amanda Stagg,XXX,2024-11-14,D
+155621,River Bend Nursing and Rehab,Indiana,F0759,True,False,False,Amanda Stagg,XXX,2024-11-14,D
+155621,River Bend Nursing and Rehab,Indiana,F0880,True,False,False,Amanda Stagg,XXX,2024-11-14,D
+155621,River Bend Nursing and Rehab,Indiana,F0755,True,False,False,Amanda Stagg,XXX,2024-06-05,E
+155621,River Bend Nursing and Rehab,Indiana,F0756,True,False,False,Amanda Stagg,XXX,2023-09-11,E
+155621,River Bend Nursing and Rehab,Indiana,F0880,True,False,False,Amanda Stagg,XXX,2023-09-11,E
+155621,River Bend Nursing and Rehab,Indiana,F0880,True,False,False,Amanda Stagg,XXX,2021-08-24,E
+155625,Arbor Grove Village,Indiana,F0755,False,False,False,XXX,XXX,2025-04-28,D
+155625,Arbor Grove Village,Indiana,F0756,False,False,False,XXX,XXX,2025-04-28,D
+155625,Arbor Grove Village,Indiana,F0755,False,False,False,XXX,XXX,2024-05-17,D
+155627,The Waters of Wabash West (Miller's),Indiana,F0880,True,False,False,Jessica Wahl,XXX,2025-08-07,D
+155627,The Waters of Wabash West (Miller's),Indiana,F0880,True,False,False,Jessica Wahl,XXX,2024-07-18,D
+155631,White River Lodge,Indiana,F0880,True,True,True,Jennifer Phelps,Kevin Neese,2025-06-02,D
+155636,Harrison Terrace,Indiana,F0880,True,True,True,Ronica Jackson,Marwan Mustaklem,2025-09-08,E
+155649,McCormick's Creeks Rehab,Indiana,F0880,True,False,False,Jennifer Phelps,XXX,2024-02-15,D
+155651,Homeview Health,Indiana,F0880,False,False,False,XXX,XXX,2023-01-27,D
+155659,Sellersburg,Indiana,F0755,True,False,False,Betsy Harrison,XXX,2024-10-15,E
+155659,Sellersburg,Indiana,F0880,True,False,False,Betsy Harrison,XXX,2024-10-15,E
+155659,Sellersburg,Indiana,F0867,True,False,False,Betsy Harrison,XXX,2022-08-16,D
+155665,Majestic Care of North Vernon,Indiana,F0755,False,True,False,XXX,Kevin Neese,2025-06-12,D
+155665,Majestic Care of North Vernon,Indiana,F0880,False,True,False,XXX,Kevin Neese,2025-06-12,E
+155665,Majestic Care of North Vernon,Indiana,F0755,False,True,False,XXX,Kevin Neese,2023-03-17,D
+155665,Majestic Care of North Vernon,Indiana,F0755,False,True,False,XXX,Kevin Neese,2023-05-15,D
+155665,Majestic Care of North Vernon,Indiana,F0867,False,True,False,XXX,Kevin Neese,2023-05-15,D
+155666,Auburn Village,Indiana,F0880,True,True,True,Lisa Omo-Griffith,Thomas Kintanar ,2024-07-02,E
+155672,Hamilton Grove SNF,Indiana,F0757,True,True,True,Vinicius Teixeira,Donald Wolfram,2025-05-08,D
+155672,Hamilton Grove ALF,Indiana,F0757,True,False,False,Vinicius Teixeira,XXX,2025-05-08,D
+155672,Hamilton Grove SNF,Indiana,F0755,True,True,True,Vinicius Teixeira,Donald Wolfram,2024-10-22,D
+155672,Hamilton Grove ALF,Indiana,F0755,True,False,False,Vinicius Teixeira,XXX,2024-10-22,D
+155672,Hamilton Grove SNF,Indiana,F0755,True,True,True,Vinicius Teixeira,Donald Wolfram,2024-05-06,D
+155672,Hamilton Grove ALF,Indiana,F0755,True,False,False,Vinicius Teixeira,XXX,2024-05-06,D
+155672,Hamilton Grove SNF,Indiana,F0757,True,True,True,Vinicius Teixeira,Donald Wolfram,2024-05-06,D
+155672,Hamilton Grove ALF,Indiana,F0757,True,False,False,Vinicius Teixeira,XXX,2024-05-06,D
+155689,Majestic Care of Goshen,Indiana,F0880,True,False,False,Mary Nguru,XXX,2025-01-23,E
+155689,Majestic Care of Goshen,Indiana,F0757,True,False,False,Mary Nguru,XXX,2024-03-02,D
+155689,Majestic Care of Goshen,Indiana,F0880,True,False,False,Mary Nguru,XXX,2024-03-02,D
+155689,Majestic Care of Goshen,Indiana,F0757,True,False,False,Mary Nguru,XXX,2023-01-18,D
+155693,Silver Oaks,Indiana,F0880,False,True,False,XXX,Marwan Mustaklem,2025-04-17,D
+155693,Silver Oaks,Indiana,F0755,False,True,False,XXX,Marwan Mustaklem,2024-05-08,D
+155695,Riverside Village,Indiana,F0756,False,False,False,XXX,XXX,2024-11-27,D
+155695,Riverside Village,Indiana,F0880,False,False,False,XXX,XXX,2024-11-27,D
+155695,Riverside Village,Indiana,F0755,False,False,False,XXX,XXX,2024-10-10,D
+155695,Riverside Village,Indiana,F0757,False,False,False,XXX,XXX,2023-12-12,D
+155695,Riverside Village,Indiana,F0880,False,False,False,XXX,XXX,2022-10-05,D
+155697,Clark Rehab,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2025-07-01,D
+155697,Clark Rehab,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2023-03-14,D
+155704,Waldron Rehab and Health,Indiana,F0880,True,False,False,Cheryl Davis-Land,XXX,2023-12-08,E
+155704,Waldron Rehab and Health,Indiana,F0755,True,False,False,Cheryl Davis-Land,XXX,2022-04-08,D
+155704,Waldron Rehab and Health,Indiana,F0880,True,False,False,Cheryl Davis-Land,XXX,2022-04-08,E
+155715,Lutheran Community Home,Indiana,F0760,True,False,False,Sonya Taylor,XXX,2024-09-13,D
+155715,Lutheran Community Home,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2022-07-25,D
+155715,Lutheran Community Home,Indiana,F0880,True,False,False,Sonya Taylor,XXX,2022-07-25,D
+155727,Stonebridge SNF,Indiana,F0760,False,True,False,XXX,Kevin Neese,2022-12-06,G
+155727,Stonebridge ALF,Indiana,F0760,False,True,False,XXX,Kevin Neese,2022-12-06,G
+155727,Stonebridge SNF,Indiana,F0880,False,True,False,XXX,Kevin Neese,2022-12-06,D
+155727,Stonebridge ALF,Indiana,F0880,False,True,False,XXX,Kevin Neese,2022-12-06,D
+155728,Manderley Health Care Center,Indiana,F0880,True,False,False,Jared Caudill,XXX,2025-01-31,D
+155728,Manderley Health Care Center,Indiana,F0755,True,False,False,Jared Caudill,XXX,2024-03-08,D
+155728,Manderley Health Care Center,Indiana,F0755,True,False,False,Jared Caudill,XXX,2023-01-27,D
+155733,Colonial Nursing and Rehabilitation,Indiana,F0880,True,False,False,Lakisha Eskridge,XXX,2025-03-18,E
+155733,Colonial Nursing and Rehabilitation,Indiana,F0880,True,False,False,Lakisha Eskridge,XXX,2025-06-02,D
+155733,Colonial Nursing and Rehabilitation,Indiana,F0880,True,False,False,Lakisha Eskridge,XXX,2023-02-21,D
+155733,Colonial Nursing and Rehabilitation,Indiana,F0757,True,False,False,Lakisha Eskridge,XXX,2023-06-30,D
+155733,Colonial Nursing and Rehabilitation,Indiana,F0880,True,False,False,Lakisha Eskridge,XXX,2023-06-30,D
+155734,Thornton Terrace Health Campus,Indiana,F0755,False,False,False,XXX,XXX,2024-08-21,D
+155734,Thornton Terrace Health Campus,Indiana,F0755,False,False,False,XXX,XXX,2023-05-15,D
+155740,Timbercrest Retirement,Indiana,F0880,True,False,False,Jessica Hughes,XXX,2024-09-30,D
+155742,St Andrews Health Campus - Batesville ALF,Indiana,F0755,False,False,False,XXX,XXX,2024-12-16,D
+155742,St Andrews Health Campus - Batesville SNF,Indiana,F0755,False,False,False,XXX,XXX,2024-12-16,D
+155742,St Andrews Health Campus - Batesville ALF,Indiana,F0757,False,False,False,XXX,XXX,2022-12-14,D
+155742,St Andrews Health Campus - Batesville SNF,Indiana,F0757,False,False,False,XXX,XXX,2022-12-14,D
+155751,Meadow Lakes SNF,Indiana,F0880,False,False,False,XXX,XXX,2024-06-05,D
+155751,Meadow Lakes ALF,Indiana,F0880,False,False,False,XXX,XXX,2024-06-05,D
+155755,Golden Years - Fort Wayne - SNF,Indiana,F0880,True,True,True,Mindy Scott,Christopher Baltes,2024-09-23,D
+155755,Golden Years - Fort Wayne - ALF,Indiana,F0880,True,True,True,Mindy Scott,Christopher Baltes,2024-09-23,D
+155755,Golden Years - Fort Wayne - SNF,Indiana,F0865,True,True,True,Mindy Scott,Christopher Baltes,2024-01-30,E
+155755,Golden Years - Fort Wayne - ALF,Indiana,F0865,True,True,True,Mindy Scott,Christopher Baltes,2024-01-30,E
+155761,Brownsburg Meadows,Indiana,F0755,False,False,False,XXX,XXX,2025-10-16,E
+155761,Brownsburg Meadows,Indiana,F0757,False,False,False,XXX,XXX,2023-04-04,E
+155766,Maple Manor Christian Home,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2025-01-14,E
+155770,The Waters of Georgetown SNF,Indiana,F0867,True,False,False,Sonya Taylor,XXX,2025-09-26,D
+155770,The Waters of Georgetown ALF,Indiana,F0867,True,False,False,Sonya Taylor,XXX,2025-09-26,D
+155770,The Waters of Georgetown SNF,Indiana,F0759,True,False,False,Sonya Taylor,XXX,2025-03-27,D
+155770,The Waters of Georgetown ALF,Indiana,F0759,True,False,False,Sonya Taylor,XXX,2025-03-27,D
+155770,The Waters of Georgetown SNF,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2025-06-16,D
+155770,The Waters of Georgetown ALF,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2025-06-16,D
+155770,The Waters of Georgetown SNF,Indiana,F0880,True,False,False,Sonya Taylor,XXX,2025-06-16,E
+155770,The Waters of Georgetown ALF,Indiana,F0880,True,False,False,Sonya Taylor,XXX,2025-06-16,E
+155770,The Waters of Georgetown SNF,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2023-04-26,E
+155770,The Waters of Georgetown ALF,Indiana,F0755,True,False,False,Sonya Taylor,XXX,2023-04-26,E
+155770,The Waters of Georgetown SNF,Indiana,F0760,True,False,False,Sonya Taylor,XXX,2023-04-26,D
+155770,The Waters of Georgetown ALF,Indiana,F0760,True,False,False,Sonya Taylor,XXX,2023-04-26,D
+155771,Otterbein Franklin - ALF,Indiana,F0755,False,False,False,XXX,XXX,2025-04-09,D
+155771,Otterbein Franklin - SNF,Indiana,F0755,False,True,False,XXX,Kevin Neese,2025-04-09,D
+155771,Otterbein Franklin - ALF,Indiana,F0605,False,False,False,XXX,XXX,2025-08-21,D
+155771,Otterbein Franklin - SNF,Indiana,F0605,False,True,False,XXX,Kevin Neese,2025-08-21,D
+155771,Otterbein Franklin - ALF,Indiana,F0755,False,False,False,XXX,XXX,2024-07-31,D
+155771,Otterbein Franklin - SNF,Indiana,F0755,False,True,False,XXX,Kevin Neese,2024-07-31,D
+155771,Otterbein Franklin - ALF,Indiana,F0880,False,False,False,XXX,XXX,2024-07-31,D
+155771,Otterbein Franklin - SNF,Indiana,F0880,False,True,False,XXX,Kevin Neese,2024-07-31,D
+155773,The Terrace at Solarbron,Indiana,F0880,True,False,False,Amanda Stagg,XXX,2024-12-10,E
+155773,The Terrace at Solarbron,Indiana,F0880,True,False,False,Amanda Stagg,XXX,2022-03-22,E
+155784,Creekside Village,Indiana,F0756,False,True,False,XXX,Donald Wolfram,2024-02-09,D
+155784,Creekside Village,Indiana,F0880,False,True,False,XXX,Donald Wolfram,2024-02-09,D
+155784,Creekside Village,Indiana,F0755,False,True,False,XXX,Donald Wolfram,2023-10-06,D
+155784,Creekside Village,Indiana,F0880,False,True,False,XXX,Donald Wolfram,2022-12-02,D
+155789,Ridgewood Health SNF,Indiana,F0755,False,False,False,XXX,XXX,2025-07-02,D
+155789,Ridgewood Health ALF,Indiana,F0755,False,False,False,XXX,XXX,2025-07-02,D
+155789,Ridgewood Health SNF,Indiana,F0880,False,False,False,XXX,XXX,2025-07-02,D
+155789,Ridgewood Health ALF,Indiana,F0880,False,False,False,XXX,XXX,2025-07-02,D
+155789,Ridgewood Health SNF,Indiana,F0755,False,False,False,XXX,XXX,2023-06-21,D
+155789,Ridgewood Health ALF,Indiana,F0755,False,False,False,XXX,XXX,2023-06-21,D
+155789,Ridgewood Health SNF,Indiana,F0757,False,False,False,XXX,XXX,2023-06-21,D
+155789,Ridgewood Health ALF,Indiana,F0757,False,False,False,XXX,XXX,2023-06-21,D
+155792,Countryside Meadows,Indiana,F0757,False,False,False,XXX,XXX,2024-10-07,D
+155792,Countryside Meadows,Indiana,F0760,False,False,False,XXX,XXX,2024-01-19,D
+155792,Countryside Meadows,Indiana,F0755,False,False,False,XXX,XXX,2023-08-31,D
+155792,Countryside Meadows,Indiana,F0880,False,False,False,XXX,XXX,2023-08-31,D
+155797,Aspen Place Health Campus SNF,Indiana,F0755,False,True,False,XXX,Marwan Mustaklem,2025-05-13,D
+155797,Aspen Place Health Campus ALF,Indiana,F0755,False,True,False,XXX,Marwan Mustaklem,2025-05-13,D
+155797,Aspen Place Health Campus SNF,Indiana,F0760,False,True,False,XXX,Marwan Mustaklem,2025-05-13,D
+155797,Aspen Place Health Campus ALF,Indiana,F0760,False,True,False,XXX,Marwan Mustaklem,2025-05-13,D
+155797,Aspen Place Health Campus SNF,Indiana,F0880,False,True,False,XXX,Marwan Mustaklem,2025-05-13,E
+155797,Aspen Place Health Campus ALF,Indiana,F0880,False,True,False,XXX,Marwan Mustaklem,2025-05-13,E
+155797,Aspen Place Health Campus SNF,Indiana,F0755,False,True,False,XXX,Marwan Mustaklem,2023-04-28,D
+155797,Aspen Place Health Campus ALF,Indiana,F0755,False,True,False,XXX,Marwan Mustaklem,2023-04-28,D
+155797,Aspen Place Health Campus SNF,Indiana,F0760,False,True,False,XXX,Marwan Mustaklem,2023-04-28,D
+155797,Aspen Place Health Campus ALF,Indiana,F0760,False,True,False,XXX,Marwan Mustaklem,2023-04-28,D
+155797,Aspen Place Health Campus SNF,Indiana,F0867,False,True,False,XXX,Marwan Mustaklem,2023-04-28,D
+155797,Aspen Place Health Campus ALF,Indiana,F0867,False,True,False,XXX,Marwan Mustaklem,2023-04-28,D
+155797,Aspen Place Health Campus SNF,Indiana,F0880,False,True,False,XXX,Marwan Mustaklem,2023-04-28,D
+155797,Aspen Place Health Campus ALF,Indiana,F0880,False,True,False,XXX,Marwan Mustaklem,2023-04-28,D
+155800,LLV - Pine Valley,Indiana,F0756,False,False,False,XXX,XXX,2025-03-19,D
+155803,Hamilton Pointe Health and Rehab - SNF,Indiana,F0755,False,False,False,XXX,XXX,2025-10-17,D
+155803,Hamilton Pointe Health and Rehab - AL,Indiana,F0755,False,False,False,XXX,XXX,2025-10-17,D
+155803,Hamilton Pointe Health and Rehab - MC,Indiana,F0755,False,False,False,XXX,XXX,2025-10-17,D
+155803,Hamilton Pointe Health and Rehab - SNF,Indiana,F0880,False,False,False,XXX,XXX,2025-02-27,E
+155803,Hamilton Pointe Health and Rehab - AL,Indiana,F0880,False,False,False,XXX,XXX,2025-02-27,E
+155803,Hamilton Pointe Health and Rehab - MC,Indiana,F0880,False,False,False,XXX,XXX,2025-02-27,E
+155803,Hamilton Pointe Health and Rehab - SNF,Indiana,F0880,False,False,False,XXX,XXX,2025-08-06,E
+155803,Hamilton Pointe Health and Rehab - AL,Indiana,F0880,False,False,False,XXX,XXX,2025-08-06,E
+155803,Hamilton Pointe Health and Rehab - MC,Indiana,F0880,False,False,False,XXX,XXX,2025-08-06,E
+155803,Hamilton Pointe Health and Rehab - SNF,Indiana,F0759,False,False,False,XXX,XXX,2024-06-05,D
+155803,Hamilton Pointe Health and Rehab - AL,Indiana,F0759,False,False,False,XXX,XXX,2024-06-05,D
+155803,Hamilton Pointe Health and Rehab - MC,Indiana,F0759,False,False,False,XXX,XXX,2024-06-05,D
+155803,Hamilton Pointe Health and Rehab - SNF,Indiana,F0880,False,False,False,XXX,XXX,2024-06-05,E
+155803,Hamilton Pointe Health and Rehab - AL,Indiana,F0880,False,False,False,XXX,XXX,2024-06-05,E
+155803,Hamilton Pointe Health and Rehab - MC,Indiana,F0880,False,False,False,XXX,XXX,2024-06-05,E
+155803,Hamilton Pointe Health and Rehab - SNF,Indiana,F0880,False,False,False,XXX,XXX,2022-11-22,E
+155803,Hamilton Pointe Health and Rehab - AL,Indiana,F0880,False,False,False,XXX,XXX,2022-11-22,E
+155803,Hamilton Pointe Health and Rehab - MC,Indiana,F0880,False,False,False,XXX,XXX,2022-11-22,E
+155805,Addison Pointe Health & Rehab Center,Indiana,F0880,False,False,False,XXX,XXX,2024-07-31,D
+155805,Addison Pointe Health & Rehab Center,Indiana,F0757,False,False,False,XXX,XXX,2023-01-13,D
+155805,Addison Pointe Health & Rehab Center,Indiana,F0880,False,False,False,XXX,XXX,2023-01-13,D
+155809,Grey Stone Health & Rehabilitation Center,Indiana,F0755,True,True,True,Lisa Omo-Griffith,Christopher Baltes,2025-02-25,D
+155809,Grey Stone Health & Rehabilitation Center,Indiana,F0755,True,True,True,Lisa Omo-Griffith,Christopher Baltes,2024-09-23,D
+155809,Grey Stone Health & Rehabilitation Center,Indiana,F0757,True,True,True,Lisa Omo-Griffith,Christopher Baltes,2022-10-07,E
+155818,Hearthstone Health SNF,Indiana,F0757,False,True,False,XXX,Kevin Neese,2023-02-21,D
+155847,Silver Memories,Indiana,F0756,True,False,False,Jared Caudill,XXX,2025-12-23,D
+155847,Silver Memories,Indiana,F0880,True,False,False,Jared Caudill,XXX,2025-12-23,D
+155847,Silver Memories,Indiana,F0880,True,False,False,Jared Caudill,XXX,2024-11-26,D
+155850,Bell Tower Health & Rehab,Indiana,F0756,True,True,True,Mary Nguru,Taryn Fernandes,2023-08-14,D
+155850,Bell Tower Health & Rehab,Indiana,F0757,True,True,True,Mary Nguru,Taryn Fernandes,2023-08-14,D
+155859,Envive of Beech Grove - SNF,Indiana,F0755,False,False,False,XXX,XXX,2024-12-18,D
+185015,Madisonville Health and Rehab,Kentucky,F0880,True,False,False,Leslie Johnson,XXX,2025-05-01,D
+185029,River Oaks Post Acute,Kentucky,F0880,True,False,False,Catherine Flem,XXX,2025-07-09,D
+185029,River Oaks Post Acute,Kentucky,F0880,True,False,False,Catherine Flem,XXX,2024-06-07,E
+185029,River Oaks Post Acute,Kentucky,F0880,True,False,False,Catherine Flem,XXX,2019-03-15,F
+185038,The Pavilion at Kenton,Kentucky,F0880,True,True,True,Lorie Jansen,Laura Faughn,2025-02-28,F
+185038,The Pavilion at Kenton,Kentucky,F0755,True,True,True,Lorie Jansen,Laura Faughn,2021-07-15,D
+185038,The Pavilion at Kenton,Kentucky,F0880,True,True,True,Lorie Jansen,Laura Faughn,2021-07-15,E
+185039,Highlands Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Sheena Steele,XXX,2025-02-28,D
+185039,Highlands Nursing and Rehabilitation,Kentucky,F0760,True,False,False,Sheena Steele,XXX,2020-01-11,D
+185039,Highlands Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Sheena Steele,XXX,2020-01-11,E
+185042,Grandview Nursing and Rehab,Kentucky,F0880,True,False,False,Molly Fox,XXX,2025-09-04,D
+185042,Grandview Nursing and Rehab,Kentucky,F0756,True,False,False,Molly Fox,XXX,2024-07-12,D
+185046,Salem Springlake Health & Rehab Center,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2023-12-08,D
+185046,Salem Springlake Health & Rehab Center,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2021-04-01,D
+185048,Colonial Center,Kentucky,F0880,True,False,False,Kathy Moss,XXX,2024-01-27,E
+185048,Colonial Center,Kentucky,F0880,True,False,False,Kathy Moss,XXX,2019-06-13,D
+185049,Auburn Health Care,Kentucky,F0880,True,False,False,Abigail Pollachek,XXX,2025-04-10,D
+185049,Auburn Health Care,Kentucky,F0865,True,False,False,Abigail Pollachek,XXX,2025-09-12,F
+185065,Maplewood Health & Rehabilitation,Kentucky,F0880,True,False,False,Keisha Todd,XXX,2024-07-12,D
+185089,Signature Healthcare of Bowling Green,Kentucky,F0880,True,False,False,Angela Gipson,XXX,2025-09-05,D
+185094,Pikeville Nursing and Rehab,Kentucky,F0880,True,False,False,Hali Adams,XXX,2024-10-30,D
+185094,Pikeville Nursing and Rehab,Kentucky,F0760,True,False,False,Hali Adams,XXX,2018-07-19,D
+185096,Parkwood Health & Rehabilitation,Kentucky,F0880,True,False,False,Sheena Steele,XXX,2024-07-03,E
+185096,Parkwood Health & Rehabilitation,Kentucky,F0880,True,False,False,Sheena Steele,XXX,2019-06-24,D
+185096,Parkwood Health & Rehabilitation,Kentucky,F0880,True,False,False,Sheena Steele,XXX,2018-03-29,D
+185112,Breathitt Health & Rehabilitation,Kentucky,F0880,True,False,False,Hali Adams,XXX,2025-02-07,D
+185112,Breathitt Health & Rehabilitation,Kentucky,F0880,True,False,False,Hali Adams,XXX,2018-06-07,D
+185122,Eastway Health & Rehabilitation,Kentucky,F0880,True,False,False,Catherine Flem,XXX,2024-07-12,F
+185122,Eastway Health & Rehabilitation,Kentucky,F0755,True,False,False,Catherine Flem,XXX,2021-07-03,E
+185122,Eastway Health & Rehabilitation,Kentucky,F0759,True,False,False,Catherine Flem,XXX,2021-07-03,D
+185122,Eastway Health & Rehabilitation,Kentucky,F0867,True,False,False,Catherine Flem,XXX,2021-07-03,F
+185122,Eastway Health & Rehabilitation,Kentucky,F0880,True,False,False,Catherine Flem,XXX,2021-07-03,E
+185122,Eastway Health & Rehabilitation,Kentucky,F0880,True,False,False,Catherine Flem,XXX,2019-12-06,D
+185160,Lexington Country Place,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2025-04-03,E
+185160,Lexington Country Place,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2019-01-31,D
+185167,Hopkins Center,Kentucky,F0880,True,False,False,Abigail Pollachek,XXX,2021-12-02,F
+185168,Signature Healthcare of Monroe County,Kentucky,F0880,True,False,False,Molly Fox,XXX,2019-04-18,D
+185168,Signature Healthcare of Monroe County,Kentucky,F0880,True,False,False,Molly Fox,XXX,2018-03-08,D
+185170,Bradford,Kentucky,F0880,True,False,False,Charlsey Nave,XXX,2024-04-26,E
+185177,Grayson Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Kristen Falls,XXX,2018-09-20,D
+185187,Greenwood Nursing and Rehab - KY,Kentucky,F0880,True,False,False,Angela Gipson,XXX,2025-08-01,D
+185187,Greenwood Nursing and Rehab - KY,Kentucky,F0880,True,False,False,Angela Gipson,XXX,2022-07-05,F
+185187,Greenwood Nursing and Rehab - KY,Kentucky,F0880,True,False,False,Angela Gipson,XXX,2019-10-11,D
+185195,Oakview Nursing and Rehab,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2024-06-13,D
+185195,Oakview Nursing and Rehab,Kentucky,F0759,True,False,False,Kaitlin Overfield,XXX,2021-08-13,D
+185195,Oakview Nursing and Rehab,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2021-08-13,F
+185197,Hartland Park Health and Rehabilitation,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2025-06-13,E
+185197,Hartland Park Health and Rehabilitation,Kentucky,F0755,True,False,False,Julia Guerrero,XXX,2024-08-16,D
+185197,Hartland Park Health and Rehabilitation,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2024-08-16,D
+185197,Hartland Park Health and Rehabilitation,Kentucky,F0867,True,False,False,Julia Guerrero,XXX,2019-09-19,E
+185197,Hartland Park Health and Rehabilitation,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2019-09-19,E
+185200,Letcher Manor,Kentucky,F0880,True,False,False,Hali Adams,XXX,2025-02-27,D
+185200,Letcher Manor,Kentucky,F0759,True,False,False,Hali Adams,XXX,2024-04-05,D
+185205,Signature Healthcare of Carrollton,Kentucky,F0880,False,True,False,XXX,Kathy Short,2024-04-12,D
+185208,Carmel Manor Fort Thomas AL,Kentucky,F0880,True,True,True,Lorie Jansen,Achamma Itticheria,2025-07-24,F
+185208,Carmel Manor Fort Thomas SNF,Kentucky,F0880,True,True,True,Lorie Jansen,Achamma Itticheria,2025-07-24,F
+185208,Carmel Manor Fort Thomas AL,Kentucky,F0880,True,True,True,Lorie Jansen,Achamma Itticheria,2025-03-15,D
+185208,Carmel Manor Fort Thomas SNF,Kentucky,F0880,True,True,True,Lorie Jansen,Achamma Itticheria,2025-03-15,D
+185208,Carmel Manor Fort Thomas AL,Kentucky,F0880,True,True,True,Lorie Jansen,Achamma Itticheria,2025-12-01,F
+185208,Carmel Manor Fort Thomas SNF,Kentucky,F0880,True,True,True,Lorie Jansen,Achamma Itticheria,2025-12-01,F
+185208,Carmel Manor Fort Thomas AL,Kentucky,F0760,True,True,True,Lorie Jansen,Achamma Itticheria,2023-05-05,D
+185208,Carmel Manor Fort Thomas SNF,Kentucky,F0760,True,True,True,Lorie Jansen,Achamma Itticheria,2023-05-05,D
+185208,Carmel Manor Fort Thomas AL,Kentucky,F0759,True,True,True,Lorie Jansen,Achamma Itticheria,2022-03-17,D
+185208,Carmel Manor Fort Thomas SNF,Kentucky,F0759,True,True,True,Lorie Jansen,Achamma Itticheria,2022-03-17,D
+185208,Carmel Manor Fort Thomas AL,Kentucky,F0880,True,True,True,Lorie Jansen,Achamma Itticheria,2022-03-17,F
+185208,Carmel Manor Fort Thomas SNF,Kentucky,F0880,True,True,True,Lorie Jansen,Achamma Itticheria,2022-03-17,F
+185211,Signature Healthcare of McCreary County,Kentucky,F0880,True,False,False,Larrietta Elliotte,XXX,2020-10-01,D
+185211,Signature Healthcare of McCreary County,Kentucky,F0880,True,False,False,Larrietta Elliotte,XXX,2019-05-02,D
+185217,Metcalfe Health Care Center AL,Kentucky,F0880,True,False,False,Molly Fox,XXX,2022-10-22,F
+185217,Metcalfe Health Care Center SNF,Kentucky,F0880,True,True,True,Molly Fox,Laura Faughn,2022-10-22,F
+185218,Somerset Nursing and Rehab,Kentucky,F0867,True,False,False,Keisha Todd,XXX,2019-11-16,E
+185218,Somerset Nursing and Rehab,Kentucky,F0880,True,False,False,Keisha Todd,XXX,2019-11-16,D
+185220,Nicholasville Nursing and Rehab,Kentucky,F0880,True,True,True,Charlsey Nave,Laura Faughn,2025-08-22,E
+185220,Nicholasville Nursing and Rehab,Kentucky,F0755,True,True,True,Charlsey Nave,Laura Faughn,2024-09-12,F
+185220,Nicholasville Nursing and Rehab,Kentucky,F0880,True,True,True,Charlsey Nave,Laura Faughn,2024-09-12,F
+185221,Salyersville Nursing and Rehabilitation Center,Kentucky,F0760,True,False,False,Hali Adams,XXX,2025-05-17,E
+185221,Salyersville Nursing and Rehabilitation Center,Kentucky,F0865,True,False,False,Hali Adams,XXX,2025-05-17,K
+185221,Salyersville Nursing and Rehabilitation Center,Kentucky,F0760,True,False,False,Hali Adams,XXX,2019-02-06,J
+185222,Good Shepherd Health and Rehabilitation Center,Kentucky,F0880,True,False,False,Hali Adams,XXX,2019-10-31,D
+185222,Good Shepherd Health and Rehabilitation Center,Kentucky,F0865,True,False,False,Hali Adams,XXX,2023-11-17,J
+185222,Good Shepherd Health and Rehabilitation Center,Kentucky,F0755,True,False,False,Hali Adams,XXX,2018-10-11,E
+185224,Bowling Green Nursing and Rehabilitation,Kentucky,F0756,True,False,False,Abigail Pollachek,XXX,2024-11-07,D
+185236,Chautauqua Health and Rehab,Kentucky,F0880,True,False,False,Rebekah Jarboe,XXX,2025-04-04,D
+185236,Chautauqua Health and Rehab,Kentucky,F0867,True,False,False,Rebekah Jarboe,XXX,2021-08-27,F
+185236,Chautauqua Health and Rehab,Kentucky,F0880,True,False,False,Rebekah Jarboe,XXX,2021-08-27,F
+185236,Chautauqua Health and Rehab,Kentucky,F0880,True,False,False,Rebekah Jarboe,XXX,2019-07-25,E
+185242,Mt Sterling Health & Rehab,Kentucky,F0865,True,False,False,Annaka Hoffman,XXX,2025-03-13,D
+185242,Mt Sterling Health & Rehab,Kentucky,F0880,True,False,False,Annaka Hoffman,XXX,2025-03-13,E
+185242,Mt Sterling Health & Rehab,Kentucky,F0880,True,False,False,Annaka Hoffman,XXX,2024-05-03,E
+185249,Signature Healthcare at Jackson Manor Rehab,Kentucky,F0759,True,False,False,Keisha Todd,XXX,2020-09-25,D
+185249,Signature Healthcare at Jackson Manor Rehab,Kentucky,F0880,True,False,False,Keisha Todd,XXX,2020-09-25,D
+185249,Signature Healthcare at Jackson Manor Rehab,Kentucky,F0880,True,False,False,Keisha Todd,XXX,2019-03-28,F
+185250,Oakmont Manor,Kentucky,F0880,True,False,False,Brenda Baldridge,XXX,2025-05-02,E
+185250,Oakmont Manor,Kentucky,F0880,True,False,False,Brenda Baldridge,XXX,2019-01-17,D
+185253,Carter Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Lisa O'Daire,XXX,2025-08-29,D
+185253,Carter Nursing and Rehabilitation,Kentucky,F0759,True,False,False,Lisa O'Daire,XXX,2023-07-17,E
+185253,Carter Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Lisa O'Daire,XXX,2023-07-17,D
+185254,Ridgeway Nursing and Rehab,Kentucky,F0760,True,False,False,Corey Campbell,XXX,2025-05-08,D
+185254,Ridgeway Nursing and Rehab,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2025-05-08,D
+185254,Ridgeway Nursing and Rehab,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2019-08-08,D
+185258,Lake Way Nursing and Rehab,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2019-01-10,D
+185259,Rivers Edge Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Kelly Butler,XXX,2024-11-15,E
+185259,Rivers Edge Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Kelly Butler,XXX,2019-07-12,F
+185261,Wurtland Nursing and Rehab,Kentucky,F0880,True,False,False,Lora Stone,XXX,2025-02-11,E
+185261,Wurtland Nursing and Rehab,Kentucky,F0756,True,False,False,Lora Stone,XXX,2019-10-24,D
+185264,Henson Park Health & Rehabilitation,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2024-06-12,D
+185264,Henson Park Health & Rehabilitation,Kentucky,F0760,True,False,False,Corey Campbell,XXX,2023-09-29,J
+185265,Grant Healthcare and Rehabilitation,Kentucky,F0880,False,False,False,XXX,XXX,2025-09-12,E
+185265,Grant Healthcare and Rehabilitation,Kentucky,F0880,False,False,False,XXX,XXX,2024-10-25,D
+185266,Elizabethtown Nursing and Rehab Center,Kentucky,F0880,True,False,False,Kristen Falls,XXX,2024-08-29,E
+185266,Elizabethtown Nursing and Rehab Center,Kentucky,F0760,True,False,False,Kristen Falls,XXX,2024-08-29,D
+185266,Elizabethtown Nursing and Rehab Center,Kentucky,F0880,True,False,False,Kristen Falls,XXX,2018-06-28,D
+185269,Crittenden County Health and Rehab Center,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2025-02-07,D
+185269,Crittenden County Health and Rehab Center,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2024-02-23,D
+185270,Cumberland Valley Nursing & Rehabilitation,Kentucky,F0880,True,False,False,Molly Fox,XXX,2018-09-20,D
+185271,Glenview Health and Rehab,Kentucky,F0880,True,False,False,Molly Fox,XXX,2024-04-12,D
+185273,Owsley County Health Care Center,Kentucky,F0880,True,False,False,Larrietta Elliotte,XXX,2019-04-04,F
+185274,West Liberty Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Hali Adams,XXX,2025-08-26,D
+185274,West Liberty Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Hali Adams,XXX,2023-01-25,D
+185282,South Shore Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Lora Stone,XXX,2021-11-10,E
+185293,Laurel Creek Health Care Center,Kentucky,F0880,True,False,False,Keisha Todd,XXX,2025-07-03,D
+185295,Dover Nursing and Rehab,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2023-12-13,E
+185295,Dover Nursing and Rehab,Kentucky,F0759,True,False,False,Corey Campbell,XXX,2023-12-13,D
+185295,Dover Nursing and Rehab,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2022-09-09,D
+185302,Hardinsburg Nursing and Rehabilitation,Kentucky,F0865,True,False,False,Melissa Cheatham,XXX,2019-03-29,D
+185313,Creekwood Nursing and Rehabilitation,Kentucky,F0755,True,False,False,Angela Gipson,XXX,2024-10-31,D
+185313,Creekwood Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Angela Gipson,XXX,2024-10-31,D
+185313,Creekwood Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Angela Gipson,XXX,2019-09-25,D
+185314,Pioneer Trace Healthcare and Rehabilitation,Kentucky,F0880,True,False,False,Lisa O'Daire,XXX,2024-10-03,F
+185314,Pioneer Trace Healthcare and Rehabilitation,Kentucky,F0865,True,False,False,Lisa O'Daire,XXX,2018-09-13,E
+185314,Pioneer Trace Healthcare and Rehabilitation,Kentucky,F0880,True,False,False,Lisa O'Daire,XXX,2018-09-13,E
+185315,Clinton County Care and Rehab,Kentucky,F0880,True,False,False,Molly Fox,XXX,2021-12-22,F
+185317,Greenville Nursing and Rehabilitation,Kentucky,F0759,True,False,False,Leslie Johnson,XXX,2024-06-20,D
+185318,Lake Barkley Health & Rehabilitation,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2025-04-24,D
+185318,Lake Barkley Health & Rehabilitation,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2020-02-14,D
+185318,Lake Barkley Health & Rehabilitation,Kentucky,F0760,True,False,False,Kaitlin Overfield,XXX,2019-01-30,D
+185318,Lake Barkley Health & Rehabilitation,Kentucky,F0880,True,False,False,Kaitlin Overfield,XXX,2019-01-30,D
+185330,Campbellsville Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Molly Fox,XXX,2019-11-21,F
+185332,Harrison Nursing and Rehab,Kentucky,F0865,True,False,False,Connie Maddox,XXX,2025-01-24,F
+185332,Harrison Nursing and Rehab,Kentucky,F0880,True,False,False,Connie Maddox,XXX,2025-01-24,F
+185333,Klondike Center,Kentucky,F0880,True,True,True,Kristen Falls,Joan Shemwell,2019-09-06,D
+185333,Klondike Center,Kentucky,F0755,True,True,True,Kristen Falls,Joan Shemwell,2018-07-01,K
+185333,Klondike Center,Kentucky,F0760,True,True,True,Kristen Falls,Joan Shemwell,2018-07-01,J
+185333,Klondike Center,Kentucky,F0867,True,True,True,Kristen Falls,Joan Shemwell,2018-07-01,K
+185334,Beaver Dam Nursing and Rehab,Kentucky,F0880,True,False,False,Rebekah Jarboe,XXX,2025-05-08,D
+185334,Beaver Dam Nursing and Rehab,Kentucky,F0880,True,False,False,Rebekah Jarboe,XXX,2024-03-21,F
+185339,Irvine Nursing and Rehabilitation Center,Kentucky,F0880,True,False,False,Annaka Hoffman,XXX,2025-02-13,D
+185339,Irvine Nursing and Rehabilitation Center,Kentucky,F0880,True,False,False,Annaka Hoffman,XXX,2019-04-04,E
+185342,Signature Healthcare of Colonial,Kentucky,F0760,False,True,False,XXX,Achamma Itticheria,2024-07-11,J
+185342,Signature Healthcare of Colonial,Kentucky,F0880,False,True,False,XXX,Achamma Itticheria,2024-07-11,D
+185352,Stanton Nursing and Rehabilitation Center,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2019-02-14,D
+185355,River Valley Nursing Home,Kentucky,F0760,True,False,False,Connie Maddox,XXX,2025-06-26,D
+185355,River Valley Nursing Home,Kentucky,F0880,True,False,False,Connie Maddox,XXX,2024-09-06,E
+185355,River Valley Nursing Home,Kentucky,F0755,True,False,False,Connie Maddox,XXX,2024-09-06,D
+185359,Robertson County Health Care,Kentucky,F0880,True,False,False,Connie Maddox,XXX,2025-07-02,D
+185364,Owenton Healthcare and Rehabilitation,Kentucky,F0880,False,True,False,XXX,Achamma Itticheria,2024-08-09,D
+185364,Owenton Healthcare and Rehabilitation,Kentucky,F0760,False,True,False,XXX,Achamma Itticheria,2019-10-31,D
+185364,Owenton Healthcare and Rehabilitation,Kentucky,F0880,False,True,False,XXX,Achamma Itticheria,2018-08-23,D
+185378,Maple Grove Senior Living,Kentucky,F0880,True,True,True,Charlsey Nave,Laura Faughn,2024-08-01,D
+185379,Martin County Health Care,Kentucky,F0880,True,False,False,Hali Adams,XXX,2023-01-06,D
+185379,Martin County Health Care,Kentucky,F0880,True,False,False,Hali Adams,XXX,2018-03-16,D
+185381,Signature Healthcare of Hart County,Kentucky,F0755,True,False,False,Abigail Pollachek,XXX,2019-08-02,D
+185381,Signature Healthcare of Hart County,Kentucky,F0757,True,False,False,Abigail Pollachek,XXX,2018-05-17,D
+185381,Signature Healthcare of Hart County,Kentucky,F0880,True,False,False,Abigail Pollachek,XXX,2018-05-17,D
+185388,Sam Swope Care Center,Kentucky,F0757,True,False,False,Sheena Steele,XXX,2024-08-16,D
+185389,Edgemont Healthcare,Kentucky,F0880,True,False,False,Connie Maddox,XXX,2025-07-25,E
+185389,Edgemont Healthcare,Kentucky,F0880,True,False,False,Connie Maddox,XXX,2019-03-07,D
+185392,Woodland,Kentucky,F0880,True,False,False,Lora Stone,XXX,2025-04-17,E
+185400,Elkton Nursing and Rehab,Kentucky,F0755,True,False,False,Angela Gipson,XXX,2024-09-12,E
+185400,Elkton Nursing and Rehab,Kentucky,F0756,True,False,False,Angela Gipson,XXX,2024-09-12,D
+185400,Elkton Nursing and Rehab,Kentucky,F0759,True,False,False,Angela Gipson,XXX,2024-09-12,E
+185400,Elkton Nursing and Rehab,Kentucky,F0880,True,False,False,Angela Gipson,XXX,2024-09-12,F
+185401,Edmonson Center,Kentucky,F0880,True,False,False,Angela Gipson,XXX,2019-01-24,D
+185408,Liberty Care & Rehabilitation Center,Kentucky,F0755,True,False,False,Corey Campbell,XXX,2024-06-14,D
+185408,Liberty Care & Rehabilitation Center,Kentucky,F0760,True,False,False,Corey Campbell,XXX,2024-06-14,D
+185408,Liberty Care & Rehabilitation Center,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2024-06-14,E
+185415,Elliott Nursing and Rehabilitation,Kentucky,F0880,True,True,True,Brenda Baldridge,Laura Faughn,2024-04-20,J
+185418,Boyd County Nursing and Rehabilitation,Kentucky,F0759,True,False,False,Brenda Baldridge,XXX,2025-11-21,E
+185418,Boyd County Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Brenda Baldridge,XXX,2025-11-21,F
+185418,Boyd County Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Brenda Baldridge,XXX,2024-10-25,D
+185418,Boyd County Nursing and Rehabilitation,Kentucky,F0755,True,False,False,Brenda Baldridge,XXX,2019-10-04,G
+185418,Boyd County Nursing and Rehabilitation,Kentucky,F0880,True,False,False,Brenda Baldridge,XXX,2019-10-04,D
+185434,Heritage Nursing and Rehab,Kentucky,F0880,True,False,False,Larrietta Elliotte,XXX,2025-04-30,D
+185436,Wellington Parc of Owensboro,Kentucky,F0880,True,False,False,Rebekah Jarboe,XXX,2019-12-11,D
+185436,Wellington Parc of Owensboro,Kentucky,F0757,True,False,False,Rebekah Jarboe,XXX,2018-09-13,E
+185436,Wellington Parc of Owensboro,Kentucky,F0880,True,False,False,Rebekah Jarboe,XXX,2018-09-13,D
+185437,Village of Lebanon,Kentucky,F0759,True,False,False,Julia Guerrero,XXX,2025-08-15,D
+185437,Village of Lebanon,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2022-04-21,D
+185443,Kensington Health Center,Kentucky,F0880,True,True,True,Kathy Moss,Achamma Itticheria,2019-10-18,D
+185443,Kensington Health Center,Kentucky,F0867,True,True,True,Kathy Moss,Achamma Itticheria,2018-08-21,E
+185444,Cambridge Nursing and Rehabilitation Center,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2024-08-22,E
+185444,Cambridge Nursing and Rehabilitation Center,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2020-09-24,D
+185444,Cambridge Nursing and Rehabilitation Center,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2019-03-14,D
+185451,Telford Terrace SNF,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2022-01-15,J
+185451,Telford Terrace - Personal Care,Kentucky,F0880,True,False,False,Corey Campbell,XXX,2022-01-15,J
+185456,Seneca Place,Kentucky,F0880,True,False,False,Sheena Steele,XXX,2025-01-17,D
+185456,Seneca Place,Kentucky,F0880,True,False,False,Sheena Steele,XXX,2024-02-09,D
+185456,Seneca Place,Kentucky,F0755,True,False,False,Sheena Steele,XXX,2021-04-03,K
+185456,Seneca Place,Kentucky,F0759,True,False,False,Sheena Steele,XXX,2021-04-03,D
+185456,Seneca Place,Kentucky,F0865,True,False,False,Sheena Steele,XXX,2021-04-03,L
+185456,Seneca Place,Kentucky,F0880,True,False,False,Sheena Steele,XXX,2021-04-03,F
+185463,Lexington Premier Nursing and Rehab,Kentucky,F0755,True,False,False,Julia Guerrero,XXX,2023-01-28,D
+185463,Lexington Premier Nursing and Rehab,Kentucky,F0760,True,False,False,Julia Guerrero,XXX,2023-09-05,D
+185463,Lexington Premier Nursing and Rehab,Kentucky,F0841,True,False,False,Julia Guerrero,XXX,2023-09-05,F
+185463,Lexington Premier Nursing and Rehab,Kentucky,F0867,True,False,False,Julia Guerrero,XXX,2023-09-05,H
+185463,Lexington Premier Nursing and Rehab,Kentucky,F0880,True,False,False,Julia Guerrero,XXX,2018-11-01,D
+185468,Chestnut Ridge Health & Rehabilitation,Kentucky,F0880,True,False,False,Catherine Flem,XXX,2023-08-07,E
+185468,Chestnut Ridge Health & Rehabilitation,Kentucky,F0880,True,False,False,Catherine Flem,XXX,2018-10-12,D
+345000,Autumn Care of Biscoe,North Carolina,F0760,True,False,False,Elonda Womble,XXX,2024-03-20,E
+345000,Autumn Care of Biscoe,North Carolina,F0867,True,False,False,Elonda Womble,XXX,2024-03-20,E
+345000,Autumn Care of Biscoe,North Carolina,F0756,True,False,False,Elonda Womble,XXX,2022-10-31,D
+345000,Autumn Care of Biscoe,North Carolina,F0757,True,False,False,Elonda Womble,XXX,2022-10-31,E
+345000,Autumn Care of Biscoe,North Carolina,F0759,True,False,False,Elonda Womble,XXX,2022-10-31,D
+345004,Person Memorial Hospital Extended Care Unit,North Carolina,F0867,True,False,False,Whitney Andrew,XXX,2023-08-23,E
+345004,Person Memorial Hospital Extended Care Unit,North Carolina,F0880,True,False,False,Whitney Andrew,XXX,2022-01-07,F
+345006,Blumenthal Nursing and Rehab,North Carolina,F0755,True,False,False,Lisa Williams-Corbin,XXX,2025-12-09,E
+345006,Blumenthal Nursing and Rehab,North Carolina,F0760,True,False,False,Lisa Williams-Corbin,XXX,2025-12-09,E
+345006,Blumenthal Nursing and Rehab,North Carolina,F0880,True,False,False,Lisa Williams-Corbin,XXX,2025-09-13,D
+345006,Blumenthal Nursing and Rehab,North Carolina,F0760,True,False,False,Lisa Williams-Corbin,XXX,2024-11-01,E
+345006,Blumenthal Nursing and Rehab,North Carolina,F0880,True,False,False,Lisa Williams-Corbin,XXX,2024-11-01,K
+345006,Blumenthal Nursing and Rehab,North Carolina,F0867,True,False,False,Lisa Williams-Corbin,XXX,2023-05-25,F
+345013,Peak Resources Charlotte,North Carolina,F0759,True,False,False,Trishonda Shackleford,XXX,2025-06-26,D
+345013,Peak Resources Charlotte,North Carolina,F0867,True,False,False,Trishonda Shackleford,XXX,2024-03-21,E
+345036,Elizabeth City Health & Rehabilitation Center,North Carolina,F0867,True,False,False,Heather Lee,XXX,2024-04-05,B
+345036,Elizabeth City Health & Rehabilitation Center,North Carolina,F0867,True,False,False,Heather Lee,XXX,2023-11-22,D
+345036,Elizabeth City Health & Rehabilitation Center,North Carolina,F0867,True,False,False,Heather Lee,XXX,2023-01-27,E
+345036,Elizabeth City Health & Rehabilitation Center,North Carolina,F0880,True,False,False,Heather Lee,XXX,2023-01-27,E
+345051,Anson Health and Rehabilitation,North Carolina,F0759,True,True,True,LaKenya Williams,Min-Ji Lee,2022-03-03,D
+345053,Pettigrew Rehabilitation Center,North Carolina,F0867,True,False,False,Colette Affiah,XXX,2023-02-09,E
+345061,PruittHealth - Durham,North Carolina,F0760,True,False,False,Crystal Parker,XXX,2025-04-04,E
+345061,PruittHealth - Durham,North Carolina,F0760,True,False,False,Crystal Parker,XXX,2024-09-19,D
+345061,PruittHealth - Durham,North Carolina,F0867,True,False,False,Crystal Parker,XXX,2024-01-12,D
+345061,PruittHealth - Durham,North Carolina,F0759,True,False,False,Crystal Parker,XXX,2022-10-27,D
+345063,Harmony Park Wilson,North Carolina,F0867,True,False,False,Carla Pierce,XXX,2023-12-01,E
+345063,Harmony Park Wilson,North Carolina,F0867,True,False,False,Carla Pierce,XXX,2023-03-08,D
+345063,Harmony Park Wilson,North Carolina,F0867,True,False,False,Carla Pierce,XXX,2022-08-19,D
+345063,Harmony Park Wilson,North Carolina,F0880,True,False,False,Carla Pierce,XXX,2022-08-19,L
+345070,Durham Nursing & Rehab Center,North Carolina,F0755,True,False,False,Whitney Andrew,XXX,2024-07-31,D
+345070,Durham Nursing & Rehab Center,North Carolina,F0760,True,False,False,Whitney Andrew,XXX,2024-07-31,D
+345070,Durham Nursing & Rehab Center,North Carolina,F0867,True,False,False,Whitney Andrew,XXX,2024-05-09,D
+345070,Durham Nursing & Rehab Center,North Carolina,F0867,True,False,False,Whitney Andrew,XXX,2024-03-06,G
+345070,Durham Nursing & Rehab Center,North Carolina,F0867,True,False,False,Whitney Andrew,XXX,2023-09-14,E
+345070,Durham Nursing & Rehab Center,North Carolina,F0867,True,False,False,Whitney Andrew,XXX,2023-04-13,D
+345077,Sunnybrook Rehabilitation Center,North Carolina,F0757,True,False,False,Cathy Burnham,XXX,2025-02-20,D
+345077,Sunnybrook Rehabilitation Center,North Carolina,F0755,True,False,False,Cathy Burnham,XXX,2024-06-21,E
+345089,Walnut Cove Health and Rehabilitation,North Carolina,F0867,False,True,False,XXX,Javier Cruz,2023-03-30,D
+345096,Atrium Health Huntersville Oaks,North Carolina,F0880,True,False,False,Nerissa Nelson,XXX,2025-03-14,J
+345103,Matthews Health and Rehab,North Carolina,F0880,True,False,False,Mercedes Whitworth,XXX,2025-02-07,K
+345103,Matthews Health and Rehab,North Carolina,F0867,True,False,False,Mercedes Whitworth,XXX,2023-10-13,E
+345106,Trinity Ridge,North Carolina,F0759,True,False,False,Stacey Holmes,XXX,2025-03-27,D
+345106,Trinity Ridge,North Carolina,F0880,True,False,False,Stacey Holmes,XXX,2025-03-27,D
+345110,Autumn Care of Waynesville,North Carolina,F0880,True,True,True,Steffanie Mack,Neal H. Guffey,2025-09-09,D
+345110,Autumn Care of Waynesville,North Carolina,F0605,True,True,True,Steffanie Mack,Neal H. Guffey,2025-05-22,D
+345110,Autumn Care of Waynesville,North Carolina,F0757,True,True,True,Steffanie Mack,Neal H. Guffey,2024-11-26,D
+345110,Autumn Care of Waynesville,North Carolina,F0759,True,True,True,Steffanie Mack,Neal H. Guffey,2024-05-09,D
+345110,Autumn Care of Waynesville,North Carolina,F0880,True,True,True,Steffanie Mack,Neal H. Guffey,2024-05-09,D
+345124,PruittHealth - Elkin,North Carolina,F0880,True,False,False,Heather Landis,XXX,2024-07-05,K
+345124,PruittHealth - Elkin,North Carolina,F0867,True,False,False,Heather Landis,XXX,2023-01-11,F
+345134,Sherwood Health and Rehab,North Carolina,F0880,False,False,False,XXX,XXX,2025-09-17,D
+345134,Sherwood Health and Rehab,North Carolina,F0759,False,False,False,XXX,XXX,2024-06-27,D
+345134,Sherwood Health and Rehab,North Carolina,F0760,False,False,False,XXX,XXX,2024-06-27,E
+345134,Sherwood Health and Rehab,North Carolina,F0880,False,False,False,XXX,XXX,2024-06-27,D
+345134,Sherwood Health and Rehab,North Carolina,F0867,False,False,False,XXX,XXX,2023-05-23,D
+345134,Sherwood Health and Rehab,North Carolina,F0867,False,False,False,XXX,XXX,2023-02-28,E
+345137,The Lodge at Rocky Mount Health & Rehab,North Carolina,F0880,True,False,False,Brittany Wells,XXX,2025-02-12,E
+345137,The Lodge at Rocky Mount Health & Rehab,North Carolina,F0760,True,False,False,Brittany Wells,XXX,2025-02-12,E
+345137,The Lodge at Rocky Mount Health & Rehab,North Carolina,F0867,True,False,False,Brittany Wells,XXX,2023-12-13,E
+345138,Lenoir Healthcare,North Carolina,F0760,True,False,False,Rachel Nadeau,XXX,2025-07-08,D
+345138,Lenoir Healthcare,North Carolina,F0880,True,False,False,Rachel Nadeau,XXX,2025-11-24,E
+345138,Lenoir Healthcare,North Carolina,F0867,True,False,False,Rachel Nadeau,XXX,2023-12-04,D
+345138,Lenoir Healthcare,North Carolina,F0880,True,False,False,Rachel Nadeau,XXX,2023-12-04,D
+345140,Piedmont Health and Rehab,North Carolina,F0880,True,False,False,Margo Brandon,XXX,2024-07-23,D
+345140,Piedmont Health and Rehab,North Carolina,F0755,True,False,False,Margo Brandon,XXX,2024-07-23,E
+345140,Piedmont Health and Rehab,North Carolina,F0880,True,False,False,Margo Brandon,XXX,2023-09-28,D
+345142,University Place Nursing and Rehabilitation,North Carolina,F0880,False,False,False,XXX,XXX,2025-07-24,D
+345142,University Place Nursing and Rehabilitation,North Carolina,F0760,False,False,False,XXX,XXX,2024-10-15,G
+345142,University Place Nursing and Rehabilitation,North Carolina,F0867,False,False,False,XXX,XXX,2024-03-13,E
+345142,University Place Nursing and Rehabilitation,North Carolina,F0760,False,False,False,XXX,XXX,2024-03-13,E
+345142,University Place Nursing and Rehabilitation,North Carolina,F0880,False,False,False,XXX,XXX,2024-03-13,E
+345142,University Place Nursing and Rehabilitation,North Carolina,F0867,False,False,False,XXX,XXX,2022-08-25,E
+345143,Siler City Center,North Carolina,F0757,True,False,False,Matthew Quick,XXX,2024-11-07,D
+345143,Siler City Center,North Carolina,F0757,True,False,False,Matthew Quick,XXX,2023-08-02,E
+345143,Siler City Center,North Carolina,F0867,True,False,False,Matthew Quick,XXX,2023-08-02,E
+345143,Siler City Center,North Carolina,F0759,True,False,False,Matthew Quick,XXX,2022-03-17,D
+345143,Siler City Center,North Carolina,F0760,True,False,False,Matthew Quick,XXX,2022-03-17,D
+345145,Carrolton of Williamston,North Carolina,F0880,True,True,True,Suzanne Holland,Steven Skahill,2024-11-07,E
+345145,Carrolton of Williamston,North Carolina,F0867,True,True,True,Suzanne Holland,Steven Skahill,2024-03-13,E
+345145,Carrolton of Williamston,North Carolina,F0760,True,True,True,Suzanne Holland,Steven Skahill,2024-03-13,G
+345145,Carrolton of Williamston,North Carolina,F0867,True,True,True,Suzanne Holland,Steven Skahill,2023-02-27,D
+345145,Carrolton of Williamston,North Carolina,F0867,True,True,True,Suzanne Holland,Steven Skahill,2022-11-18,D
+345145,Carrolton of Williamston,North Carolina,F0880,True,True,True,Suzanne Holland,Steven Skahill,2022-11-18,E
+345156,Harmony Hall Nursing and Rehab,North Carolina,F0755,True,False,False,Chicquita Ward,XXX,2023-08-25,D
+345156,Harmony Hall Nursing and Rehab,North Carolina,F0756,True,False,False,Chicquita Ward,XXX,2023-08-25,E
+345156,Harmony Hall Nursing and Rehab,North Carolina,F0867,True,False,False,Chicquita Ward,XXX,2023-08-25,D
+345156,Harmony Hall Nursing and Rehab,North Carolina,F0760,True,False,False,Chicquita Ward,XXX,2023-08-25,G
+345163,Glenbridge Health and Rehabilitation,North Carolina,F0760,True,False,False,Heather Landis,XXX,2025-04-16,D
+345163,Glenbridge Health and Rehabilitation,North Carolina,F0867,True,False,False,Heather Landis,XXX,2023-12-13,E
+345164,Chowan River Nursing and Rehab Center,North Carolina,F0867,True,False,False,Heather Lee,XXX,2022-12-02,D
+345164,Chowan River Nursing and Rehab Center,North Carolina,F0880,True,False,False,Heather Lee,XXX,2022-12-02,D
+345177,The Greens at Pinehurst Rehab and Living Ce,North Carolina,F0757,True,False,False,Qadirah Mease,XXX,2023-09-28,D
+345177,The Greens at Pinehurst Rehab and Living Ce,North Carolina,F0867,True,False,False,Qadirah Mease,XXX,2023-09-28,F
+345177,The Greens at Pinehurst Rehab and Living Ce,North Carolina,F0760,True,False,False,Qadirah Mease,XXX,2023-09-28,E
+345177,The Greens at Pinehurst Rehab and Living Ce,North Carolina,F0756,True,False,False,Qadirah Mease,XXX,2022-07-20,K
+345177,The Greens at Pinehurst Rehab and Living Ce,North Carolina,F0760,True,False,False,Qadirah Mease,XXX,2022-07-20,K
+345177,The Greens at Pinehurst Rehab and Living Ce,North Carolina,F0867,True,False,False,Qadirah Mease,XXX,2022-07-20,E
+345177,The Greens at Pinehurst Rehab and Living Ce,North Carolina,F0880,True,False,False,Qadirah Mease,XXX,2022-07-20,D
+345179,Crestview Health & Rehabilitation,North Carolina,F0880,False,False,False,XXX,XXX,2025-09-11,D
+345179,Crestview Health & Rehabilitation,North Carolina,F0841,False,False,False,XXX,XXX,2024-06-13,F
+345179,Crestview Health & Rehabilitation,North Carolina,F0759,False,False,False,XXX,XXX,2024-06-13,D
+345179,Crestview Health & Rehabilitation,North Carolina,F0757,False,False,False,XXX,XXX,2023-02-08,E
+345179,Crestview Health & Rehabilitation,North Carolina,F0867,False,False,False,XXX,XXX,2023-02-08,F
+345181,Greenville Health and Rehab,North Carolina,F0880,True,True,True,Chicquita Ward,Steven Skahill,2025-06-11,D
+345181,Greenville Health and Rehab,North Carolina,F0759,True,True,True,Chicquita Ward,Steven Skahill,2024-05-31,D
+345181,Greenville Health and Rehab,North Carolina,F0880,True,True,True,Chicquita Ward,Steven Skahill,2024-05-31,F
+345181,Greenville Health and Rehab,North Carolina,F0757,True,True,True,Chicquita Ward,Steven Skahill,2023-03-13,D
+345181,Greenville Health and Rehab,North Carolina,F0867,True,True,True,Chicquita Ward,Steven Skahill,2023-03-13,E
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0756,True,True,True,Zachary Harper,George Hall,2025-11-18,D
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0757,True,True,True,Zachary Harper,George Hall,2025-11-18,D
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0755,True,True,True,Zachary Harper,George Hall,2024-08-29,D
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0760,True,True,True,Zachary Harper,George Hall,2024-08-29,D
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0756,True,True,True,Zachary Harper,George Hall,2024-04-18,E
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0757,True,True,True,Zachary Harper,George Hall,2024-04-18,E
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0867,True,True,True,Zachary Harper,George Hall,2024-04-18,F
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0867,True,True,True,Zachary Harper,George Hall,2023-10-17,E
+345183,Cabarrus Health & Rehabilitation Center,North Carolina,F0867,True,True,True,Zachary Harper,George Hall,2022-12-08,F
+345184,Laurel Park Rehabilitation & HealthCare Center,North Carolina,F0755,True,False,False,Kim Sivak,XXX,2025-05-21,D
+345184,Laurel Park Rehabilitation & HealthCare Center,North Carolina,F0760,True,False,False,Kim Sivak,XXX,2025-05-21,D
+345184,Laurel Park Rehabilitation & HealthCare Center,North Carolina,F0867,True,False,False,Kim Sivak,XXX,2023-03-02,E
+345185,Premier Living and Rehab,North Carolina,F0756,False,True,False,XXX,Lalita Sidana,2025-06-26,E
+345185,Premier Living and Rehab,North Carolina,F0867,False,True,False,XXX,Lalita Sidana,2025-06-26,E
+345185,Premier Living and Rehab,North Carolina,F0760,False,True,False,XXX,Lalita Sidana,2025-06-26,E
+345185,Premier Living and Rehab,North Carolina,F0756,False,True,False,XXX,Lalita Sidana,2024-07-02,E
+345185,Premier Living and Rehab,North Carolina,F0755,False,True,False,XXX,Lalita Sidana,2024-07-02,K
+345185,Premier Living and Rehab,North Carolina,F0760,False,True,False,XXX,Lalita Sidana,2024-07-02,K
+345185,Premier Living and Rehab,North Carolina,F0880,False,True,False,XXX,Lalita Sidana,2024-07-02,F
+345185,Premier Living and Rehab,North Carolina,F0867,False,True,False,XXX,Lalita Sidana,2023-04-06,D
+345186,Five Oaks Manor,North Carolina,F0880,True,True,True,Trishonda Shackleford,George Hall,2025-03-05,D
+345186,Five Oaks Manor,North Carolina,F0867,True,True,True,Trishonda Shackleford,George Hall,2023-09-14,B
+345186,Five Oaks Manor,North Carolina,F0867,True,True,True,Trishonda Shackleford,George Hall,2023-02-02,E
+345187,Grace Nursing Center,North Carolina,F0759,True,False,False,Rachel Nadeau,XXX,2022-05-25,D
+345187,Grace Nursing Center,North Carolina,F0880,True,False,False,Rachel Nadeau,XXX,2022-05-25,E
+345191,"Surry Community Health Center by Harborview, LLC.",North Carolina,F0605,True,True,True,Susan F. Elium,David Majure,2025-06-11,D
+345191,"Surry Community Health Center by Harborview, LLC.",North Carolina,F0759,True,True,True,Susan F. Elium,David Majure,2025-06-11,D
+345191,"Surry Community Health Center by Harborview, LLC.",North Carolina,F0867,True,True,True,Susan F. Elium,David Majure,2024-03-27,F
+345191,"Surry Community Health Center by Harborview, LLC.",North Carolina,F0880,True,True,True,Susan F. Elium,David Majure,2024-03-27,K
+345191,"Surry Community Health Center by Harborview, LLC.",North Carolina,F0755,True,True,True,Susan F. Elium,David Majure,2024-03-27,K
+345191,"Surry Community Health Center by Harborview, LLC.",North Carolina,F0760,True,True,True,Susan F. Elium,David Majure,2024-03-27,D
+345191,"Surry Community Health Center by Harborview, LLC.",North Carolina,F0755,True,True,True,Susan F. Elium,David Majure,2022-12-01,E
+345191,"Surry Community Health Center by Harborview, LLC.",North Carolina,F0760,True,True,True,Susan F. Elium,David Majure,2022-12-01,E
+345204,StoneCreek Health & Rehab,North Carolina,F0867,True,False,False,Steffanie Mack,XXX,2023-12-22,E
+345204,StoneCreek Health & Rehab,North Carolina,F0756,True,False,False,Steffanie Mack,XXX,2023-12-22,E
+345204,StoneCreek Health & Rehab,North Carolina,F0759,True,False,False,Steffanie Mack,XXX,2022-06-29,D
+345215,River Trace Nursing and Rehabilitation Center,North Carolina,F0755,True,True,True,TBD,Steven Skahill,2025-08-22,E
+345215,River Trace Nursing and Rehabilitation Center,North Carolina,F0880,True,True,True,TBD,Steven Skahill,2025-08-22,J
+345215,River Trace Nursing and Rehabilitation Center,North Carolina,F0867,True,True,True,TBD,Steven Skahill,2023-04-27,D
+345228,Ridgewood Rehabilitation and Living Center,North Carolina,F0880,True,False,False,TBD,XXX,2025-09-05,D
+345228,Ridgewood Rehabilitation and Living Center,North Carolina,F0880,True,False,False,TBD,XXX,2024-06-12,D
+345229,Peak Resources Shelby,North Carolina,F0757,True,True,True,Valerie Moore,Jeff T. Hainsworth,2024-11-21,E
+345233,Deer Park Health & Rehabilitation,North Carolina,F0760,True,False,False,Stacey Holmes,XXX,2025-06-24,D
+345233,Deer Park Health & Rehabilitation,North Carolina,F0880,True,False,False,Stacey Holmes,XXX,2025-06-24,E
+345233,Deer Park Health & Rehabilitation,North Carolina,F0757,True,False,False,Stacey Holmes,XXX,2025-06-24,E
+345233,Deer Park Health & Rehabilitation,North Carolina,F0759,True,False,False,Stacey Holmes,XXX,2025-06-24,D
+345233,Deer Park Health & Rehabilitation,North Carolina,F0756,True,False,False,Stacey Holmes,XXX,2024-04-25,E
+345233,Deer Park Health & Rehabilitation,North Carolina,F0867,True,False,False,Stacey Holmes,XXX,2024-04-25,E
+345237,Barbour Court Nursing and Rehabilitation Center,North Carolina,F0867,True,True,True,Evelyn Yeboah,Parul Bhagalia- Patel,2023-09-01,D
+345240,Warren Hills Nursing Center SNF,North Carolina,F0867,True,True,True,Heather Sargent,Lalita Sidana,2023-09-14,E
+345240,Warren Hills Nursing Center SNF,North Carolina,F0760,True,True,True,Heather Sargent,Lalita Sidana,2022-04-08,E
+345240,Warren Hills Nursing Center SNF,North Carolina,F0880,True,True,True,Heather Sargent,Lalita Sidana,2022-04-08,E
+345246,Hickory Falls Health & Rehab,North Carolina,F0880,True,False,False,Rachel Nadeau,XXX,2025-05-21,D
+345246,Hickory Falls Health & Rehab,North Carolina,F0867,True,False,False,Rachel Nadeau,XXX,2022-09-20,D
+345250,The Greens at Lincolnton,North Carolina,F0760,False,True,False,XXX,Sandeep Patel,2024-05-16,G
+345250,The Greens at Lincolnton,North Carolina,F0755,False,True,False,XXX,Sandeep Patel,2024-03-14,G
+345250,The Greens at Lincolnton,North Carolina,F0880,False,True,False,XXX,Sandeep Patel,2023-06-21,D
+345254,Monroe Rehabilitation Center,North Carolina,F0880,False,False,False,XXX,XXX,2021-10-26,F
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0757,True,True,True,Zachary Harper,George Hall,2025-01-16,D
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0756,True,True,True,Zachary Harper,George Hall,2025-01-16,D
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0760,True,True,True,Zachary Harper,George Hall,2025-01-16,J
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0880,True,True,True,Zachary Harper,George Hall,2023-08-10,D
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0755,True,True,True,Zachary Harper,George Hall,2023-08-10,D
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0759,True,True,True,Zachary Harper,George Hall,2023-08-10,D
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0760,True,True,True,Zachary Harper,George Hall,2023-08-10,E
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0867,True,True,True,Zachary Harper,George Hall,2023-08-10,D
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0755,True,True,True,Zachary Harper,George Hall,2022-03-17,E
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0756,True,True,True,Zachary Harper,George Hall,2022-03-17,E
+345258,Kannapolis Health And Rehabilitation,North Carolina,F0880,True,True,True,Zachary Harper,George Hall,2022-03-17,E
+345262,Hertford Health and Rehab,North Carolina,F0755,True,False,False,Heather Lee,XXX,2025-06-05,D
+345262,Hertford Health and Rehab,North Carolina,F0867,True,False,False,Heather Lee,XXX,2024-05-16,E
+345262,Hertford Health and Rehab,North Carolina,F0880,True,False,False,Heather Lee,XXX,2024-05-16,D
+345262,Hertford Health and Rehab,North Carolina,F0755,True,False,False,Heather Lee,XXX,2023-01-31,H
+345262,Hertford Health and Rehab,North Carolina,F0867,True,False,False,Heather Lee,XXX,2023-01-31,D
+345262,Hertford Health and Rehab,North Carolina,F0880,True,False,False,Heather Lee,XXX,2023-01-31,D
+345266,Carrolton of Plymouth,North Carolina,F0867,True,False,False,Suzanne Holland,XXX,2024-02-22,E
+345266,Carrolton of Plymouth,North Carolina,F0880,True,False,False,Suzanne Holland,XXX,2024-02-22,E
+345266,Carrolton of Plymouth,North Carolina,F0867,True,False,False,Suzanne Holland,XXX,2023-02-16,D
+345266,Carrolton of Plymouth,North Carolina,F0880,True,False,False,Suzanne Holland,XXX,2023-02-16,D
+345279,Carrolton of Nash,North Carolina,F0880,True,False,False,Crystal Parker,XXX,2024-10-24,E
+345279,Carrolton of Nash,North Carolina,F0867,True,False,False,Crystal Parker,XXX,2023-03-29,D
+345282,Atrium Health Cleveland Pines,North Carolina,F0755,True,False,False,Erikah Bohanan,XXX,2025-11-18,D
+345282,Atrium Health Cleveland Pines,North Carolina,F0880,True,False,False,Erikah Bohanan,XXX,2024-07-18,D
+345282,Atrium Health Cleveland Pines,North Carolina,F0867,True,False,False,Erikah Bohanan,XXX,2023-03-23,D
+345282,Atrium Health Cleveland Pines,North Carolina,F0880,True,False,False,Erikah Bohanan,XXX,2023-03-23,D
+345289,Currituck Health & Rehabilitation,North Carolina,F0756,True,False,False,TBD,XXX,2024-08-30,D
+345289,Currituck Health & Rehabilitation,North Carolina,F0759,True,False,False,TBD,XXX,2024-08-30,E
+345289,Currituck Health & Rehabilitation,North Carolina,F0880,True,False,False,TBD,XXX,2024-08-30,D
+345297,Scotia Village Retirement Center,North Carolina,F0880,True,False,False,Nickey Dimery,XXX,2024-11-07,D
+345305,Smoky Ridge Health & Rehabilitation,North Carolina,F0867,True,False,False,Stephanie Lonow,XXX,2023-12-01,F
+345305,Smoky Ridge Health & Rehabilitation,North Carolina,F0880,True,False,False,Stephanie Lonow,XXX,2023-12-01,F
+345307,Juniper Gardens,North Carolina,F0880,True,False,False,Erikah Bohanan,XXX,2024-08-27,E
+345307,Juniper Gardens,North Carolina,F0760,True,False,False,Erikah Bohanan,XXX,2024-08-27,E
+345307,Juniper Gardens,North Carolina,F0867,True,False,False,Erikah Bohanan,XXX,2023-05-02,E
+345311,Roxboro Healthcare and Rehabilitation Center,North Carolina,F0755,True,True,True,Whitney Andrew,Parul Bhagalia- Patel,2024-07-12,G
+345311,Roxboro Healthcare and Rehabilitation Center,North Carolina,F0759,True,True,True,Whitney Andrew,Parul Bhagalia- Patel,2024-08-15,D
+345311,Roxboro Healthcare and Rehabilitation Center,North Carolina,F0867,True,True,True,Whitney Andrew,Parul Bhagalia- Patel,2023-09-29,E
+345315,Carrolton of Lumberton,North Carolina,F0759,True,True,True,Nickey Dimery,Rhonda Lowry,2024-11-21,D
+345315,Carrolton of Lumberton,North Carolina,F0760,True,True,True,Nickey Dimery,Rhonda Lowry,2024-11-21,E
+345315,Carrolton of Lumberton,North Carolina,F0880,True,True,True,Nickey Dimery,Rhonda Lowry,2024-11-21,D
+345315,Carrolton of Lumberton,North Carolina,F0880,True,True,True,Nickey Dimery,Rhonda Lowry,2023-05-25,D
+345315,Carrolton of Lumberton,North Carolina,F0880,True,True,True,Nickey Dimery,Rhonda Lowry,2018-01-25,D
+345316,Henderson Nursing and Living Center,North Carolina,F0867,True,False,False,Heather Sargent,XXX,2023-09-27,E
+345316,Henderson Nursing and Living Center,North Carolina,F0880,True,False,False,Heather Sargent,XXX,2023-09-27,D
+345316,Henderson Nursing and Living Center,North Carolina,F0755,True,False,False,Heather Sargent,XXX,2023-11-15,D
+345316,Henderson Nursing and Living Center,North Carolina,F0760,True,False,False,Heather Sargent,XXX,2023-11-15,D
+345316,Henderson Nursing and Living Center,North Carolina,F0880,True,False,False,Heather Sargent,XXX,2022-05-12,F
+345322,The Laurels of Hendersonville,North Carolina,F0755,False,False,False,XXX,XXX,2025-09-11,D
+345322,The Laurels of Hendersonville,North Carolina,F0756,False,False,False,XXX,XXX,2024-01-05,D
+345322,The Laurels of Hendersonville,North Carolina,F0759,False,False,False,XXX,XXX,2024-01-05,D
+345322,The Laurels of Hendersonville,North Carolina,F0867,False,False,False,XXX,XXX,2024-01-05,D
+345322,The Laurels of Hendersonville,North Carolina,F0880,False,False,False,XXX,XXX,2024-01-05,D
+345322,The Laurels of Hendersonville,North Carolina,F0867,False,False,False,XXX,XXX,2023-11-20,D
+345322,The Laurels of Hendersonville,North Carolina,F0880,False,False,False,XXX,XXX,2022-06-22,D
+345326,Matthews Glen,North Carolina,F0759,True,False,False,Mercedes Whitworth,XXX,2024-05-30,D
+345326,Matthews Glen,North Carolina,F0880,True,False,False,Mercedes Whitworth,XXX,2024-05-30,D
+345331,Atrium Health Sardis Oaks,North Carolina,F0880,True,False,False,Nerissa Nelson,XXX,2024-09-27,D
+345331,Atrium Health Sardis Oaks,North Carolina,F0867,True,False,False,Nerissa Nelson,XXX,2023-04-14,F
+345339,Windsor Rehab & Healthcare Center,North Carolina,F0880,True,False,False,Suzanne Holland,XXX,2025-05-28,F
+345339,Windsor Rehab & Healthcare Center,North Carolina,F0760,True,False,False,Suzanne Holland,XXX,2024-11-26,J
+345339,Windsor Rehab & Healthcare Center,North Carolina,F0867,True,False,False,Suzanne Holland,XXX,2023-08-10,E
+345339,Windsor Rehab & Healthcare Center,North Carolina,F0760,True,False,False,Suzanne Holland,XXX,2023-08-10,D
+345339,Windsor Rehab & Healthcare Center,North Carolina,F0880,True,False,False,Suzanne Holland,XXX,2023-08-10,E
+345339,Windsor Rehab & Healthcare Center,North Carolina,F0756,True,False,False,Suzanne Holland,XXX,2022-05-19,E
+345339,Windsor Rehab & Healthcare Center,North Carolina,F0757,True,False,False,Suzanne Holland,XXX,2022-05-19,E
+345341,Silver Bluff Village-Arrowhead Cove (Village Home,North Carolina,F0880,True,False,False,Stephanie Lonow,XXX,2023-06-12,D
+345341,Silver Bluff Village-SNF,North Carolina,F0880,True,False,False,Stephanie Lonow,XXX,2023-06-12,D
+345357,PruittHealth - Neuse,North Carolina,F0880,True,True,True,TBD,Steven Skahill,2024-09-11,D
+345357,PruittHealth - Neuse,North Carolina,F0759,True,True,True,TBD,Steven Skahill,2024-09-11,D
+345357,PruittHealth - Neuse,North Carolina,F0760,True,True,True,TBD,Steven Skahill,2024-09-11,G
+345357,PruittHealth - Neuse,North Carolina,F0760,True,True,True,TBD,Steven Skahill,2024-11-19,D
+345357,PruittHealth - Neuse,North Carolina,F0867,True,True,True,TBD,Steven Skahill,2024-04-24,D
+345357,PruittHealth - Neuse,North Carolina,F0880,True,True,True,TBD,Steven Skahill,2024-04-24,D
+345357,PruittHealth - Neuse,North Carolina,F0755,True,True,True,TBD,Steven Skahill,2024-03-19,G
+345357,PruittHealth - Neuse,North Carolina,F0760,True,True,True,TBD,Steven Skahill,2024-03-19,G
+345357,PruittHealth - Neuse,North Carolina,F0867,True,True,True,TBD,Steven Skahill,2024-03-19,D
+345357,PruittHealth - Neuse,North Carolina,F0867,True,True,True,TBD,Steven Skahill,2023-07-13,D
+345357,PruittHealth - Neuse,North Carolina,F0867,True,True,True,TBD,Steven Skahill,2023-08-30,D
+345357,PruittHealth - Neuse,North Carolina,F0880,True,True,True,TBD,Steven Skahill,2022-04-21,D
+345358,Louisburg Healthcare & Rehabilitation Center,North Carolina,F0755,True,True,True,Cathy Burnham,Lalita Sidana,2024-08-28,D
+345358,Louisburg Healthcare & Rehabilitation Center,North Carolina,F0760,True,True,True,Cathy Burnham,Lalita Sidana,2024-08-28,D
+345358,Louisburg Healthcare & Rehabilitation Center,North Carolina,F0756,True,True,True,Cathy Burnham,Lalita Sidana,2024-03-06,E
+345358,Louisburg Healthcare & Rehabilitation Center,North Carolina,F0867,True,True,True,Cathy Burnham,Lalita Sidana,2024-03-06,D
+345358,Louisburg Healthcare & Rehabilitation Center,North Carolina,F0759,True,True,True,Cathy Burnham,Lalita Sidana,2023-10-05,D
+345358,Louisburg Healthcare & Rehabilitation Center,North Carolina,F0880,True,True,True,Cathy Burnham,Lalita Sidana,2023-10-05,D
+345362,The Greens at Cabarrus,North Carolina,F0867,True,True,True,Trishonda Shackleford,George Hall,2023-02-09,D
+345363,"Compass Healthcare and Rehab Hawfields, Inc",North Carolina,F0867,True,False,False,Shannon Belcher,XXX,2023-07-28,E
+345366,Greendale Forest Nursing and Rehab,North Carolina,F0867,True,False,False,Jennifer Boney,XXX,2022-09-01,E
+345366,Greendale Forest Nursing and Rehab,North Carolina,F0880,True,False,False,Jennifer Boney,XXX,2022-09-01,E
+345371,PruittHealth - Trent,North Carolina,F0880,True,True,True,Tracie Nalley,Steven Skahill,2025-02-27,D
+345371,PruittHealth - Trent,North Carolina,F0880,True,True,True,Tracie Nalley,Steven Skahill,2024-03-27,D
+345371,PruittHealth - Trent,North Carolina,F0755,True,True,True,Tracie Nalley,Steven Skahill,2023-11-16,D
+345371,PruittHealth - Trent,North Carolina,F0867,True,True,True,Tracie Nalley,Steven Skahill,2022-12-08,E
+345372,Wilson Pines Nursing and Rehabilitation Center,North Carolina,F0880,True,True,True,Jennifer Boney,Lalita Sidana,2025-04-10,D
+345372,Wilson Pines Nursing and Rehabilitation Center,North Carolina,F0867,True,True,True,Jennifer Boney,Lalita Sidana,2024-03-06,E
+345372,Wilson Pines Nursing and Rehabilitation Center,North Carolina,F0867,True,True,True,Jennifer Boney,Lalita Sidana,2023-02-16,F
+345376,Carrolton of Fayetteville,North Carolina,F0760,True,False,False,Qadirah Mease,XXX,2024-06-04,D
+345376,Carrolton of Fayetteville,North Carolina,F0760,True,False,False,Qadirah Mease,XXX,2024-04-02,D
+345376,Carrolton of Fayetteville,North Carolina,F0759,True,False,False,Qadirah Mease,XXX,2018-07-03,D
+345376,Carrolton of Fayetteville,North Carolina,F0867,True,False,False,Qadirah Mease,XXX,2018-07-03,F
+345377,East Carolina Rehab and Wellness,North Carolina,F0880,True,False,False,TBD,XXX,2024-12-19,D
+345377,East Carolina Rehab and Wellness,North Carolina,F0755,True,False,False,TBD,XXX,2024-04-05,E
+345377,East Carolina Rehab and Wellness,North Carolina,F0867,True,False,False,TBD,XXX,2024-04-05,E
+345377,East Carolina Rehab and Wellness,North Carolina,F0755,True,False,False,TBD,XXX,2024-02-27,E
+345377,East Carolina Rehab and Wellness,North Carolina,F0759,True,False,False,TBD,XXX,2024-02-27,D
+345377,East Carolina Rehab and Wellness,North Carolina,F0867,True,False,False,TBD,XXX,2024-02-27,E
+345377,East Carolina Rehab and Wellness,North Carolina,F0880,True,False,False,TBD,XXX,2024-02-27,D
+345377,East Carolina Rehab and Wellness,North Carolina,F0867,True,False,False,TBD,XXX,2023-11-02,D
+345377,East Carolina Rehab and Wellness,North Carolina,F0880,True,False,False,TBD,XXX,2022-06-30,D
+345378,PruittHealth - Rockingham,North Carolina,F0867,True,False,False,Qadirah Mease,XXX,2023-11-16,D
+345378,PruittHealth - Rockingham,North Carolina,F0756,True,False,False,Qadirah Mease,XXX,2022-08-31,E
+345378,PruittHealth - Rockingham,North Carolina,F0867,True,False,False,Qadirah Mease,XXX,2022-08-31,E
+345378,PruittHealth - Rockingham,North Carolina,F0880,True,False,False,Qadirah Mease,XXX,2022-08-31,D
+345381,Village Care of King - SNF,North Carolina,F0756,True,True,True,Susan F. Elium,Michael Piazza,2022-02-10,D
+345381,Village Care of King - SNF,North Carolina,F0759,True,True,True,Susan F. Elium,Michael Piazza,2022-02-10,D
+345383,Scottish Pines Rehab and Nursing Center,North Carolina,F0880,True,False,False,Nickey Dimery,XXX,2025-12-18,D
+345383,Scottish Pines Rehab and Nursing Center,North Carolina,F0757,True,False,False,Nickey Dimery,XXX,2024-10-24,E
+345384,PruittHealth - Farmville,North Carolina,F0867,True,True,True,Jennifer Boney,Lalita Sidana,2023-05-11,F
+345384,PruittHealth - Farmville,North Carolina,F0880,True,True,True,Jennifer Boney,Lalita Sidana,2023-05-11,F
+345385,Cardinal Healthcare and Rehab Center,North Carolina,F0880,True,False,False,Valerie Moore,XXX,2025-05-08,D
+345385,Cardinal Healthcare and Rehab Center,North Carolina,F0867,True,False,False,Valerie Moore,XXX,2024-03-14,E
+345385,Cardinal Healthcare and Rehab Center,North Carolina,F0867,True,False,False,Valerie Moore,XXX,2022-08-31,D
+345385,Cardinal Healthcare and Rehab Center,North Carolina,F0880,True,False,False,Valerie Moore,XXX,2022-08-31,D
+345395,Peak Resources Cherryville,North Carolina,F0867,True,True,True,Valerie Moore,Sandeep Patel,2024-04-18,E
+345395,Peak Resources Cherryville Rest Home/ALF,North Carolina,F0867,True,True,True,Valerie Moore,Sandeep Patel,2024-04-18,E
+345395,Peak Resources Cherryville,North Carolina,F0759,True,True,True,Valerie Moore,Sandeep Patel,2022-10-19,D
+345395,Peak Resources Cherryville Rest Home/ALF,North Carolina,F0759,True,True,True,Valerie Moore,Sandeep Patel,2022-10-19,D
+345401,Wilkesboro Health and Rehabilitation,North Carolina,F0880,True,True,True,Heather Landis,George Osei-Bonsu,2024-09-11,D
+345401,Wilkesboro Health and Rehabilitation,North Carolina,F0867,True,True,True,Heather Landis,George Osei-Bonsu,2023-06-15,D
+345401,Wilkesboro Health and Rehabilitation,North Carolina,F0880,True,True,True,Heather Landis,George Osei-Bonsu,2023-06-15,D
+345408,Southpoint Health and Rehab of Durham,North Carolina,F0755,True,False,False,Nicole Harrison,XXX,2025-04-10,D
+345408,Southpoint Health and Rehab of Durham,North Carolina,F0880,True,False,False,Nicole Harrison,XXX,2024-11-19,D
+345408,Southpoint Health and Rehab of Durham,North Carolina,F0755,True,False,False,Nicole Harrison,XXX,2024-05-24,E
+345408,Southpoint Health and Rehab of Durham,North Carolina,F0867,True,False,False,Nicole Harrison,XXX,2024-04-05,E
+345408,Southpoint Health and Rehab of Durham,North Carolina,F0760,True,False,False,Nicole Harrison,XXX,2023-11-20,E
+345408,Southpoint Health and Rehab of Durham,North Carolina,F0755,True,False,False,Nicole Harrison,XXX,2023-01-10,D
+345408,Southpoint Health and Rehab of Durham,North Carolina,F0867,True,False,False,Nicole Harrison,XXX,2023-01-10,D
+345408,Southpoint Health and Rehab of Durham,North Carolina,F0880,True,False,False,Nicole Harrison,XXX,2023-01-10,J
+345415,Pineville Rehab and Living Center,North Carolina,F0880,True,False,False,Richzer Villamor,XXX,2025-06-06,D
+345415,Pineville Rehab and Living Center,North Carolina,F0867,True,False,False,Richzer Villamor,XXX,2024-01-25,E
+345415,Pineville Rehab and Living Center,North Carolina,F0867,True,False,False,Richzer Villamor,XXX,2023-04-03,E
+345415,Pineville Rehab and Living Center,North Carolina,F0759,True,False,False,Richzer Villamor,XXX,2022-07-29,E
+345415,Pineville Rehab and Living Center,North Carolina,F0880,True,False,False,Richzer Villamor,XXX,2022-07-29,E
+345419,Lexington Health Care Center,North Carolina,F0757,True,False,False,Angela Caines,XXX,2025-04-29,D
+345419,Lexington Health Care Center,North Carolina,F0867,True,False,False,Angela Caines,XXX,2024-03-01,E
+345419,Lexington Health Care Center,North Carolina,F0760,True,False,False,Angela Caines,XXX,2022-10-14,K
+345420,Alamance Health Care Center,North Carolina,F0867,True,False,False,Whitney King,XXX,2024-04-23,E
+345420,Alamance Health Care Center,North Carolina,F0759,True,False,False,Whitney King,XXX,2023-08-02,D
+345420,Alamance Health Care Center,North Carolina,F0756,True,False,False,Whitney King,XXX,2023-07-06,D
+345420,Alamance Health Care Center,North Carolina,F0757,True,False,False,Whitney King,XXX,2023-07-06,J
+345420,Alamance Health Care Center,North Carolina,F0760,True,False,False,Whitney King,XXX,2023-07-06,E
+345420,Alamance Health Care Center,North Carolina,F0867,True,False,False,Whitney King,XXX,2023-11-02,E
+345420,Alamance Health Care Center,North Carolina,F0760,True,False,False,Whitney King,XXX,2023-11-02,D
+345428,The Laurels of Salisbury,North Carolina,F0867,True,False,False,Margo Brandon,XXX,2023-08-21,D
+345432,River Bend Health & Rehabilitation ALF,North Carolina,F0755,True,False,False,Cody Knisley,XXX,2025-06-13,D
+345432,River Bend Health & Rehabilitation SNF,North Carolina,F0755,True,False,False,Cody Knisley,XXX,2025-06-13,D
+345432,River Bend Health & Rehabilitation ALF,North Carolina,F0760,True,False,False,Cody Knisley,XXX,2025-06-13,D
+345432,River Bend Health & Rehabilitation SNF,North Carolina,F0760,True,False,False,Cody Knisley,XXX,2025-06-13,D
+345432,River Bend Health & Rehabilitation ALF,North Carolina,F0755,True,False,False,Cody Knisley,XXX,2024-06-27,D
+345432,River Bend Health & Rehabilitation SNF,North Carolina,F0755,True,False,False,Cody Knisley,XXX,2024-06-27,D
+345432,River Bend Health & Rehabilitation ALF,North Carolina,F0880,True,False,False,Cody Knisley,XXX,2024-06-27,E
+345432,River Bend Health & Rehabilitation SNF,North Carolina,F0880,True,False,False,Cody Knisley,XXX,2024-06-27,E
+345432,River Bend Health & Rehabilitation ALF,North Carolina,F0867,True,False,False,Cody Knisley,XXX,2023-09-15,E
+345432,River Bend Health & Rehabilitation SNF,North Carolina,F0867,True,False,False,Cody Knisley,XXX,2023-09-15,E
+345432,River Bend Health & Rehabilitation ALF,North Carolina,F0880,True,False,False,Cody Knisley,XXX,2023-09-15,D
+345432,River Bend Health & Rehabilitation SNF,North Carolina,F0880,True,False,False,Cody Knisley,XXX,2023-09-15,D
+345439,Peak Resources Brookshire SNF,North Carolina,F0880,True,False,False,Shannon Belcher,XXX,2025-02-28,D
+345439,Peak Resources Brookshire ALF,North Carolina,F0880,True,False,False,Shannon Belcher,XXX,2025-02-28,D
+345439,Peak Resources Brookshire SNF,North Carolina,F0759,True,False,False,Shannon Belcher,XXX,2022-04-07,D
+345439,Peak Resources Brookshire ALF,North Carolina,F0759,True,False,False,Shannon Belcher,XXX,2022-04-07,D
+345439,Peak Resources Brookshire SNF,North Carolina,F0880,True,False,False,Shannon Belcher,XXX,2022-04-07,E
+345439,Peak Resources Brookshire ALF,North Carolina,F0880,True,False,False,Shannon Belcher,XXX,2022-04-07,E
+345441,Gastonia Health and Rehab,North Carolina,F0867,True,False,False,Valerie Moore,XXX,2023-09-13,E
+345441,Gastonia Health and Rehab,North Carolina,F0880,True,False,False,Valerie Moore,XXX,2023-09-13,E
+345442,Forrest Oakes Healthcare Center,North Carolina,F0757,True,True,True,Charles Myers,Twara Tarasaria,2023-11-02,D
+345442,Forrest Oakes Healthcare Center,North Carolina,F0867,True,True,True,Charles Myers,Twara Tarasaria,2023-11-02,E
+345442,Forrest Oakes Healthcare Center,North Carolina,F0867,True,True,True,Charles Myers,Twara Tarasaria,2022-11-10,E
+345446,College Pines Health and Rehab,North Carolina,F0867,True,False,False,Rachel Nadeau,XXX,2024-03-06,D
+345449,King Health and Rehabilitation Center,North Carolina,F0755,True,True,True,Robert Jester,Jill Van-Horn,2025-04-16,D
+345449,King Health and Rehabilitation Center,North Carolina,F0867,True,True,True,Robert Jester,Jill Van-Horn,2024-01-24,D
+345449,King Health and Rehabilitation Center,North Carolina,F0867,True,True,True,Robert Jester,Jill Van-Horn,2022-09-02,D
+345460,Guilford Health Care Center,North Carolina,F0759,True,False,False,Angela Caines,XXX,2025-04-17,E
+345460,Guilford Health Care Center,North Carolina,F0867,True,False,False,Angela Caines,XXX,2024-01-24,F
+345460,Guilford Health Care Center,North Carolina,F0755,True,False,False,Angela Caines,XXX,2022-12-08,E
+345460,Guilford Health Care Center,North Carolina,F0759,True,False,False,Angela Caines,XXX,2022-12-08,D
+345460,Guilford Health Care Center,North Carolina,F0867,True,False,False,Angela Caines,XXX,2022-12-08,E
+345462,The Oaks - Brevard,North Carolina,F0756,True,False,False,Cody Knisley,XXX,2024-12-18,D
+345462,The Oaks - Brevard,North Carolina,F0760,True,False,False,Cody Knisley,XXX,2024-12-18,D
+345462,The Oaks - Brevard,North Carolina,F0755,True,False,False,Cody Knisley,XXX,2024-12-18,D
+345462,The Oaks - Brevard,North Carolina,F0756,True,False,False,Cody Knisley,XXX,2023-08-17,D
+345462,The Oaks - Brevard,North Carolina,F0867,True,False,False,Cody Knisley,XXX,2023-08-17,D
+345462,The Oaks - Brevard,North Carolina,F0880,True,False,False,Cody Knisley,XXX,2023-08-17,D
+345462,The Oaks - Brevard,North Carolina,F0880,True,False,False,Cody Knisley,XXX,2022-01-07,E
+345466,Willowbrook Rehabilitation and Care Center,North Carolina,F0759,True,False,False,Zachary Harper,XXX,2025-09-12,D
+345471,Mecklenburg Health & Rehabilitation,North Carolina,F0880,True,False,False,Richzer Villamor,XXX,2025-08-21,D
+345471,Mecklenburg Health & Rehabilitation,North Carolina,F0867,True,False,False,Richzer Villamor,XXX,2023-12-14,D
+345473,Wilora Lake,North Carolina,F0880,True,False,False,Nerissa Nelson,XXX,2025-02-20,D
+345482,Brookdale Carriage Club Providence SNF,North Carolina,F0867,True,True,True,Richzer Villamor,George Hall,2024-02-21,F
+345487,Cherry Point Bay Nursing and Rehab Center,North Carolina,F0867,True,False,False,TBD,XXX,2024-03-05,D
+345490,Ayden Court Nursing and Rehabilitation,North Carolina,F0867,True,False,False,TBD,XXX,2023-11-16,D
+345490,Ayden Court Nursing and Rehabilitation,North Carolina,F0759,True,False,False,TBD,XXX,2023-11-16,D
+345490,Ayden Court Nursing and Rehabilitation,North Carolina,F0867,True,False,False,TBD,XXX,2022-08-25,E
+345490,Ayden Court Nursing and Rehabilitation,North Carolina,F0880,True,False,False,TBD,XXX,2022-08-25,D
+345491,Croatan Ridge Rehabilitation & Nursing Center,North Carolina,F0756,True,False,False,Breanna Ring,XXX,2025-02-07,D
+345491,Croatan Ridge Rehabilitation & Nursing Center,North Carolina,F0759,True,False,False,Breanna Ring,XXX,2025-02-07,D
+345491,Croatan Ridge Rehabilitation & Nursing Center,North Carolina,F0760,True,False,False,Breanna Ring,XXX,2025-02-07,D
+345491,Croatan Ridge Rehabilitation & Nursing Center,North Carolina,F0755,True,False,False,Breanna Ring,XXX,2024-02-02,E
+345493,Hendersonville Health and Rehab,North Carolina,F0756,False,False,False,XXX,XXX,2023-06-16,E
+345493,Hendersonville Health and Rehab,North Carolina,F0760,False,False,False,XXX,XXX,2023-06-16,E
+345493,Hendersonville Health and Rehab,North Carolina,F0867,False,False,False,XXX,XXX,2023-06-16,D
+345501,Croasdaile Clinic,North Carolina,F0759,True,False,False,Robert Williams,XXX,2023-02-23,E
+345501,Croasdaile Friendship House,North Carolina,F0759,True,False,False,Katie Smith,XXX,2023-02-23,E
+345501,Croasdaile Village,North Carolina,F0759,True,False,False,Cathy Burnham,XXX,2023-02-23,E
+345501,Croasdaile Clinic,North Carolina,F0760,True,False,False,Robert Williams,XXX,2023-02-23,E
+345501,Croasdaile Friendship House,North Carolina,F0760,True,False,False,Katie Smith,XXX,2023-02-23,E
+345501,Croasdaile Village,North Carolina,F0760,True,False,False,Cathy Burnham,XXX,2023-02-23,E
+345502,Lake Park Nursing and Rehabilitation Center,North Carolina,F0867,True,False,False,Mercedes Whitworth,XXX,2023-05-05,D
+345505,Carolina Rehab Center of Cumberland,North Carolina,F0760,True,False,False,Qadirah Mease,XXX,2024-11-04,D
+345505,Carolina Rehab Center of Cumberland,North Carolina,F0867,True,False,False,Qadirah Mease,XXX,2024-03-25,D
+345505,Carolina Rehab Center of Cumberland,North Carolina,F0760,True,False,False,Qadirah Mease,XXX,2024-05-03,E
+345505,Carolina Rehab Center of Cumberland,North Carolina,F0867,True,False,False,Qadirah Mease,XXX,2024-05-03,G
+345513,Tower Nursing and Rehabilitation Center,North Carolina,F0880,True,False,False,Cathy Burnham,XXX,2025-03-20,D
+345513,Tower Nursing and Rehabilitation Center,North Carolina,F0755,True,False,False,Cathy Burnham,XXX,2024-02-08,D
+345513,Tower Nursing and Rehabilitation Center,North Carolina,F0756,True,False,False,Cathy Burnham,XXX,2024-02-08,D
+345513,Tower Nursing and Rehabilitation Center,North Carolina,F0867,True,False,False,Cathy Burnham,XXX,2024-02-08,E
+345513,Tower Nursing and Rehabilitation Center,North Carolina,F0755,True,False,False,Cathy Burnham,XXX,2022-10-15,D
+345515,PruittHealth - Town Center,North Carolina,F0760,True,False,False,LaKenya Williams,XXX,2025-08-28,D
+345518,Quailhaven Healthcare Center,North Carolina,F0880,True,False,False,Qadirah Mease,XXX,2025-06-19,D
+345518,Quailhaven Healthcare Center,North Carolina,F0867,True,False,False,Qadirah Mease,XXX,2023-03-23,E
+345518,Quailhaven Healthcare Center,North Carolina,F0880,True,False,False,Qadirah Mease,XXX,2023-03-23,D
+345522,Fletcher Rehabilitation and Heathcare Center,North Carolina,F0880,True,False,False,Stephanie Lonow,XXX,2025-06-02,E
+345522,Fletcher Rehabilitation and Heathcare Center,North Carolina,F0760,True,False,False,Stephanie Lonow,XXX,2025-06-02,D
+345522,Fletcher Rehabilitation and Heathcare Center,North Carolina,F0756,True,False,False,Stephanie Lonow,XXX,2024-02-02,E
+345522,Fletcher Rehabilitation and Heathcare Center,North Carolina,F0755,True,False,False,Stephanie Lonow,XXX,2022-07-29,D
+345522,Fletcher Rehabilitation and Heathcare Center,North Carolina,F0760,True,False,False,Stephanie Lonow,XXX,2022-07-29,D
+345522,Fletcher Rehabilitation and Heathcare Center,North Carolina,F0880,True,False,False,Stephanie Lonow,XXX,2022-07-29,E
+345523,Ramseur Rehabilitation and Health Care Center,North Carolina,F0867,True,False,False,Matthew Quick,XXX,2024-05-17,D
+345523,Ramseur Rehabilitation and Health Care Center,North Carolina,F0867,True,False,False,Matthew Quick,XXX,2023-02-23,E
+345531,NC State Veterans Home - Salisbury,North Carolina,F0605,True,False,False,Margo Brandon,XXX,2025-12-12,D
+345531,NC State Veterans Home - Salisbury,North Carolina,F0756,True,False,False,Margo Brandon,XXX,2025-12-12,D
+345531,NC State Veterans Home - Salisbury,North Carolina,F0880,True,False,False,Margo Brandon,XXX,2025-12-12,J
+345532,Liberty Commons Nsg and Rehab of Lee County,North Carolina,F0760,True,False,False,Colette Affiah,XXX,2025-05-05,E
+345532,Liberty Commons Nsg and Rehab of Lee County,North Carolina,F0867,True,False,False,Colette Affiah,XXX,2024-04-04,D
+345532,Liberty Commons Nsg and Rehab of Lee County,North Carolina,F0867,True,False,False,Colette Affiah,XXX,2023-07-06,D
+345532,Liberty Commons Nsg and Rehab of Lee County,North Carolina,F0756,True,False,False,Colette Affiah,XXX,2023-02-09,D
+345532,Liberty Commons Nsg and Rehab of Lee County,North Carolina,F0867,True,False,False,Colette Affiah,XXX,2023-02-09,E
+345534,Sanford Health & Rehabilitation Co,North Carolina,F0760,True,False,False,Nicole Harrison,XXX,2024-06-13,G
+345534,Sanford Health & Rehabilitation Co,North Carolina,F0755,True,False,False,Nicole Harrison,XXX,2024-01-24,D
+345534,Sanford Health & Rehabilitation Co,North Carolina,F0867,True,False,False,Nicole Harrison,XXX,2024-01-24,D
+345534,Sanford Health & Rehabilitation Co,North Carolina,F0756,True,False,False,Nicole Harrison,XXX,2022-12-01,E
+345534,Sanford Health & Rehabilitation Co,North Carolina,F0757,True,False,False,Nicole Harrison,XXX,2022-12-01,E
+345534,Sanford Health & Rehabilitation Co,North Carolina,F0759,True,False,False,Nicole Harrison,XXX,2022-12-01,E
+345534,Sanford Health & Rehabilitation Co,North Carolina,F0867,True,False,False,Nicole Harrison,XXX,2022-12-01,E
+345534,Sanford Health & Rehabilitation Co,North Carolina,F0880,True,False,False,Nicole Harrison,XXX,2022-12-01,E
+345535,Adams Farm Living Rehabilitation,North Carolina,F0756,True,False,False,Lisa Williams-Corbin,XXX,2025-05-01,D
+345535,Adams Farm Living Rehabilitation,North Carolina,F0880,True,False,False,Lisa Williams-Corbin,XXX,2025-12-05,D
+345538,PruittHealth - Raleigh,North Carolina,F0755,True,False,False,Adaora Nnadike,XXX,2025-06-25,D
+345538,PruittHealth - Raleigh,North Carolina,F0867,True,False,False,Adaora Nnadike,XXX,2023-09-29,E
+345541,Lakeside Health and Rehab,North Carolina,F0757,True,True,True,Margo Brandon,Sandeep Patel,2024-09-27,D
+345544,Aldersgate Retirement Community - Asbury,North Carolina,F0880,False,False,False,XXX,XXX,2024-10-16,J
+345544,Aldersgate Retirement Community - Asbury,North Carolina,F0867,False,False,False,XXX,XXX,2023-06-08,E
+345551,PruittHealth - Carolina Point,North Carolina,F0760,True,False,False,Warren Hatt,XXX,2025-04-24,E
+345551,PruittHealth - Carolina Point,North Carolina,F0867,True,False,False,Warren Hatt,XXX,2024-04-18,D
+345551,PruittHealth - Carolina Point,North Carolina,F0867,True,False,False,Warren Hatt,XXX,2023-07-13,E
+345551,PruittHealth - Carolina Point,North Carolina,F0867,True,False,False,Warren Hatt,XXX,2022-07-13,E
+345554,Trinity Grove,North Carolina,F0880,True,True,True,TBD,Surah Grumet,2025-09-18,E
+345555,Hillcrest Raleigh at Crabtree Valley,North Carolina,F0880,True,False,False,Warren Hatt,XXX,2023-12-15,G
+345558,NC State Veterans Home - Black Mountain,North Carolina,F0880,True,False,False,Cody Knisley,XXX,2025-12-04,D
+345558,NC State Veterans Home - Black Mountain,North Carolina,F0867,True,False,False,Cody Knisley,XXX,2023-07-12,F
+345561,Fuquay Varina Health and Rehab Center,North Carolina,F0880,True,False,False,Mosebolatan Akande,XXX,2024-12-05,D
+345561,Fuquay Varina Health and Rehab Center,North Carolina,F0867,True,False,False,Mosebolatan Akande,XXX,2023-10-18,E
+345561,Fuquay Varina Health and Rehab Center,North Carolina,F0880,True,False,False,Mosebolatan Akande,XXX,2023-10-18,D
+345561,Fuquay Varina Health and Rehab Center,North Carolina,F0759,True,False,False,Mosebolatan Akande,XXX,2023-10-18,E
+345561,Fuquay Varina Health and Rehab Center,North Carolina,F0867,True,False,False,Mosebolatan Akande,XXX,2022-06-17,E
+345561,Fuquay Varina Health and Rehab Center,North Carolina,F0880,True,False,False,Mosebolatan Akande,XXX,2022-06-17,E
+345562,Clear Creek Nursing and Rehabilitation Center,North Carolina,F0880,True,False,False,Mercedes Whitworth,XXX,2025-03-21,E
+345562,Clear Creek Nursing and Rehabilitation Center,North Carolina,F0867,True,False,False,Mercedes Whitworth,XXX,2023-11-17,F
+345562,Clear Creek Nursing and Rehabilitation Center,North Carolina,F0880,True,False,False,Mercedes Whitworth,XXX,2023-11-17,F
+345562,Clear Creek Nursing and Rehabilitation Center,North Carolina,F0880,True,False,False,Mercedes Whitworth,XXX,2022-05-26,E
+345565,Trinity Elms SNF,North Carolina,F0760,True,True,True,Tangela Patterson,Jill Van-Horn,2025-04-30,D
+345565,Trinity Elms SNF,North Carolina,F0759,True,True,True,Tangela Patterson,Jill Van-Horn,2023-08-30,D
+345566,Pruitt Health- Union Pointe,North Carolina,F0760,True,True,True,Nerissa Nelson,Sandeep Patel,2025-05-12,E
+345566,Pruitt Health- Union Pointe,North Carolina,F0867,True,True,True,Nerissa Nelson,Sandeep Patel,2024-02-16,E
+345567,Autumn Care of Cornelius,North Carolina,F0759,False,False,False,XXX,XXX,2025-07-25,D
+345567,Autumn Care of Cornelius,North Carolina,F0880,False,False,False,XXX,XXX,2025-07-25,D
+345567,Autumn Care of Cornelius,North Carolina,F0755,False,False,False,XXX,XXX,2025-07-25,D
+345567,Autumn Care of Cornelius,North Carolina,F0867,False,False,False,XXX,XXX,2024-05-02,E
+345567,Autumn Care of Cornelius,North Carolina,F0867,False,False,False,XXX,XXX,2023-01-07,D
+345567,Autumn Care of Cornelius,North Carolina,F0880,False,False,False,XXX,XXX,2023-01-07,E
+345576,Parkview Health and Rehab Center,North Carolina,F0759,True,False,False,Colette Affiah,XXX,2023-04-28,D
+345578,Briar Creek Health Center AL,North Carolina,F0880,True,False,False,Richzer Villamor,XXX,2025-01-22,D
+345578,Briar Creek Health Center SNF,North Carolina,F0880,True,True,True,Richzer Villamor,Sandeep Patel,2025-01-22,D
+345578,Briar Creek Health Center AL,North Carolina,F0755,True,False,False,Richzer Villamor,XXX,2024-03-07,G
+345578,Briar Creek Health Center SNF,North Carolina,F0755,True,True,True,Richzer Villamor,Sandeep Patel,2024-03-07,G
+365030,Concord Care Center of Toledo,Ohio,F0755,True,False,False,Jordan Pothast,XXX,2025-02-05,D
+365030,Concord Care Center of Toledo,Ohio,F0759,True,False,False,Jordan Pothast,XXX,2025-01-07,D
+365030,Concord Care Center of Toledo,Ohio,F0759,True,False,False,Jordan Pothast,XXX,2024-05-29,D
+365030,Concord Care Center of Toledo,Ohio,F0760,True,False,False,Jordan Pothast,XXX,2024-04-24,D
+365030,Concord Care Center of Toledo,Ohio,F0760,True,False,False,Jordan Pothast,XXX,2022-12-07,D
+365030,Concord Care Center of Toledo,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2024-01-16,E
+365088,Englewood Health and Rehab,Ohio,F0755,True,True,True,Ton Le,Koby Dixon,2025-04-02,D
+365088,Englewood Health and Rehab,Ohio,F0755,True,True,True,Ton Le,Koby Dixon,2024-05-01,D
+365088,Englewood Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Koby Dixon,2024-05-01,D
+365088,Englewood Health and Rehab,Ohio,F0755,True,True,True,Ton Le,Koby Dixon,2025-01-28,D
+365088,Englewood Health and Rehab,Ohio,F0759,True,True,True,Ton Le,Koby Dixon,2023-09-11,D
+365088,Englewood Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Koby Dixon,2020-01-16,D
+365186,Madeira Care Center,Ohio,F0755,False,True,False,XXX,Shane Jeffers,2024-01-24,D
+365186,Madeira Care Center,Ohio,F0865,False,True,False,XXX,Shane Jeffers,2024-01-24,F
+365186,Madeira Care Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2024-01-24,D
+365186,Madeira Care Center,Ohio,F0755,False,True,False,XXX,Shane Jeffers,2024-11-13,D
+365186,Madeira Care Center,Ohio,F0756,False,True,False,XXX,Shane Jeffers,2020-01-11,D
+365186,Madeira Care Center,Ohio,F0759,False,True,False,XXX,Shane Jeffers,2020-01-11,E
+365186,Madeira Care Center,Ohio,F0760,False,True,False,XXX,Shane Jeffers,2020-01-11,D
+365186,Madeira Care Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2020-01-11,F
+365186,Madeira Care Center,Ohio,F0760,False,True,False,XXX,Shane Jeffers,2023-11-21,D
+365186,Madeira Care Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2023-11-21,D
+365186,Madeira Care Center,Ohio,F0865,False,True,False,XXX,Shane Jeffers,2019-03-28,F
+365187,Xenia Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Mark Crager,2025-02-27,F
+365187,Xenia Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Mark Crager,2025-07-31,F
+365187,Xenia Health and Rehab,Ohio,F0759,True,True,True,Ton Le,Mark Crager,2022-04-21,D
+365187,Xenia Health and Rehab,Ohio,F0759,True,True,True,Ton Le,Mark Crager,2019-04-18,D
+365187,Xenia Health and Rehab,Ohio,F0760,True,True,True,Ton Le,Mark Crager,2019-04-18,D
+365290,Kirtland Woods of Journey,Ohio,F0880,True,False,False,Irene Atanga,XXX,2024-05-02,F
+365290,Kirtland Woods of Journey,Ohio,F0880,True,False,False,Irene Atanga,XXX,2024-07-29,F
+365290,Kirtland Woods of Journey,Ohio,F0880,True,False,False,Irene Atanga,XXX,2023-07-20,F
+365290,Kirtland Woods of Journey,Ohio,F0880,True,False,False,Irene Atanga,XXX,2023-08-28,H
+365297,Shelby Skilled Nursing & Rehab,Ohio,F0757,False,True,False,XXX,Koby Dixon,2024-08-28,D
+365297,Shelby Skilled Nursing & Rehab,Ohio,F0880,False,True,False,XXX,Koby Dixon,2024-08-28,D
+365297,Shelby Skilled Nursing & Rehab,Ohio,F0760,False,True,False,XXX,Koby Dixon,2024-05-08,D
+365297,Shelby Skilled Nursing & Rehab,Ohio,F0880,False,True,False,XXX,Koby Dixon,2024-05-08,D
+365297,Shelby Skilled Nursing & Rehab,Ohio,F0756,False,True,False,XXX,Koby Dixon,2022-06-16,D
+365297,Shelby Skilled Nursing & Rehab,Ohio,F0757,False,True,False,XXX,Koby Dixon,2019-06-13,D
+365318,St Catherine's Manor of Wash CH,Ohio,F0880,False,True,False,XXX,Mark Crager,2018-10-23,D
+365331,JAG Healthcare Shelby,Ohio,F0880,True,True,True,Alexandra Perris,Shane Jeffers,2021-08-05,D
+365346,Otterbein Lebanon SNF,Ohio,F0757,True,False,False,Rainy Weatherholt,XXX,2025-05-19,D
+365346,Otterbein Lebanon SNF,Ohio,F0760,True,False,False,Rainy Weatherholt,XXX,2025-05-19,D
+365346,Otterbein Lebanon SNF,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2025-09-12,D
+365346,Otterbein Lebanon SNF,Ohio,F0760,True,False,False,Rainy Weatherholt,XXX,2022-10-25,D
+365346,Otterbein Lebanon SNF,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2022-10-25,D
+365348,Arbors at Gallipolis,Ohio,F0880,True,False,False,Christina Sigman,XXX,2023-07-05,E
+365348,Arbors at Gallipolis,Ohio,F0756,True,False,False,Christina Sigman,XXX,2021-06-08,D
+365370,Momentous Health at Richfield,Ohio,F0756,True,False,False,Irene Atanga,XXX,2025-03-31,E
+365370,Momentous Health at Richfield,Ohio,F0841,True,False,False,Irene Atanga,XXX,2025-03-31,F
+365370,Momentous Health at Richfield,Ohio,F0867,True,False,False,Irene Atanga,XXX,2025-03-31,F
+365370,Momentous Health at Richfield,Ohio,F0755,True,False,False,Irene Atanga,XXX,2025-03-31,D
+365370,Momentous Health at Richfield,Ohio,F0760,True,False,False,Irene Atanga,XXX,2025-03-31,D
+365370,Momentous Health at Richfield,Ohio,F0880,True,False,False,Irene Atanga,XXX,2025-03-31,F
+365370,Momentous Health at Richfield,Ohio,F0760,True,False,False,Irene Atanga,XXX,2024-07-08,D
+365370,Momentous Health at Richfield,Ohio,F0760,True,False,False,Irene Atanga,XXX,2024-02-27,D
+365370,Momentous Health at Richfield,Ohio,F0880,True,False,False,Irene Atanga,XXX,2024-02-27,E
+365370,Momentous Health at Richfield,Ohio,F0755,True,False,False,Irene Atanga,XXX,2022-11-22,D
+365370,Momentous Health at Richfield,Ohio,F0756,True,False,False,Irene Atanga,XXX,2020-01-23,E
+365370,Momentous Health at Richfield,Ohio,F0880,True,False,False,Irene Atanga,XXX,2020-01-23,E
+365377,Celina Manor,Ohio,F0756,True,False,False,Jordan Pothast,XXX,2023-05-10,D
+365377,Celina Manor,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2023-05-10,D
+365377,Celina Manor,Ohio,F0755,True,False,False,Jordan Pothast,XXX,2019-12-19,D
+365377,Celina Manor,Ohio,F0757,True,False,False,Jordan Pothast,XXX,2018-10-18,D
+365377,Celina Manor,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2018-10-18,F
+365393,Jackson Care Center,Ohio,F0880,True,True,True,Christina Sigman,Shane Jeffers,2024-05-07,E
+365393,Jackson Care Center,Ohio,F0756,True,True,True,Christina Sigman,Shane Jeffers,2021-10-07,D
+365393,Jackson Care Center,Ohio,F0757,True,True,True,Christina Sigman,Shane Jeffers,2021-10-07,D
+365417,CCRC I-Dover Apartments,Ohio,F0880,True,False,False,Alexandra Perris,XXX,2025-12-10,D
+365417,CCRC I-Dover Nursing Home,Ohio,F0880,True,True,True,Alexandra Perris,Megan Hershberger,2025-12-10,D
+365417,CCRC I-Dover Apartments,Ohio,F0880,True,False,False,Alexandra Perris,XXX,2025-05-01,D
+365417,CCRC I-Dover Nursing Home,Ohio,F0880,True,True,True,Alexandra Perris,Megan Hershberger,2025-05-01,D
+365417,CCRC I-Dover Apartments,Ohio,F0756,True,False,False,Alexandra Perris,XXX,2024-12-02,D
+365417,CCRC I-Dover Nursing Home,Ohio,F0756,True,True,True,Alexandra Perris,Megan Hershberger,2024-12-02,D
+365417,CCRC I-Dover Apartments,Ohio,F0757,True,False,False,Alexandra Perris,XXX,2024-12-02,D
+365417,CCRC I-Dover Nursing Home,Ohio,F0757,True,True,True,Alexandra Perris,Megan Hershberger,2024-12-02,D
+365417,CCRC I-Dover Apartments,Ohio,F0759,True,False,False,Alexandra Perris,XXX,2024-12-02,D
+365417,CCRC I-Dover Nursing Home,Ohio,F0759,True,True,True,Alexandra Perris,Megan Hershberger,2024-12-02,D
+365417,CCRC I-Dover Apartments,Ohio,F0880,True,False,False,Alexandra Perris,XXX,2024-12-02,E
+365417,CCRC I-Dover Nursing Home,Ohio,F0880,True,True,True,Alexandra Perris,Megan Hershberger,2024-12-02,E
+365417,CCRC I-Dover Apartments,Ohio,F0880,True,False,False,Alexandra Perris,XXX,2024-10-24,E
+365417,CCRC I-Dover Nursing Home,Ohio,F0880,True,True,True,Alexandra Perris,Megan Hershberger,2024-10-24,E
+365431,Jenkins Care Community ALF,Ohio,F0757,True,False,False,Christina Sigman,XXX,2025-02-06,D
+365431,Jenkins Care Community SNF,Ohio,F0757,True,True,True,Christina Sigman,Shane Jeffers,2025-02-06,D
+365446,Pavilion at Piketon,Ohio,F0760,True,True,True,Lora Stone,Shane Jeffers,2025-04-17,D
+365446,Pavilion at Piketon,Ohio,F0880,True,True,True,Lora Stone,Shane Jeffers,2025-04-17,D
+365446,Pavilion at Piketon,Ohio,F0760,True,True,True,Lora Stone,Shane Jeffers,2024-01-29,D
+365450,Arbors at Pomeroy,Ohio,F0756,True,False,False,Christina Sigman,XXX,2025-02-06,D
+365450,Arbors at Pomeroy,Ohio,F0755,True,False,False,Christina Sigman,XXX,2022-04-13,F
+365450,Arbors at Pomeroy,Ohio,F0757,True,False,False,Christina Sigman,XXX,2022-04-13,D
+365450,Arbors at Pomeroy,Ohio,F0880,True,False,False,Christina Sigman,XXX,2022-04-13,E
+365462,Bridgetown Nursing,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2025-09-04,F
+365462,Bridgetown Nursing,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2024-04-16,D
+365474,Arbors at Carroll,Ohio,F0755,True,False,False,Noi Hughes,XXX,2024-12-12,D
+365474,Arbors at Carroll,Ohio,F0757,True,False,False,Noi Hughes,XXX,2024-12-12,D
+365474,Arbors at Carroll,Ohio,F0759,True,False,False,Noi Hughes,XXX,2024-02-14,D
+365474,Arbors at Carroll,Ohio,F0760,True,False,False,Noi Hughes,XXX,2024-02-14,D
+365474,Arbors at Carroll,Ohio,F0760,True,False,False,Noi Hughes,XXX,2023-08-23,D
+365474,Arbors at Carroll,Ohio,F0759,True,False,False,Noi Hughes,XXX,2023-07-17,D
+365474,Arbors at Carroll,Ohio,F0755,True,False,False,Noi Hughes,XXX,2022-02-12,D
+365474,Arbors at Carroll,Ohio,F0756,True,False,False,Noi Hughes,XXX,2022-02-12,D
+365474,Arbors at Carroll,Ohio,F0757,True,False,False,Noi Hughes,XXX,2022-02-12,D
+365474,Arbors at Carroll,Ohio,F0759,True,False,False,Noi Hughes,XXX,2022-02-12,D
+365476,Fountain View,Ohio,F0880,True,True,True,Connie Maddox,Anthony Abdullah,2025-07-09,D
+365476,Fountain View,Ohio,F0880,True,True,True,Connie Maddox,Anthony Abdullah,2024-04-29,D
+365476,Fountain View,Ohio,F0880,True,True,True,Connie Maddox,Anthony Abdullah,2018-11-15,F
+365483,Miami Cov SNF,Ohio,F0880,False,True,False,XXX,Mark Crager,2025-11-26,E
+365483,Miami Cov SNF,Ohio,F0880,False,True,False,XXX,Mark Crager,2023-03-24,E
+365483,Miami Cov SNF,Ohio,F0757,False,True,False,XXX,Mark Crager,2019-10-03,D
+365483,Miami Cov SNF,Ohio,F0759,False,True,False,XXX,Mark Crager,2023-08-22,D
+365483,Miami Cov SNF,Ohio,F0760,False,True,False,XXX,Mark Crager,2023-08-22,D
+365483,Miami Cov SNF,Ohio,F0755,False,True,False,XXX,Mark Crager,2018-08-30,D
+365483,Miami Cov SNF,Ohio,F0880,False,True,False,XXX,Mark Crager,2018-08-30,F
+365488,CHS of Toledo,Ohio,F0867,True,False,False,Scott Galenski,XXX,2024-08-15,F
+365488,CHS of Toledo,Ohio,F0880,True,False,False,Scott Galenski,XXX,2024-08-15,D
+365488,CHS of Toledo,Ohio,F0759,True,False,False,Scott Galenski,XXX,2022-08-02,D
+365488,CHS of Toledo,Ohio,F0880,True,False,False,Scott Galenski,XXX,2022-08-02,D
+365488,CHS of Toledo,Ohio,F0759,True,False,False,Scott Galenski,XXX,2019-08-07,D
+365488,CHS of Toledo,Ohio,F0760,True,False,False,Scott Galenski,XXX,2019-08-07,D
+365488,CHS of Toledo,Ohio,F0880,True,False,False,Scott Galenski,XXX,2019-08-07,D
+365527,Arbors at Springfield,Ohio,F0880,True,False,False,Ton Le,XXX,2025-11-19,D
+365527,Arbors at Springfield,Ohio,F0755,True,False,False,Ton Le,XXX,2024-10-24,D
+365527,Arbors at Springfield,Ohio,F0757,True,False,False,Ton Le,XXX,2024-10-24,D
+365527,Arbors at Springfield,Ohio,F0760,True,False,False,Ton Le,XXX,2024-07-19,D
+365527,Arbors at Springfield,Ohio,F0760,True,False,False,Ton Le,XXX,2022-11-09,D
+365527,Arbors at Springfield,Ohio,F0755,True,False,False,Ton Le,XXX,2023-12-20,D
+365527,Arbors at Springfield,Ohio,F0880,True,False,False,Ton Le,XXX,2023-08-24,D
+365530,Delhi Post Acute,Ohio,F0755,True,False,False,Brandi Baldwin,XXX,2024-05-23,D
+365530,Delhi Post Acute,Ohio,F0760,True,False,False,Brandi Baldwin,XXX,2024-05-23,D
+365530,Delhi Post Acute,Ohio,F0755,True,False,False,Brandi Baldwin,XXX,2024-10-07,D
+365530,Delhi Post Acute,Ohio,F0755,True,False,False,Brandi Baldwin,XXX,2024-02-20,D
+365530,Delhi Post Acute,Ohio,F0756,True,False,False,Brandi Baldwin,XXX,2021-06-28,D
+365530,Delhi Post Acute,Ohio,F0756,True,False,False,Brandi Baldwin,XXX,2019-02-28,D
+365556,Pickaway Manor Care,Ohio,F0880,True,False,False,Noi Hughes,XXX,2024-05-08,D
+365564,Harbor Healthcare of Ironton,Ohio,F0755,True,False,False,Brenda Baldridge,XXX,2023-04-10,D
+365564,Harbor Healthcare of Ironton,Ohio,F0756,True,False,False,Brenda Baldridge,XXX,2023-04-10,D
+365564,Harbor Healthcare of Ironton,Ohio,F0757,True,False,False,Brenda Baldridge,XXX,2023-04-10,D
+365564,Harbor Healthcare of Ironton,Ohio,F0760,True,False,False,Brenda Baldridge,XXX,2023-04-10,D
+365564,Harbor Healthcare of Ironton,Ohio,F0760,True,False,False,Brenda Baldridge,XXX,2023-02-07,D
+365564,Harbor Healthcare of Ironton,Ohio,F0880,True,False,False,Brenda Baldridge,XXX,2020-02-27,D
+365584,Rosemount Care Center,Ohio,F0760,True,True,True,Lora Stone,Anthony Abdullah,2025-05-16,D
+365584,Rosemount Care Center,Ohio,F0880,True,True,True,Lora Stone,Anthony Abdullah,2025-05-16,D
+365584,Rosemount Care Center,Ohio,F0757,True,True,True,Lora Stone,Anthony Abdullah,2025-05-16,D
+365584,Rosemount Care Center,Ohio,F0757,True,True,True,Lora Stone,Anthony Abdullah,2023-08-10,D
+365584,Rosemount Care Center,Ohio,F0759,True,True,True,Lora Stone,Anthony Abdullah,2021-08-18,D
+365584,Rosemount Care Center,Ohio,F0760,True,True,True,Lora Stone,Anthony Abdullah,2021-08-18,G
+365584,Rosemount Care Center,Ohio,F0880,True,True,True,Lora Stone,Anthony Abdullah,2021-08-18,E
+365585,Edgewood Manor of Lucasville I,Ohio,F0756,False,False,False,XXX,XXX,2024-05-09,E
+365585,Edgewood Manor of Lucasville I,Ohio,F0757,False,False,False,XXX,XXX,2024-05-09,D
+365585,Edgewood Manor of Lucasville I,Ohio,F0880,False,False,False,XXX,XXX,2024-05-09,F
+365585,Edgewood Manor of Lucasville I,Ohio,F0880,False,False,False,XXX,XXX,2022-07-05,F
+365585,Edgewood Manor of Lucasville I,Ohio,F0880,False,False,False,XXX,XXX,2019-12-18,D
+365592,Continental Manor,Ohio,F0759,True,False,False,Chendra Dikko,XXX,2024-08-20,D
+365592,Continental Manor,Ohio,F0760,True,False,False,Chendra Dikko,XXX,2024-08-20,D
+365592,Continental Manor,Ohio,F0880,True,False,False,Chendra Dikko,XXX,2024-04-01,E
+365595,Momentous Health at Franklin,Ohio,F0759,True,False,False,Rainy Weatherholt,XXX,2025-09-15,D
+365595,Momentous Health at Franklin,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2025-09-15,E
+365595,Momentous Health at Franklin,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2024-07-12,D
+365595,Momentous Health at Franklin,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2023-02-14,D
+365595,Momentous Health at Franklin,Ohio,F0757,True,False,False,Rainy Weatherholt,XXX,2019-12-12,D
+365607,Piqua Care Center,Ohio,F0880,False,True,False,XXX,Koby Dixon,2025-04-29,E
+365607,Piqua Care Center,Ohio,F0757,False,True,False,XXX,Koby Dixon,2025-06-26,D
+365607,Piqua Care Center,Ohio,F0760,False,True,False,XXX,Koby Dixon,2025-06-26,D
+365607,Piqua Care Center,Ohio,F0880,False,True,False,XXX,Koby Dixon,2024-12-18,D
+365607,Piqua Care Center,Ohio,F0880,False,True,False,XXX,Koby Dixon,2024-04-11,F
+365607,Piqua Care Center,Ohio,F0880,False,True,False,XXX,Koby Dixon,2022-09-07,F
+365607,Piqua Care Center,Ohio,F0756,False,True,False,XXX,Koby Dixon,2019-10-10,D
+365626,Bellbrook Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Mark Crager,2022-09-26,D
+365626,Bellbrook Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Mark Crager,2024-08-29,D
+365626,Bellbrook Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Mark Crager,2019-11-26,F
+365626,Bellbrook Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Mark Crager,2019-01-24,D
+365636,Pickerington Care and Rehab,Ohio,F0756,True,False,False,Lynette Hill,XXX,2025-11-17,D
+365636,Pickerington Care and Rehab,Ohio,F0880,True,False,False,Lynette Hill,XXX,2025-11-17,E
+365636,Pickerington Care and Rehab,Ohio,F0880,True,False,False,Lynette Hill,XXX,2024-12-26,D
+365636,Pickerington Care and Rehab,Ohio,F0756,True,False,False,Lynette Hill,XXX,2024-08-05,D
+365636,Pickerington Care and Rehab,Ohio,F0880,True,False,False,Lynette Hill,XXX,2024-08-05,D
+365636,Pickerington Care and Rehab,Ohio,F0880,True,False,False,Lynette Hill,XXX,2023-08-10,D
+365636,Pickerington Care and Rehab,Ohio,F0757,True,False,False,Lynette Hill,XXX,2023-08-10,D
+365643,Portsmouth Health and Rehab,Ohio,F0880,True,False,False,Lora Stone,XXX,2023-10-05,D
+365643,Portsmouth Health and Rehab,Ohio,F0880,True,False,False,Lora Stone,XXX,2022-03-14,F
+365675,Arbors at Milford,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2025-04-09,D
+365675,Arbors at Milford,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2024-03-19,E
+365675,Arbors at Milford,Ohio,F0756,True,False,False,Cathryn Jenkins,XXX,2022-05-13,E
+365675,Arbors at Milford,Ohio,F0760,True,False,False,Cathryn Jenkins,XXX,2022-05-13,D
+365675,Arbors at Milford,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2022-05-13,F
+365675,Arbors at Milford,Ohio,F0755,True,False,False,Cathryn Jenkins,XXX,2023-03-28,D
+365675,Arbors at Milford,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2019-09-26,F
+365679,Cedarvale Commons Rehabilitation and Healthcare Ce,Ohio,F0605,True,True,True,Noi Hughes,Shane Jeffers,2025-07-09,D
+365679,Cedarvale Commons Rehabilitation and Healthcare Ce,Ohio,F0756,True,True,True,Noi Hughes,Shane Jeffers,2025-07-09,D
+365679,Cedarvale Commons Rehabilitation and Healthcare Ce,Ohio,F0759,True,True,True,Noi Hughes,Shane Jeffers,2025-07-09,D
+365679,Cedarvale Commons Rehabilitation and Healthcare Ce,Ohio,F0880,True,True,True,Noi Hughes,Shane Jeffers,2025-07-09,E
+365679,Cedarvale Commons Rehabilitation and Healthcare Ce,Ohio,F0880,True,True,True,Noi Hughes,Shane Jeffers,2022-10-12,D
+365679,Cedarvale Commons Rehabilitation and Healthcare Ce,Ohio,F0756,True,True,True,Noi Hughes,Shane Jeffers,2019-10-31,D
+365679,Cedarvale Commons Rehabilitation and Healthcare Ce,Ohio,F0880,True,True,True,Noi Hughes,Shane Jeffers,2019-10-31,D
+365680,Vancrest of Hicksville,Ohio,F0755,True,False,False,Jordan Pothast,XXX,2021-05-06,D
+365680,Vancrest of Hicksville,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2019-09-05,D
+365684,Springfield SNF - Northwood,Ohio,F0760,False,True,False,XXX,Mark Crager,2025-11-20,E
+365684,Springfield SNF - Northwood,Ohio,F0880,False,True,False,XXX,Mark Crager,2025-11-20,E
+365684,Springfield SNF - Northwood,Ohio,F0880,False,True,False,XXX,Mark Crager,2023-10-05,D
+365684,Springfield SNF - Northwood,Ohio,F0880,False,True,False,XXX,Mark Crager,2019-03-28,F
+365693,Western Hills Retirement Village,Ohio,F0880,True,False,False,Lorie Jansen,XXX,2024-10-24,D
+365693,Western Hills Retirement Village,Ohio,F0880,True,False,False,Lorie Jansen,XXX,2024-09-18,D
+365693,Western Hills Retirement Village,Ohio,F0756,True,False,False,Lorie Jansen,XXX,2021-09-23,D
+365693,Western Hills Retirement Village,Ohio,F0757,True,False,False,Lorie Jansen,XXX,2021-09-23,D
+365693,Western Hills Retirement Village,Ohio,F0880,True,False,False,Lorie Jansen,XXX,2021-09-23,D
+365693,Western Hills Retirement Village,Ohio,F0760,True,False,False,Lorie Jansen,XXX,2023-07-11,D
+365694,Hopewell Grove Rehab,Ohio,F0880,True,True,True,Lynette Hill,Shane Jeffers,2025-02-20,D
+365694,Hopewell Grove Rehab,Ohio,F0757,True,True,True,Lynette Hill,Shane Jeffers,2024-05-23,D
+365694,Hopewell Grove Rehab,Ohio,F0880,True,True,True,Lynette Hill,Shane Jeffers,2024-05-23,E
+365694,Hopewell Grove Rehab,Ohio,F0755,True,True,True,Lynette Hill,Shane Jeffers,2025-01-16,D
+365694,Hopewell Grove Rehab,Ohio,F0880,True,True,True,Lynette Hill,Shane Jeffers,2025-01-16,D
+365694,Hopewell Grove Rehab,Ohio,F0755,True,True,True,Lynette Hill,Shane Jeffers,2024-09-16,G
+365694,Hopewell Grove Rehab,Ohio,F0756,True,True,True,Lynette Hill,Shane Jeffers,2023-04-27,D
+365694,Hopewell Grove Rehab,Ohio,F0880,True,True,True,Lynette Hill,Shane Jeffers,2023-04-27,D
+365694,Hopewell Grove Rehab,Ohio,F0755,True,True,True,Lynette Hill,Shane Jeffers,2021-05-24,D
+365694,Hopewell Grove Rehab,Ohio,F0756,True,True,True,Lynette Hill,Shane Jeffers,2021-05-24,D
+365694,Hopewell Grove Rehab,Ohio,F0757,True,True,True,Lynette Hill,Shane Jeffers,2021-05-24,D
+365704,Advance Healthcare,Ohio,F0760,True,False,False,Scott Galenski,XXX,2025-07-14,D
+365704,Advance Healthcare,Ohio,F0760,True,False,False,Scott Galenski,XXX,2025-04-03,D
+365704,Advance Healthcare,Ohio,F0755,True,False,False,Scott Galenski,XXX,2023-12-14,E
+365704,Advance Healthcare,Ohio,F0759,True,False,False,Scott Galenski,XXX,2023-12-14,E
+365704,Advance Healthcare,Ohio,F0880,True,False,False,Scott Galenski,XXX,2023-12-14,E
+365704,Advance Healthcare,Ohio,F0755,True,False,False,Scott Galenski,XXX,2023-07-13,D
+365704,Advance Healthcare,Ohio,F0760,True,False,False,Scott Galenski,XXX,2023-07-13,D
+365704,Advance Healthcare,Ohio,F0760,True,False,False,Scott Galenski,XXX,2023-10-12,D
+365704,Advance Healthcare,Ohio,F0755,True,False,False,Scott Galenski,XXX,2023-09-07,D
+365704,Advance Healthcare,Ohio,F0880,True,False,False,Scott Galenski,XXX,2023-09-07,D
+365704,Advance Healthcare,Ohio,F0759,True,False,False,Scott Galenski,XXX,2023-01-26,D
+365718,Arbors at Streetsboro,Ohio,F0755,True,False,False,Jondra Thomas,XXX,2025-02-06,E
+365718,Arbors at Streetsboro,Ohio,F0880,True,False,False,Jondra Thomas,XXX,2025-02-06,D
+365718,Arbors at Streetsboro,Ohio,F0755,True,False,False,Jondra Thomas,XXX,2024-03-13,D
+365718,Arbors at Streetsboro,Ohio,F0880,True,False,False,Jondra Thomas,XXX,2024-03-13,D
+365718,Arbors at Streetsboro,Ohio,F0880,True,False,False,Jondra Thomas,XXX,2023-11-14,D
+365718,Arbors at Streetsboro,Ohio,F0759,True,False,False,Jondra Thomas,XXX,2023-08-24,D
+365718,Arbors at Streetsboro,Ohio,F0760,True,False,False,Jondra Thomas,XXX,2023-08-24,D
+365718,Arbors at Streetsboro,Ohio,F0755,True,False,False,Jondra Thomas,XXX,2019-05-09,F
+365720,Arbors at Stow,Ohio,F0756,True,True,True,Irene Atanga,Shane Jeffers,2025-01-15,D
+365720,Arbors at Stow,Ohio,F0880,True,True,True,Irene Atanga,Shane Jeffers,2025-01-15,E
+365720,Arbors at Stow,Ohio,F0760,True,True,True,Irene Atanga,Shane Jeffers,2024-09-24,J
+365720,Arbors at Stow,Ohio,F0880,True,True,True,Irene Atanga,Shane Jeffers,2021-08-26,F
+365738,Fairfield Care Community,Ohio,F0756,False,True,False,XXX,Anthony Abdullah,2024-09-18,E
+365738,Fairfield Care Community,Ohio,F0760,False,True,False,XXX,Anthony Abdullah,2024-12-06,D
+365738,Fairfield Care Community,Ohio,F0760,False,True,False,XXX,Anthony Abdullah,2023-08-14,D
+365738,Fairfield Care Community,Ohio,F0880,False,True,False,XXX,Anthony Abdullah,2019-01-17,F
+365745,Swanton Valley Rehab and HCR Center,Ohio,F0757,True,False,False,Scott Galenski,XXX,2024-02-08,D
+365745,Swanton Valley Rehab and HCR Center,Ohio,F0880,True,False,False,Scott Galenski,XXX,2024-02-08,F
+365745,Swanton Valley Rehab and HCR Center,Ohio,F0759,True,False,False,Scott Galenski,XXX,2023-09-06,D
+365745,Swanton Valley Rehab and HCR Center,Ohio,F0760,True,False,False,Scott Galenski,XXX,2023-09-06,D
+365745,Swanton Valley Rehab and HCR Center,Ohio,F0756,True,False,False,Scott Galenski,XXX,2021-10-12,D
+365745,Swanton Valley Rehab and HCR Center,Ohio,F0760,True,False,False,Scott Galenski,XXX,2021-10-12,D
+365745,Swanton Valley Rehab and HCR Center,Ohio,F0880,True,False,False,Scott Galenski,XXX,2021-10-12,F
+365764,Centerville Health and Rehab,Ohio,F0880,True,True,True,Kelly Schuder,Koby Dixon,2022-04-20,F
+365764,Centerville Health and Rehab,Ohio,F0759,True,True,True,Kelly Schuder,Koby Dixon,2024-12-02,D
+365764,Centerville Health and Rehab,Ohio,F0757,True,True,True,Kelly Schuder,Koby Dixon,2018-06-21,D
+365794,Pataskala Oaks Care Center,Ohio,F0880,True,False,False,Noi Hughes,XXX,2025-08-25,D
+365794,Pataskala Oaks Care Center,Ohio,F0757,True,False,False,Noi Hughes,XXX,2024-04-25,D
+365794,Pataskala Oaks Care Center,Ohio,F0880,True,False,False,Noi Hughes,XXX,2024-04-25,D
+365794,Pataskala Oaks Care Center,Ohio,F0756,True,False,False,Noi Hughes,XXX,2023-03-23,E
+365794,Pataskala Oaks Care Center,Ohio,F0757,True,False,False,Noi Hughes,XXX,2023-03-23,J
+365837,Oak Grove Care Center,Ohio,F0759,False,True,False,XXX,Shane Jeffers,2025-07-01,D
+365837,Oak Grove Care Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2025-07-01,E
+365837,Oak Grove Care Center,Ohio,F0760,False,True,False,XXX,Shane Jeffers,2024-07-31,D
+365837,Oak Grove Care Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2024-02-06,D
+365837,Oak Grove Care Center,Ohio,F0755,False,True,False,XXX,Shane Jeffers,2024-05-16,D
+365837,Oak Grove Care Center,Ohio,F0760,False,True,False,XXX,Shane Jeffers,2024-05-16,D
+365837,Oak Grove Care Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2023-09-26,D
+365837,Oak Grove Care Center,Ohio,F0755,False,True,False,XXX,Shane Jeffers,2022-11-15,D
+365837,Oak Grove Care Center,Ohio,F0756,False,True,False,XXX,Shane Jeffers,2022-11-15,E
+365837,Oak Grove Care Center,Ohio,F0757,False,True,False,XXX,Shane Jeffers,2022-11-15,D
+365837,Oak Grove Care Center,Ohio,F0759,False,True,False,XXX,Shane Jeffers,2022-11-15,E
+365837,Oak Grove Care Center,Ohio,F0760,False,True,False,XXX,Shane Jeffers,2022-11-15,D
+365837,Oak Grove Care Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2022-11-15,F
+365847,Bath Manor Special Care Centre,Ohio,F0880,False,False,False,XXX,XXX,2025-12-11,D
+365847,Bath Manor Special Care Centre,Ohio,F0880,False,False,False,XXX,XXX,2025-05-13,F
+365847,Bath Manor Special Care Centre,Ohio,F0755,False,False,False,XXX,XXX,2025-01-27,D
+365847,Bath Manor Special Care Centre,Ohio,F0760,False,False,False,XXX,XXX,2025-01-27,D
+365847,Bath Manor Special Care Centre,Ohio,F0880,False,False,False,XXX,XXX,2025-01-27,D
+365847,Bath Manor Special Care Centre,Ohio,F0760,False,False,False,XXX,XXX,2024-11-08,J
+365847,Bath Manor Special Care Centre,Ohio,F0755,False,False,False,XXX,XXX,2023-12-07,D
+365847,Bath Manor Special Care Centre,Ohio,F0880,False,False,False,XXX,XXX,2023-12-07,D
+365847,Bath Manor Special Care Centre,Ohio,F0755,False,False,False,XXX,XXX,2021-11-23,D
+365858,The Pavilion at Stow for Nursing and Rehabilitatio,Ohio,F0756,True,False,False,Irene Atanga,XXX,2019-02-14,F
+365858,The Pavilion at Stow for Nursing and Rehabilitatio,Ohio,F0880,True,False,False,Irene Atanga,XXX,2019-02-14,D
+365880,Roscoe Gardens Skilled Nursing and Rehab,Ohio,F0757,True,False,False,Stefanie Arnold,XXX,2024-10-10,D
+365880,Roscoe Gardens Skilled Nursing and Rehab,Ohio,F0760,True,False,False,Stefanie Arnold,XXX,2024-10-10,D
+365880,Roscoe Gardens Skilled Nursing and Rehab,Ohio,F0880,True,False,False,Stefanie Arnold,XXX,2024-10-10,D
+365880,Roscoe Gardens Skilled Nursing and Rehab,Ohio,F0757,True,False,False,Stefanie Arnold,XXX,2024-06-29,D
+365880,Roscoe Gardens Skilled Nursing and Rehab,Ohio,F0880,True,False,False,Stefanie Arnold,XXX,2024-06-29,D
+365880,Roscoe Gardens Skilled Nursing and Rehab,Ohio,F0760,True,False,False,Stefanie Arnold,XXX,2023-04-26,D
+365880,Roscoe Gardens Skilled Nursing and Rehab,Ohio,F0880,True,False,False,Stefanie Arnold,XXX,2023-04-26,D
+365882,Otterbein Tipp City,Ohio,F0760,True,False,False,Ton Le,XXX,2025-04-03,D
+365882,Otterbein Tipp City,Ohio,F0880,True,False,False,Ton Le,XXX,2025-04-03,F
+365882,Otterbein Tipp City,Ohio,F0760,True,False,False,Ton Le,XXX,2022-06-23,D
+365882,Otterbein Tipp City,Ohio,F0880,True,False,False,Ton Le,XXX,2022-06-23,F
+365882,Otterbein Tipp City,Ohio,F0760,True,False,False,Ton Le,XXX,2019-07-18,D
+365882,Otterbein Tipp City,Ohio,F0880,True,False,False,Ton Le,XXX,2019-07-18,D
+365889,The Lodge Nursing and Rehab,Ohio,F0755,True,False,False,Kelly Schuder,XXX,2024-05-16,D
+365889,The Lodge Nursing and Rehab,Ohio,F0755,True,False,False,Kelly Schuder,XXX,2021-04-22,E
+365889,The Lodge Nursing and Rehab,Ohio,F0756,True,False,False,Kelly Schuder,XXX,2021-04-22,D
+365889,The Lodge Nursing and Rehab,Ohio,F0760,True,False,False,Kelly Schuder,XXX,2021-04-22,D
+365889,The Lodge Nursing and Rehab,Ohio,F0880,True,False,False,Kelly Schuder,XXX,2021-04-22,E
+365899,Oak Creek Terrace Nursing & Rehab Center,Ohio,F0880,True,False,False,Ton Le,XXX,2025-09-29,E
+365899,Oak Creek Terrace Nursing & Rehab Center,Ohio,F0880,True,False,False,Ton Le,XXX,2025-05-15,F
+365928,Court House Manor ALF,Ohio,F0755,False,False,False,XXX,XXX,2025-03-26,D
+365928,Court House Manor,Ohio,F0755,False,True,False,XXX,Mark Crager,2025-03-26,D
+365928,Court House Manor ALF,Ohio,F0880,False,False,False,XXX,XXX,2025-03-26,F
+365928,Court House Manor,Ohio,F0880,False,True,False,XXX,Mark Crager,2025-03-26,F
+365928,Court House Manor ALF,Ohio,F0880,False,False,False,XXX,XXX,2024-11-06,D
+365928,Court House Manor,Ohio,F0880,False,True,False,XXX,Mark Crager,2024-11-06,D
+365928,Court House Manor ALF,Ohio,F0880,False,False,False,XXX,XXX,2019-09-12,E
+365928,Court House Manor,Ohio,F0880,False,True,False,XXX,Mark Crager,2019-09-12,E
+365932,Edgewood Manor of Lucasville II,Ohio,F0605,False,False,False,XXX,XXX,2025-06-18,D
+365932,Edgewood Manor of Lucasville II,Ohio,F0757,False,False,False,XXX,XXX,2023-08-17,D
+365932,Edgewood Manor of Lucasville II,Ohio,F0756,False,False,False,XXX,XXX,2021-09-07,D
+365932,Edgewood Manor of Lucasville II,Ohio,F0757,False,False,False,XXX,XXX,2021-09-07,D
+365939,Edgewood Manor of Wellston,Ohio,F0605,False,True,False,XXX,Mark Crager,2025-09-04,D
+365939,Edgewood Manor of Wellston,Ohio,F0755,False,True,False,XXX,Mark Crager,2025-09-04,D
+365939,Edgewood Manor of Wellston,Ohio,F0757,False,True,False,XXX,Mark Crager,2024-05-09,D
+365939,Edgewood Manor of Wellston,Ohio,F0760,False,True,False,XXX,Mark Crager,2024-05-09,G
+365961,Piketon Nursing Center,Ohio,F0760,False,True,False,XXX,Shane Jeffers,2025-04-24,D
+365961,Piketon Nursing Center,Ohio,F0759,False,True,False,XXX,Shane Jeffers,2023-09-07,D
+365961,Piketon Nursing Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2023-09-07,D
+365961,Piketon Nursing Center,Ohio,F0756,False,True,False,XXX,Shane Jeffers,2021-12-06,D
+365961,Piketon Nursing Center,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2021-12-06,F
+365970,Union City Care Center,Ohio,F0757,True,True,True,Rainy Weatherholt,Mark Crager,2023-04-13,D
+365970,Union City Care Center,Ohio,F0755,True,True,True,Rainy Weatherholt,Mark Crager,2020-02-06,D
+365970,Union City Care Center,Ohio,F0880,True,True,True,Rainy Weatherholt,Mark Crager,2020-02-06,F
+365978,Scarlet Oaks Nursing and Rehab SNF,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2025-01-23,D
+365978,Scarlet Oaks Nursing and Rehab SNF,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2024-11-21,F
+365978,Scarlet Oaks Nursing and Rehab SNF,Ohio,F0759,True,False,False,Brandi Baldwin,XXX,2019-03-28,D
+365978,Scarlet Oaks Nursing and Rehab SNF,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2019-03-28,D
+366033,Momentous Health at Sidney,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2025-06-02,E
+366033,Momentous Health at Sidney,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2025-04-10,E
+366033,Momentous Health at Sidney,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2024-10-17,D
+366033,Momentous Health at Sidney,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2024-08-14,D
+366033,Momentous Health at Sidney,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2022-02-24,E
+366033,Momentous Health at Sidney,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2019-05-09,F
+366035,Momentous Health at Vandalia,Ohio,F0756,True,False,False,Jordan Pothast,XXX,2023-04-24,D
+366035,Momentous Health at Vandalia,Ohio,F0880,True,False,False,Jordan Pothast,XXX,2023-04-24,F
+366044,Paulding Care Center,Ohio,F0880,False,False,False,XXX,XXX,2025-09-11,D
+366044,Paulding Care Center,Ohio,F0880,False,False,False,XXX,XXX,2024-03-05,D
+366044,Paulding Care Center,Ohio,F0756,False,False,False,XXX,XXX,2023-04-24,D
+366044,Paulding Care Center,Ohio,F0757,False,False,False,XXX,XXX,2023-04-24,D
+366044,Paulding Care Center,Ohio,F0880,False,False,False,XXX,XXX,2023-04-24,E
+366044,Paulding Care Center,Ohio,F0880,False,False,False,XXX,XXX,2023-08-07,E
+366060,Arbors at Sylvania,Ohio,F0760,True,False,False,Scott Galenski,XXX,2025-12-18,D
+366060,Arbors at Sylvania,Ohio,F0760,True,False,False,Scott Galenski,XXX,2025-06-11,D
+366060,Arbors at Sylvania,Ohio,F0880,True,False,False,Scott Galenski,XXX,2025-04-17,E
+366060,Arbors at Sylvania,Ohio,F0759,True,False,False,Scott Galenski,XXX,2022-12-22,D
+366060,Arbors at Sylvania,Ohio,F0760,True,False,False,Scott Galenski,XXX,2022-12-22,D
+366060,Arbors at Sylvania,Ohio,F0880,True,False,False,Scott Galenski,XXX,2020-02-27,D
+366067,Continuing Healthcare of Milan,Ohio,F0755,True,False,False,Scott Galenski,XXX,2025-09-09,E
+366067,Continuing Healthcare of Milan,Ohio,F0755,True,False,False,Scott Galenski,XXX,2025-03-12,D
+366067,Continuing Healthcare of Milan,Ohio,F0880,True,False,False,Scott Galenski,XXX,2024-10-17,F
+366067,Continuing Healthcare of Milan,Ohio,F0755,True,False,False,Scott Galenski,XXX,2024-10-17,D
+366067,Continuing Healthcare of Milan,Ohio,F0757,True,False,False,Scott Galenski,XXX,2023-01-19,D
+366067,Continuing Healthcare of Milan,Ohio,F0880,True,False,False,Scott Galenski,XXX,2019-09-26,F
+366075,Embassy of Valley View,Ohio,F0880,True,True,True,Stefanie Arnold,Mark Crager,2024-05-30,F
+366075,Embassy of Valley View,Ohio,F0880,True,True,True,Stefanie Arnold,Mark Crager,2022-03-07,F
+366095,The Pavilion at Edgefield SNF,Ohio,F0880,True,False,False,Jondra Thomas,XXX,2025-06-30,D
+366095,The Pavilion at Edgefield SNF,Ohio,F0605,True,False,False,Jondra Thomas,XXX,2025-11-20,D
+366095,The Pavilion at Edgefield SNF,Ohio,F0756,True,False,False,Jondra Thomas,XXX,2025-11-20,D
+366095,The Pavilion at Edgefield SNF,Ohio,F0880,True,False,False,Jondra Thomas,XXX,2025-11-20,D
+366095,The Pavilion at Edgefield SNF,Ohio,F0760,True,False,False,Jondra Thomas,XXX,2020-01-16,D
+366095,The Pavilion at Edgefield SNF,Ohio,F0880,True,False,False,Jondra Thomas,XXX,2020-01-16,D
+366109,Woodland Country Manor,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2019-05-09,F
+366109,Woodland Country Manor,Ohio,F0757,True,False,False,Rainy Weatherholt,XXX,2018-04-26,D
+366139,Maple Hill Care Center,Ohio,F0757,False,True,False,XXX,Shane Jeffers,2021-12-21,D
+366150,Maple Grove,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2025-12-09,D
+366150,Maple Grove,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2025-07-18,D
+366150,Maple Grove,Ohio,F0755,True,False,False,Brandi Baldwin,XXX,2025-05-19,D
+366150,Maple Grove,Ohio,F0867,True,False,False,Brandi Baldwin,XXX,2023-05-11,F
+366150,Maple Grove,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2023-04-12,F
+366150,Maple Grove,Ohio,F0756,True,False,False,Brandi Baldwin,XXX,2023-09-21,D
+366209,Woods Edge Rehab & Nursing,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2025-12-01,D
+366209,Woods Edge Rehab & Nursing,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2025-09-30,D
+366209,Woods Edge Rehab & Nursing,Ohio,F0755,True,False,False,Cathryn Jenkins,XXX,2025-04-10,D
+366209,Woods Edge Rehab & Nursing,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2018-05-17,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0755,True,False,False,Rainy Weatherholt,XXX,2025-10-30,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0759,True,False,False,Rainy Weatherholt,XXX,2025-10-30,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2025-10-30,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0756,True,False,False,Rainy Weatherholt,XXX,2023-12-26,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0759,True,False,False,Rainy Weatherholt,XXX,2023-12-26,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0760,True,False,False,Rainy Weatherholt,XXX,2023-12-26,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2023-12-26,F
+366220,Harmony Court Rehab & Nursing,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2024-12-31,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2020-02-27,E
+366220,Harmony Court Rehab & Nursing,Ohio,F0760,True,False,False,Rainy Weatherholt,XXX,2018-12-19,D
+366220,Harmony Court Rehab & Nursing,Ohio,F0880,True,False,False,Rainy Weatherholt,XXX,2018-12-19,F
+366268,Walnut Hills Nursing Home,Ohio,F0880,True,True,True,Alexandra Perris,Megan Hershberger,2024-11-07,E
+366268,Walnut Hills Nursing Home,Ohio,F0755,True,True,True,Alexandra Perris,Megan Hershberger,2024-07-10,D
+366268,Walnut Hills Nursing Home,Ohio,F0880,True,True,True,Alexandra Perris,Megan Hershberger,2024-07-10,D
+366268,Walnut Hills Nursing Home,Ohio,F0759,True,True,True,Alexandra Perris,Megan Hershberger,2024-04-04,D
+366268,Walnut Hills Nursing Home,Ohio,F0757,True,True,True,Alexandra Perris,Megan Hershberger,2022-09-23,D
+366268,Walnut Hills Nursing Home,Ohio,F0880,True,True,True,Alexandra Perris,Megan Hershberger,2019-12-05,D
+366271,The Pavilion at Canal Fulton,Ohio,F0756,True,False,False,Jondra Thomas,XXX,2025-06-18,D
+366271,The Pavilion at Canal Fulton,Ohio,F0880,True,False,False,Jondra Thomas,XXX,2025-06-18,F
+366271,The Pavilion at Canal Fulton,Ohio,F0759,True,False,False,Jondra Thomas,XXX,2019-12-18,D
+366271,The Pavilion at Canal Fulton,Ohio,F0880,True,False,False,Jondra Thomas,XXX,2019-12-18,E
+366313,Scioto Pointe,Ohio,F0880,False,True,False,XXX,Mark Crager,2025-10-21,F
+366313,Scioto Pointe,Ohio,F0880,False,True,False,XXX,Mark Crager,2025-07-07,D
+366313,Scioto Pointe,Ohio,F0757,False,True,False,XXX,Mark Crager,2024-06-27,D
+366313,Scioto Pointe,Ohio,F0880,False,True,False,XXX,Mark Crager,2021-04-15,D
+366327,Glendale Place Nursing & Rehab,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2025-08-12,D
+366327,Glendale Place Nursing & Rehab,Ohio,F0880,True,False,False,Brandi Baldwin,XXX,2022-07-05,E
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0757,True,False,False,Scott Galenski,XXX,2025-12-23,D
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0755,True,False,False,Scott Galenski,XXX,2025-08-20,D
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0760,True,False,False,Scott Galenski,XXX,2025-05-22,D
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0867,True,False,False,Scott Galenski,XXX,2024-05-23,F
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0880,True,False,False,Scott Galenski,XXX,2024-05-23,E
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0760,True,False,False,Scott Galenski,XXX,2024-10-03,D
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0755,True,False,False,Scott Galenski,XXX,2024-04-16,D
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0755,True,False,False,Scott Galenski,XXX,2021-10-26,D
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0880,True,False,False,Scott Galenski,XXX,2021-10-26,E
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0755,True,False,False,Scott Galenski,XXX,2023-05-18,D
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0880,True,False,False,Scott Galenski,XXX,2023-02-14,E
+366328,Divine Rehabilitation and Nursing of Toledo,Ohio,F0755,True,False,False,Scott Galenski,XXX,2019-04-11,D
+366376,Otterbein Middletown,Ohio,F0880,True,True,True,Kelly Schuder,Mark Crager,2022-08-15,E
+366400,Beavercreek Health and Rehab,Ohio,F0755,True,True,True,Ton Le,Mark Crager,2025-12-30,D
+366400,Beavercreek Health and Rehab,Ohio,F0755,True,True,True,Ton Le,Mark Crager,2024-11-19,D
+366400,Beavercreek Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Mark Crager,2024-11-19,D
+366400,Beavercreek Health and Rehab,Ohio,F0755,True,True,True,Ton Le,Mark Crager,2024-02-06,D
+366400,Beavercreek Health and Rehab,Ohio,F0880,True,True,True,Ton Le,Mark Crager,2023-06-29,E
+366400,Beavercreek Health and Rehab,Ohio,F0756,True,True,True,Ton Le,Mark Crager,2020-01-03,D
+366400,Beavercreek Health and Rehab,Ohio,F0760,True,True,True,Ton Le,Mark Crager,2020-01-03,D
+366424,Otterbein New Albany,Ohio,F0756,True,False,False,Samantha Lamanna,XXX,2024-08-21,D
+366424,Otterbein New Albany,Ohio,F0757,True,False,False,Samantha Lamanna,XXX,2024-08-21,D
+366424,Otterbein New Albany,Ohio,F0760,True,False,False,Samantha Lamanna,XXX,2024-08-21,D
+366424,Otterbein New Albany,Ohio,F0880,True,False,False,Samantha Lamanna,XXX,2024-08-21,E
+366424,Otterbein New Albany,Ohio,F0756,True,False,False,Samantha Lamanna,XXX,2022-07-25,D
+366424,Otterbein New Albany,Ohio,F0880,True,False,False,Samantha Lamanna,XXX,2022-07-25,F
+366432,Sanctuary Pointe Nursing and Rehab,Ohio,F0755,True,False,False,Cathryn Jenkins,XXX,2020-03-12,D
+366432,Sanctuary Pointe Nursing and Rehab,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2020-03-12,F
+366432,Sanctuary Pointe Nursing and Rehab,Ohio,F0755,True,False,False,Cathryn Jenkins,XXX,2023-04-06,D
+366432,Sanctuary Pointe Nursing and Rehab,Ohio,F0757,True,False,False,Cathryn Jenkins,XXX,2023-04-06,D
+366432,Sanctuary Pointe Nursing and Rehab,Ohio,F0880,True,False,False,Cathryn Jenkins,XXX,2019-02-07,F
+366448,Stellar Care Community ALF,Ohio,F0755,False,True,False,XXX,Shane Jeffers,2025-09-30,D
+366448,Stellar Care Community ALF,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2025-09-30,D
+366448,Stellar Care Community ALF,Ohio,F0759,False,True,False,XXX,Shane Jeffers,2025-04-21,D
+366448,Stellar Care Community ALF,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2025-04-21,F
+366448,Stellar Care Community ALF,Ohio,F0759,False,True,False,XXX,Shane Jeffers,2024-09-11,D
+366448,Stellar Care Community ALF,Ohio,F0760,False,True,False,XXX,Shane Jeffers,2024-07-29,D
+366448,Stellar Care Community ALF,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2024-07-29,F
+366448,Stellar Care Community ALF,Ohio,F0880,False,True,False,XXX,Shane Jeffers,2021-06-06,F
+366483,Harrison Trail Health Campus,Ohio,F0880,True,False,False,Chendra Dikko,XXX,2024-05-23,E
+425005,Cheraw Post Acute,South Carolina,F0760,True,False,False,Michael Dziat,XXX,2025-11-07,J
+425009,Faith Post Acute,South Carolina,F0759,True,False,False,Hosea Keoch,XXX,2025-02-06,D
+425009,Faith Post Acute,South Carolina,F0880,True,False,False,Hosea Keoch,XXX,2025-02-06,D
+425009,Faith Post Acute,South Carolina,F0755,True,False,False,Hosea Keoch,XXX,2021-09-24,E
+425118,Bennettsville Health and Rehab,South Carolina,F0880,True,False,False,Hosea Keoch,XXX,2021-08-12,D
+425119,The Palms at Florence,South Carolina,F0759,True,False,False,Hosea Keoch,XXX,2025-04-04,D
+425119,The Palms at Florence,South Carolina,F0760,True,False,False,Hosea Keoch,XXX,2021-12-02,D
+425149,Lake City Scranton HCC,South Carolina,F0880,True,False,False,Hosea Keoch,XXX,2025-07-30,D
+425154,Heritage Post Acute,South Carolina,F0880,True,False,False,Hosea Keoch,XXX,2024-10-10,D
+425154,Heritage Post Acute,South Carolina,F0760,True,False,False,Hosea Keoch,XXX,2021-06-24,D
+425169,Springdale Healthcare Center,South Carolina,F0760,True,False,False,Nakisha Lee,XXX,2025-05-21,J
+425169,Springdale Healthcare Center,South Carolina,F0755,True,False,False,Nakisha Lee,XXX,2025-03-01,E
+425169,Springdale Healthcare Center,South Carolina,F0880,True,False,False,Nakisha Lee,XXX,2025-03-01,E
+425169,Springdale Healthcare Center,South Carolina,F0880,True,False,False,Nakisha Lee,XXX,2023-04-19,F
+425169,Springdale Healthcare Center,South Carolina,F0755,True,False,False,Nakisha Lee,XXX,2021-07-22,D
+425169,Springdale Healthcare Center,South Carolina,F0759,True,False,False,Nakisha Lee,XXX,2021-07-22,E
+425169,Springdale Healthcare Center,South Carolina,F0760,True,False,False,Nakisha Lee,XXX,2021-07-22,D
+425169,Springdale Healthcare Center,South Carolina,F0880,True,False,False,Nakisha Lee,XXX,2021-07-22,E
+495002,822 South Roanoke Nursing Home,Virginia,F0865,True,True,True,Heather Stevens,William C. Mitchell,2022-03-24,F
+495002,822 South Roanoke Nursing Home,Virginia,F0867,True,True,True,Heather Stevens,William C. Mitchell,2022-03-24,F
+495002,822 South Roanoke Nursing Home,Virginia,F0880,True,True,True,Heather Stevens,William C. Mitchell,2022-03-24,D
+495002,822 South Roanoke Nursing Home,Virginia,F0755,True,True,True,Heather Stevens,William C. Mitchell,2019-07-09,D
+495002,822 South Roanoke Nursing Home,Virginia,F0880,True,True,True,Heather Stevens,William C. Mitchell,2019-07-09,F
+495034,KENDAL AT LEXINGTON - SNF/NF,Virginia,F0756,True,True,True,Julia Diehl,Gavin Slitt,2024-04-24,D
+495034,KENDAL AT LEXINGTON - SNF/NF,Virginia,F0880,True,True,True,Julia Diehl,Gavin Slitt,2024-04-24,F
+495034,KENDAL AT LEXINGTON - SNF/NF,Virginia,F0756,True,True,True,Julia Diehl,Gavin Slitt,2021-11-17,D
+495034,KENDAL AT LEXINGTON - SNF/NF,Virginia,F0880,True,True,True,Julia Diehl,Gavin Slitt,2019-04-04,D
+495118,Rocky Mount Health & Rehab Center LLC - SNF,Virginia,F0756,True,True,True,Jessica Gillispie,William C. Mitchell,2025-03-27,D
+495118,Rocky Mount Health & Rehab Center LLC - SNF,Virginia,F0760,True,True,True,Jessica Gillispie,William C. Mitchell,2025-03-27,D
+495118,Rocky Mount Health & Rehab Center LLC - SNF,Virginia,F0880,True,True,True,Jessica Gillispie,William C. Mitchell,2025-03-27,E
+495135,Heritage Hall - Big Stone Gap,Virginia,F0760,True,True,True,Whitney Riner,Donald Quinn,2024-11-19,G
+495135,Heritage Hall - Big Stone Gap,Virginia,F0880,True,True,True,Whitney Riner,Donald Quinn,2024-11-19,D
+495135,Heritage Hall - Big Stone Gap,Virginia,F0755,True,True,True,Whitney Riner,Donald Quinn,2021-05-12,D
+495135,Heritage Hall - Big Stone Gap,Virginia,F0760,True,True,True,Whitney Riner,Donald Quinn,2019-06-27,D
+495135,Heritage Hall - Big Stone Gap,Virginia,F0880,True,True,True,Whitney Riner,Donald Quinn,2019-06-27,D
+495141,Alleghany Health and Rehab,Virginia,F0755,True,True,True,Sandhya Poudel-Subedi,Caroline Chisholm,2023-04-27,D
+495141,Alleghany Health and Rehab,Virginia,F0880,True,True,True,Sandhya Poudel-Subedi,Caroline Chisholm,2021-09-02,D
+495141,Alleghany Health and Rehab,Virginia,F0880,True,True,True,Sandhya Poudel-Subedi,Caroline Chisholm,2019-03-21,D
+495143,Martinsville Health and Rehab,Virginia,F0755,True,True,True,Jessica Gillispie,Michael Saval,2022-06-15,D
+495143,Martinsville Health and Rehab,Virginia,F0759,True,True,True,Jessica Gillispie,Michael Saval,2022-06-15,E
+495143,Martinsville Health and Rehab,Virginia,F0755,True,True,True,Jessica Gillispie,Michael Saval,2019-10-18,D
+495143,Martinsville Health and Rehab,Virginia,F0756,True,True,True,Jessica Gillispie,Michael Saval,2019-10-18,D
+495143,Martinsville Health and Rehab,Virginia,F0867,True,True,True,Jessica Gillispie,Michael Saval,2019-10-18,F
+495143,Martinsville Health and Rehab,Virginia,F0880,True,True,True,Jessica Gillispie,Michael Saval,2019-10-18,D
+495143,Martinsville Health and Rehab,Virginia,F0755,True,True,True,Jessica Gillispie,Michael Saval,2024-01-31,E
+495143,Martinsville Health and Rehab,Virginia,F0760,True,True,True,Jessica Gillispie,Michael Saval,2024-01-31,E
+495143,Martinsville Health and Rehab,Virginia,F0756,True,True,True,Jessica Gillispie,Michael Saval,2018-06-04,D
+495143,Martinsville Health and Rehab,Virginia,F0759,True,True,True,Jessica Gillispie,Michael Saval,2018-06-04,D
+495143,Martinsville Health and Rehab,Virginia,F0867,True,True,True,Jessica Gillispie,Michael Saval,2018-06-04,D
+495143,Martinsville Health and Rehab,Virginia,F0880,True,True,True,Jessica Gillispie,Michael Saval,2018-06-04,E
+495146,Blue Ridge Rehabilitation and Nursing,Virginia,F0880,True,False,False,Julia Diehl,XXX,2024-08-28,E
+495146,Blue Ridge Rehabilitation and Nursing,Virginia,F0760,True,False,False,Julia Diehl,XXX,2024-08-28,E
+495146,Blue Ridge Rehabilitation and Nursing,Virginia,F0755,True,False,False,Julia Diehl,XXX,2021-12-09,D
+495146,Blue Ridge Rehabilitation and Nursing,Virginia,F0759,True,False,False,Julia Diehl,XXX,2019-03-07,D
+495146,Blue Ridge Rehabilitation and Nursing,Virginia,F0880,True,False,False,Julia Diehl,XXX,2019-03-07,E
+495147,River Edge Rehabilitation and Nursing,Virginia,F0880,True,False,False,Dana Landacre,XXX,2025-08-07,E
+495147,River Edge Rehabilitation and Nursing,Virginia,F0880,True,False,False,Dana Landacre,XXX,2021-04-08,D
+495151,Seven Hills Rehabilitation and Nursing,Virginia,F0755,True,False,False,Amanda Wilkins,XXX,2023-08-02,D
+495151,Seven Hills Rehabilitation and Nursing,Virginia,F0880,True,False,False,Amanda Wilkins,XXX,2023-08-02,E
+495151,Seven Hills Rehabilitation and Nursing,Virginia,F0865,True,False,False,Amanda Wilkins,XXX,2024-02-14,E
+495151,Seven Hills Rehabilitation and Nursing,Virginia,F0880,True,False,False,Amanda Wilkins,XXX,2021-12-01,D
+495151,Seven Hills Rehabilitation and Nursing,Virginia,F0755,True,False,False,Amanda Wilkins,XXX,2023-09-27,D
+495151,Seven Hills Rehabilitation and Nursing,Virginia,F0755,True,False,False,Amanda Wilkins,XXX,2019-02-26,D
+495151,Seven Hills Rehabilitation and Nursing,Virginia,F0756,True,False,False,Amanda Wilkins,XXX,2019-02-26,D
+495151,Seven Hills Rehabilitation and Nursing,Virginia,F0759,True,False,False,Amanda Wilkins,XXX,2019-02-26,D
+495152,933 Heritage Hall Tazewell,Virginia,F0755,True,False,False,Jessica Fisher,XXX,2025-06-12,D
+495152,933 Heritage Hall Tazewell,Virginia,F0760,True,False,False,Jessica Fisher,XXX,2024-03-08,D
+495152,933 Heritage Hall Tazewell,Virginia,F0755,True,False,False,Jessica Fisher,XXX,2024-02-06,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0755,True,False,False,TBD,XXX,2024-03-29,E
+495156,Old Southwest Health and Rehabilitation,Virginia,F0756,True,False,False,TBD,XXX,2024-03-29,E
+495156,Old Southwest Health and Rehabilitation,Virginia,F0757,True,False,False,TBD,XXX,2024-03-29,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0760,True,False,False,TBD,XXX,2024-03-29,G
+495156,Old Southwest Health and Rehabilitation,Virginia,F0865,True,False,False,TBD,XXX,2024-03-29,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0867,True,False,False,TBD,XXX,2024-03-29,G
+495156,Old Southwest Health and Rehabilitation,Virginia,F0880,True,False,False,TBD,XXX,2024-03-29,E
+495156,Old Southwest Health and Rehabilitation,Virginia,F0755,True,False,False,TBD,XXX,2024-07-16,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0756,True,False,False,TBD,XXX,2024-07-16,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0757,True,False,False,TBD,XXX,2024-07-16,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0760,True,False,False,TBD,XXX,2024-07-16,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0865,True,False,False,TBD,XXX,2024-07-16,F
+495156,Old Southwest Health and Rehabilitation,Virginia,F0880,True,False,False,TBD,XXX,2024-07-16,E
+495156,Old Southwest Health and Rehabilitation,Virginia,F0755,True,False,False,TBD,XXX,2022-07-19,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0756,True,False,False,TBD,XXX,2022-07-19,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0755,True,False,False,TBD,XXX,2023-11-01,E
+495156,Old Southwest Health and Rehabilitation,Virginia,F0759,True,False,False,TBD,XXX,2023-11-01,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0760,True,False,False,TBD,XXX,2023-11-01,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0880,True,False,False,TBD,XXX,2023-11-01,D
+495156,Old Southwest Health and Rehabilitation,Virginia,F0755,True,False,False,TBD,XXX,2023-02-23,E
+495156,Old Southwest Health and Rehabilitation,Virginia,F0756,True,False,False,TBD,XXX,2021-08-05,D
+495166,Stratford Rehabilitation Center - SNF,Virginia,F0756,True,True,True,Branda Hodges,Caroline Chisholm,2024-10-16,D
+495166,Stratford Rehabilitation Center - SNF,Virginia,F0760,True,True,True,Branda Hodges,Caroline Chisholm,2019-05-31,E
+495166,Stratford Rehabilitation Center - SNF,Virginia,F0880,True,True,True,Branda Hodges,Caroline Chisholm,2019-05-31,D
+495191,Bland County,Virginia,F0755,True,True,True,Jessica Fisher,Kristin Bowman,2021-11-12,D
+495191,Bland County,Virginia,F0759,True,True,True,Jessica Fisher,Kristin Bowman,2021-11-12,D
+495191,Bland County,Virginia,F0880,True,True,True,Jessica Fisher,Kristin Bowman,2019-11-14,D
+495196,Autumn Care of Altavista - SNF,Virginia,F0880,True,True,True,Branda Hodges,Emily Staples,2019-08-22,E
+495218,Fincastle Brian Center Botetourt,Virginia,F0880,True,True,True,TBD,Paul Tompkins,2022-08-18,D
+495218,Fincastle Brian Center Botetourt,Virginia,F0756,True,True,True,TBD,Paul Tompkins,2021-03-04,D
+495218,Fincastle Brian Center Botetourt,Virginia,F0759,True,True,True,TBD,Paul Tompkins,2021-03-04,D
+495218,Fincastle Brian Center Botetourt,Virginia,F0880,True,True,True,TBD,Paul Tompkins,2021-03-04,D
+495221,Kissito Alleghany,Virginia,F0880,True,True,True,Sandhya Poudel-Subedi,Caroline Chisholm,2024-01-24,E
+495243,Staunton Post Acute & Rehabilitation,Virginia,F0880,False,True,False,XXX,Patrick E. Baroco,2023-06-14,F
+495243,Staunton Post Acute & Rehabilitation,Virginia,F0755,False,True,False,XXX,Patrick E. Baroco,2020-02-11,D
+495243,Staunton Post Acute & Rehabilitation,Virginia,F0759,False,True,False,XXX,Patrick E. Baroco,2020-02-11,D
+495243,Staunton Post Acute & Rehabilitation,Virginia,F0760,False,True,False,XXX,Patrick E. Baroco,2020-02-11,G
+495243,Staunton Post Acute & Rehabilitation,Virginia,F0880,False,True,False,XXX,Patrick E. Baroco,2020-02-11,D
+495249,FARMVILLE HEALTH & REHAB-SNF/NF,Virginia,F0757,True,False,False,Amanda Wilkins,XXX,2023-05-23,E
+495249,FARMVILLE HEALTH & REHAB-SNF/NF,Virginia,F0880,True,False,False,Amanda Wilkins,XXX,2023-05-23,D
+495249,FARMVILLE HEALTH & REHAB-SNF/NF,Virginia,F0755,True,False,False,Amanda Wilkins,XXX,2019-02-21,D
+495249,FARMVILLE HEALTH & REHAB-SNF/NF,Virginia,F0759,True,False,False,Amanda Wilkins,XXX,2019-02-21,E
+495249,FARMVILLE HEALTH & REHAB-SNF/NF,Virginia,F0880,True,False,False,Amanda Wilkins,XXX,2019-02-21,D
+495259,814 Heritage Hall Grundy,Virginia,F0755,True,True,True,Jessica Fisher,Donald Quinn,2021-03-18,D
+495259,814 Heritage Hall Grundy,Virginia,F0756,True,True,True,Jessica Fisher,Donald Quinn,2021-03-18,E
+495259,814 Heritage Hall Grundy,Virginia,F0757,True,True,True,Jessica Fisher,Donald Quinn,2021-03-18,D
+495259,814 Heritage Hall Grundy,Virginia,F0759,True,True,True,Jessica Fisher,Donald Quinn,2019-03-21,D
+495259,814 Heritage Hall Grundy,Virginia,F0880,True,True,True,Jessica Fisher,Donald Quinn,2019-03-21,E
+495293,Berkshire Health & Rehabilitation Center,Virginia,F0755,True,False,False,Heather Stevens,XXX,2024-06-18,D
+495293,Berkshire Health & Rehabilitation Center,Virginia,F0759,True,False,False,Heather Stevens,XXX,2024-06-18,D
+495293,Berkshire Health & Rehabilitation Center,Virginia,F0880,True,False,False,Heather Stevens,XXX,2024-06-18,D
+495293,Berkshire Health & Rehabilitation Center,Virginia,F0755,True,False,False,Heather Stevens,XXX,2020-01-22,D
+495293,Berkshire Health & Rehabilitation Center,Virginia,F0757,True,False,False,Heather Stevens,XXX,2020-01-22,D
+495293,Berkshire Health & Rehabilitation Center,Virginia,F0759,True,False,False,Heather Stevens,XXX,2020-01-22,D
+495293,Berkshire Health & Rehabilitation Center,Virginia,F0880,True,False,False,Heather Stevens,XXX,2020-01-22,D
+495302,Forest Health and Rehab Center,Virginia,F0755,True,True,True,Tammy Bogart,Paul Tompkins,2025-03-13,D
+495302,Forest Health and Rehab Center,Virginia,F0760,True,True,True,Tammy Bogart,Paul Tompkins,2025-03-13,D
+495302,Forest Health and Rehab Center,Virginia,F0755,True,True,True,Tammy Bogart,Paul Tompkins,2022-06-15,D
+495302,Forest Health and Rehab Center,Virginia,F0759,True,True,True,Tammy Bogart,Paul Tompkins,2022-06-15,D
+495302,Forest Health and Rehab Center,Virginia,F0880,True,True,True,Tammy Bogart,Paul Tompkins,2022-06-15,D
+495302,Forest Health and Rehab Center,Virginia,F0880,True,True,True,Tammy Bogart,Paul Tompkins,2021-02-25,D
+495302,Forest Health and Rehab Center,Virginia,F0880,True,True,True,Tammy Bogart,Paul Tompkins,2019-04-11,F
+495315,Woodstock Valley Health and Rehab,Virginia,F0755,True,True,True,Dana Landacre,Ahsan Afzal,2025-09-26,E
+495315,Woodstock Valley Health and Rehab,Virginia,F0757,True,True,True,Dana Landacre,Ahsan Afzal,2025-09-26,D
+495315,Woodstock Valley Health and Rehab,Virginia,F0880,True,True,True,Dana Landacre,Ahsan Afzal,2025-09-26,D
+495315,Woodstock Valley Health and Rehab,Virginia,F0759,True,True,True,Dana Landacre,Ahsan Afzal,2024-05-23,E
+495315,Woodstock Valley Health and Rehab,Virginia,F0605,True,True,True,Dana Landacre,Ahsan Afzal,2024-05-23,D
+495315,Woodstock Valley Health and Rehab,Virginia,F0880,True,True,True,Dana Landacre,Ahsan Afzal,2024-05-23,D
+495315,Woodstock Valley Health and Rehab,Virginia,F0755,True,True,True,Dana Landacre,Ahsan Afzal,2023-04-20,E
+495315,Woodstock Valley Health and Rehab,Virginia,F0755,True,True,True,Dana Landacre,Ahsan Afzal,2021-10-26,D
+495315,Woodstock Valley Health and Rehab,Virginia,F0760,True,True,True,Dana Landacre,Ahsan Afzal,2021-10-26,D
+495320,Heritage Hall Clintwood,Virginia,F0880,True,True,True,Whitney Riner,Donald Quinn,2024-06-27,E
+495320,Heritage Hall Clintwood,Virginia,F0755,True,True,True,Whitney Riner,Donald Quinn,2019-06-20,E
+495320,Heritage Hall Clintwood,Virginia,F0867,True,True,True,Whitney Riner,Donald Quinn,2019-06-20,F
+495321,818 Heritage Hall Lexington,Virginia,F0757,True,True,True,Julia Diehl,Gavin Slitt,2022-09-21,G
+495321,818 Heritage Hall Lexington,Virginia,F0880,True,True,True,Julia Diehl,Gavin Slitt,2019-02-14,F
+495323,819 Heritage Hall Laurel Meadows,Virginia,F0880,False,True,False,XXX,Vanessa S. Fant,2021-06-03,D
+495323,819 Heritage Hall Laurel Meadows,Virginia,F0756,False,True,False,XXX,Vanessa S. Fant,2019-04-25,D
+495325,Pheasant Ridge SNF/NF,Virginia,F0756,True,True,True,Heather Stevens,Paul Tompkins,2024-01-19,D
+495325,TerraBella Pheasant Ridge ALF,Virginia,F0756,True,False,False,TBD,XXX,2024-01-19,D
+495325,Pheasant Ridge SNF/NF,Virginia,F0755,True,True,True,Heather Stevens,Paul Tompkins,2024-11-21,D
+495325,TerraBella Pheasant Ridge ALF,Virginia,F0755,True,False,False,TBD,XXX,2024-11-21,D
+495325,Pheasant Ridge SNF/NF,Virginia,F0757,True,True,True,Heather Stevens,Paul Tompkins,2022-08-03,D
+495325,TerraBella Pheasant Ridge ALF,Virginia,F0757,True,False,False,TBD,XXX,2022-08-03,D
+495331,GRAYSON-SNF/NF,Virginia,F0755,True,True,True,TBD,Vanessa S. Fant,2023-12-14,D
+495331,GRAYSON-SNF/NF,Virginia,F0760,True,True,True,TBD,Vanessa S. Fant,2023-12-14,D
+495331,GRAYSON-SNF/NF,Virginia,F0760,True,True,True,TBD,Vanessa S. Fant,2024-08-01,D
+495331,GRAYSON-SNF/NF,Virginia,F0756,True,True,True,TBD,Vanessa S. Fant,2022-04-07,D
+495331,GRAYSON-SNF/NF,Virginia,F0759,True,True,True,TBD,Vanessa S. Fant,2022-04-07,D
+495331,GRAYSON-SNF/NF,Virginia,F0755,True,True,True,TBD,Vanessa S. Fant,2019-01-31,D
+495331,GRAYSON-SNF/NF,Virginia,F0757,True,True,True,TBD,Vanessa S. Fant,2019-01-31,D
+495331,GRAYSON-SNF/NF,Virginia,F0880,True,True,True,TBD,Vanessa S. Fant,2019-01-31,D
+495336,AUGUSTA NURSING & REHAB-SNF/NF,Virginia,F0759,True,True,True,Julia Diehl,Patrick E. Baroco,2023-02-28,E
+495336,AUGUSTA NURSING & REHAB-SNF/NF,Virginia,F0880,True,True,True,Julia Diehl,Patrick E. Baroco,2023-02-28,D
+495336,AUGUSTA NURSING & REHAB-SNF/NF,Virginia,F0759,True,True,True,Julia Diehl,Patrick E. Baroco,2022-04-07,E
+495336,AUGUSTA NURSING & REHAB-SNF/NF,Virginia,F0880,True,True,True,Julia Diehl,Patrick E. Baroco,2019-08-29,D
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0880,True,True,True,Dana Landacre,Patrick E. Baroco,2025-12-17,D
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0756,True,True,True,Dana Landacre,Patrick E. Baroco,2023-02-02,E
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0880,True,True,True,Dana Landacre,Patrick E. Baroco,2023-02-02,D
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0755,True,True,True,Dana Landacre,Patrick E. Baroco,2024-07-24,D
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0755,True,True,True,Dana Landacre,Patrick E. Baroco,2024-04-17,D
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0865,True,True,True,Dana Landacre,Patrick E. Baroco,2024-04-17,E
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0759,True,True,True,Dana Landacre,Patrick E. Baroco,2021-04-15,D
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0880,True,True,True,Dana Landacre,Patrick E. Baroco,2021-04-15,D
+495344,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,Virginia,F0865,True,True,True,Dana Landacre,Patrick E. Baroco,2019-06-24,F
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0755,True,True,True,TBD,Michael Saval,2025-05-07,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0756,True,True,True,TBD,Michael Saval,2025-05-07,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0760,True,True,True,TBD,Michael Saval,2025-05-07,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0880,True,True,True,TBD,Michael Saval,2025-05-07,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0757,True,True,True,TBD,Michael Saval,2024-02-02,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0880,True,True,True,TBD,Michael Saval,2024-02-02,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0756,True,True,True,TBD,Michael Saval,2022-05-12,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0755,True,True,True,TBD,Michael Saval,2019-06-07,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0759,True,True,True,TBD,Michael Saval,2019-06-07,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0760,True,True,True,TBD,Michael Saval,2019-06-07,D
+495349,HOLSTON HEALTH AND REHAB,Virginia,F0880,True,True,True,TBD,Michael Saval,2019-06-07,D
+495350,Heritage Hall Wise,Virginia,F0759,True,False,False,Whitney Riner,XXX,2021-08-16,D
+495350,Heritage Hall Wise,Virginia,F0880,True,False,False,Whitney Riner,XXX,2021-08-16,D
+495350,Heritage Hall Wise,Virginia,F0755,True,False,False,Whitney Riner,XXX,2019-09-26,D
+495350,Heritage Hall Wise,Virginia,F0760,True,False,False,Whitney Riner,XXX,2019-09-26,D
+495352,Lee Health and Rehab,Virginia,F0756,False,True,False,XXX,Donald Quinn,2020-01-09,D
+495355,Radford Health and Rehab Center,Virginia,F0755,True,False,False,Natasha Hart,XXX,2025-02-06,D
+495355,Radford Health and Rehab Center,Virginia,F0757,True,False,False,Natasha Hart,XXX,2025-02-06,D
+495355,Radford Health and Rehab Center,Virginia,F0880,True,False,False,Natasha Hart,XXX,2025-02-06,D
+495355,Radford Health and Rehab Center,Virginia,F0755,True,False,False,Natasha Hart,XXX,2019-08-08,D
+495355,Radford Health and Rehab Center,Virginia,F0880,True,False,False,Natasha Hart,XXX,2019-08-08,D
+495356,931 Heritage Hall Blacksburg,Virginia,F0755,True,False,False,Natasha Hart,XXX,2024-08-29,D
+495356,931 Heritage Hall Blacksburg,Virginia,F0757,True,False,False,Natasha Hart,XXX,2024-08-29,D
+495356,931 Heritage Hall Blacksburg,Virginia,F0760,True,False,False,Natasha Hart,XXX,2024-08-29,D
+495356,931 Heritage Hall Blacksburg,Virginia,F0880,True,False,False,Natasha Hart,XXX,2024-08-29,D
+495356,931 Heritage Hall Blacksburg,Virginia,F0880,True,False,False,Natasha Hart,XXX,2023-01-19,D
+495356,931 Heritage Hall Blacksburg,Virginia,F0755,True,False,False,Natasha Hart,XXX,2020-02-10,E
+495356,931 Heritage Hall Blacksburg,Virginia,F0760,True,False,False,Natasha Hart,XXX,2020-02-10,D
+495357,OUR LADY OF THE VALLEY-SNF/NF,Virginia,F0756,True,True,True,Heather Stevens,Emily Staples,2023-08-25,D
+495357,OUR LADY OF THE VALLEY-SNF/NF,Virginia,F0880,True,True,True,Heather Stevens,Emily Staples,2021-04-15,D
+495360,Woodlands Health and Rehab Center,Virginia,F0880,True,False,False,Sandhya Poudel-Subedi,XXX,2021-07-28,E
+495365,Maple Grove,Virginia,F0880,True,True,True,Jessica Fisher,Bradley J. Goad,2024-10-17,D
+495365,Maple Grove,Virginia,F0759,True,True,True,Jessica Fisher,Bradley J. Goad,2022-05-17,D
+495365,Maple Grove,Virginia,F0756,True,True,True,Jessica Fisher,Bradley J. Goad,2020-03-12,D
+495365,Maple Grove,Virginia,F0880,True,True,True,Jessica Fisher,Bradley J. Goad,2020-03-12,D
+495370,"Bridgewater Home, Inc. - SNF",Virginia,F0756,False,True,False,XXX,Patrick E. Baroco,2019-10-17,E
+495370,"Bridgewater Home, Inc. - SNF",Virginia,F0880,False,True,False,XXX,Patrick E. Baroco,2018-08-23,D
+495372,South Boston Health & Rehab Center - SNF,Virginia,F0605,True,False,False,Branda Hodges,XXX,2025-05-22,D
+495372,South Boston Health & Rehab Center - SNF,Virginia,F0756,True,False,False,Branda Hodges,XXX,2025-05-22,D
+495372,South Boston Health & Rehab Center - SNF,Virginia,F0880,True,False,False,Branda Hodges,XXX,2025-05-22,E
+495372,South Boston Health & Rehab Center - SNF,Virginia,F0755,True,False,False,Branda Hodges,XXX,2022-01-28,D
+495372,South Boston Health & Rehab Center - SNF,Virginia,F0756,True,False,False,Branda Hodges,XXX,2022-01-28,E
+495372,South Boston Health & Rehab Center - SNF,Virginia,F0880,True,False,False,Branda Hodges,XXX,2022-01-28,E
+495372,South Boston Health & Rehab Center - SNF,Virginia,F0880,True,False,False,Branda Hodges,XXX,2019-10-10,D
+495373,BRANDON OAKS INTENSIVE-MEMORY CARE,Virginia,F0755,True,False,False,Jessica Gillispie,XXX,2023-09-08,D
+495379,Clarksville Health & Rehab Center - SNF,Virginia,F0759,True,False,False,Branda Hodges,XXX,2021-04-01,D
+495379,Clarksville Health & Rehab Center - SNF,Virginia,F0880,True,False,False,Branda Hodges,XXX,2019-01-31,F
+495385,VMRC (SNF/NF) TRANSITIONAL CARE,Virginia,F0880,True,True,True,Dana Landacre,Patrick E. Baroco,2023-03-15,D
+495385,VMRC (SNF/NF) TRANSITIONAL CARE,Virginia,F0880,True,True,True,Dana Landacre,Patrick E. Baroco,2018-11-29,F
+495386,Daleville Health & Rehabilitation - SNF,Virginia,F0755,True,False,False,TBD,XXX,2024-04-10,D
+495386,Daleville Health & Rehabilitation - SNF,Virginia,F0756,True,False,False,TBD,XXX,2024-04-10,D
+495386,Daleville Health & Rehabilitation - SNF,Virginia,F0865,True,False,False,TBD,XXX,2024-04-10,D
+495386,Daleville Health & Rehabilitation - SNF,Virginia,F0756,True,False,False,TBD,XXX,2023-02-16,D
+495386,Daleville Health & Rehabilitation - SNF,Virginia,F0760,True,False,False,TBD,XXX,2023-02-16,D
+495386,Daleville Health & Rehabilitation - SNF,Virginia,F0756,True,False,False,TBD,XXX,2021-05-27,D
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0759,True,False,False,Branda Hodges,XXX,2024-06-11,D
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0760,True,False,False,Branda Hodges,XXX,2024-06-11,G
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0880,True,False,False,Branda Hodges,XXX,2024-06-11,D
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0755,True,False,False,Branda Hodges,XXX,2022-07-27,D
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0756,True,False,False,Branda Hodges,XXX,2022-07-27,D
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0760,True,False,False,Branda Hodges,XXX,2022-07-27,D
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0880,True,False,False,Branda Hodges,XXX,2022-07-27,D
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0760,True,False,False,Branda Hodges,XXX,2024-01-10,D
+495399,Chatham Health and Rehabilitation Center - SNF VA,Virginia,F0880,True,False,False,Branda Hodges,XXX,2024-01-10,D
+495404,GLEBE-SNF/NF,Virginia,F0755,True,True,True,TBD,Emily Staples,2019-03-29,D
+495404,GLEBE-SNF/NF,Virginia,F0880,True,True,True,TBD,Emily Staples,2019-03-29,D
+495405,Summit Square SNF,Virginia,F0865,True,True,True,Sandhya Poudel-Subedi,Patrick E. Baroco,2025-02-07,G
+495405,Summit Square SNF,Virginia,F0880,True,True,True,Sandhya Poudel-Subedi,Patrick E. Baroco,2023-11-15,D
+495405,Summit Square SNF,Virginia,F0756,True,True,True,Sandhya Poudel-Subedi,Patrick E. Baroco,2021-02-10,D
+495405,Summit Square SNF,Virginia,F0880,True,True,True,Sandhya Poudel-Subedi,Patrick E. Baroco,2021-02-10,E
+495411,Liberty Ridge - SNF,Virginia,F0760,True,True,True,Amanda Wilkins,William C. Mitchell,2024-06-05,G
+495411,Liberty Ridge - SNF,Virginia,F0880,True,True,True,Amanda Wilkins,William C. Mitchell,2022-02-10,D
+495426,Mulberry Creek Nursing & Rehab Center,Virginia,F0757,True,True,True,Jessica Gillispie,Caroline Chisholm,2024-05-09,D
