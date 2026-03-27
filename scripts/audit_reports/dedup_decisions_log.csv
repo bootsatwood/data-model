@@ -1,0 +1,7 @@
+Pair,Address,City,State,Action,Excel_Row,Facility_Name,Type,Beds,Source,Served,Notes
+5,7301 E 16th St,Indianapolis,IN,DELETE,5319,WILDWOOD HEALTHCARE CENTER SNF,SNF,117,LEGACY,Yes,Stale served flag; not in GLR; duplicate of row 5282
+5,7301 E 16th St,Indianapolis,IN,KEEP,5282,WILDWOOD HEALTHCARE CENTER,SNF,160,CMS,No,Authority: IN QAMIS 1 license 160 beds; served stays No
+6,1540 S Logan St,Mishawaka,IN,DELETE,18205,HELLENIC SENIOR LIVING OF MISHAWAKA,ALF,157,GLR,No,Duplicate of row 4846; not served; no GLR patients
+6,1540 S Logan St,Mishawaka,IN,KEEP,4846,HELLENIC SENIOR LIVING - MISHAWAKA,ALF,60,GLR,Yes,Keep as-is; 59 GLR patients; beds stay 60 per Roian
+7,559 W Longest St,Paoli,IN,PENDING,5013,PAOLI HEALTH AND LIVING COMMUNITY,SNF,109,GLR,No,Recommendation: DELETE (not-served; no GLR patients; duplicate of row 5030) — awaiting approval
+7,559 W Longest St,Paoli,IN,PENDING,5030,PAOLI HEALTH AND LIVING COMMUNITY SNF,SNF,44,GLR,Yes,Recommendation: KEEP as-is (served; 46 GLR pts) — awaiting approval

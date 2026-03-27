@@ -13,6 +13,9 @@ Thumbs.db
 desktop.ini
 .DS_Store
 
+# Secrets
+.env
+
 # No binary data files in this repo
 *.xlsx
 *.pptx
