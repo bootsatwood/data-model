@@ -920,3 +920,31 @@ All 4 investigated pairs are **DIFFERENT entities** — no consolidation needed:
 | CERTUS HEALTHCARE (OH, 14 rows SNFs) vs Certus Senior Living (FL, 5 rows memory care) | DIFFERENT | Different states, different care types, different branding |
 | SOUTHERN HEALTHCARE MGMT (FL/GA/NC, 46 rows) vs SOUTHERN ADMINISTRATIVE SERVICES (AR, 35 rows) | DIFFERENT | Zero geographic overlap, no address matches |
 | PRIORITY (IN, 10), PRIORITY LIFE CARE (multi-state, 42), PRIORITY MANAGEMENT (LA/TX, 38), PRIORITY HEALTHCARE GROUP (PA/NE, 15) | 4 DIFFERENT operators | Completely different geographies; PRIORITY LIFE CARE is the V23 scored entity |
+
+### CORPORATE RISK ANALYSIS CROSS-REFERENCE (2026-03-26)
+Source: Cary Trainor (COO) LOB termination data cross-referenced against V25 PostgreSQL DB.
+Context: 42 corporate groups with 2025 termination history, $17.5M revenue at risk.
+
+**Name mismatch confirmed:**
+- "American Healthcare" in LOB data = **Heritage Hall** (T1, entity 17366, 23 campuses). Legal holding company name vs. operator brand.
+
+**Barrier findings (T5 candidates):**
+- **Genesis** (id 16254): 9 campuses KY/NC/VA, 4 served. 7 of 10 facilities flagged "Own Provider Group." Cary lists as "Genesis/Alignmed."
+- **Alliance Health Group** (id 16888): 9 campuses NC, 0 served. 3 of 9 facilities flagged "Alliance" + "Own Provider Group."
+
+**Entity consolidation candidates identified:**
+- **Cogir**: Cogir USA (id 16895, 16 fac) + COGIR SENIOR LIVING (id 16893, 2 fac) — same parent, split entities in DB.
+- **Commonwealth**: COMMONWEALTH SENIOR LIVING (id 17395, 25 fac VA) vs COMMONWEALTH CARE OF ROANOKE (id 17367, 11 fac) — relationship unclear, needs investigation.
+- **Traditions**: TRADITIONS (id 16622, 13 fac) + Tradition Senior Living (id 17984, 1 fac) — likely same operator.
+
+**Scoring board gaps confirmed (meet 7+ gate, not on Corporate Scoring Reference board):**
+- Sonida Senior Living (33 camp, 6 states, 4 served, 12 pipeline)
+- Harmony Senior Services (28 camp, 6 states, 5 served, 0 pipeline)
+- Spring Arbor Management (14 camp, 3 states, 5 served, 10 pipeline)
+- Traditions (12 camp, 3 states, 3 served, 12 pipeline)
+- Mainstay Senior Living (7 camp, 2 states, 4 served, 9 pipeline)
+- Carlyle Senior Care (7 camp, SC only, 0 served, 4 pipeline)
+
+**T4 classification review needed:**
+- Kissito Healthcare (T4, 12 campuses) — meets gate. Cary notes: "Bought by Utah group; Baroco/Steve meeting Mary Ferrell."
+- BHI Senior Living (T4, 9 campuses) — meets gate.
