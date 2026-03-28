@@ -1,0 +1,1250 @@
+addr_key,glr_facility_name,glr_type,glr_beds,glr_census,glr_patients,glr_cmsccn,glr_status,glr_parent_company,city,state,zip,pc,psych,mh,pod,pain,wc,spec
+1 DUCK LN,Fairview FCH,AL,NULL,NULL,3,NULL,Established,Independent,Fletcher,North Carolina,28732,3,0,0,0,0,0,0
+10 SUGARLOAF RD,Kingsbridge House,AL,NULL,NULL,25,NULL,Established,ALG,Brevard,North Carolina,28712,24,0,0,0,0,5,24
+100 ARH LN,Kissito Alleghany,SNFMD,NULL,NULL,89,495221,Established,Kissito Healthcare,LOW MOOR,Virginia,24457,88,0,0,0,0,39,0
+100 BIRNEY PL,Morning Pointe of Danville,AL,80,10,24,NULL,Established,MORNING POINTE SENIOR LIVING,Danville,Kentucky,40422,23,0,0,0,0,1,0
+100 CARMEL MANOR RD,Carmel Manor Fort Thomas AL,AL,95,82,10,185208,Established,Carmelite System,Fort Thomas,Kentucky,41075,10,0,0,0,0,2,0
+100 CARMEL MANOR RD,Carmel Manor Fort Thomas SNF,SNFMD,95,82,93,185208,Established,Carmelite System,Fort Thomas,Kentucky,41075,82,0,0,0,0,12,0
+100 HICKORY ST,Cypress Glen Retirement Community,CRCC,72,70,9,NULL,Established,INDEPENDENT,GREENVILLE,North Carolina,27858,8,0,0,0,0,0,0
+100 KYLE DR,COMMONWEALTH-HILLSVILLE ALF,AL,NULL,NULL,51,NULL,Established,MCAP,HIILLSVILLE,Virginia,24343,28,0,0,0,0,4,0
+100 LANARK RD,Brookdale Meadowmont,AL/MC,NULL,NULL,31,NULL,Established,BROOKDALE SENIOR LIVING,Chapel Hill,North Carolina,27517,25,0,0,0,0,6,0
+100 ROGERS LN,JAG Healthcare Shelby,SNFMD,NULL,NULL,44,365331,Established,JAG,Shelby,Ohio,44875,42,0,0,0,0,13,0
+100 RORER RD,Chatham Health and Rehabilitation Center - SNF VA,SNF,NULL,NULL,65,495399,Established,Saber Healthcare Group,CHATHAM,Virginia,24531,56,0,0,0,0,9,0
+100 S WHITEWOMAN ST,Roscoe Gardens Skilled Nursing and Rehab,SNF,72,61,33,365880,Established,Citadel Healthcare,Coshocton,Ohio,43812,33,0,0,0,0,0,0
+100 SILVER BLUFF DR,Silver Bluff Village-Arrowhead Cove (Village Home,AL,NULL,NULL,12,345341,Established,Liberty,Canton,North Carolina,28716,10,0,0,0,0,0,6
+100 SILVER BLUFF DR,Silver Bluff Village-SNF,SNF,NULL,NULL,88,345341,Established,Liberty,Canton,North Carolina,28716,71,0,0,0,0,0,59
+100 SPARKS AVE,Nicholasville Nursing and Rehab,SNFMD,73,68,73,185220,Established,Majestic Care,Nicholasville,Kentucky,40356,66,0,0,0,0,24,0
+100 SUNSET DR,Franklin Manor,MC,NULL,NULL,40,NULL,Established,SABER HEALTHCARE GROUP,Youngsville,North Carolina,27596,36,0,0,0,0,5,37
+100 SUNSET ST,Hickory Falls Health & Rehab,SNF,NULL,NULL,78,345246,Established,SANSTONE,Granite Falls,North Carolina,28630,76,0,0,0,0,0,0
+"100 WURTLAND AVE, WURTLAND, KY 41144",Wurtland Nursing and Rehab,SNF,126,110,78,185261,Established,Majestic Care,Wurtland,Kentucky,41144,78,0,0,0,0,0,0
+"1000 ADDINGTON DR, RUSSELL, KY 41169",Morning Pointe of Russell,AL,50,40,31,NULL,Established,MORNING POINTE SENIOR LIVING,Russell,Kentucky,41169,24,0,0,0,0,1,0
+1000 FAIRVIEW AVE,Woodlands Health and Rehab Center,SNF,NULL,NULL,41,495360,Established,Commonwealth Care of Roanoke,CLIFTON FORGE,Virginia,24422,41,0,0,0,0,0,0
+1000 JOHNS RD,Prestwick Village Assisted Living,AL,NULL,NULL,33,NULL,Established,ALG,Laurinburg,North Carolina,28352,32,0,0,0,0,8,0
+1000 RIDGECREST LN,RIDGECREST-ALF,AL,NULL,NULL,17,NULL,Established,Legend Senior Living,MOUNT AIRY,North Carolina,27030,6,0,0,0,0,0,0
+1000 W ALLEN ST,Gardens of Hendersonville,AL,NULL,NULL,35,NULL,Established,ALG,Hendersonville,North Carolina,28739,32,0,0,0,0,5,34
+1000 WESLEY PINES RD,Wesley Pines Retirement Community,AL/SNF MD,62 (+ 42 ALF),101,109,345180,Established,"THE UNITED METHODIST RETIREMENT HOMES, INC",Lumberton,North Carolina,28358,103,27,0,0,0,35,0
+1001 MYERS RD,Celina Manor,AL,NULL,NULL,37,365377,Established,HCF,CELINA,Ohio,45822,37,0,0,0,0,0,0
+1002 E NC HWY 54,Seasons at Southpoint,MC,NULL,NULL,23,NULL,Established,INDEPENDENT,Durham,North Carolina,27713,18,0,0,0,0,2,0
+1002 GLENVIEW DR,Glenview Health and Rehab,SNF,60,54,51,185271,Established,"GLENVIEW HEALTH CARE FACILITY, INC.",Glasgow,Kentucky,42141,49,0,0,0,0,0,0
+1002 SISTER BARBARA WAY,The Waters of Georgetown ALF,AL,60,56,1,155770,Established,Priority,Georgetown,Indiana,47122,1,0,0,0,0,0,0
+1002 SISTER BARBRA WAY,The Waters of Georgetown SNF,SNF,NULL,NULL,53,155770,Established,INFINITY HEALTHCARE CONSULTING,Georgetown,Indiana,47122,49,0,0,0,0,0,0
+1009 OLD COUNTRY CLUB RD NW,Hermitage Roanoke - ALF,AL,NULL,NULL,18,NULL,Established,Goodwin Living,ROANOKE,Virginia,24017,10,0,0,0,0,3,0
+1009 OLD COUNTRY CLUB RD NW,Hermitage Roanoke -HC,SNF,NULL,NULL,6,NULL,Established,Pinnacle,ROANOKE,Virginia,24017,4,0,0,0,0,2,0
+10098 BIG BEAR CREEK RD,Edgewood Manor of Lucasville I,SNF,96,12,6,365585,Established,EDGEWOOD MANOR OF LUCASVILLE I LLC,Lucasville,Ohio,45648,6,0,0,0,0,4,0
+10098A BIG BEAR CREEK RD,Edgewood Manor of Lucasville II,SNF,72,7,17,365932,Established,EDGEWOOD MANOR OF LUCASVILLE I LLC,Lucasville,Ohio,45648,17,0,0,0,0,5,0
+101 ANNIE PARKER CIR,Americare Adult Home,AL,36,31,28,NULL,Established,INDEPENDENT,Smithfield,North Carolina,27577,25,0,0,0,0,4,0
+101 E 90TH DR,ResCare - Country Club Group Home,IL,NULL,NULL,30,NULL,Established,INDEPENDENT,Merrillville,Indiana,46410,30,16,0,0,0,0,0
+101 FAIRGROUNDS RD,Hardinsburg Nursing and Rehabilitation,SNF,NULL,NULL,42,185302,Established,TOPAZ HEALTHCARE,Hardinsburg,Kentucky,40143,39,0,0,0,0,0,0
+101 LIONS WAY,Marjorie McCune Memorial AL,AL,NULL,NULL,41,NULL,Established,"WESTERN NORTH CAROLINA LIONS, INC.",Black Mountain,North Carolina,28711,36,0,0,0,0,12,0
+101 LIONS WAY,Marjorie McCune Memorial IN,IL,64,45,2,NULL,Established,Lions of Western NC,Black Mountain,North Carolina,28711,1,0,0,0,0,1,0
+1010 LAKEVIEW DR,Pineville Rehab and Living Center,SNF,NULL,NULL,53,345415,Established,CCH HEALTHCARE,Pineville,North Carolina,28134,43,0,0,0,0,0,0
+1011 N BYRNE RD,Divine Rehabilitation and Nursing of Toledo,AL,NULL,NULL,40,366328,Established,DMH Ohio,Toledo,Ohio,43607,31,0,0,0,0,0,0
+1015 MAGAZINE ST,Chestnut Ridge Health & Rehabilitation,SNF,NULL,NULL,64,185468,Established,INFINITY HEALTHCARE CONSULTING,Louisville,Kentucky,40203,55,0,0,0,0,0,0
+102 N STUART AVE,JOURNEYS CROSSING (ALF),AL,NULL,NULL,30,NULL,Established,INDEPENDENT,ELKTON,Virginia,22827,28,0,0,0,0,2,0
+1021 E CENTRAL AVE,Arbor Grove Village,SNF,NULL,NULL,78,155625,Established,AMERICAN SENIOR COMMUNITIES,GREENSBURG,Indiana,47240,75,0,0,0,0,11,0
+1022 EASTERN AVE,The Gardens of Nashville,AL,NULL,NULL,47,NULL,Established,ALG,NASHVILLE,North Carolina,27856,45,0,0,0,0,12,0
+1023 W MAIN ST,Swiss Villa Nursing and Rehab,SNF,NULL,NULL,37,155462,Established,AMERICAN SENIOR COMMUNITIES,Vevay,Indiana,47043,35,0,0,0,0,0,0
+1025 ROBERT TELFORD DR,Telford Terrace - Personal Care,AL,44,40,11,185451,Established,INDEPENDENT,Richmond,Kentucky,40475,11,0,0,0,0,0,0
+1025 ROBERT TELFORD DR,Telford Terrace SNF,SNF,44,40,16,185451,Established,INDEPENDENT,Richmond,Kentucky,40475,15,0,0,0,0,0,0
+1029 E 5TH ST,Majestic Care of Connersville,SNF,166,77,87,155491,Established,Majestic Care,Connersville,Indiana,47331,79,0,0,0,0,20,0
+103 APPALACHIAN BLVD,Ardenwoods at Heather Glen,AL,NULL,NULL,13,NULL,Established,INDEPENDENT,Arden,North Carolina,28704,11,0,0,0,0,0,0
+103 GOSSMAN DR,The Coventry at St Joseph of the Pines,AL/MC,50,43,30,NULL,Established,INDEPENDENT,Souther Pines,North Carolina,28387,27,0,0,0,0,0,0
+103 GOSSMAN DR,St. Joseph of the Pines,SNF,100,68,20,345044,Established,TRINITY HEALTH SENIOR COMMUNITIES,Southern Pines,North Carolina,28387,9,0,0,0,0,0,0
+103 ROSEHILL DR,South Boston Health & Rehab Center - SNF,SNF,NULL,NULL,156,495372,Established,SABER HEALTHCARE GROUP,SOUTH BOSTON,Virginia,24592,29,0,0,0,0,0,0
+1030 KENTONTOWN RD,Robertson County Health Care,SNF,NULL,NULL,31,185359,Established,Bluegrass/Encore,MOUNT OLIVET,Kentucky,41064,30,0,0,0,0,0,0
+1030 SHIVE LN,Fern Terrace of Bowling Green,AL,NULL,NULL,73,NULL,Established,DAVCO,BOWLING GREEN,Kentucky,42103,69,0,0,0,0,2,0
+1033 KY-11,Laurel Creek Health Care Center,SNF,106,85,95,185293,Established,Hill Valley,Manchester,Kentucky,40962,94,0,0,0,0,11,0
+1034 E CROWN POINTE BLVD,Crown Pointe Senior Living of Greensburg,AL,NULL,NULL,7,NULL,Established,CROWN POINTE COMMUNITIES,GREENSBURG,Indiana,47240,5,0,0,0,0,0,0
+104 COLLEGE DR,Hendersonville Health and Rehab,SNF,NULL,NULL,55,345493,Established,SANSTONE,FLAT ROCK,North Carolina,28731,18,0,0,0,0,0,54
+1040 US HIGHWAY 127 S,Bradford,SNF,NULL,NULL,83,185170,Established,Bluegrass/Encore,Frankfort,Kentucky,40601,58,0,0,0,0,0,0
+1043 BROOKLYN BLVD,Terrace Nursing and Rehab,SNF,NULL,NULL,78,185103,Established,Bluegrass/Encore,BEREA,Kentucky,40403,38,0,0,0,0,0,0
+10445 DUPONT OAKS BLVD,Grey Stone Health & Rehabilitation Center,SNFMD,NULL,NULL,75,155809,Established,SABER HEALTHCARE GROUP,Fort Wayne,Indiana,46845,70,0,0,0,0,8,0
+10456 US-62,Oakview Nursing and Rehab,SNF,NULL,NULL,50,185195,Established,SIGNATURE HEALTH,Calvert City,Kentucky,42029,49,0,0,0,0,0,0
+10460 PROGRESS WAY,Harrison Trail Health Campus,AL/SNF,54,52,25,366483,Established,Trilogy,Harrison,Ohio,45030,24,0,0,0,0,0,0
+105 ATRIUM DR,Otterbein Middletown,SNFMD,NULL,NULL,52,366376,Established,OTTERBEIN SENIOR LIFE,Middletown,Ohio,45005,51,0,0,0,0,12,0
+105 CONVENTION DR,Stoneridge Gracious Retirement,IL,NULL,NULL,18,NULL,Established,INDEPENDENT,Cary,North Carolina,27511,15,18,0,1,0,4,0
+105 RODGERS PARK RD,Harrison Nursing and Rehab,SNF,54,44,27,185332,Established,INDEPENDENT,Cynthiana,Kentucky,41031,26,0,0,0,0,0,0
+105 VILLAGE WAY,Village of Lebanon,AL/MC,NULL,NULL,48,185437,Established,INDEPENDENT,LEBANON,Kentucky,40033,47,0,0,0,0,0,0
+105 W PARKVIEW DR,The Bridges on Parkview,AL,80,0,65,NULL,Established,Kisco Senior Living,Henderson,North Carolina,27536,61,0,0,0,0,10,0
+1050 CLINTON ST,Harbor Healthcare of Ironton,AL/SNF/NF,NULL,NULL,62,365564,Established,PROVIDENCE LLC,IRONTON,Ohio,45638,59,0,0,0,0,0,0
+1050 CRESCENT GREEN DR,Heartfields,AL,NULL,NULL,63,NULL,Established,NHC,Cary,North Carolina,27518,58,0,0,0,0,19,55
+10506 CLEAR CREEK COMMERCE DR,Clear Creek Nursing and Rehabilitation Center,SNF,NULL,NULL,73,345562,Established,PRINCIPLE,Mint Hill,North Carolina,28227,72,0,0,0,0,0,0
+1052 NE RAILROAD ST,Wallace Gardens,AL,NULL,NULL,38,NULL,Established,INDEPENDENT,Wallace,North Carolina,28466,32,0,0,0,0,10,0
+106 CAMERON ST,Premier Living and Rehab,SNFMD,"127 SNF, 15 ALF",67,70,345185,Established,INDEPENDENT,Lake Waccamaw,North Carolina,28450,65,0,0,0,0,28,0
+106 GOVER ST,Somerset Nursing and Rehab,SNF,NULL,NULL,67,185218,Established,Bluegrass/Encore,SOMERSET,Kentucky,42501,64,0,0,0,0,0,0
+1063 ADDINGTON DR,The Lantern at Morning Pointe Russell,AL,NULL,27,34,NULL,Established,MORNING POINTE SENIOR LIVING,Russell,Kentucky,41169,27,0,0,0,0,3,0
+107 BOYLES DR,Creekwood Nursing and Rehabilitation,SNF,104,90,61,185313,Established,CLEARVIEW,Russellville,Kentucky,42276,60,0,0,0,0,0,0
+107 MONICA BLVD,RUNK & PRATT PEARLS OF LIFE-ALF,AL,NULL,NULL,26,NULL,Established,Runk & Pratt,LYNCHBURG,Virginia,24502,21,0,0,0,0,0,0
+107 THRUWAY DR,Bluegrass Bardstown ALF,AL,NULL,NULL,35,NULL,Established,NULL,Bardstown,KY,40004,0,0,0,0,0,0,0
+1070 W JEFFERSON ST,Otterbein Franklin - ALF,ALF,NULL,NULL,68,155771,Established,OTTERBEIN SENIOR LIFE,FRANKLIN,Indiana,46131,53,0,0,0,0,2,0
+1070 W JEFFERSON ST,Otterbein Franklin - SNF,SNFMD,NULL,NULL,135,155771,Established,OTTERBEIN SENIOR LIFE,FRANKLIN,Indiana,46131,98,0,0,0,0,21,0
+1075 DEAL RD,Deal Care Inn,AL,NULL,NULL,19,NULL,Established,INDEPENDENT,MOORESVILLE,North Carolina,28115,19,0,0,0,0,1,0
+1075 US HIGHWAY 17 SOUT,Elizabeth City Health & Rehabilitation Center,SNF,170,142,152,345036,Established,SANSTONE,Elizabeth City,North Carolina,27909,147,0,0,0,0,0,0
+108 S MILLER ST,Shady Lawn - Cynthiana,AL,75,65,56,NULL,Established,SHADY LAWN LLC,Cynthiana,Kentucky,41031,56,0,0,0,0,0,0
+10820 PENNY RD,Jordan Oaks,IL,NULL,NULL,8,NULL,Established,INDEPENDENT,Cary,North Carolina,27518,5,8,0,0,0,2,0
+10830 LAWYERS GLEN DR,Mint Hill Senior Living,AL,NULL,NULL,62,NULL,Established,ALG,Mint Hill,North Carolina,28227,12,0,0,0,0,0,0
+1084 US HWY 64 E,Carrolton of Plymouth,SNF,130,74,43,345266,Established,CARROLTON FACILTY MANAGEMENT,PLYMOUTH,North Carolina,27962,38,0,0,0,0,0,0
+109 FOOTHILLS DR,Grace Nursing Center,SNF,NULL,NULL,51,345187,Established,"GRACE MANAGEMENT, INC.",Morganton,North Carolina,28655,50,0,0,0,0,0,0
+109 HOMEWOOD BLVD,NHC Healthcare,SNF,194,152,94,185093,Established,National Healthcare Corporation,Glasgow,Kentucky,42141,94,0,0,0,0,0,0
+11 COMMERCE DR,Gates House ALF and Memory Care,AL,70,58,49,NULL,Established,Navion,Gatesville,North Carolina,27938,38,0,0,0,0,9,0
+11 SHERWOOD RIDGE RD,Cedar Mountain House,AL,NULL,NULL,0,NULL,Established,ALG,BREVARD,North Carolina,28712,0,0,0,0,0,0,0
+11 SHERWOOD RIDGE RD,Cedar Mountain House,AL,NULL,NULL,43,NULL,Established,ALG,BREVARD,North Carolina,28712,42,0,0,0,0,10,34
+110 BEVERLY DR,Chesterton Manor,SNF,100,75,22,155246,Established,Adams County Memorial Hospital,Chesterton,Indiana,46304,21,0,0,0,0,0,0
+110 MCCOTTER BLVD,Cherry Point Bay Nursing and Rehab Center,SNF,NULL,NULL,73,345487,Established,PRINCIPLE,HAVELOCK,North Carolina,28532,67,0,0,0,0,11,0
+1100 GRANDVIEW DR,Oakmont Manor,SNF,NULL,NULL,37,185250,Established,Bluegrass/Encore,Flatwoods,Kentucky,41139,32,0,0,0,0,0,0
+1100 N GARDNER ST,Hickory Creek - Scottsburg,SNF,NULL,NULL,29,155417,Established,AMERICAN SENIOR COMMUNITIES,SCOTTSBURG,Indiana,47170,25,0,0,0,0,0,0
+1101 BAUCOM RD,Monroe Manor Assisted Living,AL,24,22,19,NULL,Established,INDEPENDENT,Monroe,North Carolina,28110,18,0,0,0,0,4,0
+1101 N MORGAN ST,Peak Resources Shelby,SNFMD,NULL,NULL,86,345229,Established,PEAK RESOURCES,Shelby,North Carolina,28150,75,0,0,0,0,31,49
+1101 WOODLAND DR #2749,Elizabethtown Nursing and Rehab Center,SNF,63,60,67,185266,Established,TOPAZ HEALTHCARE,Elizabethtown,Kentucky,42701,46,0,0,0,0,0,0
+11049 IN-101,Envive Healthcare of Brookville,SNF,NULL,NULL,21,155480,Established,MAGNOLIA,Brookville,Indiana,47012,21,0,0,0,0,0,0
+1105 DORSEY LN,Ashton on Dorsey,AL,55,37,15,NULL,Established,SONIDA SENIOR LIVING,Louisville,Kentucky,40223,13,0,0,0,0,1,0
+1107 CARTHAGE ST,Sanford Senior Living,AL,50,18,19,NULL,Established,MAINSTAY SENIOR LIVING,Sanford,North Carolina,27330,19,0,0,0,0,0,1
+1108 REGENCY WAY,Bluegrass Elizabethtown,AL,NULL,NULL,32,NULL,Established,NULL,Elizabethtown,KY,42701,0,0,0,0,0,0,0
+111 CHURCH AVE,Lutheran Community Home,SNF,NULL,NULL,38,155715,Established,INDEPENDENT,SEYMOUR,Indiana,47274,29,0,0,0,0,0,0
+111 MACARTHUR DR,Brookdale MacArthur Park,AL,NULL,NULL,38,NULL,Established,BROOKDALE SENIOR LIVING,Cary,North Carolina,27513,37,0,0,0,0,11,35
+111 S CHURCH ST,Hunter Village,AL,NULL,NULL,62,NULL,Established,INDEPENDENT,HUNTERSVILLE,North Carolina,28078,37,0,0,0,0,5,58
+1110 FALLS RIVER AVE,Falls River Village,AL,NULL,NULL,20,NULL,Established,TARANTINO PROPERTIES,Raleigh,North Carolina,27614,18,0,0,0,0,6,16
+1111 MAIN ST,STRATFORD HOUSE-ALF,AL,NULL,NULL,27,NULL,Established,Commonwealth Senior Living,DANVILLE,Virginia,24541,10,0,0,0,0,0,0
+1114 NEIGHBORHOOD DR,Otterbein Union Township,SNF,NULL,60,NULL,NULL,Established,,,,Ohio,20,0,21,0,0,0,0
+1115 CARTHAGE ST,Sanford Manor,MC,85,38,41,NULL,Established,MAINSTAY SENIOR LIVING,Sanford,North Carolina,27330,39,0,0,0,0,2,0
+112 DOVER DR,Dover Nursing and Rehab,SNF,NULL,NULL,69,185295,Established,Bluegrass/Encore,Georgetown,Kentucky,40324,64,0,0,0,0,0,0
+112 PONY BARN RD,Openview Retirement,AL,24,21,21,NULL,Established,INDEPENDENT,Lawndale,North Carolina,28090,15,0,0,0,0,0,0
+1120 E DAVIS DR,Westminster Village,AL/SNF,NULL,NULL,34,155221,Established,RUSH MEMORIAL,Terre Haute,Indiana,47802,16,0,0,0,0,0,0
+1120 N MAIN ST,Monticello Healthcare,SNF,117,95,21,NULL,Established,AMERICAN SENIOR COMMUNITIES,Monticello,Indiana,47960,0,0,0,0,0,0,0
+1121 E LASALLE AVE,Cardinal Nursing and Rehab,SNFMD,NULL,NULL,70,155115,Established,American Senior Communities,SOUTH BEND,Indiana,46617,70,0,0,0,0,22,0
+11230 BALLANTYNE TRACE CT,Legacy Heights ALF,AL,NULL,NULL,26,NULL,Established,Phoenix Senior Living,Charlotte,North Carolina,28277,3,0,0,0,0,1,0
+11230 BALLANTYNE TRACE CT,Legacy Heights MC,MC,NULL,NULL,10,NULL,Established,Phoenix Senior Living,Charlotte,North Carolina,28277,1,0,0,0,0,0,0
+1130 FALLS RIVER AVE,Falls River Court,MC,NULL,NULL,19,NULL,Established,TARANTINO PROPERTIES,Raleigh,North Carolina,27614,18,0,0,0,0,1,17
+1131 DELIQUIA DR,The Ashford of Mount Washington,AL,135,100,40,NULL,Established,WALLICK SENIOR LIVING,CINCINNATI,Ohio,45230,16,0,0,0,0,0,0
+1135 TAYLOR RD,Mountain Valley Living Center,AL,NULL,NULL,24,NULL,Established,"DANNY TUTTLE, INC.",WESTFIELD,North Carolina,27053,22,0,0,0,0,2,0
+114 POLKS VILLAGE LN,Chatham Ridge AL,AL,91,43,33,NULL,Established,Navion,Chapel Hill,North Carolina,27517,31,0,0,0,0,2,0
+114 POLKS VILLAGE LN,Chatham Ridge MC,MC,34,23,7,NULL,Established,Navion,Chapel Hill,North Carolina,27517,6,0,0,0,0,0,0
+114 SMOKETREE WAY,Louisburg Manor,AL,NULL,NULL,40,NULL,Established,Liberty,Louisburg,North Carolina,27549,32,1,0,0,0,10,0
+114 TENTH ST NE,Cambridge House,AL,NULL,NULL,39,NULL,Established,ALG,Hildebran,North Carolina,28637,36,0,0,2,0,1,0
+11430 COLDWATER RD,The Villages of Pine Valley Assisted Living,AL,NULL,NULL,32,NULL,Established,Lutheran Life Villages,Fort Wayne,Indiana,46845,22,0,0,0,0,0,0
+115 FERGUSON DR,Kings Mountain Memory Care Center,MC,20,17,17,NULL,Established,INDEPENDENT,Kings Mountain,North Carolina,28086,17,0,0,0,0,0,0
+115 PIONEER TRCE,Pioneer Trace Healthcare and Rehabilitation,SNF,NULL,NULL,39,185314,Established,TOPAZ HEALTHCARE,FLEMINGSBURG,Kentucky,41041,32,0,0,0,0,0,0
+115 RETIREMENT DR,RUNK & PRATT SMITH MTN LAKE-ALF,AL,NULL,NULL,21,NULL,Established,Runk & Pratt,HARDY,Virginia,24101,6,0,0,0,0,0,0
+115 WHITE RD,King Health and Rehabilitation Center,SNFMD,NULL,NULL,96,345449,Established,MFA,King,North Carolina,27021,57,0,0,0,0,32,0
+1150 STATE RD,Rehabilitation Center of Cheraw,SNF,104,99,79,NULL,Established,Fundamental LTC,Cheraw,South Carolina,29520,78,0,0,0,0,3,0
+11501 HAMILTON AVE,Sanctuary Pointe Nursing and Rehab,SNF,NULL,NULL,63,366432,Established,CARING PLACE HEALTHCARE,CINCINNATI,Ohio,45231,61,0,0,0,0,0,0
+1155 EASTERN PARKWAY,Eastway Health & Rehabilitation,SNF,NULL,NULL,130,185122,Established,INFINITY HEALTHCARE CONSULTING,Louisville,Kentucky,40217,124,0,0,0,0,0,0
+116 BETZ RD,Betz Nursing Home,SNF,114,84,26,155694,Established,AMERICAN SENIOR COMMUNITIES,Auburn,Indiana,46706,0,0,0,0,0,0,0
+1164 71ST SCHOOL RD,TerraBella of Fayetteville,AL/MC,NULL,NULL,33,NULL,Established,SENIOR LIFESTYLE,Fayetteville,North Carolina,28314,29,0,0,0,0,3,0
+1165 MONARCH ST,Cedarhurst of Beaumont,AL,NULL,NULL,48,NULL,Established,CEDARHURST SENOR LIVING,Lexington,Kentucky,40513,46,0,0,0,0,1,0
+1170 LINKHAW RD,Carrolton of Lumberton,SNFMD,NULL,NULL,88,345315,Established,CARROLTON FACILTY MANAGEMENT,Lumberton,North Carolina,28358,71,0,0,0,0,52,0
+1171 TOWNE ST,Woods Edge Rehab & Nursing,SNF,NULL,NULL,82,366209,Established,BLUE CENTRAL GROUP?,CINCINNATI,Ohio,45216,72,0,0,0,0,0,0
+11725 MADISON PIKE,Regency Manor - Independence,AL,NULL,NULL,30,NULL,Established,ELDERCARE PARTNERS,Independence,Kentucky,41051,26,0,0,0,0,2,0
+1176 KINGSWOOD DR,Traditions - Reagan Park,AL,NULL,NULL,27,NULL,Established,TRADITIONS,Avon,Indiana,46123,23,0,0,0,0,0,0
+118 ALAMANCE RD,Home Place of Burlington,AL/MC,NULL,NULL,39,NULL,Established,TERRABELLA SENIOR LIVING,Burlington,North Carolina,27215,36,0,0,0,0,3,0
+119 GATLING ST,Carrolton of Williamston,SNFMD,145,102,127,345145,Established,CARROLTON FACILTY MANAGEMENT,Williamston,North Carolina,27892,116,0,0,0,0,35,0
+119 N INDIANA AVE,Colonial Nursing and Rehabilitation,SNF,NULL,NULL,6,155733,Established,ADAMS COUNTY MEMORIAL HOSPITAL,Crown Point,Indiana,46307,6,0,0,0,0,0,0
+119 W HIGH ST,Vineyards at Concord,SNFMD,32,28,24,366360,Established,DEERFIELD NURSING CORPORATION,Frankfort,Ohio,45628,17,0,0,0,0,2,0
+11945 PROVIDENCE RD,Waltonwood Providence AL,AL,NULL,74,40,NULL,Established,SINGH,Charlotte,North Carolina,28277,35,0,0,0,0,10,0
+11945 PROVIDENCE RD,Waltonwood Providence IN,IL,NULL,74,9,NULL,Established,SINGH,Charlotte,North Carolina,28277,7,7,0,0,0,0,0
+11945 PROVIDENCE RD,Waltonwood Providence MC,MC,NULL,74,6,NULL,Established,SINGH,Charlotte,North Carolina,28277,4,0,0,0,0,0,0
+1195 DRAKE MILL LN SW,The Drake,AL,NULL,NULL,49,NULL,Established,ALG,Concord,North Carolina,28025,43,0,0,0,0,4,0
+120 ADDY LN,New Light Community Care,AL,25,17,13,NULL,Established,INDEPENDENT,Lexington,South Carolina,29072,13,0,0,0,0,4,0
+120 E MILLER DR,Aperion Care Monroe,SNF,38,33,30,155532,Established,Chosen,BLOOMINGTON,Indiana,47401,22,0,0,0,0,14,0
+120 PRESBERTYRIAN AVE,Harrison County Hospital-River Terrace,AL/SNF,50/HC-28AL,45/HC-27/AL,0,NULL,Established,Trilogy,Madison,Indiana,47250,0,0,0,0,0,0,0
+1200 CARLOS DR,Brookdale North Raleigh,IL,NULL,NULL,41,NULL,Established,BROOKDALE SENIOR LIVING,Raleigh,North Carolina,27609,34,40,0,0,0,4,0
+1200 N STATE RD 135,Greenwood Meadows,AL,169,126,44,155788,Established,AMERICAN SENIOR COMMUNITIES,Greenwood,Indiana,46142,0,0,0,0,0,0,0
+12019 VERHOEFF DR,Atrium Health Huntersville Oaks,SNF,NULL,NULL,49,345096,Established,ATRIUM HEALTH,HUNTERSVILLE,North Carolina,28078,46,0,0,0,0,0,0
+1203 ROUNDTREE DR,CARRIAGE HILL RETIREMENT-ALF,AL,NULL,NULL,71,NULL,Established,Impact Senior Living,BEDFORD,Virginia,24523,31,0,0,0,0,0,0
+1205 LEITCHFIELD RD,Chautauqua Health and Rehab,SNF,NULL,NULL,78,185236,Established,CLEARVIEW,OWENSBORO,Kentucky,42303,77,0,0,0,0,0,0
+1205 W GANNON AVE,Dunmore Senior Living of Zebulon,AL,60,35,28,NULL,Established,Buddy Elmore,Zebulon,North Carolina,27597,23,0,0,0,0,8,0
+1206 11TH ST,Signature Healthcare of Carrollton,SNFMD,78,70,75,185205,Established,SIGNATURE HEALTH,Carrollton,Kentucky,41008,1,0,0,0,0,21,0
+1206 N FULTON ST,Autumn Care of Raeford,SNFMD,132,0,127,345280,Established,Saber Healthcare Group,Raeford,North Carolina,28376,44,0,0,0,0,14,0
+1206 W CHATHAM ST,Sunrise of Cary,AL/MC,NULL,NULL,62,NULL,Established,SUNRISE SENIOR LIVING,Cary,North Carolina,27513,53,0,0,0,0,5,0
+1208 NEW GARDEN RD,TerraBella Greensboro,AL/MC,NULL,NULL,71,NULL,Established,TERRABELLA SENIOR LIVING,Greensboro,North Carolina,27410,66,0,0,0,0,12,0
+"121 STATE HWY 3444, ANNVILLE, KY 40402",Signature Healthcare at Jackson Manor Rehab,SNF,51,45,48,185249,Established,SIGNATURE HEALTH,Annville,Kentucky,40402,46,0,0,0,0,0,0
+"12100 CR-1334C, ASHLAND, KY 41102",Boyd County Nursing and Rehabilitation,SNF,60,50,36,185418,Established,Majestic Care,Ashland,Kentucky,41102,35,0,0,0,0,0,0
+1212 E SUNSET DR,Monroe Rehabilitation Center,SNFMD,NULL,NULL,115,345254,Established,SOUTHERN HEALTHCARE,Monroe,North Carolina,28112,98,0,0,0,0,1,113
+1213 LONG MEADOWS DR,Runk and Pratt Willow Ridge,AL,150,106,10,NULL,Established,Runk & Pratt,Lynchburg,Virginia,24502,6,0,0,0,0,0,0
+12185 GRAPEFIELD RD,Bland County,SNFMD,NULL,NULL,54,495191,Established,Kissito Healthcare,BASTIAN,Virginia,24314,41,0,0,0,0,0,0
+122 LEONARDWOOD DR,Spring Arbor Assisted Living of Frankfort,AL,84,54,21,NULL,Established,Dominion,Frankfort,Kentucky,40601,19,0,0,0,0,0,0
+122 N HAWKSBILL ST,HAWKSBILL - ALF,AL,NULL,NULL,41,NULL,Established,INDEPENDENT,LURAY,Virginia,22835,31,0,0,0,0,0,0
+1221 BROAD ST,Windsor Point AL,AL,NULL,34,23,345500,Established,INDEPENDENT,Fuquay-Varina,North Carolina,27526,19,0,0,0,0,5,0
+1221 BROAD ST,Windsor Point IN,IL,NULL,200,41,345500,Established,INDEPENDENT,Fuquay-Varina,North Carolina,27526,34,34,0,0,0,3,0
+1221 BROAD ST,Windsor Point MC,MC,55,12,3,345500,Established,INDEPENDENT,Fuquay-Varina,North Carolina,27526,3,0,0,0,0,1,0
+1221 BROAD ST,Windsor Point SNF,SNFMD,45,0,29,345500,Established,INDEPENDENT,Fuquay-Varina,North Carolina,27526,22,0,0,0,0,11,0
+1221 ROSSER AVE,River Edge Rehabilitation and Nursing,SNF,NULL,NULL,74,495147,Established,Eastern Healthcare Group,WAYNESBORO,Virginia,22980,67,0,0,0,0,0,0
+1225 CLINTWOOD MAIN ST,Heritage Hall Clintwood,SNFMD,100,87,94,495320,Established,American Healthcare LLC,Clintwood,Virginia,24428,79,0,0,0,0,39,0
+1225 GREENCROFT DR,Greencroft Goshen,SNF,233,175,139,155205,Established,Greencroft,GOSHEN,Indiana,46526,130,0,0,0,0,1,0
+1227 STATE ROUTE 45 N,Fern Terrace Mayfield,AL,140,132,124,NULL,Established,"FERN TERRACE OF OWENSBORO, LLC",Mayfield,Kentucky,42066,124,0,0,0,0,0,0
+1229 COUNTY FARM RD,BEDFORD CO NURSING HOME-SNF/NF,SNF,NULL,NULL,75,490000,Established,Bedford County,BEDFORD,Virginia,24523,62,0,0,0,0,0,0
+123 ANSON SCHOOL RD,Meadowview Terrace of Wadesboro,AL,NULL,NULL,45,NULL,Established,ALG,Wadesboro,North Carolina,28170,43,0,0,0,0,14,0
+123 MAIN ST,Test Facility - Premier Geriatrics,AL,156,NULL,40,NULL,Established,N/A,Roanoke,Virginia,24019,0,0,0,0,0,8,0
+124 W NASHVILLE ST,Christian Heights Nursing and Rehab,SNF,NULL,NULL,38,185338,Established,TOPAZ HEALTHCARE,Pembroke,Kentucky,42266,34,0,0,0,0,0,0
+125 HENDERSON CIR,Henderson Care Center,AL,NULL,NULL,38,NULL,Established,HENDERSON CARE CENTER INC,Forest City,North Carolina,28043,29,0,0,0,0,17,35
+125 PLANTATION DR,Rose Tara Senior Living,AL,NULL,NULL,12,NULL,Established,ALG,King,North Carolina,27021,5,0,0,0,0,0,1
+125 STERLING WAY,Mt Sterling Health & Rehab,SNF,140,110,36,185242,Established,Rise SNF LLC,Mt. Sterling,Kentucky,40353,33,0,0,0,0,0,0
+1253 LAKE BARKLEY DR,Lake Barkley Health & Rehabilitation,SNF,NULL,NULL,36,185318,Established,INFINITY HEALTHCARE CONSULTING,KUTTAWA,Kentucky,42055,36,0,0,0,0,0,0
+126 WILSON DR,Xenia Health and Rehab,SNFMD,51,50,32,365187,Established,Pavilion Healthcare,Xenia,Ohio,45385,29,0,0,0,0,9,0
+1265 21ST ST NE,Trinity Village SNF,SNFMD,104 SNF ; 90 ALF,90 ; 72,29,345152,Established,Lutheran Services Carolinas,Hickory,North Carolina,28601,28,0,0,0,0,0,0
+1265 21ST ST NE,Trinity Village ALF,SNFMD,104 SNF ; 90 ALF,90 ; 72,37,345152,Established,Lutheran Services Carolinas,Hickory,North Carolina,28601,36,0,0,0,0,0,0
+1267 PINNACLE CHURCH RD,Cedarbrook,AL,NULL,NULL,58,NULL,Established,CEDERBROOK,Nebo,North Carolina,28761,49,0,0,0,0,0,0
+1275 SOUTHVIEW DR,Mercer Healthcare Center SNF/NF,SNFMD,NULL,NULL,117,515052,Established,CommuniCare,BLUEFIELD,West Virginia,24701,92,0,0,0,0,18,0
+128 BRAWLEY SCHOOL RD,Summit Place of Mooresville,AL/MC,60,44,22,NULL,Established,PHOENIX SENIOR LIVING,Mooresville,North Carolina,28117,21,0,0,0,0,0,0
+128 SNOW HILL ST,Ayden Court Nursing and Rehabilitation,SNF,82,75,27,345490,Established,PRINCIPLE,Ayden,North Carolina,28513,25,0,0,0,0,0,0
+12803 LENOVER ST,The Waters of Dillsboro,SNF,NULL,NULL,63,155280,Established,INFINITY HEALTHCARE CONSULTING,Dillsboro,Indiana,47018,33,0,0,0,0,0,0
+1285 W JEFFERSON ST,Franklin Meadows,AL,109,78,45,155171,Established,AMERICAN SENIOR COMMUNITIES,Franklin,Indiana,46131,0,0,0,0,0,0,0
+1287 NEWSOME ST,CENTRAL CONTINUING CARE-SNF/NF,SNFMD,NULL,NULL,93,345410,Established,INDEPENDENT,MOUNT AIRY,North Carolina,27030,57,0,0,0,0,9,0
+1290 DENNY RD,Graceland Living Center,AL,23,21,19,NULL,Established,INDEPENDENT,King,North Carolina,27021,17,0,0,0,0,3,0
+1294 PRIDDY RD,PRIDDY MANOR-ALF,AL,NULL,NULL,92,NULL,Established,Navion,KING,North Carolina,27021,30,0,0,0,0,2,0
+1297 GALAX TRL,Twelve Oaks,AL,NULL,NULL,88,NULL,Established,ALG,Mt Airy,North Carolina,28211,68,0,0,0,0,13,1
+130 DEER RIDGE TRL,DOGWOOD CROSSING-ALF,AL,NULL,NULL,36,NULL,Established,Valley Care Management,TAZEWELL,Virginia,24651-5355,24,0,0,0,0,0,0
+1300 DON JUAN RD,Hertford Health and Rehab,SNF,NULL,NULL,50,345262,Established,HERTFORD OPCO LLC,HERTFORD,North Carolina,27944,46,0,0,0,0,0,0
+1300 HILL RD N,Pickerington Care and Rehab,SNF,NULL,NULL,24,365636,Established,EMBASSY HEALTHCARE,Pickerington,Ohio,43147,23,0,0,0,0,0,0
+1301 N RITTER AVE,Rosewalk at Lutherwoods,AL,134,86,32,NULL,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46219,31,0,0,0,0,0,0
+1303 HEALTH DR,PruittHealth - Neuse,SNFMD,NULL,NULL,113,345357,Established,PRUITT HEALTH,NEW BERN,North Carolina,28560,111,0,0,0,0,33,0
+1304 SE 2ND ST,Greendale Forest Nursing and Rehab,SNF,120,116,70,345366,Established,"RIVER NEUSE GROUP, LLC",Snow Hill,North Carolina,28580,65,0,0,0,0,0,1
+1306 S KING ST,Windsor Rehab & Healthcare Center,SNF,82,73,44,345339,Established,YAD,Windsor,North Carolina,27983,43,0,0,0,0,0,0
+1310 CAMPBELL LN,Cardinal Landing Memory Care,AL,38,30,35,NULL,Established,Triple Crown Senior Living,Bowling Green,Kentucky,42104,33,0,0,0,0,0,0
+13150 DORMAN RD,Haven at Carolina Place,MC,NULL,NULL,22,NULL,Established,Terra Bella,Pineville,North Carolina,28134,2,0,0,0,0,1,0
+1316 PATTERSON ST,Brookdale Union Park,AL,NULL,NULL,46,NULL,Established,BROOKDALE SENIOR LIVING,Monroe,North Carolina,28112,43,0,0,0,0,12,0
+1317 LOLA AVE,Autumn Care of Altavista - SNF,SNFMD,NULL,NULL,114,495196,Established,SABER HEALTHCARE GROUP,ALTAVISTA,Virginia,24517,109,0,0,0,0,26,0
+13180 DORMAN RD,Laurels at Carolina Place,AL,NULL,NULL,55,NULL,Established,Terra Bella,Pineville,North Carolina,28134,5,0,0,0,0,0,0
+1320 ENTERPRISE DR,THE SUMMIT- ALF,AL,NULL,NULL,40,NULL,Established,LifeSpire of Virginia,LYNCHBURG,Virginia,24502,36,0,0,0,0,2,0
+1328 SE 2ND ST,Snow Hill Assisted Living,AL,40,0,28,NULL,Established,Liberty,Snow Hill,North Carolina,28580,26,0,0,0,0,9,0
+1336 S GLENBURNIE RD,Navion of New Bern,AL,42,25,26,NULL,Established,NAVION,NEW BERN,North Carolina,28562,25,0,0,0,0,3,0
+1341 PARADISE RD,Chowan River Nursing and Rehab Center,SNF,NULL,69,28,345164,Established,"RIVER NEUSE GROUP, LLC",Edenton,North Carolina,27932,26,0,0,0,0,0,0
+1345 JONESTOWN RD,Southfork,AL,NULL,NULL,56,NULL,Established,ALG,Winston- Salem,North Carolina,27103,53,0,0,0,0,4,0
+1345 SEED TICK NECK RD,Autumnfield of Belhaven,AL,64,36,28,NULL,Established,INDEPENDENT,Washington,North Carolina,27865,24,0,0,0,0,3,0
+1350 LONGWOOD AVE,CARDINAL SENIOR LIVING-Bedford-ALF,AL,NULL,NULL,38,NULL,Established,Cardinal,BEDFORD,Virginia,24523,22,0,0,0,0,7,0
+13600 LAGRANGE RD,Magnolia Springs East Louisville,AL,100,87,1,NULL,Established,Sinceri Senior Living,Louisville,Kentucky,40245,1,0,0,0,0,0,0
+1365 RIVER DR,The Landings of Rocky Mount Mills,AL/MC,60,41,44,NULL,Established,ALG,Rocky Mount,North Carolina,27804,41,0,0,0,0,6,0
+1370 CELEBRATION BLVD,The Addison of Florence,AL,93,50,17,NULL,Established,SONIDA SENIOR LIVING,Florence,South Carolina,29501,17,0,0,0,0,0,0
+1372 EUFOLA RD,Harmony House Memory Care,AL/MC,40,50,34,NULL,Established,HERITAGE PLACE BUSINESS LLC,Statesville,North Carolina,28677,29,0,0,0,0,0,0
+1375 NICOLE DR,Astral at Franklin,AL,67,56,20,NULL,Established,INDEPENDENT,franklin,Indiana,46131,20,0,0,0,0,0,0
+1375 PERRYVILLE RD,The Lantern at Morning Pointe of Danville,AL,NULL,NULL,35,NULL,Established,MORNING POINTE SENIOR LIVING,Danville,Kentucky,40422,34,0,0,0,0,2,0
+"1381 CAMPBELL LN, BOWLING GREEN, KY 42104",Magnolia Village,SNF,60,53,59,185435,Established,Bluegrass/Encore,Bowling Green,Kentucky,42104,53,0,0,0,0,1,0
+13825 HUNTON LN,Lakeside Health and Rehab,SNFMD,NULL,NULL,107,345541,Established,SABER HEALTHCARE GROUP,HUNTERSVILLE,North Carolina,28078,90,0,0,0,0,15,28
+139 APEX LN,CENTRAL CARE-ALF,AL,53,30,37,NULL,Established,INDEPENDENT,Mt. Airy,North Carolina,27030,15,0,0,0,0,6,0
+139 PEARL ST,Auburn Health Care,SNF,NULL,NULL,49,185049,Established,BOLSTER AND JEFFRIES HEALTHCARE,AUBURN,Kentucky,42206,45,0,0,0,0,0,0
+13910 HUNTON LN,Ranson Ridge Assisted Living & Memory Care,AL/MC,100,68,59,NULL,Established,Saber Healthcare Group,Huntersville,North Carolina,28078,58,0,0,0,0,20,52
+140 GIVENS ST,Madisonville Manor,AL,58,52,43,NULL,Established,ELDERCARE PARTNERS,MADISONVILLE,Kentucky,42431,35,0,0,0,0,6,0
+1400 ENTERPRISE DR,THE SUMMIT-IL,IL,NULL,NULL,16,NULL,Established,LifeSpire of Virginia,LYNCHBURG,Virginia,24502,14,15,0,0,0,0,0
+1400 GIBSON BAY DR,Morning Pointe of Richmond,AL,NULL,NULL,41,NULL,Established,MORNING POINTE SENIOR LIVING,Richmond,Kentucky,40475,35,0,0,0,0,5,0
+1400 LAMMERS PIKE,St Andrews Health Campus - Batesville ALF,AL/SNF,106,81,20,155742,Established,Trilogy,BATESVILLE,Indiana,47006,20,0,0,0,0,4,0
+1400 LAMMERS PIKE,St Andrews Health Campus - Batesville SNF,AL/SNF,106,81,50,155742,Established,Trilogy,BATESVILLE,Indiana,47006,44,0,0,0,0,7,0
+1400 W FRANKLIN ST,Riverside Village,SNF,97,80,68,155695,Established,American Senior Communities,Elkhart,Indiana,45616,61,0,0,0,0,7,0
+1401 VIRGINIA AVE,VMRC (ALF) CRESTWOOD,AL,NULL,NULL,77,NULL,Established,N/A,HARRISONBURG,Virginia,22802,74,0,0,0,0,16,0
+1404 N LAFAYETTE ST,Atrium Health Cleveland Pines,SNF,NULL,NULL,39,345282,Established,ATRIUM HEALTH,Shelby,North Carolina,28150,30,0,0,0,0,0,0
+141 MOYOCK LANDING DR,Currituck House,AL,90,67,50,NULL,Established,ALG,Moyock,North Carolina,27958,43,0,0,0,0,9,0
+1410 A N AUGUSTA ST,TLNA-The Legacy at North Augusta,AL,NULL,NULL,71,NULL,Established,Lutheran National Communities and Services,STAUNTON,Virginia,24401,66,0,0,0,0,0,0
+1410 N AUGUSTA ST,KINGS DAUGHTERS (SNF/NF) HEALTH&REHAB,SNFMD,NULL,NULL,91,495344,Established,Consulate or LaVie or Nspire,STAUNTON,Virginia,24401,91,0,0,0,0,32,0
+1411 DOVE ST,Atrium Health Jesse Helms Nursing Center,SNF,NULL,NULL,22,345097,Established,ATRIUM HEALTH,Monroe,North Carolina,28112,18,0,0,0,0,0,0
+1417 W PETTIGREW STREE,Hillcrest Convalescent Center Inc,SNF,NULL,NULL,40,345001,Established,HILLCREST,Durham,North Carolina,27705,37,0,0,0,0,0,0
+142 JENKINS MEMORIAL RD,Jenkins Care Community ALF,AL,NULL,NULL,1,365431,Established,INDEPENDENT,Wellston,Ohio,45692,0,0,0,0,0,0,0
+142 JENKINS MEMORIAL RD,Jenkins Care Community SNF,SNFMD,NULL,NULL,40,365431,Established,JACKSON COUNTY HEALTH FACILITIES INC.,Wellston,Ohio,45692,39,0,0,0,0,15,0
+1420 E DOUGLAS RD,Creekside Village,SNFMD,100,93,92,155784,Established,American Senior Communities,Mishawaka,Indiana,46545,89,0,0,0,0,28,0
+1425 E MARION ST,Navion of Shelby,AL,60,35,21,NULL,Established,NAVION,Shelby,North Carolina,28150,20,0,0,0,0,4,14
+1428 LITTLE VALLEY LN,Boger City Rest Home,AL,NULL,NULL,41,NULL,Established,BOGER CITY,Lincolnton,North Carolina,28093,19,0,0,0,0,4,0
+144 E BROAD ST,Pataskala Oaks Care Center,SNF,NULL,NULL,18,365794,Established,EMBASSY HEALTHCARE,PATASKALA,Ohio,43062,18,0,0,0,0,0,0
+145 DAIRY RD,Clayton House,AL,57,27,28,NULL,Established,ALG,Clayton,North Carolina,27520,23,0,0,0,0,3,27
+146 BATTLESHIP RD,Springdale Healthcare Center,SNF,148,122,126,425169,Established,Fundamental LTC,Camden,South Carolina,29020,124,0,0,0,0,0,0
+1475 VIRGINIA AVE,VMRC (SNF/NF) TRANSITIONAL CARE,SNFMD,NULL,NULL,104,495385,Established,N/A,HARRISONBURG,Virginia,22802,89,0,0,0,0,30,0
+148 COX AVE,The Heritage of Richlands,AL,NULL,NULL,19,NULL,Established,INDEPENDENT,RICHLANDS,North Carolina,28574,17,0,0,0,0,0,0
+150 KEN DWIGGINS DR,Somerset Court of Mocksville,AL,NULL,NULL,48,NULL,Established,ALG,Mocksville,North Carolina,27028,44,0,0,0,0,14,0
+150 SHORESIDE DR,Morning Pointe of Lexington East,AL,80,78,42,NULL,Established,MORNING POINTE SENIOR LIVING,Lexington,Kentucky,40515,36,0,0,0,0,2,0
+150 VENUS RD,McDowell Healthcare Center SNF/NF,SNFMD,NULL,NULL,97,515162,Established,CommuniCare,GARY,West Virginia,24801,71,0,0,0,0,0,0
+1500 PRIDE AVE,Park Grove,SNF,NULL,NULL,42,185012,Established,Bluegrass/Encore,MADISONVILLE,Kentucky,42431,25,0,0,0,0,0,0
+1500 TRENT BLVD,Hartland Park Health and Rehabilitation,SNF,NULL,NULL,83,185197,Established,Lyon Healthcare,Lexington,Kentucky,40515,79,0,0,0,0,0,0
+1501 MCDOWELL RD,The Terrace at Solarbron,SNF/NF,NULL,NULL,41,155773,Established,CARDON & ASSOCIATES,Evansville,Indiana,47712,38,0,0,0,0,0,0
+1505 S DIXIE ST,Signature Healthcare of Hart County,SNF,NULL,NULL,49,185381,Established,SIGNATURE HEALTH,HORSE CAVE,Kentucky,42749,48,0,0,0,0,0,0
+151 VILLAGE PARK DR,Forest Ridge Assisted Living,AL,60,49,27,NULL,Established,NAVION,West Jefferson,North Carolina,28694,26,0,0,0,0,6,0
+1510 CLINIC DR,Westview,SNFMD,95,69,76,155135,Established,American Senior Communities,BEDFORD,Indiana,47421,68,0,0,0,0,12,0
+15100 BIRCHAVEN LN,Birchaven Retirement Village,AL/SNF,NULL,NULL,NULL,NULL,Established,,,,Ohio,18,0,36,0,0,0,0
+1515 W PETTIGREW STREE,Pettigrew Rehabilitation Center,SNF,NULL,NULL,65,345053,Established,Southern Healthcare Management LLC,Durham,North Carolina,27705,58,0,0,0,0,0,0
+1516 HIGHWAY 44 E,Colonial House of Shepherdsville,AL,62,NULL,55,NULL,Established,ELDERCARE PARTNERS,SHEPHERDSVLLE,Kentucky,40165,52,0,0,0,0,14,0
+1540 S LOGAN ST,Hellenic Senior Living - Mishawaka,AL,65,62,59,NULL,Established,Ahepa Senior Living (ASL),MISHAWAKA,Indiana,46544,37,0,0,0,0,11,0
+155 BLAKE BLVD,Quailhaven Healthcare Center,SNF,72,56,27,345518,Established,INDEPENDENT,Pinehurst,North Carolina,28374,24,0,0,0,0,0,0
+1550 CHARLES RD,TerraBella Shelby,AL,96,66,23,NULL,Established,TERRABELLA SENIOR LIVING,Shelby,North Carolina,28152,22,0,0,0,0,0,0
+1550 PANTOPS MOUNTAIN PL,COMMONWEALTH-CHARLOTTESVILLE - ALF,AL,NULL,NULL,34,NULL,Established,MCAP,CHARLOTTESVILLE,Virginia,22911,28,0,0,0,0,0,0
+1555 N MAIN ST,Wesley Manor ALF,AL/SNF MD,NULL,NULL,17,155658,Established,BHI Senior Living,FRANKFORT,Indiana,46041,12,0,0,0,0,0,0
+1555 N MAIN ST,Wesley Manor ILF,IL,NULL,NULL,0,155658,Established,BHI SENIOR LIVING,FRANKFORT,Indiana,46041,0,0,0,0,0,0,0
+1555 N MAIN ST,Wesley Manor SNF,SNF,NULL,NULL,58,155658,Established,BHI SENIOR LIVING,FRANKFORT,Indiana,46041,50,0,0,0,0,0,0
+1560 SKEET CLUB RD,Brookdale Skeet Club,AL,NULL,NULL,32,NULL,Established,BROOKDALE SENIOR LIVING,High Point,North Carolina,27265,31,0,0,0,0,4,1
+1561 NEWTON AVE,Bowling Green Nursing and Rehabilitation,SNF,NULL,NULL,33,185224,Established,TOPAZ HEALTHCARE,Bowling Green,Kentucky,42104,27,0,0,0,0,0,0
+1564 SKEET CLUB RD,Brookdale High Point North MC,MC,NULL,0,40,NULL,Established,Brookdale Senior Living,High Point,North Carolina,27265,34,0,0,0,0,1,0
+1564 UNIVERSITY BLVD,University Nursing Center,SNF,75,65,57,155200,Established,American Senior Communities,Upland,Indiana,46989,56,0,0,0,0,15,0
+1568 SKEET CLUB RD,Brookdale High Point North AL,AL,NULL,0,34,NULL,Established,Brookdale Senior Living,High Point,North Carolina,27265,32,0,0,0,0,5,0
+1575 BOWERS LN,Brookdale Zanesville,AL,81,72,0,NULL,Established,Brookdale Senior Living,Zanesville,Ohio,43701,0,0,0,0,0,0,0
+1575 SCOTT DR,FARMVILLE HEALTH & REHAB-SNF/NF,SNF,NULL,NULL,92,495249,Established,SABER HEALTHCARE GROUP,FARMVILLE,Virginia,23901,37,0,0,0,0,0,0
+158 CHESTNUT GROVE CHURCH RD,The Landings of Chestnut Grove,AL,NULL,NULL,36,NULL,Established,ALG,Sparta,North Carolina,28675,33,0,0,0,0,1,0
+1580 4TH ST,Lewisport Manor,AL,NULL,NULL,37,NULL,Established,ELDERCARE PARTNERS,LEWISPORT,Kentucky,42351,35,0,0,0,0,0,0
+1595 S US HIGHWAY 231 BEAVER DAM,Beaver Dam Nursing and Rehab,SNF,NULL,NULL,57,185334,Established,PROVIDENCE LLC,BEAVER DAM,Kentucky,42320,55,0,0,0,0,30,0
+160 HEALTH CARE DR,Colonial Manor Health Care,AL,NULL,NULL,28,NULL,Established,INDEPENDENT,rutherfordton,North Carolina,28139,27,0,0,0,0,0,0
+160 KENDAL DR,KENDAL AT LEXINGTON - ALF,AL,NULL,NULL,3,NULL,Established,Kendal at Lexington,LEXINGTON,Virginia,24450,3,0,0,0,0,0,0
+160 KENDAL DR,KENDAL AT LEXINGTON - SNF/NF,SNFMD,NULL,NULL,41,495034,Established,Kendal at Lexington,LEXINGTON,Virginia,24450,35,0,0,0,0,7,0
+160 SANTREE DR,Williamston House,AL,60,40,48,NULL,Established,ALG,"Williamston,",North Carolina,27892,30,0,0,0,0,5,0
+1600 BLAND ST,Bluestone Health & Rehab SNF/NF,SNFMD,NULL,NULL,62,515186,Established,Hill Valley,BLUEFIELD,West Virginia,24701,46,0,0,0,0,13,0
+1600 NICHOLASVILLE BYP,Cedarhurst of Nicholasville,AL,84,NULL,53,NULL,Established,The Dover Companies,Nicholasville,Kentucky,40356,51,0,0,0,0,3,0
+1600 ST PARIS PIKE,Arbors at Springfield,SNF,46,38,23,365527,Established,ARBORS,Springfield,Ohio,45504,20,0,0,0,0,0,0
+1600 US HWY 221 S,Sunnyside,AL,NULL,NULL,33,NULL,Established,INDEPENDENT,Forest City,North Carolina,28043,28,0,0,0,0,4,31
+1601 BRENNER AVE BLDG 1,NC State Veterans Home - Salisbury,SNF,99,68,70,345531,Established,PRUITT HEALTH,Salisbury,North Carolina,28144,62,0,0,0,0,0,0
+1601 PURDUE DR,Village Green Health & Rehabilitation,SNFMD,171,106,136,345380,Established,SANSTONE,Fayetteville,North Carolina,28304,115,0,0,0,0,55,0
+1604 GRAVES MILL RD,BENTLEY COMMONS-IL,AL,135,45,4,NULL,Established,Kaplan Development,Lynchburg,Virginia,24502,2,3,0,0,0,1,0
+1604 GRAVES MILL RD,BENTLEY COMMONS-ALF,AL,135,45,40,NULL,Established,Kaplan Development,Lynchburg,Virginia,24502,35,0,0,0,0,12,0
+1607 SPRUCE ST EXT,Martinsville Health and Rehab,SNFMD,NULL,NULL,83,495143,Established,Trio Healthcare,MARTINSVILLE,Virginia,24112,62,0,0,0,0,21,0
+"1615 CLEVELAND RD, WOOSTER, OH 44691",Brookdale Wooster AL,AL,41,37,45,NULL,Established,Brookdale Senior Living,Wooster,Ohio,44691,43,0,0,0,0,2,0
+1615 YAUGER RD,Brookdale Mt. Vernon,AL,91,51,34,NULL,Established,Brookdale Senior Living,Mt Vernon,Ohio,43050,29,0,0,0,0,1,0
+1620 N LINCOLN ST,Hickory Creek - Greensburg,SNF,NULL,NULL,27,155353,Established,AMERICAN SENIOR COMMUNITIES,GREENSBURG,Indiana,47240,26,0,0,0,0,1,0
+1624 HIGHLAND DR,Ridgewood Rehabilitation and Living Center,SNF,NULL,NULL,34,345228,Established,CCH HEALTHCARE,Washington,North Carolina,27889,27,0,0,0,0,0,0
+1635 E 5TH ST,Somerset Court at University Place,AL,60,1,24,NULL,Established,ALG,Winston-Salem,North Carolina,27101,18,0,0,0,0,1,0
+"1645 MAPLEWOOD DR, STREETSBORO, OH 44241",Arbors at Streetsboro,SNF,80,77,45,365718,Established,ARBORS,Streetsboro,Ohio,44241,44,0,0,0,0,0,0
+1649 PARK RD,Spring Meadows Care Center,SNFMD,42,39,40,NULL,Established,Lionstone,Woodstock,Ohio,43084,38,0,0,0,0,6,0
+1649 SPY RUN AVE,Life Care Center of Fort Wayne,SNFMD,NULL,NULL,84,155266,Established,LIFECARE,Fort Wayne,Indiana,46805,79,0,0,0,0,27,0
+1650 COKEY RD,Heritage Rocky Mount,AL,NULL,NULL,22,NULL,Established,INDEPENDENT,Rocky Mount,North Carolina,27801,21,0,0,0,0,4,0
+16600 DANVILLE PIKE,819 Heritage Hall Laurel Meadows,SNFMD,NULL,NULL,60,495323,Established,AMERICAN HEALTHCARE LLC,LAUREL FORK,Virginia,24352,55,0,0,0,0,20,0
+167 SPRING ST,The Springs,SNFMD,NULL,NULL,51,495220,Established,Kissito Healthcare,HOT SPRINGS,Virginia,24445,51,0,0,0,0,13,0
+1670 CRIDER RD,Oak Grove Care Center,SNFMD,75,75,74,365837,Established,LIONSTONE CARE,Mansfield,Ohio,44903,69,0,0,0,0,17,0
+1670 WESTBROOK AVE,Oaks of Alamance,AL,NULL,NULL,17,NULL,Established,INDEPENDENT,Burlington,North Carolina,27215,13,0,0,0,0,2,0
+1684 PORT HILLS DR,BELLAIRE (ALF) AT STONE PORT,AL,NULL,NULL,75,NULL,Established,Gardant,HARRISONBURG,Virginia,22801,74,0,0,0,0,16,0
+1685 CANAL RD,Heritage Care Home of Dials,AL,24,21,19,NULL,Established,INDEPENDENT,Pembroke,North Carolina,28372,18,0,0,0,0,0,0
+1687 DAIRY DR,McDowell House,AL,NULL,NULL,18,NULL,Established,INDEPENDENT,Nebo,North Carolina,28761,11,0,0,0,0,0,0
+17 CORNELIA DR,Lexington Health Care Center,SNF,NULL,NULL,73,345419,Established,MFA,Lexington,North Carolina,27292,67,0,0,0,0,1,0
+170 KENDAL DR,Kendal IL,IL,NULL,NULL,4,NULL,Established,Kendal at Lexington,LEXINGTON,Virginia,24450,4,4,0,0,0,0,0
+170 N TRACY ST,Markle Health and Rehabilitation,AL/SNF,86,80,37,NULL,Established,American Senior Communities,Markle,Indiana,46770,0,0,0,0,0,0,0
+170 PINECREST DR,Arbors at Gallipolis,SNF,NULL,NULL,67,365348,Established,ARBORS,Gallipolis,Ohio,45631,66,0,0,0,0,0,0
+170 S MAIN ST,Mars Hill Manor Assisted Living,AL,NULL,NULL,47,NULL,Established,MAINSTAY SENIOR LIVING,Mars Hill,North Carolina,28754,44,0,0,0,0,8,0
+170 SYKES BLVD,Breckenridge Services,AL,NULL,NULL,18,NULL,Established,NULL,Morganfield,KY,42437,0,0,0,0,0,0,0
+1705 KILDAIRE FARM RD,Spring Arbor of Cary AL,AL,40,36,44,NULL,Established,SPRING ARBOR MANAGEMENT,Cary,North Carolina,27511,37,0,0,0,0,16,0
+1705 KILDAIRE FARM RD,Spring Arbor of Cary MC,MC,37,37,18,NULL,Established,SPRING ARBOR MANAGEMENT,Cary,North Carolina,27511,16,0,0,0,0,2,0
+"1705 STEVENS AVE, LOUISVILLE, KY 40205",Highlands Nursing and Rehabilitation,SNF,154,140,127,185039,Established,Majestic Care,Louisville,Kentucky,40205,127,0,0,0,0,0,0
+1716 LEGION RD,Parkview Health and Rehab Center,SNF,NULL,NULL,40,345576,Established,INDEPENDENT,Chapel Hill,North Carolina,27517,37,0,0,0,0,0,0
+1717 UNION RD,Brookdale Union,AL,NULL,NULL,15,NULL,Established,BROOKDALE SENIOR LIVING,Gastonia,North Carolina,28054,12,0,0,0,0,4,0
+1720 S ALBER ST,The Waters of Wabash West (Miller's),SNF,44,18,28,155627,Established,INFINITY HEALTHCARE CONSULTING,WABASH,Indiana,46992,28,0,0,0,0,0,0
+1725 MAIN ST,Alleghany Health and Rehab,SNFMD,NULL,NULL,89,495141,Established,Trio Healthcare,CLIFTON FORGE,Virginia,24422,68,0,0,0,0,27,0
+1750 ROBINWOOD RD,Brookdale Robinwood,AL,NULL,NULL,5,NULL,Established,BROOKDALE SENIOR LIVING,Gastonia,North Carolina,28054,5,0,0,0,0,2,0
+1751 WESLEY RD,Auburn Village,SNFMD,NULL,NULL,84,155666,Established,GENERATIONS,AUBURN,Indiana,46707,71,0,0,0,0,23,0
+1761 PINEWOOD RD,Pinewood Nursing Care,SNF,96,63,34,NULL,Established,Brothers Healthcare / CJM Advisors,Sumter,South Carolina,29154,34,0,0,0,0,0,0
+17650 GENERATIONS DR,Woodridge Village,AL,85,55,25,NULL,Established,SOUTH BEND ASSISTED LIVING LLC,South Bend,Indiana,46635,25,0,0,0,0,1,0
+1770 OAK HOLLOW RD,Gastonia Health and Rehab,SNF,NULL,NULL,34,345441,Established,SABER HEALTHCARE GROUP,Gastonia,North Carolina,28054,19,0,0,0,0,0,26
+1785 KERNERSVILLE MEDICAL PARKWAY,North Carolina State Veterans Home - Kernersville,SNFMD,NULL,NULL,64,345579,Established,PRUITT HEALTH,Kernersville,North Carolina,27284,56,0,0,0,0,11,0
+1790 E 54TH ST,American Village Lincoln Lodge,AL,79,42,1,NULL,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46220,0,0,0,0,0,0,0
+1795 WESTCHESTER DR,Westchester Manor at Providence Place,SNF,NULL,NULL,58,345090,Established,FIRST WESLEYAN,High Point,North Carolina,27262,50,0,0,0,0,0,0
+1800 MARTIN LUTHER KING JR PKWY,Wilson House,AL/MC,NULL,NULL,64,NULL,Established,ALG,Wilson,North Carolina,27893,60,0,0,0,0,2,0
+1804 FOREST HILLS DR W,Harmony Park Wilson,SNF,110,83,56,345063,Established,August Healthcare Group,Wilson,North Carolina,27893,49,0,0,0,0,4,0
+1809 N MADISON AVE,Edgewater Woods,SNF,NULL,0,60,155066,Established,American Senior Communities,ANDERSON,Indiana,46011,43,0,0,0,0,0,0
+181 CAMPUS DR,Ridgewood Health SNF,SNF,127,119,71,155789,Established,TRILOGY,lawrenceburg,Indiana,47025,59,0,0,0,0,20,0
+181 CAMPUS DR,Ridgewood Health ALF,SNF,127,119,48,155789,Established,TRILOGY,lawrenceburg,Indiana,47025,42,0,0,0,0,4,0
+1810 CONCORD LAKE RD,Kannapolis Health And Rehabilitation,SNFMD,NULL,NULL,93,345258,Established,Avardis,Kannapolis,North Carolina,28083,61,0,0,0,0,12,34
+1820 OAKVIEW RD,Woodland,SNF,110,109,46,185392,Established,Bluegrass/Encore,Ashland,Kentucky,41101,45,0,0,0,0,0,0
+1820 PISGAH DR,Carolina Reserve of Hendersonville,AL/MC,NULL,NULL,33,NULL,Established,NAVION,Hendersonville,North Carolina,28791,32,0,0,0,0,6,26
+1825 PISGAH DR,Carolina Reserve of Laurel Park,AL,NULL,NULL,33,NULL,Established,NAVION,Hendersonville,North Carolina,28791,30,0,0,0,0,4,24
+18360 VIRGIL H GOODE HWY,RED OAK MANOR-ALF,AL,NULL,NULL,31,NULL,Established,ProMedica,ROCKY MOUNT,Virginia,24151,21,0,0,0,0,0,0
+184 BUFFALO RD,Clarksville Health & Rehab Center - SNF,SNF,NULL,NULL,163,495379,Established,Saber Healthcare Group,CLARKSVILLE,Virginia,23927,67,0,0,0,0,0,0
+1840 TOWNE PARK DR,StoryPoint of Troy,AL,68,65,38,NULL,Established,CSIG,Troy,Ohio,45373,35,0,0,0,0,3,0
+185 BRICK FARM RD,The Hermitage,AL,NULL,NULL,55,NULL,Established,ALG,Sylva,North Carolina,28779,37,0,0,0,0,0,50
+185 S MAIN ST,Continuing Healthcare of Milan,SNF,NULL,NULL,59,366067,Established,CONTINUING HEALTHCARE,milan,Ohio,44846,54,0,0,0,0,0,0
+186 ONE CENTER CT,Franklin House,AL,NULL,NULL,30,NULL,Established,ALG,FRANKLIN,North Carolina,28734,15,0,0,0,0,0,28
+188 OLD FINCASTLE RD,Fincastle Brian Center Botetourt,SNFMD,NULL,NULL,55,495218,Established,Kissito Healthcare,FINCASTLE,Virginia,24090,49,0,0,0,0,3,0
+188 THORNTON RD,Thornton Terrace Health Campus,AL/SNF,NULL,NULL,53,155734,Established,TRILOGY,HANOVER,Indiana,47243,49,0,0,0,0,16,0
+189 MONICA BLVD,Liberty Ridge - SNF,SNFMD,NULL,NULL,81,495411,Established,SABER HEALTHCARE GROUP,LYNCHBURG,Virginia,24502,74,0,0,0,0,30,0
+190 MCDANIEL ST,Valley Haven Rest Home,AL,NULL,NULL,40,NULL,Established,ELDERCARE PARTNERS,Sanders,Kentucky,41083,38,0,0,0,0,0,0
+1900 HILLSMERE DR,BROOKDALE (ALF) STAUNTON,AL,NULL,NULL,79,NULL,Established,Brookdale Senior Living,STAUNTON,Virginia,24401,78,0,0,0,0,3,0
+1900 JEANWOOD DR,East Lake,SNF,152,90,106,155269,Established,American Senior Communities,ELKHART,Indiana,46514,102,0,0,0,0,0,0
+1900 N ALBER ST,The Waters of Wabash East (Miller's),SNF,84,18,46,155006,Established,INFINITY HEALTHCARE CONSULTING,WABASH,Indiana,46992,43,0,0,0,0,1,0
+1901 TAYLOR RD,Four Seasons Retirement Center AL,AL,NULL,NULL,9,155471,Established,BHI Senior Living,COLUMBUS,Indiana,47203,9,0,0,0,0,0,0
+1901 TAYLOR RD,Four Seasons Retirement Center - SNF,SNF,NULL,NULL,22,155471,Established,BHI Senior Living,COLUMBUS,Indiana,47203,22,0,0,0,0,0,0
+1901 W CAROLINA AVE,The Legacy of Hartsville,AL/MC,54,51,0,NULL,Established,NAVION,Hartsville,South Carolina,29550,0,0,0,0,0,0,0
+1901 W HWY 90,Mountain Ridge Health and Rehab,SNF,NULL,NULL,56,185298,Established,Clearview,Monticello,Kentucky,42633,52,0,0,0,0,14,0
+191 CRESTVIEW DR,Heritage of Cedar Rock,AL,NULL,NULL,37,NULL,Established,Kisco Senior Living,Mocksville,North Carolina,27028,37,0,0,0,0,7,0
+1911 ORANGE GROVE RD,TerraBella Hillsborough,AL,NULL,NULL,51,NULL,Established,TERRABELLA SENIOR LIVING,Hillsborough,North Carolina,27278,43,0,0,0,0,10,0
+192 BACON CREEK RD,Heritage Nursing and Rehab,SNF,NULL,NULL,32,185434,Established,Bluegrass/Encore,Corbin,Kentucky,40701,30,0,0,0,0,0,0
+1924 GLENWOOD PARK RD,Glenwood Healthcare Center SNF/NF,SNFMD,NULL,NULL,86,515028,Established,CommuniCare,PRINCETON,West Virginia,24739,60,0,0,0,0,1,0
+1924 WELLESLEY BLVD,Harrison Terrace,SNFMD,110,74,83,155636,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46219,81,0,0,0,0,1,0
+1930 KY-90,Cumberland Manor,AL,49,45,42,NULL,Established,Bluegrass/Encore,Parkers Lake,Kentucky,42634,40,0,0,0,0,0,0
+1935 IDLEWILD DR,Honey's Assisted Living,AL/MC,63,48,46,NULL,Established,CLOSED,Kinston,North Carolina,28504,46,0,0,0,0,15,0
+1940 BOYD RD,Lake City Scranton HCC,SNF/NF,NULL,NULL,28,425149,Established,FUNDAMENTAL LTC,SCRANTON,South Carolina,29591,24,0,0,0,0,0,0
+"1945 CRAGMONT ST, MADISON, IN 47250",Hickory Creek - Madison,SNF,NULL,NULL,36,155427,Established,AMERICAN SENIOR COMMUNITIES,Madison,Indiana,47250,34,0,0,0,0,11,0
+1950 RIDGEDALE RD,Trailpoint Village,SNFMD,0,0,107,155103,Established,American Senior Communities,South Bend,Indiana,46614,92,0,0,0,0,22,0
+19530 MT ZION PKWY,Autumn Care of Cornelius,SNF,NULL,NULL,19,345567,Established,SABER HEALTHCARE GROUP,CORNELIUS,North Carolina,28031,14,0,0,0,0,0,0
+1957 N LAKEMAN DR,Bellbrook Health and Rehab,SNFMD,65,60,42,365626,Established,Pavilion Healthcare,Bellbrook,Ohio,45305,40,0,0,0,0,21,0
+1959 E COLUMBUS ST,Grand Valley Health,SNF,100,79,46,155605,Established,HCF Management,MARTINSVILLE,Indiana,46151,37,0,0,0,0,0,0
+1980 OLD GREENSBURG RD,Campbellsville Nursing and Rehabilitation,SNF,NULL,NULL,51,185330,Established,TOPAZ HEALTHCARE,Campbellsville,Kentucky,42718,38,0,0,0,0,0,0
+1984 OLD US 421,Pinecrest Gardens,AL,NULL,NULL,49,NULL,Established,INDEPENDENT,Lillington,North Carolina,27546,19,0,0,0,0,7,0
+1987 HILTON RD,Alamance Health Care Center,SNF,NULL,NULL,133,345420,Established,MFA,Burlington,North Carolina,27217,105,0,0,0,0,0,0
+199 RD 103,Paulding Care Center,AL/SNF,50,50,54,366044,Established,LIONSTONE CARE,PAULDING,Ohio,45879,46,0,0,0,0,13,0
+1999 S NC HIGHWAY 119,Mebane Ridge AL,AL,NULL,NULL,63,NULL,Established,NAVION,Mebane,North Carolina,27302,62,0,0,0,0,4,0
+2 E TILDEN DR,Brownsburg Meadows,SNF,147,138,50,155761,Established,AMERICAN SENIOR COMMUNITIES,Brownsburg,Indiana,46112,0,0,0,0,0,0,0
+20 EASTER DR,Rosemount Care Center,SNFMD,NULL,NULL,75,365584,Established,LIONSTONE CARE,PORTSMOUTH,Ohio,45662,73,0,0,0,0,32,0
+"20 HOWARDS CREEK RD, SANDY HOOK, KY 41171",Elliott Nursing and Rehabilitation,SNFMD,75,70,73,185415,Established,Majestic Care,Sandy Hook,Kentucky,41171,73,0,0,0,0,18,0
+200 COVENTRY DR,Dunmore Senior Living,AL/MC,60,42,31,NULL,Established,Buddy Elmore,OXFORD,North Carolina,27565,27,0,0,0,0,13,0
+200 KELLIE DR,The Landings of Smithfield,AL,66,53,46,NULL,Established,ALG,Smithfield,North Carolina,27577,40,0,0,0,0,5,0
+200 KINGSTON CIR,Avalon Village,SNF,NULL,NULL,65,155286,Established,AMERICAN SENIOR COMMUNITIES,LIGONIER,Indiana,46767,62,0,0,0,0,5,0
+200 LEAKSVILLE RD,WHISPERING PINES - ALF,AL,NULL,NULL,39,NULL,Established,INDEPENDENT,LURAY,Virginia,22835,28,0,0,0,0,1,0
+200 MEADOW LAKES,Meadow Lakes ALF,AL,70,50,2,155751,Established,AMERICAN SENIOR COMMUNITIES,Mooresville,Indiana,46158,0,0,0,0,0,0,0
+200 MEADOW LAKES DR,Meadow Lakes SNF,SNF,137,124,36,155751,Established,AMERICAN SENIOR COMMUNITIES,Mooresville,Indiana,46158,0,0,0,0,0,0,0
+200 MINGLEWOOD DR,Cadence Garner MC,AL/MC,84,52,15,NULL,Established,COGIR SENIOR LIVING,Garner,North Carolina,27529,13,0,0,0,0,1,14
+200 MINGLEWOOD DR,Cadence Garner AL,AL/MC,NULL,NULL,32,NULL,Established,COGIR SENIOR LIVING,Garner,North Carolina,27529,31,0,0,0,0,9,26
+200 NURSING HOME LN,Maximum Health and Rehabilitation,SNF,120,20,2,NULL,Established,INDEPENDENT,Pikeville,Kentucky,41501,1,0,0,0,0,0,0
+200 THE GLEBE BLVD,GLEBE-ALF,AL,NULL,NULL,27,NULL,Established,LifeSpire of Virginia,DALEVILLE,Virginia,24083,5,0,0,0,0,0,0
+200 THE GLEBE BLVD,GLEBE-MS,AL,NULL,NULL,21,NULL,Established,LifeSpire of Virginia,DALEVILLE,Virginia,24083,1,0,0,0,0,0,0
+200 THE GLEBE BLVD,GLEBE-INDEPENDENT LIVING,IL,NULL,NULL,52,NULL,Established,LifeSpire of Virginia,DALEVILLE,Virginia,24083,14,34,0,0,0,0,0
+200 THE GLEBE BLVD,GLEBE-SNF/NF,SNFMD,NULL,NULL,30,495404,Established,LifeSpire of Virginia,DALEVILLE,Virginia,24083,11,0,0,0,0,0,0
+2000 VILLA RD,Springfield SNF - Northwood,SNFMD,NULL,NULL,70,365684,Established,ASPIRE,Springfield,Ohio,45503,31,0,0,0,0,16,0
+2001 HOBSON RD,Heritage Park AL,AL,NULL,NULL,28,155095,Established,American Senior Communities,Fort Wayne,Indiana,46805,25,0,0,0,0,7,0
+2001 HOBSON RD,Heritage Park - Employee Clinic,AL/Clinic,NULL,0,158,155095,Established,American Senior Communities,Fort Wayne,Indiana,46805,0,0,0,0,0,0,0
+2001 HOBSON RD,Heritage Park SNF,SNF,0,0,177,155095,Established,American Senior Communities,Fort Wayne,Indiana,46805,171,0,0,0,0,31,0
+2002 ALBANY ST,Beech Grove Meadows-AL,AL,NULL,NULL,0,155072,Established,American Senior Communities,Beech Grove,Indiana,46107,0,0,0,0,0,0,0
+2002 ALBANY ST,Beech Grove Meadows,SNFMD,NULL,NULL,111,155072,Established,AMERICAN SENIOR COMMUNITIES,BEECH GROVE,Indiana,46107,104,0,0,0,0,10,0
+201 COURTHOUSE PARKWAY,Copper Knoll Health and Rehabilitation Center,SNFMD,NULL,NULL,71,366417,Established,TLC Management,Washington Court House,Ohio,43160,66,0,0,0,0,19,0
+"201 KIMBERLY LN, WILLIAMSTOWN, KY 41097",Grant Healthcare and Rehabilitation,SNF,100,95,92,185265,Established,CLEARVIEW,Williamstown,Kentucky,41097,83,0,0,0,0,17,0
+201 S WARREN ST,Morgantown Care and Rehab Ctr,SNF,NULL,NULL,76,185006,Established,SIGNATURE HEALTH,MORGANTOWN,Kentucky,42261,73,0,0,0,0,0,0
+201 W HARTLEY DR,Brookdale High Point - Hartley Drive,AL,89,47,24,NULL,Established,Brookdale Senior Living,High Point,North Carolina,27265,24,0,0,0,0,5,0
+201 WATSON LN,Henderson Manor,AL,NULL,NULL,43,NULL,Established,ELDERCARE PARTNERS,Henderson,Kentucky,42420,39,0,0,0,0,6,0
+201 WATSON ST,Crittenden County Health and Rehab Center,SNF,NULL,NULL,52,185269,Established,SIGNATURE HEALTH,Marion,Kentucky,42064,48,0,0,0,0,0,0
+201 WHEATLAND CT NE,COMMONWEALTH-CHRISTIANSBURG ALF,AL,NULL,NULL,45,NULL,Established,MCAP,CHRISTIANSBURG,Virginia,24073,0,0,0,0,0,9,0
+2010 N CAPITOL AVE,North Capitol Nursing and Rehabilitation,SNF,123,90,55,155226,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46202,44,0,0,0,0,0,0
+2011 CHAPA DR,Silver Oaks,AL/SNF MD,119,78,92,155693,Established,Trilogy,COLUMBUS,Indiana,47203,83,0,0,0,0,3,0
+202 SMOKETREE WAY,Louisburg Healthcare & Rehabilitation Center,SNFMD,NULL,NULL,90,345358,Established,Liberty,Louisburg,North Carolina,27549,69,0,0,0,0,15,0
+2020 CAMBRIDGE DR,Cambridge Nursing and Rehabilitation Center,SNF,NULL,NULL,65,185444,Established,Bluegrass/Encore,Lexington,Kentucky,40504,61,0,0,0,0,0,0
+20212 LEESVILLE RD,RUNK & PRATT LEESVILLE-ALF,AL,NULL,NULL,14,NULL,Established,Runk & Pratt,LYNCHBURG,Virginia,24502,14,0,0,0,0,0,0
+2026 E 54TH ST,American Village,SNF,150,128,47,155292,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46220,0,0,0,0,0,0,0
+203 BRUCE CT,Henson Park Health & Rehabilitation,SNF,NULL,NULL,58,185264,Established,INFINITY HEALTHCARE CONSULTING,Danville,Kentucky,40422,31,0,0,0,0,0,0
+203 MCCRACKEN ST,McCracken Rest Home,AL,NULL,NULL,15,NULL,Established,INDEPENDENT,Waynesville,North Carolina,28713,14,0,0,0,0,0,0
+203 SPARKS AVE,Hillcrest Village,AL/SNF,NULL,NULL,85,155203,Established,AMERICAN SENIOR COMMUNITIES,JEFFERSONVILLE,Indiana,47130,81,0,0,0,0,0,0
+203 W FRANCISCAN DR,"St Anthony, Majestic Care",SNF,192,178,119,155214,Established,Majestic Care,Crown Point,Indiana,46307,114,0,0,0,0,0,0
+2030 CHESTER BLVD,Friends Fellowship Communities,AL/SNF,217,94,0,NULL,Established,"Friends Fellowship Communities, Inc.",Richmond,Indiana,47374,0,0,0,0,0,0,0
+204 OLD BRICKYARD RD,Wilkesboro Health and Rehabilitation,SNFMD,NULL,NULL,181,345401,Established,SANSTONE,North Wilkesboro,North Carolina,28659,164,0,0,0,0,61,0
+2040 MILTON RD,Willow Ridge,AL,NULL,NULL,38,NULL,Established,ALG,Charlotte,North Carolina,28215,2,0,0,0,0,0,0
+2041 NC 210 N,Green Leaf Care Center,AL,NULL,NULL,61,NULL,Established,Saber Healthcare Group,Lillington,North Carolina,27546,59,0,0,0,0,18,57
+2041 WILLOW RD,Guilford Health Care Center,SNF,NULL,NULL,82,345460,Established,MFA,Greensboro,North Carolina,27406,73,0,0,0,0,0,0
+2045 VALLEY VIEW DR,Heritage Hall - Big Stone Gap,SNFMD,178,158,170,495135,Established,AMERICAN HEALTHCARE LLC,Big Stone Gap,Virginia,24219,114,0,0,0,0,1,0
+205 E SIXTH ST,Clegail Professional Services,AL/MC,NULL,24,29,NULL,Established,INDEPENDENT,Burlington,North Carolina,27215,24,0,0,0,0,4,0
+205 FIFTH ST,Carrollton Manor,AL,NULL,NULL,30,NULL,Established,HEALTH SYSTEMS OF KENTUCKY,Carrolton,Kentucky,41008,13,0,0,0,0,1,0
+205 HOUSTON ST,818 Heritage Hall Lexington,SNFMD,NULL,NULL,56,495321,Established,AMERICAN HEALTHCARE LLC,LEXINGTON,Virginia,24450,52,0,0,0,0,10,0
+205 RATTLESNAKE TRL,The Greens at Pinehurst Rehab and Living Ce,SNF,120,90,32,345177,Established,INDEPENDENT,Pinehurst,North Carolina,28374,26,0,0,0,0,0,0
+206 N MOSBY AVE,The Landings at Lake Gaston,AL,NULL,NULL,46,NULL,Established,ALG,Littleton,North Carolina,27850,34,0,0,0,0,12,0
+2060 W FIFTH ST,Alpha Care One,AL,NULL,NULL,62,NULL,Established,ALPHA CARE ONE ASSISTED LIVING LLC,Greenville,North Carolina,27834,59,0,0,0,0,7,0
+2065 LYON ST,Belaire,SNFMD,NULL,86,84,345457,Established,MFA,Gastonia,North Carolina,28052,80,0,0,0,0,33,65
+207 CHAPPELL DR,McCoy Memorial Nursing Center,SNF,NULL,NULL,98,425174,Established,Concierge Healthcare,Bishopville,South Carolina,29010,95,0,0,0,0,0,0
+208 GRISTMILL DR,RUNK & PRATT FOREST-ALF,AL,NULL,NULL,29,NULL,Established,Runk & Pratt,FOREST,Virginia,24551,27,0,0,0,0,0,0
+208 HEALTH CARE DR,Lee Health and Rehab,SNFMD,110,103,115,495352,Established,Lee Health and Encompass Health,Pennington Gap,Virginia,24277,101,0,0,0,0,3,0
+208 N CASSEL RD,Momentous Health at Vandalia,SNF,118,106,103,366035,Established,Momentus Health,VANDALIA,Ohio,45377,101,0,0,0,0,0,0
+2081 LANGHORNE RD,Seven Hills Rehabilitation and Nursing,SNF,NULL,NULL,75,495151,Established,Eastern Healthcare Group,LYNCHBURG,Virginia,24501,51,0,0,0,0,0,0
+21 WOODLEE RD,AVIVA BALDWIN PARK-MEMORY CARE,AL,NULL,NULL,17,NULL,Established,Aviva Senior Living,STAUNTON,Virginia,24401,17,0,0,0,0,0,0
+210 FOXHALL RD,Croatan Ridge Rehabilitation & Nursing Center,SNF,64,58,18,345491,Established,PRINCIPLE,Newport,North Carolina,28570,18,0,0,0,0,0,0
+210 STATE HWY 43,McCormick's Creeks Rehab,SNF,80,72,47,155649,Established,Castle Healthcare,Spencer,Indiana,47460,43,0,0,0,0,11,0
+2101 DEYERLE AVE,BROOKDALE (ALF) HARRISONBURG,AL,NULL,NULL,47,NULL,Established,Brookdale Senior Living,HARRISONBURG,Virginia,22801,39,0,0,0,0,2,0
+2101 RUNNYMEDE LN,Summit Place of South Park,AL/MC,NULL,60,64,NULL,Established,TERRABELLA SENIOR LIVING,Charlotte,North Carolina,28209,27,0,0,0,0,1,0
+2105 W ARLINGTON BLVD,Navion of Greenville (Brookdale W. Arlington Blvd.,AL,60,31,20,NULL,Established,NAVION,Greenville,North Carolina,27834,19,0,0,0,0,6,0
+211 MILTON BROWN HEIRS RD,Glenbridge Health and Rehabilitation,SNF,134,103,52,345163,Established,Brighton,Boone,North Carolina,28607,46,0,0,0,0,0,0
+2111 NORTON LN,Majestic Care of Bedford,SNFMD,NULL,NULL,0,155100,Established,MAJESTIC CARE,BEDFORD,Indiana,47421,0,0,0,0,0,0,0
+2111 NORTON LN,Majestic Care of Bedford,SNFMD,NULL,NULL,110,155100,Established,MAJESTIC CARE,BEDFORD,Indiana,47421,100,0,0,0,0,17,0
+2116 BUTLER RD,Cedar Creek of Fort Wayne,AL,NULL,NULL,24,NULL,Established,CEDARHURST SENOR LIVING,Fort Wayne,Indiana,46808,22,0,0,0,0,0,0
+2119 E NATIONAL HWY,Eastgate Manor,SNF,62,58,17,NULL,Established,AMERICAN SENIOR COMMUNITIES,Washington,Indiana,47501,0,0,0,0,0,0,0
+213 RICHMOND HILL DR,River Bend Health & Rehabilitation ALF,AL/SNF,150,94,30,345432,Established,Brighton,Asheville,North Carolina,28806,30,0,0,0,0,0,0
+213 RICHMOND HILL DR,River Bend Health & Rehabilitation SNF,AL/SNF,150,94,84,345432,Established,Brighton,Asheville,North Carolina,28806,75,0,0,0,0,0,0
+2130 ROSE VISTA RD,Rose Vista Assisted Living,AL,60,56,52,NULL,Established,JANET MOOSE,Kinston,North Carolina,28504,49,0,0,0,0,5,0
+2135 S SCALES ST,Highgrove Long Term Care Center,AL,NULL,NULL,34,NULL,Established,INDEPENDENT,Reidsville,North Carolina,27320,31,0,0,0,0,0,0
+2140 MEDICAL PARK DR,Trinity Ridge,SNFMD,120,115,114,345106,Established,Lutheran Services Carolinas,Hickory,North Carolina,28602,111,0,0,0,0,11,0
+2147 DAVIE AVE,The Gardens of Statesville,AL,67,65,31,NULL,Established,PREMIER SENIOR LIVING,Statesville,North Carolina,28625,30,0,0,0,0,7,0
+215 DAVIS RD,Ossian Healthcare ALF,AL,NULL,NULL,30,155335,Established,TLC Management,Ossian,Indiana,46777,24,0,0,0,0,0,0
+215 DAVIS RD,Ossian Healthcare SNF,SNF,NULL,NULL,97,155335,Established,TLC Management,OSSIAN,Indiana,46777,87,0,0,0,0,0,0
+215 LASH DR,The Laurels of Salisbury,SNF,NULL,NULL,34,345428,Established,LAUREL HEALTH CARE COMPANY,Salisbury,North Carolina,28147,33,0,0,0,0,0,0
+215 W HIGH ST,Envive Healthcare of Liberty,SNF,NULL,NULL,23,155507,Established,MAGNOLIA,LIBERTY,Indiana,47353,23,0,0,0,0,0,0
+2150 HULL RD,North Carolina State Veterans Home - Kinston,SNFMD,NULL,NULL,92,345560,Established,PRUITT HEALTH,Kinston,North Carolina,28504,84,0,0,0,0,25,0
+217 JONESBORO RD,Cardinal Care Dunn,AL/MC,NULL,NULL,37,NULL,Established,JOEY CANNON,DUNN,North Carolina,28334,34,0,0,0,0,0,0
+219 STEVENS AVE,Highland Homes,AL,100,70,44,NULL,Established,Seniorly,Princeton,Kentucky,42445,43,0,0,0,0,4,0
+22 MAGNOLIA WAY,Gardens of Pamlico,AL,40,26,19,NULL,Established,ALG,Grantsboro,North Carolina,28529,17,0,0,0,0,7,0
+220 WORSHAM LN,Dishman Personal Care,AL,48,48,49,NULL,Established,INDEPENDENT,Monticello,Kentucky,42633,49,0,0,0,0,6,0
+2200 ELM AVE,Scotia Village Retirement Center,SNF,NULL,NULL,33,345297,Established,"PRESBYTERIAN HOMES, DBA BRIGHTSPIRE",Laurinburg,North Carolina,28352,29,0,0,0,0,0,0
+2201 E ST,Timbercrest Retirement,AL,261,77,7,155740,Established,INDEPENDENT,North Manchester,Indiana,46962,6,0,0,0,0,0,0
+"2201 E ST, N",Timbercrest SNF,AL/MC/IL,326,135,34,NULL,Established,Woodlawn Hospital,"Manchester, IN 46962",Indiana,46962,31,0,0,0,0,0,0
+2201 STATESVILLE BLVD,Brookdale Salisbury,AL,NULL,NULL,37,NULL,Established,BROOKDALE SENIOR LIVING,Salisbury,North Carolina,28147,35,0,0,0,0,8,2
+2209 SAINT JOE CENTER RD,Towne House Retirement Community ALF,AL,0,0,19,155475,Established,BHI SENIOR LIVING,Fort Wayne,Indiana,46825,17,0,0,0,0,0,0
+2209 SAINT JOE CENTER RD,Town House Retirement Community,MC,NULL,NULL,0,155475,Established,BHI Senior Living,Fort Wayne,Indiana,46825,0,0,0,0,0,0,0
+2209 SAINT JOE CENTER RD,Towne House Retirement Community SNF,SNF,NULL,72,23,155475,Established,BHI Senior Living,Fort Wayne,Indiana,46825,20,0,0,0,0,0,0
+2220 FARMINGTON DR,Brookdale Chapel Hill AL,AL,NULL,NULL,45,NULL,Established,BROOKDALE SENIOR LIVING,Chapel Hill,North Carolina,27517,41,0,0,0,0,15,33
+2230 FARMINGTON DR,Brookdale Chapel Hill MC,MC,38,30,28,NULL,Established,Brookdale Senior Living,Chapel Hill,North Carolina,27517,22,0,0,0,0,6,19
+2233 W JEFFERSON ST,North Woods Village,SNFMD,NULL,NULL,125,155139,Established,AMERICAN SENIOR COMMUNITIES,KOKOMO,Indiana,46901,114,0,0,0,0,17,0
+2237 ENGLE RD,Englewood Health & Rehabilitation Center,SNF,NULL,NULL,55,155654,Established,Pavilion Healthcare,Fort Wayne,Indiana,46809,51,0,0,0,0,3,0
+224 FISHERSVILLE RD,Care Corner - ALF,AL,NULL,NULL,19,NULL,Established,INDEPENDENT,Fisherville,Virginia,22939,16,0,0,0,0,1,0
+2249 MURRELL RD,THE ELMS OF LYNCHBURG-ALF,AL,NULL,NULL,14,NULL,Established,INDEPENDENT,LYNCHBURG,Virginia,24501,13,0,0,0,0,4,0
+225 RUCCIO WAY,The Lantern at Morning Pointe Lexington,AL,NULL,NULL,41,NULL,Established,MORNING POINTE SENIOR LIVING,Lexington,Kentucky,40503,41,0,0,0,0,1,0
+225 SAINT JOHN RD,Kensington Health Center,SNFMD,82,79,83,185443,Established,Bluegrass/Encore,Elizabethtown,Kentucky,42701,61,0,0,0,0,0,0
+2270 OAKLAND RD,Highlands Senior Living,AL,44,1,1,NULL,Established,Highlands Senior Living LLC,Forest City,North Carolina,28043,1,0,0,0,0,0,1
+2275 RUIN CREEK RD,Henderson Nursing and Living Center,AL/SNF,65,51,31,345316,Established,Maximus Healthcare Group,Henderson,North Carolina,27537,30,0,0,0,0,0,0
+230 E PRESNELL ST,Alpine Health & Rehab of Asheboro,SNF,NULL,NULL,78,345155,Established,INDEPENDENT,Asheboro,North Carolina,27203,73,0,0,0,0,0,0
+2309 S MILLER ST 2309 S MILLER ST,Willows of Shelbyville,SNF,121,79,74,155022,Established,Legacy Healthcare,Shelbyville,Indiana,46176,74,0,0,0,0,1,0
+231 N JACKSON ST,Good Samaritan Home and Rehabilitative Center,SNF,NULL,NULL,68,155561,Established,AMERICAN SENIOR COMMUNITIES,OAKLAND CITY,Indiana,47660,56,0,0,0,0,7,0
+2316 SPRINGMILL RD,Oak Creek Terrace Nursing & Rehab Center,SNF,NULL,NULL,29,365899,Established,CARING PLACE HEALTHCARE,KETTERING,Ohio,45440,24,0,0,0,0,0,0
+2320 N MONTGOMERY RD,Aspen Place Health Campus ALF,AL,NULL,NULL,23,155797,Established,TRILOGY,Greensburg,Indiana,47240,22,0,0,0,0,10,0
+2320 N MONTGOMERY RD,Aspen Place Health Campus SNF,SNFMD,NULL,NULL,40,155797,Established,TRILOGY,Greensburg,Indiana,47240,40,0,0,0,0,8,0
+"2323 CONCRETE RD, CARLISLE, KY 40311",Willowbrook Healthcare,SNF,80,15,25,NULL,Established,INDEPENDENT,Carlisle,Kentucky,40311,25,0,0,0,0,0,0
+233 RUCCIO WAY,Morning Pointe of Lexington,AL,80,69,36,NULL,Established,MORNING POINTE SENIOR LIVING,Lexington,Kentucky,40503,31,0,0,0,0,2,0
+2330 SMITH RD,Bath Manor Special Care Centre,SNF,130,110,37,365847,Established,Saber Healthcare Group,Akron,Ohio,44333,22,0,0,0,0,8,0
+234 NORTHDALE AVE,Best of Care,AL,31,30,26,NULL,Established,INDEPENDENT,Kannapolis,North Carolina,28081,21,0,0,0,0,3,0
+235 NEW WILSON LN,Middlesboro Nursing and Rehab,SNF,NULL,NULL,56,185240,Established,Bluegrass/Encore,MIDDLESBORO,Kentucky,40965,26,0,0,0,0,0,0
+236 WARRIOR WAY,Wyoming Healthcare Center SNF/NF,SNFMD,NULL,NULL,60,515164,Established,Communicare,NEW RICHMOND,West Virginia,24867,20,0,0,0,0,0,0
+2365 NASHVILLE RD,Colonial Center,SNF,48,48,31,185048,Established,Bluegrass/Encore,Bowling Green,Kentucky,42101,20,0,0,0,0,0,0
+238 S WASHINGTON ST,Greenfield SNF Inc,SNFMD,50,22,40,366038,Established,Life Care Centers,Greenfield,Ohio,45123,36,0,0,0,0,22,0
+2387 WARM HEARTH DR,WARM HEARTH-SHOWALTER CENTER,AL,NULL,NULL,22,NULL,Established,Warm Hearth Village,BLACKSBURG,Virginia,24060,15,0,0,0,0,0,0
+2387 WARM HEARTH DR,WARM HEARTH-THE WILLOWS,AL,NULL,NULL,17,NULL,Established,Warm Hearth Village,BLACKSBURG,Virginia,24060,9,0,0,0,0,0,0
+2387 WARM HEARTH DR,WARM HEARTH-THE ARBORS,MC,NULL,NULL,10,NULL,Established,Warm Hearth Village,BLACKSBURG,Virginia,24060,7,0,0,0,0,0,0
+2387 WARM HEARTH DR,WARM HEARTH-THE COVE-SNF/NF,SNF,NULL,NULL,55,NULL,Established,Warm Hearth Village,BLACKSBURG,Virginia,24060,35,0,0,0,0,0,0
+240 S EARLEY STATION RD,Ahoskie Assisted Living,AL,NULL,65,52,NULL,Established,RPA Management,Ahoskie,North Carolina,27910,49,0,0,0,0,10,0
+2400 APPALACHIAN BLVD,Ardenwoods IN,IL,NULL,0,0,NULL,Established,STORYPOINT,Arden,North Carolina,28704,0,0,0,0,0,0,0
+2400 CHATEAU DR,The Waters of Muncie,SNFMD,NULL,NULL,53,155443,Established,INFINITY HEALTHCARE CONSULTING,MUNCIE,Indiana,47303,37,0,0,0,0,8,0
+2400 COLLEGE AVE,Majestic Care of Goshen,SNF,186,118,94,155689,Established,Majestic Care,Goshen,Indiana,46528,92,0,0,0,0,12,0
+2406 ATHERHOLD RD,Forest Health and Rehab Center,SNFMD,NULL,NULL,89,495302,Established,SABER HEALTHCARE GROUP,LYNCHBURG,Virginia,24501,66,0,0,0,0,5,0
+2408 HODGE RD,TerraBella of Knightdale,AL/MC,NULL,NULL,41,NULL,Established,SENIOR LIFESTYLE,Knightdale,North Carolina,27545,39,0,0,0,0,9,37
+2415 SANDY PORTER RD,Mecklenburg Health & Rehabilitation,SNF,NULL,NULL,49,345471,Established,SANSTONE,Charlotte,North Carolina,28273,46,0,0,0,0,0,0
+2416 HWY 70 E,PruittHealth - Crystal Coast,SNF,104,90,17,345182,Established,PRUITT HEALTH,Beaufort,North Carolina,28516,14,0,0,0,0,0,0
+2420 LAKE WHEELER RD,PruittHealth - Raleigh,SNF,NULL,NULL,136,345538,Established,PRUITT HEALTH,Raleigh,North Carolina,27603,100,0,0,0,0,36,0
+2461 LEGION RD,Carrolton of Fayetteville,SNF,NULL,NULL,88,345376,Established,PRINCIPLE,Fayetteville,North Carolina,28306,73,0,0,0,0,0,0
+24724 S BUSINESS 52,Trinity Place SNF,SNFMD,76 SNF ; 27 ALF,69 SNF ; 21 ALF,75,NULL,Established,Lutheran Home,Albemarle,North Carolina,28001,60,0,0,0,0,27,0
+24724 S BUSINESS 52,Trinity Place ALF,SNFMD,76 SNF ; 27 ALF,69 SNF ; 21 ALF,18,NULL,Established,Lutheran Home,Albemarle,North Carolina,28001,18,0,0,0,0,3,0
+25 OLD OAKS DR,English Meadows Fishersville Campus,AL,NULL,NULL,43,NULL,Established,INDEPENDENT,FISHERSVILLE,Virginia,22939,35,0,0,0,0,1,0
+25 SUNNYBROOK ROA,Sunnybrook Rehabilitation Center,SNF,NULL,NULL,46,345077,Established,Southern Healthcare Management LLC,Raleigh,North Carolina,27610,42,0,0,0,0,0,0
+250 BISHOP LN,The Greens at Cabarrus,SNFMD,NULL,NULL,118,345362,Established,CCH HEALTHCARE,Concord,North Carolina,28025,96,0,0,0,0,20,85
+250 GLENN AVE,St Catherine's Manor of Wash CH,SNFMD,NULL,NULL,45,365318,Established,HCF,Washington Court House,Ohio,43160,15,0,0,0,0,10,0
+250 HOPKINS RD,Kerner Ridge Assisted Living & Memory Care,AL,66,57,19,NULL,Established,Navion,Kernersville,North Carolina,27284,16,0,0,0,0,0,0
+250 LOVERS LN,River Trace Nursing and Rehabilitation Center,SNFMD,NULL,NULL,150,345215,Established,PRINCIPLE,Washington,North Carolina,27889,100,0,0,0,0,35,0
+250 MASONIC HOME DR,Cresent Grove,Personal Care Home,95,90,26,NULL,Established,MASONIC HOMES OF KENTUCKY INC,Louisville,Kentucky,40041,25,0,0,0,0,0,0
+"250 MCDAVID BLVD, GRAYSON, KY 41143",Carter Nursing and Rehabilitation,SNF,120,112,85,185253,Established,Majestic Care,Grayson,Kentucky,41143,83,0,0,0,0,0,0
+250 NC 210,Meadowview,AL,60,55,43,NULL,Established,Saber Healthcare Group,Smithfield,North Carolina,27577,35,0,0,0,0,10,0
+250 NICHOLS CT,THE BLAKE AT CHARLOTTESVILLE-ALF,AL,NULL,NULL,15,NULL,Established,Quality Senior Living Partners,CHARLOTTESVILLE,Virginia,22901,10,0,0,0,0,0,0
+250 PITTS ST,Shuler Health Care,AL,NULL,NULL,55,NULL,Established,INDEPENDENT,Kernersville,North Carolina,27284,36,0,0,0,0,10,0
+250 SHENANDOAH DR,Traditions of Lafayette,AL,86,72,21,NULL,Established,FIVE STAR SENIOR LIVING,Lafayette,Indiana,47905,19,0,0,0,0,0,0
+250 W CENTRAL AVE,Genesis HCR of Ashland TWO,Personal Care Home,22,20,18,NULL,Established,INDEPENDENT,Ashland,Kentucky,41101,16,0,0,0,0,0,0
+2500 N ELM ST,Henderson Nursing and Rehab,SNF,NULL,NULL,88,NULL,Established,NULL,Henderson,KY,42420,1,0,0,0,0,0,0
+2500 POLO RIDGE CT,Pruitt Place Winston Salem,AL/MC,NULL,NULL,58,NULL,Established,PRUITT HEALTH,Winston-Salem,North Carolina,27106,52,0,0,0,0,7,0
+2502 S NC HWY 119,"Compass Healthcare and Rehab Hawfields, Inc",SNF,NULL,NULL,37,345363,Established,TODD NUNN,Mebane,North Carolina,27302,27,0,0,0,0,0,0
+2515 FOWLER SECREST RD,Woodridge,AL,NULL,NULL,66,NULL,Established,ALG,Monroe,North Carolina,28110,55,0,0,0,0,14,58
+2521 MURIEL DR,Valley Pines,AL,NULL,NULL,10,NULL,Established,INDEPENDENT,Fayetteville,North Carolina,28306,9,0,0,0,0,2,0
+2526 W 10TH ST,Davco Personal Care Home,AL,NULL,NULL,0,NULL,Established,DAVCO,OWENSBORO,Kentucky,42301,0,0,0,0,0,0,0
+2528 BYPASS RD,Hellenic Senior Living - Elkhart,AL,125,115,21,NULL,Established,Ahepa Senior Living (ASL),ELKHART,Indiana,46514,19,0,0,0,0,2,0
+2530 16TH ST NORTHEAST,Brookdale Hickory Northeast,AL,NULL,NULL,38,NULL,Established,BROOKDALE SENIOR LIVING,Hickory,North Carolina,28601,32,0,0,0,0,9,0
+255 MEADOW DR,Danville Regional Rehabilitation,SNF,110,105,39,155132,Established,AMERICAN SENIOR COMMUNITIES,Danville,Indiana,46122,0,0,0,0,0,0,0
+2550 IOWA AVE,Caroleton Healthcare Center,SNF,NULL,NULL,69,155387,Established,Communicare,CONNERSVILLE,Indiana,47331,65,0,0,0,0,0,0
+2575 W 5TH ST,East Carolina Rehab and Wellness,SNF,NULL,NULL,62,345377,Established,"EAST CAROLINA REHAB AND WELLNESS, LLC",Greenville,North Carolina,27834,55,0,0,0,0,1,0
+2578 W 5TH ST,Greenville Health and Rehab,SNFMD,120,114,137,345181,Established,MFA,Greenville,North Carolina,27834,61,0,0,0,0,35,0
+260 CENTERWAY DR,Mountain View Assisted Living,AL,NULL,NULL,16,NULL,Established,"MOUNTAIN VIEW ASSISTED LIVING, INC",Hendersonville,North Carolina,28792,13,0,0,0,0,2,16
+260 S MAYO TRL,Pikeville Nursing and Rehab,SNF,NULL,NULL,60,185094,Established,TOPAZ HEALTHCARE,PIKEVILLE,Kentucky,41501,53,0,0,0,0,0,0
+260 VILLAGE LAKE RD,Dunmore Senior Living of Siler City,AL/MC,NULL,NULL,14,NULL,Established,Buddy Elmore,Siler City,North Carolina,27344,13,0,0,0,0,0,0
+2600 CROASDAILE FARM PARKWA,Croasdaile Village,SNF,NULL,NULL,31,345501,Established,UNITED METHODIST RETIREMENT HOMES INC,Durham,North Carolina,27705,26,0,0,0,0,0,0
+2600 CROASDAILE FARM PARKWAY,Croasdaile Friendship House,AL,NULL,NULL,0,345501,Established,UNITED METHODIST RETIREMENT HOMES INC,Durham,North Carolina,27705,0,0,0,0,0,0,0
+2600 CROASDAILE FARM PARKWAY,Croasdaile Clinic,AL/Clinic,NULL,NULL,0,345501,Established,UNITED METHODIST RETIREMENT HOMES INC,Durham,North Carolina,27705,0,0,0,0,0,0,0
+2600 MOREHOUSE AVE,Elkhart Meadows,SNF,NULL,NULL,42,155352,Established,AMERICAN SENIOR COMMUNITIES,ELKHART,Indiana,46517,39,0,0,0,0,0,0
+2600 N GRAND AVE,Hickory Creek of Connersville,SNFMD,36,29,36,155434,Established,American Senior Communities,Connersville,Indiana,47331,32,0,0,0,0,7,0
+2601 COVINGTON COMMONS DR,Covington Commons,AL,126,90,75,NULL,Established,Five Star Residences,Fort Wayne,Indiana,46804,71,6,0,0,0,2,0
+2605 SWALLOW RD,The Landings of Rockingham,AL,NULL,NULL,25,NULL,Established,ALG,Reidsville,North Carolina,27320,22,0,0,0,0,6,0
+2607 MAIN ST,Lake Way Nursing and Rehab,SNF,NULL,NULL,41,185258,Established,VENZA,BENTON,Kentucky,42025,40,0,0,0,0,0,0
+263 MCKENZIE RIDGE DR,Kingswood Reserve,AL/MC/IL,66,17,60,NULL,Established,ALG,Clayton,North Carolina,27520,51,2,0,0,0,7,46
+2630 S KEYSTONE AVE,Fairway Village,SNF,NULL,NULL,47,155741,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46203,34,0,0,0,0,1,0
+2680 S MEBANE ST,Cedar Ridge IN,IL,120,120,13,NULL,Established,Atria Senior Living,Burlington,North Carolina,27215,11,13,0,0,0,0,0
+270 COMMONS PARKWAY,CARRINGTON COTTAGES,AL,NULL,NULL,23,NULL,Established,Hill Valley,DALEVILLE,Virginia,24083,8,0,0,0,0,0,0
+2701 MAGNOLIA SPRINGS DR,Magnolia Springs Lexington,AL,NULL,NULL,52,NULL,Established,MAGNOLIA SPRINGS HEALTH SYSTEM,Lexington,Kentucky,40511,47,0,0,0,0,1,0
+2702 FARRELL ROA,Sanford Health & Rehabilitation Co,SNF,NULL,NULL,52,345534,Established,SANSTONE,Sanford,North Carolina,27330,51,0,0,0,0,0,0
+2715 S ISLAND RD,Elderwood Rehabilitation and Nursing Center,SNF,84,76,70,NULL,Established,Brothers Healthcare / CJM Advisors,Georgetown,South Carolina,29440,69,0,0,0,0,0,0
+275 KIENLE DR,Piqua Care Center,SNFMD,85,77,87,365607,Established,LIONSTONE CARE,Piqua,Ohio,45356,81,0,0,0,0,19,0
+275 S PEACE HAVEN RD,Brookdale Winston Salem,MC,NULL,NULL,34,NULL,Established,BROOKDALE SENIOR LIVING,Winston-Salem,North Carolina,27104,33,0,0,0,0,3,0
+2766 GRAND OAKS BLVD,Alamance House AL,AL,NULL,NULL,37,NULL,Established,ALG,Burlington,North Carolina,27215,37,0,0,0,0,1,0
+2766 GRAND OAKS BLVD,Alamance House MC,MC,NULL,0,40,NULL,Established,ALG,Burlington,North Carolina,27215,33,0,0,0,0,2,0
+27669 NC HWY 125,Scotland House,AL,NULL,NULL,53,NULL,Established,ALG,Scotland Neck,North Carolina,27874,51,0,0,0,0,11,0
+2770 PALUMBO DR,Lexington Premier Nursing and Rehab,SNF,NULL,NULL,62,185463,Established,EMERALD HEALTHCARE,Lexington,Kentucky,40509,56,0,0,0,0,0,0
+2770 S ADAMS RD,Cedar Creek Assisted Living,AL,66,32,6,NULL,Established,CEDARHURST SENOR LIVING,BLOOMINGTON,Indiana,47403,5,0,0,0,0,2,0
+2773 PINEWOOD HOME DR,Lenoir Assisted Living,AL/MC,NULL,NULL,27,NULL,Established,LUTHERAN SENIOR SERVICES,Pink Hill,North Carolina,28572,19,0,0,0,0,7,0
+2779 HWY 15 N,Bishopville Manor,AL,44,38,34,NULL,Established,Care Management Group,Bishopville,South Carolina,29010,34,0,0,0,0,1,0
+2780 X RAY DR,Peak Resources Gastonia,SNFMD,NULL,NULL,98,345494,Established,PEAK RESOURCES,Gastonia,North Carolina,28054,86,0,0,0,0,37,81
+2800 KIDD RD,Wake Assisted Living,AL,60,48,43,NULL,Established,INDEPENDENT,Raleigh,North Carolina,27610,40,0,0,0,0,3,41
+2801 CARMEL RD,Carmel Hills,AL,NULL,NULL,23,NULL,Established,BOB BOWERSOX,Charlotte,North Carolina,28226,19,0,0,0,0,3,16
+2806 PEACHTREE RD,Brookdale Peachtree AL,AL,87,50,43,NULL,Established,Brookdale Senior Living,Statesville,North Carolina,28625,39,0,0,0,0,12,0
+2809 OLD CONCORD RD,Alpha Concord Plantation,AL,NULL,NULL,23,NULL,Established,INDEPENDENT,Salisbury,North Carolina,28146,22,0,0,0,0,4,0
+281 S COUNTY RD 200 E,Heritage House of Connersville,SNF,NULL,NULL,88,155332,Established,AMERICAN SENIOR COMMUNITIES,CONNERSVILLE,Indiana,47331,82,0,0,0,0,17,0
+2814 PEACHTREE RD,Brookdale Peachtree MC,MC,40,32,22,NULL,Established,Brookdale Senior Living,Statesville,North Carolina,28625,21,0,0,0,0,3,0
+282 BEN BOLT AVE,933 Heritage Hall Tazewell,SNF,NULL,NULL,101,495152,Established,AMERICAN HEALTHCARE LLC,TAZEWELL,Virginia,24651,13,0,0,0,0,0,0
+282 JOHNSTON ST,Green Oaks of Goshen,AL,120,75,85,NULL,Established,Gardant,Goshen,Indiana,46528,78,0,0,0,0,3,0
+2820 RICHARD ST,Christian County Manor,AL,65,54,39,NULL,Established,ELDERCARE PARTNERS,hopkinsville,Kentucky,42240,38,0,0,0,0,4,0
+2860 CHURCHMAN AVE,Brickyard Healthcare - Churchman Care Center,SNF,NULL,NULL,70,155138,Established,Brickyard,Indianapolis,Indiana,46203,62,0,0,0,0,0,0
+287 BAMBOO RD,Deerfield Ridge Assisted Living,AL,96,52,41,NULL,Established,Navion,Boone,North Carolina,28607,37,0,0,0,0,11,1
+2879 S LIMA RD,Chandler Place,AL,NULL,NULL,18,NULL,Established,LAKEHOUSE SENIOR LIVING,KENDALLVILLE,Indiana,46755,17,0,0,0,0,0,0
+"2885 NEW HARTFORD RD, OWENSBORO, KY 42303",Wellington Parc of Owensboro,SNF,44,40,71,185436,Established,Majestic Care,Owensboro,Kentucky,42303,67,0,0,0,0,0,0
+290 CLEAR CREEL RD,The Laurels of Hendersonville,SNF,NULL,NULL,26,345322,Established,LAUREL HEALTH CARE COMPANY,Hendersonville,North Carolina,28792,1,0,0,0,0,0,23
+290 COMMONS PARKWAY,Daleville Health & Rehabilitation - SNF,SNF,NULL,NULL,68,495386,Established,Hill Valley,DALEVILLE,Virginia,24083,33,0,0,0,0,0,0
+2901 W 37TH AVE,The Waters of Hobart,SNF,NULL,NULL,55,155251,Established,INFINITY HEALTHCARE CONSULTING,HOBART,Indiana,46342,50,0,0,0,0,10,0
+2908 COUNTRY HOME RD,Country Home,AL,NULL,NULL,42,NULL,Established,COUNTRY HOME HEALTHCARE LLC,Concord,North Carolina,28025,21,0,0,0,0,0,40
+2910 L'ERMITAGE PL,Arbors at Stow,SNFMD,NULL,NULL,130,365720,Established,ARBORS,Stow,Ohio,44224,125,0,0,0,0,14,0
+2910 PINE PLANTATION PARKWAY,The Landings of Oak Island,AL/MC,NULL,NULL,61,NULL,Established,ALG,Oak Island,North Carolina,28461,59,0,0,0,0,12,0
+2925 ZOO PKWY,TerraBella Asheboro,AL/MC,NULL,NULL,20,NULL,Established,TERRABELLA SENIOR LIVING,Asheboro,North Carolina,27205,16,0,0,0,0,0,0
+2931 VANCE ST,Brookdale Reidsville,AL,NULL,NULL,30,NULL,Established,Brookdale Senior Living,Reidsville,North Carolina,27320,26,0,0,0,0,6,0
+2932 S 5TH ST,Sanctuary at Ohio Valley,SNF,NULL,93,NULL,4/2/2024 5:47,Established,,,,Ohio,0,0,0,0,0,0,0
+2940 N CLINTON ST,Summit City,SNF,93,54,45,155159,Established,American Senior Communities,Fort Wayne,Indiana,46805,38,0,0,0,0,0,0
+295 VILLAGE LN,Greenwood Village South - Manor (AL),AL,NULL,NULL,28,155026,Established,INDEPENDENT,GREENWOOD,Indiana,46143,22,0,0,0,0,2,0
+295 VILLAGE LN,Greenwood Village South IL,IL,NULL,NULL,2,155026,Discontinued,INDEPENDENT,GREENWOOD,Indiana,46143,2,2,0,0,0,0,0
+295 VILLAGE LN,Greenwood Village South - Pavilion,SNF,NULL,NULL,127,155026,Established,INDEPENDENT,GREENWOOD,Indiana,46143,91,0,0,0,0,28,0
+295 WESTFIELD RD,Riverwalk Village,SNFMD,169,127,136,155106,Established,AMERICAN SENIOR COMMUNITIES,Noblesville,Indiana,46060,114,0,0,0,0,28,0
+2950 TURKEYFOOT RD,The Summit of Edgewood,AL,107,76,49,NULL,Established,Triple Crown Senior Living,Edgewood,Kentucky,41017,40,0,0,0,0,4,0
+2966 SLATE CREEK RD,814 Heritage Hall Grundy,SNFMD,NULL,NULL,118,495259,Established,AMERICAN HEALTHCARE LLC,GRUNDY,Virginia,24614,114,0,0,0,0,34,0
+2968 OLD SALISBURY RD,Brookstone Retirement Center,AL,115,80,64,NULL,Established,Amity Healthcare Group,Lexington,North Carolina,27295,62,0,0,0,0,0,0
+2980 REYNOLDA RD,Brookdale Reynolda,AL,NULL,NULL,37,NULL,Established,BROOKDALE SENIOR LIVING,Winston- Salem,North Carolina,27106,36,0,0,0,0,6,1
+2981 OPTIMIST CLUB RD,Lakewood Care Center,AL,NULL,NULL,57,NULL,Established,LAKEWOOD CARE CENTER,Denver,North Carolina,28037,39,0,0,0,0,5,35
+30 DALEA DR,Wilham Ridge Assisted Living,AL,54,35,12,NULL,Established,INDEPENDENT,Asheville,North Carolina,28805,8,0,0,0,0,1,11
+30 MONICA BLVD,RUNK & PRATT LIBERTY RIDGE-ALF,AL,NULL,NULL,29,NULL,Established,Runk & Pratt,LYNCHBURG,Virginia,24502,13,0,0,0,0,0,0
+30 MONICA BLVD,RUNK & PRATT LIBERTY RIDGE-IL,IL,NULL,NULL,2,NULL,Established,Runk & Pratt,LYNCHBURG,Virginia,24502,1,0,0,0,0,0,0
+300 BLUE RIDGE ST,Mulberry Creek Nursing & Rehab Center,SNFMD,NULL,NULL,205,495426,Established,Kissito Healthcare,MARTINSVILLE,Virginia,24112,198,0,0,0,0,67,0
+300 E PRAIRIE ST,The New Warsaw,SNF,NULL,NULL,56,155566,Established,PRIORITY,WARSAW,Indiana,46580,44,0,0,0,0,4,0
+300 FAIRGROUNDS RD,The Waters of Tipton,SNF,150,90,94,155556,Established,INFINITY HEALTHCARE CONSULTING,Tipton,Indiana,46072,75,0,0,0,0,22,0
+300 HATCHER ST,Rocky Mount Health & Rehab Center LLC - SNF,SNFMD,NULL,NULL,132,495118,Established,SABER HEALTHCARE GROUP,ROCKY MOUNT,Virginia,24151,123,0,0,0,0,38,0
+300 KILDAIRE WOODS DR,Woodland Terrace AL,AL,37,37,31,NULL,Established,Kisco Senior Living,Cary,North Carolina,27511,28,0,0,0,0,2,28
+300 KILDAIRE WOODS DR,Woodland Terrace IN,IL,104,103,29,NULL,Established,Kisco Senior Living,Cary,North Carolina,27511,27,29,0,0,0,0,0
+300 KILDAIRE WOODS DR,Woodland Terrace MC,MC,43,42,34,NULL,Established,Kisco Senior Living,Cary,North Carolina,27511,32,0,0,0,0,1,21
+300 MEADOWLAND DRIV,Peak Resources Brookshire SNF,SNF,NULL,NULL,55,345439,Established,PEAK RESOURCES,Hillsborough,North Carolina,27278,51,0,0,0,0,0,0
+300 MEADOWLAND DRIV,Peak Resources Brookshire ALF,SNF,NULL,NULL,9,345439,Established,PEAK RESOURCES,Hillsborough,North Carolina,27278,8,0,0,0,0,0,0
+300 MORRIS RD,The Oaks - Brevard,SNF,NULL,NULL,46,345462,Established,PRUITT HEALTH,Brevard,North Carolina,28712,44,0,0,0,0,0,0
+300 N WASHINGTON ST,The Waters of Wakarusa AL,AL,35,25,30,NULL,Established,INFINITY HEALTHCARE CONSULTING,Wakarusa,Indiana,46573,30,0,0,0,0,0,0
+300 N WASHINGTON ST,The Waters of Wakarusa SNF,SNF,133,92,79,155582,Established,INFINITY HEALTHCARE CONSULTING,WAKARUSA,Indiana,46573,77,0,0,0,0,13,0
+300 OVERLOOK DR,Piketon Nursing Center,SNFMD,NULL,NULL,39,365961,Established,Pavilion Healthcare,Piketon,Ohio,45661,19,0,0,0,0,14,0
+3000 CENTRAL AVE,Genesis HCR of Ashland ONE,Personal Care Home,20,16,17,NULL,Established,GENESIS HEALTH OF ASHLAND LLC,Ashland,Kentucky,41101,16,1,0,0,0,0,0
+3001 MIDDLE URBANA RD,Springfield Clark ALF - Northwood,AL,NULL,NULL,53,NULL,Established,ASPIRE,Springfield,Ohio,45502,48,0,0,0,0,22,0
+3003 WATERSCAPE WAY,The Viridian,AL,NULL,NULL,26,NULL,Established,ALG,NEW BERN,North Carolina,28562,26,0,0,0,0,15,0
+301 CRAIG ST,Woodlawn Haven,AL,NULL,NULL,68,NULL,Established,Independent,Mt. Holly,North Carolina,28120,55,0,0,0,0,11,0
+301 S MAIN ST,Cumberland Valley Nursing & Rehabilitation,SNF,93,87,58,185270,Established,Bluegrass/Encore,Burkesville,Kentucky,42717,44,0,0,0,0,0,0
+3017 VALLEY FARMS RD,Eagle Valley Meadows,SNF,114,75,19,155291,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46214,0,0,0,0,0,0,0
+302 N 2ND ST,"Bridgewater Home, Inc. - MC",AL,NULL,NULL,31,NULL,Established,INDEPENDENT,BRIDGEWATER,Virginia,22812,27,0,0,0,0,3,0
+302 N 2ND ST,"Bridgewater Home, Inc. - ALF",AL,NULL,NULL,71,NULL,Established,INDEPENDENT,BRIDGEWATER,Virginia,22812,61,0,0,0,0,3,0
+302 N 2ND ST,"Bridgewater Home, Inc. - SNF",SNFMD,NULL,NULL,120,495370,Established,INDEPENDENT,BRIDGEWATER,Virginia,22812,104,0,0,0,0,1,0
+3020 MARKET ST,Carteret house,AL,NULL,NULL,9,NULL,Established,ALG,Newport,North Carolina,28570,7,0,0,0,0,0,0
+3021 STELLA ST,Bickford of Greenwood,AL/MC,51,36,16,NULL,Established,Bickford,Greenwood,Indiana,46143,16,0,0,0,0,0,0
+3037 W DIVISION RD,1019 Belle's of Wabash,AL,NULL,NULL,15,NULL,Established,EBY FAMILY,WABASH,Indiana,46992,15,0,0,0,0,1,0
+3043 N LINTEL DR,Hearthstone Health ALF,AL,NULL,NULL,54,NULL,Established,TRILOGY,BLOOMINGTON,Indiana,47403,54,0,0,0,0,2,0
+3043 N LINTEL DR,Hearthstone Health SNF,SNFMD,NULL,NULL,58,155818,Established,TRILOGY,BLOOMINGTON,Indiana,47403,56,0,0,0,0,9,0
+3045 HENDERSON DR,Kempton of Jacksonville,AL/MC,NULL,NULL,23,NULL,Established,INDEPENDENT,JACKSONVILLE,North Carolina,28546,15,0,0,0,0,0,0
+305 TAYLOR ST,River Valley Nursing Home,SNF,NULL,NULL,59,185355,Established,LUXOR HEALTHCARE GROUP,Butler,Kentucky,41006,51,0,0,0,0,0,0
+306 DEER PARK RD,Deer Park Health & Rehabilitation,SNF,140,107,98,345233,Established,Brighton,Nebo,North Carolina,28761,93,0,0,0,0,0,0
+308 OVERLOOK RD,Brookdale Asheville Overlook,AL,NULL,NULL,25,NULL,Established,BROOKDALE SENIOR LIVING,Asheville,North Carolina,28803,23,0,0,0,0,4,21
+308 W MAPLE AVE,Maplewood Health & Rehabilitation,SNF,NULL,NULL,77,185065,Established,INFINITY HEALTHCARE CONSULTING,Lancaster,Kentucky,40444,46,0,0,0,0,0,0
+31 DERICKSON LN,Stanton Nursing and Rehabilitation Center,SNF,NULL,NULL,42,185352,Established,TOPAZ HEALTHCARE,Stanton,Kentucky,40380,25,0,0,0,0,0,0
+31 WOODLEE RD,AVIVA BALDWIN PARK-ALF,AL,NULL,NULL,21,NULL,Established,Aviva Senior Living,STAUNTON,Virginia,24401,21,0,0,0,0,0,0
+310 BOXWOOD RUN RD,Green Meadows Health and Rehabilitation,SNF,122,100,124,NULL,Established,Lyon Healthcare,Mount Washington,Kentucky,40047,58,0,0,0,0,0,0
+310 COMMERCE DR,Liberty Commons Nsg and Rehab of Lee County,SNF,NULL,NULL,57,345532,Established,Liberty,Sanford,North Carolina,27332,41,0,0,0,0,0,0
+310 PENSACOLA RD,Smoky Ridge Health & Rehabilitation,SNF,140,92,101,345305,Established,Brighton,Burnsville,North Carolina,28714,89,0,0,0,0,0,0
+3100 ERWIN RD,PruittHealth - Durham,SNF,NULL,NULL,36,345061,Established,PRUITT HEALTH,Durham,North Carolina,27705,28,0,0,0,0,1,0
+3100 SHAWNEE DR,Stonebridge SNF,AL/SNF MD,68,50,57,155727,Established,Trilogy,BEDFORD,Indiana,47421,56,0,0,0,0,16,0
+3100 SHAWNEE DR,Stonebridge ALF,AL/SNF MD,68,50,31,155727,Established,Trilogy,BEDFORD,Indiana,47421,29,0,0,0,0,9,0
+3101 DURALEIGH RD,Brighton Gardens Raleigh,AL/MC,NULL,NULL,17,NULL,Established,Sunrise Senior Living,Raleigh,North Carolina,27612,15,0,0,0,0,4,0
+31054 STATE ROUTE 93,Maple Hill Care Center,SNFMD,NULL,NULL,38,366139,Established,LIONSTONE CARE,Mc Arthur,Ohio,45651,36,0,0,0,0,4,0
+3118 GREEN VALLEY RD,Green Valley,SNF,141,100,70,155070,Established,Lifecare,NEW ALBANY,Indiana,47150,46,0,0,0,0,0,0
+312 HARRISON AVE,Integrity - Pinebrook LLC,AL,NULL,NULL,57,NULL,Established,INTEGRITY SENIOR LIVING,Yadkinville,North Carolina,27055,39,0,0,0,0,12,0
+312 WARREN AVE,Harmony Hall Nursing and Rehab,SNF,NULL,NULL,44,345156,Established,HARMONY SENOR SERVICES,Kinston,North Carolina,28501,33,0,0,0,0,0,0
+3121 GLANZMAN RD,Concord Care Center of Toledo,SNF,84,78,83,365030,Established,AOM HEALTHCARE SOLUTIONS,Toledo,Ohio,43614,81,0,0,0,0,0,0
+314 W KINGS HIGHWAY,Brookdale Eden,AL,NULL,NULL,33,NULL,Established,Brookdale Senior Living,Eden,North Carolina,27288,30,0,0,0,0,6,0
+315 PARK RIDGE RD,Spring Arbor Albemarle,AL,NULL,NULL,45,NULL,Established,SPRING ARBOR MANAGEMENT,Albemarle,North Carolina,28001,39,0,0,0,0,12,38
+3150 BURKE MILL RD,The Southwood,AL,50,39,52,NULL,Established,ALG,Winston-Salem,North Carolina,27103,37,0,0,0,0,12,0
+3150 N 7TH ST,Majestic Terre Haute,SNF,104,70,26,155143,Established,Majestic Care,Terre Haute,Indiana,47804,26,0,0,0,0,0,0
+316 LOWER BRUSH CREEK RD,Becky's Rest Home,AL,30,20,18,NULL,Established,INDEPENDENT,Fletcher,North Carolina,28732,13,0,0,0,0,3,18
+317 ODDVILLE AVE B,Parkside Manor,AL,NULL,NULL,46,NULL,Established,ELDERCARE PARTNERS,Cynthiana,Kentucky,41031,45,0,0,0,0,1,0
+318 E MAIN ST,Maple Grove,SNFMD,NULL,NULL,54,495365,Established,Kissito Healthcare,LEBANON,Virginia,24266,42,0,0,0,0,5,0
+31869 CHICAGO TRL,Hamilton Grove ALF,AL,133,30,25,155672,Established,STORYPOINT,New Carlisle,Indiana,46552,23,0,0,0,0,4,0
+31869 CHICAGO TRL,Hamilton Grove SNF,SNFMD,85,59,48,155672,Established,Woodlawn Hospital,New Carlisle,Indiana,46552,39,0,0,0,0,3,0
+3197 SOUTHWEST BLVD,Ashford of Grove City,AL,NULL,NULL,26,NULL,Established,WALLICK SENIOR LIVING,Grove City,Ohio,43123,25,0,0,0,0,0,0
+3199 SWEETEN CREEK RD,Arbor Terrace of Asheville AL,AL,NULL,NULL,58,NULL,Established,INDEPENDENT,Asheville,North Carolina,28803,58,0,0,0,0,4,34
+3199 SWEETEN CREEK RD,Arbor Terrace of Asheville MC,MC,70,17,3,NULL,Established,Arbor Company,Asheville,North Carolina,28803,2,0,0,0,0,0,3
+320 BROUGHTON ST,Hampton Manor,AL,NULL,NULL,76,NULL,Established,ALG,Gaston,North Carolina,27832,72,0,0,0,0,19,0
+3203 E MOORES PIKE,Cedar Creek Memory Care,MC,66,38,28,NULL,Established,CEDARHURST SENOR LIVING,BLOOMINGTON,Indiana,47401,22,0,0,0,0,2,0
+3210 WESTERN BLVD,The Bridges of Hendricks Creek,AL,71,54,53,NULL,Established,ALG,Tarboro,North Carolina,27886,51,0,0,0,0,6,0
+322 NUWAY CIR,Lenoir Healthcare,SNF,NULL,NULL,82,345138,Established,MFA,Lenoir,North Carolina,28645,76,0,0,0,0,1,0
+3223 CENTRAL AVE,Peak Resources Charlotte,SNF,NULL,NULL,129,345013,Established,PEAK RESOURCES,Charlotte,North Carolina,28205,112,0,0,0,0,0,116
+"323 WEBSTER AVE, CYNTHIANA, KY 41031",Edgemont Healthcare,SNF,68,68,66,185389,Established,Edgemont,Cynthiana,Kentucky,41031,66,0,0,0,0,0,0
+324 KING GEORGE AVE SW,Old Southwest Health and Rehabilitation,SNF,NULL,NULL,45,495156,Established,Eastern Healthcare Group,ROANOKE,Virginia,24016,30,0,0,0,0,0,0
+326 COUNTRY CLUB DR,Lincoln Hills Health Center of New Albany,SNF,NULL,NULL,65,155614,Established,CARDON & ASSOCIATES,NEW ALBANY,Indiana,47150,54,0,0,0,0,0,0
+327 FREEMAN ST,Montgomery Senior Living,AL,NULL,NULL,42,NULL,Established,VICTORIAN SENIOR CARE,Star,North Carolina,27356,40,0,0,0,0,2,0
+329 COOPER ST,Wellington Park,AL,NULL,NULL,16,NULL,Established,INDEPENDENT,Kenansville,North Carolina,28349,16,0,0,0,0,5,0
+330 JUNIPER ST,The Berkeley,AL/MC,63,57,22,NULL,Established,ALG,Morganton,North Carolina,28655,22,0,0,0,0,0,0
+"3300 POPLAR ST, TERRE HAUTE, IN 47803",Majestic Care of Deming Park,SNF,86,80,46,155358,Established,Majetic Care,Terre Haute,Indiana,47803,46,0,0,0,0,0,0
+3304 MONROE ST,Trustwell Living at Settlers Place,AL/Clinic,47,42,23,NULL,Established,BHI SENIOR LIVING,LAPORTE,Indiana,46350,23,0,0,0,0,2,0
+3304 RHODES AVE,Heritage Point Assisted Living,AL,11,6,29,NULL,Established,HERITAGE SENIOR LIVING,New Boston,Ohio,45662,28,0,0,0,0,4,0
+3315 FAITH CHURCH RD,Lake Park Nursing and Rehabilitation Center,SNF,NULL,NULL,69,345502,Established,PRINCIPLE,Indian Trail,North Carolina,28079,59,0,0,0,0,0,57
+3322 VILLAGE RD,The Lodge at Rocky Mount Health & Rehab,SNF,NULL,NULL,99,345137,Established,SANSTONE,Rocky Mount,North Carolina,27804,91,0,0,0,0,6,0
+333 E LEE ST,Willowbrook Rehabilitation and Care Center,SNF,NULL,NULL,48,345466,Established,Avardis,Yadkinville,North Carolina,27055,41,0,0,0,0,1,0
+336 S RHODES AVE,Windsor House,AL,NULL,NULL,43,NULL,Established,ALG,Windsor,North Carolina,27983,40,0,0,0,0,4,0
+3362 BUCKLAND SQ,Morning Pointe Owensboro,AL,0,23,20,NULL,Established,MORNING POINTE SENIOR LIVING,Owensboro,Kentucky,42301,17,0,0,0,0,0,0
+3363 RAGGED RIDGE RD,Embassy of Valley View,SNFMD,NULL,NULL,42,366075,Established,EMBASSY HEALTHCARE,Frankfort,Ohio,45628,41,0,0,0,0,7,0
+3365 OGDEN RD,"Woodland Hills Independent Living, AL & MC",AL/MC/IL,130,80,30,NULL,Established,RUI,Roanoke,Virginia,24018,22,0,0,0,0,0,0
+337 HOSPITAL STREE,Mocksville Senior Living and Memory Care,AL,NULL,NULL,34,NULL,Established,ALG,Mocksville,North Carolina,27028,32,0,0,0,0,5,0
+339 WESTMINISTER DR,Shenandoah Nursing and Rehab - SNF,SNFMD,NULL,NULL,85,495262,Established,Saber Healthcare Group,FISHERSVILLE,Virginia,22939,80,0,0,0,0,22,0
+34 MCDANIEL DR,Onslow House,AL,120,41,15,NULL,Established,ALG,Jacksonville,North Carolina,28546,15,0,0,0,0,3,0
+340 E 18TH ST,Hickory Creek at Rochester,SNF,36,30,24,155430,Established,American Senior Communities,Rochester,Indiana,46975,20,0,0,0,0,2,0
+340 SNOWHILL DR,Colonial Long Term Care Facility,AL,54,36,8,NULL,Established,INDEPENDENT,Mt. Airy,North Carolina,27030,8,0,0,0,0,0,0
+340 SNOWHILL DR,COLONIAL CARE-ALF,AL,NULL,NULL,32,NULL,Established,INDEPENDENT,MOUNT AIRY,North Carolina,27030,22,0,0,0,0,8,0
+3400 S POINT DR,ENGLISH MEADOWS-BLACKSBURG ALF,AL,NULL,NULL,40,NULL,Established,Twenty/20 Management,BLACKSBURG,Virginia,24060,1,0,0,0,0,2,0
+3400 STOCKER DR,River Bend Nursing and Rehab,SNF,NULL,NULL,35,155621,Established,PRIORITY,Evansville,Indiana,47720,35,0,0,0,0,0,0
+3400 W COMMUNITY DR,Bethel Pointe Health & Rehab,SNFMD,NULL,NULL,115,155546,Established,TLC Management,MUNCIE,Indiana,47304,103,0,0,0,0,26,0
+3420 E STATE BLVD,Celebrate Senior Living of Fort Wayne,AL,NULL,NULL,35,155255,Established,MAJOR HOSPITAL,Fort Wayne,Indiana,46805,27,0,0,0,0,0,0
+3420 WAKE FOREST HWY,Durham Ridge,MC,NULL,NULL,110,NULL,Established,JANET MOOSE,Durham,North Carolina,27703,101,0,0,0,0,17,83
+343 S NAPPANEE ST,Woodland Manor Nursing and Rehabilitation,SNFMD,80,65,69,155086,Established,INDEPENDENT,Elkhart,Indiana,46514,62,0,0,0,0,7,0
+3430 LESTER ST,Heritage Care of Conover,AL,NULL,NULL,27,NULL,Established,HERITAGE POINTE COMMUNITIES,Conover,North Carolina,28613,3,0,0,0,0,0,0
+3485 US HIGHWAY 301 N,Johnson Better Care,AL,NULL,NULL,33,NULL,Established,INDEPENDENT,DUNN,North Carolina,28335,29,0,0,0,0,8,1
+350 KINGS WAY RD,King's Grant ALF,AL/SNF/NF,220,190,11,495408,Established,Sunnyside Communities,Martinsville,Virginia,24112,10,0,0,0,0,0,0
+350 KINGS WAY RD,King's Grant SNF,AL/SNF/NF,220,190,10,495408,Established,Sunnyside Communities,Martinsville,Virginia,24112,8,0,0,0,0,0,0
+350 KINGS WAY RD,King's Grant ILF,AL/SNF/NF,220,190,1,495408,Established,Sunnyside Communities,Martinsville,Virginia,24112,0,0,0,0,0,0,0
+350 SCHOOL DR,Taylorsville House,AL,60,39,15,NULL,Established,ALG,Taylorsville,North Carolina,28681,15,0,0,0,0,0,0
+3500 MAPLE AVE,Signature HealthCARE of Terre Haute,SNF,176,126,122,NULL,Established,Signature,Terre Haute,Indiana,47804,120,0,0,0,0,44,0
+"3500 TRILLIUM CROSSING, COLUMBUS, OH 43235",Brookdale Trillium Crossing,AL/MC/IL,70,60,59,NULL,Established,Brookdale Senior Living,Columbus,Ohio,43235,54,21,0,0,0,8,0
+3503 MOYERS CIR,Sam Swope Care Center,SNF,138,131,62,185388,Established,MASONIC HOMES OF KENTUCKY INC,Louisville,Kentucky,40041,62,0,0,0,0,0,0
+3504 FLINT ST,Abbotswood at Irving Park IN,IL,176,176,27,NULL,Established,Kisco Senior Living,Greensboro,North Carolina,27405,25,25,0,0,0,0,0
+3506 FLINT ST,Verra Springs at Abbotswood,AL,NULL,NULL,9,NULL,Established,KISCO SENIOR LIVING,Greensboro,North Carolina,27405,9,0,0,0,0,1,0
+3508 FLINT ST,Elms at Abbotswood,MC,NULL,NULL,32,NULL,Established,Kisco Senior Living,Greensboro,North Carolina,27405,31,0,0,0,0,0,0
+351 N ALLEN CHAPEL RD,The Village at Kendallville,SNF,99,79,81,NULL,Established,Lutheran Life Villages,Kendallville,Indiana,46755,80,0,0,0,0,0,0
+351 NEW MARKET RD,TIMBERVIEW CROSSING (ALF),AL,NULL,NULL,38,NULL,Established,"Seniors Crossing, Inc.",TIMBERVILLE,Virginia,22853,31,0,0,0,0,2,0
+3510 W HWY 74,Pruitt Health- Union Pointe,SNFMD,NULL,NULL,89,345566,Established,PRUITT HEALTH,Monroe,North Carolina,28110,64,0,0,0,0,18,42
+3514 SIDNEY RD,Seven Oaks Rehabilitation & Healthcare Center,AL,108,88,74,NULL,Established,YAD,Columbia,South Carolina,29210,73,0,0,0,0,0,0
+3518 SHELBY ST,Bethany Village,AL/MC,NULL,NULL,34,155237,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46227,34,0,0,0,0,0,0
+352 PELHAM RD,Hilltop of Greenville Memory Care,MC,54,51,20,NULL,Established,American Health Managment Group,Greenville,South Carolina,29615,20,0,0,0,0,1,0
+3522 CAMDEN RD,Pine Valley Adult Care Home,AL,NULL,NULL,15,NULL,Established,FOREST HILL FAMILY CARE,Fayetteville,North Carolina,28306,15,0,0,0,0,3,0
+3526 DUTCHAMNS LN,Seneca Place,SNF,130,115,151,185456,Established,Majestic Care,Louisville,Kentucky,40205,135,0,0,0,0,13,0
+3550 CENTRAL AVE,Willow Crossing,SNF,NULL,NULL,76,155535,Established,DR. RAYMONG INGHAM,COLUMBUS,Indiana,47203,65,0,0,0,0,0,0
+3575 SENIOR PL,West Lafayette Assisted Living,AL,NULL,NULL,12,NULL,Established,WICKSHIRE WEST LAFAYETTE OPCO LLC,W LAFAYETTE,Indiana,47906,12,0,0,0,0,0,0
+358 CLEAR CREEK RD,Cherry Springs Village,AL,NULL,NULL,42,NULL,Established,ALG,Hendersonville,North Carolina,28792,41,0,0,0,0,15,41
+3585 BRAMBLETON AVE,Cardinal Senior Living Roanoke,AL,NULL,NULL,58,NULL,Established,Cardinal,ROANOKE,Virginia,24018,53,0,0,0,0,6,0
+36 VILLAGE DR,Shady Nook Care Center,SNF,NULL,NULL,89,155525,Established,PRIORITY,lawrenceburg,Indiana,47025,86,0,0,0,0,21,0
+360 OLD BALSAM RD,Autumn Care of Waynesville,SNFMD,NULL,NULL,97,345110,Established,SABER HEALTHCARE GROUP,Waynesville,North Carolina,28786,83,0,0,0,0,29,81
+3607 STONE SPRING RD,English Meadows at Preston Lake,AL,NULL,NULL,57,NULL,Established,English Meadows,HARRISONBURG,Virginia,22801,45,0,0,0,0,1,0
+3609 BOND STREE,Tower Nursing and Rehabilitation Center,SNF,NULL,NULL,61,345513,Established,PRINCIPLE,Raleigh,North Carolina,27604,56,0,0,0,0,1,0
+3610 S MAIN ST,931 Heritage Hall Blacksburg,SNF,NULL,NULL,152,495356,Established,AMERICAN HEALTHCARE LLC,BLACKSBURG,Virginia,24060,48,0,0,0,0,2,0
+3619 S MEBANE ST,Brookdale Burlington AL,AL,70,43,42,NULL,Established,Brookdale Senior Living,Burlington,North Carolina,27215,37,0,0,0,0,7,0
+3619 S MEBANE ST,Brookdale Burlington MC,MC,70,38,32,NULL,Established,Brookdale Senior Living,Burlington,North Carolina,27215,31,0,0,0,0,3,0
+3625 WILLARD FARROW DR,Aldersgate Retirement Community - Asbury,SNF,NULL,NULL,46,345544,Established,LIFE PLAN COMMUNITY,Charlotte,North Carolina,28215,20,0,0,0,0,0,44
+3627 HARVEY AVE,Maple Grove,SNF,NULL,NULL,82,366150,Established,Saber Healthcare Group,CINCINNATI,Ohio,45229,64,0,0,0,0,0,0
+363 S FIELDSTONE BLVD,Stonecroft Campus AL,AL,114,75,31,155838,Established,Trilogy,BLOOMINGTON,Indiana,47403,28,0,0,0,0,4,0
+363 S FIELDSTONE BLVD,Stonecroft Campus SNF,AL/SNF MD,114,75,53,155838,Established,Trilogy,BLOOMINGTON,Indiana,47403,48,0,0,0,0,4,0
+3630 HICKORY RD,Silver Birch of Mishawaka,AL,NULL,NULL,49,NULL,Established,SILVER BIRCH,Mishawaka,Indiana,46545,45,0,0,0,0,2,0
+36759 ROCKSPRINGS RD,Arbors at Pomeroy,AL,95,89,66,365450,Established,ARBORS,Pomeroy,Ohio,45769,66,0,0,0,0,0,0
+3680 DOLSON CT,Arbors at Carroll,SNF,99,93,49,365474,Established,ARBORS,Carroll,Ohio,43112,48,0,0,0,0,0,0
+3700 ENGLEWOOD DR,The Pavilion at Stow Assisted Living,AL,160,87,28,NULL,Established,Pavilion Healthcare,Stow,Ohio,44224,28,0,0,0,0,0,0
+"3700 ENGLEWOOD DR, STOW, OH 44224",The Pavilion at Stow for Nursing and Rehabilitatio,SNF,51,45,36,365858,Established,Pavilion Healthcare,Stow,Ohio,44224,35,0,0,0,0,0,0
+3700 STURBRIDGE CT,Ashford at Sturbridge,AL,NULL,NULL,13,NULL,Established,WALLICK SENIOR LIVING,Hilliard,Ohio,43026,13,0,0,0,0,0,0
+3700 TAYLOR GLEN LN,Taylor Glen,CCRC,24 ; 24,37,17,NULL,Established,STORYPOINT,Concord,North Carolina,North Carolina,17,0,0,0,0,1,0
+3710 KENNETH SIMPSON LN,White River Lodge,SNF,NULL,NULL,32,155631,Established,RUSH MEMORIAL,BEDFORD,Indiana,47421,25,0,0,0,0,9,0
+3724 WIRELESS DR,Blumenthal Nursing and Rehab,SNF,NULL,NULL,59,345006,Established,MFA,Greensboro,North Carolina,27455,51,0,0,0,0,0,0
+375 GLENN AVE,Cedarvale Commons Rehabilitation and Healthcare Ce,SNFMD,NULL,NULL,82,365679,Established,SIGNATURE HEALTH,Washington Court House,Ohio,43160,69,0,0,0,0,21,0
+375 LIBERTY PL,Brookdale Bristol,AL,125,80,24,NULL,Established,Brookdale Senior Living,Bristol,Virginia,24201,19,0,0,0,0,0,0
+375 S 11TH ST,Clinton Gardens,SNF,100,69,56,155319,Established,American Senior Communities,clinton,Indiana,47842,54,0,0,0,0,0,0
+3750 HARPER RD,Trinity Elms ALF,AL,104,90,77,NULL,Established,Lutheran Services Carolina,Clemmons,North Carolina,27012,74,0,0,0,0,0,0
+379 N MAIN ST,Living Waters - ALF,AL,NULL,NULL,26,NULL,Established,INDEPENDENT,Timberville,Virginia,22853,25,0,0,0,0,1,0
+380 BREVARD RD,Aston Park - ALF,AL,120 SNF ; 19 ALF,110 ; 13,16,155586,Established,Lutheran Services Carolinas,Asheville,North Carolina,28806,14,0,0,0,0,6,1
+380 BREVARD RD,Aston Park - SNF,SNF,120 SNF ; 19 ALF,110 ; 13,119,155586,Established,Lutheran Services Carolinas,Asheville,North Carolina,28806,114,0,0,0,0,29,0
+380 COUNTRY DAY RD,Brookdale Country Day Road,AL,NULL,NULL,42,NULL,Established,BROOKDALE SENIOR LIVING,Goldsboro,North Carolina,27530,39,0,0,0,0,2,0
+3800 ELI PL,Hamilton Pointe Health and Rehab - AL,AL,NULL,NULL,25,155803,Established,RIVERVIEW HOSPITAL,Newburgh,Indiana,47630,19,0,0,0,0,3,0
+3800 ELI PL,Hamilton Pointe Health and Rehab - SNF,SNF,NULL,NULL,73,155803,Established,RIVERVIEW HOSPITAL,Newburgh,Indiana,47630,65,0,0,0,0,12,0
+3800 ELI PL,Hamilton Pointe Health and Rehab - MC,SNF,201 (AL-20),151,6,155803,Established,TLC Management,Newburgh,Indiana,47630,6,0,0,0,0,0,0
+3801 E GALBRAITH RD,Deer Park Assisted Living,AL,178,127,23,NULL,Established,Burgess Miller Ventures,Cincinnati,Ohio,45236,21,0,0,0,0,0,0
+3801 WOODRIDGE BLVD,Fairfield Care Community,SNFMD,100,63,33,365738,Established,LIONSTONE CARE,Fairfield,Ohio,45014,29,0,0,0,0,11,0
+"3801 WOODRIDGE BLVD, FAIRFIELD, OH 45014",Fairfield Care Community ALF,AL,150,107,39,NULL,Established,LIONSTONE CARE,Fairfield,Ohio,45014,33,0,0,0,0,3,0
+3802 KLONDIKE LN,Klondike Center,SNFMD,NULL,NULL,62,185333,Established,Bluegrass/Encore,Louisville,Kentucky,40218,55,0,0,0,0,1,0
+3806 KATHY RD,McAlpine Adult Care,AL,NULL,NULL,46,NULL,Established,INDEPENDENT,Morgonton,North Carolina,28655,22,0,0,0,0,0,0
+3811 PARNELL AVE,Glenbrook Rehab,SNF,NULL,NULL,52,155176,Established,AMERICAN SENIOR COMMUNITIES,Fort Wayne,Indiana,46805,52,0,0,0,0,14,0
+3823 FRANKLIN RD SW,822 South Roanoke Nursing Home,SNFMD,NULL,NULL,96,495002,Established,AHC,ROANOKE,Virginia,24014,86,0,0,0,0,32,0
+3830 BLUE RIDGE ROA,Hillcrest Raleigh at Crabtree Valley,SNF,NULL,NULL,58,345555,Established,HILLCREST,Raleigh,North Carolina,27612,43,0,0,0,0,0,0
+3830 N MAIN ST,Forsyth Senior Estates & Rehabilitation,AL,100,16,13,NULL,Established,INDEPENDENT,High Point,North Carolina,27265,10,0,0,0,0,0,0
+3837 BRANDON AVE SW,BRANDON OAKS NURSING AND REHABILITATION CENTER ALF,AL,80,37,29,NULL,Established,Virginia Lutheran Homes,ROANOKE,Virginia,24018,22,0,0,0,0,7,0
+3837 BRANDON AVE SW,BRANDON OAKS INTENSIVE-MEMORY CARE,AL/MC,43,24,15,495373,Established,Virginia Lutheran Homes,ROANOKE,Virginia,24018,11,0,0,0,0,2,0
+3837 BRANDON AVE SW,Brandon Oaks Nursing and Rehabilitation Center SNF,SNFMD,62,57,69,155586,Established,Virginia Lutheran Homes,ROANOKE,Virginia,24018,61,0,0,0,0,16,0
+3851 HOWARD GAP RD,TerraBella Hendersonville,AL/MC,96,63,24,NULL,Established,TERRABELLA SENIOR LIVING,Hendersonville,North Carolina,28792,20,0,0,0,0,0,12
+3854 PARK OVERLOOK DR,Beavercreek Health and Rehab,SNFMD,90,80,61,366400,Established,Pavilion Healthcare,Beavercreek,Ohio,45431,49,0,0,0,0,26,0
+3855 HAUCK RD,Silverfern Senior Living,AL,150,New Build,4,NULL,Established,Aspire,Cincinnati,Ohio,45241,3,0,0,0,0,0,0
+3896 N ELM ST,Brookstone Terrace of Greensboro AL,AL,NULL,NULL,26,NULL,Established,TERRABELLA SENIOR LIVING,Greensboro,North Carolina,27455,21,0,0,0,0,5,0
+3896 N ELM ST,Brookstone Terrace of Greensboro MC,MC,NULL,0,18,NULL,Established,TERRABELLA SENIOR LIVING,Greensboro,North Carolina,27455,16,0,0,0,0,2,0
+39 MELODY ROSE LN,Mount Moriah Assisted Living,AL,NULL,NULL,18,NULL,Established,LIVING WATERS ENTERPRISES,Asheville,North Carolina,28804,12,0,0,0,0,4,0
+390 HARDIN RD,Southern Manor,AL,NULL,NULL,21,NULL,Established,INDEPENDENT,Forest City,North Carolina,28043,18,0,0,0,0,1,0
+3900 WEXFORD LN,Wexford House,AL,NULL,NULL,55,NULL,Established,ALG,Denver,North Carolina,28037,49,0,0,0,0,8,2
+3907 CARATOKE HW,Currituck Health & Rehabilitation,SNF,100,35,39,345289,Established,SABER HEALTHCARE GROUP,Barco,North Carolina,27917,39,0,0,0,0,6,0
+391 CLARK DR,Pickaway Manor Care,SNF,NULL,NULL,57,365556,Established,AOM HC,CIRCLEVILLE,Ohio,43113,54,0,0,0,0,0,0
+393 FRONT ST,TOWN CREEK - ALF,AL,NULL,NULL,50,NULL,Established,Region Ten,LOVINGSTON,Virginia,22949,50,0,0,0,0,0,0
+3935 SUNNYSIDE DR,Sunnyside ALF,AL,NULL,NULL,70,NULL,Established,Sunnyside Communities,HARRISONBURG,Virginia,22801-2315,62,0,0,0,0,6,0
+3935 SUNNYSIDE DR,Sunnyside ILF,IL,NULL,NULL,91,NULL,Established,Sunnyside Communities,HARRISONBURG,Virginia,22801,82,84,0,0,0,2,0
+3935 SUNNYSIDE DR,Sunnyside SNF,SNFMD,NULL,NULL,69,495387,Established,Sunnyside Communities,HARRISONBURG,Virginia,22801-2315,63,0,0,0,0,18,0
+4 WALDEN RIDGE DR,Brookdale Asheville Walden Ridge,AL,38,36,26,NULL,Established,Brookdale Senior Living,Asheville,North Carolina,28803,26,0,0,0,0,2,23
+40 RAWLS CLUB RD,The Springs of Ballentine,AL,50,3,38,NULL,Established,ALG,Fuquay-Varina,North Carolina,27526,37,0,0,0,0,5,0
+400 MOFFAT RD,Cheraw Post Acute,SNF,120,107,73,425005,Established,CHERAW HEALTHCARE INC,Cheraw,South Carolina,29520,31,0,0,0,0,0,0
+400 S INDEPENDENCE AVE,GRAYSON-SNF/NF,SNFMD,NULL,NULL,121,495331,Established,Avardis,INDEPENDENCE,Virginia,24348,118,0,0,0,0,59,0
+4000 LAKEVIEW CROSSING,Brookdale Lakeview Crossing,AL,99,TBD,44,NULL,Established,Brookdale,Groveport,Ohio,43125,41,0,0,0,0,0,0
+4009 SELIGMAN DR,Spring Arbor Senior Living of Florence,AL,NULL,NULL,39,NULL,Established,DOMNION SENIOR LIVING,FLORENCE,Kentucky,41042,33,0,0,0,0,4,0
+401 E 20TH ST,The Pavilion at Kenton,SNFMD,82,80,80,185038,Established,Pavilion Healthcare,Covington,Kentucky,41014,72,0,0,0,0,31,0
+401 LAMBERT RD,Autumn Care of Biscoe,SNF,NULL,NULL,36,345000,Established,SABER HEALTHCARE GROUP,Biscoe,North Carolina,27209,22,0,0,0,0,0,0
+401 N SECOND ST,Rose Terrace Lodge,AL,NULL,NULL,38,NULL,Established,HEALTH SYSTEMS OF KENTUCKY,Nicholasville,Kentucky,40356,37,0,0,0,0,4,0
+401 W ACADEMY ST,Somerset Court of Cherryville,AL,NULL,NULL,58,NULL,Established,ALG,Cherryville,North Carolina,28021,41,0,0,0,0,0,0
+401 W AIRPORT HWY,Swanton Valley Rehab and HCR Center,AL,NULL,NULL,51,365745,Established,CROWN SENIOR LIVING,Swanton,Ohio,43558,49,0,0,0,0,0,0
+402 LIBERTY WAY,Otterbein Gahanna,SNF,NULL,60,NULL,NULL,Established,,,,Ohio,8,0,18,0,0,0,0
+4025 N SHARON AMITY RD,Parc at Sharon Amity,AL,NULL,NULL,30,NULL,Established,ALG,Charlotte,North Carolina,28205,0,0,0,0,0,1,0
+4026 S NC HIGHWAY 11,Dayspring Of Wallace,AL,NULL,NULL,36,NULL,Established,ALG,Wallace,North Carolina,28466,32,0,0,0,0,7,0
+403 BIELBY RD,Envive of Lawrenceburg,SNFMD,NULL,NULL,63,155061,Established,ENVIVE,lawrenceburg,Indiana,47025,59,0,0,0,0,28,0
+403 CRESTVIEW AVE SW,Wilson Pines Nursing and Rehabilitation Center,SNFMD,NULL,NULL,115,345372,Established,PRINCIPLE,Wilson,North Carolina,27893,87,0,0,0,0,22,0
+4030 CARDINAL AT N HILLS ST,The Cardinal at North Hills AL,AL,NULL,NULL,32,NULL,Established,KISCO SENIOR LIVING,Raleigh,North Carolina,27609,29,0,0,0,0,5,0
+4030 CARDINAL AT N HILLS ST,The Cardinal at North Hills IN,IL,NULL,0,48,NULL,Established,Kisco Senior Living,Raleigh,North Carolina,27609,36,43,0,0,0,5,0
+4030 CARDINAL AT N HILLS ST,The Cardinal at North Hills MC,MC,18,16,8,NULL,Established,Kisco Senior Living,Raleigh,North Carolina,27609,8,0,0,0,0,1,0
+4030 CARDINAL AT N HILLS ST,The Cardinal at North Hills,SNF,15,9,0,NULL,Established,Kisco,Raleigh,North Carolina,27609,0,0,0,0,0,0,0
+404 N WASHINGTON ST,Clinton County Care and Rehab,SNF,NULL,NULL,35,185315,Established,SIGNATURE HEALTH,ALBANY,Kentucky,42602,31,0,0,0,0,0,0
+405 GREENE ST,Anson Health and Rehabilitation,SNFMD,NULL,NULL,75,345051,Established,SANSTONE,Wadesboro,North Carolina,28170,56,0,0,0,0,25,59
+405 N PARK AVE,Edgewood Manor of Wellston,SNFMD,NULL,NULL,40,365939,Established,AOM HEALTHCARE SOLUTIONS,Wellston,Ohio,45692,38,0,0,0,0,18,0
+405 RIO VISTA LN,The Waters of Rising Sun,SNF,NULL,NULL,41,155483,Established,INFINITY HEALTHCARE CONSULTING,RISING SUN,Indiana,47040,39,0,0,0,0,0,0
+"405 SM ROBERSON DR, S SHORE, KY 41175",South Shore Nursing and Rehabilitation,SNF,60,50,43,185282,Established,Majestic Care,South Shore,Kentucky,41175,42,0,0,0,0,0,0
+405 SMITH LEVEL RD,Stratford AL,AL,80,64,0,NULL,Established,ALG,Chapel Hill,North Carolina,27516,0,0,0,0,0,0,0
+405 SMITH LEVEL RD,Stratford AL/MC,MC,NULL,24,53,NULL,Established,ALG,Chapel Hill,North Carolina,27516,47,0,0,0,0,22,39
+406 WYOMING RD,Ridgeway Nursing and Rehab,SNF,NULL,NULL,73,185254,Established,Bluegrass/Encore,OWINGSVILLE,Kentucky,40360,67,0,0,0,0,0,0
+407 LOFTIN LN S,Ahoskie House,AL,60,58,29,NULL,Established,ALG,Ahoskie,North Carolina,27910,28,0,0,0,0,0,0
+409 HARRISON ST,Integrity Patriot Living,AL,NULL,NULL,46,NULL,Established,INTEGRITY SENIOR LIVING,Yadkinville,North Carolina,27055,34,0,0,0,0,9,0
+410 S JUDD PKWY SE,Fuquay Varina Health and Rehab Center,SNF,NULL,NULL,37,345561,Established,MFA,FUQUAY VARINA,North Carolina,27526,33,0,0,0,0,0,0
+410 W LAGRANGE RD,Aperion Care Hanover ALF,AL/SNF,NULL,NULL,6,155208,Established,CHOSEN,HANOVER,Indiana,47243,5,0,0,0,0,3,0
+410 W LAGRANGE RD,Aperion Care Hanover SNF,AL/SNF,NULL,NULL,71,155208,Established,CHOSEN,HANOVER,Indiana,47243,64,0,0,0,0,23,0
+411 BERTHA WALLACE DR,Irvine Nursing and Rehabilitation Center,SNF,NULL,NULL,59,185339,Established,TOPAZ HEALTHCARE,Irvine,Kentucky,40336,50,0,0,0,0,0,0
+411 N WOLF RD,Miller's - Oak Pointe,AL/SNF MD,82,48,55,155128,Established,MILLERS MERRY MANOR,COLUMBIA CITY,Indiana,46725,52,0,0,0,0,6,0
+411 S LASALLE ST,Durham Nursing & Rehab Center,SNF,NULL,NULL,49,345070,Established,Maximus Healthcare Group,Durham,North Carolina,27705,48,0,0,0,0,0,0
+411 WINDMILL ST,Walnut Ridge Assisted Living & Memory Care,AL,63,57,48,NULL,Established,Navion,Walnut Cove,North Carolina,27052,41,0,0,0,0,9,0
+4111 PARK PL DR,Ashton Creek Health & Rehab Center,SNF,NULL,NULL,97,155798,Established,TLC Management,Fort Wayne,Indiana,46845,91,0,0,0,0,17,0
+4124 PECAN DR,Cardinal Care Hope Mills,AL,NULL,NULL,25,NULL,Established,JOEY CANNON,HOPE MILLS,North Carolina,28348,18,0,0,0,0,0,0
+413 N MAIN ST,Memory Care of the Triad,AL,NULL,NULL,39,NULL,Established,"BRADFORD VILLAGE OF KERNERSVILLE EAST, LLC",Kernersville,North Carolina,27284,31,0,0,0,0,0,0
+413 WINECOFF SCHOOL RD,Five Oaks Manor,SNFMD,NULL,NULL,162,345186,Established,VENZA,Concord,North Carolina,28027,137,0,0,0,0,39,144
+414 ROBEY ST,Franklin-Simpson Nursing and Rehab,SNF,98,98,62,185331,Established,TOPAZ HEALTHCARE,Franklin,Kentucky,42134,59,0,0,0,0,0,0
+4143 HAYWOOD RD,Landings of Mills River,AL/MC,NULL,NULL,52,NULL,Established,ALG,Mills River,North Carolina,28759,44,0,0,0,0,10,44
+416 N PARKER ST,Morning Star Assisted Living Elm City,AL,50,44,32,NULL,Established,Morningstar,Elm City,North Carolina,27822,28,0,0,0,0,5,0
+4166 SOMERVILLE RD,Woodland Country Manor,AL/SNF,60,51,48,366109,Established,INDEPENDENT,SOMERVILLE,Ohio,45064,47,0,0,0,0,0,0
+4175 STONERIDGE LN,Sunrise of Dublin,AL,n/a,75,0,NULL,Established,Sunrise,Dublin,Ohio,43017,0,0,0,0,0,0,0
+419 N SEMINARY ST,Madisonville Health and Rehab,SNF,NULL,NULL,58,185015,Established,CLEARVIEW,Madisonville,Kentucky,42431,54,0,0,0,0,0,0
+420 E GRUNDY AVE,Springfield Nursing and Rehabilitation,SNF,NULL,NULL,63,185336,Established,TOPAZ HEALTHCARE,SPRINGFIELD,Kentucky,40069,36,0,0,0,0,0,0
+420 JETT DR,Breathitt Health & Rehabilitation,SNF,NULL,NULL,55,185112,Established,INFINITY HEALTHCARE CONSULTING,JACKSON,Kentucky,41339,54,0,0,0,0,0,0
+421 MISSION LN,Momentous Health at Franklin,SNF,79,65,48,365595,Established,Momentus Health,Franklin,Ohio,45005,46,0,0,0,0,0,0
+4217 ELK RD,Hope Mills Retirement Center,AL,64,33,33,NULL,Established,Alpha Health Services,Hope Mills,North Carolina,28348,32,0,0,0,0,8,0
+425 CHINWORTH CT,Cedar Creek of Warsaw,AL,NULL,NULL,14,NULL,Established,CEDARHURST SENOR LIVING,WARSAW,Indiana,46580,13,0,0,0,0,0,0
+425 LAURICELLA CT,Englewood Health and Rehab,SNFMD,116,110,99,365088,Established,Pavilion Healthcare,Englewood,Ohio,45322,95,0,0,0,0,30,0
+4251 SARON DR,Highgrove at Tates Creek,AL,121,97,28,NULL,Established,Continental Senior Communities,Lexington,Kentucky,40515,24,0,0,0,0,0,0
+427 3RD AVE SE,Hickory Village,MC,NULL,NULL,44,NULL,Established,ALG,Hickory,North Carolina,28602,39,0,0,0,0,7,0
+429 W LINCOLN RD,Kokomo HCC,SNF/NF,NULL,NULL,39,155222,Established,Communicare,KOKOMO,Indiana,46902,36,0,0,0,0,0,0
+430 BROOKWOOD AVE NE,Cabarrus Health & Rehabilitation Center,SNFMD,NULL,NULL,118,345183,Established,MFA,Concord,North Carolina,28025,91,0,0,0,0,41,94
+430 W HEALTH CENTER DRIV,Peak Resources Outer Banks,SNF,NULL,NULL,60,345226,Established,PEAK RESOURCES,Nags Head,North Carolina,27959,55,0,0,0,0,0,0
+4300 CLEVELAND AVE,The Elms at Michigan City,AL,NULL,NULL,37,NULL,Established,RITTENHOUSE,MICHIGAN CITY,Indiana,0,35,0,0,0,0,1,0
+4300 W GOELLER BIVD,Traditions of Columbus,AL,130,21,29,NULL,Established,TRADITIONS,Columbus,Indiana,47201,28,0,0,0,0,0,0
+4307 BRIDGETOWN RD,Bridgetown Nursing,AL/SNF,NULL,NULL,36,365462,Established,COMMUNICARE,CINCINNATI,Ohio,45211,34,0,0,0,0,0,0
+431 JUNNY RD,Absolute Care,AL,NULL,NULL,30,NULL,Established,INDEPENDENT,Angier,North Carolina,27501,29,0,0,0,0,3,0
+432 HERMITAGE DR,Cardinal Senior Living Danville,AL,NULL,NULL,63,NULL,Established,Cardinal,DANVILLE,Virginia,24541,61,0,0,0,0,18,0
+433 FLOYD DR,Fairview Place Senior Living,AL,36,33,8,NULL,Established,HS of KY,Carrollton,Kentucky,41008,8,0,0,0,0,0,0
+435 HAMILTON BLVD,COMMONWEALTH SOUTH BOSTON-ALF,AL,NULL,NULL,39,NULL,Established,MCAP,SOUTH BOSTON,Virginia,24592,22,0,0,0,0,0,0
+4351 S MAIN ST,PruittHealth - Farmville,SNFMD,NULL,NULL,51,345384,Established,PRUITT HEALTH,Farmville,North Carolina,27828,48,0,0,0,0,14,2
+4355 PHEASANT RIDGE RD SW,Pheasant Ridge SNF/NF,SNFMD,NULL,NULL,89,495325,Established,Avardis Health,ROANOKE,Virginia,24014,67,0,0,0,0,18,0
+4360 BRECKSVILLE RD,Momentous Health at Richfield,SNF,72,46,52,365370,Established,Momentus Health,Richfield,Ohio,44286,51,0,0,0,0,0,0
+440 INGRAM DR,Village Care of King - SNF,SNFMD,NULL,NULL,108,345381,Established,SABER HEALTHCARE GROUP,KING,North Carolina,27021,71,0,0,0,0,30,0
+440 LAFAYETTE AVE,Scarlet Oaks Nursing and Rehab SNF,SNF,NULL,NULL,55,365978,Established,CCH HEALTHCARE,CINCINNATI,Ohio,45220,54,0,0,0,0,0,0
+440 SALEM CHURCH RD,TerraBella Lincolnton,AL/MC,NULL,NULL,50,NULL,Established,SENIOR LIFESTYLE,Lincolnton,North Carolina,28092,48,0,0,0,0,9,0
+4400 LAWNDALE DR,Brookdale Lawndale Park,AL,NULL,NULL,46,NULL,Established,BROOKDALE SENIOR LIVING,Greensboro,North Carolina,27455,42,0,0,0,0,7,0
+4402 LAWNDALE DR,Brookdale Lawndale Park Clairbridge,MC,22,18,17,NULL,Established,Brookdale Senior Living,Greensboro,North Carolina,27455,14,0,0,0,0,3,0
+4402 PHEASANT RIDGE RD,HARMONY ROANOKE - ALF,AL,NULL,NULL,47,NULL,Established,HARMONY SENOR SERVICES,Roanoke,Virginia,24014,28,0,0,0,0,5,0
+4402 PHEASANT RIDGE RD,HARMONY ROANOKE - IL,IL,NULL,NULL,23,NULL,Established,HARMONY SENOR SERVICES,ROANOKE,Virginia,24014,12,16,0,0,0,0,0
+"4402 PHEASANT RIDGE RD, MEMORY CARE",HARMONY ROANOKE - MEMORY CARE,MC,NULL,NULL,33,NULL,Established,HARMONY SENOR SERVICES,ROANOKE,Virginia,24014,24,0,0,0,0,2,0
+4414 WILKINSON BLVD,Juniper Gardens,SNF,NULL,NULL,28,345307,Established,IVY MANAGEMENT GROUP,Gastonia,North Carolina,28056,23,0,0,0,0,0,0
+4420 S AVE,CHS of Toledo,SNF,NULL,NULL,23,365488,Established,DIVINE,Toledo,Ohio,43615,22,0,0,0,0,0,0
+4430 CLINARD RD,Brookstone of Clemmons,AL/MC,NULL,NULL,22,NULL,Established,INDEPENDENT,Clemmons,North Carolina,27012,21,0,0,0,0,3,0
+4430 ELSDALE DR,Bethlehem Woods Nursing & Rehab,SNF,NULL,NULL,86,155679,Established,AMERICAN SENIOR COMMUNITIES,Fort Wayne,Indiana,46835,69,0,0,0,0,25,0
+4434 BEN FRANKLIN BLVD,Brookdale Durham,AL,NULL,NULL,48,NULL,Established,BROOKDALE SENIOR LIVING,Durham,North Carolina,27704,42,0,0,0,0,8,0
+4435 PHEASANT RIDGE RD,TerraBella Pheasant Ridge ALF,AL,NULL,NULL,38,495325,Established,TERRABELLA SENIOR LIVING,ROANOKE,Virginia,24014,20,0,0,0,0,0,0
+4438 PAMPLICO HWY,The Palms at Florence,SNF,163,151,103,425119,Established,INDEPENDENT,Florence,South Carolina,29505,99,0,0,0,0,0,0
+445 S COUNTY RD 525 E,Majestic Care of Avon,SNF,140,81,79,155338,Established,Majestic Care,Avon,Indiana,46123,79,0,0,0,0,0,0
+45 WOODFORD AVE,Fern Terrace Owensboro,AL,NULL,NULL,49,NULL,Established,"FERN TERRACE OF OWENSBORO, LLC",OWENSBORO,Kentucky,42301,45,0,0,0,0,4,0
+4522 OLD CHERRY POINT RD,The Indigo at New Bern,AL/MC,72,48,37,NULL,Established,Jaybird Senior Living,NEW BERN,North Carolina,28560,29,0,0,0,0,5,0
+4523 HOPE VALLEY RD,Carolina Reserve of Durham AL,AL,NULL,NULL,28,NULL,Established,NAVION,Durham,North Carolina,27707,26,0,0,0,0,2,27
+4523 HOPE VALLEY RD,Carolina Reserve of Durham MC,MC,15,10,7,NULL,Established,Navion,Durham,North Carolina,27707,6,0,0,0,0,0,5
+455 VICTORIA RD,StoneCreek Health & Rehab,SNF,120,93,53,345204,Established,SANSTONE,Asheville,North Carolina,28801,53,0,0,0,0,0,0
+4580 E GALBRAITH RD,Belles Place of Kenwood,AL,60,21,18,NULL,Established,Promedica,Kenwood,Ohio,45424,18,0,0,0,0,0,0
+460 FORKS OF THE WABASH WAY,Tipton Place,AL,150,91,19,NULL,Established,STORYPOINT,HUNTINGTON,Indiana,46750,18,0,0,0,0,1,0
+460 S COLLEGE ST,Hopkins Center,SNF,NULL,NULL,34,185167,Established,Bluegrass/Encore,Woodburn,Kentucky,42170,24,0,0,0,0,0,0
+4600 CUMBERLAND RD,Carolina Rehab Center of Cumberland,SNF,136,NULL,59,345505,Established,MFA,Fayetteville,North Carolina,28306,55,0,0,0,0,0,0
+4600 W WASHINGTON ST,West Bend Nursing and Rehabilitation,SNF,157,51,67,155355,Established,American Senior Communities,South Bend,Indiana,46619,62,0,0,0,0,22,0
+4620 WOODMAR DR,THE PARK OAK GROVE-ALF,AL,NULL,NULL,26,NULL,Established,TERRABELLA SENIOR LIVING,ROANOKE,Virginia,24018,9,0,0,0,0,3,0
+4656 W JEFFERSON BLVD,"Gerard, Coslow & Tielker-Sharpe Associates",Other,NULL,NULL,1,NULL,Established,INDEPENDENT,Fort Wayne,Indiana,46804,0,0,0,0,0,0,0
+467 W MAIN ST,KD Support Services,AL,NULL,NULL,103,NULL,Established,INDEPENDENT,Forest City,North Carolina,28043,97,0,0,0,0,6,0
+4700 QUINN DR,Signature Healthcare of Rockford,SNFMD,110,104,106,185311,Established,SIGNATURE HEALTH,Louisville,Kentucky,40216,1,0,0,0,0,0,0
+47045 MOORE RIDGE RD,Stellar Care Community ALF,AL,41,35,14,366448,Established,LIONSTONE CARE,Woodsfield,Ohio,43793,11,0,0,0,0,0,0
+47045 MOORE RIDGE RD,Stellar Care Community,SNFMD,41,35,36,5/5/2025 8:31,Established,LIONSTONE CARE,Woodsfield,Ohio,43793,30,0,0,0,0,2,0
+4711 S HURSTBORNE LN,Morning Pointe of Louisville at South Hurstborne,AL,70,55,36,NULL,Established,MORNING POINTE SENIOR LIVING,Louisville,Kentucky,40299,32,0,0,0,0,5,0
+4711 S HURSTBORNE PKWY,The Lantern at Morning Pointe Louisville S Hrstbrn,AL,44,16,29,NULL,Established,MORNING POINTE SENIOR LIVING,Louisville,Kentucky,40291,27,0,0,0,0,1,0
+4713 GARRETT RD,TerraBella Durham,AL/MC,NULL,NULL,20,NULL,Established,SENIOR LIFESTYLE,Durham,North Carolina,27707,14,0,0,0,0,2,1
+4748 OLDE PUMP ST,Walnut Hills Nursing Home,SNFMD,76,50,41,366268,Established,Greencroft,Walnut Creek,Ohio,44687,38,0,0,0,0,2,0
+476 RIDDLE RD,Seven Acres Senior Living at Clifton,SNF,58,56,34,NULL,Established,N/A,Cincinnati,Ohio,45220,32,0,0,0,0,0,0
+4770 OLDE PUMP ST,Walnut Hills Retirement Center,AL,78,50,29,NULL,Established,Greencroft,Walnut Creek,Ohio,44687,27,0,0,0,0,0,0
+4801 BARCLAY DOWNS DR,Briar Creek Health Center SNF,SNFMD,NULL,64,5,345578,Established,Liberty,Charlotte,North Carolina,28210,5,0,0,0,0,1,0
+4801 E BROAD ST,Ashford on Broad,AL,NULL,NULL,11,NULL,Established,WALLICK SENIOR LIVING,COLUMBUS,Ohio,43213,5,0,0,0,0,0,0
+4801 EDWARDS MILL RD,Sunrise of Raleigh,AL/MC,NULL,NULL,59,NULL,Established,Sunrise Senior Living,Raleigh,North Carolina,27612,51,1,0,0,0,14,0
+4801 RANDOLPH RD,Sherwood Health and Rehab,SNF,100,75,48,345134,Established,ACCORDIUS HEALTH LLC/PORTOPICCOLO GROUP,Charlotte,North Carolina,28211,41,0,0,0,0,0,34
+4815 N SHARON AMITY RD,East Towne Assisted Living,AL,NULL,NULL,85,NULL,Established,ALG,Charlotte,North Carolina,28205,82,0,0,0,0,1,0
+4835 S COUNTY RD 25A,Otterbein Tipp City,AL/SNF,114,92,21,365882,Established,OTTERBEIN SENIOR LIFE,Tipp City,Ohio,45371,19,0,0,0,0,0,0
+491 CRESTWOOD DR,The Estates at Charlottesville-ALF,AL,NULL,NULL,45,NULL,Established,SENIOR LIFESTYLE,CHARLOTTESVILLE,Virginia,22903,36,0,0,0,0,6,0
+4916 N BEND RD,Traditions - North Bend,AL,150,80,20,NULL,Established,Traditions,CINCINNATI,Ohio,45211,20,0,0,0,0,0,0
+4919 COLDWATER RD,Easterseals ARC/NE Indiana,Other,NULL,100,59,NULL,Established,N/A,Fort Wayne,Indiana,46825,21,0,0,0,0,0,0
+4926 SIR BARTON WAY,Magnolia Springs,AL,96,90,10,NULL,Established,Sinceri Senior Living,Indianapolis,Indiana,46237,10,0,0,0,0,0,0
+493 PINEY RIDGE RD,Brookdale Forest City,AL/MC,NULL,NULL,49,NULL,Established,BROOKDALE SENIOR LIVING,Forest City,North Carolina,28043,44,0,0,0,0,10,41
+4960 US 35 E,Jamestown Place Health and Rehab,SNFMD,50,50,29,365368,Established,Pavilion Healthcare,Jamestown,Ohio,45335,29,0,0,0,0,11,0
+4968 MILESTONE AVE,The Landings of Cabarrus,AL,NULL,NULL,45,NULL,Established,ALG,Kannapolis,North Carolina,28081,41,0,0,0,0,4,34
+499 CENTER AVE,Gallatin Nursing and Rehab,SNFMD,120,NULL,111,NULL,Established,PROVIDENCE UTAH,WARSAW,Kentucky,41095,104,0,0,0,0,64,0
+50 BLYMYER AVE,JAG Healthcare Mansfield,SNFMD,66,60,58,NULL,Established,JAG,Mansfield,Ohio,44903,53,0,0,0,0,1,0
+50 HAVENWOOD DR,HAVENWOOD - ALF,AL,NULL,NULL,13,NULL,Established,Dominion,LEXINGTON,Virginia,24450,11,0,0,0,0,0,0
+500 CLINIC RD,COMMONWEALTH-CEDAR BLUFF ALF,AL,NULL,NULL,42,NULL,Established,MCAP,CEDAR BLUFF,Virginia,24609,25,0,0,0,0,0,0
+500 E PICKWICK DR,The Waters of Syracuse,SNFMD,NULL,NULL,42,155581,Established,INFINITY HEALTHCARE CONSULTING,Syracuse,Indiana,46567,37,0,0,0,0,5,0
+500 E WHITMER ST,Sparks Nursing Center,AL,79,77,70,NULL,Established,INDEPENDENT,Central City,Kentucky,42330,67,0,0,0,0,23,0
+500 JOHNSON RIDGE RD,Yadkin Valley Senior Living,AL,NULL,NULL,50,NULL,Established,CAROLINA ALLIANCE,Elkin,North Carolina,28621,44,0,0,0,0,8,0
+500 LENOIR RD,Grace Life Care,AL,NULL,NULL,18,NULL,Established,"GRACE LIFECARE, INC.",Morgonton,North Carolina,28655,12,0,0,0,0,0,0
+500 LINCOLNWAY E,Vannoni Living,AL,NULL,NULL,18,NULL,Established,MISHAWAKA HOUSING AUTHORITY,MISHAWAKA,Indiana,46544,17,0,0,0,0,1,0
+500 WILLIAMS ST,Lakeland Nursing & Rehabilitation,SNFMD,75,70,72,155596,Established,Castle Healthcare,Angola,Indiana,46703,68,0,0,0,0,22,0
+501 N 17TH AVE # 17,Envive of Beech Grove - ILF/ALF,AL,57,57,12,NULL,Established,Envive,BEECH GROVE,Indiana,46107,10,0,0,0,0,1,0
+501 N 17TH AVE # 17,Envive of Beech Grove - SNF,SNF,57,57,48,155859,Established,Envive,BEECH GROVE,Indiana,46107,43,0,0,0,0,5,0
+501 OAK AVE,SUMMIT SQUARE RETIREMENT CMTY- IL,AL,NULL,NULL,1,NULL,Established,Sunnyside Communities,WAYNESBORO,Virginia,22980,1,1,0,0,0,0,0
+501 OAK AVE,Summit Square ALF,AL,NULL,NULL,36,NULL,Established,Sunnyside Communities,WAYNESBORO,Virginia,22980,36,0,0,0,0,0,0
+501 OAK AVE,Summit Square SNF,SNFMD,NULL,NULL,15,495405,Established,Sunnyside Communities,WAYNESBORO,Virginia,22980,15,0,0,0,0,0,0
+5010 S ALSTON AVE,Camellia Gardens,AL,NULL,NULL,55,NULL,Established,PELICAN HEALTH HENDERSON,Durham,North Carolina,27713,44,0,0,0,0,28,0
+502 NOEL AVE,Pennyrile Personal Care Home,AL,74,74,84,NULL,Established,ELDERCARE PARTNERS,Hopkinsville,Kentucky,42240,81,0,0,0,0,9,0
+503 W BUNCOME AVE,Cypress Manor,AL,40,37,33,NULL,Established,Star Capital,Roper,North Carolina,27970,22,0,0,0,0,1,0
+5046 WILLIAMSON RD,MEADOW HILLS - ALF,AL,NULL,NULL,24,NULL,Established,Milestone Retirement,ROANOKE,Virginia,24012,20,0,0,0,0,1,0
+505 N MAIN ST,Waldron Rehab and Health,AL,71,46,45,155704,Established,INDEPENDENT,waldron,Indiana,46182,35,0,0,0,0,0,0
+505 WILLIAM THOMASON BYWAY,Grayson Nursing and Rehabilitation,SNF,NULL,NULL,82,185177,Established,Bluegrass/Encore,Leitchfield,Kentucky,42754,69,0,0,0,0,0,0
+506 ALLENSVILLE ST,Elkton Nursing and Rehab,SNF,NULL,NULL,53,185400,Established,BOLSTER AND JEFFRIES HEALTHCARE,Elkton,Kentucky,42220,49,0,0,0,0,0,0
+507 W PINEWOOD ST,Gardens of Roseboro,AL,NULL,NULL,36,NULL,Established,ALG,Roseboro,North Carolina,28382,34,0,0,0,0,18,0
+5079 SCOTTSVILLE RD,Greenwood Nursing and Rehab - KY,SNF,NULL,NULL,128,185187,Established,Venza,BOWLING GREEN,Kentucky,42104,120,0,0,0,0,67,0
+508 RISON ST,Stratford Rehabilitation Center - SNF,SNFMD,NULL,NULL,51,495166,Established,SABER HEALTHCARE GROUP,DANVILLE,Virginia,24541,33,0,0,0,0,13,0
+509 N CARRIER ST,Morganfield Nursing & Rehab,SNF,NULL,NULL,49,NULL,Established,NULL,Morganfield,KY,42437,0,0,0,0,0,0,0
+509 N HAYDEN AVE,Salem Springlake Health & Rehab Center,SNF,NULL,NULL,35,185046,Established,ATRIUM HEALTH,SALEM,Kentucky,42078,32,0,0,0,0,3,0
+510 BUCKEYE AVE,Momentous Health at Sidney,SNF,51,41,36,366033,Established,Momentus Health,Sidney,Ohio,45365,29,0,0,0,0,0,0
+510 W MEDCALF ST,Core of Dale Nursing and Rehab,SNFMD,NULL,NULL,42,155270,Established,CORE,DALE,Indiana,47523,38,0,0,0,0,10,0
+5100 LANSING DR,Tranquility Care of Winston Salem,AL,NULL,NULL,57,NULL,Established,INDEPENDENT,Winston-Salem,North Carolina,27105,28,0,0,0,0,13,0
+5100 MACKAY RD,Adams Farm Living Rehabilitation,SNF,120,112,31,345535,Established,Century Care,JAMESTOWN,North Carolina,27282,27,0,0,0,0,0,0
+511 WINDHILL ST,Walnut Cove Health and Rehabilitation,SNFMD,NULL,NULL,92,345089,Established,Avardis,Walnut Cove,North Carolina,27052,86,0,0,0,0,37,0
+512 HOUSTON ST,Staunton Post Acute & Rehabilitation,SNFMD,NULL,NULL,136,495243,Established,Hill Valley,STAUNTON,Virginia,24401,126,0,0,0,0,29,0
+5125 MICHAUX RD,Spring Arbor Greensboro,AL,NULL,NULL,70,NULL,Established,SPRING ARBOR MANAGEMENT,Greensboro,North Carolina,27410,67,0,0,0,0,16,1
+514 16TH ST,Core of Bedford Nursing,SNF/NF,NULL,NULL,34,155388,Established,Core Medical Group,BEDFORD,Indiana,47421,34,0,0,0,0,11,0
+515 BARBOUR RD,Barbour Court Nursing and Rehabilitation Center,SNFMD,155,134,150,345237,Established,PRINCIPLE,Smithfield,North Carolina,27577,141,0,0,0,0,69,0
+515 S GENERALS BLVD,The Greens at Lincolnton,SNFMD,128,118,137,345250,Established,CCH HEALTHCARE,Lincolnton,North Carolina,28093,128,0,0,0,0,40,0
+515 WARLEY ST,Heritage Post Acute,SNF,132,82,37,425154,Established,INDEPENDENT,FLORENCE,South Carolina,29501,36,0,0,0,0,0,0
+515 WATER ST,Cornerstone Manor,AL,NULL,NULL,31,NULL,Established,ELDERCARE PARTNERS,Scottsville,Kentucky,42164,30,0,0,0,0,5,0
+5151 SARDIS RD,Atrium Health Sardis Oaks,SNF,NULL,NULL,24,345331,Established,ATRIUM HEALTH,Charlotte,North Carolina,28270,21,0,0,0,0,0,0
+517 N LITTLE LEAGUE BLVD,Clark Rehab,SNF,NULL,NULL,44,155697,Established,AMERICAN SENIOR COMMUNITIES,Clarksville,Indiana,47129,43,0,0,0,0,0,0
+518 OLD US HWY 221,Oak Grove Healthcare Center,SNFMD,NULL,NULL,54,345464,Established,GREENCROFT,rutherfordton,North Carolina,28139,44,0,0,0,0,18,0
+5201 MORSE RD,Sage Park,AL,NULL,NULL,11,NULL,Established,SONIDA SENIOR LIVING,GAHANNA,Ohio,43230,9,0,0,0,0,0,0
+521 GREENE DR,Greenville Nursing and Rehabilitation,SNF,76,65,57,185317,Established,Majestic Care,Greenville,Kentucky,42345,56,0,0,0,0,24,0
+5215 CREEDMOOR RD,Magnolia Glen AL,AL,66,49,37,NULL,Established,Kisco Senior Living,Raleigh,North Carolina,27612,30,0,0,0,0,14,0
+5225 COX-SMITH RD,Mason Assisted Living and Memory Care,AL,174,100,16,NULL,Established,Luxor Healthcare Group,Mason,Ohio,45040,15,0,0,0,0,0,0
+5234 NC 226 S,Marion  Assisted Living,AL,NULL,NULL,45,NULL,Established,INDEPENDENT,Marion,North Carolina,28752,44,0,0,0,0,16,30
+5235 NC 226 S,Rocky Pass FCH,AL,NULL,NULL,5,NULL,Established,INDEPENDENT,Marion,North Carolina,28752,5,0,0,0,0,0,0
+525 E THOMPSON RD,Forest Creek Village,SNF,128,89,37,155241,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46227,0,0,0,0,0,0,0
+52654 N IRONWOOD RD,Majestic Care of South Bend,SNF,103,65,71,155219,Established,Majestic Care,South Bend,Indiana,46635,70,0,0,0,0,1,0
+5269 ASHBURY RD,Perkins Country Manor,SNF,NULL,NULL,32,NULL,Established,NULL,Augusta,KY,41002,0,0,0,0,0,0,0
+5301 CREEDMOOR RD,Magnolia Glen IN,IL,184,154,25,NULL,Established,Kisco Senior Living,Raleigh,North Carolina,27612,19,24,0,0,0,5,0
+5326 PARK RD,Brookdale South Park,MC,NULL,NULL,33,NULL,Established,BROOKDALE SENIOR LIVING,Charlotte,North Carolina,28209,24,0,0,0,0,0,0
+5354 W 62ND ST,Robin Run ALF,AL,90,45,18,NULL,Established,Oakdale Senior Alliance,Indianapolis,Indiana,46268,15,0,0,0,0,1,0
+5354 W 62ND ST,Robin Run IL,IL,150,118,4,NULL,Established,Oakdale Senior Alliance,Indianapolis,Indiana,46268,4,4,0,0,0,0,0
+5380 E BROAD ST,The Woodlands of Columbus,AL,NULL,NULL,13,NULL,Established,SONIDA SENIOR LIVING,COLUMBUS,Ohio,43213,10,0,0,0,0,0,0
+5383 US 117,The Indigo at Pikeville,AL,40,22,29,NULL,Established,Jaybird Senior Living,Pikeville,North Carolina,27863,26,0,0,0,0,9,0
+540 BELMONT DR,Belmont at Tipton Lakes Senior Living,AL,NULL,NULL,84,155133,Established,MAGNOLIA,COLUMBUS,Indiana,47201,73,0,0,0,0,0,0
+542 ALLRED MILL RD,"Surry Community Health Center by Harborview, LLC.",SNFMD,NULL,NULL,115,345191,Established,INDEPENDENT,MOUNT AIRY,North Carolina,27030,87,0,0,0,0,40,0
+5430 W US HWY 40,Aperion Care of Greenfield,SNFMD,60,50,53,155254,Established,Aperion,Greenfield,Indiana,46140,51,0,0,0,0,17,0
+545 W MOONGLO RD,Lake Pointe Village,SNF,68,62,25,NULL,Established,ASC,Scottsburg,Indiana,47170,0,0,0,0,0,0,0
+54515 SR 933 N,Dujarie House,SNF,NULL,NULL,72,155745,Established,HOLY CROSS NOTRE DAM,NOTRE DAME,Indiana,46556,62,0,0,0,0,17,0
+5480 E 25TH ST,Hickory Creek - Columbus,SNFMD,NULL,NULL,31,155424,Established,AMERICAN SENIOR COMMUNITIES,COLUMBUS,Indiana,47203,30,0,0,0,0,6,0
+55 LAKE DR,Pigeon Valley Rest Home,AL,NULL,NULL,16,NULL,Established,Liberty,Canton,North Carolina,28716,13,0,0,0,0,0,8
+550 HIGH ST,Signature Healthcare of Bowling Green,SNF,176,126,82,185089,Established,SIGNATURE HEALTH,Bowling Green,Kentucky,42101,79,0,0,0,0,0,0
+550 MINER DR,Medina Meadows Skilled Nursing and Rehabilitation,SNF,NULL,60,NULL,4/30/2024 10:52,Established,,Medina,Ohio,44256,13,0,29,0,0,0,0
+551 PONY RD,Zebulon House AL,AL/MC,60,44,56,NULL,Established,ALG,Zebulon,North Carolina,27597,52,0,0,0,0,4,55
+5511 FISHCREEK RD,Eden Vista Stow,AL,162,64,0,NULL,Established,Vista Senior Care,Stow,Ohio,44224,0,0,0,0,0,0,0
+5515 REA RD,Brookdale South Charlotte,AL,NULL,NULL,32,NULL,Established,BROOKDALE SENIOR LIVING,Charlotte,North Carolina,28226,28,0,0,0,0,3,0
+5535 IRWIN SIMPSON RD,The Landing of Long Cove,AL,NULL,NULL,17,NULL,Established,VITALITY SENIOR SERVICES,MASON,Ohio,45040,16,0,0,0,0,0,0
+555 N GLENN AVE,Court House Manor ALF,AL,NULL,NULL,13,365928,Established,HCF,Washington Court House,Ohio,43160,12,0,0,0,0,1,0
+555 N GLENN AVE,Court House Manor,SNFMD,NULL,NULL,87,365928,Established,HCF,Washington Court House,Ohio,43160,31,0,0,0,0,15,0
+559 W LONGEST ST,Paoli Health and Living Community SNF,SNF,94,90,46,155333,Established,CARDON & ASSOCIATES,Paoli,Indiana,47454,43,0,0,0,0,0,0
+56 N HIGHLAND AVE,Brockford Inn,AL,NULL,NULL,50,NULL,Established,JUDITH BARLOW,Granite Falls,North Carolina,28630,40,0,0,0,0,0,0
+560 JOHNSON RIDGE RD,PruittHealth - Elkin,SNF,NULL,NULL,34,345124,Established,PRUITT HEALTH,Elkin,North Carolina,28621,25,0,0,0,0,0,0
+560 S ALLEN RD,Stonecroft,AL,58,0,30,NULL,Established,StoneGate Senior Living,Flat Rock,North Carolina,28731,26,0,0,0,0,6,23
+5600 E 16TH ST,Community Nursing and Rehabilitation,SNF,58,52,39,155029,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46218,34,0,0,0,0,0,0
+5600 N ROXBORO RD,Eno Pointe,AL,NULL,NULL,79,NULL,Established,INDEPENDENT,Durham,North Carolina,27712,70,0,0,0,0,6,79
+565 BOYETTE RD,Four Oaks Senior Living,AL/MC,96,77,54,NULL,Established,ALG,Four Oaks,North Carolina,27524,33,0,0,0,0,11,0
+5660 DURHAM RD,Roxboro Assisted Living,AL,NULL,NULL,61,NULL,Established,ROXBORO ASSISTED LIVING OPCO LLC,Roxboro,North Carolina,27574,53,0,0,0,0,23,0
+5701 FAYETTEVILLE RD,GlenFlora,SNFMD,50 ; 20,46 ; 11,64,345194,Established,Lutheran Home,Lumberton,North Carolina,28360,58,0,0,0,0,14,0
+571 PARKWAY DRIVE3,Salyersville Nursing and Rehabilitation Center,SNF,NULL,NULL,90,185221,Established,TOPAZ HEALTHCARE,Salyersville,Kentucky,41465,70,0,0,0,0,0,0
+571 S SYCAMORE ST,The Gardens of Rose Hill,AL,45,41,24,NULL,Established,ALG,Rose Hill,North Carolina,28458,23,0,0,0,0,2,0
+58 OLD CAL HILL RD,Signature Healthcare of McCreary County,SNF,NULL,NULL,44,185211,Established,SIGNATURE HEALTH,Pine Knot,Kentucky,42635,37,0,0,0,0,0,0
+580 LEMLEY ST,Hickory Creek - Franklin,AL,36,30,16,155442,Established,AMERICAN SENIOR COMMUNITIES,Franklin,Indiana,46131,0,0,0,0,0,0,0
+5800 OLD PROVIDENCE RD,Brookdale Carriage Club Providence SNF,SNFMD,NULL,19,29,345482,Established,Brookdale Senior Living,Charlotte,North Carolina,28226,20,0,0,0,0,4,0
+5802 OLD PROVIDENCE RD,Brookdale Carriage Club Providence I ALF,AL,NULL,NULL,23,NULL,Established,Brookdale Senior Living,Charlotte,North Carolina,28226,15,0,0,0,0,2,0
+5805 N FIR RD,Bell Tower Health & Rehab,SNFMD,NULL,60,89,155850,Established,INDEPENDENT,GRANGER,Indiana,46530,88,0,0,0,0,19,0
+5809 OLD OAK RIDGE RD,Brookdale Northwest Greensboro,AL,NULL,NULL,36,NULL,Established,BROOKDALE SENIOR LIVING,Greensboro,North Carolina,27410,34,0,0,0,0,4,0
+5816 OLD PROVIDENCE RD,Brookdale Carriage Club II ALZ,AL,NULL,40,6,NULL,Established,Brookdale Senior Living,Charlotte,North Carolina,28226,6,0,0,0,0,0,0
+5820 CARMEL RD,Pines On Carmel,AL,NULL,NULL,49,NULL,Established,Sinceri Senior Living,Charlotte,North Carolina,28226,43,0,0,0,0,4,0
+5829 E 116TH ST,Bickford of Carmel,AL/MC,58,53,24,NULL,Established,Bickford,Carmel,Indiana,46033,22,0,0,0,0,0,0
+585 OH-741,Otterbein Lebanon SNF,SNF,154,140,68,365346,Established,OTTERBEIN SENIOR LIFE,Lebanon,Ohio,45036,62,0,0,0,0,0,0
+"585 OH-741, LEBANON, OH 45036",Otterbein Lebanon Assisted Living,AL,230,60,8,NULL,Established,OTTERBEIN SENIOR LIFE,Lebanon,Ohio,45036,7,0,0,0,0,0,0
+586 EASTERN BLVD,Riverview Village,SNF,NULL,NULL,59,155165,Established,AMERICAN SENIOR COMMUNITIES,Clarksville,Indiana,47129,54,0,0,0,0,0,0
+5900 MEADOWCREEK DR,Arbors at Milford,AL/SNF,NULL,NULL,61,365675,Established,ARBORS,MILFORD,Ohio,45150,58,0,0,0,0,0,0
+5911 W STATE RD 46,Richland Bean - Blossom,SNFMD,74,59,58,NULL,Established,Hustonwood,Elletsville,Indiana,47404,52,0,0,0,0,0,0
+5916 CRESTHAVEN LN,Ohio Living Swan Creek,AL,NULL,NULL,22,NULL,Established,OHIO LIVING,Toledo,Ohio,43614,8,0,0,0,0,0,0
+5920 MCCHESNEY DR,Haven In Highland Creek,MC,NULL,NULL,45,NULL,Established,TerraBella Senior Living,Charlotte,North Carolina,28269,15,0,0,0,0,0,4
+5935 MOUNT SINAI RD,PruittHealth - Carolina Point,SNF,NULL,NULL,51,345551,Established,PRUITT HEALTH,Durham,North Carolina,27705,44,0,0,0,0,0,0
+"5970 KENWOOD RD, MADEIRA, OH 45243-2930",Madeira Care Center,SNFMD,115,97,90,365186,Established,LIONSTONE CARE,Madeira,Ohio,45243,82,0,0,0,0,23,0
+5999 BENDER RD,Delhi Post Acute,SNF,NULL,NULL,88,365530,Established,PACs,CINCINNATI,Ohio,45233,82,0,0,0,0,0,0
+60 MARIETTA RD,Hopewell Grove Rehab,SNFMD,0,62,81,365694,Established,Foundations Health,Chillicothe,Ohio,45601,68,0,0,0,0,42,0
+60 PHILLIPS BRANCH RD,Good Shepherd Health and Rehabilitation Center,SNF,118,95,85,185222,Established,Emerald Healthcare,Phelps,Kentucky,41553,84,0,0,0,0,0,0
+60-D HORNOT CIR,Angel House,AL,NULL,NULL,35,NULL,Established,INDEPENDENT,Asheville,North Carolina,28806,34,0,0,0,0,7,29
+600 FOX RUN RD,Woodlands of Findlay,AL,76,56,23,NULL,Established,The Woodlands,Findlay,Ohio,45840,22,0,0,0,0,0,0
+600 FULLWOOD LN,Matthews Health and Rehab,SNF,NULL,NULL,108,345103,Established,SABER HEALTHCARE GROUP,Matthews,North Carolina,28105,83,0,0,0,0,4,0
+600 MT MORIAH CHURCH RD,Covenant Care,AL,NULL,NULL,11,NULL,Established,CENTRE PARTNERS,Lumberton,North Carolina,28360,11,0,0,0,0,6,0
+600 WASHINGTON RD,Autumn Ridge Rehabilitation Centre,SNFMD,NULL,NULL,38,155162,Established,AMERICAN SENIOR COMMUNITIES,WABASH,Indiana,46992,34,0,0,0,0,8,0
+6000 FAYETTEVILLE RD,Southpoint Health and Rehab of Durham,SNF,132,113,81,345408,Established,INDEPENDENT,Durham,North Carolina,27713,79,0,0,0,0,1,0
+6001 WILORA LAKE RD,Wilora Lake,SNF,NULL,NULL,40,345473,Established,Avardis,Charlotte,North Carolina,28212,37,0,0,0,0,0,0
+6006 BRANDY CHASE COVE,Chateau Rehabilitation - (Sig-Ft Wayne),SNFMD,NULL,NULL,86,155249,Established,Castle Healthcare,Fort Wayne,Indiana,46815,78,0,0,0,0,35,0
+601 DEFIANCE AVE,Vancrest of Hicksville,SNF,61,55,34,365680,Established,Vancrest Management Corp,Hicksville,Ohio,43526,30,0,0,0,0,0,0
+601 DOVER RD,Poplar Springs Assisted Living,AL,12,10,12,NULL,Established,INDEPENDENT,Star,North Carolina,27356,12,0,0,0,0,1,0
+601 RICHMOND RD,Berea Health and Rehab,SNF,NULL,NULL,55,185384,Established,Bluegrass/Encore,North BEREA,Kentucky,40403,51,0,0,0,0,0,0
+6016 PINE TOWN RD,Tre'More Manor of Oxford,AL,NULL,35,22,NULL,Established,Crescent Green,OXFORD,North Carolina,27565,15,0,0,0,0,4,0
+602 BREVARD RD,Country Time,AL,NULL,NULL,58,NULL,Established,ALG,Kings Mountain,North Carolina,28086,22,0,0,0,0,0,0
+602 PINEY GROVE RD,Bradford Village West,AL,NULL,NULL,48,NULL,Established,INDEPENDENT,Kernersville,North Carolina,27284,32,0,0,0,0,9,0
+603 LOCKHAVEN CT,Somerset Court of Goldsboro,AL,NULL,NULL,33,NULL,Established,ALG,Goldsboro,North Carolina,27534,31,0,0,0,0,1,0
+603 S CHURCH ST,The Landings of Albemarle in Hertford,AL,46,41,37,NULL,Established,ALG,HERTFORD,North Carolina,27944,36,0,0,0,0,9,1
+603 W ST,Golden Heights Assisted Living,AL,NULL,NULL,30,NULL,Established,INDEPENDENT,NEW BERN,North Carolina,28560,27,0,0,0,0,15,0
+6041 PIEDMONT ROW DR S,Briar Creek Health Center AL,AL,NULL,NULL,102,345578,Established,Liberty,Charlotte,North Carolina,28210,89,0,0,0,0,14,1
+6053 WILORA LAKE RD,Brookdale Charlotte East AL,AL,NULL,44,35,NULL,Established,Brookdale Senior Living,Charlotte,North Carolina,28212,33,1,0,0,0,2,0
+6053 WILORA LAKE RD,Brookdale Charlotte East IN,IL,NULL,99,9,NULL,Established,Brookdale Senior Living,Charlotte,North Carolina,28212,9,9,0,0,0,0,0
+606 WALL ST,Valparaiso Care and Rehabilitation Center,SNF,140,115,133,155166,Established,AMERICAN SENIOR COMMUNITIES,Valparaiso,Indiana,46383,106,0,0,0,0,50,0
+607 WILSON CREEK RD,Pine Knoll Assisted Living Center,AL,27,23,18,NULL,Established,INDEPENDENT,Lawrenceburg,Indiana,47025,18,0,0,0,0,4,0
+610 W FISHER ST,Piedmont Health and Rehab,SNF,NULL,NULL,33,345140,Established,SABER HEALTHCARE GROUP,Salisbury,North Carolina,28144,29,0,0,0,0,0,0
+6101 CLARKE CREEK PARKWAY,Laurels At Highland Creek,AL,NULL,NULL,54,NULL,Established,TerraBella Senior Living,Charlotte,North Carolina,28269,30,0,0,0,0,0,2
+611 BROOKS ST,Brookdale Wake Forest,AL/MC,NULL,NULL,38,NULL,Established,BROOKDALE SENIOR LIVING,Wake Forest,North Carolina,27587,29,0,0,0,0,3,33
+612 CHINA GROVE HWY,The Meadows of Rockwell,AL,NULL,NULL,72,NULL,Established,ALG,Rockwell,North Carolina,28138,49,0,0,0,0,0,0
+614 HART ST,Heath Springs Residential Care Center,AL,NULL,NULL,23,NULL,Established,"HSRCC SERVICES, LLC",HEATH SPRINGS,South Carolina,29058,18,0,0,0,0,0,0
+615 RIDGE RD,Person Memorial Hospital Extended Care Unit,SNF,60,46,20,345004,Established,Person Memorial Hospital,Roxboro,North Carolina,27573,19,0,0,0,0,1,0
+615 SPRING FOREST RD,Sunrise at North Hills,AL/MC,NULL,NULL,100,NULL,Established,SUNRISE SENIOR LIVING,Raleigh,North Carolina,27609,91,0,0,0,0,25,0
+616 S WALLACE WILKINSON BLVD,Liberty Care & Rehabilitation Center,SNF,NULL,NULL,44,185408,Established,SIGNATURE HEALTH,LIBERTY,Kentucky,42539,39,0,0,0,0,0,0
+617 W MARION ST,Faith Post Acute,SNF,104,96,38,425009,Established,FUNDAMENTAL LTC,FLORENCE,South Carolina,29501,36,0,0,0,0,0,0
+618 LOVERS LN,Arcadia Senior Living,AL,87,87,23,NULL,Established,INDEPENDENT,Bowling Green,Kentucky,42013,23,0,0,0,0,0,0
+62 LAKE EDEN RD,NC State Veterans Home - Black Mountain,SNF,NULL,NULL,64,345558,Established,PRUITT HEALTH,Black Mountain,North Carolina,28711,60,0,0,0,0,2,0
+62 MAUDE RD,Martin County Health Care,SNF,NULL,NULL,61,185379,Established,Bluegrass/Encore,INEZ,Kentucky,41224,55,0,0,0,0,0,0
+620 HEATHWOOD DR,Forrest Oakes Healthcare Center,SNFMD,NULL,NULL,60,345442,Established,Avardis,Albemarle,North Carolina,28001,53,0,0,0,0,20,1
+620 JOHNS RD,Scottish Pines Rehab and Nursing Center,SNF,NULL,NULL,90,345383,Established,INDEPENDENT,Laurinburg,North Carolina,28352,86,0,0,0,0,1,0
+620 PARKER RD,Maysville Nursing and Rehab,SNF,NULL,NULL,59,185207,Established,Bluegrass/Encore,MAYSVILLE,Kentucky,41056,52,0,0,0,0,0,0
+621 S SUGAR ST,Hoosier Health & Living,SNF,NULL,NULL,55,155611,Established,CHI LIVING,BROWNSTOWN,Indiana,47220,55,0,0,0,0,0,0
+6210 CLEVES WARSAW RD,Western Hills Retirement Village,SNF,NULL,NULL,45,365693,Established,CARING PLACE HEALTHCARE,CINCINNATI,Ohio,45233,45,0,0,0,0,0,0
+6215 N US 19 E HIGHWAY,Cranberry House AL,AL/MC,60,53,17,NULL,Established,ALG,Newland,North Carolina,28657,17,0,0,0,0,0,0
+6235 STERLING CREEK RD,Windward Pointe Senior Living,AL,NULL,NULL,45,NULL,Established,RITTENHOUSE,Portage,Indiana,46368,38,0,0,0,0,6,0
+624 JONES FERRY RD,Graceful Living Assisted Living,AL,NULL,NULL,39,NULL,Established,INDEPENDENT,Carrboro,North Carolina,27510,35,0,0,0,0,19,0
+625 ASHLAND ST,Westwood Health and Rehabilitation,SNF,68,68,41,NULL,Established,Avardis,Archdale,North Carolina,27263,40,0,0,0,0,0,0
+625 BETHANY RD,Atrium Health Stanly Manor,SNF,NULL,NULL,24,345281,Established,ATRIUM HEALTH,Albemarle,North Carolina,28001,22,0,0,0,0,2,0
+625 CENTER ST,Country Club Assisted Living of Ashland,AL,78,65,41,NULL,Established,Holland Management Company,Ashland,Ohio,44805,37,0,0,0,0,3,0
+63 LAKEVIEW DR N,Lake James Lodge,AL,NULL,NULL,37,NULL,Established,"LAKE JAMES LODGE ASSISTED LIVING, INC.",MARION,North Carolina,28752,32,0,0,0,0,14,32
+630 WHITTIER AVE,Westchester Harbour,AL,NULL,NULL,26,NULL,Established,PROVIDENCE PLACE SENIOR HEALTH AND HOUSING,High Point,North Carolina,27262,18,0,0,0,0,0,0
+6300 ROBERT RD,PruittHealth - Town Center,SNF,70,0,39,345515,Established,PRUITT HEALTH,Harrisburg,North Carolina,28075,33,0,0,0,0,0,0
+6301 BASS RD,Rivers Edge Nursing and Rehabilitation,SNF,NULL,NULL,92,185259,Established,VENZA,Prospect,Kentucky,40059,54,0,0,0,0,0,0
+631 JUNCTION CREEK DR,Trinity Grove,SNFMD,100,87,100,345554,Established,Lutheran Home,Wilmington,North Carolina,28412,98,0,0,0,0,29,0
+632 FREEMAN MILL RD,Hamlet House,AL,NULL,NULL,40,NULL,Established,ALG,Hamlet,North Carolina,28345,38,0,0,0,0,6,0
+6330 N FIR RD,StoryPoint Granger,IL,NULL,NULL,40,NULL,Established,STORYPOINT,GRANGER,Indiana,46530,37,0,0,0,0,0,0
+6370 ROBIN RUN WAY,Robin Run SNF,SNF,84,66,72,155505,Established,Oakdale Seniors Alliance,Indianapolis,Indiana,46268,66,0,0,0,0,2,0
+640 W ELLSWORTH,The Waters of Columbia City (Miller's),SNFMD,84,39,40,155150,Established,INFINITY HEALTHCARE CONSULTING,COLUMBIA CITY,Indiana,46725,33,0,0,0,0,3,0
+640 WATERTOWER BYP,Grandview Nursing and Rehab,SNF,NULL,NULL,38,185042,Established,Bluegrass/Encore,CAMPBELLSVLLE,Kentucky,42718,19,0,0,0,0,0,0
+6401 HOLDER RD,Clemmons Village I,AL,NULL,NULL,40,NULL,Established,PREMIER SENIOR LIVING,Clemmons,North Carolina,27012,37,0,0,0,0,4,0
+6405 SMALL HOUSE CIR,Otterbein Loveland,SNF,NULL,60,NULL,NULL,Established,,,,Ohio,17,0,28,0,0,0,0
+643 W UTICA ST,Maple Manor Christian Home,SNF,NULL,NULL,42,155766,Established,INDEPENDENT,SELLERSBURG,Indiana,47172,41,0,0,0,0,0,0
+6441 HOLDER RD,Clemmons Village II,AL,65,52,62,NULL,Established,INDEPENDENT,Clemmons,North Carolina,27012,48,0,0,0,0,9,0
+650 GOLDROCK RD,Navion Senior Living - Rocky Mount,AL,44,23,17,NULL,Established,NAVION,Rocky Mount,North Carolina,27804,17,0,0,0,0,1,1
+650 N JEFFERSON ST,OUR LADY OF THE VALLEY-ALF,AL,NULL,NULL,88,NULL,Established,Oakwood,ROANOKE,Virginia,24016,79,0,0,0,0,21,0
+650 N JEFFERSON ST,OUR LADY OF THE VALLEY-SNF/NF,SNFMD,NULL,NULL,67,495357,Established,Catholic Dicese of Richmond,ROANOKE,Virginia,24016,62,0,0,0,0,16,0
+651 POLO RD,Mill Creek Manor,AL,56,26,7,NULL,Established,MAINSTAY SENIOR LIVING,Columbia,South Carolina,29223,7,0,0,0,0,2,0
+651 S STATE ST,Homeview Health,SNF,NULL,NULL,122,155651,Established,TLC Management,FRANKLIN,Indiana,46131,113,0,0,0,0,16,0
+6516 JOHNSON POND RD,TerraBella of Fuquay Varina,AL/MC,NULL,NULL,57,NULL,Established,SENIOR LIFESTYLE,Fuquay-Varina,North Carolina,27526,55,0,0,0,0,4,4
+66 C MICHAEL DAVENPORT BLVD,The Lantern at Morning Pointe Frankfort,AL,NULL,NULL,32,NULL,Established,MORNING POINTE SENIOR LIVING,FRANKFORT,Kentucky,40601,24,0,0,0,0,1,0
+66 SHELBY ST,Better Senior Living,AL,60,58,57,NULL,Established,ELDERCARE PARTNERS,cadiz,Kentucky,42211,55,0,0,0,0,10,0
+668 WOOD RD,Heritage Care Home of Taylorsville,AL,34,32,20,NULL,Established,INDEPENDENT,Taylorsville,North Carolina,28681,20,0,0,0,0,0,0
+6690 LIBERATION WAY,Otterbein New Albany,SNF,60,50,28,366424,Established,OTTERBEIN SENIOR LIFE,New Albany,Ohio,43054,27,0,0,0,0,0,0
+67 MOUNTAINBROOK RD,Chunn's Cove,AL,60,48,32,NULL,Established,"CHUNN'S COVE OF ASHEVILLE, LLC",Asheville,North Carolina,28805,26,0,0,0,0,8,1
+67 MOUNTAINBROOK RD,Chunn's Cove,AL,60,48,0,NULL,Established,"CHUNN'S COVE OF ASHEVILLE, LLC",Asheville,North Carolina,28805,0,0,0,0,0,0,0
+6723 S ANTHONY BLVD,LLV - South Anthony - Homes/Clinic,AL,60,57,26,155586,Established,Lutheran Life Villages,Fort Wayne,Indiana,46816,23,23,0,0,0,0,0
+6723 S ANTHONY BLVD,LLV - South Anthony ALF,AL/SNF,NULL,NULL,34,155586,Established,Lutheran Life Villages,Fort Wayne,Indiana,46816,27,0,0,0,0,4,0
+6723 S ANTHONY BLVD,LLV - South Anthony SNF,AL/SNF,0,100,98,155586,Established,Lutheran Life Villages,Fort Wayne,Indiana,46816,79,0,0,0,0,17,0
+6727 CONTRERAS RD,The Knolls of Oxford - ALF,AL,NULL,NULL,5,366282,Established,Maple Knoll Communities,OXFORD,Ohio,45056,4,0,0,0,0,0,0
+6727 CONTRERAS RD,The Knolls of Oxford - SNF,SNF,NULL,NULL,35,366282,Established,Maple Knoll Communities,OXFORD,Ohio,45056,34,0,0,0,0,0,0
+6781 OLD US HIGHWAY 52,Grayson Creek Assisted Living,AL,NULL,NULL,50,NULL,Established,SOUTHLAND ASSISTED LIVING SERVICES,Lexington,North Carolina,27295,50,0,0,0,0,10,0
+68 C MICHAEL DAVENPORT BLVD,Morning Pointe of Frankfort,AL,NULL,NULL,32,NULL,Established,MORNING POINTE SENIOR LIVING,FRANKFORT,Kentucky,40601,21,0,0,0,0,1,0
+690 S STATE ST,Compass Park Indiana Masonic Home,SNF,NULL,NULL,91,155593,Established,MASONIC HOMES,FRANKLIN,Indiana,46131,90,0,0,0,0,0,0
+6910 WILLIAMSON RD,NORTH ROANOKE ALF,AL,NULL,NULL,136,NULL,Established,Friendship,ROANOKE,Virginia,24019,114,0,0,0,0,0,0
+6922 OHIO AVE,Fountain View,SNFMD,NULL,NULL,74,365476,Established,Saber Healthcare Group,CINCINNATI,Ohio,45236,60,0,0,0,0,15,0
+6969 GLENMEADOW LN,Harmony Court Rehab & Nursing,SNF,120,107,103,366220,Established,Blue Central Group,Cincinnati,Ohio,45237,102,0,0,0,0,0,0
+6996 US-421,Silver Memories,SNF,NULL,NULL,27,155847,Established,PRIORITY,VERSAILLES,Indiana,0,27,0,0,0,0,5,0
+700 JOHNSON RIDGE RD,CHATHAM NURSING & REHAB-ALF (NC),AL,NULL,NULL,13,345095,Established,Century Care,ELKIN,North Carolina,28621,12,0,0,0,0,3,0
+700 JOHNSON RIDGE RD,CHATHAM NURSING & REHAB-SNF/NF (NC),SNFMD,NULL,NULL,102,345095,Established,Century Care,ELKIN,North Carolina,28621,90,0,0,0,0,36,0
+700 MASON HEADLEY RD,Lexington Country Place,SNF,NULL,NULL,39,185160,Established,PHOENIX SENIOR LIVING,Lexington,Kentucky,40504,39,0,0,0,0,0,0
+700 MT OLIVE DR,Rolling Ridge Assisted Living,AL,60,42,34,NULL,Established,ALG,Newton Grove,North Carolina,28366,21,0,0,0,0,10,0
+700 RANDOLPH ST,Radford Health and Rehab Center,SNF,NULL,NULL,106,495355,Established,Commonwealth Senior Living,RADFORD,Virginia,24141,92,0,0,0,0,0,0
+701 HENRY ST,Majestic Care of North Vernon,SNFMD,120,100,96,155665,Established,MAJESTIC CARE,North Vernon,Indiana,47265,83,0,0,0,0,33,0
+701 SKYLINE DR,Metcalfe Health Care Center AL,AL,0,0,1,185217,Established,TOPAZ HEALTHCARE,Edmonton,Kentucky,42129,1,0,0,0,0,0,0
+701 SKYLINE DR,Metcalfe Health Care Center SNF,SNFMD,NULL,NULL,75,185217,Established,INDEPENDENT,EDMONTON,Kentucky,42129,71,0,0,0,0,24,0
+703 ELIZABETH ST,Tabor Commons Assisted Living,AL,NULL,NULL,61,NULL,Established,C.A.R.E.,Tabor City,North Carolina,28463,44,0,0,0,0,10,0
+703 S WALNUT ST,Greenbrier LTC Inc.,AL,NULL,NULL,50,NULL,Established,ALG,Fairmont,North Carolina,28340,35,0,0,0,0,11,0
+704 POORS FORD RD,Oakland Living Center,AL,40,33,15,NULL,Established,INDEPENDENT,Rutherfordton,North Carolina,28139,15,0,0,0,0,0,0
+705 CLEARVIEW DR,Berkshire Health & Rehabilitation Center,SNF,NULL,NULL,283,495293,Established,MFA,VINTON,Virginia,24179,231,0,0,0,0,1,0
+705 FULTON ST,Shelby Skilled Nursing & Rehab,SNFMD,NULL,NULL,45,365297,Established,JAG,Sidney,Ohio,45365,41,0,0,0,0,6,0
+705 N MERIDIAN ST,Century Villa Health,AL/SNF,168,75,86,155510,Established,GREENTOWN VOLUNTEER FIRE COMPANY,GREENTOWN,Indiana,46936,69,0,0,0,0,11,0
+"7055 HIGH MILL AVE NW, CANAL FULTON, OH 44614",The Pavilion at Canal Fulton,SNF,60,50,27,366271,Established,Pavilion Healthcare,Canal Fulton,Ohio,44614,26,0,0,0,0,0,0
+706 N MAGNOLIA ST,Signature Healthcare of Monroe County,SNF,NULL,NULL,59,185168,Established,SIGNATURE HEALTH,TOMPKINSVILLE,Kentucky,42167,57,0,0,0,0,0,0
+707 S JACKSON PARK DR,Seymour Crossing,SNF,115,109,34,NULL,Established,AMERICAN SENIOR COMMUNITIES,Seymour,Indiana,47274,0,0,0,0,0,0,0
+708 BARTLEY AVE,Signature Healthcare of Colonial,SNFMD,65,52,62,185342,Established,SIGNATURE HEALTH,Bardstown,Kentucky,40004,0,0,0,0,0,0,0
+709 MEADOWOOD ST,Heritage Greens - The Arboretum,AL,NULL,NULL,43,NULL,Established,KISCO SENIOR LIVING,Greensboro,North Carolina,27409,40,0,0,0,0,2,0
+709 MEADOWOOD ST,Heritage Greens IN,IL,NULL,0,23,NULL,Established,Kisco Senior Living,Greensboro,North Carolina,27409,21,22,0,0,0,0,1
+709 RIVER RIDGE RD,"PineCrest Assisted Living Facility, LLC",AL,54,36,45,NULL,Established,Sagora Senior Living,Danville,Virginia,24541,38,0,0,0,0,8,0
+710 HIGHWAY 15 401 BYP W,Bennettsville Health and Rehab,SNF,110,107,59,425118,Established,INDEPENDENT,Bennettsville,South Carolina,29512,50,0,0,0,0,0,0
+7102 IN-158,1019 Belles Place - Bedford,AL,37,27,23,NULL,Established,1019 Healthcare,Bedford,Indiana,47421,22,0,0,0,0,0,0
+711 FRANKFORT RD,Maple Grove Senior Living ALF,AL,117,79,16,NULL,Established,MASONIC HOMES OF KENTUCKY INC,Shelbyville,Kentucky,40065,15,0,0,0,0,2,0
+711 FRANKFORT RD,Maple Grove Senior Living,SNFMD,117,79,89,185378,Established,MASONIC HOMES OF KENTUCKY INC,Shelbyville,Kentucky,40065,78,0,0,0,0,18,0
+711 W ATKINS ST,Riverwood,AL,NULL,NULL,41,NULL,Established,CCH HEALTHCARE,Dobson,North Carolina,27017,22,0,0,0,0,1,0
+712 W 2ND ST,Todd Dickey,SNF,62,56,41,155368,Established,American Senior Communities,LEAVENWORTH,Indiana,47137,40,0,0,0,0,0,0
+7120 PORT SYLVANIA DR,Arbors at Sylvania,SNF,NULL,NULL,18,366060,Established,ARBORS,Toledo,Ohio,43617,18,0,0,0,0,0,0
+7133 MEADOW TRL,Brownsburg Meadows Assisted Living,AL,124,90,12,NULL,Established,AMERICAN SENIOR COMMUNITIES,Brownsburg,Indiana,46112,7,0,0,0,0,0,0
+7143 US HIGHWAY 23,Pavilion at Piketon,SNFMD,NULL,NULL,81,365446,Established,PIKETON,Piketon,Ohio,45661,78,0,0,0,0,29,0
+7166 JORDAN RD,Ramseur Rehabilitation and Health Care Center,SNF,NULL,0,54,345523,Established,YAD,RAMSEUR,North Carolina,27316,51,0,0,0,0,1,0
+721 DR MLK WAY,Rosewood Assisted Living,AL,NULL,NULL,33,NULL,Established,INDEPENDENT,Gastonia,North Carolina,28052,22,0,0,0,0,0,0
+722 S DARGAN ST,Southland Healthcare Center,SNF,88,81,38,155484,Established,INDEPENDENT,Florence,South Carolina,29506,32,0,0,0,0,0,0
+"7220 MUIRFIELD DR, DUBLIN, OH 43017",Brookdale Muirfield,AL,86,73,9,NULL,Established,Brookdale Senior Living,Dublin,Ohio,43017,3,0,0,0,0,0,0
+7235 RIVERWALK WAY N,Crossing at Noblesville,AL,NULL,NULL,65,NULL,Established,FIVE STAR RESIDENCES,NOBLESVILLE,Indiana,46062,49,0,0,0,0,1,0
+725 W 50TH ST,Cedar Hurst Living of Marion,AL,NULL,NULL,16,NULL,Established,CEDARHURST SENOR LIVING,MARION,Indiana,46953,15,0,0,0,0,2,0
+727 EIGHTH ST,Portsmouth Health and Rehab,SNF,95,90,77,365643,Established,Pavilion Healthcare,Portsmouth,Ohio,45662,76,0,0,0,0,42,0
+73 PIEDMONT DR,Letcher Manor,SNF,NULL,NULL,68,185200,Established,Bluegrass/Encore,WHITESBURG,Kentucky,41858,53,0,0,0,0,0,0
+7300 MCEWEN RD,Centerville Health and Rehab,SNFMD,120,100,83,365764,Established,Pavilion Healthcare,Dayton,Ohio,45459,74,0,0,0,0,26,0
+7300 WOODSPOINT DR,Belmont Terrace Nursing and Rehabilitation Center,SNF,120,100,104,NULL,Established,BHP/Encore,Florence,Kentucky,41042,102,0,0,0,0,0,0
+733 PLANTATION ESTATES DR,Matthews Glen,SNF,NULL,NULL,23,345326,Established,ACTS RETIREMENT COMMUNITY,Matthews,North Carolina,28105,22,0,0,0,0,0,0
+7369 HUNTER HILL RD,Carrolton of Nash,SNF,141,110,81,345279,Established,CARROLTON FACILTY MANAGEMENT,Rocky Mount,North Carolina,27804,76,0,0,0,0,6,0
+74 LOTUS LN,Hendersons Assisted Living,AL,NULL,NULL,17,NULL,Established,INDEPENDENT,Hendersonville,North Carolina,28792,13,0,0,0,0,8,16
+740 CANONBY RD,Scioto Pointe,SNFMD,NULL,NULL,97,366313,Established,INDEPENDENT,Columbus,Ohio,43223,62,0,0,0,0,21,0
+7415 LIBERTY WOODS LN,Centerville Place Assisted Living,AL,78,74,59,NULL,Established,Pavilion Healthcare,Dayton,Ohio,45459,56,0,0,0,0,6,0
+7440 N CR 825 E,Miller's - Hope,SNF,75,52,39,155579,Established,MILLERS MERRY MANOR,HOPE,Indiana,47246,31,0,0,0,0,5,0
+7449 FAIR OAKS DR,Trinity Elms SNF,SNFMD,100,87,95,345565,Established,Lutheran Services Carolina,Clemmons,North Carolina,27012,78,1,0,0,0,3,0
+7486 LEE HWY,COMMONWEALTH-RADFORD ALF,AL,NULL,NULL,56,NULL,Established,MCAP,RADFORD,Virginia,24141,17,0,0,0,0,11,0
+75 MOTE DR,Miami Cov SNF,SNFMD,95,55,57,365483,Established,CHARTER SENIOR LIVING,Covington,Ohio,45318,46,0,0,0,0,11,0
+75 S MILFORD DR,Morning Pointe of Franklin,AL,NULL,NULL,22,NULL,Established,MORNING POINTE SENIOR LIVING,FRANKLIN,Indiana,46131,22,0,0,0,0,0,0
+750 SE CARY PKWY,Waltonwood Cary IN,AL/MC/IL,85,42,55,NULL,Established,SINGH,Cary,North Carolina,27511,52,54,0,0,0,8,0
+750 SE CARY PKWY,Waltonwood Cary AL,AL/MC/IL,NULL,NULL,27,NULL,Established,SINGH,Cary,North Carolina,27511,22,0,0,0,0,7,21
+750 SE CARY PKWY,Waltonwood Cary MC,AL/MC/IL,85,42,13,NULL,Established,SINGH,Cary,North Carolina,27511,10,0,0,0,0,0,9
+751 E TAMARACK TRL,Jill's House,AL,40,18,15,NULL,Established,INDEPENDENT,BLOOMINGTON,Indiana,47408,12,0,0,0,0,0,0
+752 E CENTER AVE,Crestview Health & Rehabilitation,SNF,NULL,NULL,47,345179,Established,ACCORDIUS HEALTH LLC/PORTOPICCOLO GROUP,MOORESVILLE,North Carolina,28115,27,0,0,0,0,0,46
+7615 DALLAS CHERRYVILLE HWY,Peak Resources Cherryville Rest Home/ALF,AL,NULL,0,50,345395,Established,Peak Resources,CHERRYVILLE,North Carolina,28021,50,0,0,0,0,3,0
+7615 DALLAS CHERRYVILLE HWY,Peak Resources Cherryville,AL/SNF MD,NULL,NULL,67,345395,Established,PEAK RESOURCES,CHERRYVILLE,North Carolina,28021,63,0,0,0,0,20,0
+762 DAN JONES RD,Countryside Meadows,SNF,171,140,49,155792,Established,AMERICAN SENIOR COMMUNITIES,Avon,Indiana,46123,0,0,0,0,0,0,0
+765 OLD WAYNESBURG RD,Waynesburg Rest Home,AL,29,28,27,NULL,Established,Saber Healthcare Group,Waynesburg,Kentucky,40489,27,0,0,0,0,5,0
+"7665 EWING BLVD, FLORENCE, KY 41042",Magnolia Springs Florence,AL,82,60,11,NULL,Established,Sinceri Senior Living,Florence,Kentucky,41042,11,0,0,0,0,0,0
+"774 LIBERTY RD, W LIBERTY, KY 41472",West Liberty Nursing and Rehabilitation,SNF,50,46,48,185274,Established,Majestic Care,West Liberty,Kentucky,41472,45,0,0,0,0,5,0
+7745 LITTLE AVE,TerraBella Little Avenue,AL/MC,62,40,31,NULL,Established,TerraBella / Discovery Senior Living,Charlotte,North Carolina,28226,31,0,0,0,0,0,0
+776 N UNION ST,Maple Park Village,SNF,106,80,30,155199,Established,AMERICAN SENIOR COMMUNITIES,Westfield,Indiana,46074,0,0,0,0,0,0,0
+779 GLENDALE MILFORD RD,Glendale Place Nursing & Rehab,SNF,NULL,NULL,59,366327,Established,CARING PLACE HEALTHCARE,CINCINNATI,Ohio,45215,55,0,0,0,0,0,0
+780 DICKINSON RD,Addison Pointe Health & Rehab Center,SNF,NULL,NULL,48,155805,Established,TLC Management,CHESTERTON,Indiana,46304,37,0,0,0,0,18,0
+7823 OLD HWY 60,Sellersburg,SNF,NULL,NULL,60,155659,Established,Communicare,SELLERSBURG,Indiana,47172,23,0,0,0,0,0,0
+787 N DETROIT ST,Waters of LaGrange,SNFMD,NULL,NULL,83,155118,Established,INFINITY HEALTHCARE CONSULTING,LAGRANGE,Indiana,46761,77,0,0,0,0,22,0
+7870 CHAPEL HILL RD,Brookdale Cary,MC,NULL,NULL,38,NULL,Established,BROOKDALE SENIOR LIVING,Cary,North Carolina,27513,34,0,0,0,0,7,0
+791 BOONE STATION DR,Liberty Commons Nursing and Rehab of Alamance,SNFMD,NULL,NULL,133,345496,Established,Liberty,Burlington,North Carolina,27215,81,0,0,0,0,29,0
+8005 US-60,Heartland Villa Center,SNF,NULL,NULL,43,185399,Established,Bluegrass/Encore,LEWISPORT,Kentucky,42351,41,0,0,0,0,6,0
+801 DIXIE TRL,Morningside of Raleigh,AL/MC,91,60,65,NULL,Established,NAVION,Raleigh,North Carolina,27607,57,0,0,0,0,3,56
+801 IN-57,Prairie Village Nursing & Rehab,SNF,65,60,17,NULL,Established,AMERICAN SENIOR COMMUNITIES,Washington,Indiana,47501,0,0,0,0,0,0,0
+803 MEADOWOOD ST,Heritage Greens - Vera Springs,AL,NULL,NULL,34,NULL,Established,KISCO SENIOR LIVING,Greensboro,North Carolina,27409,33,0,0,0,0,4,0
+803 S MAIN ST,Woodstock Valley Health and Rehab,SNFMD,88,78,71,495315,Established,Avardis,Woodstock,Virginia,22664,64,0,0,0,0,23,0
+804 S LONG DR,PruittHealth - Rockingham,SNF,NULL,NULL,58,345378,Established,PRUITT HEALTH,Rockingham,North Carolina,28379,44,0,0,0,0,0,0
+806 S BUCKEYE ST,Manderley Health Care Center,SNF,NULL,NULL,55,155728,Established,PRIORITY,OSGOOD,Indiana,47037,54,0,0,0,0,15,0
+809 W CHATHAM ST,The Blair,AL,80,20,31,NULL,Established,ALG,Cary,North Carolina,27511,29,0,0,0,0,10,0
+809 W FREEMAN ST,Clinton House Rehab & HCC,SNF,NULL,NULL,70,155295,Established,HENRY COUNTY MEMORIAL HOSPITAL,FRANKFORT,Indiana,46041,56,0,0,0,0,15,0
+813 S MAIN ST,Edmonson Center,SNF,75,71,47,185401,Established,Bluegrass/Encore,Brownsville,Kentucky,42210,43,0,0,0,0,0,0
+814 OLD EKRON RD,Brandenburg Nursing and Rehabilitation,SNF,NULL,NULL,5,NULL,Established,TOPAZ HEALTHCARE,BRANDENBURG,Kentucky,40108,0,0,0,0,0,0,0
+8140 TOWNSHIP LINE RD,Marquette Manor  MC,AL,40,40,20,155198,Established,Lifecare,Indianapolis,Indiana,46260,19,0,0,0,0,0,0
+8140 TOWNSHIP LINE RD,Marquette Manor ALF,AL,NULL,NULL,34,155198,Established,Lifecare,Indianapolis,Indiana,46260,26,0,0,0,0,1,0
+8140 TOWNSHIP LINE RD,Marquette Manor IL,IL,40,40,84,155198,Established,Lifecare,Indianapolis,Indiana,46260,78,74,0,0,0,0,0
+8140 TOWNSHIP LINE RD,Marquette Manor SNF,SNF,NULL,NULL,75,155198,Established,Lifecare,Indianapolis,Indiana,46260,65,0,0,0,0,13,0
+815 WASHINGTON ST,Waters of Rockport,SNF,NULL,NULL,21,155274,Established,INFINITY HEALTHCARE CONSULTING,ROCKPORT,Indiana,47635,19,0,0,0,0,0,0
+8181 HARCOURT RD,Harcourt Terrace Nursing and Rehabilitation,AL,110,80,32,155149,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46260,0,0,0,0,0,0,0
+820 E CENTER ST,Continental Manor,SNF,NULL,NULL,36,365592,Established,LUXOR HEALTHCARE GROUP,BLANCHESTER,Ohio,45107,22,0,0,0,0,0,0
+820 KLUMAC RD,Trinity Oaks Health and Rehab Skilled Nursing,SNFMD,115 ; 12,108,124,155586,Established,Lutheran Services Carolinas,Salisbury,North Carolina,28144,113,0,0,0,0,8,0
+820 KLUMAC RD,Trinity Oaks Retirement Assisted Living,SNFMD,115 ; 12,108,37,155586,Established,Lutheran Services Carolinas,Salisbury,North Carolina,28144,37,0,0,0,0,1,0
+8201 W WASHINGTON ST,Washington HCC,SNF,94,0,62,155383,Established,American Senior Communities,Indianapolis,Indiana,46231,43,0,0,0,0,0,0
+824 N FOURTH ST,Scottsville Manor,AL,NULL,NULL,38,NULL,Established,HEALTH SYSTEMS OF KENTUCKY,Scottsville,Kentucky,42164,37,0,0,0,0,4,0
+827 W 13TH ST,Life Care - Rochester,SNFMD,141,55,47,155379,Established,Lifecare,ROCHESTER,Indiana,46975,44,0,0,0,0,6,0
+83 CROSSROADS LN,AUGUSTA NURSING & REHAB-SNF/NF,SNFMD,NULL,NULL,87,495336,Established,Avardis Health,FISHERSVILLE,Virginia,22939,77,0,0,0,0,19,0
+830 BERKSHIRE RD,Brookdale Smithfield,AL/MC,43,39,28,NULL,Established,BROOKDALE SENIOR LIVING,Smithfield,North Carolina,27577,26,0,0,0,0,3,0
+"830 ROCKFORD ST, THIRD FLOOR",NORTHERN SKILLED NURSING CENTER-SNF/NF,SNFMD,NULL,NULL,33,345278,Established,Northern Regional Hospital,MOUNT AIRY,North Carolina,27030,33,0,0,0,0,12,0
+8300 MAYSVILLE RD,Golden Years - Fort Wayne - SNF,AL/SNF MD,165,144,91,155755,Established,Greencroft,Fort Wayne,Indiana,46815,88,0,0,0,0,19,0
+8300 MAYSVILLE RD,Golden Years - Fort Wayne - ALF,AL/SNF MD,165,144,24,155755,Established,Greencroft,Fort Wayne,Indiana,46815,22,0,0,0,0,2,0
+"836 34TH ST NW, CANTON, OH 44709",The Pavilion at Edgefield Assisted Living,AL,75,72,51,NULL,Established,Pavilion Healthcare,Canton,Ohio,44709,50,0,0,0,0,0,0
+"836 34TH ST NW, CANTON, OH 44709",The Pavilion at Edgefield SNF,SNF,99,85,35,366095,Established,Pavilion Healthcare,Canton,Ohio,44709,32,0,0,0,0,0,0
+836 RAY LEGGETT WAY,PruittHealth - Trent,SNFMD,116,106,112,345371,Established,PRUITT HEALTH,NEW BERN,North Carolina,28560,108,0,0,0,0,36,0
+8398 FAYETTEVILLE RD,Spring Arbor of The Sandhills,AL,NULL,NULL,45,NULL,Established,WICKSHIRE SENIOR LIVING - 2 NC. 2 GA. 4 FL,Raeford,North Carolina,28376,42,0,0,0,0,10,0
+84 JOHNSON ESTATE RD,Gabriel Manor,AL/MC,77,62,49,NULL,Established,Saber Healthcare Group,Clayton,North Carolina,27520,44,0,0,0,0,10,0
+840 MANOR RD,Palmetto Ridge Assisted Living and Memory Care,AL,106,93,9,NULL,Established,INDEPENDENT,Cheraw,South Carolina,29520,2,0,0,0,0,0,0
+847 OAKWOOD DR,WHITE BIRCH (ALF) COMMUNITIES,AL,NULL,NULL,43,NULL,Established,INDEPENDENT,HARRISONBURG,Virginia,22801,33,0,0,0,0,1,0
+849 WATERWORKS RD,Trinity Glen,SNFMD,NULL,NULL,116,345088,Established,Lutheran Life Villages,Winston-Salem,North Carolina,27101,96,0,0,0,0,20,0
+850 MAJESTIC CT,Wellington House,AL,NULL,NULL,15,NULL,Established,ALG,Gastonia,North Carolina,28054,1,0,0,0,0,0,0
+850 NELLIE ST,Edgewood Manor of Greenfield,SNFMD,NULL,NULL,55,11/30/2023 11:59,Established,AOM HEALTHCARE SOLUTIONS,Greenfield,Ohio,45123,50,0,0,0,0,22,0
+851 KIMSEY LN,Redbanks Nursing Home,SNF,NULL,NULL,132,NULL,Established,NULL,Henderson,KY,42420,0,0,0,0,0,0,0
+8520 GUNPOWDER RD,Legacy Living of Florence,AL,NULL,NULL,12,NULL,Established,LEGACY LIVING,FLORENCE,Kentucky,41042,11,0,0,0,0,0,0
+8549 N MERIDIAN ST,The Commons on Meridian,AL,102,50,0,NULL,Established,AMERICAN SENIOR COMMUNITIES,Indianapolis,Indiana,46260,0,0,0,0,0,0,0
+86 OLD AIRPORT RD,Fletcher Rehabilitation and Heathcare Center,SNF,NULL,NULL,44,345522,Established,YAD,Fletcher,North Carolina,28732,40,0,0,0,0,0,0
+860 IRON AVE,CCRC I-Dover Apartments,AL,NULL,NULL,54,365417,Established,Holland Management Company,Dover,Ohio,44622,41,0,0,0,0,5,0
+860 IRON AVE,CCRC I-Dover Nursing Home,SNFMD,NULL,NULL,58,365417,Established,Holland Management Company,Dover,Ohio,44622,42,0,0,0,0,14,0
+860 WOLF CREEK TRL,COMMONWEALTH-ABINGDON ALF,AL,NULL,NULL,87,NULL,Established,MCAP,ABINGDON,Virginia,24210,15,0,0,0,0,3,0
+8601 SHELBY ST,Hellenic Senior Living - Indianapolis,AL,125,120,7,NULL,Established,Ahepa Senior Living (ASL),Indianapolis,Indiana,46227,7,0,0,0,0,0,0
+864 US HWY 158 BUSINESS WES,Warren Hills Nursing Center ALF,AL,NULL,NULL,5,NULL,Established,Liberty,Warrenton,North Carolina,27589,2,0,0,0,0,2,0
+864 US HWY 158 BUSINESS WES,Warren Hills Nursing Center SNF,SNFMD,NULL,NULL,93,345240,Established,Liberty,Warrenton,North Carolina,27589,87,0,0,0,0,16,0
+8668 STATE ROUTE 93,Jackson Care Center,SNFMD,NULL,NULL,63,365393,Established,LIONSTONE CARE,JACKSON,Ohio,45640,57,0,0,0,0,37,0
+8700 LAWYERS RD,The Little Flower,AL,NULL,NULL,22,NULL,Established,INDEPENDENT,Charlotte,North Carolina,28227,19,0,0,0,0,1,0
+891 NOELL LN,Hunter Hill Senior Village,AL,NULL,NULL,38,NULL,Established,JANET MOOSE,Rocky Mount,North Carolina,27804,36,0,0,0,0,3,0
+900 GAGEL AVE,Parkwood Health & Rehabilitation,SNF,NULL,NULL,119,185096,Established,INFINITY HEALTHCARE CONSULTING,Louisville,Kentucky,40216,61,0,0,0,0,0,0
+900 PROVIDENT DR,Mason Healthcare,SNF,NULL,NULL,86,155003,Established,TLC Management,WARSAW,Indiana,46580,73,0,0,0,0,25,0
+900 W DOLPHIN ST,Siler City Center,SNF,NULL,NULL,131,345143,Established,GENESIS,Siler City,North Carolina,27344,114,0,0,0,0,1,0
+901 RIDGE RD,Roxboro Healthcare and Rehabilitation Center,SNFMD,NULL,NULL,95,345311,Established,Liberty,Roxboro,North Carolina,27573,87,0,0,0,0,29,0
+901 S HALSTEAD BLVD,Laurel Park Rehabilitation & HealthCare Center,SNF,102,94,80,345184,Established,YAD,Elizabeth City,North Carolina,27909,78,0,0,0,0,3,0
+901 S HASTINGS DR,Gentry Park Senior Living,AL,116,94,27,NULL,Established,INDEPENDENT,Bloomington,Indiana,47401,25,0,0,0,0,5,0
+901 SPRING ARBOR CT,Spring Arbor of Apex,AL/MC,NULL,NULL,37,NULL,Established,SPRING ARBOR MANAGEMENT,Apex,North Carolina,27502,31,0,0,0,0,7,19
+901 W NEW HOPE RD,Eagles Point,AL,NULL,NULL,63,NULL,Established,Navion,Goldsboro,North Carolina,27534,54,0,0,0,0,9,0
+903 W MAIN ST,Yadkin Nursing Center,SNF,NULL,NULL,55,345167,Established,Liberty,Yadkinville,North Carolina,27055,49,0,0,0,0,0,0
+905 HIGHWAY 127 N,Owenton Healthcare and Rehabilitation,SNFMD,100,90,89,185364,Established,CLEARVIEW,Owenton,Kentucky,40359,79,0,0,0,0,46,0
+9051 HWY 181,Jonas Ridge Rest Home,AL,NULL,NULL,35,NULL,Established,CAROLINA ALLIANCE,Jonas Ridge,North Carolina,28641,22,0,0,0,0,0,0
+907 E CENTRAL ST,Union City Care Center,SNFMD,NULL,NULL,34,365970,Established,JAG,Union City,Ohio,45390,34,0,0,0,0,7,0
+909 N SALISBURY AVE,Bethamy Retirement Center,AL,42,40,27,NULL,Established,INDEPENDENT,Spencer,North Carolina,28159,22,0,0,0,0,0,0
+910 W WALNUT ST,Albany Health and Rehabilitation,SNFMD,0,0,79,155432,Established,TLC Management,ALBANY,Indiana,47320,73,0,0,0,0,10,0
+9108 REAMES RD,Northlake House Assisted Living,AL,NULL,NULL,18,NULL,Established,ALG,Charlotte,North Carolina,28216,0,0,0,0,0,0,0
+915 W COOKSEY DR,Brookstone Terrace of Thomasville,AL,NULL,NULL,41,NULL,Established,"MPCARE II, LLC",Thomasville,North Carolina,27360,35,0,0,0,0,10,0
+918 FITZGERALD ST,Brookdale Monroe Square AL,AL,NULL,NULL,41,NULL,Established,Brookdale Senior Living,Monroe,North Carolina,28112,39,0,0,0,0,12,0
+918 FITZGERALD ST,Brookdale Monroe Square - Clarebridge,MC,NULL,NULL,43,NULL,Established,Brookdale Senior Living,Monroe,North Carolina,28112,42,0,0,0,0,11,1
+918 WESTWOOD DR,Somerset Court of Rocky Mount,AL,NULL,NULL,38,NULL,Established,ALG,Rocky Mount,North Carolina,27803,36,0,0,0,0,9,0
+919 WILMA SIGMON RD,Heath House,AL,NULL,NULL,38,NULL,Established,ALG,Lincolnton,North Carolina,28092,30,0,0,0,0,13,1
+920 4TH ST SW,Conover Nursing and Rehab,SNFMD,NULL,NULL,81,345516,Established,JOSHUA SHERRILL,Conover,North Carolina,28613,66,0,0,0,0,33,0
+920 HENERY CLAY ST,Colonial Manor,AL,57,51,47,NULL,Established,Bluegrass/Encore,Shelbyville,Kentucky,40065,25,0,0,0,0,0,0
+920 S 4TH ST,River Oaks Post Acute,SNF,122,110,76,185029,Established,Hill Valley,Louisville,Kentucky,40203,74,0,0,0,0,0,0
+920 W HWY 46,Owen Valley Rehabilitation and Healthcare Center,AL/SNF/NF,73,73,37,155661,Established,Castle Healthcare,Spencer,Indiana,47460,33,0,0,0,0,8,0
+9200 GLENWATER DR,University Place Nursing and Rehabilitation,SNF,NULL,NULL,107,345142,Established,PRINCIPLE,Charlotte,North Carolina,28262,65,0,0,0,0,0,106
+921 JUNIOR HIGH SCHOOL RD PO BOX 405,Our Communities Hospital - Bryan Health & Rehab,AL/SNF MD,60,47,52,345431,Established,Community Hospital,Scotland Neck,North Carolina,27874,52,0,0,0,0,19,0
+930 HIGHWAY 158 BUSINESS E,Alpha Magnolia Garden,AL,NULL,NULL,36,NULL,Established,INDEPENDENT,Warrenton,North Carolina,27589,32,0,0,0,0,5,0
+931 ASHLAND AVE,ELKS HOME-ALF,AL,NULL,NULL,63,NULL,Established,CareTrust,BEDFORD,Virginia,24523,39,0,0,0,0,17,0
+931 N ASPEN ST,Cardinal Healthcare and Rehab Center,SNF,NULL,NULL,31,345385,Established,Avardis,Lincolnton,North Carolina,28092,28,0,0,0,0,0,0
+935 PAGE ST,Mt. Pleasant House,AL,NULL,NULL,29,NULL,Established,ALG,Mt. Pleasant,North Carolina,28124,17,0,0,0,0,0,0
+935 ROSEWOOD DR,Galion Meadows,SNFMD,NULL,62,"Gentiva, Heartland, Halfways",4/30/2024 7:32,Established,,,,Ohio,30,56,28,0,0,0,0
+9370 UNION CEMETERY RD,The Lodge Nursing and Rehab,SNF,NULL,NULL,48,365889,Established,CARING PLACE HEALTHCARE,Loveland,Ohio,45140,48,0,0,0,0,0,0
+94 S AVE,Blue Ridge Rehabilitation and Nursing,SNF,NULL,NULL,61,495146,Established,Eastern Healthcare Group,HARRISONBURG,Virginia,22801,58,0,0,0,0,0,0
+9434 COEBURN MOUNTIAN RD,Heritage Hall Wise,SNF,90,88,101,495350,Established,American Healthcare LLC,Wise,Virginia,24293,89,0,0,0,0,0,0
+945 W RUSSELL ST,Elkhorn Health & Rehab,SNF,106,99,105,NULL,Established,A&M Healthcare Investment LLC,Elkhorn City,Kentucky,41522,93,0,0,0,0,48,0
+95 LOCUST ST,College Pines Health and Rehab,SNF,NULL,NULL,33,345446,Established,SANSTONE,Connelly Springs,North Carolina,28612,30,0,0,0,0,0,0
+95 MORNINGSTAR LN,Morning Star Assisted Living Sylva,AL,NULL,NULL,30,NULL,Established,INDEPENDENT,Sylva,North Carolina,28779,29,0,0,0,0,11,28
+95 RICHMOND HILL RD,Richmond Hill,AL,NULL,NULL,42,NULL,Established,INDEPENDENT,Asheville,North Carolina,28806,38,0,0,0,0,0,0
+950 HARDIN RD,Cleveland House,AL,NULL,NULL,46,NULL,Established,ALG,Shelby,North Carolina,28150,43,0,0,0,0,7,42
+950 US HIGHWAY 64 E,Tyrell House,AL/MC,NULL,NULL,31,NULL,Established,ALG,Columbia,North Carolina,27925,25,0,0,0,0,13,0
+955 GARDEN LAKE PARKWAY,Advance Healthcare,SNF,NULL,NULL,33,365704,Established,COMMUNICARE,TOLEDO,Ohio,43614,30,0,0,0,0,0,0
+958 STATE RD 46 E,The Waters of Batesville,SNFMD,NULL,NULL,48,155233,Established,INFINITY HEALTHCARE CONSULTING,BATESVILLE,Indiana,47006,43,0,0,0,0,20,0
+9600 LAMBORNE BLVD,Essex Nursing and Rehabilitation Center,SNF,NULL,NULL,89,185288,Established,VENZA,Louisville,Kentucky,40272,76,0,0,0,0,0,0
+9685 CHILLICOTHE RD,Kirtland Woods of Journey,SNF,NULL,NULL,47,365290,Established,EXCEPTIONAL LIVING CENTER,KIRTLAND,Ohio,44094,46,0,0,0,0,0,0
+9802 COLDWATER RD,LLV - Pine Valley,SNF,NULL,NULL,65,155800,Established,Lutheran Life Villages,Fort Wayne,Indiana,46825,53,0,0,0,0,2,0
+981 BEECHWOOD AVE,The Waters of Middletown,AL,60,20,28,155573,Established,INFINITY HEALTHCARE CONSULTING,Middletown,Indiana,47356,23,0,0,0,0,0,0
+981 CAMPBELL LN,The Bungalos at Bowling Green,AL,28,23,19,NULL,Established,A Phoenix Senior Living Community,Bowling Green,Kentucky,42104,15,0,0,0,0,0,0
+990 HOLSTON RD,HOLSTON SENIOR LIVING,AL,NULL,NULL,73,NULL,Established,Hill Valley,WYTHEVILLE,Virginia,24382,54,0,0,0,0,8,0
+990 HOLSTON RD,HOLSTON HEALTH AND REHAB,SNFMD,NULL,NULL,98,495349,Established,Hill Valley,WYTHEVILLE,Virginia,24382,61,0,0,0,0,19,0
+990 N 16TH ST,Stonebrooke Rehab Center,AL/SNF,117,95,29,NULL,Established,ASC,New Castle,Indiana,47362,0,0,0,0,0,0,0
+999 TABOR RD,Olin Village,AL,NULL,NULL,42,NULL,Established,SOUTHLAND ASSISTED LIVING SERVICES,OLIN,North Carolina,28660,36,0,0,0,0,5,0
+HI POINT DR & INDIANA EAST-WEST TOLL RD,Bella Largo Senior Living,AL,73,0,0,NULL,Established,n/a - Independent,La Porte,Indiana,46350,0,0,0,0,0,0,0
+HIGHWAY 11 BOX 250,Owsley County Health Care Center,SNF,NULL,NULL,68,185273,Established,TOPAZ HEALTHCARE,Booneville,Kentucky,41314,43,0,0,0,0,0,0
+HOUSECALL,HOUSECALL,AL,NULL,NULL,1,NULL,Discontinued,INDEPENDENT,HOME,Virginia,22801,0,1,0,0,0,0,0
+NULL,ElasticIT Test,NULL,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,0,0,0
+NULL,Virginia Test Fac,NULL,NULL,NULL,2,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,0,0,0
+NULL,Louisburg Manor - IL,NULL,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,0,0,0,0,0,0,0
+NULL,Test,NULL,NULL,NULL,57,NULL,NULL,NULL,NULL,NULL,NULL,1,0,0,0,0,8,0
+NULL,Test Facility - Southeast,NULL,NULL,NULL,96,NULL,NULL,NULL,NULL,NULL,NULL,6,1,0,0,0,18,0
+NULL,Test Facility - Midwest,NULL,NULL,NULL,53,NULL,NULL,NULL,NULL,NULL,NULL,3,0,0,0,0,12,0
+NULL,Trinity Oaks Health & Rehab - Assisted Living,NULL,NULL,NULL,12,NULL,NULL,NULL,NULL,NULL,NULL,10,0,0,0,0,1,0
+NULL,Other,NULL,NULL,NULL,0,NULL,Established,NULL,NULL,NULL,NULL,0,0,0,0,0,0,0
+PATIENT'S HOME ADDRESS,Home-MW,IL,NULL,NULL,46,NULL,Established,N/A,PATIENT CITY,Indiana,0,26,3,0,0,0,0,0

@@ -3,5 +3,17 @@ Pair,Address,City,State,Action,Excel_Row,Facility_Name,Type,Beds,Source,Served,N
 5,7301 E 16th St,Indianapolis,IN,KEEP,5282,WILDWOOD HEALTHCARE CENTER,SNF,160,CMS,No,Authority: IN QAMIS 1 license 160 beds; served stays No
 6,1540 S Logan St,Mishawaka,IN,DELETE,18205,HELLENIC SENIOR LIVING OF MISHAWAKA,ALF,157,GLR,No,Duplicate of row 4846; not served; no GLR patients
 6,1540 S Logan St,Mishawaka,IN,KEEP,4846,HELLENIC SENIOR LIVING - MISHAWAKA,ALF,60,GLR,Yes,Keep as-is; 59 GLR patients; beds stay 60 per Roian
-7,559 W Longest St,Paoli,IN,PENDING,5013,PAOLI HEALTH AND LIVING COMMUNITY,SNF,109,GLR,No,Recommendation: DELETE (not-served; no GLR patients; duplicate of row 5030) — awaiting approval
-7,559 W Longest St,Paoli,IN,PENDING,5030,PAOLI HEALTH AND LIVING COMMUNITY SNF,SNF,44,GLR,Yes,Recommendation: KEEP as-is (served; 46 GLR pts) — awaiting approval
+7,559 W Longest St,Paoli,IN,DELETE,5013,PAOLI HEALTH AND LIVING COMMUNITY,SNF,109,GLR,No,Duplicate of row 5030; not served; no GLR patients; CMS CCN 155333 on kept row
+7,559 W Longest St,Paoli,IN,KEEP,5030,PAOLI HEALTH AND LIVING COMMUNITY SNF,SNF,44,GLR,Yes,Keep as-is; 46 GLR pts; CMS CCN 155333
+8,5354 W 62nd St,Indianapolis,IN,RETYPE_ILF,19193,ROBIN RUN VILLAGE,ALF,530,GLR,No,CCRC campus aggregate; retype ALF→ILF; non-serviceable
+8,5354 W 62nd St,Indianapolis,IN,KEEP,5068,ROBIN RUN ALF,ALF,8,GLR,Yes,Beds 8→94 (IN QAMIS License #25-001156-1)
+8,5354 W 62nd St,Indianapolis,IN,KEEP,5069,ROBIN RUN SNF,SNF,36,GLR,Yes,Beds 36→84 (CMS CCN 155505)
+8,5354 W 62nd St,Indianapolis,IN,INSERT,,ROBIN RUN IL,ILF,150,GLR,No,New row; 150 beds (GLR); Oakdale Senior Alliance; 5354 W 62nd St Indianapolis IN 46268
+9,363 S Fieldstone Blvd,Bloomington,IN,DELETE,5106,STONECROFT HEALTH CAMPUS,SNF,70,GLR,Yes,Roll-up; 0 GLR patients; duplicate of row 5138
+9,363 S Fieldstone Blvd,Bloomington,IN,DELETE,5139,STONECROFT HEALTH CAMPUS,ALF,54,GLR,No,Roll-up; 0 GLR patients; not served; duplicate of row 5137
+9,363 S Fieldstone Blvd,Bloomington,IN,KEEP,5137,STONECROFT CAMPUS AL,ALF,32,GLR,Yes,Beds 32→54 (IN QAMIS)
+9,363 S Fieldstone Blvd,Bloomington,IN,KEEP,5138,STONECROFT CAMPUS SNF,SNF,53,GLR,Yes,Beds 53→70 (CMS CCN 155838 + IN QAMIS)
+10,1227 State Route 45 N,Mayfield,KY,DELETE,17943,"FERN TERRACE OF MAYFIELD, LLC",ALF,140,GLR,No,LLC name variant duplicate of row 5786; not served; 0 GLR patients
+10,1227 State Route 45 N,Mayfield,KY,KEEP,5786,FERN TERRACE MAYFIELD,ALF,122,GLR,Yes,Beds 122→140 (GLR); 124 pts all PC
+11,3362 Buckland Sq,Owensboro,KY,DELETE,5937,MORNING POINTE OF OWENSBORO,ALF,66,NIC-A,No,Genesis is NIC MAP misattribution; real operator Morning Pointe; Heritage Place acquired Sep 2024
+11,3362 Buckland Sq,Owensboro,KY,KEEP,5931,MORNING POINTE OWENSBORO,ALF,14,GLR,Yes,Beds 14→66 (KY license); 20 pts (17 PC); Integrated; Morning Pointe confirmed operator

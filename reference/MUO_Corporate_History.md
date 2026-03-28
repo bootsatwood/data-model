@@ -1,6 +1,6 @@
 # MUO Corporate History Log
 
-Tracks corporate-level events — mergers, acquisitions, divestitures, rebrands, name changes — for operators in the Combined Database. Entries are added during V23 scoring research, fuzzy match reconciliation (Punchlist #4), and MUO candidate evaluations.
+Tracks corporate-level events — mergers, acquisitions, divestitures, rebrands, name changes — for operators in the Combined Database. Entries are added during V23 scoring research, fuzzy match reconciliation (Punchlist #4), MUO candidate evaluations, and facility dedup review.
 
 **Purpose:** Preserve research so it doesn't have to be repeated. When an operator comes up in scoring, pipeline review, or stakeholder conversations, check here first.
 
@@ -937,14 +937,100 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 - **Commonwealth**: COMMONWEALTH SENIOR LIVING (id 17395, 25 fac VA) vs COMMONWEALTH CARE OF ROANOKE (id 17367, 11 fac) — relationship unclear, needs investigation.
 - **Traditions**: TRADITIONS (id 16622, 13 fac) + Tradition Senior Living (id 17984, 1 fac) — likely same operator.
 
-**Scoring board gaps confirmed (meet 7+ gate, not on Corporate Scoring Reference board):**
-- Sonida Senior Living (33 camp, 6 states, 4 served, 12 pipeline)
-- Harmony Senior Services (28 camp, 6 states, 5 served, 0 pipeline)
-- Spring Arbor Management (14 camp, 3 states, 5 served, 10 pipeline)
-- Traditions (12 camp, 3 states, 3 served, 12 pipeline)
-- Mainstay Senior Living (7 camp, 2 states, 4 served, 9 pipeline)
-- Carlyle Senior Care (7 camp, SC only, 0 served, 4 pipeline)
+**Scoring board gaps — RESOLVED 2026-03-27 (Brooke call):**
+- Sonida Senior Living → **T1** (34 camp V25.5, 6 states, 4 served. NYSE: SNDA, CNL merger Nov 2025)
+- Harmony Senior Services → **T2** (26 camp V25.5 exact match, 6 states, 5 served. Family-owned Smith/Packett)
+- Spring Arbor Management → **T2** (14 camp V25.5, 3 states, 5 served. Brand vs operator split confirmed)
+- Traditions → **T3** (12 camp V25.5, 3 states, 3 served. Entity consolidation still pending)
+- Mainstay Senior Living → **T3** (8 camp V25.5, 2 states, 4 served)
+- Carlyle Senior Care → **T4** (7 camp V25.5, SC only, 0 served)
+
+**NOTE:** 3/26 campus counts used V25 PG data + included naming-layer contamination. V25.5 exact-match counts corrected above. Pipeline counts from 3/26 were CRM board data, not DB Contract_Status field (which uses Green/Yellow/Red).
 
 **T4 classification review needed:**
 - Kissito Healthcare (T4, 12 campuses) — meets gate. Cary notes: "Bought by Utah group; Baroco/Steve meeting Mary Ferrell."
 - BHI Senior Living (T4, 9 campuses) — meets gate.
+
+---
+
+## MORNING POINTE SENIOR LIVING
+
+**Canonical DB name:** `MORNING POINTE SENIOR LIVING`
+**Parent entity:** Independent Healthcare Properties (IHP), LLC
+**Founded:** 1997 by Greg A. Vital and Franklin Farrow, Chattanooga TN
+**Footprint:** ~42-43 communities across 5 states (TN ~18, KY 8, GA 2, IN 1, AL 1)
+**Business model:** ALF + Lantern memory care. PropCo entities follow "[City] Medical Investors LLC" naming convention (e.g., Owensboro Medical Invtrs LLC, Lexington East Medical Investors LLC, Brentwood Medical Investors LLC).
+
+### Timeline
+| Date | Event | Source |
+|---|---|---|
+| 1997 | Founded by Greg A. Vital and Franklin Farrow in Chattanooga, TN | [Morning Pointe About Us](https://morningpointe.com/about-morning-pointe/) |
+| 2024 (Sep) | Acquired Heritage Place (ALF, 66 beds) in Owensboro KY from Encore Communities. $2.5M renovation planned. 39th community overall. | [Owensboro Times](https://www.owensborotimes.com/features/2024/09/heritage-place-acquired-by-morning-pointe-senior-living-company-planning-2-5m-renovation/) |
+| 2025 (Aug) | Grand Opening of Morning Pointe of Owensboro (formerly Heritage Place). Deficiency-free KY licensure survey. | [Morning Pointe press release](https://morningpointe.com/press/morning-pointe-senior-living-expands-to-western-kentucky/) |
+
+### DB Notes
+- **NIC MAP misattribution:** NIC-A row for Owensboro coded operator as GENESIS. Genesis has zero relationship to this facility. NIC MAP likely inherited stale chain assignment from Heritage Place's Encore Communities period, or a pure data error. PropCo "Owensboro Medical Invtrs LLC" on NIC row correctly maps to IHP/Morning Pointe.
+- **Heritage Place → Morning Pointe of Owensboro** rebrand confirmed Sep 2024.
+- **Encore Communities** was prior operator of Heritage Place (Pacific Northwest-based, ~43 communities in IL, WI, MN, OH, MI).
+
+---
+
+## HARMONY SENIOR SERVICES
+
+**Canonical DB name:** `HARMONY SENIOR SERVICES`
+**Parent entity:** Smith/Packett Med-Com LLC (development arm) + Wessex Capital Investments (PE arm)
+**Founded:** 1982 by James R. "Jim" Smith, Roanoke VA
+**Ownership:** Family-owned (Smith family). NOT PE-backed. Hunter Smith (Jim's son) is President/Principal.
+**HQ:** 34 Broad Street, Suite 200, Charleston SC 29401 (also Roanoke VA office)
+**Website:** harmonyseniorservices.com
+**Footprint:** ~48-50 communities across 12 states (VA, NC, SC, PA, WV, TN, GA, DE, IN, OH, KY, MD)
+**Business model:** ALF/IL/MC only — does NOT operate SNFs. Memory care branded "Harmony Square." Growth is organic via Smith/Packett ground-up development, not acquisitive.
+**PropCo naming convention:** "[City] AL Investors LLC" (e.g., Elkhart AL Investors LLC, Greensboro AL Investors LLC, Cumberland AL Investors LLC)
+
+### Leadership (notable churn — 5 CEOs in ~7 years)
+| Period | CEO |
+|---|---|
+| ~2018-2019 | Stephanie Handelson |
+| 2019-2022 | Terry Howard (ex-MBK Senior Living) |
+| 2022-2024 | Margaret Cabell (promoted from Chief Sales & Marketing Officer) |
+| May 2024-late 2025 | Kenneth Segarnick (ex-Brandywine, 21 years) |
+| Dec 2025-present | Traci Taylor-Roberts (ex-Sodalis Senior Living President) |
+
+### DB Notes (2026-03-27 Cary Trainor reconciliation)
+- **V22.7→V22.8:** GLR typo corrected "HARMONY SENOR SERVICES" → "HARMONY SENIOR SERVICES" (5 rows)
+- **Elkhart misattribution:** "Elkhart AL Investors LLC" is PropCo — facility is HSS-operated per website. Needs recode → HARMONY SENIOR SERVICES. (V25.6 punchlist #13)
+- **Harmony Hall Kinston NC misattribution:** Both SNF (175 beds) and ALF (50 beds) at 312 Warren Ave coded to HSS. SNF = Principle LTC (CMS Chain 423). HSS doesn't list Kinston, doesn't operate SNFs, and "Harmony Hall" doesn't follow HSS naming pattern ("Harmony at [City]"). Both rows likely should be Principle LTC. (V25.6 punchlist #14)
+- **Rosewood Harmony (Harmony, NC):** NOT HSS. Independent family-owned ALF. "Harmony" is the town name. Correctly coded INDEPENDENT.
+- **Naming-layer contamination:** 12 FP facilities have "Harmony" in the name but are operated by Heritage Place Business LLC, August Healthcare Group, Blue Central Group, Hillstone Healthcare, Palm Gardens, Harmony Residential Care Center (separate entity), etc.
+- **V25.5 exact-match footprint:** 29 FP rows, 26 campuses, 5 served (VA 15, NC 6, SC 5, KY 1, OH 1, IN 1). After Elkhart recode and Harmony Hall removal: ~28 rows, 26 campuses.
+- **Website lists 2 VA communities not in DB:** The Crossings at Ironbridge (Chester) and The Chamberlin (Hampton). Possible newer openings.
+
+---
+
+## PRINCIPLE LONG TERM CARE
+
+**Canonical DB name:** Not yet in DB — needs evaluation
+**Parent entity:** Hillco, Ltd.
+**Founded:** 1956 by Robert Hill Sr., Kinston NC. Formerly operated as **Britthaven**.
+**Ownership:** Family-owned (Hill family — Stephen B. Hill President, Robert Hill Jr. VP, R. Gregg Hill VP). NOT PE-backed.
+**HQ:** 1435 US-258, Kinston NC 28504
+**Website:** principleltc.com
+**CMS Chain ID:** 423 (44 facilities at time of CMS extract)
+**Footprint (post-KY sale):** ~37-38 SNFs in NC + 1-2 in VA
+**Business model:** SNF-only. Also operates Cardinal Hospice Care (6 NC locations) and Principle Therapy Services.
+**Subsidiary:** Redwood LTC Group LLC (facility-level licensee shell)
+
+### Timeline
+| Date | Event |
+|---|---|
+| 1956 | Hillco Ltd founded by Robert Hill Sr., Kinston NC |
+| 1982+ | Developed nursing homes as Britthaven across VA, FL, Carolinas |
+| ~2010s | Rebranded to Principle Long Term Care |
+| 2025 Oct | Sold entire KY portfolio (7 facilities, 818 beds) to NJ-based buyer. Blueprint Healthcare brokered. Ends 40-year KY presence. |
+| 2026 | 4 new NC facilities under construction (CON approved) |
+
+### DB Notes (2026-03-27 Cary Trainor reconciliation)
+- **Discovered via Harmony Hall investigation.** CMS Chain 423 identifies Harmony Hall Kinston SNF as Principle LTC, not HSS.
+- **Meets 7+ gate easily (~37 campuses).** Needs evaluation for scoring board.
+- **V25.6 punchlist #15:** Add as new entity, evaluate for tier.
+- **KY portfolio sold Oct 2025** — CMS data (Feb 2026 extract) may still show 7 KY facilities under Chain 423 that are no longer Principle LTC.
