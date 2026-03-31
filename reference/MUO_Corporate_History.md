@@ -1117,3 +1117,107 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 - **Meets 7+ gate easily (~37 campuses).** Needs evaluation for scoring board.
 - **V25.6 punchlist #15:** Add as new entity, evaluate for tier.
 - **KY portfolio sold Oct 2025** — CMS data (Feb 2026 extract) may still show 7 KY facilities under Chain 423 that are no longer Principle LTC.
+
+---
+
+## OAK HOLLOW HEALTHCARE MANAGEMENT (correction from "Brothers Healthcare / CJM Advisors")
+
+**Canonical DB name:** `OAK HOLLOW HEALTHCARE MANAGEMENT`
+**Current (incorrect) DB name:** `Brothers Healthcare / CJM Advisors`
+**DB facility count:** 2
+**Served:** 2 (both won Q1 2026 by Chad Vukelich)
+
+### Facilities
+| CCN | Facility Name (DB) | Facility Name (Monday.com) | Legal Business Name (CMS) | Location | Beds |
+|---|---|---|---|---|---|
+| 425310 | OAK HOLLOW OF SUMTER REHABILITATION CENTER | Pinewood Nursing Care | SUMTER OPERATIONS LLC | 1761 Pinewood Road, Sumter, SC | 96 |
+| 425048 | OAK HOLLOW OF GEORGETOWN REHABILITATION CENTER LLC | Elderwood Rehabilitation and Nursing Center | GEORGETOWN OPERATIONS LLC | 2715 South Island Road, Georgetown, SC | 84 |
+
+### Research Findings (2026-03-31)
+- **"Brothers Healthcare"** is a specialty hemophilia/infusion pharmacy (brothershealthcare.com) founded by two brothers from hemophilia camp. **Zero connection to nursing homes.** Name in DB is a data source error.
+- **"CJM Advisors"** has no web presence, no business filings found. Untraceable entity — possibly a former advisor or holding company that got coded as operator.
+- **Oak Hollow Healthcare Management** (oakhollowhcm.com) is the actual operator. Established 2022. CEO: James Allen Cunningham. Mailing address: 416 Nuway Cir, Lenoir, NC 28645.
+- **CMS chain affiliation: NONE.** Both facilities have blank Chain Name and Chain ID in CMS Provider Info (Mar 2026 extract). Each is a separate LLC with no registered chain link.
+- **CMS quality:** Sumter has 1-star overall, 41 deficiencies. Georgetown has 2-star overall.
+- Both facilities appear to have rebranded on Monday.com (Pinewood Nursing Care, Elderwood Rehabilitation) — these are NOT the DB-recorded names and are NOT the Elderwood chain (NY-based, unrelated).
+- Managerial control at Sumter changed May 2025 to Brent Morrison, Loreli Munford, Traci Pollard (per CMS/ProPublica).
+
+### Corporate Structure
+```
+Oak Hollow Healthcare Management (management company, Lenoir NC)
+├── Sumter Operations LLC → Oak Hollow of Sumter (CCN 425310, Sumter SC)
+└── Georgetown Operations LLC → Oak Hollow of Georgetown (CCN 425048, Georgetown SC)
+```
+
+### DB Actions Required (V25.6)
+1. Rename Corporate_Name: `Brothers Healthcare / CJM Advisors` → `OAK HOLLOW HEALTHCARE MANAGEMENT` (both rows)
+2. Update Corp_Attribution_Source to reflect CMS/web verification 2026-03-31
+3. Update Do_We_Serve to `Yes` for both facilities (won Q1 2026)
+4. Note Monday.com name discrepancy: AEs are using rebranded names, DB retains CMS-registered names
+
+### Sale Type Classification
+- Sumter (won 2026-01-23): **New Logo** — first facility under this operator
+- Georgetown (won 2026-02-06): **New Door** — second facility under same operator, won after Sumter
+
+**Discovered during:** BD Slides sale type reconciliation, 2026-03-31
+
+---
+
+## BHP/ENCORE → BLUEGRASS/ENCORE (corporate name normalization)
+
+**Canonical DB name:** `BLUEGRASS/ENCORE`
+**Incorrect DB variant:** `BHP/Encore`
+**DB facility count under variant:** 1
+**DB facility count under canonical:** 92 (50 served)
+
+### Facilities Affected
+| Facility | Current Corp | Correct Corp | Location | CCN |
+|---|---|---|---|---|
+| BELMONT TERRACE NURSING AND REHABILITATION CENTER | BHP/Encore | BLUEGRASS/ENCORE | 7300 Woodspoint Drive, Florence, KY | — |
+
+### Research Findings (2026-03-31)
+- BHP/Encore is a name variant of Bluegrass/Encore. The facility is in Florence, KY — squarely in the Bluegrass/Encore Kentucky footprint.
+- BLUEGRASS/ENCORE operates 92 facilities in the DB (50 served), almost all in Kentucky with some in OH, WI, MI, IL, MN.
+- Belmont Terrace was won as EST (Integration/Cross-sell) by Adam Sabie, established 2026-02-09, 90 MH consents.
+- The split into two corp names is a data source artifact.
+
+### DB Actions Required (V25.6)
+1. Rename Corporate_Name: `BHP/Encore` → `BLUEGRASS/ENCORE` (1 row)
+2. Update Do_We_Serve to `Yes` (facility is EST, actively served as of Feb 2026)
+
+**Discovered during:** BD Slides sale type reconciliation, 2026-03-31
+
+---
+
+## BROOKDALE SENIOR LIVING — Ohio INDEPENDENT Coding Issue
+
+**Canonical DB name:** `BROOKDALE SENIOR LIVING`
+**Issue:** 9 Brookdale-branded facilities in Ohio coded as `INDEPENDENT` instead of `BROOKDALE SENIOR LIVING`
+
+### Facilities Affected
+| Facility | City | State | Current Corp | Beds |
+|---|---|---|---|---|
+| BROOKDALE ALLIANCE | Alliance | OH | INDEPENDENT | 50 |
+| BROOKDALE BEAVERCREEK | Dayton | OH | INDEPENDENT | 60 |
+| BROOKDALE CAMELOT MEDINA | Medina | OH | INDEPENDENT | 150 |
+| BROOKDALE CENTENNIAL PARK | Englewood | OH | INDEPENDENT | 60 |
+| BROOKDALE GREENVILLE | Greenville | OH | INDEPENDENT | 96 |
+| BROOKDALE LAKEVIEW CROSSING | Groveport | OH | INDEPENDENT | 99 |
+| BROOKDALE SPRINGDALE ASSISTED LIVING | Springdale | OH | INDEPENDENT | 72 |
+| BROOKDALE SPRINGDALE MEMORY CARE | Springdale | OH | INDEPENDENT | 42 |
+| BROOKDALE TRILLIUM CROSSING | Columbus | OH | INDEPENDENT | 120 |
+
+### Research Context (2026-03-31)
+- Brookdale Lakeview Crossing was won by Adam Sabie (established 2026-03-05, 45 ALF PCP consents).
+- Other Brookdale facilities in the same Ohio metro (Pinnacle, Westerville, Muirfield) are correctly coded as `BROOKDALE SENIOR LIVING`.
+- Brookdale Muirfield (Dublin, OH) — 10 miles from Lakeview Crossing — is coded BROOKDALE SENIOR LIVING and Do_We_Serve = Yes.
+- Likely a NIC MAP sourcing artifact: these may be independently owned properties with Brookdale management/branding, coded by PropCo instead of operator.
+- Per operator attribution rule: if Brookdale is the clinical/business decision-maker, these should be `BROOKDALE SENIOR LIVING`.
+
+### DB Actions Required (V25.6)
+1. **Verify operator** for all 9 facilities — confirm Brookdale Senior Living is the clinical operator, not just the brand licensee
+2. If confirmed: recode Corporate_Name from `INDEPENDENT` → `BROOKDALE SENIOR LIVING` (9 rows)
+3. Update Do_We_Serve for Brookdale Lakeview Crossing to `Yes` (won Mar 2026)
+4. Sale type impact: Lakeview Crossing changes from New Logo → **New Door** (we serve 45 Brookdale facilities)
+
+**Discovered during:** BD Slides sale type reconciliation, 2026-03-31
