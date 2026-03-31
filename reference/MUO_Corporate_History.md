@@ -589,11 +589,94 @@ Legacy DOCX/PDF profiles converted to standardized markdown template with full r
 
 ---
 
-### ZANZIPER (Simcha Hyman & Naftali Zanziper)
+### ZANZIPER / PORTOPICCOLO GROUP (Simcha Hyman & Naftali Zanziper)
 **V23 Tier:** T2* (Score: 39, proposed)
-**Footprint:** 10 states | 115 DB / 200+ public
+**Footprint:** 10 states | 115 DB / 200+ public | 131 CMS-affiliated (as of March 2025)
 **Research focus:** **Regulatory and ownership structure deep dive.** CON mapping, regulatory analysis, consolidated facility list. 100% barriered — owns provider group + alliance. $12M+ CMS fines since 2021. The Ivy at Great Falls closure. Opaque layered ownership (Portopiccolo Group / 980 Investments). T5 barrier classification.
 **Profile:** `Zanziper_MUO_Profile.md`
+
+#### Ownership & Holding Structure (confirmed 2026-03-30)
+- **Principals:** Simcha Hyman (CEO) & Naftali Zanziper (President)
+- **Parent entity:** Portopiccolo Group LLC (NY-based PE, formed ~2016 after selling medical supply company)
+- **Holding chain:** Portopiccolo Group → Accordius SNF Holdco LLC → MC M53 Spe Opco Holdco → individual facility OpCo LLCs
+- **Related trusts/entities:** HC Family Trust, SHNZ Holdings LLC, Wyncote LLC, Zanziper Family Trust
+- **Key individuals on CMS filings:** Kimberly Morrow (W2 managing employee), Batya Gorelick (corporate officer)
+
+#### Regional Management Brands
+Portopiccolo does not operate under a single brand. Facilities are managed through regional management companies that do not reference Portopiccolo in their public-facing materials:
+
+| Brand | Region | HQ | Website | Notes |
+|---|---|---|---|---|
+| **Accordius Health LLC** | NC (primary) | — | — | Largest NC brand; also used as CMS "operator" name nationally |
+| **August Healthcare** / August Healthcare Group | Eastern NC + VA | — | augusthcg.com | Gatesville, Wilson, Ahoskie, Scotland Neck, Wilmington NC; Leewood + Richmond VA |
+| **Clearview Healthcare Management** | KY / TN | Louisville, KY | clearviewhcmgmt.com | Manages 8 confirmed KY facilities: Stonecreek, Mills, Green Acres, Clinton Place, Fulton, Countryside, Princeton, Chautauqua |
+| **Maple Health Group** | NC (some facilities) | Unknown | — | Copyright notice on glenwoodrnc.com (Glenwood Rehab, Mooresville). Not found as registered entity. Likely another management layer. |
+| **Citadel** | Facility-level LLCs | — | — | Used in OpCo names (Citadel Mooresville LLC, Citadel at Myers Park LLC). Also brand name for some IL/NY facilities under Citadel Healthcare / Citadel Care Centers. |
+| **Pelican Health** | NC (some facilities) | — | — | Used for Charlotte-area facilities: Pelican Health Randolph, Pelican Health at Charlotte, Pelican Health Henderson (ALF) |
+
+#### DB Corporate Name Fragmentation (6-state footprint, 58 rows as of V25.5)
+Facilities are coded under 5 different corporate names in our DB:
+- SIMCHA HYMAN & NAFTALI ZANZIPER (majority — ~35 rows)
+- ACCORDIUS HEALTH LLC/PORTOPICCOLO GROUP (~8 rows)
+- AUGUST HEALTHCARE / AUGUST HEALTHCARE GROUP (~8 rows)
+- PELICAN HEALTH HENDERSON (1 ALF row)
+- MONROE PROPCO LLC (1 row — PropCo, not operator; correction needed)
+
+**Action:** Phase 3 standardization needed. Decide on single canonical corporate name for all remaining Portopiccolo facilities.
+
+#### Hill Valley Healthcare CHOW — 6 NC Facilities Divested (2024-2025)
+Between December 2024 and May 2025, Portopiccolo divested 6 NC skilled nursing facilities to **Hill Valley Healthcare** (see separate entry below). These 6 facilities should no longer be coded to Portopiccolo/Zanziper.
+
+| DHSR Record | Former DB Name | Address | New Facility Name | New OpCo LLC | CHOW Date |
+|---|---|---|---|---|---|
+| 4648 | Accordius Health at Monroe | 204 Old Hwy 74 E, Monroe | Stratford Manor H&R | Rock Rest SNF Ops LLC | Dec 1, 2024 |
+| 4649 | Accordius Health at Charlotte | 5939 Reddman Rd, Charlotte | Redwood H&R | Eastland SNF Ops LLC | Dec 1, 2024 |
+| 4650 | Pelican Health Randolph / Sherwood | 4801 Randolph Rd, Charlotte | Sherwood H&R | Randolph Gardens SNF Ops LLC | Dec 1, 2024 |
+| 4651 | Pelican Health at Charlotte | 2616 E 5th St, Charlotte | Plaza H&R | Eastover SNF Ops LLC | Dec 1, 2024 |
+| 4652 | Accordius Health at Gastonia | 416 N Highland St, Gastonia | Belmont H&R | Heights SNF Ops LLC | Dec 1, 2024 |
+| 4743 | Accordius Health at Mooresville | 752 E Center Ave, Mooresville | Crestview H&R | Crestview SNF Ops LLC | May 1, 2025 |
+
+**Source:** NC DHSR Certificate of Need exemption filings (Records 4648-4652 filed Oct 30, 2024; Record 4743 filed 2025). Verified via operator websites, NPI registrations, and ProPublica CMS ownership records.
+
+#### Facility Name History Chains (confirmed 2026-03-30)
+- CCN 345179 (Mooresville): Brian Center H&R → Accordius Health at Mooresville → **Crestview Health & Rehabilitation** (current, Hill Valley)
+- CCN 345134 (Charlotte): Avante at Charlotte → Sherwood Health and Rehab → Pelican Health Randolph → **Sherwood Health & Rehabilitation** (current, Hill Valley)
+- CCN 345345 (Monroe): Brian Center H&R Monroe → Accordius Health at Monroe → **Stratford Manor Health & Rehabilitation** (current, Hill Valley)
+- CCN 345406 (Gatesville): Down East Living & Rehab → Accordius Health and Rehabilitation → **Gates Health and Rehab** (current, still Portopiccolo/August Healthcare)
+- CCN 345283 (Mooresville Glenwood): The Citadel Mooresville → **Glenwood Rehabilitation and Nursing Center** (current, still Portopiccolo/Maple Health Group)
+
+#### Dup Pairs Discovered During This Research (2026-03-30)
+5 address-level dup pairs found within the Portopiccolo footprint — all resolved in dedup decisions log (Pairs 14-18).
+
+---
+
+### HILL VALLEY HEALTHCARE
+**V23 Tier:** Not scored (new to our footprint via CHOW)
+**Footprint:** 6 states (MD, NV, TN, VA, WA, WV) + NC as of Dec 2024 | 39+ CMS-affiliated facilities (ProPublica affiliate a-270)
+**Canonical DB name:** TBD — recommend HILL VALLEY HEALTHCARE
+
+#### Company Profile (researched 2026-03-30)
+- **Founded:** 2018, Flushing NY
+- **Type:** Boutique national SNF operator
+- **Description:** "Healthcare support platform that enhances senior living communities through compassionate, personalized care"
+- **Size:** ~110 employees, 39+ facilities
+- **Services:** Skilled nursing, assisted living, memory care, clinical support
+- **Recent M&A:** 3 Riverside Lifelong Health facilities VA (2021), Cortland Acres WV (Sept 2024), 2 VA SNFs for $82.4M (2026), 6 Portopiccolo NC facilities (Dec 2024 / May 2025)
+
+#### NC Operations — Twin Pines Healthcare
+Hill Valley operates its NC facilities through a consulting/management brand called **Twin Pines Healthcare**:
+- **Website:** twinpineshc.com (metadata identifies Hill Valley Healthcare as parent org)
+- **Phone:** (704) 773-5085 (Charlotte area code)
+- **Description:** "Consulting company dedicated to supporting senior care communities"
+- **Focus:** North Carolina's senior care communities
+
+Evidence chain: NC DHSR CHOW filings → NPI registrations (authorized official Joseph Lieberman, VP Procurement at Hill Valley Healthcare per LinkedIn) → facility websites ([name]-hr.com pattern, all with "Serviced by Twin Pines Healthcare" footer) → Twin Pines website metadata identifying Hill Valley Healthcare as organization name.
+
+#### 6 NC Facilities (all acquired from Portopiccolo/Accordius)
+See CHOW table in Portopiccolo entry above. All carry [name]-hr.com websites with Twin Pines Healthcare branding.
+
+#### Scoring Consideration
+6 NC SNFs in our footprint. None currently served. All have Barrier=Alliance or Own Provider Group from the Portopiccolo era — barrier status may have changed under new ownership. Evaluate for scoring board when freeze lifts (June 6, 2026).
 
 ---
 

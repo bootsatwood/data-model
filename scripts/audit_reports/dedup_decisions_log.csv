@@ -17,3 +17,24 @@ Pair,Address,City,State,Action,Excel_Row,Facility_Name,Type,Beds,Source,Served,N
 10,1227 State Route 45 N,Mayfield,KY,KEEP,5786,FERN TERRACE MAYFIELD,ALF,122,GLR,Yes,Beds 122→140 (GLR); 124 pts all PC
 11,3362 Buckland Sq,Owensboro,KY,DELETE,5937,MORNING POINTE OF OWENSBORO,ALF,66,NIC-A,No,Genesis is NIC MAP misattribution; real operator Morning Pointe; Heritage Place acquired Sep 2024
 11,3362 Buckland Sq,Owensboro,KY,KEEP,5931,MORNING POINTE OWENSBORO,ALF,14,GLR,Yes,Beds 14→66 (KY license); 20 pts (17 PC); Integrated; Morning Pointe confirmed operator
+12,108 S Miller St,Cynthiana,KY,DELETE,19277,SHADY LAWN,ALF,75,GLR,No,Duplicate of row 6055; not served; 0 GLR patients; same Campus_ID 1440
+12,108 S Miller St,Cynthiana,KY,KEEP,6055,SHADY LAWN - CYNTHIANA,ALF,56,GLR,Yes,Beds 56→75 (GLR); 56 pts all PC; Integrated; single GLR record at address
+13,981 Campbell Ln,Bowling Green,KY,DELETE,6100,THE BUNGALOWS AT BOWLING GREEN,ALF,42,GLR,No,Typo variant duplicate of row 6098; not served; 0 GLR patients; same Campus_ID 23562
+13,981 Campbell Ln,Bowling Green,KY,KEEP,6098,THE BUNGALOS AT BOWLING GREEN,ALF,19,GLR,Yes,Beds 19→28 (GLR); 19 pts (15 PC); MH=Yes; Phoenix Senior Living
+14,752 E Center Ave,Mooresville,NC,DELETE,17024,ACCORDIUS HEALTH AT MOORESVILLE,SNF,141,GLR,No,Duplicate; same CCN 345179; same Campus_ID 20978; not served; 0 GLR patients
+14,752 E Center Ave,Mooresville,NC,DELETE,20199,CRESTVIEW HEALTH & REHABILITATION,SNF,71,GLR,No,Former name variant; same CCN 345179; 47 GLR pts linked here but served flag on 8591
+14,752 E Center Ave,Mooresville,NC,KEEP,8591,ACCORDIUS HEALTH AT MOORESVILLE,SNF,131,GLR,Yes,Rename→CRESTVIEW HEALTH & REHABILITATION; beds 131→71; census 89→57; MH=Yes; Barrier=Own Provider Group; corp recode to Hill Valley Healthcare (Phase 2); CHOW May 2025
+15,4801 Randolph Rd,Charlotte,NC,DELETE,9286,PELICAN HEALTH RANDOLPH LLC,SNF,100,GLR,Yes,Duplicate; same CCN 345134; same Campus_ID 16347; no GLR patient link; no CCN on this row
+15,4801 Randolph Rd,Charlotte,NC,KEEP,20198,SHERWOOD HEALTH AND REHAB,SNF,100,GLR,Yes,Keep name as-is; 48 GLR pts (41 PC 34 Spec); CCN 345134; MH=Yes; Barrier=Alliance; corp recode to Hill Valley Healthcare (Phase 2); CHOW Dec 2024
+16,204 Old Hwy 74 E,Monroe,NC,DELETE,19465,STRATFORD MANOR HEALTH & REHABILITATION,SNF,66,LEGACY,No,PropCo attribution (Monroe PropCo LLC); wrong ownership type (Independent); beds 66 don't match CMS 60; LEGACY source
+16,204 Old Hwy 74 E,Monroe,NC,KEEP,8590,ACCORDIUS HEALTH AT MONROE,SNF,60,CMS,No,Rename→STRATFORD MANOR HEALTH & REHABILITATION; CCN 345345; beds=60 match CMS; corp recode to Hill Valley Healthcare (Phase 2); CHOW Dec 2024
+17,38 Carters Rd,Gatesville,NC,DELETE,8585,ACCORDIUS HEALTH AND REHABILITATION,SNF,70,CMS,No,Old Accordius name; duplicate CMS load; same Campus_ID 14301; CCN 345406
+17,38 Carters Rd,Gatesville,NC,KEEP,18008,GATES HEALTH AND REHAB,SNF,72,CMS,No,Current name per gatesrehab.com; beds 72→70 (CMS); still August Healthcare/Portopiccolo; no CHOW
+18,550 Glenwood Dr,Mooresville,NC,DELETE,9543,THE CITADEL MOORESVILLE,SNF,130,CMS,No,Old Citadel name; duplicate CMS load; same Campus_ID 17861; CCN 345283
+18,550 Glenwood Dr,Mooresville,NC,KEEP,18035,GLENWOOD REHABILITATION AND NURSING,SNF,143,CMS,No,Current name per glenwoodrnc.com; beds 143→130 (CMS); still Portopiccolo (Maple Health Group mgmt brand); no CHOW
+CHOW-1,752 E Center Ave,Mooresville,NC,RECODE,8591,ACCORDIUS HEALTH AT MOORESVILLE,SNF,131,GLR,Yes,CHOW recode: name→CRESTVIEW HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; beds 131→71; census 89→57; DHSR Record 4743 May 2025; verified crestview-hr.com Twin Pines HC
+CHOW-2,4801 Randolph Rd,Charlotte,NC,RECODE,20198,SHERWOOD HEALTH AND REHAB,SNF,100,GLR,Yes,CHOW recode: name stays as-is; corp→HILL VALLEY HEALTHCARE; DHSR Record 4650 Dec 2024; verified sherwood-hr.com Twin Pines HC
+CHOW-3,204 Old Hwy 74 E,Monroe,NC,RECODE,8590,ACCORDIUS HEALTH AT MONROE,SNF,60,CMS,No,CHOW recode: name→STRATFORD MANOR HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; DHSR Record 4648 Dec 2024; verified stratfordmanor-hr.com Twin Pines HC
+CHOW-4,5939 Reddman Rd,Charlotte,NC,RECODE,8586,ACCORDIUS HEALTH AT CHARLOTTE,SNF,116,CMS,No,CHOW recode: name→REDWOOD HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; DHSR Record 4649 Dec 2024; verified redwood-hr.com Twin Pines HC
+CHOW-5,2616 E 5th St,Charlotte,NC,RECODE,9285,PELICAN HEALTH AT CHARLOTTE,SNF,120,CMS,No,CHOW recode: name→PLAZA HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; DHSR Record 4651 Dec 2024; verified plaza-hr.com Twin Pines HC
+CHOW-6,416 N Highland St,Gastonia,NC,RECODE,8588,ACCORDIUS HEALTH AT GASTONIA,SNF,118,CMS,No,CHOW recode: name→BELMONT HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; DHSR Record 4652 Dec 2024; verified belmont-hr.com Twin Pines HC
