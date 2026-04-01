@@ -607,25 +607,35 @@ Portopiccolo does not operate under a single brand. Facilities are managed throu
 
 | Brand | Region | HQ | Website | Notes |
 |---|---|---|---|---|
-| **Accordius Health LLC** | NC (primary) | — | — | Largest NC brand; also used as CMS "operator" name nationally |
-| **August Healthcare** / August Healthcare Group | Eastern NC + VA | — | augusthcg.com | Gatesville, Wilson, Ahoskie, Scotland Neck, Wilmington NC; Leewood + Richmond VA |
-| **Clearview Healthcare Management** | KY / TN | Louisville, KY | clearviewhcmgmt.com | Manages 8 confirmed KY facilities: Stonecreek, Mills, Green Acres, Clinton Place, Fulton, Countryside, Princeton, Chautauqua |
-| **Maple Health Group** | NC (some facilities) | Unknown | — | Copyright notice on glenwoodrnc.com (Glenwood Rehab, Mooresville). Not found as registered entity. Likely another management layer. |
-| **Citadel** | Facility-level LLCs | — | — | Used in OpCo names (Citadel Mooresville LLC, Citadel at Myers Park LLC). Also brand name for some IL/NY facilities under Citadel Healthcare / Citadel Care Centers. |
-| **Pelican Health** | NC (some facilities) | — | — | Used for Charlotte-area facilities: Pelican Health Randolph, Pelican Health at Charlotte, Pelican Health Henderson (ALF) |
+| **Accordius Health LLC** | NC (primary) | — | — | Largest NC brand; also used as CMS "operator" name nationally. Down to 1 facility in DB footprint (Midwood, Charlotte). |
+| **August Healthcare** / August Healthcare Group | Eastern NC + VA | Englewood Cliffs NJ (shared address with Portopiccolo) | augusthcg.com | 9 facilities (6 NC, 3 VA). Founded Sept 2021 by Ben Cohen (ex-Hyman company ACG). CMS shows Augustnc Holdco LLC / Itamar Cohen as owner. Portopiccolo spokesman denied ownership but shared HQ, direct Accordius transfers, PropCo still Portopiccolo. Confirmed via UC Berkeley investigative journalism, ProPublica CMS filings. |
+| **YAD Healthcare** | NC, SC, VA | — | yadhealth.com | 19+ facilities in DB. Operates Clayton, Eden, Goldsboro, Wallace, Wilson (Downing St) + others. NC East Holding LLC / Tzvi Alter ownership per CMS. Websites say "A proud member of YAD Healthcare." |
+| **Alliance Health Group** | NC, FL | — | alliancehealthgrp.com | 10+ facilities in DB. Operates Cypress Valley, Lotus Village, Ridge Valley + Camellia Gardens, Cedar Hills, Dahlia Gardens, Linden Place, Magnolia Gardens, Mill Creek, Piedmont Hills, Pine Acres, Willow Valley. Facility websites redirect to alliancehealthgrp.com. |
+| **Clearview Healthcare Management** | KY / TN | Louisville, KY | clearviewhcmgmt.com | 28 facilities in DB (8 already coded CLEARVIEW + 20 recoded from Hyman/Zanziper). All KY Portopiccolo facilities. |
+| **Maple Health Group** | NC (some facilities) | Unknown | — | Copyright notice on glenwoodrnc.com and salisburyrnc.com. 2 facilities: Glenwood (Mooresville), Salisbury. Not found as registered entity. Salisbury may have CHOWed to Hill Valley (Meadowbrook SNF Ops, 5/1/2025). |
+| **Citadel** | Facility-level LLCs | — | — | Used in OpCo names (Citadel Mooresville LLC, Citadel at Myers Park LLC). Myers Park CMS-decertified Mar 2025, reopened under CARE Management. |
+| **Pelican Health** | NC (some facilities) | — | — | Charlotte-area facilities. Pelican Health Randolph and Pelican Health at Charlotte both CHOWed to Hill Valley. Pelican Health Henderson (Camellia Gardens ALF, Durham) — verification pending. |
 
-#### DB Corporate Name Fragmentation (6-state footprint, 58 rows as of V25.5)
-Facilities are coded under 5 different corporate names in our DB:
-- SIMCHA HYMAN & NAFTALI ZANZIPER (majority — ~35 rows)
-- ACCORDIUS HEALTH LLC/PORTOPICCOLO GROUP (~8 rows)
-- AUGUST HEALTHCARE / AUGUST HEALTHCARE GROUP (~8 rows)
-- PELICAN HEALTH HENDERSON (1 ALF row)
-- MONROE PROPCO LLC (1 row — PropCo, not operator; correction needed)
+#### DB Corporate Name Standardization (Phase 3, completed 2026-04-01)
+All 39 rows coded "SIMCHA HYMAN & NAFTALI ZANZIPER" recoded to actual operator brand. Decision: code the clinical/business decision-maker (regional operator), not the PE parent (Portopiccolo) or CMS-listed owner principals.
 
-**Action:** Phase 3 standardization needed. Decide on single canonical corporate name for all remaining Portopiccolo facilities.
+| New Corp Name | Rows Recoded | Region |
+|---|---|---|
+| CLEARVIEW | 20 | KY (joins 8 existing) |
+| YAD HEALTHCARE | 5 | NC (joins 19 existing) |
+| AUGUST HEALTHCARE | 4 | NC (1 Rose Manor) + VA (2) + NC (1 variant fix) |
+| ALLIANCE HEALTH GROUP | 3 | NC (joins 10 existing) |
+| HILL VALLEY HEALTHCARE | 1 | NC Concord (new CHOW #7) |
+| CARE MANAGEMENT | 1 | NC Myers Park (CMS decertified, new operator) |
+| MAPLE HEALTH GROUP | 2 | NC Glenwood + Salisbury (Salisbury may be Hill Valley) |
+| ACCORDIUS HEALTH | 1 | NC Midwood (last Accordius facility) |
 
-#### Hill Valley Healthcare CHOW — 6 NC Facilities Divested (2024-2025)
-Between December 2024 and May 2025, Portopiccolo divested 6 NC skilled nursing facilities to **Hill Valley Healthcare** (see separate entry below). These 6 facilities should no longer be coded to Portopiccolo/Zanziper.
+Previously standardized (Phase 2): 6 rows ACCORDIUS HEALTH LLC/PORTOPICCOLO GROUP → HILL VALLEY HEALTHCARE.
+Also corrected: 1 row AUGUST HEALTHCARE GROUP → AUGUST HEALTHCARE (variant fix), 1 row MONROE PROPCO LLC deleted (PropCo, dedup Pair 16).
+Remaining: 1 row PELICAN HEALTH HENDERSON (Camellia Gardens Durham) — pending verification. 2 rows (OH, SC) — pending verification.
+
+#### Hill Valley Healthcare CHOW — 7 NC Facilities Divested (2024-2025)
+Between December 2024 and May 2025, Portopiccolo divested **7** NC skilled nursing facilities to **Hill Valley Healthcare** (see separate entry below). An 8th (Salisbury) may also have transferred (closing date 5/1/2025, pending confirmation).
 
 | DHSR Record | Former DB Name | Address | New Facility Name | New OpCo LLC | CHOW Date |
 |---|---|---|---|---|---|
@@ -635,8 +645,14 @@ Between December 2024 and May 2025, Portopiccolo divested 6 NC skilled nursing f
 | 4651 | Pelican Health at Charlotte | 2616 E 5th St, Charlotte | Plaza H&R | Eastover SNF Ops LLC | Dec 1, 2024 |
 | 4652 | Accordius Health at Gastonia | 416 N Highland St, Gastonia | Belmont H&R | Heights SNF Ops LLC | Dec 1, 2024 |
 | 4743 | Accordius Health at Mooresville | 752 E Center Ave, Mooresville | Crestview H&R | Crestview SNF Ops LLC | May 1, 2025 |
+| TBD | Accordius Health at Concord | 515 Lake Concord Rd NE, Concord | Copperfield H&R | Copperfield SNF Ops LLC | May 1, 2025 |
+| TBD | Salisbury Rehabilitation & Nursing | 635 Statesville Blvd, Salisbury | Meadowbrook H&R (?) | Meadowbrook SNF Ops LLC (?) | May 1, 2025 (?) |
 
-**Source:** NC DHSR Certificate of Need exemption filings (Records 4648-4652 filed Oct 30, 2024; Record 4743 filed 2025). Verified via operator websites, NPI registrations, and ProPublica CMS ownership records.
+**Source:** NC DHSR Certificate of Need exemption filings (Records 4648-4652 filed Oct 30, 2024; Record 4743 filed 2025). Concord discovered via copperfield-hr.com (Twin Pines branding) during Phase 3 research. Salisbury flagged via meadowbrook-hr.com — pending confirmation.
+
+#### Other Portopiccolo Departures (non-Hill Valley)
+- **The Citadel at Myers Park** (300 Providence Rd, Charlotte) — CMS terminated provider agreement March 7, 2025 (Immediate Jeopardy findings Dec 2024 / Feb 2025). Reopened as **Myers Park Nursing Center** under **CARE Management Company** (myersparknc.com). No longer Portopiccolo.
+- **17 VA facilities** divested to Eastern Healthcare Group in 2023 (per SoVaNOW reporting). 12 of 17 had 1-star CMS ratings at time of transfer.
 
 #### Facility Name History Chains (confirmed 2026-03-30)
 - CCN 345179 (Mooresville): Brian Center H&R → Accordius Health at Mooresville → **Crestview Health & Rehabilitation** (current, Hill Valley)

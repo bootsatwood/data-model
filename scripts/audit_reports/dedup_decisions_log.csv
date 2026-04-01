@@ -38,3 +38,21 @@ CHOW-3,204 Old Hwy 74 E,Monroe,NC,RECODE,8590,ACCORDIUS HEALTH AT MONROE,SNF,60,
 CHOW-4,5939 Reddman Rd,Charlotte,NC,RECODE,8586,ACCORDIUS HEALTH AT CHARLOTTE,SNF,116,CMS,No,CHOW recode: name→REDWOOD HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; DHSR Record 4649 Dec 2024; verified redwood-hr.com Twin Pines HC
 CHOW-5,2616 E 5th St,Charlotte,NC,RECODE,9285,PELICAN HEALTH AT CHARLOTTE,SNF,120,CMS,No,CHOW recode: name→PLAZA HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; DHSR Record 4651 Dec 2024; verified plaza-hr.com Twin Pines HC
 CHOW-6,416 N Highland St,Gastonia,NC,RECODE,8588,ACCORDIUS HEALTH AT GASTONIA,SNF,118,CMS,No,CHOW recode: name→BELMONT HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; DHSR Record 4652 Dec 2024; verified belmont-hr.com Twin Pines HC
+CHOW-7,515 Lake Concord Rd NE,Concord,NC,RECODE,8587,ACCORDIUS HEALTH AT CONCORD,SNF,120,CMS,No,NEW CHOW discovered Phase 3: name→COPPERFIELD HEALTH & REHABILITATION; corp→HILL VALLEY HEALTHCARE; copperfield-hr.com Twin Pines HC; Copperfield SNF Ops LLC eff May 2025
+P3-1,300 Providence Rd,Charlotte,NC,RECODE,9542,THE CITADEL AT MYERS PARK LLC,SNF,133,CMS,No,CMS decertified Mar 7 2025 (Immediate Jeopardy); reopened as MYERS PARK NURSING CENTER; corp→CARE MANAGEMENT; myersparknc.com
+P3-2,2727 Shamrock Dr,Charlotte,NC,RECODE,8589,ACCORDIUS HEALTH AT MIDWOOD LLC,SNF,100,CMS,No,Corp→ACCORDIUS HEALTH; last Accordius-branded facility in footprint; still Portopiccolo per CMS
+P3-3,4230 N Roxboro St,Durham,NC,RECODE,8592,ACCORDIUS HEALTH AT ROSE MANOR LLC,SNF,111,CMS,No,Corp→AUGUST HEALTHCARE; listed on augusthcg.com as Rose Manor Health & Rehab
+P3-4,1804 Forest Hills Rd W,Wilson,NC,RECODE,9041,HARMONY PARK WILSON,ALF,46,GLR,Yes,Corp AUGUST HEALTHCARE GROUP→AUGUST HEALTHCARE; name variant standardization
+P3-5,,VA,RECODE,15805,AUGUST HEALTHCARE AT LEEWOOD,SNF,132,CMS,No,Corp SIMCHA HYMAN & NAFTALI ZANZIPER→AUGUST HEALTHCARE; listed on augusthcg.com
+P3-6,,VA,RECODE,15806,AUGUST HEALTHCARE AT RICHMOND,SNF,32,CMS,No,Corp SIMCHA HYMAN & NAFTALI ZANZIPER→AUGUST HEALTHCARE; listed on augusthcg.com
+P3-7,204 Dairy Rd,Clayton,NC,RECODE,8796,CLAYTON REHABILITATION AND HEALTHCARE CENTER,SNF,90,CMS,No,Corp→YAD HEALTHCARE; website confirms "A proud member of YAD Healthcare"
+P3-8,226 N Oakland Ave,Eden,NC,RECODE,8928,EDEN REHABILITATION AND HEALTHCARE CENTER,SNF,112,CMS,No,Corp→YAD HEALTHCARE; website confirms YAD Healthcare branding
+P3-9,1700 Wayne Memorial Dr,Goldsboro,NC,RECODE,8984,GOLDSBORO REHABILITATION AND HEALTHCARE CENTER,SNF,130,CMS,No,Corp→YAD HEALTHCARE; website confirms YAD Healthcare branding
+P3-10,647 S East Railroad St,Wallace,NC,RECODE,9725,WALLACE REHABILITATION AND HEALTHCARE CENTER,SNF,80,CMS,No,Corp→YAD HEALTHCARE; website confirms YAD Healthcare branding
+P3-11,2501 Downing St SW,Wilson,NC,RECODE,9751,WILSON HEALTHCARE AND REHABILITATION CENTER,SNF,81,CMS,No,Corp→YAD HEALTHCARE; website confirms YAD Healthcare branding
+P3-12,543 Maple Ave,Reidsville,NC,RECODE,8812,CYPRESS VALLEY CNTR FOR NURSING AND REHABILITATION,SNF,110,CMS,No,Corp→ALLIANCE HEALTH GROUP; website cypressvalleycnr.com redirects to alliancehealthgrp.com
+P3-13,179 Combs St,Sparta,NC,RECODE,9139,LOTUS VILLAGE CENTER FOR NURSING & REHABILITATION,SNF,90,CMS,No,Corp→ALLIANCE HEALTH GROUP; website lotusvillagecnr.com redirects to alliancehealthgrp.com
+P3-14,1000 College St,Wilkesboro,NC,RECODE,9372,RIDGE VALLEY CENTER FOR NURSING AND REHABILITATION,SNF,120,CMS,No,Corp→ALLIANCE HEALTH GROUP; website ridgevalleycnr.com redirects to alliancehealthgrp.com
+P3-15,550 Glenwood Dr,Mooresville,NC,RECODE,18035,GLENWOOD REHABILITATION AND NURSING,SNF,143,CMS,No,Corp→MAPLE HEALTH GROUP; glenwoodrnc.com copyright Maple Health Group
+P3-16,635 Statesville Blvd,Salisbury,NC,RECODE,9423,SALISBURY REHABILITATION AND NURSING CENTER,SNF,185,CMS,No,Corp→MAPLE HEALTH GROUP; salisburyrnc.com copyright Maple Health Group; FLAG: may have CHOWed to Hill Valley (Meadowbrook SNF Ops LLC closing 5/1/2025)
+P3-KY,various,KY,RECODE_BATCH,20 rows,various KY facilities,SNF,various,CMS,various,Corp SIMCHA HYMAN & NAFTALI ZANZIPER→CLEARVIEW; all 20 KY facilities managed by Clearview Healthcare Management per clearviewhcmgmt.com portfolio; joins 8 existing CLEARVIEW rows in DB
