@@ -1235,5 +1235,40 @@ Oak Hollow Healthcare Management (management company, Lenoir NC)
 2. If confirmed: recode Corporate_Name from `INDEPENDENT` → `BROOKDALE SENIOR LIVING` (9 rows)
 3. Update Do_We_Serve for Brookdale Lakeview Crossing to `Yes` (won Mar 2026)
 4. Sale type impact: Lakeview Crossing changes from New Logo → **New Door** (we serve 45 Brookdale facilities)
+5. **NIC MAP confirmation (2026-04-01):** NIC MAP Owner = "NHP McClain LLC" (PropCo), Operator = "Brookdale Senior Living Inc." — confirms Brookdale is the operator, not INDEPENDENT.
 
 **Discovered during:** BD Slides sale type reconciliation, 2026-03-31
+
+---
+
+## TRIPLE CROWN SENIOR LIVING / CHANDLER MEMORY CARE (CHOW confirmation)
+
+**Canonical DB name:** `TRIPLE CROWN SENIOR LIVING`
+**Previous operator:** Chandler Memory Care (pre-July 2022)
+**NIC MAP name (Nov 2025 export):** Chandler Memory Care (stale — 3+ years post-acquisition)
+
+### Facilities Affected
+| Facility | Location | Current Name | Previous Name |
+|---|---|---|---|
+| Cardinal Landing Memory Care | 1310 Campbell Lane, Bowling Green, KY | Cardinal Landing Memory Care | Chandler Memory Care |
+| Chandler Park Assisted Living | Bowling Green, KY | Chandler Park Assisted Living | Chandler Park Assisted Living |
+
+### Timeline
+| Date | Event | Source |
+|---|---|---|
+| Pre-2022 | Facilities operated as Chandler Memory Care and Chandler Park Assisted Living | NIC MAP, Kentucky Senior Living Association |
+| July 2022 | Denton Floyd Real Estate Group and Triple Crown Senior Living closed acquisition of both communities (92 total units: 61 AL + 31 MC) | triplecrownseniorliving.com |
+| Post-2022 | Chandler Memory Care rebranded to Cardinal Landing Memory Care | aplaceformom.com, cardinallandingmemorycare.com |
+
+### NIC MAP Cross-Reference (2026-04-01)
+- NIC MAP Owner: Chandler Senior LLC (PropCo)
+- NIC MAP Operator: Chandler Memory Care (STALE — pre-acquisition name, 3+ years behind)
+- DB: TRIPLE CROWN SENIOR LIVING (correct, post-acquisition)
+- NIC MAP export date: Nov 17, 2025
+
+### Notes
+- Triple Crown Senior Living: 10 communities, 872 units, KY/IN/OH/TN. Established 2017.
+- Chandler Park Assisted Living (sister community) in Monday.com pipeline: Samantha Roark, Consenting, March 2026.
+- NIC MAP PropCo entity (Chandler Senior LLC) retains the pre-acquisition name.
+
+**Discovered during:** NIC MAP cross-reference during sale type verification, 2026-04-01
