@@ -307,8 +307,10 @@ When the verified operator is known, determine the correct corporate name for th
 
 7. **INDEPENDENT requires verification, not assumption.** INDEPENDENT in the Forward Universe often means the upstream source didn't know the operator — it is an absence of data, not a confirmed classification. Before accepting INDEPENDENT as correct, verify through the full source sequence that no corporate operator exists. The Seven Acres case required a two-pass investigation through ownership filings, personnel research, and corporate website verification before INDEPENDENT could be confirmed.
 
-8. **Check the GLR** — what corporate name does the GLR use? The GLR codes by operator, which confirms the approach.
-9. **Log all name variants, mergers, rebrands, and corporate relationships** to `MUO_Corporate_History.md` immediately.
+8. **Name similarity does NOT determine corporate attribution.** A facility name that contains a word matching a corporate operator name does not mean that operator runs the facility. "Harmony Hall" (70-year-old facility name in Kinston NC, operated by Principle LTC) was misattributed to HARMONY SENIOR SERVICES (Charleston SC ALF operator) because both contain "Harmony." They are completely unrelated. The same false-match risk exists for any common word in senior living — Liberty, Heritage, Brookdale, Providence, Sunrise, Morning Pointe, Spring, etc. Always verify through the source sequence. Never attribute based on name resemblance.
+
+9. **Check the GLR** — what corporate name does the GLR use? The GLR codes by operator, which confirms the approach.
+10. **Log all name variants, mergers, rebrands, and corporate relationships** to `MUO_Corporate_History.md` immediately.
 
 ---
 
