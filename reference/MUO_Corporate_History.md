@@ -632,7 +632,11 @@ All 39 rows coded "SIMCHA HYMAN & NAFTALI ZANZIPER" recoded to actual operator b
 
 Previously standardized (Phase 2): 6 rows ACCORDIUS HEALTH LLC/PORTOPICCOLO GROUP → HILL VALLEY HEALTHCARE.
 Also corrected: 1 row AUGUST HEALTHCARE GROUP → AUGUST HEALTHCARE (variant fix), 1 row MONROE PROPCO LLC deleted (PropCo, dedup Pair 16).
-Remaining: 1 row PELICAN HEALTH HENDERSON (Camellia Gardens Durham) — pending verification. 2 rows (OH, SC) — pending verification.
+Remaining after Phase 3 (verified 2026-04-04):
+- **Camellia Gardens Durham NC (PELICAN HEALTH HENDERSON):** RESOLVED → ALLIANCE HEALTH GROUP. ProPublica shows Alliance Health Group LLC managerial control since Aug 2024. alliancehealthgrp.com has dedicated community page. Recode to ALLIANCE HEALTH GROUP.
+- **Beavercreek Health & Rehab OH (SIMCHA HYMAN & NAFTALI ZANZIPER):** Still Portopiccolo. ProPublica: Flyer 1 Operations Holdings LLC (100%), Naftali Zanziper indirect. Chain = Hyman/Zanziper. OH management brand unknown — no regional brand mapped for OH. Website behind CAPTCHA. Logged to follow-up tracker.
+- **Achieve Rehabilitation SC (SIMCHA HYMAN & NAFTALI ZANZIPER):** Still Portopiccolo. ProPublica: Hyman 50% + Zanziper 50% direct. No managing entity listed. SC management brand unknown — single SC facility. Website returned 403. Logged to follow-up tracker.
+- **Salisbury Rehab & Nursing NC (MAPLE HEALTH GROUP):** Likely Hill Valley CHOW #8. meadowbrook-hr.com follows the Hill Valley URL convention ([name]-hr.com) but site is currently down (ECONNREFUSED). Logged to follow-up tracker — confirm when site comes back online.
 
 #### Hill Valley Healthcare CHOW — 7 NC Facilities Divested (2024-2025)
 Between December 2024 and May 2025, Portopiccolo divested **7** NC skilled nursing facilities to **Hill Valley Healthcare** (see separate entry below). An 8th (Salisbury) may also have transferred (closing date 5/1/2025, pending confirmation).
