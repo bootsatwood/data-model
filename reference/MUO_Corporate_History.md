@@ -1643,3 +1643,42 @@ Per the operator attribution rule and owner-vs-management-company guidance: code
 - essentialseniorhealthandliving.org: Northview, Elwood, Summit listed. Community LTC Inc is the ProPublica managing entity.
 
 **Discovered during:** Comprehensive scrub procedure test, punchlist #23 verification, 2026-04-04
+
+---
+
+### CARLYLE SENIOR CARE
+**CMS Chain:** 599 (8 facilities, all SC)
+**Legal Owner:** New Day Health Ventures LLC (100%) — Richard Cranford (67%), Braxton W. Barnette (33%)
+**Brand:** Carlyle Senior Care of [City]
+**V23 Tier:** T4 (7 campuses V25.5, SC only, 0 served)
+
+#### McCoy Memorial Resolution (Punchlist #24, 2026-04-04)
+McCoy Memorial Nursing Center (CCN 425174, Bishopville SC) was coded in the Forward Universe as CONCIERGE HEALTHCARE. GLR also carries "Concierge Healthcare."
+
+**"Concierge Healthcare" is a phantom corporate name.** Per-source verification:
+- CMS: Chain = Carlyle Senior Care (599). Legal business name = New Day Health Ventures LLC. No "Concierge" anywhere.
+- ProPublica: Owner = New Day Health Ventures LLC (100%). No managing entity named Concierge.
+- SC State Registry (DHEC License NCF-0986): Admissions email = mboykin@carlyleseniorcare.com. Facility also known as "Carlyle Senior Care of Bishopville."
+- Web: "Concierge Healthcare" returns zero results connected to Cranford, Barnette, New Day Health, or any SC nursing facility. Does not exist.
+
+**Origin of phantom name unknown.** Possibly a prior management company name that persisted in the GLR after the relationship ended, or a data entry error. No evidence it was ever a real operator.
+
+**Action:** Recode CONCIERGE HEALTHCARE → CARLYLE SENIOR CARE on the McCoy Memorial row. Flag GLR correction needed (internal communication trigger).
+
+**Ownership table:**
+| Layer | Entity |
+|---|---|
+| Legal Owner | New Day Health Ventures LLC (Cranford 67% / Barnette 33%) |
+| PropCo | N/A (same entity owns and operates) |
+| Management Company | Carlyle Senior Care (operating brand) |
+| Sub-brand | N/A |
+| Operator / Chain | CARLYLE SENIOR CARE (CMS Chain 599) |
+
+**Sources:**
+- ProPublica: projects.propublica.org/nursing-homes/homes/h-425174
+- ProPublica (Blackville): projects.propublica.org/nursing-homes/homes/h-425319
+- ProPublica (Fork): projects.propublica.org/nursing-homes/homes/h-425093
+- SC State Registry: nfbl.sc.gov/FacilityInformation.php?FacID=174
+- Carlyle websites: carlyleflorence.com, carlylekingstree.com (Wix-built, branded)
+
+**Discovered during:** Comprehensive scrub procedure test, punchlist #24 verification, 2026-04-04

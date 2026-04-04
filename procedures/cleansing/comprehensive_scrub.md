@@ -2,6 +2,26 @@
 
 > **Usage note:** When following this procedure, if a situation does not match any documented pattern, if a step is ambiguous, or if you have to make an assumption the procedure does not address — stop and flag it. Describe what you encountered, what guidance you expected to find, and what you had to assume. These flags are how the procedure gets improved. Do not silently work around gaps.
 
+### Logging is concurrent, not trailing
+
+Every time a source check reveals a discrepancy — between the Forward Universe and an external source, between the GLR and CMS, between two external sources — log it immediately before moving to the next source or the next facility. Do not accumulate findings and log at the end. Findings evaporate when logging is deferred.
+
+**What to log and where:**
+
+| When You Find... | Log Immediately To |
+|---|---|
+| A recode decision (delete row, change corporate name, change type) | `scripts/audit_reports/dedup_decisions_log.csv` |
+| Corporate intel (M&A, CHOW, rebrand, ownership structure, founder, leadership) | `reference/MUO_Corporate_History.md` |
+| GLR carries a different corporate name or facility name than verified truth | `scripts/audit_reports/glr_change_log.csv` |
+| Finance or another internal system carries a different name than verified truth | `scripts/audit_reports/glr_change_log.csv` + flag to stakeholder |
+| A facility-level CHOW event | `reference/Facility_Acquisitions_Log.md` |
+| An LLC/PropCo mapped to its true operator | Memory: `reference/propco_llc_inventory.md` |
+| An operator fully researched (all sources checked, conclusion reached) | Memory: `reference/operator_research_log.md` |
+
+**The GLR change log is not optional.** Any time the verified operator differs from what the GLR carries as Parent Company, log the correction. This is what triggers the internal communication to the GLR/BD/Finance team. If it's not logged, the correction doesn't happen and the discrepancy persists across systems.
+
+---
+
 ## Procedure 1: Identify Candidate Clusters
 
 The address is the anchor. Facilities don't move — ownership changes, names change, the spelling of names change, corporate structures change, but the physical location is the most stable fact in the database.
