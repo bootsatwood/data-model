@@ -1272,3 +1272,374 @@ Oak Hollow Healthcare Management (management company, Lenoir NC)
 - NIC MAP PropCo entity (Chandler Senior LLC) retains the pre-acquisition name.
 
 **Discovered during:** NIC MAP cross-reference during sale type verification, 2026-04-01
+
+---
+
+## HILL VALLEY / LYON / BEDROCK — Chopp Family Corporate Family
+
+**Canonical DB names:** `LYON HEALTHCARE` (Chain 837, KY/TN), `HILL VALLEY HEALTHCARE` (Chain 270, MD/NV/TN/VA/WA/WV), `BEDROCK HEALTHCARE` (Chain 73, WI/FL)
+**DB facility count:** Lyon 9 (KY), Hill Valley ~39 (multi-state), Bedrock ~6 (WI/FL). Combined ~59 facilities.
+**Served:** 3 under Lyon (Chestnut Ridge, Hartland Park x2 in KY)
+**Controlling family:** Tzali "Martin" Chopp, Pnina Chopp, Solomon Chopp (Suffern, NY / Lakewood, NJ)
+
+### The Corporate Structure
+
+These are **three CMS chain registrations operated by one family** using layered holding entities. Lyon Healthcare is not an independent company — it is a consumer-facing brand for the Chopp family's Kentucky/Tennessee operations. Hill Valley Healthcare is the primary national brand. Bedrock Healthcare is the secondary brand for Wisconsin and Florida.
+
+```
+CHOPP FAMILY (Tzali/Martin, Pnina, Solomon)
+  |
+  |-- Opal Healthcare (management/holding umbrella)
+  |     |-- Opal Healthcare WI LLC (Wisconsin)
+  |     |-- Opal Healthcare FL LLC (Florida)
+  |
+  |-- HOLDING ENTITIES
+  |     |-- MC Capital 2 LLC / MC Capital Trust (Martin Chopp)
+  |     |-- SC Capital 2 LLC / SC Capital Trust (Solomon Chopp)
+  |     |-- TC Capital 2 / TC Capital Trust (Tzali Chopp)
+  |     |-- Lion 26 Holdings LLC (5%+ indirect in 37+ Hill Valley facs)
+  |     |-- Sabrina 1818 Holdings LLC (5%+ indirect in 38+ Hill Valley facs)
+  |     |-- Saessy Irrevocable Trust
+  |     |-- Tatiriq Irrevocable Trust
+  |
+  |-- OPERATING CHAINS (3 separate CMS Chain IDs)
+  |     |-- Hill Valley Healthcare (Chain 270) — 39 facs: MD, NV, TN, VA, WA, WV
+  |     |     Co-CEOs: Shimmy Idels, Steven Schwartz (Woodmere/Flushing NY)
+  |     |
+  |     |-- Lyon Healthcare (Chain 837) — 14 facs: KY, TN
+  |     |     Brand only. No independent leadership. Website metadata = "Hill Valley Healthcare"
+  |     |     Facility LLCs are "Bedrock HC at [Name]" entities owned by Chopp family
+  |     |
+  |     |-- Bedrock Healthcare (Chain 73) — 6-8 facs: WI, FL
+  |           COO: Kenny Nichols, CDO: Sol Chopp
+  |           HQ: Abbotsford, WI
+  |
+  |-- REAL ESTATE (leased, not owned)
+        |-- Strawberry Fields REIT (KY facilities — lists Hill Valley as operator/tenant)
+        |-- Golden Living (WI facilities, retained ownership post-Dycora)
+```
+
+### Evidence Chain
+
+| Evidence | What It Proves |
+|---|---|
+| CMS ownership filings for Green Meadows (185464) | Legal entity = "Bedrock HC at Green Meadows LLC." Owners: Abraham, Lynn, Martin, Pnina, Rachel Chopp + Kenneth Nichols. Chain affiliation = Lyon Healthcare (837). |
+| CMS ownership filings for Indigo Manor FL (105570) | Legal entity = "Bedrock HCS at Daytona FL LLC." Owners: Martin, Pnina, Solomon Chopp. Chain = Bedrock (73). Same family on both chains. |
+| CMS ownership filings for Hill Valley (Chain 270) | 37-38 facilities held through Lion 26 Holdings LLC, Sabrina 1818 Holdings LLC, Saessy Irrevocable Trust, Tatiriq Irrevocable Trust — all Chopp family vehicles. |
+| lyonhc.com HTML metadata | Publisher field = "Hill Valley Healthcare." Lyon site built under Hill Valley identity. |
+| Parkwood facility logo file | Named "HVH_lyon_parkwood_web_logo.png" — HVH = Hill Valley Healthcare. |
+| Strawberry Fields REIT portfolio | Lists Hill Valley Healthcare as operator/tenant for 11 KY properties that CMS shows under Lyon Healthcare Chain 837. |
+| Lyon facility websites (chestnutridgehr.com, greenmeadowshr.com, parkwoodhr.com) | Footer: "Serviced by Lyon Healthcare." Strawberry Fields says Hill Valley. CMS says Lyon. All the same facilities. |
+| bedrockhcs.com/our-team/ | Sol Chopp = CDO, Kenny Nichols = COO. CMS filings confirm both as owners/managers on Bedrock AND Lyon facilities. |
+
+### Management Teams
+
+| Entity | Leadership | Notes |
+|---|---|---|
+| Hill Valley Healthcare | Shimmy Idels (Co-CEO, LNHA), Steven Schwartz (Co-CEO/Principal) | Idels previously at Centers Health Care network (NY). HQ Woodmere/Flushing NY. |
+| Bedrock Healthcare | Kenny Nichols (Co-Founder/COO), Sol Chopp (CDO), Benny Waknin (Dir Ops), Mitzie Cannon RN-BC (CNO) | Nichols previously SVP Ops at Infinity Healthcare Mgmt + Brookdale. |
+| Lyon Healthcare | None published | Brand facade. No independent leadership. |
+
+### Timeline
+
+| Date | Event | Source |
+|---|---|---|
+| 2018 | Hill Valley Healthcare founded (Flushing/Woodmere, NY). Lion 26 Holdings LLC filed in LA, CA and Lawrence, NY. | D&B, state filings |
+| Nov 2018 | Bedrock Healthcare founded by Kenny Nichols | bedrockhcs.com |
+| 2018-2019 | Green Meadows (KY) and Spring Meadows (TN) — first Bedrock facilities, filed as "Bedrock HC at [Name] LLC," chain-affiliated under Lyon Healthcare | CMS |
+| 2019 | HJ Sims $4M HUD Plus loan for Hill Valley JV portfolio (2 SNFs + 1 ALF) | Senior Housing News |
+| Oct 2019 | Bedrock assumes operations of 7 former Dycora facilities in Wisconsin (receivership) | Industry news |
+| Jul 2021 | Bedrock acquires Indigo Manor, Daytona Beach FL | CMS ownership filings |
+| Jan 2021 | Hill Valley acquires 3 Riverside Lifelong Health facilities in Virginia | Industry news |
+| May 2022 | Hill Valley acquires The Woodland CCRC, Farmville VA ($35.25M, Ziegler-advised). 10th VA facility, 20th overall. | Senior Housing News / Ziegler |
+| 2022 | Hill Valley acquires TLC Care Center, Las Vegas NV ($50M, 255 beds) — first NV facility | Industry news |
+| Sep 2024 | Hill Valley acquires Cortland Acres, Thomas WV (corporate asset purchase) | Industry news |
+| May 2025 | GPH v. Chopp lawsuit filed (NJ District Court) naming Lynn, Martin, Pnina, Rachel, Sarah, Solomon Chopp and Bedrock HC WI LLC | Court filings |
+| Jul 2025 | 4 Wisconsin Bedrock facilities placed in court-ordered receivership. 384 cited deficiencies. $2.6M+ owed in rent/backpay. | WI DHS, news |
+| Feb 2026 | Nussbaum v. Chopp lawsuit — $6.3M claim, $1M linked to Opal Healthcare WI | The Real Deal |
+
+### Risk Factors
+
+- **4 Wisconsin Bedrock facilities in receivership** (Jul 2025): Silver Springs (Glendale), Heritage Square (Greenfield), Riverdale (Muscoda), Fort Atkinson. 384 deficiencies, resident death and alleged sexual assault cited, $270K+ federal fines at Fort Atkinson.
+  - Source: Wisconsin DHS / local news coverage of receivership proceedings
+- **GPH v. Chopp lawsuit** (May 2025): GPH Muscoda LLC, GPH Greenfield LLC, GPH Fort Atkinson LLC, Silver Spring Acquisition LLC v. Bedrock HC WI LLC, Lynn Chopp, Martin Chopp, Pnina Chopp, Rachel Chopp, Sarah Chopp, Solomon Chopp, Avrohom Prager, Shulamit Prager. NJ District Court.
+- **Nussbaum v. Chopp** (Feb 2026): Mark Nussbaum (via liquidator Sheldon Eisenberger) suing Tzali Chopp for $6.3M (originally $3M loan + interest). $1M of the loan went to Opal Healthcare WI.
+  - Source: The Real Deal (therealdeal.com) — "Mark Nussbaum turns on nursing home magnate Tzali Chopp" (Feb 2026)
+- **Bacon's Rebellion investigative series**: Hill Valley's rapid acquisition of 18 Virginia nursing homes flagged for complex LLC structures obscuring true ownership and underfunded state oversight allowing out-of-state for-profit chains to operate with minimal scrutiny.
+  - Source: baconsrebellion.com — series on Virginia nursing home ownership opacity
+
+### DB Impact
+
+- Lyon Healthcare (9 DB rows, 3 served in KY) and Hill Valley Healthcare (~39 facilities, multi-state) are the **same corporate family**
+- For sale type classification: any facility under Lyon, Hill Valley, OR Bedrock should check served status across ALL THREE chains
+- Green Meadows and Elkhorn verified as **New Door** (HIGH confidence after this research — we serve 3 Lyon/Hill Valley/Bedrock family facilities)
+- Consider whether DB should carry a parent entity field linking Lyon/Hill Valley/Bedrock, or consolidate under one canonical name
+- Risk factors (receivership, lawsuits) are relevant for corporate scoring and should be flagged for Brooke/Cary
+
+### Sources (with URLs)
+
+| Source | URL | What It Shows |
+|---|---|---|
+| CMS Provider Info | data.cms.gov — CCN 185464 (Green Meadows), 445402 (Spring Meadows), 105570 (Indigo Manor) | Chopp family ownership filings across Lyon and Bedrock chains |
+| ProPublica | projects.propublica.org/nursing-homes/homes/h-185464, h-105570 | Ownership %, managing entities, dates |
+| Strawberry Fields REIT | strawberryfieldsreit.com (portfolio page) | Lists Hill Valley Healthcare as operator/tenant for 11 KY properties |
+| Bedrock Healthcare | bedrockhcs.com | Facility list, team page (Sol Chopp CDO, Kenny Nichols COO) |
+| Bedrock Team Page | bedrockhcs.com/our-team/ | Named leadership with email addresses |
+| Lyon Healthcare | lyonhc.com | HTML source: publisher = "Hill Valley Healthcare" |
+| Parkwood facility site | parkwoodhr.com | Logo file: "HVH_lyon_parkwood_web_logo.png" |
+| Hill Valley Healthcare | hillvalleyhc.com | Corporate site, identical template to lyonhc.com, jobs via Apploi |
+| Hill Valley Jobs | jobs.apploi.com/profile/hill-valley-healthcare-corporate | Job postings confirming operational footprint |
+| Green Meadows facility | greenmeadowshr.com | Footer: "Serviced by Lyon Healthcare" |
+| Chestnut Ridge facility | chestnutridgehr.com | Footer: "Serviced by Lyon Healthcare" |
+| Spring Meadows facility | springmeadowshr.com | Footer: "Serviced by Lyon Healthcare" — also listed on bedrockhcs.com |
+| Senior Housing News | seniorhousingnews.com — search "Hill Valley Healthcare" | Acquisition history (Woodland CCRC, TLC Care Center, Riverside) |
+| The Real Deal | therealdeal.com — "Mark Nussbaum turns on nursing home magnate Tzali Chopp" (Feb 2026) | $6.3M lawsuit, Opal Healthcare WI link |
+| Bacon's Rebellion | baconsrebellion.com — Hill Valley Virginia investigation series | LLC opacity, regulatory gaps |
+| D&B | Hill Valley Healthcare LLC profile — Woodmere NY 11598, key principal Steven Schwartz | Corporate registration, industry classification |
+| Ziegler | ziegler.com — May 2022 Woodland CCRC advisory | $35.25M acquisition, confirms Hill Valley as buyer |
+
+**Discovered during:** Verification Report V3, NB/LOB Reconciliation, 2026-04-03
+**Confidence:** HIGH — CMS ownership filings directly link Chopp family members across all three chains
+
+---
+
+## MARX DEVELOPMENT GROUP / MAJESTIC CARE / BLUEGRASS CONSULTING GROUP — Corporate Family
+
+**Proposed DB canonical names:** `MAJESTIC / MAJESTIC CARE` (IN, OH, MI, FL, WI), `MAJESTIC / BLUEGRASS CONSULTING GROUP` (KY)
+**Current DB names:** MAJESTIC CARE (53 rows), DAVID MARX (8 rows), MAJESTIC MANAGEMENT LLC (2 rows) = 63 rows
+**DB facility count:** 63 (IN 26, KY 17, OH 15, MI 4, FL 1)
+**Served:** 29 (IN 12, KY 17)
+**Parent:** Marx Development Group (MDG), David Marx CEO, NYC
+**Operating umbrella:** Majestic Management, Paul Pruitt CEO, Westfield IN
+
+### The Corporate Structure
+
+Marx Development Group is a vertically integrated NYC real estate developer (founded 1986 by David Marx, attorney/JD Fordham). MDG owns the physical properties (PropCo) and operates healthcare facilities through subsidiaries. Majestic Management is the operating umbrella with two consumer-facing brands that are deliberately separated by geography.
+
+```
+MARX DEVELOPMENT GROUP (David Marx, CEO — NYC)
+  |-- Real estate owner (PropCo) — per-facility realty LLCs (e.g., "Howard Creek Road SNF Realty LLC")
+  |-- Manhattan Regional Center (EB-5 immigrant investor capital)
+  |-- Rockhall Funding Corp (HUD-licensed mortgage lender, $700M+)
+  |-- Atria Builders LLC (construction)
+  |-- DSM Design Group (architecture)
+  |
+  +-- MAJESTIC MANAGEMENT (Paul Pruitt, CEO — Westfield, IN)
+        |-- Operating parent for all healthcare operations
+        |-- HQ: 777 E Main Street, Westfield, IN 46074
+        |
+        +-- MAJESTIC CARE (brand for IN/OH/MI/WV)
+        |     ~48 locations branded "Majestic Care of [City]"
+        |     Website: majesticcare.com
+        |     Title tag: "Indiana, Ohio, Michigan, and West Virginia"
+        |     Kentucky deliberately excluded from this brand
+        |
+        +-- BLUEGRASS CONSULTING GROUP (brand for KY)
+              10-11 locations branded "[City] Nursing and Rehabilitation"
+              or standalone names (Seneca Place, Wellington Parc)
+              No standalone website. LinkedIn: linkedin.com/company/bluegrass-consulting-group
+              Formed: July 25, 2019 in Indiana (not Kentucky)
+              HQ: 777 E Main Street, Westfield, IN (same as Majestic Care)
+              Email domain: bluegrasscg.com (but compliance hyperlink leaks to majesticcare.com)
+```
+
+### Evidence Chain
+
+| Evidence | What It Proves |
+|---|---|
+| McKnight's (2025): "Through its subsidiaries, Majestic Care and Bluegrass Consulting Group, [MDG] owns 55 properties with more than 5,000 licensed beds" | MDG is the parent. Majestic Care and BCG are both subsidiaries. |
+| Mountain State Spotlight Q&A: Pruitt confirms "Majestic Care is a subsidiary of Marx Development Group" | Direct CEO confirmation of MDG parentage. |
+| Wellington Parc press release (Owensboro Times, Sep 2025): BCG is "a Majestic Management company," Pruitt quoted as "CEO of Majestic Management" | BCG operates under Majestic Management umbrella. Pruitt is CEO of both. |
+| Margaret Chamberlain profile (American Healthcare Leader, 2025): "General Counsel of Majestic Care and Bluegrass Consulting Group" | Shared legal counsel across both brands. |
+| Elliott NR privacy notice (elliottnr.com): compliance email hyperlink points to compliance@majesticcare.com while displaying compliance@bluegrasscg.com | Shared compliance infrastructure. |
+| BCG Holdings LLC (Indiana filing, July 25, 2019): principal office 777 E Main, Westfield IN. CEO: Bernie McGuinness. | Same HQ as Majestic Care. Same founder. |
+| NPI records for all KY facilities: authorized official = Paul Pruitt, mailing address = 100 Boulevard of Americas, Lakewood NJ 08701 | Pruitt (Majestic CEO) controls KY facility NPI registrations. Lakewood NJ = LTC Consulting Services (back-office hub). |
+| David Marx CMS ownership (Chain 179): 46 facilities across IN/KY/MI/OH. IN/OH/MI branded "Majestic Care of [City]", KY branded "[City] Nursing and Rehabilitation" | Same owner, different brands by state. |
+| majesticcare.com title: "Indiana, Ohio, Michigan, and West Virginia" | Kentucky deliberately excluded from Majestic Care brand. |
+| Paul Pruitt bio on majesticcare.com: member of KHCA (Kentucky Health Care Association) | Only KY reference on the entire Majestic Care website — he's on the KY board but the brand doesn't claim KY. |
+| J. David Alexander (COO, Majestic Care): ZoomInfo also lists him as "President, Business Development, Marx Development Group" | Direct MDG-to-Majestic executive bridge. |
+| NIC Spring Conference 2026 (McGuinness bio): "co-founder of both Majestic Care and Bluegrass Consulting Group" | Co-founder confirms both entities created together. |
+| FlippingBook digital publication: "Majestic Care and Bluegrass Consulting Group" (joint corporate flipbook) | Presented together as one corporate family in marketing materials. |
+| All KY facility websites (elliottnr.com, boydnr.com, carternr.com, etc.): identical WordPress "health-theme" template. Wellington Parc schema markup references "Elliott Nursing and Rehabilitation" — sites cloned from one template. | Centralized web management across all KY facilities. |
+
+### Leadership
+
+| Entity | Name | Title | Notes |
+|---|---|---|---|
+| MDG | David Marx | CEO/Founder | JD Fordham, attorney since 1986. 5,000+ beds across IN/KY/MI/NY/OH/WV. |
+| Majestic Management | Paul Pruitt, MBA, NHA | CEO | Since June 2023. Formerly COO Mission Point Healthcare Services (MI). KHCA/IHCA/OHCA/HCAM board. |
+| Majestic Care | J. David Alexander | COO | Also "President, Business Development, Marx Development Group" per ZoomInfo. Direct MDG bridge. |
+| Majestic Care | Anzhelika Shatrov | CFO | Operations, finance, corporate governance. |
+| Majestic Care | Eric Wolfe, RN, DNP | CNO | Nursing administration. |
+| Majestic Care | Dr. Robert Russell | CMO | Also listed as CMO on Elliott Nursing website. |
+| Both MC + BCG | Margaret Chamberlain | General Counsel | Dual title explicitly stated. 25 yrs post-acute care law. |
+| Majestic Care | Angie Rewa, MBA, CHC, CHIAP | Compliance/Privacy Officer | Since Oct 2023. |
+| Majestic Care | Patricia Sirmon | VP Human Resources | Formerly VP HR Medxcel and Meridian Title. |
+| BCG | Jordan Vinson | VP of Operations | Central City, KY. BCG-specific role. |
+| BCG | Michelle Jarboe, RN, LNHA | Regional VP of Operations | Lexington, KY. Email: bluegrasscg.com domain. |
+
+**Former leadership:**
+- Bernie McGuinness — Co-founder, CEO 2018-May 2023. Now President/CEO of Journey (new SNF operator, Noblesville IN, 21 buildings by Nov 2024).
+- Donn Kump — Co-founder, CFO 2018-June 2025. Now VP Reimbursement at Journey.
+
+### Timeline
+
+| Date | Event | Source |
+|---|---|---|
+| 1986 | Marx Development Group founded by David Marx (attorney, NYC) | MDG website, Manhattan Regional Center |
+| Jun 2018 | Majestic Care founded by Bernie McGuinness and Donn Kump | SNN, American Healthcare Leader |
+| Jul 25, 2019 | Bluegrass Consulting Group LLC and BCG Holdings LLC formed in Indiana (consecutive entity numbers) | Indiana SOS filings |
+| May 2019 | Diversicare announces exit from Kentucky — 10 SNFs (~885 beds). Omega Healthcare Investors (REIT landlord) selects replacement operator. | SNN |
+| Aug 6-7, 2019 | New NPI records created for all KY facility LLCs. Authorized official: Paul Pruitt. Mailing: Lakewood NJ. | NPI Registry |
+| Aug 30, 2019 | Diversicare completes Kentucky exit. BCG assumes operations of 9 KY SNFs. | SNN |
+| Sep 2019 | BCG effective date as CMS managing entity on KY facilities. | CMS ownership filings |
+| Jul 2021 | Majestic acquires 5 facilities (3 IN, 2 MI). David Marx identified as purchaser. 21 SNFs + 5 ALFs at this point. | SNN |
+| Apr 2022 | Majestic at 27 SNFs + 7 ALFs across IN/OH/MI. | SNN |
+| May 2023 | McGuinness resigns as CEO. Paul Pruitt named CEO. | SNN |
+| Jan 2025 | Majestic adds 6 Ohio facilities. | SNN Dealbook |
+| Sep 2, 2025 | BCG acquires Wellington Parc, Owensboro KY ($9.475M). Buyer entity: "Majestic Care of Wellington Parc LLC." | Owensboro Times |
+| 2025 | Majestic acquires 4 WV state-owned facilities ($60M). Enters West Virginia. | McKnight's, WV Watch |
+| Jun 2025 | Donn Kump departs for Journey. | LinkedIn |
+
+### Diversicare-to-Marx Transition (2019)
+
+Diversicare Health Services operated in Kentucky for 25 years before announcing its exit in May 2019. Omega Healthcare Investors (NYSE: OHI) was the REIT landlord. Omega selected the replacement operator (not publicly named in industry press). The NPI evidence proves it was the Marx/BCG entities — all new NPI records were created August 6-7, 2019, just weeks before Diversicare's August 30 close. Whether Omega sold the real estate to Marx or retained it as REIT landlord with Marx as tenant is not confirmed in public sources. The per-facility PropCo LLC naming pattern (e.g., "Howard Creek Road SNF Realty LLC") suggests Marx may have purchased the real estate.
+
+### DB Impact — Entity Fragmentation
+
+The DB currently has 4 names for one corporate family:
+
+| Current DB Name | Rows | States | Source of Name |
+|---|---|---|---|
+| MAJESTIC CARE | 53 | IN (19 SNF + 7 ALF), KY (2 SNF + 7 ALF), OH (15), MI (4), FL (1) | CMS chain (IN/OH/MI) + NIC MAP operator (ALFs) |
+| DAVID MARX | 8 | KY (8 SNF) | CMS Chain ID 179 (individual owner name) |
+| MAJESTIC MANAGEMENT, LLC | 2 | IN (2 ALF — Carmel, Crown Point) | NIC MAP operator variant |
+| MAJESTIC HEIGHTS ASSISTED LIVING | 2 | WI (2 ALF — Hartford) | **NOT CONNECTED.** Independent CBRF owned by Lori Ball and Margo Pritzlaff (local RN sisters). Coincidental name. Do not recode. |
+
+The KY split is the most significant fragmentation: 9 KY rows coded MAJESTIC CARE (7 ALFs + 2 SNFs) alongside 8 KY rows coded DAVID MARX (SNFs). Same operator, same campuses in several cities (Ashland, Sandy Hook, Wurtland, Louisville), split by data source.
+
+**Proposed recode (63 rows):**
+- MAJESTIC CARE (IN/OH/MI/FL) + MAJESTIC MANAGEMENT LLC (IN) → `MAJESTIC / MAJESTIC CARE` (48 rows)
+- MAJESTIC CARE (KY) + DAVID MARX (KY) → `MAJESTIC / BLUEGRASS CONSULTING GROUP` (17 rows — all 17 served)
+- MAJESTIC HEIGHTS ASSISTED LIVING (WI) → no change (2 rows, unrelated)
+
+### Risk Factors
+
+- **Majestic Care of Fairfield (OH):** 3+ active wrongful death lawsuits alleging understaffing. 6 written deficiencies for actual harm (June 2019-Jan 2023). Worst CMS ratings for Overall, Health Inspection, and Staffing.
+- **Elliott Nursing (Sandy Hook, KY):** CMS 1-star overall (vs KY avg 2.96, national avg 3.32). $35,695 in fines. Serious deficiency April 2024.
+- **David Marx chain aggregate (ProPublica):** Average 1.8 serious deficiencies per home (vs national 0.7). Average nurse staffing 3.3 hrs/resident/day (vs national 3.9). Average turnover 51.1% (vs national 46.4%). 4 facilities with possible abuse per CMS.
+- **West Virginia acquisition scrutiny:** WV Senate president raised concerns about employee pensions. A WV senator filed suit against Governor Morrisey over the sale. Communication failures during the process questioned.
+
+### Majestic Heights Assisted Living — NOT Connected
+
+Two ALFs in Hartford, WI (rows 23057-23058) coded MAJESTIC HEIGHTS ASSISTED LIVING. These are small CBRFs (26 beds each) owned by Lori Ball, RN and Margo Pritzlaff, RN (sisters). Independent, locally owned. Website: majesticheights.info. No affiliation with Majestic Care, MDG, or Bedrock Healthcare. Coincidental "Majestic" name. **Do not recode.**
+
+### Sources (with URLs)
+
+| Source | URL | What It Shows |
+|---|---|---|
+| McKnight's LTC News | mcknights.com — "Majestic Care enters WV" | "Through its subsidiaries, Majestic Care and Bluegrass Consulting Group, [MDG] owns 55 properties" |
+| Mountain State Spotlight | mountainstatespotlight.org/2025/09/07/majestic-ceo-qa/ | Pruitt confirms "Majestic Care is a subsidiary of Marx Development Group" |
+| Owensboro Times | owensborotimes.com — "Bluegrass Consulting Group acquires Wellington Parc" (Sep 2025) | BCG is "a Majestic Management company," Pruitt = "CEO of Majestic Management" |
+| American Healthcare Leader | americanhealthcareleader.com/2025/margaret-chamberlain-majestic-care/ | Chamberlain = General Counsel of both Majestic Care and BCG |
+| SNN — Majestic Growth 2021 | skillednursingnews.com/2021/07/majestic-continues-rapid-growth/ | David Marx identified as purchaser |
+| SNN — CEO Transition 2023 | skillednursingnews.com/2023/05/majestic-care-names-new-ceo/ | McGuinness to Pruitt |
+| SNN — Diversicare KY Exit | skillednursingnews.com/2019/05/diversicare-to-exit-kentucky/ | 10 SNFs, ~885 beds, Omega selects replacement |
+| SNN — Diversicare KY Completion | skillednursingnews.com/2019/09/diversicare-completes-kentucky-exit/ | Transfer completed Aug 30, 2019 |
+| SNN Dealbook Jan 2025 | skillednursingnews.com/2025/01/ | "Majestic Management added six Ohio facilities" |
+| NIC Spring Conference 2026 | springconference.nic.org/speakers/bernie-mcguinness/ | McGuinness = co-founder of both Majestic Care and BCG |
+| David Marx bio | ny-eb5.com/our-team/david-e-marx/ | MDG portfolio: 4M+ sqft, 5,000+ beds, EB-5 center |
+| ProPublica — David Marx chain | projects.propublica.org/nursing-homes/affiliate/a-179 | 46 facilities, quality metrics, staffing data |
+| NursingHomeReport.org — David Marx | nursinghomereport.org/ownername-david-marx/ | Full 46-facility roster by state |
+| NursingHomeReport.org — BCG | nursinghomereport.org/ownername-bluegrass-consulting-group-llc/ | 9 KY facilities with operational/managerial control |
+| Indiana SOS — BCG LLC | indiana-company.com/co/bluegrass-consulting-group-llc | Filed Jul 25, 2019. RA: Corporation Service Company. Office: 17437 Carey Rd, Westfield IN |
+| Indiana SOS — BCG Holdings | city-data.com — BCG Holdings LLC 201907251336888 | Same day filing. Office: 777 E Main, Westfield IN (= Majestic HQ). CEO: McGuinness |
+| Elliott NR Privacy Notice | elliottnr.com/notice-of-privacy-practices/ | Compliance hyperlink leaks to majesticcare.com |
+| Elliott NR Website | elliottnr.com | CMO = Dr. Robert Russell (same as Majestic Care CMO) |
+| Wellington Parc Website | wellingtonparcnr.com/wellington-parc/ | Schema markup references "Elliott Nursing and Rehabilitation" — cloned template |
+| Majestic Care About Us | majesticcare.com/about-us/ | Leadership team, no KY references except Pruitt KHCA membership |
+| Majestic Care Locations | majesticcare.com/location/ | Meta: "fifteen locations throughout Indiana and Ohio" — no KY, MI, WV in tagline |
+| FlippingBook | user-jbdbkvi.cld.bz/Majestic-Care-and-Bluegrass-Consulting-Group | Joint corporate publication (30 pages, JS-rendered) |
+| Majestic Heights (unrelated) | majesticheights.info | Independent Hartford WI CBRF, Lori Ball + Margo Pritzlaff RNs |
+
+**Discovered during:** Verification Report V3, Facility 14 (Elliott Nursing) two-pass investigation, 2026-04-03
+**Confidence:** HIGH — multiple public sources confirm MDG as parent, Majestic Management as operating umbrella, Majestic Care and BCG as sister brands
+
+---
+
+### PUTNAM COUNTY HOSPITAL — Multi-Operator Owner (Not an Operator)
+**Type:** Nonprofit county hospital (Government - Hospital district)
+**HQ:** 1542 S Bloomington St, Greencastle, IN 46135
+**CEO:** Dennis Weatherford (since 2000)
+**CMS ownership:** 100% direct owner of 16+ Indiana SNFs (no chain ID registered)
+
+#### Critical Finding (2026-04-04)
+Putnam County Hospital is a **legal owner, not an operator.** It owns the buildings and contracts different management companies to operate them. Prior research (V25.6 punchlist #23) incorrectly assumed all 19 DB facilities should be consolidated under one name. Per-facility ProPublica verification revealed **at least 8 different managing entities** across the portfolio.
+
+**Additionally:** Paoli Health & Living Community (CCN 155333, 559 W Longest St, Paoli IN) was coded to PUTNAM COUNTY HOSPITAL in the DB but is actually owned by **Riverview Hospital** and managed by **Cardon Management Company LLC.** This is a misattribution — Paoli has no ownership connection to Putnam County Hospital.
+
+#### Per-Facility Managing Entity Verification
+
+| Facility | City | CCN | Managing Entity (ProPublica) | Operator Brand | Since |
+|---|---|---|---|---|---|
+| Richland Bean-Blossom HCC | Ellettsville | 155523 | HHSS Management LLC | HutsonWood | Apr 2020 |
+| Hutsonwood at Brazil (Towne Park) | Brazil | TBD | (likely HHSS — branded HutsonWood) | HutsonWood | Jun 2015 |
+| Mill Pond Health Campus | Greencastle | 155736 | Trilogy Healthcare Ops of Greencastle LLC | Trilogy Health Services | May 2015 |
+| Cobblestone Crossings HC | Terre Haute | 155772 | Trilogy Healthcare of Vigo LLC | Trilogy Health Services | Nov 2014 |
+| Harrison's Crossing HC | Terre Haute | 155830 | RHS Partners of Terre Haute LLC | **Trilogy Health Services** (website: trilogyhs.com, © 2026 Trilogy Health Services LLC. RHS Partners is a facility-level LLC.) | Jul 2015 |
+| Northview Health & Living | Anderson | 155718 | Community LTC Inc / Health Mgmt Advisors Inc | Essential Senior H&L | Oct 2018 |
+| Elwood Health & Living | Elwood | 155522 | Community LTC Inc / Health Mgmt Advisors Inc | Essential Senior H&L | Oct 2018 |
+| Summit Health & Living | Summitville | 155839 | Community LTC Inc / Health Mgmt Advisors Inc | Essential Senior H&L | Oct 2018 |
+| Century Villa Health Care | Greentown | 155510 | Medical Rehabilitation Centers LLC | **Exceptional Living Centers** (website: exceptionallivingcenters.com, HQ Lexington KY, 12 facilities KY/IN/OH/TN. MRC is a facility-level LLC.) | Feb 2018 |
+| Providence Health Care Ctr | St Mary of the Woods | 155802 | Providence Health Care Inc | **Sisters of Providence of Saint Mary-of-the-Woods** (website: phcwoods.com, nonprofit, owner-operated, no third-party mgmt. "Sponsored by the Sisters of Providence.") | Dec 2013 |
+| Owen Valley Rehab & HC | Spencer | 155661 | Clayshire LLC / LT Care Acquisition Corp | Clayshire/LT Care | Sep 2022 |
+| Waters of Princeton | Princeton | 155275 | County Hospital Manager LLC | **Infinity Healthcare Consulting** (ihconsulting.com client list confirms. County Hospital Manager LLC is legal entity; IHC is the operator.) | Sep 2012 |
+| Waters of Martinsville | Martinsville | 155183 | County Hospital Manager LLC | **Infinity Healthcare Consulting** (ihconsulting.com client list confirms) | May 2014 |
+| Waters of Greencastle | Greencastle | 155202 | County Hospital Manager LLC | **Infinity Healthcare Consulting** (ihconsulting.com client list confirms) | May 2014 |
+| Waters of Huntingburg | Huntingburg | 155217 | The Waters of Huntingburg II LLC / Infinity HC | **Infinity Healthcare Consulting** (ihconsulting.com client list confirms) | Nov 2020 |
+| Waters of Scottsburg | Scottsburg | 155494 | Waters of Scottsburg II LLC | **Infinity Healthcare Consulting** (ihconsulting.com client list confirms) | Nov 2020 |
+
+**NOT Putnam County Hospital:**
+| Facility | City | CCN | Actual Owner | Managing Entity |
+|---|---|---|---|---|
+| Paoli Health & Living Community | Paoli | 155333 | Riverview Hospital (100%) | Cardon Management Company LLC |
+
+#### DB Coding Implications
+
+Per the operator attribution rule and owner-vs-management-company guidance: code the management company (the entity making clinical/business decisions), not Putnam County Hospital (the legal owner that contracts management companies).
+
+- Trilogy facilities (Mill Pond, Cobblestone Crossings, Harrison's Crossing) → TRILOGY HEALTH SERVICES (already scored T1 MUO — **3 facilities, not 2.** Harrison's Crossing confirmed via trilogyhs.com; RHS Partners is a facility-level LLC)
+- HutsonWood facilities (Richland Bean-Blossom, Towne Park/Brazil) → HUTSONWOOD (or HHSS MANAGEMENT)
+- Essential Senior H&L facilities (Northview, Elwood, Summit) → ESSENTIAL SENIOR HEALTH AND LIVING (or COMMUNITY LTC)
+- Exceptional Living Centers (Century Villa) → EXCEPTIONAL LIVING CENTERS (website: exceptionallivingcenters.com, HQ Lexington KY, 12 facilities KY/IN/OH/TN. MRC is a facility-level LLC)
+- Sisters of Providence (Providence Health Care Ctr) → SISTERS OF PROVIDENCE (nonprofit, owner-operated per phcwoods.com, no third-party management)
+- Infinity Healthcare Consulting (Waters of Princeton, Martinsville, Greencastle, Huntingburg, Scottsburg) → INFINITY HEALTHCARE CONSULTING (ihconsulting.com — ~85 SNFs across IL/IN/KY/MI/OK/TN. "County Hospital Manager LLC" is the legal entity but IHC is the operator per their own client facility list. All 5 "Waters of" PCH facilities are IHC-operated.)
+- Clayshire/LT Care (Owen Valley) → website (owenvalleyhcr.com) shows independent branding, no parent company visible. ProPublica shows Clayshire LLC since Jan 2023. Needs further research — Clayshire may be the operator or another facility-level LLC.
+- Paoli → recode from PUTNAM COUNTY HOSPITAL to CARDON (or RIVERVIEW HOSPITAL — needs operator-vs-owner determination)
+
+#### Ownership Table (Entity Level)
+
+| Layer | What It Is |
+|---|---|
+| **Legal Owner** | Putnam County Hospital (nonprofit county hospital) |
+| **PropCo** | N/A (hospital owns directly, no PropCo/REIT structure) |
+| **Management Companies** | Infinity Healthcare Consulting (5 fac — all "Waters of" brand), Trilogy Health Services (3 fac), Essential Senior H&L/Community LTC (3 fac), HutsonWood/HHSS (2 fac), Exceptional Living Centers/MRC (1 fac), Sisters of Providence (1 fac, nonprofit owner-operated), Clayshire LLC (1 fac, needs verification) |
+| **Operator brands** | Vary by management company — see per-facility table |
+
+**Key lesson:** An owner is not an operator. One owner can contract multiple management companies. "Consolidate all facilities under the owner's name" is the wrong approach when the owner delegates operations. Always verify managing entity per-facility.
+
+**Sources:**
+- ProPublica Nursing Home Inspect: CCNs 155523, 155736, 155772, 155830, 155718, 155522, 155839, 155510, 155802, 155661, 155275, 155183, 155217, 155494, 155202, 155333
+- HutsonWood website: hutsonwood.org (senior living page lists only 2 IN communities)
+- Putnam County Hospital website: pchosp.org (no mention of SNF operations)
+- Essential Senior Health & Living website: essentialseniorhealthandliving.org
+
+**Website verification (2026-04-04):**
+- trilogyhs.com: Harrison's Crossing listed as Trilogy facility (© 2026 Trilogy Health Services LLC). RHS Partners is facility-level LLC. 3 PCH facilities are Trilogy, not 2.
+- exceptionallivingcenters.com: Century Villa branded as Exceptional Living Centers (HQ Lexington KY, 12 facilities KY/IN/OH/TN). MRC is facility-level LLC. Also shows Century Fields Retirement Community in same town — possible campus.
+- phcwoods.com: Providence HC operated by Sisters of Providence of Saint Mary-of-the-Woods (nonprofit, no third-party mgmt, schema markup confirms sponsorship).
+- hutsonwood.org: Only 2 IN senior living communities listed (Richland Bean-Blossom + Towne Park). Not 19.
+- pchosp.org: No mention of SNF operations. Hospital only.
+- essentialseniorhealthandliving.org: Northview, Elwood, Summit listed. Community LTC Inc is the ProPublica managing entity.
+
+**Discovered during:** Comprehensive scrub procedure test, punchlist #23 verification, 2026-04-04
