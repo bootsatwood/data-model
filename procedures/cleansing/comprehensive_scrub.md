@@ -58,6 +58,12 @@ These patterns help you interpret what the cluster is before you move to type va
 
 Clusters with three or more rows often exhibit multiple patterns simultaneously. For example, an address may have a Trailing Type phantom (SNF duplicated as ALF) AND a Two Different Names pair (two legitimate buildings). Evaluate each pair within the cluster independently — do not try to classify the entire cluster as a single pattern.
 
+### What Procedure 1 cannot find
+
+Address matching surfaces problems where multiple rows share a location. It does NOT surface entity fragmentation — one operator coded under multiple different corporate names at different addresses. Putnam County Hospital was coded under 7+ names across 16 Indiana facilities at 16 different addresses. No address cluster ever formed. That problem was only discovered through Procedure 3's source sequence when an external signal (a sale type discrepancy) led to ProPublica, which revealed the owner name, which was searched back in the Forward Universe.
+
+If a comprehensive scrub is scoped by corporate entity rather than by address, Procedure 1 may not be the entry point. The entity name itself becomes the anchor, and you walk its facilities by address. Be aware that entity-scoped scrubs will surface fragmentation that address-scoped scrubs miss.
+
 ---
 
 ## Procedure 2: Validate Facility Type
@@ -137,9 +143,15 @@ Check internal data first, then authoritative structured sources, then external 
 3. **MUO Corporate History** — prior research on this entity
 4. **Operator Research Log** — if already fully verified, apply established attribution
 
+**Two warnings about internal sources:**
+
+- **Internal source agreement is not validation.** If the Forward Universe and the GLR both carry the same corporate name, that does not confirm it is correct. Internal sources can share the same upstream error — a wrong name entered in the GLR propagates to the DB during reconciliation, and now two systems "agree" on a phantom. The McCoy Memorial case: both DB and GLR carried "Concierge Healthcare," and Finance carried "Concierge Physicians." Three internal systems agreed on an entity that does not exist. External authoritative sources are required to validate.
+
+- **When you encounter an unknown corporate name, search for it independently.** Do not only search the name in connection with the facility you're investigating. Search it as a standalone entity — does this company exist? Does it operate nursing homes? Does it appear in CMS, ProPublica, state registries, or on the web as an operator anywhere? If an entity name returns zero results as a standalone search, it is likely a phantom (data entry error, legacy name, or PropCo LLC that was never a real operator).
+
 **Authoritative structured sources:**
 5. **CMS Provider Info** (SNFs) — CCN, legal business name, chain name/ID, ownership type, CHOW flag
-6. **ProPublica Nursing Home Inspect** (SNFs) — direct/indirect owners with %, managing entity, dates
+6. **ProPublica Nursing Home Inspect** (SNFs) — direct/indirect owners with %, managing entity, dates. More granular than CMS chain. **However:** the managing entity in ProPublica is often a facility-level LLC, not the parent operator brand (e.g., RHS Partners of Terre Haute LLC = Trilogy Health Services; Medical Rehabilitation Centers LLC = Exceptional Living Centers; Waters of Huntingburg II LLC = Infinity Healthcare Consulting). Always resolve the ProPublica managing entity to its parent brand by checking the operator website — do not code the facility-level LLC as the operator.
 7. **NIC MAP** (ALFs: starting point / SNFs: supplemental) — Owner Name (col 18) = PropCo, NEVER the operator. Operator Name (col 41) = management company candidate. See reliability patterns in `source_reference.md`.
 8. **State Registry** — license holder, licensed administrator. The ONLY authority for ALFs.
 9. **NPI Registry** — authorized official name/title → LinkedIn → employer reveals operating company
@@ -197,7 +209,7 @@ When a facility's legal owner (per CMS/ProPublica) is a different entity from th
 - The legal owner's website lists the facility and describes operational involvement
 - There is no managing entity in ProPublica or CMS
 
-**Critical: do not assume one management company manages all facilities for a single owner.** The Putnam County Hospital case proved this: CMS shows Putnam County Hospital as 100% owner of 19 Indiana SNFs, and prior research assumed all 19 were managed by HutsonWood (HHSS Management LLC). But HutsonWood's own website lists only 2 Indiana communities. The other 17 facilities may have entirely different operators. Each facility's managing entity must be verified individually through ProPublica, operator websites, or state registry before any recode.
+**Critical: do not assume one management company manages all facilities for a single owner.** This is not a two-entity problem (one owner, one management company). It is a one-to-many relationship. Putnam County Hospital owns 16+ Indiana SNFs managed by **7 different operators** — Trilogy Health Services (3 fac), Infinity Healthcare Consulting (5 fac), Essential Senior Health & Living (3 fac), HutsonWood (2 fac), Exceptional Living Centers (1 fac), Sisters of Providence (1 fac), and Clayshire LLC (1 fac). Prior research assumed all were managed by HutsonWood because that was the first managing entity discovered. HutsonWood's own website lists only 2 Indiana communities. Each facility's managing entity must be verified individually through ProPublica and operator websites before any recode.
 
 ### Persistence and maintenance
 
