@@ -1682,3 +1682,48 @@ McCoy Memorial Nursing Center (CCN 425174, Bishopville SC) was coded in the Forw
 - Carlyle websites: carlyleflorence.com, carlylekingstree.com (Wix-built, branded)
 
 **Discovered during:** Comprehensive scrub procedure test, punchlist #24 verification, 2026-04-04
+
+---
+
+### SEVEN ACRES SENIOR LIVING AT CLIFTON — Independent (Klingerman Family Investment)
+**CCN:** 366316
+**Address:** 476 Riddle Road, Cincinnati, OH 45220
+**Type:** For-profit LLC, 58 SNF beds + 35 IL apartments
+**CMS Chain:** None
+**V25.6 DB:** Corporate_Name = null, Ownership_Type = Independent
+
+#### Ownership (ProPublica, since March 2023)
+- **Direct owner:** Lackawanna Healthcare Associates LLC (100%)
+- **Indirect owner:** David W. Klingerman Jr. (10%)
+- **Managing entity:** Not disclosed in ProPublica
+- **Mortgage:** Jersey Shore State Bank
+
+#### History
+Formerly St. Paul's Archbishop Leibold Home for the Aged, operated by the Little Sisters of the Poor (Catholic religious order). Purchased March 2023 by Lackawanna Healthcare Associates LLC. Rebranded as Seven Acres Senior Living.
+
+#### Klingerman Family / Liberty Group Connection
+David W. Klingerman Jr. is COO of The Liberty Group and Managing Partner of Liberty Healthcare Management (LHM). The Liberty Group is a PE holding/investment company founded 2002 by Daniel Klingerman (Bloomsburg PA), $500M+ assets, 6,000+ workers, 50+ subsidiary companies. LHM manages 9 SNF locations in Northeastern/Central PA + Susquehanna Valley, plus consulting/management for other facilities. Predecessor entity: JDK Management Company (founded 1982, nursing homes + restaurants in PA/OH/NY/WV/FL/NJ/IN).
+
+Lackawanna Healthcare Associates LLC is a Klingerman family ownership vehicle also used for Marywood Heights (Scranton PA, 72 beds), where Liberty Healthcare Mgt LLC is explicitly listed as managing entity in ProPublica since Dec 2019.
+
+**However:** Liberty Healthcare Management does NOT list Seven Acres, Cincinnati, or any Ohio location on their corporate site (thelibertygroup.net). Their 9 facilities are exclusively in PA. No public source connects Liberty Group operations to Seven Acres. This appears to be a personal/family investment by the Klingermans in a facility that operates independently, not a Liberty Group-managed property.
+
+#### Prior CMS Names (stale)
+- CMS previously showed "Hamilton Healthcare Associates LLC" — not current. ProPublica (Mar 2023) shows Lackawanna, not Hamilton.
+- NIC MAP showed "Hamilton Healthcare Associate LLC" — self-referencing, also stale.
+
+#### DB Coding Decision
+**Code: INDEPENDENT.** Seven Acres is a single-facility operation with no chain affiliation, no disclosed management company, and no public connection to Liberty Group operations. The Klingerman/Lackawanna ownership is documented here for future reference — if Liberty Group expands into Ohio or if additional Klingerman-owned facilities surface, reassess.
+
+Do NOT code as "Lackawanna Healthcare Associates LLC" (legal wrapper, not an operator identity) or "Hamilton Healthcare Associates LLC" (stale CMS data) or "Liberty Healthcare Management" (not confirmed as operator here).
+
+**Sources:**
+- ProPublica: projects.propublica.org/nursing-homes/homes/h-366316
+- ProPublica (Marywood Heights): projects.propublica.org/nursing-homes/homes/h-395625
+- Seven Acres website: sevenacresseniorliving.org (independent branding, no parent company)
+- The Liberty Group: thelibertygroup.net/market/healthcare/ (9 PA locations, no OH)
+- Commonwealth University profile of Daniel Klingerman
+- PA Business Central profile of Daniel Klingerman
+- NPI: npiprofile.com/npi/1386292035 (Lackawanna Healthcare Associates, Danville PA, David Klingerman authorized official)
+
+**Discovered during:** Comprehensive scrub procedure test, punchlist #25 verification, 2026-04-04
