@@ -1144,7 +1144,36 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 7. **7+ gate: PASS (39 campuses).** Well above threshold.
 8. **Score:** Scoring board frozen until June 6. Evaluate for tier when freeze lifts. Profile suggests T1-T2 based on campus count (39), geography (core NC + VA), business maturity (70 years), and operator type (family-owned SNF specialist).
 
-**Additional action needed:** 10 KY rows coded PRINCIPLE need investigation — who is the new operator after Oct 2025 sale? Buyer described as "NJ-based" in industry press. Blueprint Healthcare brokered. These rows are stale and may need recode to the acquiring entity.
+### KY Portfolio Post-Sale Investigation (2026-04-04)
+
+10 DB rows coded PRINCIPLE in KY across 6 addresses. Investigated per-facility via NPI, KY state licensing, and web research.
+
+**Finding: Two separate outcomes, not one buyer.**
+
+| Facility | City | Beds | Served | New Entity | Authorized Official | NPI Date | Assessment |
+|---|---|---|---|---|---|---|---|
+| Essex | Louisville | 128 | Yes | Hanging Rock LTC LLC | Gale Boice (CFO) | — | **PRINCIPLE internal restructuring.** Boice = Principle CFO = Hillco CFO. Same family. |
+| Mountain View | Pineville | 115 | Yes | Hanging Rock LTC LLC | Gale Boice | — | Same as Essex |
+| Somerwoods | Somerset | 166 | No | Hanging Rock LTC LLC | Gale Boice | — | Same as Essex |
+| Tri-Cities | Cumberland | 69 | No | Hanging Rock LTC LLC | Gale Boice | — | Same as Essex |
+| Rivers Edge | Prospect | 100 | Yes | Rivers Edge SNF Operations LLC | Menucha Goodman | Jul 16, 2025 | **NJ-based buyer (unknown identity).** "[Name] SNF Operations LLC" convention. |
+| Lake Way | Benton | 96 | Yes | Lake Way SNF Operations LLC | Menucha Goodman | Jul 16, 2025 | Same buyer as Rivers Edge — both NPIs same day, same authorized official. |
+
+**Hanging Rock LTC LLC (4 facilities):** NOT a sale to an external buyer. Gale Boice is CFO of Principle LTC, Hanging Rock LTC, and Hillco Ltd simultaneously. This is an internal restructuring — the Hill family retains control through a new operating LLC. **Keep coded as PRINCIPLE LONG TERM CARE.**
+
+**Rivers Edge + Lake Way SNF Operations LLC (2 facilities):** These appear to be the facilities that actually transferred to the NJ-based buyer described in the Blueprint/SNN article. Both NPIs enumerated July 16, 2025 with Menucha Goodman as authorized official. Goodman does not surface publicly (no LinkedIn, no news, no industry presence). The "[Name] SNF Operations LLC" naming convention appears at other facilities nationally (Osprey FL, Bride Brook CT, Highland VA, RB/Red Bank NJ) but with different authorized officials — may be a common legal convention, not a single operator.
+
+**Trail goes cold.** Buyer identity cannot be confirmed from public sources. CMS/ProPublica ownership data (Feb 2026 extract) has not yet updated. NJ state filings (RB SNF Operations LLC / Red Bank Center) are PDF documents that didn't parse.
+
+**Action:** Rivers Edge and Lake Way remain coded PRINCIPLE for now. Logged to pending_followups.csv (IDs 1-2) with trigger = CMS/ProPublica update, check by July 2026.
+
+**Sources:**
+- SNN Dealbook Oct 2025: skillednursingnews.com (Blueprint brokered, NJ-based buyer, 818 beds, 7 facilities)
+- NPI Registry API: Rivers Edge SNF Operations LLC (1487546487), Lake Way SNF Operations LLC (1699667691) — both Menucha Goodman, both Jul 16, 2025
+- NPI Registry: Hanging Rock LTC LLC — multiple NPIs, all Gale Boice CFO
+- KY Long-Term Care Directory Feb 2026: Essex owner = Robert Flatt / Hanging Rock LTC LLC; Lake Way = Lake Way SNF Operations LLC
+- SNN Mar 2023: Gale Boice identified as Principle LTC CFO
+- LinkedIn: Gale Boice = CFO at Principle LTC
 
 ### Harmony Hall Verification (2026-04-04, punchlist #14)
 Per-facility verification confirmed both DB rows at 312 Warren Ave, Kinston NC are misattributed to HARMONY SENIOR SERVICES:

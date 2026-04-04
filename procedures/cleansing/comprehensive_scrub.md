@@ -22,6 +22,22 @@ Every time a source check reveals a discrepancy — between the Forward Universe
 
 ---
 
+### Follow-up tracker
+
+Not every finding can be resolved in the current session. When a procedure produces an item that requires future action — a pending operator verification waiting on CMS to update, a GLR correction that needs to be communicated to a team, a scoring board evaluation waiting for the freeze to lift — log it immediately to `scripts/audit_reports/pending_followups.csv`.
+
+**Every follow-up entry must have:**
+- **Type:** what kind of item (Pending_Operator, GLR_Correction, Finance_Correction, Scoring_Board, DB_Recode, DB_Delete)
+- **Trigger:** what event resolves it (CMS refresh, scoring board unfreeze, stakeholder communication, V25.7 release)
+- **Check_By:** when to revisit if the trigger hasn't fired
+- **Evidence_Location:** where the research lives so the next session doesn't start from scratch
+
+**At the start of every work session that touches the Forward Universe, check the follow-up tracker first.** Has any trigger fired? Have CMS or ProPublica updated? Has the scoring board freeze lifted? Has the GLR team been contacted? Close resolved items and act on anything that's now unblocked.
+
+The follow-up tracker is the bridge between sessions. Without it, pending items survive only in memory files and punchlist notes — where they compete with active work for attention and get buried.
+
+---
+
 ## Procedure 1: Identify Candidate Clusters
 
 The address is the anchor. Facilities don't move — ownership changes, names change, the spelling of names change, corporate structures change, but the physical location is the most stable fact in the database.
