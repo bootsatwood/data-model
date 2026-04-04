@@ -292,9 +292,21 @@ When the verified operator is known, determine the correct corporate name for th
    **Example — regional brand that IS an operator (code it):**
    Bluegrass Consulting Group operates 17 served facilities in KY under the Majestic Care corporate family. Bluegrass has its own management structure, its own operational presence, its own KY footprint that predates the Majestic relationship. If you pulled Bluegrass out of the Majestic family, it would still be an operating entity. **Code: MAJESTIC / BLUEGRASS CONSULTING GROUP.** The slash notation shows both the parent and the regional operator.
 
-3. **Multiple corporate names for one economic entity is acceptable** if they reflect genuinely different operating entities with their own management structures (e.g., Portopiccolo's regional operators: Accordius in NC, Clearview in KY, August Healthcare in eastern NC/VA — each has its own facilities, its own compliance infrastructure, its own CMS registrations). Use the slash notation (`PARENT / REGIONAL OPERATOR`) when the regional brand is a real operator under a known parent.
-4. **Check the GLR** — what corporate name does the GLR use? The GLR codes by operator, which confirms the approach.
-5. **Log all name variants, mergers, rebrands, and corporate relationships** to `MUO_Corporate_History.md` immediately.
+3. **Multiple corporate names for one economic entity is acceptable** if they reflect genuinely different operating entities with their own management structures (e.g., Portopiccolo's regional operators: Accordius in NC, Clearview in KY, August Healthcare in eastern NC/VA — each has its own facilities, its own compliance infrastructure, its own CMS registrations).
+
+4. **Slash notation rule.** The slash format `PARENT / REGIONAL OPERATOR` is used when the regional brand passes the operator test (own NPI, own OpCo LLCs, own management structure). The slash shows the relationship between a parent entity and a genuine regional operator beneath it. Three scenarios:
+   - **Regional brand passes operator test** → `PARENT / REGIONAL OPERATOR` (e.g., `MAJESTIC / BLUEGRASS CONSULTING GROUP` — Bluegrass has own NPI, own KY ops staff, own LLC, own email domain)
+   - **Regional brand fails operator test** → code the parent only, no slash (e.g., `HILL VALLEY HEALTHCARE` — Twin Pines is a marketing label, not an operator)
+   - **Only one brand** → code the brand, no slash (e.g., `TRILOGY HEALTH SERVICES`, `CARLYLE SENIOR CARE` — no ambiguity about who the operator is)
+
+5. **An individual's name from CMS is not the operator.** When CMS Chain Owner is a person's name (e.g., DAVID MARX on 8 KY SNFs), this is the ownership layer — the same as a PropCo LLC but with a person's name. Code the operator, not the individual owner.
+
+6. **A single-facility LLC with no public presence is not an operator identity.** When the legal owner is an LLC with one building, no website, no CMS chain, and no other facilities under that name (e.g., Lackawanna Healthcare Associates LLC), coding it would create a phantom entity. If no operator can be identified behind the LLC, code as INDEPENDENT and document the ownership in MUO Corporate History for future reference.
+
+7. **INDEPENDENT requires verification, not assumption.** INDEPENDENT in the Forward Universe often means the upstream source didn't know the operator — it is an absence of data, not a confirmed classification. Before accepting INDEPENDENT as correct, verify through the full source sequence that no corporate operator exists. The Seven Acres case required a two-pass investigation through ownership filings, personnel research, and corporate website verification before INDEPENDENT could be confirmed.
+
+8. **Check the GLR** — what corporate name does the GLR use? The GLR codes by operator, which confirms the approach.
+9. **Log all name variants, mergers, rebrands, and corporate relationships** to `MUO_Corporate_History.md` immediately.
 
 ---
 
