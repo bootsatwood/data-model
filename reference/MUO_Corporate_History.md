@@ -1134,6 +1134,18 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 - **V25.6 punchlist #15:** Add as new entity, evaluate for tier.
 - **KY portfolio sold Oct 2025** — CMS data (Feb 2026 extract) may still show 7 KY facilities under Chain 423 that are no longer Principle LTC.
 
+### 8-Step Corporate Reconciliation (2026-04-04, punchlist #15)
+1. **DB fuzzy name scan:** 56 rows under "PRINCIPLE" — NC (43), KY (10), VA (1), PA (1), MI (1). Also found under RICHMOND PINES HEALTHCARE (CCN 345293, stale corporate "Herndon Billy L" but current operator is Principle/Spruce LTC Group LLC per punchlist #3 research).
+2. **CMS cross-reference:** Chain 423, 44 facilities at time of Feb 2026 extract. Includes KY facilities that were sold Oct 2025.
+3. **Web validation:** principleltc.com confirms NC + VA operations. KY sold. HQ 1435 US-258 Kinston NC. Principle Therapy Services subsidiary (confirmed on harmonyhallcare.com). Cardinal Hospice Care subsidiary (6 NC locations).
+4. **Consolidation:** 44 NC+VA rows in our operating states (post-KY-sale).
+5. **Footprint filter:** NC (43 rows) + VA (1 row) = 44 rows in operating states. KY (10 rows) excluded — sold Oct 2025.
+6. **Campus collapse:** 39 unique campus addresses in NC+VA, all 15+ beds.
+7. **7+ gate: PASS (39 campuses).** Well above threshold.
+8. **Score:** Scoring board frozen until June 6. Evaluate for tier when freeze lifts. Profile suggests T1-T2 based on campus count (39), geography (core NC + VA), business maturity (70 years), and operator type (family-owned SNF specialist).
+
+**Additional action needed:** 10 KY rows coded PRINCIPLE need investigation — who is the new operator after Oct 2025 sale? Buyer described as "NJ-based" in industry press. Blueprint Healthcare brokered. These rows are stale and may need recode to the acquiring entity.
+
 ### Harmony Hall Verification (2026-04-04, punchlist #14)
 Per-facility verification confirmed both DB rows at 312 Warren Ave, Kinston NC are misattributed to HARMONY SENIOR SERVICES:
 - **SNF (175 beds):** ProPublica confirms Principle IT Services Inc (50%) + Principle Long Term Care Inc (50%), Hill family ownership (Robert 21%, Stephen 20%, Raymond 18%). Managing entity = Principle LTC. CMS Chain 423. NC DHSR license NH0355 under Redwood LTC Group LLC. Recode to PRINCIPLE LONG TERM CARE.
