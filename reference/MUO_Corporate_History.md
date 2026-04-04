@@ -1230,6 +1230,23 @@ Oak Hollow Healthcare Management (management company, Lenoir NC)
 - Likely a NIC MAP sourcing artifact: these may be independently owned properties with Brookdale management/branding, coded by PropCo instead of operator.
 - Per operator attribution rule: if Brookdale is the clinical/business decision-maker, these should be `BROOKDALE SENIOR LIVING`.
 
+### Verification (2026-04-04)
+All 9 facilities confirmed on brookdale.com with full Brookdale branding and "© Brookdale Senior Living Inc" copyright. These are Brookdale-operated communities, not independently owned with Brookdale management. The INDEPENDENT coding was a NIC MAP artifact (PropCo LLC as corporate name → count of 1 → classified Independent).
+
+| Facility | Brookdale URL | Confirmed |
+|---|---|---|
+| Brookdale Alliance | brookdale.com/en/communities/brookdale-alliance.html | Yes |
+| Brookdale Beavercreek | brookdale.com/en/communities/brookdale-beavercreek.html | Yes |
+| Brookdale Camelot Medina | brookdale.com/en/communities/brookdale-camelot-medina.html | Yes |
+| Brookdale Centennial Park | brookdale.com/en/communities/brookdale-centennial-park.html | Yes |
+| Brookdale Greenville | brookdale.com/en/communities/brookdale-greenville-oh.html | Yes |
+| Brookdale Lakeview Crossing | brookdale.com/en/communities/brookdale-lakeview-crossing.html | Yes |
+| Brookdale Springdale (AL) | brookdale.com/en/communities/brookdale-springdale.html | Yes (covers AL + MC) |
+| Brookdale Springdale (MC) | (same URL — one campus, two DB rows) | Yes |
+| Brookdale Trillium Crossing | brookdale.com/en/communities/brookdale-trillium-crossing.html | Yes |
+
+**Action:** Recode all 9 rows INDEPENDENT → BROOKDALE SENIOR LIVING. Update Lakeview Crossing Do_We_Serve → Yes. Sale type changes from New Logo to New Door. Ready for V25.7.
+
 ### DB Actions Required (V25.6)
 1. **Verify operator** for all 9 facilities — confirm Brookdale Senior Living is the clinical operator, not just the brand licensee
 2. If confirmed: recode Corporate_Name from `INDEPENDENT` → `BROOKDALE SENIOR LIVING` (9 rows)
