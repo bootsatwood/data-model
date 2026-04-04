@@ -1134,6 +1134,13 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 - **V25.6 punchlist #15:** Add as new entity, evaluate for tier.
 - **KY portfolio sold Oct 2025** — CMS data (Feb 2026 extract) may still show 7 KY facilities under Chain 423 that are no longer Principle LTC.
 
+### Harmony Hall Verification (2026-04-04, punchlist #14)
+Per-facility verification confirmed both DB rows at 312 Warren Ave, Kinston NC are misattributed to HARMONY SENIOR SERVICES:
+- **SNF (175 beds):** ProPublica confirms Principle IT Services Inc (50%) + Principle Long Term Care Inc (50%), Hill family ownership (Robert 21%, Stephen 20%, Raymond 18%). Managing entity = Principle LTC. CMS Chain 423. NC DHSR license NH0355 under Redwood LTC Group LLC. Recode to PRINCIPLE LONG TERM CARE.
+- **ALF (50 beds):** No NC DHSR adult care home license found at 312 Warren Ave. HSS does not list Kinston and does not operate SNFs. "Harmony Hall" is the facility's historical name, coincidentally similar to "Harmony Senior Services" but unrelated. ALF row is a phantom (NIC MAP Trailing Type pattern). Flag for deletion.
+
+Sources: ProPublica h-345156, harmonyhallcare.com, NC DHSR facility search, harmonyseniorservices.com/senior-living/nc/ (Kinston not listed).
+
 ---
 
 ## OAK HOLLOW HEALTHCARE MANAGEMENT (correction from "Brothers Healthcare / CJM Advisors")
