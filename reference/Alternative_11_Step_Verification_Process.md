@@ -1,5 +1,7 @@
 # Alternative 11-Step Corporate Owner Verification Process
 
+> **SUPERSEDED 2026-04-04.** The two-pass investigative approach described here has been incorporated into `procedures/cleansing/comprehensive_scrub.md` Procedure 3 as the "Escalation: Two-Pass Investigative Approach" section. The Lyon / Hill Valley / Bedrock case study remains valuable as a reference — this file is preserved for that purpose. Do not update this file — update the procedure document instead.
+
 **Created:** 2026-04-03
 **Context:** Derived from the Lyon / Hill Valley / Bedrock investigation during the New Door & New Logo Reconciliation. The standard linear methodology failed to connect three CMS chains operating as one corporate family. This two-pass approach discovered what the linear approach could not.
 

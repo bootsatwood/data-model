@@ -1,5 +1,7 @@
 # Database Verification Procedures
 
+> **SUPERSEDED 2026-04-04.** This document has been replaced by `procedures/cleansing/comprehensive_scrub.md`, which consolidates all verification procedures, adds the ownership table framework, two-pass investigative escalation, and 17 rules developed through testing against 12 punchlist items. This file is preserved for historical reference only. Do not update this file — update the procedure document instead.
+
 **These procedures are MANDATORY for all database work. Never substitute pattern-matching, heuristics, or assumptions for verification.**
 
 ---

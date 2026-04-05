@@ -86,7 +86,18 @@ Source hierarchy (SNF vs ALF), NIC MAP reliability patterns, tier 2 supplemental
 | CMS Cross-Reference Results | `reference/Proposal_CMS_Source_Data_Cross_Reference.md` | One-time completeness analysis (99.65% SNF coverage). Informs but does not define procedure. |
 | MUO Corporate History | `reference/MUO_Corporate_History.md` | Logging destination for corporate intel discovered during cleansing work. |
 | Dedup Decisions Log | `scripts/audit_reports/dedup_decisions_log.csv` | Logging destination for facility-level decisions. |
+| GLR Change Log | `scripts/audit_reports/glr_change_log.csv` | Logging destination for GLR upstream corrections. Triggers internal communication. |
+| Pending Follow-ups | `scripts/audit_reports/pending_followups.csv` | Items that need future action. Check at start of every session. |
 | Operator Research Log | Memory: `reference/operator_research_log.md` | Index of operators already fully researched — check before re-investigating. |
+
+### Superseded Documents (preserved for historical reference)
+
+| Document | Location | Superseded By |
+|---|---|---|
+| DB Verification Procedures | `reference/DB_Verification_Procedures.md` | `procedures/cleansing/comprehensive_scrub.md` |
+| Alternative 11-Step Verification | `reference/Alternative_11_Step_Verification_Process.md` | `procedures/cleansing/comprehensive_scrub.md` Procedure 3 (two-pass escalation) |
+| Verification Methodology HTML | `Vault/05_Board_and_Leadership/NB_LOB_Report_March_2026/Verification_Methodology.html` | `procedures/cleansing/comprehensive_scrub.md` (HTML retains value as the Sale Type Reconciliation deliverable) |
+| Source Lookup How-To | Memory: `reference/source_lookup_howto.md` | `procedures/cleansing/comprehensive_scrub.md` Procedure 3 (source sequence + evidence standard) |
 
 ---
 
