@@ -70,23 +70,9 @@ The escalation check is a deliberate decision point. Not every issue investigati
 
 ---
 
-## Shared Foundations
+## Source Reference and Evidence Standard
 
-Both procedures depend on two shared reference documents:
-
-### Source Reference → `source_reference.md`
-
-All data sources used in verification, organized by facility type (SNF vs. ALF), with detailed usage instructions, reliability patterns, and known limitations. The source hierarchy differs by facility type because SNFs have CMS/ProPublica (federal authority) while ALFs do not.
-
-### Evidence Standard → `evidence_standard.md`
-
-How much proof is required before changing the database. Covers:
-- Minimum source requirements (2-source minimum for any attribution change)
-- Confidence levels (HIGH / MEDIUM / LOW) and what qualifies for each
-- Per-facility verification rule (never bulk-recode without individual confirmation)
-- Decision tree for when sources conflict
-- Documentation and citation standards
-- Logging destinations for every type of finding
+Source hierarchy (SNF vs ALF), NIC MAP reliability patterns, tier 2 supplemental sources, evidence standard (2-source minimum, confidence levels, per-facility verification rule), conflict resolution decision tree, and logging destinations are all embedded in `comprehensive_scrub.md` Procedure 3. They are not separate documents — they are integral to the operator attribution workflow.
 
 ---
 

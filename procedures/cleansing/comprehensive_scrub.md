@@ -168,7 +168,7 @@ Check internal data first, then authoritative structured sources, then external 
 **Authoritative structured sources:**
 5. **CMS Provider Info** (SNFs) — CCN, legal business name, chain name/ID, ownership type, CHOW flag
 6. **ProPublica Nursing Home Inspect** (SNFs) — direct/indirect owners with %, managing entity, dates. More granular than CMS chain. **However:** the managing entity in ProPublica is often a facility-level LLC, not the parent operator brand (e.g., RHS Partners of Terre Haute LLC = Trilogy Health Services; Medical Rehabilitation Centers LLC = Exceptional Living Centers; Waters of Huntingburg II LLC = Infinity Healthcare Consulting). Always resolve the ProPublica managing entity to its parent brand by checking the operator website — do not code the facility-level LLC as the operator.
-7. **NIC MAP** (ALFs: starting point / SNFs: supplemental) — Owner Name (col 18) = PropCo, NEVER the operator. Operator Name (col 41) = management company candidate. See reliability patterns in `source_reference.md`.
+7. **NIC MAP** (ALFs: starting point / SNFs: supplemental) — Owner Name (col 18) = PropCo, NEVER the operator. Operator Name (col 41) = management company candidate, but verify against other sources. File: `Vault/02_Data_Model/Reference/Source_NIC_Maps_Nationwide_Inventory_Export_11.17.25.xlsx`, Buildings sheet, 23,142 rows. Export date Nov 17, 2025 — any CHOW after that date will not be reflected. Account exec: Jacob Brooks. **Reliability patterns:** (1) Stale operator — can lag years behind CHOWs; (2) Self-referencing — operator = facility name, corporate parent hidden; (3) Unknown operator — NIC MAP can't help, fall through to state registry + web; (4) Correct and current — usually large national chains, confirm with one additional source; (5) Owner ≠ Operator — Owner field is ALWAYS PropCo/REIT, never the operator. NIC MAP is a screening tool, not an authority — minimum 2 independent sources required.
 8. **State Registry** — license holder, licensed administrator. The ONLY authority for ALFs.
 9. **NPI Registry** — authorized official name/title → LinkedIn → employer reveals operating company
 
@@ -177,6 +177,51 @@ Check internal data first, then authoritative structured sources, then external 
 11. **News / investigative journalism** — WBTV, NC Newsline, McKnight's, Skilled Nursing News, Senior Housing News, PESP reports, UC Berkeley, The Real Deal, local news, court record databases. Search by operator name, individual owner names, and facility names.
 
 **For large national chains with well-maintained websites, the operator website can be the primary confirmation source — especially for ALFs where CMS/ProPublica don't exist.** If brookdale.com lists a facility with full branding and copyright, that is strong evidence of operational control. The second source can be the facility's presence in the DB under the chain's name elsewhere in the same state/metro. This is not a shortcut around the 2-source rule — it is recognizing that for ALFs, the operator website may be the most authoritative source available. The Brookdale Ohio case confirmed this: 9 ALFs coded INDEPENDENT were all listed on brookdale.com, while NIC MAP had missed every one because it carried PropCo LLCs instead of Brookdale's name.
+
+**Supplemental sources (tier 2 — useful for confirmation, cross-referencing, and the two-pass approach):**
+
+| Source | URL | What It Provides |
+|---|---|---|
+| **NPI Registry API** | npiregistry.cms.hhs.gov/api/?version=2.1&number={NPI} | Structured JSON with authorized official, mailing address, enumeration date. Most current NPI data. |
+| **npiprofile.com / npino.com / opennpi.com** | npiprofile.com/npi/{NPI} | Human-readable NPI lookups. Authorized official, org name, address. |
+| **nursinghomereport.org** | nursinghomereport.org/ownername-{name} | Lists all facilities by owner name. Useful for mapping owner portfolios. (May be intermittently available.) |
+| **nursa.com** | nursa.com/facilities/{facility-name} | Facility profiles with operator, administrator, NPI, CMS data. Sometimes shows operator attribution that differs from CMS. |
+| **State business filings** (IN SOS, NC SOS, etc.) | Varies by state | LLC formation dates, registered agents, principal office addresses. Confirms when entities were created and where they're based. |
+| **REIT portfolio pages** | strawberryfieldsreit.com, sabrahealth.com, caretrustreit.com, welltower.com, omegahealthcare.com, nhireit.com | REITs list operator/tenant names for their properties. Reveals who manages REIT-owned facilities — may differ from CMS chain. Strawberry Fields confirmed Hill Valley as KY tenant. |
+| **State licensing directories** | KY: chfs.ky.gov/agencies/os/oig/dhc | Current licensee, administrator, bed count, license dates. More current than CMS for recent CHOWs. |
+| | NC DHSR: info.ncdhhs.gov/dhsr | CON exemption filings show CHOWs before CMS catches up. Record numbers are stable references. |
+| | IN QAMIS: in.gov/health/reports/QAMIS | Scraped copy: `data-model/reference/IN_QAMIS_Residential_Directory_2026-02-26.csv` |
+| | OH ODH: odh.ohio.gov | Difficult to search, no bulk export. |
+| | VA DSS: vdh.virginia.gov | Portal-based, no bulk download. |
+| | KY CHFS: chfs.ky.gov | Excel/PDF export available. |
+| | SC GetCareSC: getcaresc.com | CSV export available. SC DHEC also at nfbl.sc.gov for nursing facility licensing. |
+| **Medicare Care Compare** | medicare.gov/care-compare | Public-facing quality ratings, staffing, inspection results. Confirms facility is active. |
+| **A Place for Mom / seniorcare.com / caring.com** | aplaceformom.com, seniorcare.com, caring.com | Facility profiles, sometimes has operator attribution. Useful for ALFs not in CMS. |
+| **FlippingBook / digital publications** | Varies | Corporate marketing materials sometimes reveal brand relationships (e.g., Majestic Care + Bluegrass joint flipbook). |
+
+**Evidence standard — minimum requirements for any attribution change:**
+
+- **2-source minimum.** Every corporate attribution change requires at minimum 2 independent sources converging on the same answer. The gold standard is 4 (NPI → LinkedIn → facility website → parent website, as in the Hill Valley discovery).
+- **Confidence levels.** HIGH = 3+ sources, no contradictions. MEDIUM = 2 sources or 3 with minor discrepancies. LOW = 1 source only or contradictions — do not act on LOW confidence until elevated.
+- **ALF confidence ceiling.** ALFs max out at MEDIUM unless the operator website explicitly lists the facility AND the state registry confirms the license holder. No federal ALF identifier exists.
+- **Per-facility verification.** Never bulk-recode without individual confirmation. The V25.2 YAD/Choice Health error (10 bad recodes from pattern-matching) and the Putnam County Hospital case (7 operators, not 1) proved this.
+- **Evidence documentation.** Name the specific source, URL, field, and date checked. "Confirmed via CMS" is insufficient. "ProPublica h-345156, managing entity = Principle Long Term Care Inc since Jan 2011" is sufficient.
+
+**When sources conflict — decision tree:**
+
+| Conflict | Resolution |
+|---|---|
+| CMS chain ≠ DB corporate name | Possible CHOW. Check ProPublica dates + state filings. |
+| ProPublica managing entity ≠ CMS chain | ProPublica is more granular. Managing entity = operator (but may be facility-level LLC — resolve to parent brand). Chain = holding company. Code the operator. |
+| NIC MAP operator ≠ DB corporate name | Could be stale NIC MAP (CHOW since export) or stale DB. Research both names — the discrepancy itself is the signal. |
+| NIC MAP operator = facility name (self-referencing) | NIC MAP doesn't know the corporate parent. Fall through to state registry + operator website. |
+| NIC MAP operator = "unknown" | NIC MAP can't help. Use state registry + web + NPI. |
+| NIC MAP Owner field ≠ DB corporate name | Expected. Owner is PropCo/REIT, never the operator. Add to PROPCO inventory (`reference/propco_llc_inventory.md`). |
+| State registry license holder ≠ operator website | License holder may be PropCo LLC. Operator website = ground truth for who runs the facility. |
+| CMS says old name, state says new name | State filings are more current for recent CHOWs. CMS lags 6-12 months. |
+| Operator website footer says "Brand A" but page title says "Brand B" | Follow the footer/copyright — it reveals the management company. Page title is the facility name. |
+| Two sources agree, one disagrees | Go with the two. Log the discrepancy in MUO_Corporate_History.md. |
+| All sources disagree | Escalate to two-pass approach. Do not code until resolved. |
 
 If the source sequence above resolves attribution with 2+ sources agreeing, proceed to the operator attribution rule. If sources conflict, refuse disclosure, or leave the operator ambiguous, escalate to the two-pass approach below.
 
