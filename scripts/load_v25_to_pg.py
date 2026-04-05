@@ -24,7 +24,7 @@ VAULT = os.path.expanduser(
     "~/OneDrive - Eventus WholeHealth/Vault"
 )
 V25_PATH = os.path.join(
-    VAULT, "02_Data_Model", "Current", "1_Combined_Database_FINAL_V25.xlsx"
+    VAULT, "02_Data_Model", "Current", "1_Combined_Database_FINAL_V25_7.xlsx"
 )
 
 # PostgreSQL connection
@@ -70,7 +70,7 @@ def read_v25_facilities():
             "state": clean_str(vals.get("State")),
             "zip": clean_str(vals.get("ZIP")),
             "county": clean_str(vals.get("County")),
-            "ownership_type": clean_str(vals.get("Ownership_Type")),
+            "ownership_type": clean_str(vals.get("Ownership_Type")) or ("Corporate" if clean_str(vals.get("Corporate_Name")) else "Independent"),
             "total_beds": safe_int(vals.get("Total_Beds")),
             "census": safe_decimal(vals.get("Census")),
             "do_we_serve": to_bool(vals.get("Do_We_Serve")),
