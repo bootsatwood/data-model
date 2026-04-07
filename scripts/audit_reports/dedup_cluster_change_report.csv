@@ -1,0 +1,32 @@
+Punchlist,Facility_Name,City,State,Field,Current,New,Evidence
+C1,HAMILTON POINTE HEALTH AND REHAB - AL,Newburgh,IN,Corporate_Name,RIVERVIEW HOSPITAL,TLC MANAGEMENT,ProPublica h-155803 managing entity + tlcmgmt.com portfolio
+C1,HAMILTON POINTE HEALTH AND REHAB - MC,Newburgh,IN,Corporate_Name,RIVERVIEW HOSPITAL,TLC MANAGEMENT,Same campus as AL — ProPublica + tlcmgmt.com
+C1,HAMILTON POINTE HEALTH AND REHAB - SNF,Newburgh,IN,Corporate_Name,RIVERVIEW HOSPITAL,TLC MANAGEMENT,Same campus — CCN 155803 CMS chain = TLC Management
+C3,CARMEL MANOR,Fort Thomas,KY,DELETE ROW,,,Duplicate SNF no GLR match — row 5714 matches GLR entry
+C3,CARMEL MANOR FORT THOMAS SNF,Fort Thomas,KY,Source_Type,ALF,SNF,CCN 185208 confirms SNF; GLR types SNFMD
+C3,CARMEL MANOR FORT THOMAS SNF,Fort Thomas,KY,Total_Beds,87,95,CMS certified beds = 95 (diff 8 within 15)
+C4,SHADY LAWN,Cynthiana,KY,DELETE ROW,,,Unserved duplicate of row 6055 (Pair 12)
+C4,SHADY LAWN - CYNTHIANA,Cynthiana,KY,Corporate_Name,"SHADY LAWN, LLC",INDEPENDENT,KY CHFS 100170PC Shady Lawn I LLC + NIC MAP unknown + no website
+C4,SHADY LAWN - CYNTHIANA,Cynthiana,KY,Total_Beds,56,75,GLR + KY CHFS 100148PC
+C5,DOMINION SENIOR LIVING FRANKFORT,Frankfort,KY,DELETE ROW,,,Unserved duplicate of row 5757
+C5,DOMINION SENIOR LIVING OF FRANKFORT,Frankfort,KY,Total_Beds,21,84,GLR Licensed Bed = 84
+C6,MORNING POINTE OF OWENSBORO,Owensboro,KY,DELETE ROW,,,Duplicate — Genesis NIC MAP misattribution (Pair 11)
+C6,MORNING POINTE OWENSBORO,Owensboro,KY,Total_Beds,14,66,NIC-A Heritage Place pre-reno capacity
+C7,ARCADIA SENIOR LIVING,Bowling Green,KY,DELETE ROW,,,Unserved duplicate (110 beds variant)
+C7,ARCADIA SENIOR LIVING BOWLING GREEN,Bowling Green,KY,DELETE ROW,,,Unserved duplicate (87 beds variant)
+C7,ARCADIA SENIOR LIVING,Bowling Green,KY,Corporate_Name,INDEPENDENT,ARCADIA COMMUNITIES,arcadiabowlinggreen.com + arcadia-communities.com + 11-step verified
+C7,ARCADIA SENIOR LIVING,Bowling Green,KY,Total_Beds,26,87,GLR
+C8,METCALFE HEALTH CARE CENTER AL,Edmonton,KY,Corporate_Name,,TOPAZ HEALTHCARE,Metcalfe sold to Topaz Sep 2025 $11.15M — jpinews.com
+C8,METCALFE HEALTH CARE CENTER SNF,Edmonton,KY,Source_Type,ALF,SNF,CCN 185217 confirms SNF; GLR types SNFMD
+C8,METCALFE HEALTH CARE CENTER SNF,Edmonton,KY,Corporate_Name,INDEPENDENT,TOPAZ HEALTHCARE,Same CHOW as AL entry
+C8,METCALFE HEALTH CARE CENTER SNF,Edmonton,KY,Total_Beds,64,71,CMS certified beds = 71
+C9,THE BUNGALOWS AT BOWLING GREEN,Bowling Green,KY,DELETE ROW,,,Typo variant duplicate (Pair 13)
+C9,THE BUNGALOS AT BOWLING GREEN,Bowling Green,KY,Total_Beds,19,28,GLR
+C10,CYPRESS GLEN RETIREMENT COMMUNITY,Greenville,NC,Corporate_Name,INDEPENDENT,LIFE CARE SERVICES,ProPublica h-345512 + lcsliving.com + CMS chain
+C10,CYPRESS GLEN RETIREMENT COMMUNITY MEMORY CARE COTTAGE,Greenville,NC,Corporate_Name,,LIFE CARE SERVICES,Same CCRC campus — SNF row already coded LCS
+P10,FERN TERRACE MAYFIELD,Mayfield,KY,Corporate_Name,"FERN TERRACE OF OWENSBORO, LLC",FERN TERRACE,KY CHFS + NIC MAP Davco Homes Inc + fernterrace.com
+P10,FERN TERRACE MAYFIELD,Mayfield,KY,Total_Beds,122,140,GLR + KY CHFS 100148PC
+P10,FERN TERRACE OF MAYFIELD LLC,Mayfield,KY,DELETE ROW,,,Unserved duplicate (Pair 10)
+P10,FERN TERRACE OWENSBORO,Owensboro,KY,Corporate_Name,"FERN TERRACE OF OWENSBORO, LLC",FERN TERRACE,Same operator — entity consolidation
+P10,FERN TERRACE OF BOWLING GREEN,Bowling Green,KY,Corporate_Name,DAVCO,FERN TERRACE,Same operator — entity consolidation
+P10,"DAVCO REST HOME, LLC",Owensboro,KY,Corporate_Name,DAVCO,FERN TERRACE,Same operator — entity consolidation
