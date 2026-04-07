@@ -1367,6 +1367,136 @@ Add to the "Two warnings about internal sources" section of the comprehensive sc
 
 ---
 
+## PHOENIX SENIOR LIVING
+
+**Canonical DB name:** `PHOENIX SENIOR LIVING`
+**HQ:** Roswell, Georgia
+**Phone:** (678) 214-2900
+**Website:** phoenixsrliving.com (redirects from phoenixseniorliving.com)
+**Type:** For-profit. Owner-operator-developer of senior housing.
+**Founded:** 2010 by Jesse Marinko
+**Portfolio:** 45 properties across 9 southeastern states (per news Jan 2025); 29 communities per website; Seniorly lists 38. Count varies by source — may reflect development pipeline vs operating.
+**Services:** Assisted Living, Independent Living, Memory Care, Skilled Nursing
+
+**Leadership:**
+- Jesse Marinko — CEO & Founder (25+ years senior living experience)
+- Seth Pesek — EVP / Chief Financial Officer
+- Summer Blizzard — SVP of Administration
+- Caren Kiage — VP of Systems Integrations
+- Dean Slye — VP of Human Resources
+- Justin Harden — VP of Sales & Marketing
+- Craig Streipe — VP of Financial Planning & Analysis
+- Jennifer Roth — VP of Clinical Services
+
+#### Ownership Structure — The Bungalos at Bowling Green (981 Campbell Ln, Bowling Green KY)
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | Unknown — ALF, no CMS/ProPublica | TBD |
+| **PropCo** | NIC MAP (Owner col 18) | Msd-bowling Green LLC |
+| **Management Company** | — | N/A (owner-operator model) |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | FU + GLR + NIC MAP + website (HIGH confidence) | **PHOENIX SENIOR LIVING** |
+
+**Confidence: HIGH.** 4 sources converge: Forward Universe, GLR Parent Company ("A Phoenix Senior Living Community"), NIC MAP Operator = PHOENIX SENIOR LIVING, phoenixsrliving.com dedicated facility page. News confirms real operator with 25-year CEO, 45 properties, Roswell GA HQ.
+
+**NIC MAP presence:** Phoenix Senior Living appears as Operator on 10+ NIC MAP entries across AL, AR, GA, KY, MO, SC, VA. "The Bungalows" is a Phoenix brand used for multiple locations (Bowling Green KY, Branson MO, Chesterfield Village MO, Nevada MO, Springfield East MO).
+
+**DB impact:** Attribution confirmed correct. No recode needed. Row 6100 (typo duplicate "Bungalows") deleted. Row 6098 kept, beds 19→28.
+
+#### Full 11-Step Source Sequence (2026-04-07)
+
+| Step | Source | Finding |
+|---|---|---|
+| 1 | Forward Universe | PHOENIX SENIOR LIVING on both rows |
+| 2 | GLR Export | Parent Company = "A Phoenix Senior Living Community" |
+| 3 | MUO Corporate History | No prior entry |
+| 4 | Operator Research Log | Not previously researched |
+| 5 | CMS | N/A — ALF |
+| 6 | ProPublica | N/A — ALF |
+| 7 | NIC MAP | Owner = Msd-bowling Green LLC (PropCo). Operator = PHOENIX SENIOR LIVING. |
+| 8 | KY CHFS | NOT LISTED in Feb 2026 PCH directory |
+| 9 | NPI Registry | No results |
+| 10 | Operator website | phoenixsrliving.com/communities/the-bungalows-at-bowling-green/ — dedicated page, 981 Campbell Lane |
+| 11 | News | Jesse Marinko CEO & Founder (since 2010), Roswell GA HQ, 45 properties, 9 states, SHN interview Jan 2025 |
+
+#### Sources
+- phoenixsrliving.com/communities/the-bungalows-at-bowling-green/ (checked 2026-04-07)
+- phoenixsrliving.com/communities/ (checked 2026-04-07)
+- NIC MAP (Nov 2025 export): Operator = PHOENIX SENIOR LIVING, Owner = Msd-bowling Green LLC
+- GLR Facility Dump 2026-03-13: Parent Company = "A Phoenix Senior Living Community"
+- Senior Housing News (Jan 21 2025): "Voices: Jesse Marinko, CEO and Founder, Phoenix Senior Living"
+- CBInsights: phoenixsrliving company profile
+- Seniorly: 38 properties listed
+
+**Discovered during:** ALF dedup cluster review, Cluster 9, punchlist item #1, 2026-04-07
+
+---
+
+## LIFE CARE SERVICES (LCS) — Cypress Glen Campus
+
+**Canonical DB name:** `LIFE CARE SERVICES`
+**Parent entity:** LCS (Life Care Services LLC), Des Moines IA — second-largest senior living operator in the US
+**Type:** Nonprofit CCRC management company. Manages communities for nonprofit boards. LLC legal entity type does NOT indicate PropCo — LCS is a major operator organized as an LLC.
+
+#### Cypress Glen Retirement Community (100/1000 Hickory St, Greenville NC)
+
+**Campus type:** CCRC / Life Plan Community. Est. 1987. 95 acres. The only Life Plan Community in eastern NC.
+**Care levels:** IL (cottages, garden villas, apartments — bulk of campus), AL (~16 beds), MC (~12 beds, "Memory Care Cottage"), SNF (6 beds, CCN 345512, short-term rehab)
+**GLR type:** CRCC. GLR beds=72, census=70 (campus aggregate across all licensed care). 9 patients, all Psychiatry.
+**Average daily census (SNF):** 2 residents. This is a captive CCRC rehab unit, not a standalone SNF.
+
+#### Ownership Structure
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | ProPublica (100%, since Oct 2013) | The United Methodist Retirement Homes, Incorporated (nonprofit) |
+| **PropCo** | NIC MAP Owner = "Cypress Glen Retirement Community" | Self-owned by nonprofit — no separate PropCo |
+| **Management Company** | ProPublica (since Jan 2000), CMS Chain, NIC MAP Operator, lcsliving.com | Life Care Services LLC |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | CMS + ProPublica + NIC MAP + lcsliving.com (HIGH) | **LIFE CARE SERVICES** |
+
+**Confidence: HIGH.** CMS chain = Life Care Services (SNF row 8810). ProPublica h-345512: managing entity = Life Care Services LLC since Jan 2000. NIC MAP Operator = Life Care Services. lcsliving.com/location-finder/north-carolina/greenville/cypress-glen/. DB SNF row already coded correctly.
+
+**Key personnel (ProPublica):** Laurie Stallings (since Jan 1994), Terry Hayes (since Dec 2022), Gerardo Gonzalez Rodriguez (since Apr 2023). Stallings has been associated with this campus for 32 years.
+
+**CCRC characterization:** This is NOT a market-competitive ALF/SNF. It is a captive care wing inside an entrance-fee CCRC. Residents enter through IL with a buy-in and transition to AL/MC/SNF as needs change. The 16 AL beds and 12 MC beds serve the existing CCRC resident population, not the open market. EWH's 9 Psych patients represent a minimal presence. All 3 DB rows should be flagged as CCRC units for punchlist item 12.
+
+**DB impact:** Row 8810 (SNF) already coded LIFE CARE SERVICES — no change. Row 8901 (AL) recode INDEPENDENT → LIFE CARE SERVICES. Row 8902 (MC) recode NULL → LIFE CARE SERVICES. All 3 flagged as CCRC campus units.
+
+**Address note:** SNF at "1000 HICKORY STREET" vs AL/MC at "100 Hickory St" — different building entrances on the 95-acre campus, not a data error. Both valid.
+
+#### LLC ≠ PropCo Pattern Note
+
+**Life Care Services LLC is an operator, not a PropCo, despite the LLC suffix.** This is an important refinement to punchlist item 9 (LLC audit): the LLC legal entity type is a signal to investigate, not a signal to reclassify. Detection criteria for distinguishing operator LLCs from PropCo LLCs:
+
+| Signal | PropCo LLC | Operator LLC |
+|---|---|---|
+| Facility count | Usually 1 facility | Multiple facilities |
+| Website | None or placeholder | Corporate site with portfolio, leadership, careers |
+| CMS chain affiliation | No chain | Named chain |
+| NIC MAP Operator field | Listed as Owner, not Operator | Listed as Operator |
+| NPI | None | May have organizational NPI |
+| ProPublica role | Listed as Direct Owner | Listed as Managing Entity |
+| Industry recognition | None | Awards, news coverage, trade association membership |
+
+Examples of operator LLCs: Life Care Services LLC, Emerald Healthcare LLC, Spring Arbor Management LLC. Examples of PropCo LLCs: Msd-bowling Green LLC, Elkhart AL Investors LLC, Shady Lawn I LLC.
+
+**This distinction must be applied during the punchlist item 9/10 deep scrub.** Not every LLC in the corporate_name_raw field is a PropCo artifact. Some are legitimate operators with LLC as their legal entity type.
+
+#### Sources
+- ProPublica: projects.propublica.org/nursing-homes/homes/h-345512 (CCN 345512, 6 beds, nonprofit, LCS since Jan 2000, UMRH owner)
+- lcsliving.com/location-finder/north-carolina/greenville/cypress-glen/ (LCS community listing)
+- cypressglen.org (facility website, "Life Plan Community," 95 acres)
+- NIC MAP (Nov 2025): Owner = Cypress Glen Retirement Community, Operator = Life Care Services
+- GLR Facility Dump 2026-03-13: Type = CRCC, Parent Company = INDEPENDENT (wrong for AL), 72 beds, 9 pts
+- U.S. News: health.usnews.com/best-nursing-homes/area/nc/cypress-glen-retirement-community-345512 (5-star CMS rating)
+- CMS (DB row 8810 corp_attribution_source): Chain = Life Care Services
+
+**Discovered during:** ALF dedup cluster review, Cluster 10, punchlist item #1, 2026-04-07
+
+---
+
 ## HARMONY SENIOR SERVICES
 
 **Canonical DB name:** `HARMONY SENIOR SERVICES`
