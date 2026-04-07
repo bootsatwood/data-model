@@ -13,8 +13,11 @@ Pair,Address,City,State,Action,Excel_Row,Facility_Name,Type,Beds,Source,Served,N
 9,363 S Fieldstone Blvd,Bloomington,IN,DELETE,5139,STONECROFT HEALTH CAMPUS,ALF,54,GLR,No,Roll-up; 0 GLR patients; not served; duplicate of row 5137
 9,363 S Fieldstone Blvd,Bloomington,IN,KEEP,5137,STONECROFT CAMPUS AL,ALF,32,GLR,Yes,Beds 32→54 (IN QAMIS)
 9,363 S Fieldstone Blvd,Bloomington,IN,KEEP,5138,STONECROFT CAMPUS SNF,SNF,53,GLR,Yes,Beds 53→70 (CMS CCN 155838 + IN QAMIS)
-10,1227 State Route 45 N,Mayfield,KY,DELETE,17943,"FERN TERRACE OF MAYFIELD, LLC",ALF,140,GLR,No,LLC name variant duplicate of row 5786; not served; 0 GLR patients
-10,1227 State Route 45 N,Mayfield,KY,KEEP,5786,FERN TERRACE MAYFIELD,ALF,122,GLR,Yes,Beds 122→140 (GLR); 124 pts all PC
+10,1227 State Route 45 N,Mayfield,KY,DELETE,17927,"FERN TERRACE OF MAYFIELD, LLC",ALF,140,GLR,No,LLC name variant duplicate of row 5783; not served; 0 GLR patients. Row number corrected from 17943 (pre-V25.7) to 17927 (V25.7).
+10,1227 State Route 45 N,Mayfield,KY,KEEP+RECODE,5783,FERN TERRACE MAYFIELD,ALF,122→140,GLR,Yes,Beds 122→140 (GLR + KY CHFS 100148PC). Recode FERN TERRACE OF OWENSBORO LLC→FERN TERRACE. Simpson Family Holdings LLC (licensee). Davco Homes Inc (NIC MAP operator). fernterrace.com. Rob Simpson owner. Founded 1963 Jack Simpson. Row corrected from 5786.
+P10-BG,1030 Shive Ln,Bowling Green,KY,RECODE,5785,FERN TERRACE OF BOWLING GREEN,ALF,75,GLR,Yes,Recode DAVCO→FERN TERRACE. Same operator entity fragmentation. KY CHFS 100403PC licensee Simpson Family Holdings LLC. Rob Simpson admin.
+P10-OW,45 Woodford Ave,Owensboro,KY,RECODE,5784,FERN TERRACE OWENSBORO,ALF,48,GLR,Yes,Recode FERN TERRACE OF OWENSBORO LLC→FERN TERRACE. KY CHFS 100096PC licensee Simpson Family Holdings II LLC.
+P10-DV,2526 West 10th St,Owensboro,KY,RECODE,17776,DAVCO REST HOME LLC,ALF,92,GLR,No,Recode DAVCO→FERN TERRACE. KY CHFS 100084PC licensee Simpson Family Holdings LLC. Original Davco home (est 1963). Same operator.
 11,3362 Buckland Sq,Owensboro,KY,DELETE,5937,MORNING POINTE OF OWENSBORO,ALF,66,NIC-A,No,Genesis is NIC MAP misattribution; real operator Morning Pointe; Heritage Place acquired Sep 2024
 11,3362 Buckland Sq,Owensboro,KY,KEEP,5931,MORNING POINTE OWENSBORO,ALF,14,GLR,Yes,Beds 14→66 (KY license); 20 pts (17 PC); Integrated; Morning Pointe confirmed operator
 12,108 S Miller St,Cynthiana,KY,DELETE,19277,SHADY LAWN,ALF,75,GLR,No,Duplicate of row 6055; not served; 0 GLR patients; same Campus_ID 1440

@@ -1497,6 +1497,69 @@ Examples of operator LLCs: Life Care Services LLC, Emerald Healthcare LLC, Sprin
 
 ---
 
+## FERN TERRACE (Davco Homes Inc.)
+
+**Canonical DB name:** `FERN TERRACE`
+**Legal entity:** Davco Homes Inc. (corporate), Simpson Family Holdings LLC / Simpson Family Holdings II LLC (KY licensee entities)
+**Founded:** 1963 by Jack Simpson, Owensboro KY — Kentucky's oldest and largest personal care home chain
+**Leadership:** Rob Simpson (owner/operator, admin at Bowling Green), Darin Simpson (co-operator). Jack Simpson (founder, still involved).
+**Website:** fernterrace.com (copyright Davco Homes Inc.)
+**Type:** Private, family-owned. Personal Care Homes (ALF).
+
+#### Portfolio (KY CHFS + fernterrace.com, checked 2026-04-07)
+
+| Facility | City | KY License | Licensee | Admin | Beds | DB Row | DB Corp (current) |
+|---|---|---|---|---|---|---|---|
+| Davco Rest Home | Owensboro | 100084PC | Simpson Family Holdings LLC | Stacey Helton | 92 | 17776 | DAVCO |
+| Fern Terrace of Owensboro | Owensboro | 100096PC | Simpson Family Holdings II LLC | Shirley Carrico | 68 | 5784 | FERN TERRACE OF OWENSBORO, LLC |
+| Fern Terrace of Mayfield | Mayfield | 100148PC | Simpson Family Holdings LLC | Kimberly Young | 140 | 5783 | FERN TERRACE OF OWENSBORO, LLC |
+| Fern Terrace of Bowling Green | Bowling Green | 100403PC | Simpson Family Holdings LLC | Rob Simpson | 114 | 5785 | DAVCO |
+| Fern Terrace of Murray | Murray | — | — | — | — | — | CLOSED (2021, staff shortage per WKMS/Murray Ledger) |
+
+**Entity fragmentation in DB:** Same operator coded under 2 different corporate names: "FERN TERRACE OF OWENSBORO, LLC" (facility-level LLC applied to Owensboro + Mayfield) and "DAVCO" (corporate name applied to Bowling Green + Davco Rest Home). All 4 surviving rows recode to `FERN TERRACE`.
+
+#### Ownership Structure
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | KY CHFS (licensee) | Simpson Family Holdings LLC / Simpson Family Holdings II LLC |
+| **PropCo** | NIC MAP (Owner col 18) | Maf Real Estate LLC (Mayfield), Oft Real Estate LLC (Owensboro), Bgf Real Estate LLC (BG) |
+| **Management Company** | NIC MAP (Operator col 41) | Davco Homes Inc. |
+| **Management Sub-brand** | — | Fern Terrace (consumer brand across all locations) |
+| **Operator** | NIC MAP + KY CHFS + fernterrace.com + news (HIGH) | **FERN TERRACE** |
+
+**Confidence: HIGH.** NIC MAP Operator = Davco Homes Inc. (all 3 NIC entries). KY CHFS: all 4 facilities licensed to Simpson Family Holdings LLC entities. fernterrace.com: copyright Davco Homes Inc., locations page lists all facilities. News: Bowling Green Daily News, WKMS, Murray Ledger all reference Davco Homes / Simpson family.
+
+#### Full 11-Step Source Sequence (2026-04-07)
+
+| Step | Source | Finding |
+|---|---|---|
+| 1 | Forward Universe | 5 rows under 2 corp names: FERN TERRACE OF OWENSBORO LLC (3 rows), DAVCO (2 rows). Entity fragmentation. |
+| 2 | GLR | Parent Company = FERN TERRACE OF OWENSBORO, LLC (on Mayfield entry). 124 pts at Mayfield. |
+| 3 | MUO Corporate History | No prior entry |
+| 4 | Operator Research Log | Not previously researched |
+| 5 | CMS | N/A — ALF |
+| 6 | ProPublica | N/A — ALF |
+| 7 | NIC MAP | Operator = Davco Homes Inc. on all 3 entries. Owners = PropCo real estate LLCs. |
+| 8 | KY CHFS (PCH Directory Feb 2026) | All 4 facilities licensed. Licensee = Simpson Family Holdings LLC / II LLC. Admins: Rob Simpson (BG), Kimberly Young (Mayfield), Shirley Carrico (Owensboro), Stacey Helton (Davco). Beds confirmed: 140, 68, 114, 92. |
+| 9 | NPI | Not checked (ALF — low yield expected) |
+| 10 | Operator website | fernterrace.com: copyright Davco Homes Inc. Lists Owensboro, Mayfield, Bowling Green, Davco. Founded 1963 Jack Simpson. |
+| 11 | News | BG Daily News: Fern Terrace BG closing article (2023). WKMS: Murray closure (2021). Rob Simpson identified as owner of Davco Homes. Jack Simpson integrated KY personal care homes in 1960s. Served 10,000+ people since 1963. |
+
+#### Sources
+- KY CHFS Personal Care Home Directory (Feb 2026 PDF): Licenses 100084PC, 100096PC, 100148PC, 100403PC
+- NIC MAP (Nov 2025): Operator = Davco Homes Inc. on all 3 entries
+- fernterrace.com (checked 2026-04-07): copyright Davco Homes Inc., About page, DAVCO page
+- fernterrace.com/davco-states-oldest-largest-personal-care-chain/: founding history
+- GLR Facility Dump 2026-03-13: Parent Company = FERN TERRACE OF OWENSBORO, LLC
+- Bowling Green Daily News (Dec 2023): Fern Terrace closure article
+- WKMS (Oct 2021): Murray closure, Rob Simpson quoted
+- Murray Ledger: staff shortage closure coverage
+
+**Discovered during:** ALF dedup Pair 10 cleanup (V25.8 prep), punchlist item #1, 2026-04-07
+
+---
+
 ## HARMONY SENIOR SERVICES
 
 **Canonical DB name:** `HARMONY SENIOR SERVICES`
