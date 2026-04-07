@@ -59,4 +59,22 @@ Records of facilities removed from the Combined Database due to ownership change
 
 ---
 
+## Edmonton, KY — Metcalfe Health Care Center → Topaz Healthcare
+
+**Date of acquisition:** September 2025 (sale approved by Metcalfe County magistrates, $11,150,000)
+**Date identified in DB review:** 2026-04-07 (Cluster 8 + Topaz re-investigation)
+**Address:** 701 Skyline Dr, Edmonton, KY 42129 (CCN 185217)
+
+**Prior operator:** Wells Health Services INC (managing entity since Jan 2008, under nonprofit ownership — The United Methodist Retirement Homes? / county-owned)
+**New operator:** Topaz Healthcare (Topaz Financial Services LLC, fka Sapphire Care Group, Landa/Platschek/Chafetz network, Brooklyn NY)
+**Transaction:** Sale for $11.15M. Four bids received. Topaz (corrected to "Topaz Corporation" by County Attorney) awarded unanimously.
+
+**CMS/ProPublica lag:** As of 2026-04-07, ProPublica still shows Wells Health Services INC as managing entity. KY DMS directory (Feb 2026) shows no external Corporation. Expected — CMS lags 6-12 months behind actual ownership changes. Same pattern as Hill Valley CHOWs.
+
+**DB action:** Rows 5924 (AL) and 5925 (SNF) recode to TOPAZ HEALTHCARE.
+
+**Sources:** jpinews.com (Sep 16 2025): "Metcalfe Healthcare Center Sold: A Fresh Chapter Begins"
+
+---
+
 *This log supplements the Combined Database by preserving lineage for deleted facilities. See `1_Combined_Database.md` for the active database companion.*
