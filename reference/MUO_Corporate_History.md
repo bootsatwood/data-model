@@ -1060,9 +1060,15 @@ AlignMed Partners (formerly Genesis Physician Services, rebranded) is Genesis's 
 | Jul 2025 | Genesis files Chapter 11 bankruptcy. 175 facilities across 18 states. $2.3B debt. | SNN, Healthcare Dive, NHPR |
 | Dec 2025 | Bankruptcy judge rejects initial insider sale (Genie 3 / Landau). "Too many irregularities." | Eleven Flo, McKnight's |
 | Jan 21, 2026 | Judge Jernigan approves sale to **NewGen Health** (operating as "101 West State Street LLC"). CEO Shawn Zhou, California-based. $1.015B ($343M cash + $100M promissory note + $572M assumed liabilities). | SNN, Bloomberg Law, McKnight's, CRE Daily, Yahoo Finance |
-| Spring 2026 | Transition expected to close "this spring or later." | SNN (Genesis spokesperson) |
+| Feb 2020 | Genesis sells/transfers 19 West Coast facilities (CA/WA/NV) to NewGen Health for $79M. First business relationship between the two. | McKnight's, GlobeNewsWire, genesishcc.com press release |
+| Spring 2026 | Original estimate for transition closing. | SNN (Genesis spokesperson, Jan 2026) |
+| Apr 2026 | Genesis spokeswoman Nerida Brennan emails: transition now expected **"this summer or later."** Pushed back from spring. State-by-state CHOW filings required across 18 states. | McKnight's, Central Maine (Apr 2, 2026) |
 
-**What happens when NewGen closes:** Every facility coded GENESIS in the DB may need a recode to NEWGEN or whatever operating brand they establish. The OPG barrier (AlignMed) status under new ownership is unknown — NewGen may retain, restructure, or eliminate the in-house physician model. Monitor.
+**NewGen Health background:** Los Angeles-based healthcare consulting/operating firm. CEO/CFO Shawn Zhou. Already operates the 19 West Coast facilities acquired from Genesis in 2020. Limited public profile — Boston Globe described them as a "little-known firm." The shared history between NewGen and Genesis raised scrutiny during the bankruptcy process (McKnight's: "New docs reveal Genesis HealthCare, selected bidder's shared history").
+
+**Transition status (as of 2026-04-07):** Sale is court-approved but **NOT closed**. Requires state-by-state regulatory approvals (CHOW filings). No specific NC or VA transfer news found. Maine (11 facilities) still pending per April 2 reporting. Timeline pushed to "summer or later."
+
+**What happens when NewGen closes:** Every facility coded GENESIS in the DB may need a recode to NEWGEN or whatever operating brand they establish. The OPG barrier (AlignMed) status under new ownership is unknown — NewGen may retain, restructure, or eliminate the in-house physician model. The 2020 West Coast precedent suggests NewGen operates under its own brand, not Genesis. **Monitor: check quarterly for state CHOW filings in NC (DHSR) and VA (VDH).** Next check: July 2026.
 
 **Operating LLCs (CMS legal business names):**
 - NC: Sunbridge Regency - North Carolina LLC (4 fac: Meridian, Abbotts Creek, Mount Olive, Siler City), Sunbridge Retirement Care Associates LLC (1 fac: Pembroke)
