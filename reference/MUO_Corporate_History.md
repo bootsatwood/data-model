@@ -1050,9 +1050,104 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 
 **NOTE:** 3/26 campus counts used V25 PG data + included naming-layer contamination. V25.5 exact-match counts corrected above. Pipeline counts from 3/26 were CRM board data, not DB Contract_Status field (which uses Green/Yellow/Red).
 
-**T4 classification review needed:**
-- Kissito Healthcare (T4, 12 campuses) — meets gate. Cary notes: "Bought by Utah group; Baroco/Steve meeting Mary Ferrell."
-- BHI Senior Living (T4, 9 campuses) — meets gate.
+**T4 classification review — RESOLVED 2026-04-07:**
+
+### BHI SENIOR LIVING — T4 CONFIRMED (8 campuses in footprint, passes gate but nonprofit CCRC model)
+
+**Full 8-step reconciliation completed 2026-04-07. External verification: HIGH CONFIDENCE (all 8 claims verified with 2+ independent sources).**
+
+**Canonical DB name:** `BHI SENIOR LIVING`
+**Legal entity:** BHI Senior Living, Inc. (EIN 35-0931432), 501(c)(3) nonprofit
+**Former names:** Crawford Baptist Industrial School (1905) → Baptist Homes of Indiana, Inc. (1960s) → BHI Senior Living, Inc. (Sept 21, 2011)
+**HQ:** 8330 Allison Pointe Trail Suite 300, Indianapolis, IN 46250
+**CEO:** John S. Dattilo. **CFO:** Roger E. Weideman II.
+**Model:** Life Plan Communities (CCRCs) — IL + AL + MC + SNF on single campuses. Faith-based (American Baptist).
+**Revenue (FY2024):** $87.2M. **Assets:** $394.7M.
+
+**Portfolio (12 communities):**
+- 10 Life Plan Communities: Hoosier Village (Indianapolis IN), Barrington of Carmel (IN), Towne House (Fort Wayne IN), Wesley Manor (Frankfort IN), Four Seasons (Columbus IN), Westminster Village North (Indianapolis IN), Maple Knoll Village (Cincinnati OH), Knolls of Oxford (OH), Clark at Franklin (Grand Rapids MI), Clark at Keller Lake (Grand Rapids MI)
+- 2 Active Adult (no licensed beds): Prairie Landing (Fort Wayne IN), Athens Crossing (Columbus IN)
+
+**Affiliation timeline:**
+- 2019: Prairie Landing Community Inc (BHI affiliate) acquires Barrington of Carmel from SQLC bankruptcy for $61M (Sources: McKnight's, GlobeSt, IBJ)
+- Jan 2022: Clark Retirement Community affiliates (Sources: HJ Sims, Senior Living News, Crain's Grand Rapids)
+- Oct 2021 / effective July 2022: Maple Knoll Communities affiliates (Sources: HJ Sims, DealFlow, mapleknoll.org "A BHI Affiliate", IRS 990 shared officers)
+- Feb 2024: Westminster Village North affiliates — BHI's "fourth time in seven years" (Sources: BHI press release, Senior Living News)
+
+**Subsidiary legal entities in DB:**
+- PRAIRIE LANDING COMMUNITY INC (Barrington ALF row 19559) — BHI entity, EIN 26-2053830, same officers as BHI
+- Clark Retirement (Clark at Keller Lake row 21510) — BHI affiliate
+- MAPLE KNOLL COMMUNITIES (Knolls of Oxford rows 11951/12608/12609, Maple Knoll Village row 12052) — BHI affiliate
+- Blank/INDEPENDENT (Maple Knoll Village SNF row 12051, row 12052) — should be coded BHI or Maple Knoll
+
+**Clinical services:** BHI co-owns Care Plus Home Health Care (CPHC) with Healthcare Therapy Services Inc (HTS) since 2022. HTS provides PT/OT/speech therapy across BHI campuses. NOT a full OPG — no captive physician group, no barrier to external clinical providers. (Sources: careplus-hhc.com, bhiseniorliving.org, htstherapy.com)
+
+**Footprint in 6 states:** 8 campuses (6 IN + 2 OH). MI facilities (2) outside footprint. Passes 7+ gate.
+**Tier: T4 (Brooke 3/27).** Passes gate but CCRC/nonprofit model with primarily IL census — clinical opportunity concentrated in SNF wings which are small (8-148 beds per campus). Brooke's T4 assignment reflects the business reality even though campus count exceeds threshold.
+
+**DB issues (V25.9 punchlist):**
+- Row 5200: Trustwell Living at Settler's Place (LaPorte IN) MISATTRIBUTED to BHI. Trustwell Living LLC is a separate for-profit company (CEO Lori Colwell Jones, Chairman Lawrence Cohen). Founded 2021, ~45 communities. Confirmed by trustwellliving.com, A Place for Mom, Senior Housing News. Zero connection to BHI.
+- Entity fragmentation: BHI facilities split across 4+ Corporate_Name values (BHI SENIOR LIVING, PRAIRIE LANDING COMMUNITY INC, Clark Retirement, MAPLE KNOLL COMMUNITIES, INDEPENDENT, blank). Consolidation needed.
+
+**Sources:** bhiseniorliving.org, mapleknoll.org, CauseIQ EIN 35-0931432, ProPublica Nonprofit Explorer (EIN 26-2053830 Prairie Landing, EIN 31-0544277 Maple Knoll), HJ Sims (Maple Knoll May 2021, Clark Jan 2022), McKnight's Senior Living, Senior Living News, Crain's Grand Rapids Business, GlobeSt, Indianapolis Business Journal, EIN Presswire (Smarter Service Apr 2025)
+
+---
+
+### KISSITO HEALTHCARE — T4 CONFIRMED (6 campuses VA, fails gate as standalone)
+
+**Full 8-step reconciliation completed 2026-04-07. External verification: HIGH CONFIDENCE (10 claims verified, 1 name correction).**
+
+**Canonical DB name:** `Kissito Healthcare`
+**Founded:** 1989 by Tom Clarke (President/CEO until ~2016)
+**HQ:** Virginia (western region)
+**Structure:** For-profit. Mixed ownership types per CMS — 3 nonprofit corporation, 3 for-profit LLC.
+**OpCo LLCs:** 5x "RBM OPCO OF [city] LLC" + 1x "AFS OF HOT SPRINGS, INC."
+**CMS Chain ID:** 302
+
+**CHOW — January 1, 2026:** Acquired by **Larry H. Miller Senior Health** (LHMSH), Salt Lake City, UT. Simultaneously, **CareTrust REIT** (NYSE: CTRE) purchased the real estate for ~$142M and leases back to LHM under a long-term triple-net lease (9% stabilized yield).
+- Prior owner: Robert McClintic II (CEO since 2016, purchased buildings ~2022)
+- LHM retained nearly all senior leadership, all operational leadership, all regional clinical leadership, all direct care employees
+- Facilities continue under the **Kissito brand name**
+- **Mary Ferrell** — VP of Operations, retained (30+ years post-acute, licensed NHA, fka VP Ops at Stonerise Healthcare and Genesis Healthcare)
+- Sources: SNN Dealbook Jan 2026, LHM press release, kissito.org blog, CareTrust investor relations, Virginia Business, SignalBase
+
+**Operator attribution analysis (2026-04-07):**
+LHM Senior Health is the **parent/holding company**, NOT the operator. LHM is an auto dealership/real estate/sports conglomerate (Larry H. Miller, 1944-2009; Utah Jazz owner 1985-2020) that entered healthcare in Jan 2021 by acquiring Advanced Health Care Corporation. Created "LHMSH" as a business platform in March 2023. LHM provides capital and strategic direction. Kissito's ops team (Mary Ferrell et al.) makes the facility-level clinical and business decisions. **This is the Portopiccolo pattern — PE/holding parent, independent operator subsidiaries.**
+
+**LHM Senior Health portfolio (for reference, NOT for scoring as one entity):**
+- Kissito Healthcare: 6 SNFs + ALFs in VA (acquired Jan 2026)
+- Advanced Health Care (AHC): ~23 SNF/transitional rehab facilities in 13 states including 2 in OH (Cincinnati, Landerhaven/Mayfield Heights). Founded 2001, Idaho. Andy Frasure is President of AHC AND COO of LHMSH.
+- Advanced Home Health and Hospice: 16 teams
+- Aspen Ridge Senior Living: 1 ALF, Lehi UT
+- LHM leadership: Joe Walker (President), Andy Frasure (COO), Jess Dalton (CSO, joined Nov 2024, fka VP Ensign Services)
+
+**Why Kissito and AHC are separate operators (not one LHM entity):**
+Both pass the operator test — own websites, own leadership, own CMS chains, own OpCo LLCs, own state licensing. If you pulled either out of LHM, it would still be an operating company. LHM does not make facility-level clinical decisions. Coding them as one entity would misrepresent who actually runs the facilities. Per operator attribution rule: code the entity that makes clinical and business decisions at the facility level.
+
+**Kissito footprint in 6 states:** 6 campuses, all VA. Does NOT pass 7+ gate.
+**AHC footprint in 6 states:** 2 campuses, OH. Does NOT pass 7+ gate.
+**Tier: T4 for both (Brooke's 3/27 assignment confirmed).**
+
+**Warsaw Nursing & Rehab (NC):** Formerly Kissito, divested ~July 2025 (before LHM deal). Now under **YAD Healthcare** (CMS Chain 640, owner Tzvi Alter 80% via Warsaw Holdco LLC). Confirmed by warsawrehab.com (YAD branding), ProPublica ownership data, kissito.org locations (Warsaw not listed).
+
+**"Baroco" from Cary's note:** Best lead is **Dr. Patrick E. Baroco Jr., MD** — Roanoke VA internist/geriatrician with Premier Geriatric Solutions. Serves as SNF medical director at Kendal at Lexington (since Aug 2023). Premier Geriatric Solutions covers the exact Kissito territory (Roanoke, Lynchburg, New River Valley VA + northwestern NC). Likely an attending physician or medical director at one or more Kissito facilities. His wife Dr. Allison Baroco is Health Director for the Central Shenandoah Health District (overlapping geography). (Sources: Doximity, Kendal at Lexington, US News Doctors, premiergeriatric.com, VDH)
+
+**Name correction:** Cary's note said "Steve" — the LHM COO is **Andy Frasure** (Andrew Frasure), not Steve. Confirmed by SNN interview March 2026, LinkedIn, The Org.
+
+**6 Kissito campuses (all VA, all Do_We_Serve=Yes, 0 barriers):**
+
+| Campus | City | SNF Beds (CMS) | ALF Beds (DB) | CMS CCN | CMS Stars |
+|---|---|---|---|---|---|
+| Bland County NRC | Bastian | 57 | 56 | 495191 | — |
+| Brian Center of Fincastle | Fincastle | 60 | 51 | 495218 | — |
+| Brian Center of Alleghany | Low Moor | 89 | 84 | 495221 | — |
+| Maple Grove NRC | Lebanon | 60 | 58 | 495365 | 3-star |
+| Mulberry Creek NRC | Martinsville | 300 | 36 | 495426 | — |
+| The Springs NRC | Hot Springs | 60 | 58 | 495220 | — |
+
+**DB issues:** None for Kissito proper. All 12 rows (6 SNF + 6 ALF campus pairs) are correctly coded. CMS CHOW flag hasn't updated yet (still shows "N" as of Feb 2026 extract — acquisition was Jan 1, 2026).
+
+**Sources:** kissito.org, lhm.com press releases, SNN Dealbook Jan 2026, SNN March 2026 (Frasure interview), CareTrust REIT investor relations, Virginia Business, Salt Lake Tribune (Jazz sale/AHC acquisition Jan 2021), McKnight's Senior Living (LHMSH platform Mar 2023), ahcfacilities.com, Ohio HCA, ProPublica (Warsaw ownership), Doximity/US News (Dr. Baroco), premiergeriatric.com, warsawrehab.com, SignalBase M&A
 
 ---
 
