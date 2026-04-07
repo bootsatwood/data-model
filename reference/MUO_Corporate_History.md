@@ -1560,6 +1560,53 @@ Examples of operator LLCs: Life Care Services LLC, Emerald Healthcare LLC, Sprin
 
 ---
 
+## TRADITIONS MANAGEMENT (Traditions Management LLC)
+
+**Canonical DB name:** `TRADITIONS MANAGEMENT`
+**Note:** Communities are branded "Traditions Senior Living" — consumer-facing name. Corporate entity is Traditions Management LLC. No slash — same entity, not a parent/regional split.
+**Legal entity:** Traditions Management LLC
+**HQ:** Indiana (locally owned)
+**Website:** traditionsmgmt.net
+**Type:** Private, locally owned. ALF (Independent Living, Assisted Living, Memory Care).
+**Portfolio:** 25 communities across IN (13), OH (8), KY (1), MI (2), FL (1). Growing — 4 more under construction.
+
+**V25.8 action:** Recode 14 rows TRADITIONS → TRADITIONS MANAGEMENT.
+
+**DISAMBIGUATION — Three companies share the "Traditions" name:**
+1. **Traditions Senior Living / Traditions Management LLC** (IN/OH/KY/MI/FL) — this entity. 25 communities. traditionsmgmt.net.
+2. **Tradition Senior Living** (TX) — Texas luxury CCRC developer. Perlman family (Jonathan Sr., Jonathan Jr., Holt). traditionseniorliving.com. Dallas/Houston/Fort Worth. COMPLETELY UNRELATED.
+3. **Traditions Assisted Living** (Thorp WI) — single 16-bed facility. Contact references Sunlight Assisted Living. COMPLETELY UNRELATED.
+
+DB row coded "Tradition Senior Living" (1 row, SC, HIGHPOINT AT FORT MILL) is a **misattribution** — neither the TX company nor the IN/OH company operates Highpoint. Highpoint is operated by HCC/Highpoint Property Group. Needs Procedure 3 investigation.
+
+**Verified during:** V25.8 entity standardization, 8-step reconciliation, 2026-04-07
+
+---
+
+## ARBORS AT OHIO (Ark Opco Group LLC)
+
+**Canonical DB name:** `ARBORS AT OHIO`
+**CMS chain name:** Arbors At Ohio
+**Legal entity:** Ark Opco Group LLC (100% owner since Jul 2015)
+**Managing entities:** Noble Healthcare Management LLC (since Jul 2015), Prestige Administrative Services LLC (since Jan 2016)
+**Principals:** Craig Flashner + Yitzchok Perlstein (since Jul 2015)
+**Type:** For-profit. SNF + ALF. Ohio only.
+**Website:** arborsofohio.com (timed out 2026-04-07)
+
+**Portfolio:** 16 nursing homes in Ohio per web search + 9 ALF rows in DB = mixed SNF/ALF operator. All facilities follow "Arbors at [City]" naming convention.
+
+**DB entity fragmentation:** ALF rows coded "ARBORS" (9 rows, 7 served), SNF rows from CMS coded "ARBORS AT OHIO" (11 rows, 3 served). Same operator split by source type. Some facilities appear under both (Carroll OH, Springfield OH — ALF row under ARBORS, SNF row under ARBORS AT OHIO at same campus).
+
+**V25.8 action:** Recode 9 rows ARBORS → ARBORS AT OHIO.
+
+**ProPublica verification (CCN 365527, Arbors at Springfield):** Chain = "Arbors At Ohio". Direct owner = Ark Opco Group LLC (100%). Indirect: B&Y Healthcare S Corp, B&Y Trust, Cody Healthcare S Corp, Craig Flashner 2007 Trust. Managing: Noble Healthcare Management LLC + Prestige Administrative Services LLC. Officers: Flashner + Perlstein.
+
+**NOT the same as:** ARBOR COMPANY (36 rows), ARBOR CARE CENTERS (9 rows), ARBORETA HEALTHCARE (8 rows), or any other "Arbor" variant in the DB. Name similarity does NOT determine attribution.
+
+**Verified during:** V25.8 entity standardization, 8-step reconciliation, 2026-04-07
+
+---
+
 ## HARMONY SENIOR SERVICES
 
 **Canonical DB name:** `HARMONY SENIOR SERVICES`
