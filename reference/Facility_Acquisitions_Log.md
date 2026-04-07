@@ -33,4 +33,30 @@ Records of facilities removed from the Combined Database due to ownership change
 
 ---
 
+## Owensboro, KY — Heritage Place → Morning Pointe Senior Living
+
+**Date of acquisition:** September 2024
+**Date identified in DB review:** 2026-03-27 (Pair 11), updated to current procedure standard 2026-04-06 (Cluster 6)
+**Address:** 3362 Buckland Sq, Owensboro, KY 42301
+
+**Prior operator:** Encore Communities (Pacific Northwest-based, ~43 communities in IL, WI, MN, OH, MI)
+**New operator:** Morning Pointe Senior Living (Chattanooga TN, founded 1997 by Greg Vital / Franklin Farrow)
+**Transaction:** Acquisition + $2.5M renovation. Grand opening as "Morning Pointe of Owensboro" Aug 14 2025. Deficiency-free KY licensure survey. ED: Karleigh Roby.
+
+**Removed (1 row):**
+
+| Old Row | Facility Name | Corp | Source_Type | Total_Beds | Served |
+|---------|--------------|------|-------------|------------|--------|
+| 5934 | MORNING POINTE OF OWENSBORO | GENESIS | ALF | 66 | No |
+
+**Notes:**
+- Row 5934 carried GENESIS as corporate name — NIC MAP misattribution. Genesis never operated this facility. NIC MAP inherited stale assignment from Encore/Heritage Place period or pure data error. NIC MAP export Nov 2025 still showed Genesis 14 months post-acquisition.
+- NIC MAP property name still "Heritage Place Assisted Living Center" as of Nov 2025 export.
+- NIC MAP Owner = "Owensboro Medical Invtrs LLC" — correctly maps to IHP/Morning Pointe PropCo pattern ("[City] Medical Investors LLC").
+- Kept row 5928 (MORNING POINTE OWENSBORO, served, GLR-sourced) with beds 14→66.
+
+**Sources:** morningpointe.com/press/morning-pointe-senior-living-expands-to-western-kentucky/, Owensboro Times (Sep 2024), NIC MAP (Nov 2025), GLR (Mar 2026), KY CHFS (not listed in Feb 2026 directory — gap).
+
+---
+
 *This log supplements the Combined Database by preserving lineage for deleted facilities. See `1_Combined_Database.md` for the active database companion.*

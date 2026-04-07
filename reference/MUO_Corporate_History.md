@@ -1032,7 +1032,7 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 - "American Healthcare" in LOB data = **Heritage Hall** (T1, entity 17366, 23 campuses). Legal holding company name vs. operator brand.
 
 **Barrier findings (T5 candidates):**
-- **Genesis** (id 16254): 9 campuses KY/NC/VA, 4 served. 7 of 10 facilities flagged "Own Provider Group." Cary lists as "Genesis/Alignmed."
+- **Genesis Healthcare** (id 16254): CMS Chain ID 237, 195 SNFs nationally. 7 campuses in footprint (5 NC, 2 VA). 4 served. 198 of 210 DB rows flagged "Own Provider Group." Cary lists as "Genesis/Alignmed." Full 8-step reconciliation completed 2026-04-07. **AlignMed Partners = formerly Genesis Physician Services** — Genesis's in-house clinical subsidiary, HQ Kennett Square PA (same as Genesis corporate). CEO Bill Schultz, 340+ physicians/NPs/PAs. Trademark: "Genesis Eldercare Physician Services LLC." This is the OPG barrier. **Bankruptcy:** Filed Ch.11 July 2025. Sale approved Jan 21, 2026 to NewGen Health (CEO Shawn Zhou, California) for $1.015B. Transition closing spring 2026. Prior owners: JER Partners/Formation Capital (PE, 2007-2011) → public → ReGen Healthcare/Joel Landau (93% equity, 2021-2025). Operating LLCs in NC = "Sunbridge Regency - North Carolina LLC" and "Sunbridge Retirement Care Associates LLC." VA = "Westwood Medical Park Operations LLC" and "11 Dairy Lane Operations LLC." **DB gap:** 4 NC facilities (Meridian/High Point, Abbotts Creek/Lexington, Mount Olive, Pembroke) confirmed by CMS + genesishcc.com but NOT in Forward Universe. **Ashland KY distinction:** Genesis HCR of Ashland One/Two (rows 5803/5804) are likely a separate local entity ("Genesis Health of Ashland LLC"), not Chain 237 — no CMS chain match, NIC MAP shows individual owners. Brooke confirmed T5 on 3/27 call.
 - **Alliance Health Group** (id 16888): 9 campuses NC, 0 served. 3 of 9 facilities flagged "Alliance" + "Own Provider Group."
 
 **Entity consolidation candidates identified:**
@@ -1061,20 +1061,309 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 **Canonical DB name:** `MORNING POINTE SENIOR LIVING`
 **Parent entity:** Independent Healthcare Properties (IHP), LLC
 **Founded:** 1997 by Greg A. Vital and Franklin Farrow, Chattanooga TN
-**Footprint:** ~42-43 communities across 5 states (TN ~18, KY 8, GA 2, IN 1, AL 1)
+**Footprint:** 27 communities per morningpointe.com (checked 2026-04-06) across 5 states: KY (8 including Owensboro), TN (16), GA (2), IN (1), AL (1). Press release says "42 assisted living and Alzheimer's memory care communities" — discrepancy may reflect Lantern MC units counted separately.
 **Business model:** ALF + Lantern memory care. PropCo entities follow "[City] Medical Investors LLC" naming convention (e.g., Owensboro Medical Invtrs LLC, Lexington East Medical Investors LLC, Brentwood Medical Investors LLC).
+**Website:** morningpointe.com
+**Leadership:** Greg A. Vital (Co-Founder), Franklin Farrow (Co-Founder)
 
 ### Timeline
 | Date | Event | Source |
 |---|---|---|
-| 1997 | Founded by Greg A. Vital and Franklin Farrow in Chattanooga, TN | [Morning Pointe About Us](https://morningpointe.com/about-morning-pointe/) |
-| 2024 (Sep) | Acquired Heritage Place (ALF, 66 beds) in Owensboro KY from Encore Communities. $2.5M renovation planned. 39th community overall. | [Owensboro Times](https://www.owensborotimes.com/features/2024/09/heritage-place-acquired-by-morning-pointe-senior-living-company-planning-2-5m-renovation/) |
-| 2025 (Aug) | Grand Opening of Morning Pointe of Owensboro (formerly Heritage Place). Deficiency-free KY licensure survey. | [Morning Pointe press release](https://morningpointe.com/press/morning-pointe-senior-living-expands-to-western-kentucky/) |
+| 1997 | Founded by Greg A. Vital and Franklin Farrow in Chattanooga, TN | morningpointe.com/about-morning-pointe/ |
+| 2024 (Sep) | Acquired Heritage Place (ALF, 66 beds) in Owensboro KY from Encore Communities. $2.5M renovation planned. 39th community overall. | Owensboro Times (owensborotimes.com, Sep 2024) |
+| 2025 (Aug 14) | Grand Opening of Morning Pointe of Owensboro (formerly Heritage Place). Deficiency-free KY licensure survey. Executive Director: Karleigh Roby. 40 jobs in Daviess County. $15M+ annual local economic contribution. | morningpointe.com/press/morning-pointe-senior-living-expands-to-western-kentucky/ |
+
+### Ownership Structure — Morning Pointe of Owensboro (3362 Buckland Sq, Owensboro KY)
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | Unknown — ALF, no CMS/ProPublica | TBD (likely IHP LLC entity) |
+| **PropCo** | NIC MAP (Owner col 18) | Owensboro Medical Invtrs LLC (IHP/Morning Pointe PropCo pattern) |
+| **Management Company** | NIC MAP (Operator col 41) — **STALE** | Genesis HealthCare (NIC MAP data error — never operated this facility) |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | FU + GLR + morningpointe.com + press release (HIGH confidence) | **MORNING POINTE SENIOR LIVING** |
+
+**Confidence: HIGH.** 3+ sources agree (Forward Universe served row, GLR Parent Company, morningpointe.com community listing, Morning Pointe press release with specific details — date, ED name, investment, licensure survey). Genesis on NIC MAP is confirmed stale (NIC MAP export Nov 2025; Heritage Place was under Encore Communities before Sep 2024 acquisition; Genesis never operated). ALF confidence ceiling exception: operator website explicitly lists the facility AND press release provides licensure confirmation.
 
 ### DB Notes
-- **NIC MAP misattribution:** NIC-A row for Owensboro coded operator as GENESIS. Genesis has zero relationship to this facility. NIC MAP likely inherited stale chain assignment from Heritage Place's Encore Communities period, or a pure data error. PropCo "Owensboro Medical Invtrs LLC" on NIC row correctly maps to IHP/Morning Pointe.
-- **Heritage Place → Morning Pointe of Owensboro** rebrand confirmed Sep 2024.
-- **Encore Communities** was prior operator of Heritage Place (Pacific Northwest-based, ~43 communities in IL, WI, MN, OH, MI).
+- **NIC MAP misattribution:** NIC-A row (Row 5934) coded operator as GENESIS HEALTHCARE. Genesis has zero relationship to this facility. NIC MAP export Nov 2025 still shows stale Heritage Place / Genesis assignment 14 months after the Morning Pointe acquisition. PropCo "Owensboro Medical Invtrs LLC" on NIC row correctly maps to IHP/Morning Pointe PropCo pattern.
+- **Heritage Place → Morning Pointe of Owensboro** rebrand confirmed. Heritage Place was the facility name under Encore Communities. Morning Pointe acquired Sep 2024 and rebranded following $2.5M renovation.
+- **Encore Communities** was prior operator of Heritage Place (Pacific Northwest-based, ~43 communities in IL, WI, MN, OH, MI). Unrelated to Genesis.
+- **KY CHFS gap:** Morning Pointe of Owensboro does NOT appear in the KY Personal Care Home Directory (Feb 2026 PDF). Possible explanations: license issued after directory compilation, listed under different entity name, or directory incomplete. Press release confirms deficiency-free licensure survey. Flag for follow-up.
+- **Bed count source question:** DB has 14 beds (appears to be patient count, not bed count). Prior dedup decision (Pair 11) set beds to 66 (from NIC-A Heritage Place row). GLR Licensed Bed = 0 (data gap). 66 is the pre-renovation Heritage Place capacity and likely still correct, but needs independent KY CHFS confirmation since the source row (5934) is being deleted.
+
+### Sources (current-standard documentation, 2026-04-06)
+- morningpointe.com/communities/ (checked 2026-04-06): Owensboro KY listed as active community
+- morningpointe.com/press/morning-pointe-senior-living-expands-to-western-kentucky/ (checked 2026-04-06): Grand opening Aug 14 2025, ED Karleigh Roby, deficiency-free survey, 40 jobs, $15M+ annual local impact
+- GLR Facility Dump 2026-03-13: Parent Company = MORNING POINTE SENIOR LIVING, 20 pts (15 PC, 11 Psych), census 23
+- NIC MAP (Nov 2025 export): Property = Heritage Place Assisted Living Center, Owner = Owensboro Medical Invtrs LLC, Operator = Genesis HealthCare (STALE)
+- KY CHFS Personal Care Home Directory (Feb 2026 PDF): NOT LISTED — gap
+- Forward Universe V25.7: 2 rows at this address (served + unserved duplicate)
+- Owensboro Times (Sep 2024): Heritage Place acquisition announcement
+
+**Originally documented:** 2026-03-27 (dedup session, Pair 11)
+**Updated to current procedure standard:** 2026-04-06 (ALF dedup cluster review, Cluster 6)
+
+---
+
+## ARCADIA COMMUNITIES
+
+**Canonical DB name:** `ARCADIA COMMUNITIES`
+**Headquarters:** 4360 Brownsboro Rd Ste 305, Louisville, KY 40207
+**Phone:** (502) 357-7000
+**Website:** arcadia-communities.com (corporate), individual facility sites: arcadiabowlinggreen.com, arcadiaclarksville.com, arcadiapace.com, stilleyhouse.com
+**Type:** Private, for-profit senior living developer and operator
+**Leadership:** Brian Durbin, President. Also serves as Chairman of the Board of the Kentucky Senior Living Association.
+**Founded:** Louisville KY. Nearly 100 years of combined leadership experience per corporate website.
+**Services:** Independent Living, Assisted Living, Memory Care
+
+#### Recognition
+- Great Place to Work Certified (2020, 2022, 2023 — 3 consecutive years)
+- Business First Louisville Fast 50 — ranked 35th, 5th time on the list
+- U.S. News & World Report: 7 Arcadia Communities named among Best Senior Living 2023-2024
+
+#### Portfolio (per arcadia-communities.com + facility websites + news, checked 2026-04-06)
+Communities in KY, TN, FL, MI:
+
+| Community | City | State | DB Row | DB Corp Name | Notes |
+|---|---|---|---|---|---|
+| Arcadia Senior Living Bowling Green | Bowling Green | KY | 5633 (served) | INDEPENDENT → ARCADIA COMMUNITIES | **Cluster 7 recode.** arcadiabowlinggreen.com. 618 Lovers Ln. 87 beds. 23 pts (21 Psych). |
+| Arcadia Senior Living of Louisville | Louisville | KY | 5635 | ARCADIA COMMUNITIES | Already correctly coded. 901 Blankenbaker Pkwy. 83 beds. Acquired from Wickshire Senior Living (WHAS11 fire incident coverage). |
+| Arcadia of Benton (Stilley House) | Benton | KY | 17115 | ARCADIA OF BENTON PROP LLC | **PropCo LLC — needs recode to ARCADIA COMMUNITIES.** stilleyhouse.com. Per-facility verification needed. |
+| Arcadia Senior Living Clarksville | Clarksville | TN | 17117 | ARCADIA OF CLARKSVILLE PROP LLC | **PropCo LLC — needs recode to ARCADIA COMMUNITIES.** arcadiaclarksville.com. $10M new build (news). Per-facility verification needed. Outside 6-state footprint. |
+| Arcadia of Pace | Pace | FL | — | — | arcadiapace.com. "Louisville Based Arcadia Communities Acquires First Local Senior Living Campus" (press release). Not in DB (outside footprint). |
+| Arcadia (Pensacola area) | near Pensacola | FL | 2253 | BENJAMIN LANDA | "Arcadia Communities Acquires Assisted Living Community Near Pensacola FL" (press release). DB row 2253 = ARCADIA HEALTH AND REHABILITATION CENTER, SNF, 170 beds, coded BENJAMIN LANDA. **Possible misattribution — investigate.** Outside footprint. |
+| Michigan community(ies) | TBD | MI | — | — | Corporate website mentions MI. No specific facility identified. |
+
+**Note on DB entity "ARCADIA CARE":** 11 IL SNF rows coded ARCADIA CARE (rows 3899-3910). This is a **completely different company** — an IL-based SNF operator unrelated to Arcadia Communities (KY-based ALF operator). Name similarity does NOT determine attribution (procedure rule #8). Do not consolidate.
+
+**Note on "Arcadia Assisted Living" (MD):** 5 rows in MD coded "Arcadia Assisted Living" (rows 20519-20525). Small residential ALFs (15-16 beds each). Different company from Arcadia Communities. Do not consolidate.
+
+#### Ownership Structure — Arcadia Senior Living Bowling Green (618 Lovers Ln, Bowling Green KY)
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | Unknown — ALF, no CMS/ProPublica | TBD |
+| **PropCo** | NIC MAP (Owner col 18) | Wolfe Karen S Trust (individual/family trust) |
+| **Management Company** | NIC MAP (Operator col 41) | "Arcadia" (self-referencing, reliability pattern #2) |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | Operator website + corporate website + news (MEDIUM confidence) | **ARCADIA COMMUNITIES** |
+
+**Confidence: MEDIUM.** 3 sources agree on Arcadia Communities as operator: arcadiabowlinggreen.com (Brian Durbin, President Arcadia Communities), arcadia-communities.com (corporate site, Louisville HQ), news coverage (Chairman KY Senior Living Assoc, Fast 50, Great Place to Work, Wickshire acquisition, WHAS11 fire coverage). ALF confidence ceiling applies — no KY CHFS directory listing, no NPI registration found. DB row 5635 (Louisville) already coded ARCADIA COMMUNITIES provides internal consistency.
+
+#### Full 11-Step Source Sequence (2026-04-06)
+
+| Step | Source | Finding |
+|---|---|---|
+| 1 | Forward Universe | INDEPENDENT (served row 5633), NULL (unserved rows 17116, 5634). 1 other DB row coded ARCADIA COMMUNITIES (Louisville, row 5635). 2 rows coded PropCo LLCs (Benton 17115, Clarksville 17117). |
+| 2 | GLR Export | Parent Company = INDEPENDENT. Facility name = "Arcadia Senior Living." 87 beds, 87 census, 23 pts (21 Psych). Address = "618 Lovers Lane" (vs DB "618 Lovers Ln" — normalization gap). |
+| 3 | MUO Corporate History | No prior entry. |
+| 4 | Operator Research Log | Not previously researched. |
+| 5 | CMS Provider Info | N/A — ALF, no CCN. |
+| 6 | ProPublica | N/A — ALF. |
+| 7 | NIC MAP (Nov 2025) | Property = "Arcadia Senior Living", Owner = "Wolfe Karen S Trust" (PropCo — individual/family trust), Operator = "Arcadia" (self-referencing, reliability pattern #2 — corporate parent hidden). |
+| 8 | State Registry (KY CHFS) | NOT LISTED in KY Personal Care Home Directory (Feb 2026 PDF). Warren County only shows Fern Terrace of Bowling Green. Gap — same pattern as Morning Pointe and Shady Lawn. |
+| 9 | NPI Registry | No results for "Arcadia Senior Living", "Arcadia Communities", or "Arcadia" in KY. Expected for ALF — not CMS-participating provider. |
+| 10 | Operator website | arcadiabowlinggreen.com: Brian Durbin identified as "President Arcadia Communities." Copyright "Arcadia Senior Living Bowling Green © 2026." Powered by ConversionFormula (web vendor). Contact: poakes@arcadiabowlinggreen.com. "Certified from the Commonwealth of Kentucky." arcadia-communities.com: HQ 4360 Brownsboro Rd Ste 305, Louisville KY 40207. (502) 357-7000. info@arcadia-communities.com. Communities in KY, TN, FL, MI. Nearly 100 years combined leadership experience. |
+| 11 | News / journalism | Brian Durbin = Chairman of Board, Kentucky Senior Living Association. Business First Louisville Fast 50 (35th, 5th time). Great Place to Work certified 2020/2022/2023. WHAS11: fire at Louisville facility, Durbin quoted as spokesperson. arcadia-communities.com/news: "Louisville Based Arcadia Communities Acquires First Local Senior Living Campus" (Pace FL), "Arcadia Communities Acquires Assisted Living Community Near Pensacola FL." U.S. News: 7 Arcadia Communities among Best Senior Living 2023-2024. |
+
+#### DB Impact
+- Row 5633 (Bowling Green KY, served): Recode INDEPENDENT → ARCADIA COMMUNITIES. Beds 26→87. **Cluster 7.**
+- Row 5635 (Louisville KY, unserved): Already coded ARCADIA COMMUNITIES. No change.
+- Row 17115 (Benton KY, unserved): Coded ARCADIA OF BENTON PROP LLC — PropCo LLC, needs recode to ARCADIA COMMUNITIES. Per-facility verification required.
+- Row 17117 (Clarksville TN, unserved): Coded ARCADIA OF CLARKSVILLE PROP LLC — PropCo LLC, needs recode to ARCADIA COMMUNITIES. Per-facility verification required. Outside 6-state footprint.
+- Rows 17116, 5634 (Bowling Green KY duplicates): DELETE.
+
+#### GLR Discrepancy
+GLR Parent Company = INDEPENDENT for Bowling Green. Should be ARCADIA COMMUNITIES. Correction logged to glr_change_log.csv.
+
+#### Sources
+- arcadiabowlinggreen.com (checked 2026-04-06): Brian Durbin President Arcadia Communities, facility page, contact info
+- arcadia-communities.com (checked 2026-04-06): corporate site, Louisville HQ, portfolio, mission, leadership
+- arcadia-communities.com/news: Pace FL acquisition, Pensacola FL acquisition press releases
+- arcadiaclarksville.com: $10M new build, Clarksville TN facility page
+- stilleyhouse.com: Benton KY facility page (Arcadia of Benton / Stilley House)
+- NIC MAP (Nov 2025 export): Owner = Wolfe Karen S Trust, Operator = Arcadia (self-referencing)
+- KY CHFS Personal Care Home Directory (Feb 2026 PDF): NOT LISTED
+- NPI Registry API: No results
+- GLR Facility Dump 2026-03-13: Parent Company = INDEPENDENT, 87 beds, 87 census, 23 pts
+- WHAS11 (Louisville news): fire incident at Arcadia Senior Living Louisville
+- Business First Louisville: Fast 50 listing
+- Forward Universe V25.7: 5 rows with "Arcadia" in facility name across KY/TN footprint
+
+**Discovered during:** ALF dedup cluster review, Cluster 7, punchlist item #1, 2026-04-06
+
+---
+
+## TOPAZ HEALTHCARE — SYSTEMIC GLR MISATTRIBUTION (Fiscal Agent, Not Operator)
+
+> **PATTERN ALERT: This finding documents a new data quality pattern — fiscal services companies coded as "Parent Company" in the GLR. See "Pattern: Fiscal Agent as Parent Company" section below for detection guidance.**
+
+### What We Found
+
+The GLR carries "TOPAZ HEALTHCARE" as Parent Company on **15 served Kentucky facilities** (14 SNFs + 1 ALF). If this attribution propagated into scoring work, it would appear as a significant Kentucky operator — 15 served facilities with a combined ~720+ patients. **It is not an operator. It is a financial services company.**
+
+### What Topaz Actually Is
+
+**Topaz Fiscal Services LLC**
+- **Type:** Nursing Home Financial Services Company
+- **HQ:** 6085 Strickland Avenue, Mill Basin, Brooklyn, NY 11234
+- **Website:** topazfiscalservices.com
+- **LinkedIn:** linkedin.com/company/topaz-fiscal-services-llc
+- **Size:** ~30 employees
+- **Services:** Fiscal/accounting services for nursing homes (accounts payable, payroll, controllership, junior accounting)
+- **Key personnel:** Angela Cooper MSN RN CENP RAC-CTA (FL/SE division)
+
+Topaz Fiscal Services provides back-office financial operations to a portfolio of nursing homes. They do not operate facilities, employ clinical staff, make care decisions, or hold licenses. They are a **vendor** — equivalent to a therapy company or an accounting firm in the ownership structure.
+
+**Topaz Fiscal Services is NOT the same entity as:**
+- Topaz Healthcare (topazhealthcare.com) — California-based home health company in Cupertino/Saratoga CA providing PT/OT/SLP/RN/LVN services. Completely unrelated.
+- Topaz Healthcare Services (topazhealthcareservices.com) — Maryland-based home care provider. Completely unrelated.
+
+### The 15 GLR Facilities and Their Actual Operators
+
+| # | GLR Facility Name | City | CCN | GLR Pts | ProPublica Chain / Managing Entity | Actual Operator (needs per-facility verification) |
+|---|---|---|---|---|---|---|
+| 1 | Pikeville Nursing and Rehab | Pikeville | 185094 | 60 | Chain: Emerald Healthcare. Managing: Emerald Healthcare LLC (since Mar 2017). Key: Yisroel Chafetz. | **Emerald Healthcare** |
+| 2 | Elizabethtown Nursing and Rehab Center | Elizabethtown | 185266 | 67 | Chain: Benjamin Landa. Owners: Landa 44%, Platschek 25%+15%, Rubenstein 7%. | **Benjamin Landa portfolio** |
+| 3 | Hardinsburg Nursing and Rehabilitation | Hardinsburg | 185302 | 42 | TBD — not yet checked | Pending |
+| 4 | Metcalfe Health Care Center AL | Edmonton | 185217 | 1 | Managing: Wells Health Services INC (since Jan 2008). Nonprofit. | **Wells Health Systems** |
+| 5 | Bowling Green Nursing and Rehabilitation | Bowling Green | 185224 | 33 | TBD | Pending |
+| 6 | Brandenburg Nursing and Rehabilitation | Brandenburg | NULL | 5 | TBD — no CCN available | Pending |
+| 7 | Stanton Nursing and Rehabilitation Center | Stanton | 185352 | 42 | TBD | Pending |
+| 8 | Salyersville Nursing and Rehabilitation Center | Salyersville | 185221 | 90 | TBD | Pending |
+| 9 | Campbellsville Nursing and Rehabilitation | Campbellsville | 185330 | 51 | TBD | Pending |
+| 10 | Irvine Nursing and Rehabilitation Center | Irvine | 185339 | 59 | TBD | Pending |
+| 11 | Owsley County Health Care Center | Booneville | 185273 | 68 | TBD | Pending |
+| 12 | Franklin-Simpson Nursing and Rehab | Franklin | 185331 | 62 | TBD | Pending |
+| 13 | Pioneer Trace Healthcare and Rehabilitation | Flemingsburg | 185314 | 39 | TBD | Pending |
+| 14 | Springfield Nursing and Rehabilitation | Springfield | 185336 | 63 | TBD | Pending |
+| 15 | Christian Heights Nursing and Rehab | Pembroke | 185338 | 38 | TBD | Pending |
+
+**Combined GLR patient count: ~720+ across 15 facilities.** All Kentucky. All served.
+
+The 3 facilities checked so far (Pikeville, Elizabethtown, Metcalfe) have **3 different actual operators** (Emerald Healthcare, Benjamin Landa, Wells Health Systems). This confirms: Topaz is a shared fiscal services vendor across multiple unrelated ownership groups, not an operator. The remaining 12 facilities likely have additional different operators.
+
+### How This Happened
+
+The GLR's "Parent Company" field captured Topaz because Topaz is involved in the financial management of these facilities. The GLR field is designed to capture the operator/parent company, but nothing prevents a fiscal agent from being entered instead. This is the same class of error as:
+- ProPublica listing "Healthcare Therapy Services INC" as a managing entity alongside the actual operator
+- ProPublica listing "Forvis Mazars LLP" (accounting firm) as having managerial control at Carmel Manor
+- CMS chain capturing a therapy vendor name instead of the operating company
+
+The difference: those ProPublica entries appear alongside the real operator, so the error is visible. In the GLR, Topaz is the ONLY Parent Company listed — the real operator is invisible unless you go to ProPublica or the operator's own website.
+
+### Impact on Scoring Work
+
+If "TOPAZ HEALTHCARE" was picked up as a corporate entity in our scoring framework, it would appear as:
+- 15 served KY facilities (significant footprint)
+- 720+ combined patients
+- All SNFs (except 1 ALF)
+- Passes the 7+ campus gate easily
+
+**All of this is a phantom.** These facilities belong to multiple different operators. Topaz should NOT be on any scoring board, should not be evaluated as an MUO candidate, and should not appear in any operator-level reporting. Any analysis that treats "Topaz Healthcare" as a single operator entity is producing misleading results.
+
+### Pattern: Fiscal Agent as Parent Company
+
+**This is a new documented pattern for the GLR specifically.** The comprehensive scrub procedure documents similar patterns for ProPublica and NIC MAP but did not previously cover this GLR-specific variant.
+
+**How to detect:**
+1. **Red flag: Parent Company that doesn't match ANY ProPublica chain or managing entity** across the facilities it covers. If the GLR Parent Company is X but ProPublica says the managing entity is Y and the chain is Z — and neither Y nor Z is X — then X may be a fiscal agent, therapy vendor, or other non-operator vendor.
+2. **Red flag: Same Parent Company across facilities with DIFFERENT ProPublica chains.** One operator can manage facilities under different legal structures. But a single Parent Company serving facilities under Emerald Healthcare AND Benjamin Landa AND Wells Health Services (3 completely unrelated ownership groups) is a vendor relationship, not an operating relationship.
+3. **Red flag: Company name containing "Fiscal", "Services", "Consulting", "Therapy", "Solutions" paired with a Parent Company field.** These are service vendors, not operators.
+4. **Verification: Search the entity independently.** Does [Company Name] operate nursing homes? Do they have a portfolio page? Do they have their own NPI? If the entity's website describes itself as providing financial/accounting/therapy services TO facilities rather than operating them, it's a vendor.
+
+**Where this differs from existing procedure guidance:**
+- The comprehensive scrub already warns about ProPublica managing entities being facility-level LLCs (resolve to parent brand) and therapy vendors appearing in managing entity lists.
+- The comprehensive scrub already warns about NIC MAP Owner being PropCo, not operator.
+- **NEW: The GLR Parent Company field can carry fiscal agents/vendors.** This was not previously documented because the GLR is an internal source that "codes by operator" (procedure step 9 of Corporate Name Standardization). This finding proves the GLR does not always code by operator — it can also carry vendor relationships.
+- **Implication for the source sequence:** Internal source agreement (FU + GLR) is even less reliable than previously understood. Not only can internal sources share the same upstream error (McCoy Memorial case) — the GLR can introduce errors that the Forward Universe never had, by coding a vendor as the operator.
+
+### Recommended Procedure Update
+
+Add to the "Two warnings about internal sources" section of the comprehensive scrub:
+
+> **A third warning: The GLR Parent Company field can carry non-operator entities.** Fiscal services companies (e.g., Topaz Fiscal Services), therapy vendors, and consulting firms have been found coded as Parent Company in the GLR. The Topaz case: 15 served KY facilities carried "TOPAZ HEALTHCARE" as Parent Company — a Brooklyn NY fiscal services company that provides accounting to nursing homes. The actual operators were 3+ different unrelated entities (Emerald Healthcare, Benjamin Landa, Wells Health Systems). Detection: when the GLR Parent Company doesn't match ANY ProPublica chain or managing entity across the facilities it covers, investigate whether the entity is a vendor rather than an operator.
+
+### Next Steps
+- All 15 facilities need per-facility ProPublica verification to identify their actual operators
+- Check whether "TOPAZ HEALTHCARE" exists as a corporate entity in the DB (corporate_name_raw or market_intel_corporate_entities table) — if so, it needs to be flagged/removed
+- Check whether Topaz appears on any scoring board or MUO evaluation
+- Communicate the finding to the GLR/BD team — these 15 Parent Company entries need correction
+- Consider a broader GLR audit: are there other fiscal agents/vendors coded as Parent Company?
+
+### Sources
+- GLR Facility Dump 2026-03-13: 15 entries with Parent Company = TOPAZ HEALTHCARE (all KY, all served)
+- ProPublica h-185094 (Pikeville): Chain = Emerald Healthcare, Managing = Emerald Healthcare LLC
+- ProPublica h-185266 (Elizabethtown): Chain = Benjamin Landa, Owners = Landa/Platschek/Rubenstein
+- ProPublica h-185217 (Metcalfe): Managing = Wells Health Services INC (nonprofit)
+- topazfiscalservices.com: "Nursing Home Financial Services Company," Mill Basin Brooklyn NY
+- linkedin.com/company/topaz-fiscal-services-llc: ~30 employees, Brooklyn NY, Financial Services industry
+- topazhealthcare.com: DIFFERENT entity — California home health company, Cupertino CA. Zero KY connection.
+- Web searches (2026-04-07): "Topaz Healthcare Kentucky" — no connection to KY facility operations. "Topaz Healthcare Edmonton Metcalfe" — no connection. "Topaz Healthcare Emerald Benjamin Landa fiscal" — linked Topaz Fiscal Services LLC.
+
+**Discovered during:** ALF dedup cluster review, Cluster 8 (Metcalfe Health Care Center, Edmonton KY), punchlist item #1, 2026-04-06/07. The Metcalfe AL entry was the only ALF among 15 Topaz GLR entries — it appeared in our ALF dedup cluster work, which led to the full GLR-wide investigation.
+
+---
+
+## WELLS HEALTH SYSTEMS (Wells Health Services INC)
+
+**Canonical DB name:** `WELLS HEALTH SYSTEMS`
+**Also known as:** Wells Health Services INC (ProPublica managing entity name)
+**HQ:** 725 Harvard Drive, Owensboro, KY 42301
+**Type:** Corporation, for-profit. Nursing home management and consulting.
+**Founded:** October 10, 1991 (BBB)
+**Leadership:** Jack T. Wells, President (BBB). Gregory Wells (ProPublica, since Jan 2008 — likely family).
+**BBB:** A+ rating, not accredited. 34 years in business.
+**Website:** wellshealthsystems.com (certificate error as of 2026-04-07)
+
+#### Ownership Structure — Metcalfe Health Care Center (701 Skyline Dr, Edmonton KY, CCN 185217)
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | ProPublica (nonprofit corporation) | Unknown nonprofit entity (no direct owner disclosed) |
+| **PropCo** | — | N/A (nonprofit) |
+| **Management Company** | ProPublica managing entity (since Jan 2008) | Wells Health Services INC |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | ProPublica + BBB (MEDIUM confidence) | **WELLS HEALTH SYSTEMS** |
+
+**Confidence: MEDIUM.** ProPublica managing entity (since Jan 2008) + BBB business profile (Jack T. Wells, President, Owensboro KY, since 1991). No operator website accessible (cert error). No NPI found. KY CHFS PCH directory does not list this facility. CMS certified beds = 71.
+
+**ProPublica personnel (CCN 185217):** Courtney Britt (Nov 2020), Cody Brooks (Jan 2022), Kaye Hope (Jan 2012), Sharon Howard (Jan 2023), Janine Lehman (Jan 2008), Benny Lile (May 2014), Jackie Parker (Jun 2024), Terry Skaggs (Jan 2008), Nancy Steele (Aug 2018), Gregory Wells (Jan 2008), Larry Wilson (Jan 2023).
+
+**DB impact:** 2 rows at 701 Skyline Dr Edmonton KY. Row 5924 (AL, 2 beds) recode NULL → WELLS HEALTH SYSTEMS. Row 5925 (SNF mistyped ALF, 64 beds) retype ALF→SNF, recode INDEPENDENT → WELLS HEALTH SYSTEMS, beds 64→71.
+
+**GLR discrepancy:** AL entry carries Parent Company = TOPAZ HEALTHCARE (fiscal agent, not operator — see Topaz systemic finding above). SNF entry carries Parent Company = INDEPENDENT (incorrect — Wells Health Systems is the managing entity). Both need GLR correction.
+
+**Open question:** Wells Health Systems also operates an ALF at 725 Harvard Dr, Owensboro KY (per ElderLife listing). Not clear if they manage other nursing homes beyond Metcalfe. ProPublica only checked for this CCN. A broader search of Wells Health Systems across all KY CCNs could reveal additional facilities — but this is beyond the scope of Cluster 8.
+
+#### Full 11-Step Source Sequence (2026-04-07)
+
+| Step | Source | Finding |
+|---|---|---|
+| 1 | Forward Universe | NULL (AL row 5924), INDEPENDENT (SNF row 5925) |
+| 2 | GLR Export | AL: Parent Co = TOPAZ HEALTHCARE. SNF: Parent Co = INDEPENDENT. Disagree with each other. |
+| 3 | MUO Corporate History | No prior entry |
+| 4 | Operator Research Log | Not previously researched |
+| 5 | CMS Provider Info | CCN 185217. Nonprofit corporation. 71 certified beds. |
+| 6 | ProPublica (h-185217) | Managing entity = Wells Health Services INC (since Jan 2008). No chain. No direct/indirect owners disclosed. |
+| 7 | NIC MAP | No entry for Metcalfe Health Care Center in Edmonton KY. |
+| 8 | State Registry (KY CHFS) | NOT LISTED in PCH directory (Feb 2026). Metcalfe County only has Harper's Home For The Aged. |
+| 9 | NPI Registry | No results for Metcalfe Health Care, Wells Health Services, or Topaz Healthcare. |
+| 10 | Operator website | No dedicated Metcalfe website. wellshealthsystems.com has cert error. Facebook page exists (metcalfehealthcarecenter). Chamber listing. |
+| 11 | News / web | Wells Health Systems Inc: BBB A+ Owensboro KY, Jack T. Wells President, since 1991. ElderLife: ALF at 725 Harvard Dr Owensboro. Greg & Noreen Wells Bluegrass Hospice Care Center (separate entity, Wells family philanthropy). |
+
+#### Sources
+- ProPublica: projects.propublica.org/nursing-homes/homes/h-185217
+- BBB: bbb.org/us/ky/owensboro/profile/nursing-home/wells-health-systems-inc-0402-159154279
+- Owensboro Chamber: business.chamber.owensboro.com (Wells Health Systems member listing)
+- ElderLife: elderlifefinancial.com (ALF listing at 725 Harvard Dr)
+- KY CHFS PCH Directory (Feb 2026 PDF): NOT LISTED
+- NPI Registry API: no results
+- NIC MAP (Nov 2025): no entry for Edmonton KY
+- GLR Facility Dump 2026-03-13: 2 entries — AL (Topaz), SNF (Independent)
+
+**Discovered during:** ALF dedup cluster review, Cluster 8, punchlist item #1, 2026-04-07
 
 ---
 
@@ -1796,3 +2085,247 @@ Do NOT code as "Lackawanna Healthcare Associates LLC" (legal wrapper, not an ope
 - NPI: npiprofile.com/npi/1386292035 (Lackawanna Healthcare Associates, Danville PA, David Klingerman authorized official)
 
 **Discovered during:** Comprehensive scrub procedure test, punchlist #25 verification, 2026-04-04
+
+---
+
+## TLC Management (Tender Loving Care Management Inc)
+
+**Also known as:** TLC Management, Tender Loving Care Management INC, Tlc Management (CMS chain)
+**Headquarters:** 1800 N. Wabash Avenue, Marion, Indiana 46952
+**Incorporated:** 1987
+**Type:** Private management company — operates SNFs, ALFs, and independent retirement communities
+**Website:** tlcmgmt.com
+
+#### Portfolio (per tlcmgmt.com, checked 2026-04-05)
+~20+ communities across IN, OH, FL:
+- **Indiana:** Blue Heron Senior Living, Oak Hill Senior Living, Addison Pointe H&R, Albany Pointe H&R, Ashton Creek H&R, Avon H&R, Bethel Pointe H&R, Bridgewater Park, Colonial Oaks H&R + Retirement Community, Creekside H&R, Englewood H&R, **Hamilton Pointe**, Homeview H&R, Mason H&R, Ossian H&R, Parker H&R, Rolling Meadows H&R, Wesleyan H&R
+- **Ohio:** Washington Court House (The Village at Vienna Square)
+- **Florida:** Winter Haven, Copper Knoll H&R
+
+#### Ownership Structure — Hamilton Pointe (3800 Eli Pl, Newburgh IN, CCN 155803)
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | ProPublica (100%, since Aug 2014) | Riverview Hospital (county government hospital) |
+| **PropCo** | — | N/A |
+| **Management Company** | ProPublica managing entity (since Aug 2014), CMS chain, tlcmgmt.com | Tender Loving Care Management Inc |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | CMS chain + ProPublica + website (HIGH confidence) | **TLC MANAGEMENT** |
+
+**DB impact:** 3 rows (AL, MC, SNF) at Hamilton Pointe coded RIVERVIEW HOSPITAL → should be TLC MANAGEMENT. Riverview Hospital is the legal owner (county government hospital), not the operator.
+
+**GLR discrepancy:** AL and SNF carry Parent Company = RIVERVIEW HOSPITAL (wrong — owner, not operator). MC carries Parent Company = TLC Management (correct). Corrections logged to glr_change_log.csv.
+
+**Corporate officers (ProPublica):** Jayna Friend (since Jun 2021), Seth Warren (since Apr 2016). W2 managing employees: Tamara Bledsoe (since Aug 2014), Jayna Friend, Seth Warren.
+
+#### Sources
+- ProPublica: projects.propublica.org/nursing-homes/homes/h-155803
+- Operator website: tlcmgmt.com (portfolio page lists Hamilton Pointe)
+- CMS chain affiliation: TLC Management
+- GLR Facility Dump 2026-03-13 (Parent Company field)
+
+**Discovered during:** ALF dedup cluster review, Cluster 1, punchlist item #1, 2026-04-05
+
+---
+
+## Lutheran Life Villages (Lutheran Homes, INC.)
+
+**Also known as:** Lutheran Homes INC (ProPublica legal name), LLV
+**Headquarters:** NE Indiana (Fort Wayne area)
+**Type:** Nonprofit, faith-based senior living organization
+**Website:** lutheranlifevillages.org
+
+#### Ownership Structure — South Anthony Campus (6723 S Anthony Blvd, Fort Wayne IN, CCN 155586)
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | ProPublica (100%, since Jul 2012) | Adams County Memorial Hospital (nonprofit) |
+| **PropCo** | — | N/A |
+| **Management Company** | ProPublica managing entity (since Jul 2012) | Lutheran Homes INC |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | FU + GLR + website (HIGH confidence) | **LUTHERAN LIFE VILLAGES** |
+
+Other ProPublica managing entities at this CCN: Healthcare Therapy Services INC (therapy vendor, since Jul 2012), Forvis Mazars LLP (accounting firm, since Jun 2023). Neither are operators.
+
+**Corporate officers (ProPublica):** Russell Flueckiger (since Jan 2006), Larry Macklin (since Jan 2008), Scott Smith (since Jan 2020), Kyle Sprunger (since Jan 2018), Dane Wheeler (since Sep 2009).
+
+#### Portfolio (per lutheranlifevillages.org, checked 2026-04-05)
+All NE Indiana:
+- The Village at Anthony Boulevard (6701/6723 S Anthony Blvd, Fort Wayne) — SNF + ALF + Homes/Clinic
+- The Village at Pine Valley (Coldwater Rd, Fort Wayne) — SNF + ALF
+- The Village at Pine Valley Assisted Living (11430 Coldwater Rd, Fort Wayne) — ALF
+- The Village at Kendallville (351 N Allen Chapel Rd, Kendallville) — SNF
+- Piper Trail (Fort Wayne)
+- The Village at Inverness (Fort Wayne)
+- The Apartments at Anthony Boulevard (Fort Wayne)
+
+**DB impact:** 9 rows under LUTHERAN LIFE VILLAGES. Attribution confirmed correct — no recode needed.
+
+**Signal:** Wittenberg Village (1200 Luther Dr, Crown Point IN, 122 beds, unserved, row 20162) is coded LUTHERAN LIFE VILLAGES but Crown Point is NOT listed on lutheranlifevillages.org. Possible misattribution — needs investigation.
+
+**Signal:** Row 5173 (THE VILLAGE AT ANTHONY BOULEVARD, 6701 S Anthony Blvd, 107 beds, unserved) is at same campus as Cluster 2 but different street number. ProPublica address = 6701. GPS proximity check needed.
+
+#### Sources
+- ProPublica: projects.propublica.org/nursing-homes/homes/h-155586
+- Operator website: lutheranlifevillages.org (portfolio page)
+- GLR Facility Dump 2026-03-13 (Parent Company = Lutheran Life Villages)
+- Forward Universe V25.7 (9 rows)
+
+**Discovered during:** ALF dedup cluster review, Cluster 2, punchlist item #1, 2026-04-05
+
+---
+
+## Carmelite System (The Carmelite System INC)
+
+**Also known as:** The Carmelite System INC (ProPublica legal name)
+**Headquarters:** Germantown, NY (Carmelite Sisters Motherhouse: 600 Woods Rd, Germantown NY 12526)
+**Type:** Nonprofit management arm of The Carmelite Sisters For The Aged And Infirm (Catholic religious order, founded 1929)
+**Website:** carmelitesystem.org (DOWN as of 2026-04-05, ECONNREFUSED); carmelmanor.com (Fort Thomas facility)
+
+#### Ownership Structure — Carmel Manor (100 Carmel Manor Rd, Fort Thomas KY, CCN 185208)
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | ProPublica (100%, since Jan 1966) | The Carmelite Sisters For The Aged And Infirm (religious nonprofit) |
+| **PropCo** | — | N/A |
+| **Management Company** | ProPublica managing entity (since Jan 2013) | The Carmelite System INC |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | FU + GLR + ProPublica (HIGH confidence) | **CARMELITE SYSTEM** |
+
+Other ProPublica managing entities: Anthony Ughetti (W2 employee, since Mar 2023).
+
+**Corporate officers (ProPublica):** Jeffrey Brauley (since Apr 2018), Margaret Haley (since Apr 2021), Rose Marie Kasper (since May 2023), Catherine Millette (since Apr 2018), Theresa Pfeffer (since Oct 2023). 12 corporate directors.
+
+#### National Portfolio (per Forward Universe V25.7, 20 rows)
+FL (1), IA (1), IL (1), KY (3 — Carmel Manor campus), MA (3), MO (1), NY (2), OH (4), PA (2), WI (1).
+
+Only KY and OH are in the 6-state operational footprint. OH has 4 rows in Columbus (Villas at Saint Therese, Mother Angeline McCrory Manor campus) — signal: 2 ALF rows at 25 Noe Bixby Rd may be a dedup pair.
+
+**DB impact:** Attribution CARMELITE SYSTEM confirmed correct for KY campus. Row 5686 (CARMEL MANOR, SNF) deleted as duplicate — does not correspond to GLR entry. Row 5714 retyped ALF→SNF, beds 87→95. Row 5713 (AL) kept.
+
+**Signal:** carmelmanor.com logo file references "stpatricks-home-logo" — shared template/branding with St. Patrick's Residence (Naperville IL) and St. Patrick's Manor (Framingham MA), confirming centralized Carmelite System management.
+
+#### Sources
+- ProPublica: projects.propublica.org/nursing-homes/homes/h-185208
+- Facility website: carmelmanor.com
+- Carmelite Sisters website: carmelitesisters.com (references "The Carmelite System" link)
+- GLR Facility Dump 2026-03-13 (Parent Company = Carmelite System)
+- Forward Universe V25.7 (20 rows)
+
+**Discovered during:** ALF dedup cluster review, Cluster 3, punchlist item #1, 2026-04-05
+
+---
+
+## Shady Lawn (Cynthiana KY) — INDEPENDENT
+
+**Facility:** Shady Lawn, 108 S Miller St, Cynthiana KY 41031
+**Type:** Personal Care Home (ALF), 75 beds
+**KY CHFS License:** 100170PC
+**Licensee:** SHADY LAWN I LLC
+**Administrator:** Kim Perez
+
+#### Ownership Structure
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | KY CHFS (License 100170PC) | Shady Lawn I LLC |
+| **PropCo** | NIC MAP (Owner col 18) | Shady Lawn II LLC |
+| **Management Company** | NIC MAP (Operator col 41) | unknown |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | All sources evaluated → INDEPENDENT | No corporate operator identified |
+
+**LLC variant inventory:** DB carried "SHADY LAWN, LLC" / GLR carries "SHADY LAWN LLC" / NIC MAP Owner = "Shady Lawn II LLC" / KY CHFS License = "SHADY LAWN I LLC". Four different LLC name variants across sources — none is a corporate operator. All are facility-level legal entities.
+
+**Kim Perez connection:** Administrator of both Shady Lawn (100170PC) and Parkside Manor I LLC (317 Oddville Ave, Cynthiana KY, License 100168PC). Same person, same town. May be a small local operator running 2 facilities through separate LLCs. No corporate identity beyond the facility-level LLCs.
+
+**DB impact:** Recode SHADY LAWN, LLC → INDEPENDENT. Per Corporate Name Standardization rule #6: single-facility LLC with no public presence, no website, no CMS chain, NIC MAP operator = unknown. Ownership documented here for future reference.
+
+#### Sources
+- KY CHFS Personal Care Home Directory (Feb 2026 PDF): License 100170PC, licensee Shady Lawn I LLC, administrator Kim Perez
+- NIC MAP (Nov 2025 export): Owner = Shady Lawn II LLC, Operator = unknown
+- GLR Facility Dump 2026-03-13: Parent Company = SHADY LAWN LLC
+- Web search (2026-04-05): No dedicated website. shadylawnliving.com ECONNREFUSED. A Place for Mom, Seniorly, CareListings — no operator info.
+- Forward Universe V25.7
+
+**Discovered during:** ALF dedup cluster review, Cluster 4, punchlist item #1, 2026-04-05
+
+---
+
+## Dominion Senior Living (DSL)
+
+**Parent company:** Dominion (dominion.us) — Knoxville TN-based real estate development, acquisition, and management company. $1B+ properties under management and development. 4 brands: Dominion Development Group (DDG), Dominion Management Group (DMG), Dominion Senior Living (DSL), DGA Residential.
+**Leadership:** Mark Taylor (CEO), Peter Hall (President), Sean Chalmers (COO), Jordana Nelson (VP Development), Natalie Cudzilo (VP Finance), Dale Torry (VP Property Mgmt), Stephanie Haynes (VP Property Mgmt), Craig Cobb (VP Affordable Housing).
+**Type:** For-profit, private. Southeastern US focus (TN, AL, SC, KY, NC).
+**Website:** dominionseniorliving.com (facility pages — returned 401 for Frankfort 2026-04-05, may be transitioning to dominion.us), dominion.us (parent company, active).
+
+#### DSL Portfolio (per dominion.us/our-brands, checked 2026-04-05)
+1,175 units across 17 communities. Two sub-brands: DSL (assisted living + memory care) and Everlan (premium amenities).
+
+| Community | City | State | DB Row | DB Match? |
+|---|---|---|---|---|
+| DSL Anderson | Anderson | SC | 17820 | Yes |
+| DSL Athens | Athens | TN | 17821 | Yes (outside footprint) |
+| DSL Bristol | Bristol | TN | 17822 | Yes (outside footprint) |
+| DSL Crossville | Crossville | TN | 17823 | Yes (outside footprint) |
+| DSL Florence | Florence | KY | — | No DB match found under Dominion — investigate |
+| DSL Frankfort | Frankfort | KY | 5757 | Yes — **Cluster 5** |
+| DSL Hixson | Hixson | TN | 17816 | Yes (outside footprint, named "Dominion of Hixson") |
+| DSL Johnson City | Johnson City | TN | 17824 | Yes (outside footprint) |
+| DSL Louisville | Louisville | KY | 5754 | Yes (600 Hunting Rd) |
+| DSL Richmond | Richmond | KY | 5755 | Yes |
+| DSL Sevierville | Sevierville | TN | 17819 | Yes (outside footprint) |
+| DSL at Patrick Square | Clemson | SC | 17818 | Yes |
+| Everlan of Clemson | Clemson | SC | — | Not in DB under Dominion — may be new or under different name |
+| Everlan of Hixson | Hixson | TN | — | Not in DB under Dominion (outside footprint) |
+| Everlan of Johnson City | Johnson City | TN | — | Not in DB under Dominion (outside footprint) |
+| Everlan of Louisville | Louisville | KY | 17902 | Yes (5900 Hunting Rd, named "EVERLAN OF LOUISVILLE") |
+| Clover Hill Senior Living | (location TBD) | TBD | — | Not identified |
+
+**DB impact:** 15 rows coded DOMINION SENIOR LIVING in DB. 6 in KY (footprint), 2 in SC (footprint), 7 in TN (outside footprint). Attribution confirmed correct for DSL Frankfort (Cluster 5). Other facilities not individually verified in this session.
+
+**Note on Louisville KY addresses:** DB has 3 rows in Louisville under Dominion at 3 different addresses: 600 Hunting Rd (DSL Louisville, row 5754), 5900 Hunting Rd (Everlan of Louisville, row 17902), 6000 Hunting Rd (DSL of Louisville, row 17825). Dominion's website lists DSL Louisville and Everlan of Louisville. The 3 addresses may be campus variants or distinct communities — needs investigation.
+
+#### The Spring Arbor / Foundry Commercial / Allegro Living Relationship
+
+**This facility (DSL Frankfort) appears on allegroliving.com as "Spring Arbor of Frankfort" operated by Allegro Senior Living.** Investigation revealed this is a **property brand layer**, not an operator change:
+
+**Timeline:**
+- **May 2022:** Foundry Commercial (Jacksonville FL, real estate investor) acquired 24 Spring Arbor Senior Living communities in NC, VA, MD as a JV with an institutional equity partner. Foundry assumed operational responsibility through Spring Arbor Senior Living, which they also acquired. Capitalization: $350M+ across 29 total senior housing communities since 2020.
+- **Aug 2023:** Foundry added 16 communities to the Spring Arbor Management platform (Senior Housing News, Aug 24 2023). Details of which communities were added not confirmed — may include former Dominion-branded buildings where Foundry acquired the property and applied the Spring Arbor brand.
+- **Mar 4, 2025:** Spring Arbor Management and Allegro Management Company merged to form **Allegro Living** (holding company). Combined: 53 communities, 4,500+ units, ~4,000 associates, 13 states. Communities continue under legacy brands (Allegro, Alto, RoseWood Village, Spring Arbor). Leadership: Douglas Schiffer (President & CEO, Allegro Living), Kevin Maddron (President of Healthcare Services, Foundry Commercial). Allegro backed by Love Companies (St. Louis). Advisor: Lisa Widmier, Vant.Age Pointe Capital Management.
+
+**What this means for DSL Frankfort:** Foundry Commercial likely owns the real estate (PropCo layer) and applies the "Spring Arbor" property brand. Dominion Senior Living manages day-to-day operations (Operator layer). allegroliving.com listing reflects the property owner's brand, not the operator. dominion.us/our-brands confirms DSL Frankfort as an active Dominion community as of 2026-04-05.
+
+**The Spring Arbor brand has three distinct contexts in our data:**
+1. **Spring Arbor Management** (now part of Allegro Living) — operates 11 facilities directly (17 DB rows under SPRING ARBOR MANAGEMENT). These are facilities where Spring Arbor is both the brand AND the operator.
+2. **Spring Arbor as property brand under other operators** — buildings branded "Spring Arbor" but operated by Foundry, Wickshire, HHHunt, Allegro, or Dominion. The brand is a real estate asset, not an operator identity. Per MUO Corporate History: "Spring Arbor is a property brand, not always the operating company."
+3. **Allegro Living Spring Arbor portfolio** — allegroliving.com lists 9 Spring Arbor communities (Anderson SC, Sevierville TN, Florence KY, Athens TN, Bristol TN, Crossville TN, Maryville TN, Frankfort KY, Richmond KY). 7 of these match DB rows currently coded DOMINION SENIOR LIVING. This overlap requires investigation: does Allegro Living hold the property brand while Dominion operates, or has Allegro Living assumed operations? dominion.us listing of these facilities as active DSL communities supports the former interpretation, but per-facility verification is needed.
+
+**Open question:** The relationship between Dominion (operator) and Foundry/Allegro (property owner/brand) at these 7+ overlapping facilities is not fully resolved. It may be: (a) Foundry owns the buildings and brands them Spring Arbor, Dominion manages operations under contract — similar to a REIT/operator split; or (b) Allegro Living has assumed or is in the process of assuming operations from Dominion. The dominion.us website listing these as active DSL communities suggests (a), but a WJHL article (Johnson City TN) references "Dominion Senior Living and Everlan of Johnson City operating under new names" — which could signal (b) for at least some facilities. Per-facility verification required before any recode.
+
+#### Ownership Structure — DSL Frankfort (122 Leonardwood Dr, Frankfort KY)
+
+| Ownership Layer | Source | Entity |
+|---|---|---|
+| **Legal Owner** | Unknown — ALF, no CMS/ProPublica | TBD (likely a Foundry Commercial entity or local LLC) |
+| **PropCo** | allegroliving.com (inferred) | Foundry Commercial (Spring Arbor brand) |
+| **Management Company** | dominion.us/our-brands | Dominion Senior Living |
+| **Management Sub-brand** | — | N/A |
+| **Operator** | dominion.us + GLR Parent Company (MEDIUM confidence) | **DOMINION SENIOR LIVING** |
+
+**Confidence: MEDIUM.** 2 sources agree on Dominion as operator (dominion.us portfolio page, GLR Parent Company). ALF confidence ceiling applies. Allegro website contradicts — logged as property brand layer, not operator layer. KY CHFS licensing would elevate to HIGH but not yet checked for this specific facility.
+
+#### Sources
+- dominion.us/our-brands (checked 2026-04-05): DSL Frankfort listed as active community
+- dominionseniorliving.com/frankfort/ (checked 2026-04-05): returned 401
+- allegroliving.com/communities (checked 2026-04-05): lists "Spring Arbor of Frankfort" at same address
+- allegroliving.com/communities/spring-arbor-frankfort-ky (checked 2026-04-05): operated by Allegro Senior Living, Google Maps reference still says "Dominion Senior Living of Frankfort"
+- foundrycommercial.com case study (May 2022 Spring Arbor acquisition)
+- foundrycommercial.com press release (Mar 4 2025 Allegro Living merger)
+- Senior Housing News (Aug 24 2023): "Foundry Commercial Adds 16 Communities to Growing Spring Arbor Management Platform"
+- Senior Housing News (Mar 18 2025): "Allegro, Spring Arbor Bringing Complementary Senior Living Strengths to New Merger"
+- McKnight's Senior Living (Mar 2025): "Spring Arbor Senior Living, Allegro Management merge to form Allegro Living"
+- GLR Facility Dump 2026-03-13: facility name = "Spring Arbor Assisted Living of Frankfort", Parent Company = "Dominion"
+- Forward Universe V25.7: 15 rows under DOMINION SENIOR LIVING
+
+**Discovered during:** ALF dedup cluster review, Cluster 5, punchlist item #1, 2026-04-06
