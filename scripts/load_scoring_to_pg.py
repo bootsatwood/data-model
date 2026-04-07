@@ -59,7 +59,7 @@ ENTITY_UNIVERSE = {
     'Saber Healthcare Group': {'SABER HEALTHCARE GROUP', 'SABER HEALTHCARE'},
     'Infinity Healthcare Consulting': {'INFINITY HEALTHCARE CONSULTING'},
     'Navion': {'NAVION', 'NAVION SENIOR SOLUTIONS', 'NAVION SENIOR LIVING', 'Navion Senior Solutions'},
-    'Majestic Care': {'MAJESTIC CARE'},
+    'Majestic Care': {'MAJESTIC CARE', 'MAJESTIC / MAJESTIC CARE', 'MAJESTIC / BLUEGRASS CONSULTING GROUP'},
     'Pruitt Health': {'PRUITT HEALTH', 'PRUITTHEALTH'},
     'Trilogy': {'TRILOGY', 'TRILOGY HEALTH SERVICES'},
     'Topaz Healthcare': {'TOPAZ HEALTHCARE'},
@@ -124,6 +124,23 @@ ENTITY_UNIVERSE = {
     'Retirement Unlimited (RUI)': {'RETIREMENT UNLIMITED, INC.', 'RETIREMENT UNLIMITED, INC', 'RUI'},
     'Vitality Living': {'VITALITY LIVING'},
     'Triple Crown Senior Living': {'TRIPLE CROWN SENIOR LIVING', 'VITALITY SENIOR SERVICES'},
+    # --- Reconciliation additions (2026-04-07) ---
+    'Sonida Senior Living': {'SONIDA SENIOR LIVING', 'SONIDA'},
+    'Lutheran Services Carolinas': {'LUTHERAN SERVICES CAROLINAS'},
+    'StoryPoint': {'STORYPOINT', 'STORYPOINT SENIOR LIVING'},
+    'Kisco Senior Living': {'KISCO SENIOR LIVING', 'KISCO'},
+    'Senior Lifestyle': {'SENIOR LIFESTYLE', 'SENIOR LIFESTYLE CORPORATION'},
+    'Harmony Senior Services': {'HARMONY SENIOR SERVICES'},
+    'Spring Arbor Management': {'SPRING ARBOR MANAGEMENT', 'SPRING ARBOR'},
+    'Greencroft': {'GREENCROFT', 'GREENCROFT COMMUNITIES'},
+    'Cedarhurst Senior Living': {'CEDARHURST SENIOR LIVING', 'CEDARHURST'},
+    'MCAP': {'MCAP', 'MCAP HEALTHCARE'},
+    'Mainstay Senior Living': {'MAINSTAY SENIOR LIVING', 'MAINSTAY'},
+    'Traditions': {'TRADITIONS', 'TRADITION SENIOR LIVING'},
+    'Commonwealth Senior Living': {'COMMONWEALTH SENIOR LIVING'},
+    'Cogir Senior Living': {'COGIR USA', 'COGIR SENIOR LIVING', 'COGIR'},
+    'National Church Residences': {'NATIONAL CHURCH RESIDENCES'},
+    'Carlyle Senior Care': {'CARLYLE SENIOR CARE', 'CARLYLE'},
 }
 
 # T5 barriers: display_name -> (set of DB names, barrier_type)
@@ -134,16 +151,19 @@ T5_BARRIERS = {
     'COMMUNICARE': ({'COMMUNICARE'}, 'Own provider group'),
     'Hill Valley': ({'HILL VALLEY'}, 'Own provider group'),
     'SINGH': ({'SINGH'}, 'Own provider group'),
-    'Embassy': ({'EMBASSY'}, 'Own provider group'),
+    'Embassy': ({'EMBASSY', 'EMBASSY HEALTHCARE'}, 'Own provider group'),
     'Exceptional Living': ({'EXCEPTIONAL LIVING CENTERS'}, 'Own provider group'),
-    'Portopiccolo': ({'PORTOPICCOLO'}, 'Alliance (Telos)'),
+    'Portopiccolo': ({'PORTOPICCOLO', 'ACCORDIUS HEALTH LLC/PORTOPICCOLO GROUP'}, 'Alliance (Telos)'),
     'Venza': ({'VENZA CARE MANAGEMENT'}, 'Alliance'),
     'Aventura': ({'AVENTURA'}, 'Recent LOB'),
-    'Journey': ({'JOURNEY'}, 'Explicit rejection'),
+    'Journey': ({'JOURNEY', 'JOURNEY HEALTHCARE'}, 'Explicit rejection'),
     'CARDON & ASSOCIATES': ({'CARDON & ASSOCIATES'}, 'Own provider group (91%)'),
     'Eastern Healthcare Group': ({'EASTERN HEALTHCARE GROUP'}, 'Termination Risk (100%)'),
     'CLEARVIEW': ({'CLEARVIEW'}, 'Alliance + Own Provider Group (38%)'),
     'Pavilion Healthcare': ({'PAVILION HEALTHCARE'}, 'Alliance + Own Provider Group (29%)'),
+    # --- Reconciliation additions (2026-04-07) ---
+    'Genesis Healthcare': ({'GENESIS'}, 'Own Provider Group (AlignMed Partners)'),
+    'Alliance Health Group': ({'ALLIANCE HEALTH GROUP', 'ALLIANCE'}, 'Own Provider Group'),
 }
 
 # V25 manual overrides: entities whose scores come from the MUO Candidate
@@ -173,6 +193,81 @@ V25_OVERRIDES = {
         'enterprise_reach': 1, 'integration_ready': 1,
         'strategic_influence': 1, 'revenue_potential_score': 4,
         'relationship_strength': 1, 'ai_tech_adoption': 0,
+    },
+    # --- Reconciliation additions (2026-04-07) ---
+    # V23 computed scores (from Finance workbook / HTML universe build)
+    'Sonida Senior Living': {
+        'bd_tier': 'T1', 'total_score': 59,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'Lutheran Services Carolinas': {
+        'bd_tier': 'T1', 'total_score': 68,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'StoryPoint': {
+        'bd_tier': 'T1', 'total_score': 60,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'Kisco Senior Living': {
+        'bd_tier': 'T2', 'total_score': 54,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'Senior Lifestyle': {
+        'bd_tier': 'T2', 'total_score': 49,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'Spring Arbor Management': {
+        'bd_tier': 'T2', 'total_score': 41,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'Greencroft': {
+        'bd_tier': 'T2', 'total_score': 41,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'Cedarhurst Senior Living': {
+        'bd_tier': 'T2', 'total_score': 37,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'MCAP': {
+        'bd_tier': 'T3', 'total_score': 32,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    # Brooke-assigned tiers (3/27 call) — no computed scores yet
+    'Harmony Senior Services': {
+        'bd_tier': 'T2', 'total_score': None,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'Mainstay Senior Living': {
+        'bd_tier': 'T3', 'total_score': None,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
+    },
+    'Traditions': {
+        'bd_tier': 'T3', 'total_score': None,
+        'enterprise_reach': None, 'integration_ready': None,
+        'strategic_influence': None, 'revenue_potential_score': None,
+        'relationship_strength': None, 'ai_tech_adoption': None,
     },
 }
 
