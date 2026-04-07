@@ -1195,114 +1195,128 @@ GLR Parent Company = INDEPENDENT for Bowling Green. Should be ARCADIA COMMUNITIE
 
 ---
 
-## TOPAZ HEALTHCARE — SYSTEMIC GLR MISATTRIBUTION (Fiscal Agent, Not Operator)
+## TOPAZ HEALTHCARE (Topaz Financial Services LLC / fka Sapphire Care Group)
 
-> **PATTERN ALERT: This finding documents a new data quality pattern — fiscal services companies coded as "Parent Company" in the GLR. See "Pattern: Fiscal Agent as Parent Company" section below for detection guidance.**
+> **CORRECTION (2026-04-07): Original finding (2026-04-06) incorrectly characterized Topaz as a "phantom fiscal agent, not an operator." This was WRONG. Topaz IS a real Kentucky nursing home operator. The correction below documents the full evidence chain. The error occurred because initial research found only the fiscal services arm without checking facility websites, the KY state directory, or field intelligence. Brooke's field knowledge that Topaz is "buying stuff left and right in Kentucky" was the signal that triggered re-investigation. Lesson: always complete the full 11-step source sequence and incorporate field intelligence before concluding.**
 
-### What We Found
+### What Topaz Is
 
-The GLR carries "TOPAZ HEALTHCARE" as Parent Company on **15 served Kentucky facilities** (14 SNFs + 1 ALF). If this attribution propagated into scoring work, it would appear as a significant Kentucky operator — 15 served facilities with a combined ~720+ patients. **It is not an operator. It is a financial services company.**
+**Topaz Healthcare / Topaz Financial Services LLC** is a real Kentucky nursing home operator — the management/fiscal arm of the Landa/Platschek/Chafetz ownership network. They acquired 21 Preferred Care Kentucky SNFs out of bankruptcy in July 2018 (originally as **Sapphire Care Group**), and are actively expanding (bid $11.15M for Metcalfe Healthcare Center, Sep 2025).
 
-### What Topaz Actually Is
+**Canonical DB name:** `TOPAZ HEALTHCARE`
+**Legal entity:** Topaz Financial Services LLC (KY registered corporation, OpenCorporates #1019317)
+**HQ:** 6085 Strickland Avenue, Mill Basin, Brooklyn, NY 11234
+**Key personnel:** Hal Brecher (provider contact for all KY facilities, email hbrecher@topazfs.com), Richard Platschek (member per OpenCorporates)
+**Website:** topazfiscalservices.com (presents as "Nursing Home Financial Services Company" — but KY state directory confirms them as the registered Corporation for 21+ facilities)
+**LinkedIn:** linkedin.com/company/topaz-fiscal-services-llc (~30 employees)
+**Formerly known as:** Sapphire Care Group (Buffalo NY area, 2018 acquisition entity)
 
-**Topaz Fiscal Services LLC**
-- **Type:** Nursing Home Financial Services Company
-- **HQ:** 6085 Strickland Avenue, Mill Basin, Brooklyn, NY 11234
-- **Website:** topazfiscalservices.com
-- **LinkedIn:** linkedin.com/company/topaz-fiscal-services-llc
-- **Size:** ~30 employees
-- **Services:** Fiscal/accounting services for nursing homes (accounts payable, payroll, controllership, junior accounting)
-- **Key personnel:** Angela Cooper MSN RN CENP RAC-CTA (FL/SE division)
+**Disambiguation — NOT the same as:**
+- Topaz Healthcare (topazhealthcare.com) — California home health company, Cupertino/Saratoga CA. PT/OT/SLP services. Completely unrelated.
+- Topaz Healthcare Services (topazhealthcareservices.com) — Maryland home care provider. Completely unrelated.
 
-Topaz Fiscal Services provides back-office financial operations to a portfolio of nursing homes. They do not operate facilities, employ clinical staff, make care decisions, or hold licenses. They are a **vendor** — equivalent to a therapy company or an accounting firm in the ownership structure.
+### Ownership Network
 
-**Topaz Fiscal Services is NOT the same entity as:**
-- Topaz Healthcare (topazhealthcare.com) — California-based home health company in Cupertino/Saratoga CA providing PT/OT/SLP/RN/LVN services. Completely unrelated.
-- Topaz Healthcare Services (topazhealthcareservices.com) — Maryland-based home care provider. Completely unrelated.
+Topaz is the management/operating arm of a private ownership network based in Brooklyn NY:
 
-### The 15 GLR Facilities and Their Actual Operators
+| Entity | Role | Key People |
+|---|---|---|
+| **Topaz Financial Services LLC** | KY state-registered Corporation, fiscal management, operator | Hal Brecher, Richard Platschek |
+| **Benjamin Landa** | CMS chain affiliation (55 affiliated facilities in FL/KY/NJ/NY) | Benjamin Landa (44%), Goldie Platschek (25%), Alexander Platschek (15%), David Rubenstein (7%) |
+| **Emerald Healthcare LLC** | CMS chain affiliation (14 facilities KY/NE/OK). Also described as "third-party fiscal consulting company" | Yisroel Chafetz |
+| **Noble Healthcare Management LLC** | Managing entity on ProPublica filings (Louisville KY, est. 2014) | — |
+| **Limestone Fiscal Services LLC** | Managing entity (appeared at Pikeville since Jul 2024) | — |
+| **Prestige Administrative Services LLC** | Managing entity on ProPublica filings | — |
+| **Sapphire Care Group** | Former acquisition entity (2018 Preferred Care bankruptcy purchase) | — |
 
-| # | GLR Facility Name | City | CCN | GLR Pts | ProPublica Chain / Managing Entity | Actual Operator (needs per-facility verification) |
-|---|---|---|---|---|---|---|
-| 1 | Pikeville Nursing and Rehab | Pikeville | 185094 | 60 | Chain: Emerald Healthcare. Managing: Emerald Healthcare LLC (since Mar 2017). Key: Yisroel Chafetz. | **Emerald Healthcare** |
-| 2 | Elizabethtown Nursing and Rehab Center | Elizabethtown | 185266 | 67 | Chain: Benjamin Landa. Owners: Landa 44%, Platschek 25%+15%, Rubenstein 7%. | **Benjamin Landa portfolio** |
-| 3 | Hardinsburg Nursing and Rehabilitation | Hardinsburg | 185302 | 42 | TBD — not yet checked | Pending |
-| 4 | Metcalfe Health Care Center AL | Edmonton | 185217 | 1 | Managing: Wells Health Services INC (since Jan 2008). Nonprofit. | **Wells Health Systems** |
-| 5 | Bowling Green Nursing and Rehabilitation | Bowling Green | 185224 | 33 | TBD | Pending |
-| 6 | Brandenburg Nursing and Rehabilitation | Brandenburg | NULL | 5 | TBD — no CCN available | Pending |
-| 7 | Stanton Nursing and Rehabilitation Center | Stanton | 185352 | 42 | TBD | Pending |
-| 8 | Salyersville Nursing and Rehabilitation Center | Salyersville | 185221 | 90 | TBD | Pending |
-| 9 | Campbellsville Nursing and Rehabilitation | Campbellsville | 185330 | 51 | TBD | Pending |
-| 10 | Irvine Nursing and Rehabilitation Center | Irvine | 185339 | 59 | TBD | Pending |
-| 11 | Owsley County Health Care Center | Booneville | 185273 | 68 | TBD | Pending |
-| 12 | Franklin-Simpson Nursing and Rehab | Franklin | 185331 | 62 | TBD | Pending |
-| 13 | Pioneer Trace Healthcare and Rehabilitation | Flemingsburg | 185314 | 39 | TBD | Pending |
-| 14 | Springfield Nursing and Rehabilitation | Springfield | 185336 | 63 | TBD | Pending |
-| 15 | Christian Heights Nursing and Rehab | Pembroke | 185338 | 38 | TBD | Pending |
+The CMS chain names (Emerald Healthcare, Benjamin Landa) are ownership-layer designations within this network, not separate operators. The GLR correctly codes all these facilities under one Parent Company: TOPAZ HEALTHCARE.
 
-**Combined GLR patient count: ~720+ across 15 facilities.** All Kentucky. All served.
+### Acquisition History
 
-The 3 facilities checked so far (Pikeville, Elizabethtown, Metcalfe) have **3 different actual operators** (Emerald Healthcare, Benjamin Landa, Wells Health Systems). This confirms: Topaz is a shared fiscal services vendor across multiple unrelated ownership groups, not an operator. The remaining 12 facilities likely have additional different operators.
+| Date | Event | Source |
+|---|---|---|
+| Jul 2018 | Sapphire Care Group acquires 21 Preferred Care Inc. KY facilities out of Chapter 11 bankruptcy. $0 purchase price. Must employ 70% of staff. Shielded from 163 pending lawsuits ($28M largest judgment). | Skilled Nursing News (Jul 2018) |
+| Oct 2018 | Benjamin Landa (44%), Platschek family (40%), Rubenstein (7%) registered as direct owners on ProPublica filings for Henderson, Elizabethtown, and other KY facilities. | ProPublica h-185402, h-185266 |
+| 2018-present | Topaz Financial Services LLC registered as Corporation in KY state directory for all facilities. Hal Brecher listed as provider contact. | KY DMS LTC Facility Listing |
+| Sep 2025 | Topaz Fiscal Services bids $11.15M for Metcalfe Healthcare Center (Edmonton KY). Awarded to "Topaz Health" (corrected to "Topaz Corporation" by County Attorney). Approved unanimously by magistrates. | Jobe for Kentucky (jpinews.com, Sep 16 2025) |
 
-### How This Happened
+### KY State Directory Facilities (21+ as of Feb 2026)
 
-The GLR's "Parent Company" field captured Topaz because Topaz is involved in the financial management of these facilities. The GLR field is designed to capture the operator/parent company, but nothing prevents a fiscal agent from being entered instead. This is the same class of error as:
-- ProPublica listing "Healthcare Therapy Services INC" as a managing entity alongside the actual operator
-- ProPublica listing "Forvis Mazars LLP" (accounting firm) as having managerial control at Carmel Manor
-- CMS chain capturing a therapy vendor name instead of the operating company
+All registered with Corporation = "Topaz Financial Services, LLC", contact = Hal Brecher, 6085 Strickland Ave, Brooklyn NY 11234, hbrecher@topazfs.com:
 
-The difference: those ProPublica entries appear alongside the real operator, so the error is visible. In the GLR, Topaz is the ONLY Parent Company listed — the real operator is invisible unless you go to ProPublica or the operator's own website.
+| # | Facility | City | County |
+|---|---|---|---|
+| 1 | Bowling Green Nursing and Rehabilitation | Bowling Green | Warren |
+| 2 | Brandenburg Nursing and Rehabilitation | Brandenburg | Meade |
+| 3 | Campbellsville Nursing and Rehabilitation | Campbellsville | Taylor |
+| 4 | Christian Heights Nursing and Rehabilitation | Pembroke | Christian |
+| 5 | Cumberland Nursing and Rehabilitation | Somerset | Pulaski |
+| 6 | Elizabethtown Nursing and Rehabilitation | Elizabethtown | Hardin |
+| 7 | Fordsville Nursing and Rehabilitation | Fordsville | Ohio |
+| 8 | Franklin-Simpson Nursing and Rehabilitation | Franklin | Simpson |
+| 9 | Hardinsburg Nursing and Rehabilitation | Hardinsburg | Breckinridge |
+| 10 | Henderson Nursing and Rehabilitation | Henderson | Henderson |
+| 11 | Irvine Nursing and Rehabilitation | Irvine | Estill |
+| 12 | Kenwood Health and Rehabilitation | Richmond | Madison |
+| 13 | Madison Health and Rehabilitation | Richmond | Madison |
+| 14 | Morganfield Nursing and Rehabilitation | Morganfield | Union |
+| 15 | River Haven Nursing and Rehabilitation | Paducah | McCracken |
+| 16 | Salyersville Nursing and Rehabilitation | Salyersville | Magoffin |
+| 17 | Shady Lawn Nursing and Rehabilitation | Cadiz | Trigg |
+| 18 | Springfield Nursing and Rehabilitation | Springfield | Washington |
+| 19 | Stanton Nursing and Rehabilitation | Stanton | Powell |
+| 20 | Twin Rivers Nursing and Rehabilitation | Owensboro | Daviess |
+| 21 | Woodcrest Nursing and Rehabilitation | Elsmere | Kenton |
 
-### Impact on Scoring Work
+**Note:** GLR carries 15 of these 21 under TOPAZ HEALTHCARE as Parent Company. The remaining 6 (Cumberland, Fordsville, Kenwood, Madison, Morganfield, Shady Lawn Cadiz) may not be in the GLR or may be coded differently. Also: Pikeville Nursing and Rehab is in the GLR under Topaz but NOT in the KY state directory under Topaz — may have a different state registration structure or may have changed since the directory was compiled.
 
-If "TOPAZ HEALTHCARE" was picked up as a corporate entity in our scoring framework, it would appear as:
-- 15 served KY facilities (significant footprint)
-- 720+ combined patients
-- All SNFs (except 1 ALF)
-- Passes the 7+ campus gate easily
+**Also note:** "Shady Lawn Nursing and Rehabilitation" in Cadiz KY (Trigg County) is a DIFFERENT facility from "Shady Lawn" in Cynthiana KY (Harrison County) that we evaluated in Cluster 4. The Cynthiana Shady Lawn is a PCH (personal care home / ALF) operated by Shady Lawn I LLC / Kim Perez. The Cadiz Shady Lawn is an NF (nursing facility) under Topaz.
 
-**All of this is a phantom.** These facilities belong to multiple different operators. Topaz should NOT be on any scoring board, should not be evaluated as an MUO candidate, and should not appear in any operator-level reporting. Any analysis that treats "Topaz Healthcare" as a single operator entity is producing misleading results.
+### GLR Presence (15 served facilities, ~720+ patients)
 
-### Pattern: Fiscal Agent as Parent Company
+The GLR carries TOPAZ HEALTHCARE as Parent Company on 15 served KY facilities. This is **correct** — Topaz is the operator. The GLR attribution should be maintained.
 
-**This is a new documented pattern for the GLR specifically.** The comprehensive scrub procedure documents similar patterns for ProPublica and NIC MAP but did not previously cover this GLR-specific variant.
+### DB Impact
 
-**How to detect:**
-1. **Red flag: Parent Company that doesn't match ANY ProPublica chain or managing entity** across the facilities it covers. If the GLR Parent Company is X but ProPublica says the managing entity is Y and the chain is Z — and neither Y nor Z is X — then X may be a fiscal agent, therapy vendor, or other non-operator vendor.
-2. **Red flag: Same Parent Company across facilities with DIFFERENT ProPublica chains.** One operator can manage facilities under different legal structures. But a single Parent Company serving facilities under Emerald Healthcare AND Benjamin Landa AND Wells Health Services (3 completely unrelated ownership groups) is a vendor relationship, not an operating relationship.
-3. **Red flag: Company name containing "Fiscal", "Services", "Consulting", "Therapy", "Solutions" paired with a Parent Company field.** These are service vendors, not operators.
-4. **Verification: Search the entity independently.** Does [Company Name] operate nursing homes? Do they have a portfolio page? Do they have their own NPI? If the entity's website describes itself as providing financial/accounting/therapy services TO facilities rather than operating them, it's a vendor.
+The Forward Universe likely has some of these 21 facilities coded under different corporate names (Emerald Healthcare, Benjamin Landa, or individual facility LLCs) based on CMS chain data. **V25.9 action:** Verify which DB rows correspond to the 21 Topaz KY facilities and recode to TOPAZ HEALTHCARE where appropriate. Per-facility verification required — the CMS chains vary (Emerald, Benjamin Landa) but the operator is Topaz across all.
 
-**Where this differs from existing procedure guidance:**
-- The comprehensive scrub already warns about ProPublica managing entities being facility-level LLCs (resolve to parent brand) and therapy vendors appearing in managing entity lists.
-- The comprehensive scrub already warns about NIC MAP Owner being PropCo, not operator.
-- **NEW: The GLR Parent Company field can carry fiscal agents/vendors.** This was not previously documented because the GLR is an internal source that "codes by operator" (procedure step 9 of Corporate Name Standardization). This finding proves the GLR does not always code by operator — it can also carry vendor relationships.
-- **Implication for the source sequence:** Internal source agreement (FU + GLR) is even less reliable than previously understood. Not only can internal sources share the same upstream error (McCoy Memorial case) — the GLR can introduce errors that the Forward Universe never had, by coding a vendor as the operator.
+**Metcalfe Healthcare Center (Cluster 8):** The original dedup analysis coded this facility as WELLS HEALTH SYSTEMS based on the ProPublica managing entity. Wells Health Services INC has been the managing entity since Jan 2008 — but Topaz bid to acquire Metcalfe in Sep 2025. If the acquisition closed, Metcalfe transitions to Topaz. Current ProPublica still shows Wells. **Status: transitional — verify whether Topaz acquisition has closed before recoding.**
 
-### Recommended Procedure Update
+### Scoring Board Implications
 
-Add to the "Two warnings about internal sources" section of the comprehensive scrub:
+Topaz Healthcare operates 21+ KY SNFs with 720+ served patients across 15 GLR-tracked facilities. This easily passes the 7+ campus gate. **Topaz should be evaluated for the corporate scoring board when the freeze lifts (June 6, 2026).**
 
-> **A third warning: The GLR Parent Company field can carry non-operator entities.** Fiscal services companies (e.g., Topaz Fiscal Services), therapy vendors, and consulting firms have been found coded as Parent Company in the GLR. The Topaz case: 15 served KY facilities carried "TOPAZ HEALTHCARE" as Parent Company — a Brooklyn NY fiscal services company that provides accounting to nursing homes. The actual operators were 3+ different unrelated entities (Emerald Healthcare, Benjamin Landa, Wells Health Systems). Detection: when the GLR Parent Company doesn't match ANY ProPublica chain or managing entity across the facilities it covers, investigate whether the entity is a vendor rather than an operator.
+### How the Original Error Happened and What We Learned
 
-### Next Steps
-- All 15 facilities need per-facility ProPublica verification to identify their actual operators
-- Check whether "TOPAZ HEALTHCARE" exists as a corporate entity in the DB (corporate_name_raw or market_intel_corporate_entities table) — if so, it needs to be flagged/removed
-- Check whether Topaz appears on any scoring board or MUO evaluation
-- Communicate the finding to the GLR/BD team — these 15 Parent Company entries need correction
-- Consider a broader GLR audit: are there other fiscal agents/vendors coded as Parent Company?
+The original investigation (2026-04-06) found Topaz Fiscal Services LLC on LinkedIn and topazfiscalservices.com, both describing it as a "Nursing Home Financial Services Company." Three ProPublica checks showed different CMS chains (Emerald, Benjamin Landa, Wells Health Services). The conclusion was that Topaz was a fiscal agent, not an operator.
+
+**What was missed:**
+1. The KY DMS Long-Term Care Facility Listing — which shows Topaz Financial Services LLC as the registered **Corporation** for 21 facilities. This is a state regulatory filing, not just an accounting vendor entry.
+2. Facility operator websites — none were checked for Topaz branding (most showed no corporate affiliation, but the website design firm IlluminAge is shared across all Topaz facilities — a centralized management signal)
+3. Field intelligence — Brooke identified Topaz as a real entity "buying stuff left and right in Kentucky" and named specific facilities (Henderson, Franklin-Simpson)
+4. The Sapphire Care Group → Topaz transition history (2018 Preferred Care bankruptcy acquisition, Skilled Nursing News)
+5. The active Metcalfe bid (Sep 2025, jpinews.com)
+
+**The different CMS chains (Emerald, Benjamin Landa) are ownership-layer designations within the same network** — similar to how Portopiccolo operates through regional CMS chains but is one economic entity. The error was assuming different CMS chains = different operators. The correct interpretation: one operator (Topaz) with a complex ownership structure reflected through multiple CMS chain affiliations.
+
+**Procedure lesson:** The 11-step source sequence must be completed fully — including state registry (step 8) and ALL facility websites (step 10) — before concluding. Field intelligence from the BD team is a valid source that should be incorporated. And different CMS chains at different facilities does NOT necessarily mean different operators — it can mean one operator with a multi-entity ownership structure.
 
 ### Sources
-- GLR Facility Dump 2026-03-13: 15 entries with Parent Company = TOPAZ HEALTHCARE (all KY, all served)
-- ProPublica h-185094 (Pikeville): Chain = Emerald Healthcare, Managing = Emerald Healthcare LLC
+- KY DMS Long-Term Care Facility Listing (Excel, Feb 2026): Corporation = "Topaz Financial Services, LLC" on 21 facilities, Hal Brecher provider contact
+- Skilled Nursing News (Jul 2018): "Sapphire Care Group to Take Over 21 Preferred Care Locations in Kentucky"
+- Jobe for Kentucky / jpinews.com (Sep 16 2025): "Metcalfe Healthcare Center Sold: A Fresh Chapter Begins" — Topaz bid $11.15M, awarded
+- ProPublica h-185094 (Pikeville): Chain = Emerald Healthcare, Key: Yisroel Chafetz
 - ProPublica h-185266 (Elizabethtown): Chain = Benjamin Landa, Owners = Landa/Platschek/Rubenstein
-- ProPublica h-185217 (Metcalfe): Managing = Wells Health Services INC (nonprofit)
-- topazfiscalservices.com: "Nursing Home Financial Services Company," Mill Basin Brooklyn NY
-- linkedin.com/company/topaz-fiscal-services-llc: ~30 employees, Brooklyn NY, Financial Services industry
-- topazhealthcare.com: DIFFERENT entity — California home health company, Cupertino CA. Zero KY connection.
-- Web searches (2026-04-07): "Topaz Healthcare Kentucky" — no connection to KY facility operations. "Topaz Healthcare Edmonton Metcalfe" — no connection. "Topaz Healthcare Emerald Benjamin Landa fiscal" — linked Topaz Fiscal Services LLC.
+- ProPublica h-185402 (Henderson): Chain = Benjamin Landa, same ownership structure
+- ProPublica h-185217 (Metcalfe): Managing = Wells Health Services INC (transitional — Topaz bid Sep 2025)
+- OpenCorporates: Topaz Financial Services LLC, KY registration #1019317, member Richard Platschek
+- GLR Facility Dump 2026-03-13: 15 entries with Parent Company = TOPAZ HEALTHCARE
+- topazfiscalservices.com: "Nursing Home Financial Services Company" (misleading — actually operator)
+- linkedin.com/company/topaz-fiscal-services-llc: ~30 employees, Brooklyn NY
+- Brooke Ritchie (field intelligence, 2026-04-07): confirmed Topaz as active KY operator, named Henderson and Franklin-Simpson
 
-**Discovered during:** ALF dedup cluster review, Cluster 8 (Metcalfe Health Care Center, Edmonton KY), punchlist item #1, 2026-04-06/07. The Metcalfe AL entry was the only ALF among 15 Topaz GLR entries — it appeared in our ALF dedup cluster work, which led to the full GLR-wide investigation.
+**Originally documented:** 2026-04-06 (ALF dedup Cluster 8, incorrectly as "phantom fiscal agent")
+**Corrected:** 2026-04-07 (re-investigation triggered by Brooke's field intel, confirmed via KY state directory + acquisition history)
 
 ---
 
