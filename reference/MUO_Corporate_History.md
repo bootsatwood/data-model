@@ -1032,7 +1032,61 @@ Context: 42 corporate groups with 2025 termination history, $17.5M revenue at ri
 - "American Healthcare" in LOB data = **Heritage Hall** (T1, entity 17366, 23 campuses). Legal holding company name vs. operator brand.
 
 **Barrier findings (T5 candidates):**
-- **Genesis Healthcare** (id 16254): CMS Chain ID 237, 195 SNFs nationally. 7 campuses in footprint (5 NC, 2 VA). 4 served. 198 of 210 DB rows flagged "Own Provider Group." Cary lists as "Genesis/Alignmed." Full 8-step reconciliation completed 2026-04-07. **AlignMed Partners = formerly Genesis Physician Services** — Genesis's in-house clinical subsidiary, HQ Kennett Square PA (same as Genesis corporate). CEO Bill Schultz, 340+ physicians/NPs/PAs. Trademark: "Genesis Eldercare Physician Services LLC." This is the OPG barrier. **Bankruptcy:** Filed Ch.11 July 2025. Sale approved Jan 21, 2026 to NewGen Health (CEO Shawn Zhou, California) for $1.015B. Transition closing spring 2026. Prior owners: JER Partners/Formation Capital (PE, 2007-2011) → public → ReGen Healthcare/Joel Landau (93% equity, 2021-2025). Operating LLCs in NC = "Sunbridge Regency - North Carolina LLC" and "Sunbridge Retirement Care Associates LLC." VA = "Westwood Medical Park Operations LLC" and "11 Dairy Lane Operations LLC." **DB gap:** 4 NC facilities (Meridian/High Point, Abbotts Creek/Lexington, Mount Olive, Pembroke) confirmed by CMS + genesishcc.com but NOT in Forward Universe. **Ashland KY distinction:** Genesis HCR of Ashland One/Two (rows 5803/5804) are likely a separate local entity ("Genesis Health of Ashland LLC"), not Chain 237 — no CMS chain match, NIC MAP shows individual owners. Brooke confirmed T5 on 3/27 call.
+---
+
+### GENESIS HEALTHCARE — T5 (Own Provider Group / AlignMed Partners)
+
+**Full 8-step reconciliation completed 2026-04-07. External verification: HIGH CONFIDENCE.**
+
+**Canonical DB name:** `GENESIS`
+**CMS Chain ID:** 237 (195 SNFs nationally as of Feb 2026)
+**HQ:** 101 East State Street, Kennett Square, PA 19348
+**Footprint in 6 states:** 7 campuses (5 NC, 2 VA). Zero in SC, KY, OH, IN.
+**DB rows:** 210 true Genesis rows across 24 states. 198 of 210 carry "Own Provider Group" barrier.
+**Served:** 4 facilities (Siler City NC SNF+ALF, Westwood VA SNF+ALF)
+**Tier:** T5 — Brooke confirmed 3/27 call. Added to Monday.com board 2026-04-07.
+
+**OPG Barrier — AlignMed Partners:**
+AlignMed Partners (formerly Genesis Physician Services, rebranded) is Genesis's in-house clinical subsidiary. HQ: 101 East State Street, Kennett Square PA — same building as Genesis corporate. CEO Bill Schultz. COO Flora Cauley Petillo. President Al Shaine. 340+ physicians/NPs/PAs nationally. Trademark filed under "Genesis Eldercare Physician Services LLC" (USPTO TM 98330284). AlignMed provides all clinical staffing in-house — Genesis does not contract with external providers like Eventus. This IS the OPG barrier.
+
+**Ownership timeline:**
+| Date | Event | Source |
+|---|---|---|
+| 2007 | JER Partners + Formation Capital (PE) acquire Genesis HealthCare | PESP, Wikipedia |
+| 2011 | PE firms sell 180 facilities / ~20,000 beds to healthcare REIT for $2.4B | PESP |
+| 2015 | Genesis merges with Skilled Healthcare Group Inc. | PR Newswire |
+| Mar 2021 | ReGen Healthcare (Joel Landau) invests $100M for 93% equity + 2 board seats | PESP, SNN |
+| 2023 | ReGen acquires 3rd board seat for additional $25M | PESP |
+| Jul 2025 | Genesis files Chapter 11 bankruptcy. 175 facilities across 18 states. $2.3B debt. | SNN, Healthcare Dive, NHPR |
+| Dec 2025 | Bankruptcy judge rejects initial insider sale (Genie 3 / Landau). "Too many irregularities." | Eleven Flo, McKnight's |
+| Jan 21, 2026 | Judge Jernigan approves sale to **NewGen Health** (operating as "101 West State Street LLC"). CEO Shawn Zhou, California-based. $1.015B ($343M cash + $100M promissory note + $572M assumed liabilities). | SNN, Bloomberg Law, McKnight's, CRE Daily, Yahoo Finance |
+| Spring 2026 | Transition expected to close "this spring or later." | SNN (Genesis spokesperson) |
+
+**What happens when NewGen closes:** Every facility coded GENESIS in the DB may need a recode to NEWGEN or whatever operating brand they establish. The OPG barrier (AlignMed) status under new ownership is unknown — NewGen may retain, restructure, or eliminate the in-house physician model. Monitor.
+
+**Operating LLCs (CMS legal business names):**
+- NC: Sunbridge Regency - North Carolina LLC (4 fac: Meridian, Abbotts Creek, Mount Olive, Siler City), Sunbridge Retirement Care Associates LLC (1 fac: Pembroke)
+- VA: Westwood Medical Park Operations LLC (Westwood/Bluefield), 11 Dairy Lane Operations LLC (Woodmont/Fredericksburg)
+
+**Facilities in our 6 states (CMS + web verified):**
+
+| Facility | City, ST | CCN | Beds | Census | Served | CMS Stars | In DB? |
+|---|---|---|---|---|---|---|---|
+| Siler City Center (SNF) | Siler City, NC | 345143 | 150 | 139 | **Yes** | — | Row 9436 |
+| Siler City Center (ALF) | Siler City, NC | — | 103 | 82 | **Yes** | — | Row 9474 |
+| Westwood Center (SNF) | Bluefield, VA | 495200 | 60 | 49.5 | **Yes** | — | Row 16265 |
+| Westwood Center (ALF) | Bluefield, VA | — | 3 | 2 | **Yes** | — | Row 16277 |
+| Woodmont Center | Fredericksburg, VA | 495246 | — | — | No | — | Row (exists) |
+| Meridian Center | High Point, NC | 345172 | 199 | 167.6 | No | 1-star | **NOT IN DB — V25.9 INSERT** |
+| Abbotts Creek Center | Lexington, NC | 345333 | 64 | 59.6 | No | 3-star | **NOT IN DB — V25.9 INSERT** |
+| Mount Olive Center | Mount Olive, NC | 345126 | 150 | 117.2 | No | 1-star | **NOT IN DB — V25.9 INSERT** |
+| Pembroke Center | Pembroke, NC | 345409 | 84 | 74.0 | No | 1-star, Abuse icon | **NOT IN DB — V25.9 INSERT** |
+
+**V25.9 action:** INSERT 4 missing NC SNFs. Source_Type=CMS/SNF. Corporate_Name=GENESIS. Barrier=Own Provider Group. Do_We_Serve=No. Addresses, beds, census, coordinates from CMS Feb 2026 extract. V25.9 punchlist items #34-37.
+
+**Ashland KY distinction:** Genesis HCR of Ashland One (row 5803, corp="Genesis Health of Ashland LLC") and Two (row 5804, corp="INDEPENDENT") are likely a SEPARATE LOCAL ENTITY, not Genesis Healthcare Chain 237. No CMS chain match. NIC MAP shows individual owners (Artrip Mitchell A, Hamilton Anesteine B). Both are small ALFs (13 and 15 beds), both served. Needs standalone Procedure 3 investigation to confirm attribution.
+
+**Sources:** Wikipedia, SNN (Jul 2025 bankruptcy, Jan 2026 sale, dealbook), PESP (PE ownership history), Healthcare Dive, McKnight's, Bloomberg Law, CRE Daily, Yahoo Finance, NHPR, Eleven Flo, genesishcc.com (facility pages), alignmedpartners.com, The Org (AlignMed leadership), USPTO (TM 98330284), CMS Provider Info Feb 2026 (Chain 237).
 - **Alliance Health Group** (id 16888): 9 campuses NC, 0 served. 3 of 9 facilities flagged "Alliance" + "Own Provider Group."
 
 **Entity consolidation candidates identified:**
