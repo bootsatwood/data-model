@@ -24,7 +24,7 @@ VAULT = os.path.expanduser(
     "~/OneDrive - Eventus WholeHealth/Vault"
 )
 V25_PATH = os.path.join(
-    VAULT, "02_Data_Model", "Current", "1_Combined_Database_FINAL_V25_7.xlsx"
+    VAULT, "02_Data_Model", "Current", "1_Combined_Database_FINAL_V25_9.xlsx"
 )
 
 # PostgreSQL connection
