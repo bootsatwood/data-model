@@ -1,0 +1,11 @@
+Item,Facility,City,State,Field,Old,New,Evidence
+#6,Viva Memory Care At Hagerstown,Hagerstown,MD,Corporate_Name,COMMONWEALTH SENIOR LIVING,VIVA SENIOR LIVING,Logos/Viva 8-community deal Oct 2024 (SHN)
+#6,Commonwealth Senior Living At Salisbury,Salisbury,MD,Corporate_Name,COMMONWEALTH SENIOR LIVING,VIVA SENIOR LIVING,Same Logos/Viva deal (SHN)
+#7,Viva Senior Living At Bel Air,Bel Air,MD,DELETE ROW,,,"CSL cross-operator dup, Viva row survives"
+#7,Viva Senior Living At Cockeysville,Cockeysville,MD,DELETE ROW,,,"CSL cross-operator dup, Viva row survives"
+#11,CADENCE  ASSISTED LIVING OF WAKE FOREST,Wake Forest,NC,DELETE ROW,,,NC DHSR HAL-092-213: 1 license 96 beds. This row has 60.
+#12,CADENCE  GARNER,Garner,NC,DELETE ROW,,,NC DHSR HAL-092-215: 1 license 84 beds at 200 Minglewood only. Aversboro is wrong address.
+#13,CADENCE HUNTERSVILLE,Huntersville,NC,DELETE ROW,,,NC DHSR HAL-060-160: 1 license 96 beds. This row has 60.
+#16,NATIONAL CHURCH RESIDENCES CHILLICOTHE,Chillicothe,OH,Corporate_Name,(NULL),NATIONAL CHURCH RESIDENCES,"CMS CCN 366338, same campus as ALF row"
+#17,NATIONAL CHURCH RESIDENCES AT HOPETON VILLAGE,Chillicothe,OH,DELETE ROW,,,Name variant dup of NCR HOPETON VILLAGE at same address (153 University Dr)
+#17b,HOPETON TERRACE,Chillicothe,OH,Source_Type,ALF,ILF,"HUD-subsidized affordable housing 62+, 45 units, 55 Sun Rush Blvd. Not serviceable."
