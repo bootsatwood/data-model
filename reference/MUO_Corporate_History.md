@@ -2738,3 +2738,83 @@ Only KY and OH are in the 6-state operational footprint. OH has 4 rows in Columb
 - Forward Universe V25.7: 15 rows under DOMINION SENIOR LIVING
 
 **Discovered during:** ALF dedup cluster review, Cluster 5, punchlist item #1, 2026-04-06
+
+---
+
+## ADAMS COUNTY MEMORIAL HOSPITAL (Adams Health Network)
+
+**Canonical DB name:** `ADAMS COUNTY MEMORIAL HOSPITAL`
+**DB variants found:** ADAMS COUNTY MEMORIAL HOSPITAL, SAINT ANNE COMMUNITIES, DIOCESE OF FORT WAYNE SO BEND, ST ANNE HOME OF THE DIOCESE OF FORT WAYNE-SOUTH BEND INC, *(blank — Adams Heritage, Adams Woodcrest)*
+**DB facility count:** 13 rows across 9 active campuses (all Indiana)
+**Served:** 2 campuses — Chesterton Manor (Chesterton IN), Colonial Nursing (Crown Point IN)
+**GLR Parent Company:** Adams County Memorial Hospital (confirmed on both served facilities)
+
+### Entity Profile
+
+Adams County Memorial Hospital is a county-owned hospital in Decatur, Indiana (Adams County). The hospital anchors **Adams Health Network**, which includes the hospital, Adams Medical Group, and a senior living portfolio of 9 campuses across Indiana. Facilities operate under local brand names with no unified branding. Not-for-profit, government-operated.
+
+### Key Finding: Saint Anne Home Ownership Transfer (2016)
+
+On September 1, 2016, legal ownership of Saint Anne Home (1900 Randallia Dr, Fort Wayne IN, CCN 155349) transferred from **St Anne Home of the Diocese of Fort Wayne-South Bend Inc** to **Adams County Memorial Hospital**. The Diocese retained its role as spiritual/mission parent — the facility still brands as "Saint Anne Communities, a service of the Fort Wayne-South Bend Diocese" (sacfw.org). But the license, staff, and operational control belong to Adams.
+
+The DB was never updated. Three rows coded under three different Diocese/Saint Anne corporate names, all tagged LEGACY attribution, all coded Independent.
+
+### Leadership Overlap (ProPublica Officer Match)
+
+| Name | Role | Saint Anne (h-155349) | Adams Woodcrest (h-155747) |
+|---|---|---|---|
+| Scott Smith | Officer / W2 Managing Employee | Since Jan 2020 | Since Jan 2020 |
+| Kyle Sprunger | Officer / W2 Managing Employee | Since Jan 2018 | Since Jan 2018 |
+| Dane Wheeler | Officer / W2 Managing Employee | Since Sep 2016 | Since Sep 2009 |
+
+Dane Wheeler = CFO of Adams Health + NHA license holder. His Sep 2016 start at Saint Anne aligns with the ownership transfer date.
+
+### Victory Noll Closure
+
+Saint Anne Victory Noll (25 Victory Noll Dr, Huntington IN) opened 2017, closed **April 1, 2024**. 40 ALF beds. 26 residents relocated. Financial challenges + pandemic cited. Building being sold. DB row is dead.
+
+### Saint Joseph Hospice Suites (New Build)
+
+Construction began May 2025 at Randallia campus. 5 hospice suites. $900K donated (Tippmann Foundation + anonymous). Diocese positioning as first in the country to house all four end-of-life ministries under one diocesan umbrella. Does not change operational ownership — Adams holds the license.
+
+### Full Portfolio (9 Active Campuses)
+
+| Campus | City | Type | Beds | Served |
+|---|---|---|---|---|
+| Chesterton Manor | Chesterton, IN | SNF+ALF | 121 | Yes |
+| Colonial Nursing | Crown Point, IN | SNF+ALF | 61 | Yes |
+| The Cedars | Leo, IN | SNF | 65 | No |
+| Christian Care Retirement Community | Bluffton, IN | SNF | 82 | No |
+| Swiss Village | Berne, IN | SNF | 128 | No |
+| Northwest Manor Health Care Center | Indianapolis, IN | SNF | 126 | No |
+| Adams Heritage | Monroeville, IN | SNF | 61 | No |
+| Adams Woodcrest | Decatur, IN | SNF | 143 | No |
+| Saint Anne Home | Fort Wayne, IN | SNF+ALF | 278 | No |
+
+**Total:** 1,065 beds across 9 campuses. Passes 7+ MUO gate.
+
+### MUO Candidate Status
+
+Qualifies for Corporate Scoring Board. Queued for June 6, 2026 rescore (scoring board frozen until then). Needs Brooke dimension input.
+
+### Inbound Signal
+
+Elaine Wilson (licensed administrator at Saint Anne Home per IN QAMIS, start Feb 2023) submitted an Eventus WholeHealth contact form on April 8, 2026 requesting information about services. Administrator-level inbound from a CCRC within a 9-campus MUO.
+
+### Cross-Reference
+
+| Source | Result |
+|---|---|
+| CMS (ProPublica h-155349) | Adams County Memorial Hospital = 100% direct owner since Sep 2016 |
+| ProPublica Officer Match | Smith, Sprunger, Wheeler on both Saint Anne and Adams Woodcrest |
+| IN QAMIS (State License) | Owner = Adams County Memorial Hospital; previous = Diocese |
+| NIC MAP (Operator ID 89229) | Operator = Saint Anne Communities (management brand) |
+| Operator Website (sacfw.org) | "A service of the Fort Wayne-South Bend Diocese" (spiritual parent only) |
+| GLR (Mar 2026) | Chesterton Manor + Colonial: Parent Company = Adams County Memorial Hospital |
+
+**Confidence: HIGH (5+ independent sources, zero contradictions)**
+
+#### Full Report
+`Vault/03_Corporate_Accounts/MUO_Profiles/Adams_Health_Network_MUO_Evaluation.html`
+
+**Discovered during:** Inbound contact form investigation, comprehensive scrub of 1900 Randallia Dr Fort Wayne IN, 2026-04-08
