@@ -1,6 +1,8 @@
 # Data Domain Logbook
 
-A running record of data governance decisions, reconciliations, and definitions published across workstreams. Each entry captures what was decided, who was involved, and where the supporting documentation lives. Future home: Keystone Data Governance tab.
+A running record of data governance decisions, reconciliations, and definitions published across workstreams. Each entry captures what was decided, who was involved, and where the supporting documentation lives.
+
+**Future home:** Keystone Data Governance tab (`/bd-data-governance/logbook`) — fifth sub-page alongside Overview, Defined Terms, Business Rules, and Change Log. See `memory/projects/bd_data_governance.md` for module architecture. Frontend: `feature/bd-dashboard-refinements` branch, `frontend/src/views/bd-data-governance/`.
 
 ---
 
