@@ -24,38 +24,29 @@ archive/         Full version history (V02-V19.1) + foundation docs
 
 ## Scripts
 
-| File | Purpose |
-|------|---------|
-| scripts/chain_update_v21_2.py | CMS Chain ID enhancement — preview, apply, four-rule modes |
-| scripts/chain_crossref.py | Chain classification cross-reference analysis (read-only) |
-| scripts/chain_crossref_independent.py | Independent facilities with CMS chain analysis (read-only) |
-| scripts/corporate_fix.py | Wave 2c corporate attribution (GLR/CMS/NIC three-tier) — V22.2 -> V22.3 |
-| scripts/corporate_name_dedup.py | Corporate name dedup analysis — fuzzy matching + review workbook (read-only) |
-| scripts/corporate_dedup_fix.py | Corporate name consolidation — V22.3 -> V22.4 (preview/apply) |
-| scripts/remove_greencroft_dupes.py | Remove 3 duplicate/phantom Greencroft rows from V22.6 (preview/apply) |
-| scripts/v22_7_fix.py | Combined V22.6->V22.7: Liberty QC + Singh/Cedarhurst/Spring Arbor dedup (preview/apply) |
-| scripts/v22_8_norm_clusters.py | Exact norm cluster consolidation — V22.7 -> V22.8 (19 clusters + 4 typo fixes, 199 renames) |
-| scripts/v22_9_fuzzy_dedup.py | High-confidence fuzzy match consolidation — V22.8 -> V22.9 (14 pairs, 507 renames) |
-| scripts/v22_10_southern_fix.py | Southern Healthcare Management consolidation — V22.9 -> V22.10 (Sovereign→Southern, 44 renames) |
-| scripts/v22_11_il_reclassify.py | IL/55+ Source_Type reclassification — V22.10 -> V22.11 (53 ALF→ILF) |
-| scripts/v22_12_snf_dedup.py | SNF same-address dedup via CCN verification — V22.11 -> V22.12 (255 rows removed) |
-| scripts/v22_13_alf_dedup.py | ALF same-address dedup — V22.12 -> V22.13 (215 rows removed) |
-| scripts/v22_14_alf_diffcorp_dedup.py | ALF PROPCO/OPCO dedup — V22.13 -> V22.14 (37 rows removed) |
-| scripts/v24_migration.py | V24 migration — 62 deletes + 42 field updates |
-| scripts/v24_1_migration.py | V24.1 migration — 27 deletes + 72 field updates (IN cleanup) |
-| scripts/v24_2_migration.py | V24.2 migration — 106 changes (MUO candidate eval corrections) |
-| scripts/v24_3_migration.py | V24.3 migration — 4 deletes (deferred V24.2 items) |
-| scripts/build_scoring_workbook.py | Finance 60 scoring workbook generator |
-| scripts/build_final_muo_tiering.py | BD universe tiering workbook generator |
-| scripts/build_bd_html_view.py | BD 100-entity HTML view + breakout pages |
-| scripts/score_new_muos.py | V25 new operator scoring (Navion, Gardant, RUI, Vitality, Triple Crown) |
-| scripts/heritage_hall_rescore.py | Heritage Hall V25 rescore (T4→T1, entity consolidation) |
-| scripts/qc_validator.py | QC tool — snapshot, compare, validate modes |
-| scripts/qc_config.json | File paths + expected values (update per version) |
+See `scripts/README.md` for full layout. Summary:
 
-Run from repo root: `python scripts/qc_validator.py [snapshot|compare|validate]`
+```
+scripts/
+├── v2*_*.py       22 version migration scripts (V22.7 → V26.0) — the audit trail
+├── load_*.py       7 PG loaders — push Excel into PostgreSQL for Keystone
+├── build_*.py     18 report/workbook builders
+├── utils.py        Shared utilities (normalizers, DB loader, paths)
+├── qc_validator.py QC snapshot/compare/validate tool
+├── qc_config.json  File paths + expected values (update per version)
+├── audit_reports/  Output artifacts from analysis runs (CSV, Excel, markdown)
+└── archive/       69 one-off analysis scripts — retained for audit trail, not active
+```
 
-See `current/QC_Framework.md` for full documentation.
+Run from `scripts/` directory:
+```bash
+cd scripts
+python v26_0_migration.py --preview
+python load_v25_to_pg.py
+python qc_validator.py snapshot
+```
+
+See `current/QC_Framework.md` for QC documentation.
 
 ## Reference Documents
 
