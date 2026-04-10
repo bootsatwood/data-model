@@ -14,6 +14,124 @@ Tracks corporate-level events — mergers, acquisitions, divestitures, rebrands,
 
 ---
 
+## INFINITY HEALTHCARE CONSULTING
+
+**Canonical DB name:** `INFINITY HEALTHCARE CONSULTING`
+**Brands as:** IHC, "Waters of [City]" (IN/TN), individual names (IL)
+**Legal entities:** Infinity Healthcare Consulting LLC, Infinity Healthcare Consulting of Illinois, Infinity Healthcare Consulting of Indiana LLC, County Hospital Manager LLC
+**CMS Chain:** Infinity Healthcare Consulting (ProPublica affiliate a-283, 78 homes per CMS)
+**Website:** ihconsulting.com
+**HQ:** 2477 E Commercial Blvd, Fort Lauderdale, FL 33308
+**Founded:** October 31, 2003
+**Principals:** Michael Blisko (CEO) & Moishe Gubin (co-founder). 20-year partnership.
+**Staff:** 177 skilled consultants, 80+ client facilities
+**DB facility count:** 95 rows → 87 after V26.1 (8 recoded to Lyon Healthcare, 1 Gallatin duplicate deleted)
+**Served:** 29 (was 36 — 7 KY served recoded to Lyon Healthcare)
+**Tier:** T1
+
+### Three Ownership Patterns
+
+**Illinois — Blisko/Gubin Direct Ownership:**
+ProPublica Midway Neurological (h-145778, Bridgeview IL): Gubin Enterprises LP 37%, Michael Blisko 37%, A&F Realty LLC 25% (since Jan 2005/2014). For-profit LLC model. IHC principals ARE the owners. 15 IL facilities, all SNF, concentrated in Cook County Chicago.
+
+**Indiana — Major Hospital Ownership, IHC Management:**
+ProPublica Waters of Batesville (h-155233): Major Hospital 100% (since May 2014), John Horner corporate officer. Per-facility management LLCs ("The Waters Of [City], LLC"). Same Major Hospital that owns CASA Consulting Lake County facilities. IHC manages 35+ IN "Waters of" branded facilities for Major Hospital.
+
+**Kentucky + Oklahoma — NOT IHC, CONFIRMED LYON HEALTHCARE (V26.1 recode):**
+All 7 KY facilities and 1 OK facility were coded INFINITY HEALTHCARE CONSULTING but are confirmed Lyon Healthcare (Hill Valley network) per individual ProPublica verification:
+- Eastway (h-185122): A&M Healthcare Investments LLC, Joseph Meisels 23% indirect. Chain=Lyon.
+- Henson Park (h-185264): Ky 10 Snf Ops Holdings LLC, Shimon Idels (Hill Valley Co-CEO). Chain=Lyon.
+- Lake Barkley (h-185318): Ky 10 Snf Ops Holdings LLC, Shimon Idels. Chain=Lyon.
+- Landmark of Lancaster (h-185065): A&M Healthcare Investments LLC, Joseph Meisels. Chain=Lyon.
+- Parkwood (h-185096): Ky 10 Snf Ops Holdings LLC. Chain=Lyon.
+- Breathitt (h-185112): Refused ownership disclosure. Chain=Lyon.
+- Maplewood: ALF campus pair with Landmark at 308 W Maple Ave Lancaster. Same ownership.
+- Midwest City OK (h-375252): A&M Healthcare Investments LLC, Joseph Meisels managing employee.
+
+Historical connection: Kenny Nichols (Bedrock/Hill Valley co-founder/COO) was previously SVP Ops at "Infinity Healthcare Mgmt." The KY/OK facilities likely transitioned from IHC management to the Lyon/Hill Valley network when Nichols moved, but the Forward Universe was never updated.
+
+### Gallatin TN Duplicate (V26.1 delete)
+
+Two rows at 555 E Bledsoe St, Gallatin TN, both CMS source, both INFINITY HEALTHCARE CONSULTING:
+- Row 14489: "THE WATERS OF GALLATIN, LLC" — 124 beds (matches CMS certified). KEEP.
+- Row 19871: "THE WATERS OF GALLATIN" — 155 beds (inflated). DELETE.
+Neither served. Survivor rule Step 6: keep the row with accurate bed count.
+
+### Sources Checked (11-step, 2026-04-10)
+
+ihconsulting.com (main + /facilities.php + /about.php + /20years.php), ProPublica (a-283 affiliate + h-155233 Batesville + h-145778 Midway + h-185122 Eastway + h-185112 Breathitt + h-185264 Henson Park + h-185318 Lake Barkley + h-185065 Landmark + h-185096 Parkwood + h-375252 Midwest City), NPI Registry (Major Hospital NPIs), GLR Export (23 entries), MUO Corporate History (Putnam County Hospital prior research), ZoomInfo, LinkedIn, plainproof.com, D&B.
+
+---
+
+## CASA CONSULTING
+
+**Canonical DB name:** `CASA CONSULTING`
+**Brands as:** Casa Healthcare (casa-hc.com)
+**Legal entity:** Casa Consulting, LLC
+**CMS Chain Affiliation:** Casa Consulting (ProPublica affiliate a-695)
+**DB facility count:** 10 rows (8 correct after Crown Point Christian Village recode)
+**Served:** 0
+**Tier:** T3 (assigned 2026-04-10, dimensions deferred to June 6 rescore)
+**Footprint:** Lake County, Indiana only (NW Indiana / Chicago metro)
+
+### Corporate Structure
+
+Casa Consulting is a **SNF management/consulting company** — not an owner. All facilities are legally owned by county hospitals, primarily **Major Hospital** (Major Health Partners, Shelbyville IN). Casa provides management services through per-facility LLCs.
+
+**CEO:** Moshe Siegal (previously Regional Director of Operations at Symphony Post Acute Network). Email @casa-hc.com.
+**Management team:** Angela Boland (Regional VP Business Development), Tamara Jones (Regional Nurse Consultant). ~26 corporate employees.
+**Website disclaimer:** "Casa Consulting, LLC is a consulting company that does not own, operate, manage or control any facility." — standard liability shield; actual management performed through per-facility LLCs.
+
+### Ownership Pattern: Major Hospital (PropCo)
+
+**Major Hospital** (Major Health Partners, Shelbyville IN) is the 100% legal owner on 6 of 7 CASA facilities. **Jackson County Schneck Memorial Hospital** owns the 7th (Crown Point Health Campus). **John M. Horner** (CEO of MHP since 2008, employed since 1985) is the corporate officer on every CMS filing and the authorized official on every NPI.
+
+Major Hospital owns **15+ SNFs across Indiana** under completely different operator brands — Majestic Care, Aperion Care, Transcendent Healthcare, The Waters, Core, and CASA Consulting. This is the Putnam County Hospital pattern: one owner, multiple management companies. Per operator attribution rule, code the management company (CASA), not the owner (Major Hospital).
+
+### Per-Facility Management LLCs
+
+| Facility | CCN | Management LLC | Managing Employee | Since | Direct Owner |
+|---|---|---|---|---|---|
+| Casa of Hobart | 155469 | Sebo's Casa, LLC | Rosa Mcgowan | Sep 2020 | Major Hospital |
+| Crown Point Health Campus | 155637 | Crown Point Healthcare LLC | Moshe Siegal + multiple | Mar 2025 | Schneck Memorial |
+| Dyer Nursing & Rehab | 155220 | DLS Financial Consulting, LLC | David Aronin | Jan 2013 | Major Hospital |
+| Harbor Health & Rehab | 155653 | Casa Consulting, LLC | Moshe Siegal | Apr 2023 | Major Hospital |
+| Lincolnshire Health & Rehab | 155650 | Lincolnshire H&R Center LLC | Nathan Wolf | May 2014 | Major Hospital |
+| Munster Med-Inn | 155131 | (individual only) | Lee Seflers | Jan 2014 | Major Hospital |
+| Spring Mill Health Campus | 155764 | SM Healthcare, LLC | Muhammad Mirza | Jul 2017 | Major Hospital |
+
+### Key Individuals
+
+- **Moshe Siegal** — CEO, Casa Healthcare. Ex-Symphony Post Acute Network. Managerial control on Crown Point (Sep 2020), Harbor (Apr 2023).
+- **John M. Horner** — CEO, Major Health Partners. Corporate officer on all 7 CMS filings. Owner's representative, not CASA employee.
+- **David Aronin** — Contracted managing employee at Dyer (Mar 2013), Harbor (Mar 2013). Principal of Extended Care Clinical, LLC (Evanston IL). Connected to IL nursing home ownership investigations.
+- **Nathan Wolf** — Managing employee, Lincolnshire (May 2014).
+- **Muhammad Mirza** — Managing employee, Spring Mill (Jul 2017).
+- **Lee Seflers** — Managing employee, Munster Med-Inn (Jan 2014).
+- **Rosa Mcgowan** — Managerial control, Casa of Hobart (Oct 2020).
+
+### Historical Context: Sebo's Nursing
+
+Casa of Hobart was formerly **Sebo's Nursing & Rehabilitation Center**. NPI (1003932666) still carries both DBA names. Related Indiana entities: Sebo's Casa LLC (formed Jun 2020, principal office 3049 W. North Shore, Chicago IL 60645), Sebo's Health Care Properties LLC, Sebo's Nursing & Rehabilitation Center LLC, Sebos Consulting LLC — all active. Former administrator was sued by Indiana AG Karen Freeman-Wilson in 1999 for "numerous serious deficiencies and health risks."
+
+### Quality Concerns
+
+- **4 of 7 facilities are Special Focus Facility Candidates** (CMS designation for serious quality history)
+- Dyer: $23,257 in fines (April 2024), 81 total deficiencies
+- Munster Med-Inn: 1-star CMS rating (Q4 2023), 53 deficiencies
+- Historical AG lawsuit against Sebo's (1999)
+
+### DB Issues (from verification)
+
+1. **Crown Point Christian Village** (198 FU beds at 6685 E 117th Ave, Crown Point) is coded CASA CONSULTING — should be **CHRISTIAN HORIZONS** (separate nonprofit CCRC operator, christianhorizonsliving.org). Same campus address, different operator.
+2. ALF rows at Dyer (50 beds) and Spring Mill (105 beds) validated by IN QAMIS totals — keep.
+
+### Sources Checked (11-step, 2026-04-10)
+
+ProPublica (a-695 + 7 individual facility pages), NPI Registry (Major Hospital NPIs, 15+ facilities), IN QAMIS Lake County LTC Directory, casa-hc.com, casahobart.com, lincolnshirehc.com, munstermedhc.com, springmillhc.com, crownpointhc.com, christianhorizonsliving.org, ZoomInfo, RocketReach, Indiana SOS (Sebo's Casa LLC), Champaign County Healthcare Consumers research report, CMS Provider Info.
+
+---
+
 ## PROMEDICA
 
 **Canonical DB name:** `PROMEDICA`
@@ -784,9 +902,20 @@ Entity research complete with proposed scoring. Facility lists and revenue calcu
 
 ### PRUITT HEALTH
 **V23 Tier:** T1 (Score: 81)
-**Footprint:** GA, NC, SC, FL | 27 facilities
+**Footprint:** GA, NC, SC, FL | 47 footprint rows (32 NC, 15 SC). 31 served (all NC, 97% penetration).
 **Research focus:** PruittHealth Premier ISNP analysis. CMS documentation review.
-**Profile:** `PruittHealth_MUO_Profile.md`
+**Full 11-step verification:** 2026-04-10. See `PruittHealth_Verification.html` (Cedarhurst format, supersedes old markdown).
+
+**Entity:** PruittHealth, Inc. (fka UHS-Pruitt Corporation, rebranded 2023). Private, family-owned (2nd gen).
+**CEO:** Neil L. Pruitt Jr. (since 2002). 2024 AHCA Champion of Quality.
+**COO:** Bucky Beddingfield. **CFO:** Randall Loggins. **GC/CAO:** Robert Strang. **CSO:** Mary K. Ousley.
+**Revenue:** $1.9B. 15,000 employees. 180+ locations in FL/GA/MD/NC/SC/TN.
+**Vertically integrated:** SNF, AL/IL, Home Health, Hospice, Pharmacy/Infusion, Rehab, ISNP.
+**ISNP:** PruittHealth Premier (HMO I-SNP) — H6345 (NC/SC), H3291 (GA). Target 70% enrollment (currently mid-60s).
+**ProPublica:** a-434, 95 homes. Owner: J Paige Pruitt Trust + United Health Services Inc.
+**Growth:** $385M Raleigh flagship. $117M+ new construction TN/NC/SC/GA.
+**Tech:** MatrixCare EHR, Accenture/Microsoft platform, AI for MA, UKG workforce.
+**SC opportunity:** 15 facilities, 0 served. Natural expansion from 97% NC penetration.
 
 ---
 
@@ -1601,6 +1730,37 @@ The original investigation (2026-04-06) found Topaz Fiscal Services LLC on Linke
 **Discovered during:** ALF dedup cluster review, Cluster 9, punchlist item #1, 2026-04-07
 
 ---
+
+## LIFE CARE SERVICES (LCS)
+
+**Canonical DB name:** `LIFE CARE SERVICES`
+**Legal entity:** Life Care Services LLC (LCS Family of Companies)
+**HQ:** 400 Locust St Ste 820, Des Moines, IA 50309
+**Founded:** 1971
+**CEO:** Chris Bird (President & CEO)
+**CFO:** Dan Lahey (EVP, Chief Financial & Investment Officer)
+**CHRO:** Monica Friedman (EVP)
+**EVP Development:** Charles Murphy
+**EVP Operations:** GeLynna Shaw
+**CIO:** Frank Vedder. CMO: Rick Westermann. CLO: Bridgette Uhlemann. CSO: Jim Pusateri.
+**Chief Health/Wellness:** Sharon Roth Maguire
+**Website:** lcsliving.com (36 named leaders on leadership page)
+**Industry rank:** 3rd largest US senior living operator (ASHA 50, 2025). 15th largest owner.
+**Portfolio:** 130+ communities managed for nonprofit boards and other owners. IL/AL/MC/SNF.
+**Model:** Management company — does NOT own communities. Manages for nonprofits, faith-based, Lone Star Funds, etc.
+**DB count:** 75 FU rows / 22 states. 16 in footprint (after Virginian recode). 4 served.
+**Tier:** T2, Score 53
+
+### Vi Living Merger (announced Sep 2025, closing mid-2026)
+Vi = luxury entrance-fee CCRC operator. 10 communities (FL, CA, AZ, CO, IL, SC). 3,000+ employees, 4,000+ residents. Chris Bird: "premier owner and operator in senior living." One Vi community (Cypress of Hilton Head SC) already in footprint.
+
+### Disambiguation: LCS ≠ LCCA
+Life Care Services (LCS, Des Moines) ≠ Life Care Centers of America (LCCA, Cleveland TN). LCS = management company for nonprofits (75 FU rows). LCCA = owner-operator (196 FU rows). Unrelated.
+
+### The Virginian CHOW (Fairfax VA)
+The Virginian (9229 Arlington Blvd, Fairfax VA) was coded LCS (ALF) + INDEPENDENT (SNF). cogirusa.com now lists as active Cogir community. Recoded to COGIR SENIOR LIVING in V26.1 Section 10. LCS footprint drops from 18 to 16.
+
+### Cypress Glen Campus (Greenville NC) — detailed below
 
 ## LIFE CARE SERVICES (LCS) — Cypress Glen Campus
 
@@ -2738,6 +2898,310 @@ Only KY and OH are in the 6-state operational footprint. OH has 4 rows in Columb
 - Forward Universe V25.7: 15 rows under DOMINION SENIOR LIVING
 
 **Discovered during:** ALF dedup cluster review, Cluster 5, punchlist item #1, 2026-04-06
+
+---
+
+## STORYPOINT GROUP
+
+**Canonical DB name:** `STORYPOINT` (also appears as `StoryPoint`)
+**Legal entity:** StoryPoint Group, LLC
+**HQ:** 7927 Nemco Way #200, Brighton, MI 48116
+**Founded:** 1971 (rebranded as StoryPoint Group 2013)
+**CEO:** Dan Hughes. **VP Finance:** Brian McGill.
+**Website:** storypoint.com (no public leadership page)
+**REIT Partner:** Welltower (strategic partnership deepened 2022). NIC MAP shows 24 Welltower-owned properties.
+**Portfolio:** 149 properties / 9 states (IL, IN, IA, KY, MA, MI, OH, TN, WI). 8,000+ seniors. 7,500 employees.
+**Brands:** StoryPoint Senior Living, Danbury Senior Living, Independence Villages, Leisure Living Senior Communities, Southwick Village.
+**Facility types:** AL / MC / IL / Enhanced Living / Active Adult. 1 SNF.
+**DB count:** 93 FU rows / 8 states. 31 in footprint (after NC recode). 3 served (all IN).
+**Tier:** T1, Score 60
+
+### NC Misattribution (V26.1 Section 12)
+3 NC facilities (Taylor Glen SNF + ALF Concord, Ardenwoods ALF Arden) coded STORYPOINT but actually **ThriveMore** (fka Baptist Retirement Homes of NC). StoryPoint has zero NC presence per storypoint.com (9 states, NC not listed). NIC MAP confirmed zero NC StoryPoint matches. All 3 recoded to ThriveMore. 2 were served — attribution correction matters for pipeline accuracy.
+
+### Sources (11-step, 2026-04-10)
+FU (93 rows), GLR (6), NIC MAP (110/34 footprint, Welltower dominant PropCo), NPI (zero), storypoint.com (9 states, 5 brands), SHN/Seniorly/APFM, Welltower partnership (PRNewswire 2022), taylorglencommunity.org + ardenwoodscommunity.org (ThriveMore confirmation).
+
+---
+
+## SENIOR LIFESTYLE
+
+**Canonical DB name:** `SENIOR LIFESTYLE`
+**Legal entity:** Senior Lifestyle Corporation
+**HQ:** Chicago, IL
+**Founded:** 1985 by Bill Kaplan (Chairman)
+**CEO:** Jon DeLuca (President & CEO since 2011, joined as CFO 1998, 28 years at SLC)
+**Co-COOs:** Justin Robins (EVP, 21 years SLC) & Jim Pusateri (EVP, 26 years senior living)
+**CIO:** John Rimbach (joined May 2024, ex-West Living CEO)
+**CCO:** Paula Adams, RN (25 years healthcare mgmt, expanded ancillary services: home health, pharmacy, hospice)
+**VP Dev & Acquisitions:** Bob Gawronski (AALC board president Feb 2026)
+**VP Resident Experience:** Hollie Kemp (Embrace memory care creator)
+**VP Operations:** Amaka Aniefuna (new to SLC)
+**Website:** seniorlifestyle.com (leadership page JS-loaded, not scrapable)
+**Portfolio:** 179 communities. Owner-operator-developer. IL/AL/MC.
+**DB count:** 63 FU rows / 10 states. 16 in footprint (after Aspire recode). 6 served (5 NC, 1 VA).
+**Tier:** T2, Score 49
+
+### CHOW: Aspire at West End (Feb 22, 2026)
+Vitality Living assumed management of Acclaim at Belmont Bay (Woodbridge VA) and Aspire at West End (Henrico VA) on Feb 22, 2026. Acclaim already coded Vitality in FU (NIC-A caught up). Aspire recoded SENIOR LIFESTYLE → VITALITY LIVING in V26.1 Section 11. SLC footprint drops from 17 to 16.
+
+### Sources (11-step, 2026-04-10)
+FU (63 rows), GLR (6), MUO History (Belmont Bay CHOW ref), NIC MAP (138/17 footprint), NPI (1: Lake Barrington Woods IL), SHN (DeLuca profile, Rimbach hire), SeniorLivingNews (ops restructuring), PRNewswire (Gawronski AALC), vitalityseniorliving.com (CHOW confirmation).
+
+---
+
+## SUNRISE SENIOR LIVING
+
+**Canonical DB name:** `SUNRISE SENIOR LIVING`
+**Legal entity:** Sunrise Senior Living LLC
+**HQ:** McLean, VA
+**Founded:** 1981 by Paul & Terry Klaassen
+**CEO:** Jack R. Callison, Jr. (since Apr 2021, ex-Gentiva President/COO)
+**COO:** Pascal Duchauffour. **CFO:** Tavinder Hare. **CHRO:** Judy Fimiani.
+**CLO:** Vanessa Forsythe. **CTO:** Marco Trecroce. **CCO:** Jennifer Nycz.
+**Owner:** Revera Inc. (Canadian, acquired 2014). Welltower sold 34% equity stake to Revera in 2023 — no longer equity owner. Welltower continues as PropCo on many buildings.
+**Website:** sunriseseniorliving.com
+**Industry rank:** 6th largest US senior living operator
+**Portfolio:** 240+ communities / US & Canada. AL/MC/IL primary. Minimal SNF (6 FU rows).
+**DB count:** 117 FU rows / 14 states. 38 in footprint (25 VA, 8 NC, 3 OH, 1 IN, 1 KY). 4 served (all NC).
+**Tier:** T1, Score 57
+
+### PropCo/REIT Partners (NIC MAP)
+Welltower Propco Group LLC (11), Prime Care One LLC (4), Health Care REIT/Welltower (3). Despite selling equity in Sunrise OpCo, Welltower remains dominant PropCo.
+
+### 2025 Strategy
+"New era of growth" — partnership-driven: ground-up developments, acquisitions, transitions, third-party management. The Apsley (NYC, 19-floor, 156 units, Welltower/Hines). Luxury, premium, middle market.
+
+### Gentiva Connection
+CEO Callison previously at Gentiva as President/COO. Brookdale CEO Nick Stengle also ex-Gentiva President/COO. Two of the largest operators led by former Gentiva executives.
+
+### DB Issues
+- OH: NIC MAP 5 vs FU 3 = 2 possible gaps (INDEPENDENT-coded?)
+- Five Forks (NC): misattributed to Vitality Living. Documented in MUO History Vitality section. Recode pending.
+- VA: 25 communities, 0 served. Largest unserved T1 cluster in footprint.
+
+### Sources (11-step, 2026-04-10)
+FU (117 rows), GLR (4 NC), MUO History (Five Forks ref), CMS (minimal SNF), NIC MAP (247/39 footprint), NPI (zero — expected), sunriseseniorliving.com (11 executives), SHN (Welltower/Revera 2023, growth 2025, Apsley NYC), McKnight's, Wikipedia.
+
+---
+
+## BROOKDALE SENIOR LIVING
+
+**Canonical DB name:** `BROOKDALE SENIOR LIVING`
+**Legal entity:** Brookdale Senior Living Inc. (NYSE: BKD)
+**HQ:** Brentwood, TN
+**Founded:** 1978. Merged with Emeritus Senior Living 2014 ($2.8B).
+**CEO:** Nick Stengle (since Oct 6, 2025). Ex-Gentiva President/COO, Sunrise EVP/COO, US Air Force.
+**COO:** Mary Sue Patchett (since Dec 2025). First COO in 10 years. 40 years senior living. Rejoined Aug 2025 after 25-year prior tenure.
+**CFO:** Dawn Kussow (since Feb 2023). At Brookdale since 2007.
+**GC:** Chad White (since 2007). EVP since 2018.
+**CHRO:** Jaclyn Pritchett (since Mar 2022).
+**Chairman:** Denise Warren (non-executive; served as Interim CEO Apr-Oct 2025).
+**Revenue:** $3.13B FY2024, ~$3.2B FY2025
+**Employees:** 36,000
+**Portfolio:** 584 communities / 41 states (Dec 2025). Targeting ~550 by mid-2026 (portfolio optimization).
+**Ownership:** ~74% institutional (BlackRock, Vanguard). ~2.5% insider. ~23.5% public.
+**Website:** brookdale.com
+**Facility types:** AL / MC / IL primary. 14 CCRC-based SNFs per ProPublica a-93.
+**DB count:** 307 FU rows / 22 states. 120 in footprint. 49 served (43 NC, 3 OH, 3 VA).
+**Tier:** T1, Score 85
+
+### Footprint (6 states)
+NC 59 rows (43 served), OH 33 (3 served), VA 9 (3 served), SC 9 (0), IN 8 (0), KY 2 (0). NIC MAP shows 126 in footprint (668 nationally).
+
+### PropCo/REIT Partners (NIC MAP Owner field)
+Welltower/Health Care REIT (16), HCRI NC Properties (20), AHC Purchaser (9), Nationwide Health Properties (8), LTC Properties (8), various others. Multi-REIT PropCo model — Brookdale operates but doesn't own most buildings.
+
+### 2025-2026 Strategy
+- Portfolio: 645 → ~550 (dispositions + regional operator partnerships)
+- 6-region model under Patchett COO (~100 communities/region)
+- Owned ratio increasing to 70%+
+- Welltower JV closed Dec 2024 (11 communities, $300M)
+- 41 communities acquired from triple-net conversion ($610M)
+- 2026 RevPAR: 8-9% growth. EBITDA: $502-516M. Occupancy 81.8% Q4 2025.
+- HealthPlus program: 78% fewer urgent care visits, 36% fewer hospitalizations
+
+### DB Issues
+- 9 OH ALFs recoded from INDEPENDENT in V25.7 (punchlist #21)
+- 6 additional OH NIC MAP rows not in FU — possible gaps
+- 1 Navion misattribution resolved
+- Old V23 markdown profile superseded by Cedarhurst-format HTML
+
+### Sources (11-step, 2026-04-10)
+FU (307 rows), GLR (50 entries), MUO History, Research Log (V23 Wave 2), CMS/ProPublica (a-93, 14 SNFs), NIC MAP (668 matches, PropCo patterns), NPI (zero NC — expected ALF), brookdale.com (leadership confirmed), SHN/McKnight's (CEO Oct 2025, COO Dec 2025, strategy 2026), SEC filings.
+
+---
+
+## COGIR SENIOR LIVING
+
+**Canonical DB name:** `COGIR SENIOR LIVING` (consolidated from "Cogir USA" in V26.1)
+**Parent:** Cogir Real Estate (Montreal, Canada). Founded 1995 by Serge G. Duguay (Quebec).
+**Global CEO:** Mathieu Duguay (Serge's son, purchased company 2004, CEO since 2014)
+**US Vice-Chair:** David Eskenazy (previously CEO Cogir USA, ~15 years senior living)
+**US President/COO:** Gottfried Ernst
+**US HQ:** 7047 E Greenway Pkwy Ste 350, Scottsdale, AZ 85254
+**Website:** cogirusa.com
+**REIT Partner:** Welltower (NYSE: WELL, partnership since 2013)
+**US portfolio:** 100+ communities
+**Facility types:** AL / MC / IL only — ZERO SNFs. No CMS, no ProPublica, no NPI.
+**DB facility count:** 23 FU rows (21 recoded from "Cogir USA" to "COGIR SENIOR LIVING" in V26.1)
+**Served:** 2 (Cadence Garner AL + MC, NC)
+**Tier:** T3 (16 footprint campuses: 12 NC + 4 VA)
+
+### Brands
+- **Cadence** — AL/MC. Acquired by Cogir Nov 2022 (SHN). "Cadence at [City]" naming.
+- **Solista** — 55+ IL. Charlotte, Durham, High Point, Hickory, Wilmington (all NC).
+- **Tribute** — Luxury AL/MC. VA/MD. 4 communities absorbed into Cogir/Cadence.
+- **Cogir of [City]** — Direct brand. Alexandria VA x3, Austin Village NC, Potomac MD.
+
+### US Timeline
+| Date | Event |
+|---|---|
+| 2013 | Cogir partners with Welltower |
+| 2018 | First US communities — 12 in WA/CA via Welltower JV |
+| Nov 2022 | Cogir acquires Cadence Living → 60-community operator (SHN) |
+| 2023 | Approaches 100 US communities |
+| 2025 | Celebrates 30 years. 100+ US communities. |
+
+### DB Gaps (on cogirusa.com but not in FU)
+- Cogir of Austin Village (Matthews NC) — IL
+- Solista Hickory (NC) — IL
+- Solista Wilmington (NC) — IL
+
+### The Virginian (Fairfax VA) — Transition Signal
+cogirusa.com lists The Virginian (9229 Arlington Blvd) but FU codes SNF=INDEPENDENT, ALF=LIFE CARE SERVICES. Possible recent transition. Needs ProPublica check before recode.
+
+### V26.1 Actions
+- COG-CONSOL: 21 rows "Cogir USA" → "COGIR SENIOR LIVING" (entity consolidation)
+
+### Sources (11-step, 2026-04-10)
+cogirusa.com (leadership + communities + about), SHN (Cadence acquisition Nov 2022, US expansion Dec 2023, Welltower 2018, Eskenazy margins 2023), Seniorly (116 properties), APFM (113 communities), CBInsights, ZoomInfo, GLR Export.
+
+---
+
+## COMMONWEALTH CARE OF ROANOKE
+
+**Canonical DB name:** `COMMONWEALTH CARE OF ROANOKE`
+**Legal entity:** Commonwealth Care of Roanoke, Inc.
+**HQ:** 5372 Fallowater Lane, Suite 200, Roanoke, VA 24018
+**Founded:** 2001 by Deborah L. Petrine
+**Chairman/CEO:** Deborah L. Petrine (founded, started as nursing home receptionist, first woman to chair VHCA, first female Rector VT Board of Visitors, Dunton Lifetime Achievement Award 2005)
+**President:** David W. Tucker (joined 2007, 40+ years senior care, started as nursing assistant 1979, Dunton Distinguished Service Award 2021, former VHCA Board Chairman)
+**VP/Treasurer:** Brady L. Sheffer (CPA, VT BS+MS Accounting, KPMG, previously CFO for major LTC developer)
+**CFO:** Joe Alesantrino (joined Jun 2019, 30+ years healthcare finance)
+**COO:** Brian Anderson (joined 2022, 16+ years, licensed administrator since 2010)
+**CCO:** Jacquelyn Jenkins, RN, WCN (since 2012, 18+ years SNF/LTC)
+**Website:** commonwealth-care.com
+**CMS Chain:** Commonwealth Care Of Roanoke (ProPublica affiliate a-152)
+**DB facility count:** 13 FU rows for 12 campuses (after Radford + Lee recodes in V26.1)
+**Served:** 4 (Woodlands SNF+ALF Clifton Forge, Lee Health SNF+ALF Pennington Gap)
+**Tier:** T5 (Competitor Agreement barrier on ALL 12 facilities)
+
+### Ownership Structure (identical on all facilities per ProPublica)
+- DJ Petrine LLC — 40% direct (Deborah 18% + James Petrine 18% indirect)
+- BD Sheffer LLC — 20% direct (Brady Sheffer 20% indirect)
+- Lury Goodall — 20% direct
+- Patricia Stallard — 20% direct
+- Commonwealth Care Of Roanoke INC — management entity since Jun 2007
+
+### Portfolio (12 VA facilities)
+Abingdon, Carriage Hill (Fredericksburg), Chase City, Dinwiddie (Petersburg), Dulles (Herndon), Gainesville, Lee (Pennington Gap), Manassas, Potomac Falls (Sterling), Radford, River View (Hopewell), The Woodlands (Clifton Forge).
+
+### Disambiguation
+**Commonwealth Care of Roanoke** (this entity) and **Commonwealth Senior Living** are UNRELATED. CCR = SNF management (Petrine/Sheffer, Roanoke). CSL = ALF operator (Brewer/Parker, Charlottesville). They share only the "Commonwealth" name.
+
+### V26.1 Actions
+- CSL-VA-01: Radford SNF recoded from COMMONWEALTH SENIOR LIVING → CCR (incoming from CSL verification)
+- CCR-VA-01: Lee Health SNF recoded from LEE HEALTH AND ENCOMPASS HEALTH → CCR
+- CCR-VA-02: Lee Health ALF recoded from LEE HEALTH AND ENCOMPASS HEALTH → CCR
+
+### Sources (11-step, 2026-04-10)
+commonwealth-care.com (leadership + locations + about), ProPublica (a-152 affiliate, h-495355 Radford, h-495352 Lee), Roanoke Chamber, BBB, GLR Export.
+
+---
+
+## COMMONWEALTH SENIOR LIVING
+
+**Canonical DB name:** `COMMONWEALTH SENIOR LIVING`
+**HQ:** Charlottesville, VA
+**Founded:** 2002 by Richard Brewer (3 communities in SE Virginia)
+**CEO:** Earl Parker (since Feb 2021, previously COO, 35+ years hospitality/senior living)
+**Chairman:** Richard Brewer (founder, part-time since 2021)
+**COO:** Michelle Hamilton (promoted when Parker became CEO)
+**CSMO:** Kristy Ruppe Craddock
+**SVP Resident Care:** Stephanie Pfingsten
+**Website:** commonwealthsl.com
+**Nonprofit arm:** Commonwealth Cares (commonwealthcares.net)
+**DB facility count:** 35 FU rows (34 correct after Radford SNF recode to CCR)
+**Served:** 1 (Stratford House, Danville VA — after Radford SNF moved to CCR)
+**Tier:** T2
+**Facility types:** AL / MC / IL only — ZERO SNFs. No CMS CCN, no ProPublica, no NPI.
+
+### Portfolio
+27-35 communities across VA (~23), MD (3-4), MI (5), PA (1), CT (TBD). All ALF/MC/IL. Over 2,000 associates, 2,700+ resident capacity.
+
+### Brands
+- **Commonwealth Senior Living at [City]** — primary brand (VA/MD/PA/CT)
+- **Viva Senior Living** — sub-brand for memory care, smaller communities (MD/VA). vivaseniorliving.com. FB pages use "CSL" prefix.
+- **Sweet Memories** — Alzheimer's/Dementia program, not a separate brand.
+
+### Critical Disambiguation: CSL vs CCR
+**Commonwealth Senior Living** and **Commonwealth Care of Roanoke** are UNRELATED entities sharing the "Commonwealth" name. CSL = ALF operator (Brewer/Parker). CCR = SNF management company (Petrine/Sheffer). Radford Health and Rehab Center (SNF, CCN 495355) was miscoded as CSL — ProPublica confirms chain = Commonwealth Care Of Roanoke. Recoded V26.1.
+
+### V26.1 Action
+- CSL-VA-01: Radford Health and Rehab SNF recoded COMMONWEALTH SENIOR LIVING → COMMONWEALTH CARE OF ROANOKE
+
+### Sources (11-step, 2026-04-10)
+commonwealthsl.com (403 on fetch, confirmed via search), Seniorly (27 communities), A Place for Mom (35 listings), SHN (leadership profile + CEO change), Argentum (leadership announcement), SHB (Earl Parker interview), ProPublica h-495355 (Radford = CCR not CSL), vivaseniorliving.com, commonwealthcares.net, GLR Export 2026-03-13.
+
+---
+
+## HARBORVIEW HEALTH SYSTEMS
+
+**Canonical DB name:** `HARBORVIEW HEALTH SYSTEMS`
+**Legal holding entity:** GA NC 14, LLC (100% direct owner on all GA/NC facilities since Mar 2022)
+**Indirect owners:** CL 2022 IRRV TR (50%, Chaim Leibowitz) + DE 2021 IRRV TR (50%, David Englander)
+**Incorporated:** Harborview Health Systems Inc. (NY, OpenCorporates #4925523)
+**HQ:** 5470 Meridian Mark Rd Bldg E, Atlanta, GA 30342
+**Founded by:** David Englander (CEO) and Chaim "Jim" Leibowitz (EVP)
+**CMS Chain:** Harborview Health Systems (ProPublica affiliate a-246, 18 homes)
+**Website:** harborviewhealth.com (maintenance/coming soon as of 2026-04-10)
+**DB facility count:** 26 FU rows (19 coded HHS + 7 recoded in V26.1)
+**Served:** 1 campus (Surry Community Health Center, Mount Airy NC)
+**Tier:** T4 (fails 7+ gate — 4 NC campuses in footprint)
+
+### Portfolio (~20 facilities)
+
+| State | Count | Notes |
+|---|---|---|
+| Georgia | 15 | 12 coded HHS + 3 recoded from blank (Jesup, Thomaston, Satilla). Outside footprint. |
+| Florida | 6 | 4 coded HHS + 2 recoded from BENJAMIN LANDA (Bayonet Point, Heritage Park). Outside footprint. |
+| North Carolina | 4 | Surry (served, recoded from blank/Independent), Edgecombe, Lumberton, MacGregor Downs. IN FOOTPRINT. |
+
+### Leadership
+
+- **David Englander** — CEO & Co-Founder. Corporate officer on all ProPublica filings. DE 2021 IRRV TR = 50%.
+- **Chaim "Jim" Leibowitz** — EVP & Co-Founder. Corporate officer on all ProPublica filings. CL 2022 IRRV TR = 50%. NPI 1730839929 (Lumberton).
+- **Angela Denison** — VP Operations (ZoomInfo, based at Jesup). Email: @harborviewhs.com.
+- Per-facility W2 managing employees: James Carlone (MacGregor Downs), Wanda Howlett (Surry), Christopher Caballero (Glenwood).
+
+### Benjamin Landa / FL Ownership
+
+Two FL facilities (Bayonet Point, Heritage Park) carried BENJAMIN LANDA as corporate name in the FU. ProPublica shows Bayonet Member LLC (direct owner) with FLNHO Capital Group LLC and Benjamin Landa as indirect owners. Both facilities are branded "by Harborview" and operated by Harborview. Landa is a PropCo/investor, not the operator. Per operator attribution rule: recoded to HARBORVIEW HEALTH SYSTEMS. Note: Benjamin Landa also connected to Emerald Healthcare / Topaz Healthcare (KY SNFs) — separate network entirely.
+
+### V26.1 Actions (7 recodes)
+
+- HBV-NC-01: Surry SNF (blank → HHS)
+- HBV-NC-02: Surry ALF (INDEPENDENT → HHS)
+- HBV-GA-01/02/03: Jesup, Thomaston, Satilla (blank → HHS)
+- HBV-FL-01/02: Bayonet Point, Heritage Park (BENJAMIN LANDA → HHS)
+- GLR correction: Surry Parent Company (blank → HHS)
+
+### Sources (11-step, 2026-04-10)
+
+ProPublica (a-246 affiliate + h-345191 Surry + h-345168 MacGregor Downs + h-115025 Glenwood), NPI (1730839929 Lumberton), LinkedIn (Englander CEO), ZoomInfo (Denison VP Ops), OpenCorporates (NY #4925523), bayonet-health.com, heritagehbrv.com, Tonya Hoffman field intel (Mar 30 email), GLR Export 2026-03-13.
+
+**Discovered during:** Tonya Hoffman BD request, Edgecombe MH meeting, 2026-03-30. Full 11-step verification 2026-04-10.
 
 ---
 
