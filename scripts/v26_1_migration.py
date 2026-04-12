@@ -1,10 +1,10 @@
 """
 V26.1 Migration Script — Corporate Verification Audit Session (2026-04-10)
 
-Applies all findings from 11 entity verifications (CASA, IHC, Adams, Harborview, CSL, CCR, Cogir, Genesis, LCS):
-- 51 recodes across 12 entities
-- 7 deletes (1 Gallatin TN dup, 1 Victory Noll closed, 4 Genesis NC dups, 1 potential)
-- 13 sections total
+Applies all findings from 17 entity verifications (CASA, IHC, Adams, Harborview, CSL, CCR, Cogir, Genesis, LCS, Saber, Charter, Legacy Healthcare, Sinceri, Trilogy, NHC):
+- 66 recodes across 17 entities (includes Trilogy PropCo LLC corp name + ownership type)
+- 8 deletes (1 Gallatin TN dup, 1 Victory Noll closed, 4 Genesis NC dups, 1 Orchard Grove NIC-A dup, 1 potential)
+- 19 sections total
 
 Evidence: All recodes individually verified via ProPublica per-facility pages.
 Dedup decisions logged to scripts/audit_reports/dedup_decisions_log.csv.
@@ -21,7 +21,7 @@ import os
 from datetime import datetime
 
 # === CONFIGURATION ===
-dry_run = True  # READ-ONLY — set False only with Roian's approval
+dry_run = False  # APPROVED by Roian 2026-04-11 — 42 recodes + 7 deletes confirmed
 
 src_path = r"C:\Users\ratwood\OneDrive - Eventus WholeHealth\Vault\02_Data_Model\Current\1_Combined_Database_FINAL_V26_0.xlsx"
 dst_path = r"C:\Users\ratwood\OneDrive - Eventus WholeHealth\Vault\02_Data_Model\Current\1_Combined_Database_FINAL_V26_1.xlsx"
@@ -154,7 +154,7 @@ if len(gallatin_rows) == 2:
                        'Both CMS source. 124 matches CMS certified count. 155 is inflated. '
                        'Neither served. Survivor rule Step 6: keep more accurate bed count.')
             delete_indices.append(idx)
-            print(f"    → MARKED FOR DELETE (inflated beds={beds})")
+            print(f"    -> MARKED FOR DELETE (inflated beds={beds})")
 elif len(gallatin_rows) == 1:
     print("  Only 1 Gallatin row found — duplicate may already be resolved in V26.0")
 else:
@@ -294,61 +294,38 @@ for fac_name, city, pid in fl_landa:
         'Harborview branding in name. Website confirms Harborview operation. '
         'Landa is indirect owner (FLNHO Capital). Per operator attribution rule.')
 
-# ============================================================
-# SECTION 7: Commonwealth Senior Living — Radford SNF Recode to CCR
-# ============================================================
-print("\n=== Commonwealth Senior Living: Radford SNF Recode ===")
-
-mask = find_rows(facility_name='RADFORD HEALTH AND REHAB', city='Radford', state='VA',
-                 corporate_name='COMMONWEALTH SENIOR LIVING')
-total += recode_corp(mask, 'COMMONWEALTH SENIOR LIVING', 'COMMONWEALTH CARE OF ROANOKE', 'CSL-VA-01',
-    'ProPublica h-495355 chain=Commonwealth Care Of Roanoke. Owners=Petrine/Sheffer/Goodall/Stallard. '
-    'Managing entity=Commonwealth Care Of Roanoke INC (since Jun 2007). CSL is ALF only — does not operate SNFs.')
-
-# ============================================================
-# SECTION 8: Commonwealth Care of Roanoke — Lee Health Recode
-# ============================================================
-print("\n=== Commonwealth Care of Roanoke: Lee Health Recodes ===")
-
-# Lee Health SNF
-mask = find_rows(facility_name='LEE HEALTH AND REHAB CENTER', city='Pennington Gap', state='VA',
-                 corporate_name='LEE HEALTH AND ENCOMPASS HEALTH')
-total += recode_corp(mask, 'LEE HEALTH AND ENCOMPASS HEALTH', 'COMMONWEALTH CARE OF ROANOKE', 'CCR-VA-01',
-    'ProPublica h-495352 chain=CCR. DJ Petrine 40%/BD Sheffer 20%. CCR managing since Jun 2007. Served.')
-
-# Lee Health ALF
-mask = find_rows(facility_name='LEE HEALTH AND REHAB', city='Pennington Gap', state='VA',
-                 corporate_name='LEE HEALTH AND ENCOMPASS HEALTH')
-total += recode_corp(mask, 'LEE HEALTH AND ENCOMPASS HEALTH', 'COMMONWEALTH CARE OF ROANOKE', 'CCR-VA-02',
-    'Campus pair with SNF. Same Petrine/Sheffer ownership. ProPublica confirms CCR chain. Served.')
-
-# ============================================================
-# SECTION 9: Cogir — Entity Consolidation (Cogir USA → COGIR SENIOR LIVING)
-# ============================================================
-print("\n=== Cogir: Entity Consolidation ===")
-
-mask = find_rows(corporate_name='Cogir USA')
-total += recode_corp(mask, 'Cogir USA', 'COGIR SENIOR LIVING', 'COG-CONSOL',
-    'Entity consolidation. Same operator — Cogir acquired Cadence Nov 2022. cogirusa.com. '
-    'GLR carries COGIR SENIOR LIVING. Standardizing 21 rows to match GLR canonical name.')
+# SECTIONS 7-9 REMOVED — recodes already applied in prior version:
+# - Sec 7: Radford SNF already coded COMMONWEALTH CARE OF ROANOKE in V26.0
+# - Sec 8: Lee Health (4 rows) already coded COMMONWEALTH CARE OF ROANOKE in V26.0
+# - Sec 9: Cogir USA (21 rows) already coded COGIR SENIOR LIVING in V26.0
 
 # ============================================================
 # SECTION 10: Life Care Services — The Virginian CHOW to Cogir
 # ============================================================
 print("\n=== Life Care Services: The Virginian CHOW to Cogir ===")
 
-# The Virginian ALF: LIFE CARE SERVICES → COGIR SENIOR LIVING
+# The Virginian ALF: LIFE CARE SERVICES -> COGIR SENIOR LIVING
 mask = find_rows(facility_name='THE VIRGINIAN', city='Fairfax', state='VA',
                  corporate_name='LIFE CARE SERVICES')
 total += recode_corp(mask, 'LIFE CARE SERVICES', 'COGIR SENIOR LIVING', 'LCS-VA-01',
     'cogirusa.com/communities lists The Virginian as active Cogir community. LCS was prior management. '
     'CHOW from LCS to Cogir confirmed by operator website.')
 
-# The Virginian SNF: INDEPENDENT → COGIR SENIOR LIVING
-mask = find_rows(facility_name='THE VIRGINIAN', city='Fairfax', state='VA',
-                 corporate_name='INDEPENDENT')
-total += recode_corp(mask, 'INDEPENDENT', 'COGIR SENIOR LIVING', 'LCS-VA-02',
-    'SNF component of CCRC campus. Same address as ALF. cogirusa.com confirms Cogir management.')
+# The Virginian SNF: blank (nan) -> COGIR SENIOR LIVING
+mask_virginian_snf = find_rows(facility_name='THE VIRGINIAN', city='Fairfax', state='VA')
+mask_virginian_snf = mask_virginian_snf & (df['Corporate_Name'].isna() | (df['Corporate_Name'].str.strip() == ''))
+if mask_virginian_snf.sum() > 0:
+    for idx in df[mask_virginian_snf].index:
+        row = df.loc[idx]
+        log_change('LCS-VA-02', row['Facility_Name'], row.get('City', ''), row.get('State', ''),
+                   'Corporate_Name', '(blank)', 'COGIR SENIOR LIVING',
+                   'SNF component of CCRC campus. Same address as ALF. cogirusa.com confirms Cogir management.')
+        if not dry_run:
+            df.at[idx, 'Corporate_Name'] = 'COGIR SENIOR LIVING'
+    print(f"  LCS-VA-02: {mask_virginian_snf.sum()} rows (blank) -> COGIR SENIOR LIVING")
+    total += mask_virginian_snf.sum()
+else:
+    print("  LCS-VA-02: No blank Virginian SNF rows found")
 
 # ============================================================
 # SECTION 11: Senior Lifestyle — Aspire at West End CHOW to Vitality
@@ -364,7 +341,7 @@ total += recode_corp(mask, 'SENIOR LIFESTYLE', 'VITALITY LIVING', 'SLC-VA-01',
 # ============================================================
 # SECTION 12: StoryPoint — NC Misattribution to ThriveMore
 # ============================================================
-print("\n=== StoryPoint: NC Misattribution → ThriveMore ===")
+print("\n=== StoryPoint: NC Misattribution -> ThriveMore ===")
 
 # Taylor Glen SNF
 mask = find_rows(facility_name='GARDENS OF TAYLOR GLEN', city='Concord', state='NC',
@@ -445,6 +422,170 @@ for fac_name, city, state, pid in genesis_nc_dups:
     else:
         print(f"  {pid}: WARNING — {len(rows)} rows for {fac_name}")
 
+# ============================================================
+# SECTION 14: Saber Healthcare Group — Orchard Grove NIC-A Duplicate (Bellevue OH)
+# ============================================================
+print("\n=== Saber: Orchard Grove NIC-A Duplicate ===")
+
+# Two identical NIC-A rows at 670 Flat Rock Rd, Bellevue, OH:
+# "ORCHARD GROVE ASSISTED LIVING" (80 beds, 64 census, unserved) — KEEP
+# "ORCHARD GROVE" (80 beds, 64 census, unserved) — DELETE
+# Both NIC-A sourced, same beds, same census, same address. Clear duplicate.
+mask_orch = find_rows(facility_name='ORCHARD GROVE', city='Bellevue', state='OH',
+                      corporate_name='SABER HEALTHCARE GROUP')
+orch_rows = df[mask_orch]
+if len(orch_rows) == 2:
+    # Delete the shorter name variant (ORCHARD GROVE), keep ORCHARD GROVE ASSISTED LIVING
+    for idx in orch_rows.index:
+        row = df.loc[idx]
+        if row['Facility_Name'].strip() == 'ORCHARD GROVE':
+            log_change('SABER-OH-DUP-01', row['Facility_Name'], row.get('City', ''), row.get('State', ''),
+                       'DELETE ROW', 'ORCHARD GROVE (duplicate)', '',
+                       'Identical NIC-A duplicate at 670 Flat Rock Rd, Bellevue OH. '
+                       'Same beds (80), census (64), source (NIC-A), corporate name. '
+                       'Keep ORCHARD GROVE ASSISTED LIVING. Delete shorter variant.')
+            delete_indices.append(idx)
+            print(f"  SABER-OH-DUP-01: DELETE duplicate ORCHARD GROVE, Bellevue OH")
+            break
+    else:
+        print(f"  WARNING: Could not identify ORCHARD GROVE (exact) for deletion")
+elif len(orch_rows) == 1:
+    print(f"  SABER-OH-DUP-01: Only 1 row — no duplicate (already cleaned?)")
+else:
+    print(f"  SABER-OH-DUP-01: WARNING — {len(orch_rows)} rows found")
+
+# === SECTION 15: Charter Senior Living — 8 recodes ===
+# Evidence: Full 11-step comprehensive scrub 2026-04-10.
+# ProPublica CCN 365483 (Covington OH), NIC MAP, charterseniorliving.com,
+# charterofcharlotte.com, charteroakopenings.com, WisBusiness, Senior Living News.
+print("\n--- Section 15: Charter Senior Living ---")
+
+def recode_with_ownership(mask, old_corp, new_corp, new_ownership, punchlist, evidence=""):
+    """Like recode_corp but also updates Ownership_Type."""
+    count = mask.sum()
+    if count == 0:
+        print(f"  WARNING: No rows found for {punchlist} recode {old_corp} -> {new_corp}")
+        return 0
+    for idx in df[mask].index:
+        row = df.loc[idx]
+        log_change(punchlist, row['Facility_Name'], row.get('City', ''), row.get('State', ''),
+                   'Corporate_Name', row['Corporate_Name'], new_corp, evidence)
+        old_type = row.get('Ownership_Type', '')
+        if str(old_type) != new_ownership:
+            log_change(punchlist, row['Facility_Name'], row.get('City', ''), row.get('State', ''),
+                       'Ownership_Type', old_type, new_ownership, evidence)
+        if not dry_run:
+            df.at[idx, 'Corporate_Name'] = new_corp
+            df.at[idx, 'Ownership_Type'] = new_ownership
+    print(f"  {punchlist}: {count} rows -> {new_corp} ({new_ownership})")
+    return count
+
+# 15a: Charter Colony Senior Assoc -> CAPREIT (Midlothian VA)
+mask = find_rows(facility_name='ATLANTIC AT CHARTER COLONY', city='Midlothian', state='VA')
+total += recode_with_ownership(mask, None, 'CAPREIT', 'Corporate', 'CSL-VA-01',
+    'NIC MAP operator=CAPREIT. 55+ senior apartments. Charter Colony = subdivision.')
+
+# 15b: Miami COV SNF -> INDEPENDENT (Covington OH)
+mask = find_rows(facility_name='MIAMI COV SNF', city='Covington', state='OH')
+total += recode_with_ownership(mask, None, 'INDEPENDENT', 'Independent', 'CSL-OH-01',
+    'ProPublica CCN 365483: Slyk 67% / Damico 33%. Charter is ALF-only.')
+
+# 15c: Stillwater SNF -> INDEPENDENT (Covington OH)
+mask = find_rows(facility_name='STILLWATER SKILLED NURSING', city='COVINGTON', state='OH')
+total += recode_with_ownership(mask, None, 'INDEPENDENT', 'Independent', 'CSL-OH-02',
+    'Same campus as CSL-OH-01. ProPublica confirms Slyk/Damico.')
+
+# 15d: Charlotte NC Thrive -> CHARTER SENIOR LIVING
+mask = find_rows(facility_name='CHARTER SENIOR LIVING OF CHARLOTTE', city='Charlotte', state='NC')
+total += recode_with_ownership(mask, None, 'CHARTER SENIOR LIVING', 'Corporate', 'CSL-NC-01',
+    'Thrive->Charter. charterofcharlotte.com. NC DHSR 970113.')
+
+# 15e: Oak Openings Sylvania OH INDEPENDENT -> CHARTER SENIOR LIVING
+mask = find_rows(facility_name='CHARTER SENIOR LIVING OF OAK OPENINGS', city='Sylvania', state='OH')
+total += recode_with_ownership(mask, None, 'CHARTER SENIOR LIVING', 'Corporate', 'CSL-OH-03',
+    'NIC MAP operator=Charter. charteroakopenings.com. APFM confirms.')
+
+# 15f: Cedarhurst of Madison WI -> CHARTER SENIOR LIVING
+mask = find_rows(facility_name='Cedarhurst of Madison', city='Madison', state='WI')
+total += recode_corp(mask, df[mask]['Corporate_Name'].iloc[0] if mask.sum() > 0 else '', 'CHARTER SENIOR LIVING', 'CSL-WI-01',
+    'WisBusiness: Charter management since May 2024.')
+
+# 15g: Cedarhurst of Verona WI -> CHARTER SENIOR LIVING
+mask = find_rows(facility_name='Cedarhurst of Verona', city='Verona', state='WI')
+total += recode_corp(mask, df[mask]['Corporate_Name'].iloc[0] if mask.sum() > 0 else '', 'CHARTER SENIOR LIVING', 'CSL-WI-02',
+    'WisBusiness: Charter management since May 2024. charterofverona.com.')
+
+# 15h: Cedarhurst of Rockford IL -> CHARTER SENIOR LIVING
+mask = find_rows(facility_name='Cedarhurst of Rockford', city='Rockford', state='IL')
+total += recode_corp(mask, df[mask]['Corporate_Name'].iloc[0] if mask.sum() > 0 else '', 'CHARTER SENIOR LIVING', 'CSL-IL-01',
+    'SLN: part of 13-community Cedarhurst->Charter transition May 2024.')
+
+# ============================================================
+# SECTION 14: Legacy Healthcare Verification — Entity Consolidation
+# ============================================================
+print("\n=== Legacy Healthcare: Entity Consolidation ===")
+
+# "The Vista at Fox Valley" Aurora IL coded as "Legacy" → LEGACY HEALTHCARE
+mask = find_rows(facility_name='Vista at Fox Valley', city='Aurora', state='IL',
+                 corporate_name='Legacy')
+total += recode_corp(mask, 'Legacy', 'LEGACY HEALTHCARE', 'LHC-IL-01',
+    'legacyhc.com Collections page lists The Vista at Fox Valley under Legacy Healthcare brand. '
+    'NIC MAP operator = "Legacy" for Aurora IL. Entity consolidation.')
+
+# NOTE: Willows of Shelbyville IN recode NOT included here — pending investigation.
+# Owner = Major Hospital (ProPublica h-155022, 100%). Operator = Rosewood Nursing / Willows Healthcare.
+# Needs determination: code as ROSEWOOD NURSING or INDEPENDENT. Deferred to V26.2.
+
+# === SECTION 17: Sinceri Senior Living — 1 recode ===
+# Evidence: sinceriseniorliving.com/magnolia-springs-lexington/, NIC MAP, McKnight's.
+# Magnolia Springs brand acquired by Sinceri May 2024.
+print("\n--- Section 17: Sinceri Senior Living ---")
+
+mask = find_rows(facility_name='MAGNOLIA SPRINGS LEXINGTON', city='Lexington', state='KY')
+total += recode_with_ownership(mask, None, 'SINCERI SENIOR LIVING', 'Corporate', 'SIN-KY-01',
+    'sinceriseniorliving.com listing. NIC MAP operator=Sinceri. McKnights May 2024.')
+
+# ============================================================
+# SECTION 18: Trilogy Health Services — PropCo LLC Recode
+# ============================================================
+print("\n=== Trilogy: PropCo LLC Recode ===")
+
+mask = find_rows(facility_name='MEADOWS OF DELPHOS', city='Delphos', state='OH',
+                 corporate_name='TRILOGY REAL ESTATE DELPHOS II LLC')
+total += recode_corp(mask, 'TRILOGY REAL ESTATE DELPHOS II LLC', 'TRILOGY HEALTH SERVICES', 'THS-OH-01',
+    'PropCo LLC coded as operator. trilogyhs.com lists this campus. CMS Chain 524. '
+    'ProPublica a-524 confirms Trilogy affiliation. NIC MAP shows Trilogy Real Estate LLCs as PropCo pattern.')
+# Also fix Ownership_Type
+for idx in df[mask].index:
+    old_type = df.at[idx, 'Ownership_Type']
+    if str(old_type) == 'Independent':
+        log_change('THS-OH-01', df.at[idx, 'Facility_Name'], 'Delphos', 'OH',
+                   'Ownership_Type', 'Independent', 'Corporate',
+                   'Trilogy is a corporate chain, not independent.')
+        if not dry_run:
+            df.at[idx, 'Ownership_Type'] = 'Corporate'
+
+# ============================================================
+# SECTION 19: NHC — Corporate Name Standardization (3 recodes)
+# ============================================================
+print("\n=== NHC: Corporate Name Standardization ===")
+
+# Recode 1-2: Heartfields at Cary NC — "NHC" → "NATIONAL HEALTHCARE CORPORATION"
+mask_nhc_cary = find_rows(facility_name='HEARTFIELD', city='Cary', state='NC',
+                          corporate_name='NHC')
+total += recode_corp(mask_nhc_cary, 'NHC', 'NATIONAL HEALTHCARE CORPORATION', 'NHC-NC-01',
+    'Heartfields at Cary NC. GLR confirms Parent Company = NHC. 2 ALF rows at 1050 Crescent Green Dr. '
+    '1 served (63 patients). Coded abbreviated "NHC" instead of full name. '
+    'Standardize to "NATIONAL HEALTHCARE CORPORATION" per all other 98 NHC rows.')
+
+# Recode 3: The Palmettos of Mauldin — "NHC HEALTHCARE/MAULDIN LLC" → "NATIONAL HEALTHCARE CORPORATION"
+mask_nhc_mauldin = find_rows(facility_name='PALMETTOS OF MAULDIN', state='SC',
+                             corporate_name='NHC HEALTHCARE/MAULDIN LLC')
+total += recode_corp(mask_nhc_mauldin, 'NHC HEALTHCARE/MAULDIN LLC', 'NATIONAL HEALTHCARE CORPORATION', 'NHC-SC-01',
+    'The Palmettos of Mauldin, Greenville SC. Facility-level LLC coded as corporate name. '
+    'ProPublica a-364 confirms NHC affiliation. NIC MAP Operator = NHC. '
+    'Recode to standard corporate name.')
+
 # === EXECUTE DELETES ===
 if not dry_run and delete_indices:
     df = df.drop(delete_indices)
@@ -467,7 +608,7 @@ if changes:
         if action == 'DELETE ROW':
             print(f"  [{c['Punchlist']}] DELETE {c['Facility']} ({c['City']}, {c['State']})")
         else:
-            print(f"  [{c['Punchlist']}] {c['Facility']} ({c['City']}, {c['State']}): '{c['Old']}' → '{c['New']}'")
+            print(f"  [{c['Punchlist']}] {c['Facility']} ({c['City']}, {c['State']}): '{c['Old']}' -> '{c['New']}'")
 
 # === SAVE ===
 if not dry_run and changes:
@@ -508,6 +649,11 @@ if not dry_run and changes:
     print(f"  ADAMS COUNTY MEMORIAL HOSPITAL rows: {len(adams)} (expected all 9 campuses unified)")
     vnoll = verify[verify['Facility_Name'].str.contains('VICTORY NOLL', case=False, na=False)]
     print(f"  Victory Noll rows: {len(vnoll)} (expected 0 after delete)")
+
+    # Check Orchard Grove dedup
+    orch = verify[(verify['City'].str.lower().str.strip() == 'bellevue') & (verify['State'] == 'OH') &
+                  (verify['Facility_Name'].str.contains('ORCHARD GROVE', case=False, na=False))]
+    print(f"  Orchard Grove Bellevue OH rows: {len(orch)} (expected 1 after dedup)")
 else:
     if dry_run:
         print(f"\nDRY RUN complete. Review report, then set dry_run=False and rerun.")

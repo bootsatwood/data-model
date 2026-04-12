@@ -837,10 +837,20 @@ Entity research complete with proposed scoring. Facility lists and revenue calcu
 
 ---
 
-### BHP / ENCORE
-**V23 Tier:** T4
-**Research focus:** Entity clarification investigation.
-**Profile:** `BHP_Encore_MUO_Profile.md`
+### BLUEGRASS/ENCORE — ENTITY SEPARATION (2026-04-10)
+**V23 Tier:** T5 (was T4) | **VERIFIED HIGH — REQUIRES SEPARATION INTO 3 ENTITIES**
+
+DB entity "BLUEGRASS/ENCORE" (93 rows) + "MAJESTIC / BLUEGRASS CONSULTING GROUP" (17 rows) = 110 rows = THREE separate, unrelated operators:
+
+**Entity 1: Encore Senior Living LLC** — Tom Ostrom CEO, Chicago IL. ALF/MC/IL. ~50 communities IL/WI/MN/OH/MI. Zero SNFs, zero KY. 40 DB rows, all unserved. encore-seniorliving.com.
+
+**Entity 2: Bluegrass Health KY** — ProPublica a-748, 15 KY SNFs. Fischl/Grinspan/Landa (33% each). Valley Stream Operator I LLC manages. 53 DB rows, 50 served. bereahealthky.com. Landa = Portopiccolo network, but Fischl/Grinspan hold 66% and predate Landa (2016 vs 2023).
+
+**Entity 3: Bluegrass Consulting Group (Majestic Management)** — Paul Pruitt CEO. 17 DB rows KY, all served. GLR = "Majestic Care." Wellington Parc acquired Sep 2025. May consolidate with MAJESTIC CARE (63 rows).
+
+**Actions:** Pending Roian approval. 40 rows → ENCORE SENIOR LIVING. 53 rows → BLUEGRASS HEALTH KY. 17 rows evaluate MAJESTIC CARE consolidation.
+
+**Profile:** `Bluegrass_Encore_Verification.html` (supersedes BHP_Encore_MUO_Profile.md)
 
 ---
 
@@ -920,10 +930,36 @@ Entity research complete with proposed scoring. Facility lists and revenue calcu
 ---
 
 ### SABER HEALTHCARE GROUP
-**V23 Tier:** T1 (Score: 91)
-**Footprint:** OH, PA, VA, NC, IN, DE | 120 facilities
-**Research focus:** Omega Healthcare Investors 49% JV ownership structure. RS discrepancy identified — Brooke scored 5 (strong relationship), Tom scored 2 (weak). Delta itself is a signal worth investigating.
-**Profile:** `Saber_Healthcare_Group_MUO_Profile.md`
+**V23 Tier:** T1 (Score: 79) | **VERIFIED HIGH — 2026-04-10**
+**Legal Name:** Saber Healthcare Group, L.L.C.
+**HQ:** 23700 Commerce Park, Beachwood, OH 44122
+**Founded:** 2001 | **CEO:** William A. Weisberg (Founder, Chairman & CEO)
+**Footprint:** DE, IN, NC, OH, PA, VA | ~137 facilities (website), 168 DB rows (V26.0), 126 ProPublica SNFs
+**Revenue:** ~$500M-$1B+ (private) | **Employees:** 15,000+
+
+**Ownership Structure:**
+- William I. Weisberg Family Dynasty Trust (Sep 2020) → Wiw Dynasty LLC
+- Benjamin N. Volpe Family Dynasty Trust (Dec 2020) → Bnv Dynasty LLC
+- Omega Healthcare Investors (NYSE: OHI): 49% JV on 64 facilities ($222M, Oct 2025) + 9.9% equity in Saber Holdings ($92.6M, Jan 2026). Total Omega investment ~$315M.
+- IN facilities (Fort Wayne): owned by Major Hospital / Major Health Partners (same PropCo as CASA/IHC), Saber manages.
+
+**Brands:** Autumn Care (NC/VA, ~21 fac), The Villages (PA, 5+), Astoria (OH, 3). Majority facilities use standalone names under Saber corporate identity.
+
+**Key Developments (2024-2026):**
+- Oct 2025: Omega JV $222.4M. Omega CEO: "essentially the private Ensign."
+- Oct 2025: Zach Shamberg hired as Chief of Government Affairs (ex-PHCA CEO).
+- Jan 2026: Omega 9.9% equity ($92.6M, 8% min annual return).
+- Dec 2025: 4 PA SNF acquisitions (645 beds). Not yet in DB.
+- 2024: Acquired Midtown Oaks + Harmon House (PA). Divested Renew Dialysis to Dialyze Direct.
+- Active CIA: $10M FCA settlement, HHS-OIG monitoring. CCO = J. Veronica Xu.
+
+**DB Status:** All 168 rows coded SABER HEALTHCARE GROUP. Zero fragmentation. 59 served (VA 28, NC 24, OH 5, IN 1, KY 1). KY (Waynesburg Rest Home) flagged — GLR says Saber but not confirmed externally. 1 NIC-A duplicate deleted (Orchard Grove, Bellevue OH). GLR name discrepancy: "Fountain View" (GLR) = "Astoria Place of Silverton" (DB) at 6922 Ohio Ave, Cincinnati. 3 PA facilities on website not in DB (Dec 2025 acquisitions).
+
+**Disambiguation:** "Autumn Care Assisted Living" in TN (3 Knoxville-area ALFs) is a SEPARATE company, NOT Saber. Saber's Autumn Care operates only in NC/VA.
+
+**RS Discrepancy (V23):** Brooke RS=5, Tom RS=2, delta -3. Investigate during June 6 rescore.
+
+**Profile:** `Saber_Healthcare_Group_Verification.html` (supersedes V23 .md profile)
 
 ---
 
@@ -1090,16 +1126,27 @@ Brooke (BD perspective) vs Tom (Sales Success perspective) — 50 entities score
 
 ## V25.1/V25.2 Research Findings (2026-03-22)
 
-### WHITE OAK MANAGEMENT → NHC (National Healthcare Corporation)
-**Event:** Full acquisition
-**Date:** August 1, 2024
-**Value:** $220 million
-**Broker:** Blueprint Healthcare Real Estate Advisors
+### NATIONAL HEALTHCARE CORPORATION (NHC)
+**VERIFIED HIGH — 2026-04-10** | T1 Score 60 | NYSE: NHC
+**HQ:** 100 East Vine St, Murfreesboro, TN 37130 | **Founded:** 1971 (Dr. Carl Adams)
+**CEO:** Stephen F. Flatt | **Chairman:** Robert G. Adams
+**Revenue:** $1.52B (2025, +16.1% YoY) | **Adjusted net income:** $104M (+35.4%)
+**DB:** 101 rows (98 as NATIONAL HEALTHCARE CORPORATION + 3 name variants recoded V26.1). 82 SNF, 19 ALF. 8 states. 3 served (Glasgow KY + Heartfields Cary NC). Zero barriers.
+**ProPublica:** a-364, 64 SNFs, 7 states (NC not yet showing — White Oak CHOW lag). 0.4 avg deficiencies (below 0.7 national).
+**NIC MAP:** 31 NHC rows + 4 stale White Oak rows.
+**NPI:** 7 corporate NPIs.
+**Brands:** NHC Healthcare (SNF), White Oak Manor (NC/SC, acquired Aug 2024), Heartfields (ALF brand, Cary NC), The Palmettos (ALF brand, SC), NHC Place (campus brand, TN).
+**Related REIT:** National Health Investors (NYSE: NHI) — PropCo for some facilities. Robert Adams on both boards.
+**Leadership:** Stephen F. Flatt (President/CEO), Tim Shelly (POO), Brian F. Kidd (SVP/CFO), Vicki Dodson (SVP/CNO), Andy Flatt (SVP/CIO), Josh McCreary (SVP/GC).
+**Actions (V26.1 Sec 19):** 3 recodes: 2x "NHC" → "NATIONAL HEALTHCARE CORPORATION" (Heartfields Cary NC), 1x "NHC HEALTHCARE/MAULDIN LLC" → "NATIONAL HEALTHCARE CORPORATION" (Palmettos of Mauldin SC). Burlington NC duplicate flagged (2 rows at 323 Baldwin Rd).
+**Profile:** `National_Healthcare_Corporation_Verification.html`
+
+#### White Oak Acquisition (documented V25.2)
+**Event:** Full acquisition | **Date:** Aug 1, 2024 | **Value:** $220M | **Broker:** Blueprint
 **Scope:** All 15 White Oak facilities (6 NC, 9 SC), 1,928 SNF beds + 48 ALF + 302 ILU
 **History:** Family-owned since 1964, founded by Oliver Kent Cecil in Spartanburg, SC
-**Impact:** NHC gains NC as new state. NHC footprint goes from ~20 to ~35 campuses in EWH footprint.
-**DB action:** V25.2 — 16 rows reattributed WHITE OAK MANAGEMENT → NATIONAL HEALTHCARE CORPORATION
-**Sources:** BusinessWire (Aug 6, 2024), Bass Berry & Sims, Skilled Nursing News, NHC press (nhccare.com)
+**DB action:** V25.2 — 16 rows recoded WHITE OAK MANAGEMENT → NATIONAL HEALTHCARE CORPORATION. Complete.
+**Sources:** BusinessWire (Aug 6, 2024), Bass Berry & Sims, Skilled Nursing News, nhccare.com
 
 ### HCMG (Health Care Management Group) → LIONSTONE CARE
 **Event:** Ownership transition
@@ -3282,3 +3329,152 @@ Elaine Wilson (licensed administrator at Saint Anne Home per IN QAMIS, start Feb
 `Vault/03_Corporate_Accounts/MUO_Profiles/Adams_Health_Network_MUO_Evaluation.html`
 
 **Discovered during:** Inbound contact form investigation, comprehensive scrub of 1900 Randallia Dr Fort Wayne IN, 2026-04-08
+
+---
+
+## CHARTER SENIOR LIVING
+
+**Canonical DB name:** `CHARTER SENIOR LIVING`
+**Brands as:** Charter Senior Living of [Location], Dominion Village (VA), Heartfields (VA), Walking Horse Meadows (TN), The Contemporary (FL), The Cottages of [Location], Eden Vista (IL), Springwood Court (FL), Calumet Trace (KY), KindCare (CT)
+**HQ:** 2863 W. 95th Street, Suites 143-365, Naperville, IL 60564
+**Founded:** 2016
+**Founders:** Keven J. Bennema (CEO) & Kim Bennema (Co-Founder)
+**Type:** Family-owned ALF operator — AL/MC/IL ONLY, zero SNFs
+**Portfolio:** 53-68 communities, 13+ states (CT, FL, GA, IA, IL, IN, KY, MA, MD, MI, NC, OH, TN, VA, WI)
+**Tier:** Not yet scored (evaluate June 6)
+
+#### Leadership
+- Keven J. Bennema — Co-Founder & CEO (fka COO Senior Lifestyle Corp 9 years)
+- Kim Bennema — Co-Founder
+- Jayne Sallerson — President / COO (promoted 2023)
+- Cathy Hampton — SVP of Operations
+- Adrienne Shraibman — VP of Risk Management & General Counsel
+- Tammy Sunderman — VP of Sales & Marketing
+- Kandice R. Alcorn, MSN, RN — VP of Health & Wellness
+- Leslie Eldridge — Regional Director of New Developments
+- Russ Conrad — Regional Director of Operations
+
+#### REIT/Investor Relationships
+- **Diversified Healthcare Trust (DHC, fka SNH):** Owns VA, MD, CT, MA, TN properties. Charter manages. Former Five Star/AlerisLife communities.
+- **LTC Properties:** $40M acquisition Sep 2025 — 2 KY communities (158 units).
+- **Marcus Family Office:** Charlotte NC partnership.
+- **CSL 4 Pack Holdco LLC / MSD Pool LLC:** PropCo entities for TN/IL/FL communities.
+
+#### Corporate Transitions (Source of DB Recodes)
+1. **Five Star/AlerisLife/DHC → Charter (2021-2022):** Charter picked up former Five Star communities in VA, MD, CT, MA, FL, TN when DHC transitioned 108+ communities away from Five Star to new operators.
+2. **Cedarhurst → Charter (May 2024):** 13 IL/WI communities transitioned management from Cedarhurst Senior Living to Charter. Source: Senior Living News, WisBusiness.
+3. **Thrive → Charter (Charlotte NC):** Brookdale → Thrive (2019) → Charter (Marcus Family Office partnership). Source: APFM, charterofcharlotte.com, NC DHSR 970113.
+
+#### DB Issues Resolved (V26.1)
+- **Charter Colony Senior Assoc (Midlothian VA):** NOT Charter SL. CAPREIT operates 55+ senior apartments. "Charter Colony" = subdivision name.
+- **Covington OH SNFs (Miami COV SNF + Stillwater):** ProPublica CCN 365483 = Slyk 67% / D'amico 33%. Charter is ALF-only. GLR misattribution corrected.
+- **Charlotte NC (Thrive → Charter):** Stale "Thrive Senior Living" attribution corrected.
+- **Oak Openings Sylvania OH:** Was coded INDEPENDENT. Confirmed Charter via NIC MAP + operator website.
+- **3 additional Cedarhurst→Charter recodes:** Madison WI, Verona WI, Rockford IL (beyond 6 in Cedarhurst report).
+
+#### Key Disambiguation
+- **Dominion Village (VA)** is a Charter sub-brand, NOT Dominion Senior Living (Jesse Marinko, Knoxville TN — separate company). Facebook: "Dominion Village at Poquoson — A Charter Senior Living Community."
+- **Charter Colony Senior Assoc (Midlothian VA)** is CAPREIT-operated senior apartments, NOT Charter Senior Living.
+
+#### Full Report
+`Vault/03_Corporate_Accounts/MUO_Profiles/Charter_Senior_Living_Verification.html`
+
+**Verified during:** Corporate Verification Audit, 11-step comprehensive scrub, 2026-04-10
+
+
+---
+
+## Legacy Healthcare (Cascade Capital Group)
+
+**Status:** VERIFIED HIGH | **Date:** 2026-04-10 | **CMS Chain:** Legacy Healthcare
+
+### Corporate Structure
+
+| Entity | Role | Key People |
+|---|---|---|
+| **Cascade Capital Group LLC** | PropCo / Investment arm | Chaim Rajchenbach (Co-Founder/MD), Menachem Shabat (Co-Founder/MD), Ben Shibe (EVP/CIO), Mordy Kaplan (EVP/GC/COO), Moti Ninio (EVP Financial Ops), Yitzy Rosenblum (EVP Acquisitions), Daniel Garden (EVP/GC), Eli Davis (EVP Special Projects) |
+| **Legacy Healthcare Financial Services LLC** | Operating / Management entity | Chaim Rajchenbach (President), Moti Ninio (CEO), Charles Hale (COO), Gil Wilson (CFO), Kathleen Dwyer (VP Compliance), Joe Sardoni (National VP BD), Jeff Fink (SVP Talent), Barry Gray (Regional VP BD) |
+| **Legacy Healthcare LLC** | Parent brand | HQ 3450 Oakton St, Skokie IL 60076. Phone (847) 679-9797. Revenue ~47M. |
+
+**Founded:** Cascade Capital Group founded 2016. Legacy Healthcare operations predate 2016 (Crain's: 6M acquisition 2013, La Grange Park 2011).
+
+**Ownership Pattern:** Each facility owned by Doros Generation Trust U/A/D 1/3/12 (50%) + GPN Family Trust UA 04282008 (50%). PropCo LLCs hold security interests (Rogers Property Holdings, MG Property Holdings, facility-specific LLCs). Legacy Healthcare Financial Services LLC holds managerial control.
+
+### Portfolio (118 facilities, 3 states)
+
+| State | FU Rows | Website Total | Brands |
+|---|---|---|---|
+| IL | 45 | ~55 | Warren Barr (9), Avantara (10), Bella Terra (8), Grove (5), Harmony (2), Whitehall (1), Wellshire (1), individual (9) |
+| IA | 33 | ~33 | Harmony (7), Rehab Center (3), Iowa Care Centers (23) |
+| SD | 13 | ~16 | Avantara (all) |
+| AL | 0 | ~5+ | Tara Cares (Birmingham area, recent expansion) |
+
+**FU Gap:** 92 rows vs 118 website. 26 missing = ABCM Iowa acquisition (~29 fac, ~5M, largest IA SNF sale) + recent IL additions + AL expansion.
+
+### Expansion Timeline
+
+- **2011:** Acquired 131-bed La Grange Park IL SNF (Rajchenbach/Shabat led)
+- **2013:** 6M Chicago-area SNF acquisition (Crain's Chicago Business)
+- **2016:** Cascade Capital Group LLC incorporated (investment structure formalized)
+- **Jul 2019:** Began operating 16 SD SNFs (BusinessWire press release)
+- **2023-2024:** Acquired ~29 ABCM Iowa facilities for ~5M (7% of Iowa's 410 nursing homes)
+- **2025:** Expanded into Alabama (Tara Cares, Birmingham area)
+
+### Actions Taken
+
+1. **Entity consolidation:** "Legacy" (1 row, Vista at Fox Valley Aurora IL) recoded to LEGACY HEALTHCARE. Scripted in V26.1 Section 14.
+2. **Misattribution flagged:** Willows of Shelbyville IN (coded LEGACY HEALTHCARE) is actually Major Hospital-owned, managed by Shelbyville In Opco LLC / Rosewood Nursing. Recode deferred to V26.2 pending operator determination.
+3. **Disambiguation confirmed:** LEGACY HEALTH SERVICES (18 OH rows) is a separate entity. No consolidation.
+
+### ProPublica Evidence
+
+- **Clark Manor (h-145507):** Doros Trust 50% + GPN Trust 50% (since Jan 2017). Managing: Legacy Healthcare Financial Services LLC (since Aug 2016). Officers: Robert Freitag, Vivek Gupta. Security: Forbright Bank, Rogers Property Holdings LLC.
+- **Grove of La Grange Park (h-145307):** Same trusts (since May 2017). Managing: Legacy Healthcare Financial Services LLC (since Nov 2015). Officers: Mohammed Kholoki, Jennifer Moran. Security: VNB New York LLC (since Mar 2025).
+
+#### Full Report
+
+
+**Verified during:** Corporate Verification Audit, 11-step comprehensive scrub, 2026-04-10
+---
+
+## SINCERI SENIOR LIVING
+
+**Canonical DB name:** `SINCERI SENIOR LIVING`
+**Formerly:** JEA Senior Living (rebranded 2021)
+**HQ:** Vancouver, Washington
+**Founded:** 1986
+**Ownership:** Private — Access Industries (investment partner since 2019)
+**Type:** ALF management company — AL/MC/IL ONLY, zero SNFs
+**Portfolio:** 138 communities, 16,084 units (Jan 2026) — 6th largest US senior living management company
+**Tier:** Not yet scored (evaluate June 6)
+
+#### Leadership (as of Jan 2026)
+- Chris Belford — Co-Chairman (elevated from CEO Jan 2026)
+- April Young — Co-President (Ops, Sales, Clinical, Facilities, HR; joined 2016)
+- John McNeil — COO (promoted from EVP Operations)
+- Micah Gerber — CFO (promoted from Chief Strategy Officer, Feb 2026)
+- Dr. Angie Fleenor, DNP, APRN, MSN, FNP-BC — Chief Clinical Officer
+- Jamie Killpack, CPA, CFE — EVP Finance & Accounting
+- Tiffany Akin — SVP Human Resources
+
+#### Brands
+- Magnolia Springs (IN/KY/OH) — acquired May 2024
+- [City] Estates Senior Living (OH/MI/IL/TX/IN)
+- [City] Grove Senior Living (SC/NC)
+- [Name] Alzheimer's Special Care Center (IL/PA/SC/CO/TX/OR/WA)
+- [Name] Lodge Senior Living (MN/SD/ND)
+- Various local names (WI/FL/TN/VA)
+
+#### Key Corporate Events
+- **May 2024:** Acquired management of 7 Magnolia Springs communities (IN/KY/OH). Source: McKnight's.
+- **Sep-Dec 2025:** Received 38 former Five Star/AlerisLife/DHC communities (7,299 units) — largest allocation by unit count among 7 successor operators. Source: McKnight's, SHN, BusinessWire, Argentum.
+- **Jan 2026:** Leadership restructure — Belford to Co-Chairman, McNeil to COO, Gerber to CFO.
+
+#### DB Issue
+- "MAGNOLIA SPRINGS HEALTH SYSTEM" (Lexington KY, served) is legacy entity name — recoded to SINCERI SENIOR LIVING.
+- 85 Five Star/AlerisLife rows in V26.0 still need recode to 7 successor operators (separate project).
+
+#### Full Report
+`Vault/03_Corporate_Accounts/MUO_Profiles/Sinceri_Senior_Living_Verification.html`
+
+**Verified during:** Corporate Verification Audit, 11-step comprehensive scrub, 2026-04-10
