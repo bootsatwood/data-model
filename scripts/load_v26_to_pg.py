@@ -1,12 +1,12 @@
 """
-Load V26.0 facility database into PostgreSQL (facilities-only reload).
+Load V26.1 facility database into PostgreSQL (facilities-only reload).
 
 PRESERVES bd.market_intel_corporate_entities (scores, tiers, narratives, etc.)
 Only truncates and reloads bd.market_intel_facilities.
 Maps corporate_name_raw -> existing entity IDs.
 Creates new entity entries only for names that don't already exist.
 
-Source: Vault/02_Data_Model/Current/1_Combined_Database_FINAL_V26_0.xlsx
+Source: Vault/02_Data_Model/Current/1_Combined_Database_FINAL_V26_1.xlsx
 
 Usage:
   python load_v26_to_pg.py [--dry-run]
@@ -18,7 +18,7 @@ import openpyxl
 
 VAULT = os.path.expanduser("~/OneDrive - Eventus WholeHealth/Vault")
 V26_PATH = os.path.join(
-    VAULT, "02_Data_Model", "Current", "1_Combined_Database_FINAL_V26_0.xlsx"
+    VAULT, "02_Data_Model", "Current", "1_Combined_Database_FINAL_V26_1.xlsx"
 )
 
 PG_HOST = "keystone-platform-postgres.postgres.database.azure.com"
@@ -67,7 +67,7 @@ def to_bool(val):
 
 
 def read_facilities():
-    """Read V26.0 facilities from Excel."""
+    """Read V26.1 facilities from Excel."""
     wb = openpyxl.load_workbook(V26_PATH, read_only=True, data_only=True)
     ws = wb.active
     headers = [c.value for c in next(ws.iter_rows(min_row=1, max_row=1))]
@@ -106,7 +106,7 @@ def read_facilities():
         })
 
     wb.close()
-    print(f"  Read {len(facilities)} facility rows from V26.0")
+    print(f"  Read {len(facilities)} facility rows from V26.1")
     return facilities
 
 
@@ -168,15 +168,15 @@ def main():
     dry_run = "--dry-run" in sys.argv
 
     print("=" * 60)
-    print(f"V26.0 -> PostgreSQL Loader {'(DRY RUN)' if dry_run else ''}")
+    print(f"V26.1 -> PostgreSQL Loader {'(DRY RUN)' if dry_run else ''}")
     print("=" * 60)
 
     if not os.path.exists(V26_PATH):
-        print(f"ERROR: V26.0 file not found: {V26_PATH}")
+        print(f"ERROR: V26.1 file not found: {V26_PATH}")
         sys.exit(1)
     print(f"  Source: {V26_PATH}")
 
-    print("\nStep 1: Reading V26.0 facilities...")
+    print("\nStep 1: Reading V26.1 facilities...")
     facilities = read_facilities()
 
     print("\nStep 2: Connecting to PostgreSQL...")
@@ -191,7 +191,7 @@ def main():
     for f in facilities:
         if f["corporate_name_raw"]:
             v26_names.add(f["corporate_name_raw"])
-    print(f"  Distinct corporate names in V26.0: {len(v26_names)}")
+    print(f"  Distinct corporate names in V26.1: {len(v26_names)}")
 
     missing = [n for n in v26_names if n.upper() not in name_to_id]
     print(f"  Names needing new entity entries: {len(missing)}")
@@ -302,7 +302,7 @@ def main():
 
     cursor.close()
     conn.close()
-    print("\nDone. V26.0 loaded successfully.")
+    print("\nDone. V26.1 loaded successfully.")
 
 
 if __name__ == "__main__":
