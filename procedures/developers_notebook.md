@@ -14,6 +14,7 @@
 - **Chapter 5:** The Monday.com MCP Connection — Claude's direct line to Monday.com boards
 - **Chapter 6:** The Keystone Modules — what's built, who uses it, and where the data comes from
 - **Appendix A:** Glossary — every term defined in this notebook, alphabetized
+- **Appendix B:** How to Work with Claude — themes, postures, and the formula
 
 ---
 
@@ -2715,6 +2716,206 @@ WHAT IS KEYSTONE
   venv (Virtual Environment)                         Ch. 2
     An isolated Python installation inside the project
     folder. Keeps dependencies separate from the system.
+
+
+══════════════════════════════════════════════════════════════════════
+
+
+
+
+══════════════════════════════════════════════════════════════════════
+  APPENDIX B: HOW TO WORK WITH CLAUDE
+══════════════════════════════════════════════════════════════════════
+
+  Claude operates in THEMES and POSTURES. A theme is the
+  domain of work. A posture is how Claude approaches it.
+  Combining them tells Claude exactly what kind of help
+  you need — without having to explain the full context
+  every time.
+
+
+  THE THEMES
+  ─────────────────────────────────────────────────────────────────
+
+  Each theme maps to a specific domain of your work.
+  Claude has memory, procedures, and context for each one.
+
+  ┌───────────────────┬────────────────────────────────────────┐
+  │  THEME            │  WHAT IT COVERS                        │
+  ├───────────────────┼────────────────────────────────────────┤
+  │  Corporate        │  MUO verification, tier assignments,   │
+  │  Scoring          │  6 scoring dimensions, reconciliation, │
+  │                   │  operator attribution                  │
+  ├───────────────────┼────────────────────────────────────────┤
+  │  Keystone         │  Frontend/backend development, PRs,    │
+  │                   │  dashboard features, deployment,       │
+  │                   │  Azure infrastructure                  │
+  ├───────────────────┼────────────────────────────────────────┤
+  │  Database         │  Forward Universe, migration scripts,  │
+  │                   │  PG loads, version management,         │
+  │                   │  cleansing procedures                  │
+  ├───────────────────┼────────────────────────────────────────┤
+  │  CRM Pipeline     │  Monday.com board, pipeline metrics,   │
+  │                   │  stage transitions, AE performance,    │
+  │                   │  board hygiene                         │
+  ├───────────────────┼────────────────────────────────────────┤
+  │  Reporting        │  Board decks, finance deliverables,    │
+  │                   │  HTML reports, PDF generation,         │
+  │                   │  data visualizations                   │
+  ├───────────────────┼────────────────────────────────────────┤
+  │  Leadership       │  Framing for Ben/Carey/Will/Brooke,    │
+  │                   │  board materials, strategic            │
+  │                   │  positioning, stakeholder comms        │
+  ├───────────────────┼────────────────────────────────────────┤
+  │  Content          │  Marketing campaigns, thought          │
+  │                   │  leadership, white papers, content     │
+  │                   │  calendar, HubSpot                     │
+  ├───────────────────┼────────────────────────────────────────┤
+  │  Infrastructure   │  Monday.com config, Snowflake,         │
+  │                   │  Make.com, MCP setup, tooling,         │
+  │                   │  compliance/access issues              │
+  └───────────────────┴────────────────────────────────────────┘
+
+
+  THE POSTURES
+  ─────────────────────────────────────────────────────────────────
+
+  Postures tell Claude HOW to behave within a theme.
+
+  TECHNICAL THEMES (Corporate Scoring, Keystone, Database,
+  CRM Pipeline, Reporting, Infrastructure):
+
+  ┌──────────────────┬─────────────────────────────────────────┐
+  │  POSTURE         │  WHAT IT MEANS                          │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Researcher      │  Go find things. Pull data, read        │
+  │                  │  sources, explore the codebase, gather  │
+  │                  │  facts. Don't change anything. Report   │
+  │                  │  what you find.                         │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Data Scientist  │  Analyze what's in front of us.         │
+  │                  │  Interpret patterns, QC numbers, flag   │
+  │                  │  anomalies, reconcile surfaces, build   │
+  │                  │  frameworks. Think, don't just fetch.   │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Executor        │  Do the work. Write the script, apply   │
+  │                  │  the migration, build the component,    │
+  │                  │  commit the code. I've already decided  │
+  │                  │  what — now make it happen.             │
+  └──────────────────┴─────────────────────────────────────────┘
+
+  LEADERSHIP THEME:
+
+  ┌──────────────────┬─────────────────────────────────────────┐
+  │  POSTURE         │  WHAT IT MEANS                          │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Analyst         │  Prepare the data and framing that      │
+  │                  │  supports a leadership conversation.    │
+  │                  │  Numbers, comparisons, context.         │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Advisor         │  Help me think through how to position  │
+  │                  │  something. What's the angle? What      │
+  │                  │  will resonate? What landmines exist?   │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Producer        │  Build the artifact — the slide, the    │
+  │                  │  email, the one-pager, the deck.        │
+  │                  │  I've decided the message, now produce  │
+  │                  │  it.                                    │
+  └──────────────────┴─────────────────────────────────────────┘
+
+  CONTENT THEME:
+
+  ┌──────────────────┬─────────────────────────────────────────┐
+  │  POSTURE         │  WHAT IT MEANS                          │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Curator         │  Inventory what exists. What assets do  │
+  │                  │  we have? What's stale? What's missing? │
+  │                  │  Audit before creating.                 │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Strategist      │  Help me think through sequencing,      │
+  │                  │  audience targeting, campaign logic,    │
+  │                  │  channel fit. Planning, not producing.  │
+  ├──────────────────┼─────────────────────────────────────────┤
+  │  Writer          │  Write the thing. Blog post, email      │
+  │                  │  copy, white paper section, social      │
+  │                  │  post. Voice and tone matter.           │
+  └──────────────────┴─────────────────────────────────────────┘
+
+
+  THE FORMULA
+  ─────────────────────────────────────────────────────────────────
+
+  [Theme] + [Posture]. [What you need done.]
+
+  That's it. Three pieces. Claude reads the theme to know
+  WHAT domain to activate (procedures, memory, tools). It
+  reads the posture to know HOW to behave (investigate vs.
+  analyze vs. execute). It reads the task to know WHAT
+  specifically to do.
+
+  You can also blend postures with percentages when you
+  need Claude to shift between modes within one task.
+
+
+  EXAMPLES
+  ─────────────────────────────────────────────────────────────────
+
+    "Keystone, data scientist. QC the pipeline numbers."
+    → Claude loads Keystone context, queries PG, compares
+      to Monday.com, flags discrepancies. Doesn't change
+      anything.
+
+    "Database, executor. Apply V26.2."
+    → Claude runs the migration script, generates the
+      report, waits for approval, executes. Does the work.
+
+    "Leadership, advisor. Help me frame this for Ben."
+    → Claude thinks about what Ben cares about (weekly
+      sales performance, board-level metrics), suggests
+      positioning, identifies landmines.
+
+    "CRM Pipeline, 60% researcher 40% data scientist.
+     Pull the activity log and tell me what it means."
+    → Claude fetches Monday.com activity data (researcher),
+      then interprets the patterns — who's moving what,
+      what's stalling, what's unusual (data scientist).
+
+    "Content, strategist. Help me think through the
+     campaign sequence."
+    → Claude reviews the content calendar, considers
+      audience segments, suggests ordering and channel
+      fit. Doesn't write copy yet.
+
+    "Corporate Scoring, researcher. What do we know
+     about Navion?"
+    → Claude checks the Forward Universe, GLR, MUO
+      Corporate History, Operator Research Log, then
+      hits CMS/ProPublica/NIC MAP. Reports findings.
+      Doesn't recode anything.
+
+    "Infrastructure, executor. Set up the Notion MCP."
+    → Claude walks through the OAuth flow, configures
+      the connection, tests it, reports status.
+
+
+  WHY THIS WORKS
+  ─────────────────────────────────────────────────────────────────
+
+  Without this system, every conversation starts with
+  Claude guessing what you want. Are you exploring or
+  deciding? Investigating or executing? Framing for an
+  audience or doing the technical work?
+
+  The formula eliminates the guessing. Claude knows
+  immediately:
+    • Which domain's rules, procedures, and memory apply
+    • Whether to investigate, analyze, or act
+    • What success looks like for this task
+
+  It also prevents scope creep — if you say "researcher,"
+  Claude won't start making changes. If you say "executor,"
+  Claude won't waste time exploring when you've already
+  decided.
 
 
 ══════════════════════════════════════════════════════════════════════
